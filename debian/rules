@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/cmake.mk
+
+DEB_KDE_ENABLE_FINAL := yes
+DEB_COMPRESS_EXCLUDE = .docbook
+
+ifeq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))
+    cdbs_treat_me_gently_arches := arm m68k alpha ppc64 armel armeb
+    ifeq (,$(filter $(DEB_HOST_ARCH_CPU),$(cdbs_treat_me_gently_arches)))
+        cdbs_kde_enable_final = $(if $(DEB_KDE_ENABLE_FINAL),--enable-final,)
+    else
+        cdbs_kde_enable_final =
+    endif
+endif
+

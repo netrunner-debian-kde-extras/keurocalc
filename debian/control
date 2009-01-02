@@ -1,0 +1,29 @@
+Source: keurocalc
+Section: kde
+Priority: optional
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Michael Meskes <meskes@debian.org>
+Build-Depends: debhelper (>= 5.0.0), kdelibs5-dev, cdbs
+Standards-Version: 3.8.0
+Homepage: http://opensource.bureau-cornavin.com/keurocalc/
+
+Package: keurocalc
+Architecture: any
+Depends: keurocalc-data, ${shlibs:Depends}, ${misc:Depends}
+Description: universal currency converter and calculator - binary package
+ KEurocalc is a universal currency converter and calculator. 
+ It downloads latest exchange rates directly from the 
+ European Central Bank and the Federal Reserve Bank of New York.
+
+Package: keurocalc-data
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: keurocalc
+Replaces: keurocalc
+Description: universal currency converter and calculator - data package
+ KEurocalc is a universal currency converter and calculator.
+ It downloads latest exchange rates directly from the
+ European Central Bank and the Federal Reserve Bank of New York.
+ .
+ This is a data package containing some files needed by the keurocalc
+ binary package.

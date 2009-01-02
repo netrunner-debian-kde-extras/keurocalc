@@ -1,0 +1,6 @@
+?package(keurocalc):\
+needs="X11"\
+section="Applications/Science/Mathematics"\
+hints="KDE"\
+title="KEuroCalc"\
+command="/usr/bin/keurocalc"
