@@ -15,3 +15,9 @@ ifeq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))
     endif
 endif
 
+install/keurocalc::
+	# these files cannot be installed by dh_install because they have to be renamed
+	-install --owner root --group root --mode=644 $(CURDIR)/keurocalc/hi16-app-keurocalc.png $(CURDIR)/debian/keurocalc/usr/share/icons/hicolor/16x16/apps/keurocalc.png
+	-install --owner root --group root --mode=644 $(CURDIR)/keurocalc/hi32-app-keurocalc.png $(CURDIR)/debian/keurocalc/usr/share/icons/hicolor/32x32/apps/keurocalc.png
+	-install --owner root --group root --mode=644 $(CURDIR)/keurocalc/hi48-app-keurocalc.png $(CURDIR)/debian/keurocalc/usr/share/icons/hicolor/48x48/apps/keurocalc.png
+
