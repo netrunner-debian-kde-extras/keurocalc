@@ -1,0 +1,621 @@
+# translation of keurocalc.po to Italian
+# translation of keurocalc.po to Italiano
+# Copyright (C) 2004, 2005, 2006 Free Software Foundation, Inc.
+# Federico Cozzi <federicocozzi@federicocozzi.it>, 2004.
+# Federico Zenith <zenith@chemeng.ntnu.no>, 2004, 2005, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: keurocalc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-04-25 11:07+0200\n"
+"PO-Revision-Date: 2006-04-09 17:02+0200\n"
+"Last-Translator: Federico Zenith <zenith@chemeng.ntnu.no>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Federico Zenith,Federico Cozzi"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "zenith@chemeng.ntnu.no"
+
+#: keurocalc.cpp:69
+msgid "Cannot load currencies.xml"
+msgstr "Impossibile caricare currencies.xml"
+
+#: keurocalc.cpp:439 keurocalc.cpp:513
+msgid "Not loaded"
+msgstr "Non caricato"
+
+#: keurocalc.cpp:1205
+msgid "Fixed"
+msgstr "Fisso"
+
+#: keurocalc.cpp:1209
+msgid "ECB"
+msgstr "BCE"
+
+#: keurocalc.cpp:1210 keurocalc.cpp:1214
+msgid "Loading..."
+msgstr "Caricamento in corso..."
+
+#: keurocalc.cpp:1213
+msgid "NY FRB"
+msgstr "NY FRB"
+
+#: keurocalc.cpp:1219
+msgid "Official rules"
+msgstr "Regole ufficiali"
+
+#: keurocalc.cpp:1222
+msgid "Smallest coin"
+msgstr "Moneta più piccola"
+
+#: keurocalc.cpp:1225
+msgid "No rounding"
+msgstr "Nessun arrotondamento"
+
+#: main.cpp:31
+msgid "KEuroCalc"
+msgstr "KEuroCalc"
+
+#: main.cpp:32
+msgid "Cash converter and calculator"
+msgstr "Convertitore di valuta e calcolatrice"
+
+#: main.cpp:33
+msgid "(c) 2001-2006, the KEuroCalc developers"
+msgstr "(c) 2001-2006, gli sviluppatori di KEuroCalc"
+
+#: main.cpp:34
+msgid ""
+"A program by Éric Bischoff <ebischoff@nerim.net>\n"
+"\n"
+"This program is dedicated to humorist Michael Moore, for he\n"
+"knows that money does not justify anything...\n"
+msgstr ""
+"Un programma di Éric Bischoff <ebischoff@nerim.net>\n"
+"\n"
+"Questo programma è dedicato all'umorista Michael Moore, perché\n"
+"sa che il denaro non giustifica niente...\n"
+
+#: main.cpp:46
+msgid "Design and implementation"
+msgstr "Progettazione e implementazione"
+
+#: main.cpp:47
+msgid "Additional functionnality"
+msgstr "Funzionalità aggiuntiva"
+
+#: main.cpp:48
+msgid "Design and testing"
+msgstr "Progettazione e test"
+
+#: main.cpp:49
+msgid "Graphical artwork"
+msgstr "Grafica"
+
+#: names.cpp:1
+msgid "Austrian schilling"
+msgstr "Scellino austriaco"
+
+#: names.cpp:2
+msgid "Australian dollar"
+msgstr "Dollaro australiano"
+
+#: names.cpp:3
+msgid "Belgian franc"
+msgstr "Franco belga"
+
+#: names.cpp:4
+msgid "Bulgarian lev"
+msgstr "Lev bulgaro"
+
+#: names.cpp:5
+msgid "Brazilian real"
+msgstr "Real brasiliano"
+
+#: names.cpp:6
+msgid "Canadian dollar"
+msgstr "Dollaro canadese"
+
+#: names.cpp:7
+msgid "Swiss franc"
+msgstr "Franco svizzero"
+
+#: names.cpp:8
+msgid "Chinese yuan"
+msgstr "Yuan cinese"
+
+#: names.cpp:9
+msgid "Cyprus pound"
+msgstr "Sterlina cipriota"
+
+#: names.cpp:10
+msgid "Czech koruna"
+msgstr "Corona ceca"
+
+#: names.cpp:11
+msgid "German deutschmark"
+msgstr "Marco tedesco"
+
+#: names.cpp:12
+msgid "Danish krone"
+msgstr "Corona danese"
+
+#: names.cpp:13
+msgid "Estonian kroon"
+msgstr "Corona estone"
+
+#: names.cpp:14
+msgid "Spanish peseta"
+msgstr "Peseta spagnola"
+
+#: names.cpp:15
+msgid "EU euro"
+msgstr "Euro UE"
+
+#: names.cpp:16
+msgid "Finnish markka"
+msgstr "Marco finlandese"
+
+#: names.cpp:17
+msgid "French franc"
+msgstr "Franco francese"
+
+#: names.cpp:18
+msgid "Great Britain pound"
+msgstr "Sterlina britannica"
+
+#: names.cpp:19
+msgid "Greek drachma"
+msgstr "Dracma greca"
+
+#: names.cpp:20
+msgid "Hong kong dollar"
+msgstr "Dollaro di Hong Kong"
+
+#: names.cpp:21
+msgid "Croatian kuna"
+msgstr "Kuna croata"
+
+#: names.cpp:22
+msgid "Hungarian forint"
+msgstr "Fiorino ungherese"
+
+#: names.cpp:23
+msgid "Indonesian rupiah"
+msgstr "Rupia indonesiana"
+
+#: names.cpp:24
+msgid "Irish punt"
+msgstr "Sterlina irlandese"
+
+#: names.cpp:25
+msgid "Indian rupee"
+msgstr "Rupia indiana"
+
+#: names.cpp:26
+msgid "Icelandic krona"
+msgstr "Corona islandese"
+
+#: names.cpp:27
+msgid "Italian lira"
+msgstr "Lira italiana"
+
+#: names.cpp:28
+msgid "Japanese yen"
+msgstr "Yen giapponese"
+
+#: names.cpp:29
+msgid "South Korean won"
+msgstr "Won sudcoreano"
+
+#: names.cpp:30
+msgid "Sri Lankan rupee"
+msgstr "Rupia dello Sri Lanka"
+
+#: names.cpp:31
+msgid "Latvian lats"
+msgstr "Lat lettone"
+
+#: names.cpp:32
+msgid "Luxembourg franc"
+msgstr "Franco lussemburghese"
+
+#: names.cpp:33
+msgid "Lithuanian litas"
+msgstr "Lita lituano"
+
+#: names.cpp:34
+msgid "Maltese lira"
+msgstr "Lira maltese"
+
+#: names.cpp:35
+msgid "Mexican peso"
+msgstr "Peso messicano"
+
+#: names.cpp:36
+msgid "Malaysian ringgit"
+msgstr "Ringgit malese"
+
+#: names.cpp:37
+msgid "Dutch gulden"
+msgstr "Fiorino olandese"
+
+#: names.cpp:38
+msgid "Norvegian krone"
+msgstr "Corona norvegese"
+
+#: names.cpp:39
+msgid "New Zealand dollar"
+msgstr "Dollaro neozelandese"
+
+#: names.cpp:40
+msgid "Philippine peso"
+msgstr "Peso filippino"
+
+#: names.cpp:41
+msgid "Polish zloty"
+msgstr "Zloty polacco"
+
+#: names.cpp:42
+msgid "Portuguese escudo"
+msgstr "Scudo portoghese"
+
+#: names.cpp:43
+msgid "New Romanian leu"
+msgstr "Nuovo leu rumeno"
+
+#: names.cpp:44
+msgid "Russian rouble"
+msgstr "Rublo russo"
+
+#: names.cpp:45
+msgid "Swedish krona"
+msgstr "Corona svedese"
+
+#: names.cpp:46
+msgid "Singapore dollar"
+msgstr "Dollaro di Singapore"
+
+#: names.cpp:47
+msgid "Slovenian tolar"
+msgstr "Tallero sloveno"
+
+#: names.cpp:48
+msgid "Slovakian koruna"
+msgstr "Corona slovacca"
+
+#: names.cpp:49
+msgid "Thailandese baht"
+msgstr "Baht thailandese"
+
+#: names.cpp:50
+msgid "New Turkish lira"
+msgstr "Nuova lira turca"
+
+#: names.cpp:51
+msgid "New Taiwanese dollar"
+msgstr "Nuovo dollaro taiwanese"
+
+#: names.cpp:52
+msgid "US dollar"
+msgstr "Dollaro americano"
+
+#: names.cpp:53
+msgid "Venezuelian bolivar"
+msgstr "Bolivar venezuelano"
+
+#: names.cpp:54
+msgid "South African rand"
+msgstr "Rand sudafricano"
+
+#. i18n: file calculator.ui line 16
+#: rc.cpp:3
+#, no-c-format
+msgid "Currency Calculator"
+msgstr "Calcolatrice di valuta"
+
+#. i18n: file calculator.ui line 67
+#: rc.cpp:6
+#, no-c-format
+msgid "Input"
+msgstr "Input"
+
+#. i18n: file calculator.ui line 731
+#: rc.cpp:11
+#, no-c-format
+msgid "Result"
+msgstr "Risultato"
+
+#. i18n: file calculator.ui line 1117
+#: rc.cpp:18
+#, no-c-format
+msgid "Substract from memory"
+msgstr "Sottrai dalla memoria"
+
+#. i18n: file calculator.ui line 1132
+#: rc.cpp:22
+#, no-c-format
+msgid "Multiply"
+msgstr "Moltiplica"
+
+#. i18n: file calculator.ui line 1144
+#: rc.cpp:25
+#, no-c-format
+msgid "Reset"
+msgstr "Azzera"
+
+#. i18n: file calculator.ui line 1150
+#: rc.cpp:29
+#, no-c-format
+msgid "Reset both input, result and memory"
+msgstr "Azzera l'input, il risultato e la memoria"
+
+#. i18n: file calculator.ui line 1173
+#: rc.cpp:33
+#, no-c-format
+msgid "Enter"
+msgstr "Immetti"
+
+#. i18n: file calculator.ui line 1180
+#: rc.cpp:36
+#, no-c-format
+msgid "Enter simple value"
+msgstr "Immetti valore semplice"
+
+#. i18n: file calculator.ui line 1209
+#: rc.cpp:39
+#, no-c-format
+msgid "&Settings..."
+msgstr "&Impostazioni..."
+
+#. i18n: file calculator.ui line 1212
+#: rc.cpp:42
+#, no-c-format
+msgid "Configure KEuroCalc"
+msgstr "Configura KEuroCalc"
+
+#. i18n: file calculator.ui line 1269
+#: rc.cpp:52
+#, no-c-format
+msgid "Apply percentage value"
+msgstr "Applica valore percentuale"
+
+#. i18n: file calculator.ui line 1296
+#: rc.cpp:57
+#, no-c-format
+msgid "Store in memory"
+msgstr "Memorizza"
+
+#. i18n: file calculator.ui line 1343
+#: rc.cpp:62
+#, no-c-format
+msgid "Recall from memory"
+msgstr "Richiama dalla memoria"
+
+#. i18n: file calculator.ui line 1370
+#: rc.cpp:67
+#, no-c-format
+msgid "Enter value expressed in reference currency"
+msgstr "Immetti il valore espresso nella valuta di riferimento"
+
+#. i18n: file calculator.ui line 1400
+#: rc.cpp:72
+#, no-c-format
+msgid "Add to memory"
+msgstr "Aggiungi alla memoria"
+
+#. i18n: file calculator.ui line 1412
+#: rc.cpp:75
+#, no-c-format
+msgid "&Help..."
+msgstr "&Aiuto..."
+
+#. i18n: file calculator.ui line 1415
+#: rc.cpp:78
+#, no-c-format
+msgid "Display help pages"
+msgstr "Mostra le pagine della guida"
+
+#. i18n: file calculator.ui line 1433
+#: rc.cpp:82
+#, no-c-format
+msgid "Enter value expressed in currency"
+msgstr "Immetti valore espresso in valuta"
+
+#. i18n: file calculator.ui line 1460
+#: rc.cpp:87
+#, no-c-format
+msgid "Divide"
+msgstr "Dividi"
+
+#. i18n: file calculator.ui line 1472
+#: rc.cpp:90
+#, no-c-format
+msgid "Currencies"
+msgstr "Valute"
+
+#. i18n: file calculator.ui line 1498
+#: rc.cpp:94
+#, no-c-format
+msgid "Correct last input digit"
+msgstr "Correggi l'ultima cifra dell'input"
+
+#. i18n: file calculator.ui line 1516
+#: rc.cpp:98
+#, no-c-format
+msgid "Subtract"
+msgstr "Sottrai"
+
+#. i18n: file calculator.ui line 1531
+#: rc.cpp:102
+#, no-c-format
+msgid "Change sign"
+msgstr "Cambia segno"
+
+#. i18n: file calculator.ui line 1543
+#: rc.cpp:105
+#, no-c-format
+msgid "&About..."
+msgstr "Informazioni &su..."
+
+#. i18n: file calculator.ui line 1546
+#: rc.cpp:108
+#, no-c-format
+msgid "Display about box"
+msgstr "Mostra la finestra di informazioni sul programma"
+
+#. i18n: file settingsdialog.ui line 16
+#: rc.cpp:115
+#, no-c-format
+msgid "Settings..."
+msgstr "Impostazioni..."
+
+#. i18n: file settingsdialog.ui line 35
+#: rc.cpp:118
+#, no-c-format
+msgid "Default currency"
+msgstr "Valuta predefinita"
+
+#. i18n: file settingsdialog.ui line 62
+#: rc.cpp:121
+#, no-c-format
+msgid "Reference currency, rates origin"
+msgstr "Valuta di riferimento, fonte dei tassi"
+
+#. i18n: file settingsdialog.ui line 77
+#: rc.cpp:124
+#, no-c-format
+msgid "Euro, no ne&twork access (fixed rates only)"
+msgstr "Euro, senza accesso di re&te (solo tassi fissi)"
+
+#. i18n: file settingsdialog.ui line 95
+#: rc.cpp:127
+#, no-c-format
+msgid "Euro, European Central &Bank"
+msgstr "Euro, &Banca Centrale Europea"
+
+#. i18n: file settingsdialog.ui line 113
+#: rc.cpp:130
+#, no-c-format
+msgid "&Dollar, New York Federal Reserve Bank"
+msgstr "&Dollaro, Federal Reserve Bank di New York"
+
+#. i18n: file settingsdialog.ui line 134
+#: rc.cpp:133
+#, no-c-format
+msgid "Rounding"
+msgstr "Arrotondamento"
+
+#. i18n: file settingsdialog.ui line 149
+#: rc.cpp:136
+#, no-c-format
+msgid "Official roundin&g rules"
+msgstr "Re&gole ufficiali di arrotondamento"
+
+#. i18n: file settingsdialog.ui line 164
+#: rc.cpp:139
+#, no-c-format
+msgid "&Smallest coin method"
+msgstr "Metodo della moneta più &piccola"
+
+#. i18n: file settingsdialog.ui line 187
+#: rc.cpp:142
+#, no-c-format
+msgid "&No rounding at all"
+msgstr "&Nessun arrotondamento"
+
+#. i18n: file settingsdialog.ui line 200
+#: rc.cpp:145
+#, no-c-format
+msgid "Look and feel"
+msgstr "Aspetto"
+
+#. i18n: file settingsdialog.ui line 236
+#: rc.cpp:148
+#, no-c-format
+msgid "Display color"
+msgstr "Colore del display"
+
+#. i18n: file settingsdialog.ui line 513
+#: rc.cpp:151
+#, no-c-format
+msgid "215.06 €"
+msgstr "215,06 €"
+
+#. i18n: file settingsdialog.ui line 531
+#: rc.cpp:154
+#, no-c-format
+msgid "C&hange..."
+msgstr "C&ambia..."
+
+#. i18n: file settingsdialog.ui line 583
+#: rc.cpp:157
+#, no-c-format
+msgid "Enable splash screen"
+msgstr "Attiva la schermata d'avvio"
+
+#. i18n: file settingsdialog.ui line 654
+#: rc.cpp:160
+#, no-c-format
+msgid "O&K"
+msgstr "O&K"
+
+#. i18n: file settingsdialog.ui line 665
+#: rc.cpp:163
+#, no-c-format
+msgid "Cance&l"
+msgstr "Annu&lla"
+
+#~ msgid "Alt+S"
+#~ msgstr "Alt+I"
+
+#~ msgid "Alt+H"
+#~ msgstr "Alt+A"
+
+#~ msgid "Alt+A"
+#~ msgstr "Alt+A"
+
+#~ msgid "Alt+T"
+#~ msgstr "Alt+T"
+
+#~ msgid "Alt+B"
+#~ msgstr "Alt+B"
+
+#~ msgid "Alt+D"
+#~ msgstr "Alt+D"
+
+#~ msgid "Alt+N"
+#~ msgstr "Alt+N"
+
+#~ msgid "Alt+K"
+#~ msgstr "Alt+K"
+
+#~ msgid "Alt+L"
+#~ msgstr "Alt+L"
+
+#~ msgid "<i>This setting is not available yet</i>"
+#~ msgstr "<i>Questa impostazione non è ancora disponibile</i>"
+
+#, fuzzy
+#~ msgid "Alt+C"
+#~ msgstr "Alt+S"
+
+#~ msgid "Add"
+#~ msgstr "Aggiungi"
+
+#~ msgid "Enter value expressed in Euro"
+#~ msgstr "Immetti valore espresso in Euro"

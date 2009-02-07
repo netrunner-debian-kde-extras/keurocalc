@@ -1,0 +1,579 @@
+# translation of keurocalc.po to Arabic
+# Copyright (C) 2004, 2006 Free Software Foundation, Inc.
+#
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: keurocalc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-04-25 11:07+0200\n"
+"PO-Revision-Date: 2006-09-04 18:20+0200\n"
+"Last-Translator: محمد سعد  Mohamed SAAD <metehyi@free.fr>\n"
+"Language-Team: Arabic <ar@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Isam Bayazidi,Mohamed SAAD محمد سعد"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "bayazidi@arabeyes.org,metehyi@free.fr"
+
+#: keurocalc.cpp:69
+msgid "Cannot load currencies.xml"
+msgstr "تعذر تحميل الملف currencies.xml"
+
+#: keurocalc.cpp:439 keurocalc.cpp:513
+msgid "Not loaded"
+msgstr "غير مُحمًل"
+
+#: keurocalc.cpp:1205
+msgid "Fixed"
+msgstr "ثُبت"
+
+#: keurocalc.cpp:1209
+msgid "ECB"
+msgstr "ECB"
+
+#: keurocalc.cpp:1210 keurocalc.cpp:1214
+msgid "Loading..."
+msgstr "جاري التحميل..."
+
+#: keurocalc.cpp:1213
+msgid "NY FRB"
+msgstr "NY FRB"
+
+#: keurocalc.cpp:1219
+msgid "Official rules"
+msgstr "القواعد الرسمية"
+
+#: keurocalc.cpp:1222
+msgid "Smallest coin"
+msgstr "المسكوكة الأصغر"
+
+#: keurocalc.cpp:1225
+msgid "No rounding"
+msgstr "لا تقريب"
+
+#: main.cpp:31
+msgid "KEuroCalc"
+msgstr "حاسبة اليورو"
+
+#: main.cpp:32
+msgid "Cash converter and calculator"
+msgstr "محول عملة و آلة حاسبة"
+
+#: main.cpp:33
+msgid "(c) 2001-2006, the KEuroCalc developers"
+msgstr "(c) 2001-2006, the KEuroCalc developers"
+
+#: main.cpp:34
+msgid ""
+"A program by Éric Bischoff <ebischoff@nerim.net>\n"
+"\n"
+"This program is dedicated to humorist Michael Moore, for he\n"
+"knows that money does not justify anything...\n"
+msgstr ""
+"برنامج من تأليف Éric Bischoff <ebischoff@nerim.net>\n"
+"\n"
+"الأهداء للفنان Michael Moore، لأنه \n"
+"يعرف انً المال لا يبرًر أي شيء, \n"
+
+#: main.cpp:46
+msgid "Design and implementation"
+msgstr "التصميم و التطبيق"
+
+#: main.cpp:47
+msgid "Additional functionnality"
+msgstr "وظائف اضافية"
+
+#: main.cpp:48
+msgid "Design and testing"
+msgstr "التصميم و الفحص"
+
+#: main.cpp:49
+msgid "Graphical artwork"
+msgstr "الفنون الرسومية"
+
+#: names.cpp:1
+msgid "Austrian schilling"
+msgstr "شلن نمساوي"
+
+#: names.cpp:2
+msgid "Australian dollar"
+msgstr "دولار أسترالي"
+
+#: names.cpp:3
+msgid "Belgian franc"
+msgstr "فرنك بلجيكي"
+
+#: names.cpp:4
+msgid "Bulgarian lev"
+msgstr "ليف بلغاري"
+
+#: names.cpp:5
+msgid "Brazilian real"
+msgstr "ريال برازيلي"
+
+#: names.cpp:6
+msgid "Canadian dollar"
+msgstr "دولار كندي"
+
+#: names.cpp:7
+msgid "Swiss franc"
+msgstr "فرنك سويسري"
+
+#: names.cpp:8
+msgid "Chinese yuan"
+msgstr "يوان صيني"
+
+#: names.cpp:9
+msgid "Cyprus pound"
+msgstr "ليرة قبرصية"
+
+#: names.cpp:10
+msgid "Czech koruna"
+msgstr "قورونة تشيكية"
+
+#: names.cpp:11
+msgid "German deutschmark"
+msgstr "مارك ألماني"
+
+#: names.cpp:12
+msgid "Danish krone"
+msgstr "كرون دانماركي"
+
+#: names.cpp:13
+msgid "Estonian kroon"
+msgstr ""
+
+#: names.cpp:14
+msgid "Spanish peseta"
+msgstr "بيزيتا أسبانية"
+
+#: names.cpp:15
+msgid "EU euro"
+msgstr "أويرو التحاد الأوروبي"
+
+#: names.cpp:16
+msgid "Finnish markka"
+msgstr "ماركا فنلندية"
+
+#: names.cpp:17
+msgid "French franc"
+msgstr "فرنك فرنسي"
+
+#: names.cpp:18
+msgid "Great Britain pound"
+msgstr ""
+
+#: names.cpp:19
+msgid "Greek drachma"
+msgstr "دراخما يونانية"
+
+#: names.cpp:20
+msgid "Hong kong dollar"
+msgstr "دولار هونك كونغ"
+
+#: names.cpp:21
+msgid "Croatian kuna"
+msgstr ""
+
+#: names.cpp:22
+msgid "Hungarian forint"
+msgstr "فورينة مجري"
+
+#: names.cpp:23
+msgid "Indonesian rupiah"
+msgstr "روبي اندونيسي"
+
+#: names.cpp:24
+msgid "Irish punt"
+msgstr "بانت أيرلندي"
+
+#: names.cpp:25
+msgid "Indian rupee"
+msgstr "روبي هندي"
+
+#: names.cpp:26
+msgid "Icelandic krona"
+msgstr ""
+
+#: names.cpp:27
+msgid "Italian lira"
+msgstr "ليرا إيطالية"
+
+#: names.cpp:28
+msgid "Japanese yen"
+msgstr "ين ياباني"
+
+#: names.cpp:29
+msgid "South Korean won"
+msgstr "ونً جنوب كوري"
+
+#: names.cpp:30
+msgid "Sri Lankan rupee"
+msgstr "روبي سيريلانكي"
+
+#: names.cpp:31
+msgid "Latvian lats"
+msgstr ""
+
+#: names.cpp:32
+msgid "Luxembourg franc"
+msgstr "فرنك لوكسنبورغ"
+
+#: names.cpp:33
+msgid "Lithuanian litas"
+msgstr ""
+
+#: names.cpp:34
+msgid "Maltese lira"
+msgstr "ليرة مالطية"
+
+#: names.cpp:35
+msgid "Mexican peso"
+msgstr "بيزو مكسيكي"
+
+#: names.cpp:36
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: names.cpp:37
+msgid "Dutch gulden"
+msgstr "غلدن هولندي"
+
+#: names.cpp:38
+msgid "Norvegian krone"
+msgstr "كرون نروجي"
+
+#: names.cpp:39
+msgid "New Zealand dollar"
+msgstr "دولار نيو زيلاند"
+
+#: names.cpp:40
+msgid "Philippine peso"
+msgstr "بيزو فيليبيني"
+
+#: names.cpp:41
+msgid "Polish zloty"
+msgstr "زلوطي بولوني"
+
+#: names.cpp:42
+msgid "Portuguese escudo"
+msgstr "أسكودو برتغالي"
+
+#: names.cpp:43
+msgid "New Romanian leu"
+msgstr ""
+
+#: names.cpp:44
+msgid "Russian rouble"
+msgstr "روبل روسي"
+
+#: names.cpp:45
+msgid "Swedish krona"
+msgstr "كرون أسوجي"
+
+#: names.cpp:46
+msgid "Singapore dollar"
+msgstr "دولار سنغفوري"
+
+#: names.cpp:47
+msgid "Slovenian tolar"
+msgstr ""
+
+#: names.cpp:48
+msgid "Slovakian koruna"
+msgstr ""
+
+#: names.cpp:49
+msgid "Thailandese baht"
+msgstr ""
+
+#: names.cpp:50
+msgid "New Turkish lira"
+msgstr "ميرة تركية جديدة"
+
+#: names.cpp:51
+msgid "New Taiwanese dollar"
+msgstr "دولار تايواني جديد"
+
+#: names.cpp:52
+msgid "US dollar"
+msgstr "دولار أميركي"
+
+#: names.cpp:53
+msgid "Venezuelian bolivar"
+msgstr ""
+
+#: names.cpp:54
+msgid "South African rand"
+msgstr "رند جنوب أفريقي"
+
+#. i18n: file calculator.ui line 16
+#: rc.cpp:3
+#, no-c-format
+msgid "Currency Calculator"
+msgstr "حاسبة العملة"
+
+#. i18n: file calculator.ui line 67
+#: rc.cpp:6
+#, no-c-format
+msgid "Input"
+msgstr "إدخال"
+
+#. i18n: file calculator.ui line 731
+#: rc.cpp:11
+#, no-c-format
+msgid "Result"
+msgstr "النتيحة"
+
+#. i18n: file calculator.ui line 1117
+#: rc.cpp:18
+#, no-c-format
+msgid "Substract from memory"
+msgstr "نقًص من الذاكرة"
+
+#. i18n: file calculator.ui line 1132
+#: rc.cpp:22
+#, no-c-format
+msgid "Multiply"
+msgstr "أضرب"
+
+#. i18n: file calculator.ui line 1144
+#: rc.cpp:25
+#, no-c-format
+msgid "Reset"
+msgstr "محو"
+
+#. i18n: file calculator.ui line 1150
+#: rc.cpp:29
+#, no-c-format
+msgid "Reset both input, result and memory"
+msgstr "محو كلاً من الادخال ، النتيجة و الذاكرة"
+
+#. i18n: file calculator.ui line 1173
+#: rc.cpp:33
+#, no-c-format
+msgid "Enter"
+msgstr "أدخل"
+
+#. i18n: file calculator.ui line 1180
+#: rc.cpp:36
+#, no-c-format
+msgid "Enter simple value"
+msgstr "أدخل قيمة بسيطة"
+
+#. i18n: file calculator.ui line 1209
+#: rc.cpp:39
+#, no-c-format
+msgid "&Settings..."
+msgstr "الإ&عدادات..."
+
+#. i18n: file calculator.ui line 1212
+#: rc.cpp:42
+#, no-c-format
+msgid "Configure KEuroCalc"
+msgstr "اعداد KEuroCalc"
+
+#. i18n: file calculator.ui line 1269
+#: rc.cpp:52
+#, no-c-format
+msgid "Apply percentage value"
+msgstr "طبق النسبة المؤوية"
+
+#. i18n: file calculator.ui line 1296
+#: rc.cpp:57
+#, no-c-format
+msgid "Store in memory"
+msgstr "احفظ في الذاكرة"
+
+#. i18n: file calculator.ui line 1343
+#: rc.cpp:62
+#, no-c-format
+msgid "Recall from memory"
+msgstr "أطلب من الذاكرة"
+
+#. i18n: file calculator.ui line 1370
+#: rc.cpp:67
+#, no-c-format
+msgid "Enter value expressed in reference currency"
+msgstr "أدخل قيمة معبرة بالعملة المرجعية"
+
+#. i18n: file calculator.ui line 1400
+#: rc.cpp:72
+#, no-c-format
+msgid "Add to memory"
+msgstr "اضف الى الذاكرة"
+
+#. i18n: file calculator.ui line 1412
+#: rc.cpp:75
+#, no-c-format
+msgid "&Help..."
+msgstr "&مساعدة..."
+
+#. i18n: file calculator.ui line 1415
+#: rc.cpp:78
+#, no-c-format
+msgid "Display help pages"
+msgstr "عرض صفحات المساعدة"
+
+#. i18n: file calculator.ui line 1433
+#: rc.cpp:82
+#, no-c-format
+msgid "Enter value expressed in currency"
+msgstr "أدخل قيمة معبرة بالعملة"
+
+#. i18n: file calculator.ui line 1460
+#: rc.cpp:87
+#, no-c-format
+msgid "Divide"
+msgstr "أقسم"
+
+#. i18n: file calculator.ui line 1472
+#: rc.cpp:90
+#, no-c-format
+msgid "Currencies"
+msgstr "العملات"
+
+#. i18n: file calculator.ui line 1498
+#: rc.cpp:94
+#, no-c-format
+msgid "Correct last input digit"
+msgstr "صحح آخر رقم مدخل"
+
+#. i18n: file calculator.ui line 1516
+#: rc.cpp:98
+#, no-c-format
+msgid "Subtract"
+msgstr "طرح"
+
+#. i18n: file calculator.ui line 1531
+#: rc.cpp:102
+#, no-c-format
+msgid "Change sign"
+msgstr "غير الإشارة"
+
+#. i18n: file calculator.ui line 1543
+#: rc.cpp:105
+#, no-c-format
+msgid "&About..."
+msgstr "&حول..."
+
+#. i18n: file calculator.ui line 1546
+#: rc.cpp:108
+#, no-c-format
+msgid "Display about box"
+msgstr "عرض مربع حول"
+
+#. i18n: file settingsdialog.ui line 16
+#: rc.cpp:115
+#, no-c-format
+msgid "Settings..."
+msgstr "اعدادات"
+
+#. i18n: file settingsdialog.ui line 35
+#: rc.cpp:118
+#, no-c-format
+msgid "Default currency"
+msgstr "العملة الافتراضيه"
+
+#. i18n: file settingsdialog.ui line 62
+#: rc.cpp:121
+#, no-c-format
+msgid "Reference currency, rates origin"
+msgstr "العملة المرجعية ، مصدر النسبيات"
+
+#. i18n: file settingsdialog.ui line 77
+#: rc.cpp:124
+#, no-c-format
+msgid "Euro, no ne&twork access (fixed rates only)"
+msgstr "أويرو ، لا اتصال عبر ال&شبكة ( أسعار عملة ثابتة )"
+
+#. i18n: file settingsdialog.ui line 95
+#: rc.cpp:127
+#, no-c-format
+msgid "Euro, European Central &Bank"
+msgstr "أويرو ، ال&بنك المركزي الأوروبي"
+
+#. i18n: file settingsdialog.ui line 113
+#: rc.cpp:130
+#, no-c-format
+msgid "&Dollar, New York Federal Reserve Bank"
+msgstr "&دولار ، بنك الأتحاد الأمريكي في نيو يورك"
+
+#. i18n: file settingsdialog.ui line 134
+#: rc.cpp:133
+#, no-c-format
+msgid "Rounding"
+msgstr "مقرًبا"
+
+#. i18n: file settingsdialog.ui line 149
+#: rc.cpp:136
+#, no-c-format
+msgid "Official roundin&g rules"
+msgstr "قواعد التق&ريب الرسمية"
+
+#. i18n: file settingsdialog.ui line 164
+#: rc.cpp:139
+#, no-c-format
+msgid "&Smallest coin method"
+msgstr "نهج المسكوكة ال&صغرى"
+
+#. i18n: file settingsdialog.ui line 187
+#: rc.cpp:142
+#, no-c-format
+msgid "&No rounding at all"
+msgstr "&لا تقريب بتا"
+
+#. i18n: file settingsdialog.ui line 200
+#: rc.cpp:145
+#, no-c-format
+msgid "Look and feel"
+msgstr "Look and feel"
+
+#. i18n: file settingsdialog.ui line 236
+#: rc.cpp:148
+#, no-c-format
+msgid "Display color"
+msgstr "عرض اللون"
+
+#. i18n: file settingsdialog.ui line 513
+#: rc.cpp:151
+#, no-c-format
+msgid "215.06 €"
+msgstr "215.06 €"
+
+#. i18n: file settingsdialog.ui line 531
+#: rc.cpp:154
+#, no-c-format
+msgid "C&hange..."
+msgstr "تح&ويل..."
+
+#. i18n: file settingsdialog.ui line 583
+#: rc.cpp:157
+#, no-c-format
+msgid "Enable splash screen"
+msgstr "عرض شاشة البداية"
+
+#. i18n: file settingsdialog.ui line 654
+#: rc.cpp:160
+#, no-c-format
+msgid "O&K"
+msgstr "نع&م"
+
+#. i18n: file settingsdialog.ui line 665
+#: rc.cpp:163
+#, no-c-format
+msgid "Cance&l"
+msgstr "إ&لغاء"

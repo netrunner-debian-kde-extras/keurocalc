@@ -1,0 +1,584 @@
+# translation of keurocalc.po to
+# translation of keurocalc.po to cs_CZ
+# translation of keurocalc.po to Czech
+# Copyright (C) 2003, 2005, 2006 Free Software Foundation, Inc.
+# Ivo Jánský <Ivo.Jansky@seznam.cz>, 2003.
+# Lukáš Tinkl <lukas@kde.org>, 2005.
+# Klara Cihlarova <koty@seznam.cz>, 2006.
+# Jakub Friedl <jfriedl@suse.cz>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: keurocalc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-04-25 11:07+0200\n"
+"PO-Revision-Date: 2006-05-26 11:19+0200\n"
+"Last-Translator: Jakub Friedl <jfriedl@suse.cz>\n"
+"Language-Team:  <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms:  nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Ivo Jánský,Klára Cihlářová,Jakub Friedl"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "Ivo.Jansky@seznam.cz,koty@seznam.cz,jfriedl@suse.cz"
+
+#: keurocalc.cpp:69
+msgid "Cannot load currencies.xml"
+msgstr "Nelze načíst soubor currencies.xml"
+
+#: keurocalc.cpp:439 keurocalc.cpp:513
+msgid "Not loaded"
+msgstr "Nenačteno"
+
+#: keurocalc.cpp:1205
+msgid "Fixed"
+msgstr "Pevné"
+
+#: keurocalc.cpp:1209
+msgid "ECB"
+msgstr "ECB"
+
+#: keurocalc.cpp:1210 keurocalc.cpp:1214
+msgid "Loading..."
+msgstr "Probíhá načítání..."
+
+#: keurocalc.cpp:1213
+msgid "NY FRB"
+msgstr "NY FRB"
+
+#: keurocalc.cpp:1219
+msgid "Official rules"
+msgstr "Ofic. pravidla"
+
+#: keurocalc.cpp:1222
+msgid "Smallest coin"
+msgstr "Nejmenší mince"
+
+#: keurocalc.cpp:1225
+msgid "No rounding"
+msgstr "Bez zaokrouhlování"
+
+#: main.cpp:31
+msgid "KEuroCalc"
+msgstr "KEuroCalc"
+
+#: main.cpp:32
+msgid "Cash converter and calculator"
+msgstr "Konvertor měn a kalkulačka"
+
+#: main.cpp:33
+msgid "(c) 2001-2006, the KEuroCalc developers"
+msgstr "(c) 2001-2006, vývojáři KEuroCalc"
+
+#: main.cpp:34
+msgid ""
+"A program by Éric Bischoff <ebischoff@nerim.net>\n"
+"\n"
+"This program is dedicated to humorist Michael Moore, for he\n"
+"knows that money does not justify anything...\n"
+msgstr ""
+"Napsal Éric Bischoff <ebischoff@nerim.net>\n"
+"\n"
+"Tento program je věnován humoristovi Michaelovi Moorovi,\n"
+"protože on ví, že peníze nejsou všechno...\n"
+
+#: main.cpp:46
+msgid "Design and implementation"
+msgstr "Design a implementace"
+
+#: main.cpp:47
+msgid "Additional functionnality"
+msgstr "Další funkce"
+
+#: main.cpp:48
+msgid "Design and testing"
+msgstr "Desing a testování"
+
+#: main.cpp:49
+msgid "Graphical artwork"
+msgstr "Grafika"
+
+#: names.cpp:1
+msgid "Austrian schilling"
+msgstr "Rakouský schilling"
+
+#: names.cpp:2
+msgid "Australian dollar"
+msgstr "Australský dolar"
+
+#: names.cpp:3
+msgid "Belgian franc"
+msgstr "Belgický frank"
+
+#: names.cpp:4
+msgid "Bulgarian lev"
+msgstr "Bulharské leva"
+
+#: names.cpp:5
+msgid "Brazilian real"
+msgstr "Brazilský real"
+
+#: names.cpp:6
+msgid "Canadian dollar"
+msgstr "Kanadský dolar"
+
+#: names.cpp:7
+msgid "Swiss franc"
+msgstr "Švýcarský frank"
+
+#: names.cpp:8
+msgid "Chinese yuan"
+msgstr "Čínský juan"
+
+#: names.cpp:9
+msgid "Cyprus pound"
+msgstr "Kyperská libra"
+
+#: names.cpp:10
+msgid "Czech koruna"
+msgstr "Česká koruna"
+
+#: names.cpp:11
+msgid "German deutschmark"
+msgstr "Německá marka"
+
+#: names.cpp:12
+msgid "Danish krone"
+msgstr "Dánská koruna"
+
+#: names.cpp:13
+msgid "Estonian kroon"
+msgstr "Estonská koruna"
+
+#: names.cpp:14
+msgid "Spanish peseta"
+msgstr "Španělké peseto"
+
+#: names.cpp:15
+msgid "EU euro"
+msgstr "EU euro"
+
+#: names.cpp:16
+msgid "Finnish markka"
+msgstr "Finská markka"
+
+#: names.cpp:17
+msgid "French franc"
+msgstr "Francouzský frank"
+
+#: names.cpp:18
+msgid "Great Britain pound"
+msgstr "Britská libra"
+
+#: names.cpp:19
+msgid "Greek drachma"
+msgstr "Řecká drachma"
+
+#: names.cpp:20
+msgid "Hong kong dollar"
+msgstr "Hongkongský dolar"
+
+#: names.cpp:21
+msgid "Croatian kuna"
+msgstr "Chorvatská kuna"
+
+#: names.cpp:22
+msgid "Hungarian forint"
+msgstr "Maďarský forint"
+
+#: names.cpp:23
+msgid "Indonesian rupiah"
+msgstr "Indonéská rupie"
+
+#: names.cpp:24
+msgid "Irish punt"
+msgstr "Irský punt"
+
+#: names.cpp:25
+msgid "Indian rupee"
+msgstr "Indická rupie"
+
+#: names.cpp:26
+msgid "Icelandic krona"
+msgstr "Islandská koruna"
+
+#: names.cpp:27
+msgid "Italian lira"
+msgstr "Italská lira"
+
+#: names.cpp:28
+msgid "Japanese yen"
+msgstr "Japonský jen"
+
+#: names.cpp:29
+msgid "South Korean won"
+msgstr "Jihokorejský won"
+
+#: names.cpp:30
+msgid "Sri Lankan rupee"
+msgstr "Srílanská rupie"
+
+#: names.cpp:31
+msgid "Latvian lats"
+msgstr "Lotyšský lats"
+
+#: names.cpp:32
+msgid "Luxembourg franc"
+msgstr "Lucemburský frank"
+
+#: names.cpp:33
+msgid "Lithuanian litas"
+msgstr "Litevský litas"
+
+#: names.cpp:34
+msgid "Maltese lira"
+msgstr "Maltská lira"
+
+#: names.cpp:35
+msgid "Mexican peso"
+msgstr "Mexické peso"
+
+#: names.cpp:36
+msgid "Malaysian ringgit"
+msgstr "malajský ringgit"
+
+#: names.cpp:37
+msgid "Dutch gulden"
+msgstr "Nizozemský gulden"
+
+#: names.cpp:38
+msgid "Norvegian krone"
+msgstr "Norská koruna"
+
+#: names.cpp:39
+msgid "New Zealand dollar"
+msgstr "Novozélandský dolar"
+
+#: names.cpp:40
+msgid "Philippine peso"
+msgstr "Filipínské peso"
+
+#: names.cpp:41
+msgid "Polish zloty"
+msgstr "Polský zlotý"
+
+#: names.cpp:42
+msgid "Portuguese escudo"
+msgstr "Portugalské escudo"
+
+#: names.cpp:43
+msgid "New Romanian leu"
+msgstr "Nové rumunské leva"
+
+#: names.cpp:44
+msgid "Russian rouble"
+msgstr "Ruský rubl"
+
+#: names.cpp:45
+msgid "Swedish krona"
+msgstr "Švédská koruna"
+
+#: names.cpp:46
+msgid "Singapore dollar"
+msgstr "Singapurský dolar"
+
+#: names.cpp:47
+msgid "Slovenian tolar"
+msgstr "Slovinský tolar"
+
+#: names.cpp:48
+msgid "Slovakian koruna"
+msgstr "Slovenská koruna"
+
+#: names.cpp:49
+msgid "Thailandese baht"
+msgstr "Thajský baht"
+
+#: names.cpp:50
+msgid "New Turkish lira"
+msgstr "Nová turecká lira"
+
+#: names.cpp:51
+msgid "New Taiwanese dollar"
+msgstr "Nový taiwanský dolar"
+
+#: names.cpp:52
+msgid "US dollar"
+msgstr "Americký dolar"
+
+#: names.cpp:53
+msgid "Venezuelian bolivar"
+msgstr "Venezuelský bolivar"
+
+#: names.cpp:54
+msgid "South African rand"
+msgstr "Jihoafrický rand"
+
+#. i18n: file calculator.ui line 16
+#: rc.cpp:3
+#, no-c-format
+msgid "Currency Calculator"
+msgstr "Měnová kalkulačka"
+
+#. i18n: file calculator.ui line 67
+#: rc.cpp:6
+#, no-c-format
+msgid "Input"
+msgstr "Vstup"
+
+#. i18n: file calculator.ui line 731
+#: rc.cpp:11
+#, no-c-format
+msgid "Result"
+msgstr "Výsledek"
+
+#. i18n: file calculator.ui line 1117
+#: rc.cpp:18
+#, no-c-format
+msgid "Substract from memory"
+msgstr "Odečíst z paměti"
+
+#. i18n: file calculator.ui line 1132
+#: rc.cpp:22
+#, no-c-format
+msgid "Multiply"
+msgstr "Násobit"
+
+#. i18n: file calculator.ui line 1144
+#: rc.cpp:25
+#, no-c-format
+msgid "Reset"
+msgstr "Smazat"
+
+#. i18n: file calculator.ui line 1150
+#: rc.cpp:29
+#, no-c-format
+msgid "Reset both input, result and memory"
+msgstr "Smazat vstup, výsledek a paměť"
+
+#. i18n: file calculator.ui line 1173
+#: rc.cpp:33
+#, no-c-format
+msgid "Enter"
+msgstr "Zadat"
+
+#. i18n: file calculator.ui line 1180
+#: rc.cpp:36
+#, no-c-format
+msgid "Enter simple value"
+msgstr "Zadat jednoduhou hodnotu"
+
+#. i18n: file calculator.ui line 1209
+#: rc.cpp:39
+#, no-c-format
+msgid "&Settings..."
+msgstr "Na&stavení..."
+
+#. i18n: file calculator.ui line 1212
+#: rc.cpp:42
+#, no-c-format
+msgid "Configure KEuroCalc"
+msgstr "Nastavit KEuroCalc"
+
+#. i18n: file calculator.ui line 1269
+#: rc.cpp:52
+#, no-c-format
+msgid "Apply percentage value"
+msgstr "Použít procentuální hodnotu"
+
+#. i18n: file calculator.ui line 1296
+#: rc.cpp:57
+#, no-c-format
+msgid "Store in memory"
+msgstr "Uložit do paměti"
+
+#. i18n: file calculator.ui line 1343
+#: rc.cpp:62
+#, no-c-format
+msgid "Recall from memory"
+msgstr "Vyvolat z paměti"
+
+#. i18n: file calculator.ui line 1370
+#: rc.cpp:67
+#, no-c-format
+msgid "Enter value expressed in reference currency"
+msgstr "Zadat hodnotu vyjádřenou v referenční měně"
+
+#. i18n: file calculator.ui line 1400
+#: rc.cpp:72
+#, no-c-format
+msgid "Add to memory"
+msgstr "Přidat do paměti"
+
+#. i18n: file calculator.ui line 1412
+#: rc.cpp:75
+#, no-c-format
+msgid "&Help..."
+msgstr "&Nápověda..."
+
+#. i18n: file calculator.ui line 1415
+#: rc.cpp:78
+#, no-c-format
+msgid "Display help pages"
+msgstr "Zobrazit nápovědu"
+
+#. i18n: file calculator.ui line 1433
+#: rc.cpp:82
+#, no-c-format
+msgid "Enter value expressed in currency"
+msgstr "Zadat hodnotu vyjádřenou v měně"
+
+#. i18n: file calculator.ui line 1460
+#: rc.cpp:87
+#, no-c-format
+msgid "Divide"
+msgstr "Dělit"
+
+#. i18n: file calculator.ui line 1472
+#: rc.cpp:90
+#, no-c-format
+msgid "Currencies"
+msgstr "Měny"
+
+#. i18n: file calculator.ui line 1498
+#: rc.cpp:94
+#, no-c-format
+msgid "Correct last input digit"
+msgstr "Opravit poslední zadané číslo"
+
+#. i18n: file calculator.ui line 1516
+#: rc.cpp:98
+#, no-c-format
+msgid "Subtract"
+msgstr "Odečíst"
+
+#. i18n: file calculator.ui line 1531
+#: rc.cpp:102
+#, no-c-format
+msgid "Change sign"
+msgstr "Změnit znaménko"
+
+#. i18n: file calculator.ui line 1543
+#: rc.cpp:105
+#, no-c-format
+msgid "&About..."
+msgstr "O &aplikaci..."
+
+#. i18n: file calculator.ui line 1546
+#: rc.cpp:108
+#, no-c-format
+msgid "Display about box"
+msgstr "Zobrazit dialog o aplikaci"
+
+#. i18n: file settingsdialog.ui line 16
+#: rc.cpp:115
+#, no-c-format
+msgid "Settings..."
+msgstr "Nastavení..."
+
+#. i18n: file settingsdialog.ui line 35
+#: rc.cpp:118
+#, no-c-format
+msgid "Default currency"
+msgstr "Výchozí měna"
+
+#. i18n: file settingsdialog.ui line 62
+#: rc.cpp:121
+#, no-c-format
+msgid "Reference currency, rates origin"
+msgstr "Referenční měna, původ sazeb"
+
+#. i18n: file settingsdialog.ui line 77
+#: rc.cpp:124
+#, no-c-format
+msgid "Euro, no ne&twork access (fixed rates only)"
+msgstr "Euro, bez přístupu &na síť (pouze fixní poměry)"
+
+#. i18n: file settingsdialog.ui line 95
+#: rc.cpp:127
+#, no-c-format
+msgid "Euro, European Central &Bank"
+msgstr "Euro, Evropská centrální &banka"
+
+#. i18n: file settingsdialog.ui line 113
+#: rc.cpp:130
+#, no-c-format
+msgid "&Dollar, New York Federal Reserve Bank"
+msgstr "&Dolar, newyorská federální rezervní banka"
+
+#. i18n: file settingsdialog.ui line 134
+#: rc.cpp:133
+#, no-c-format
+msgid "Rounding"
+msgstr "Zaokrouhlování"
+
+#. i18n: file settingsdialog.ui line 149
+#: rc.cpp:136
+#, no-c-format
+msgid "Official roundin&g rules"
+msgstr "Oficiální &pravidla zaokrouhlování"
+
+#. i18n: file settingsdialog.ui line 164
+#: rc.cpp:139
+#, no-c-format
+msgid "&Smallest coin method"
+msgstr "&Metoda nejmenší mince"
+
+#. i18n: file settingsdialog.ui line 187
+#: rc.cpp:142
+#, no-c-format
+msgid "&No rounding at all"
+msgstr "Žádné &zaokrouhlování"
+
+#. i18n: file settingsdialog.ui line 200
+#: rc.cpp:145
+#, no-c-format
+msgid "Look and feel"
+msgstr "Vzhled a chování"
+
+#. i18n: file settingsdialog.ui line 236
+#: rc.cpp:148
+#, no-c-format
+msgid "Display color"
+msgstr "Barva displeje"
+
+#. i18n: file settingsdialog.ui line 513
+#: rc.cpp:151
+#, no-c-format
+msgid "215.06 €"
+msgstr "215.06 €"
+
+#. i18n: file settingsdialog.ui line 531
+#: rc.cpp:154
+#, no-c-format
+msgid "C&hange..."
+msgstr "Z&měnit..."
+
+#. i18n: file settingsdialog.ui line 583
+#: rc.cpp:157
+#, no-c-format
+msgid "Enable splash screen"
+msgstr "Povolit úvodní obrazovku"
+
+#. i18n: file settingsdialog.ui line 654
+#: rc.cpp:160
+#, no-c-format
+msgid "O&K"
+msgstr "O&K"
+
+#. i18n: file settingsdialog.ui line 665
+#: rc.cpp:163
+#, no-c-format
+msgid "Cance&l"
+msgstr "Zruš&it"

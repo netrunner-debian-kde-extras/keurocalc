@@ -1,0 +1,396 @@
+<?xml version = "1.0" encoding="utf-8" ?>
+<currencies>
+	<currency
+		symbol = "öS"
+		code = "ATS"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "10.0"
+		name = "Austrian schilling"
+		fixed-rate = "13.7603"
+		/>
+	<currency
+		symbol = "A$"
+		code = "AUD"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Australian dollar"
+		/>
+	<currency
+		symbol = "FB"
+		code = "BEF"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "10.0"
+		name = "Belgian franc"
+		fixed-rate = "40.3399"
+		/>
+	<currency
+		symbol = "Lv"
+		code = "BGN"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Bulgarian lev"
+		/>
+	<currency
+		symbol = "R$"
+		code = "BRL"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Brazilian real"
+		/>
+	<currency
+		symbol = "Can$"
+		code = "CAD"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Canadian dollar"
+		/>
+	<currency
+		symbol = "FS"
+		code = "CHF"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Swiss franc"
+		/>
+	<currency
+		symbol = "Y"
+		code = "CNY"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Chinese yuan"
+		/>
+	<currency
+		symbol = "£C"
+		code = "CYP"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Cyprus pound"
+		fixed-rate = "0.585274"
+		/>
+	<currency
+		symbol = "K"
+		code = "CZK"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Czech koruna"
+		/>
+	<currency
+		symbol = "DM"
+		code = "DEM"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "German deutschmark"
+		fixed-rate = "1.95583"
+		/>
+	<currency
+		symbol = "DKr"
+		code = "DKK"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Danish krone"
+		/>
+	<currency
+		symbol = "EKr"
+		code = "EEK"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Estonian kroon"
+		/>
+	<currency
+		symbol = "Pts"
+		code = "ESP"
+		official-rules-precision = "100.0"
+		smallest-coin-precision = "100.0"
+		name = "Spanish peseta"
+		fixed-rate = "166.386"
+		/>
+	<currency
+		symbol = " €"
+		code = "EUR"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "EU euro"
+		/>
+	<currency
+		symbol = "mk"
+		code = "FIM"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Finnish markka"
+		fixed-rate = "5.94573"
+		/>
+	<currency
+		symbol = "FF"
+		code = "FRF"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "French franc"
+		fixed-rate = "6.55957"
+		/>
+	<currency
+		symbol = "£"
+		code = "GBP"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Great Britain pound"
+		/>
+	<currency
+		symbol = "Dr"
+		code = "GRD"
+		official-rules-precision = "100.0"
+		smallest-coin-precision = "100.0"
+		name = "Greek drachma"
+		fixed-rate = "340.750"
+		/>
+	<currency
+		symbol = "HK$"
+		code = "HKD"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Hong kong dollar"
+		/>
+	<currency
+		symbol = "Kuna"
+		code = "HRK"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Croatian kuna"
+		/>
+	<currency
+		symbol = "Ht"
+		code = "HUF"
+		official-rules-precision = "100.0"
+		smallest-coin-precision = "100.0"
+		name = "Hungarian forint"
+		/>
+	<currency
+		symbol = "Rp"
+		code = "IDR"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Indonesian rupiah"
+		/>
+	<currency
+		symbol = "£IR"
+		code = "IEP"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Irish punt"
+		fixed-rate = ".787564"
+		/>
+	<currency
+		symbol = "Rs"
+		code = "INR"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Indian rupee"
+		/>
+	<currency
+		symbol = "Ikr"
+		code = "ISK"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Icelandic krona"
+		/>
+	<currency
+		symbol = "L"
+		code = "ITL"
+		official-rules-precision = "100.0"
+		smallest-coin-precision = "5000.0"
+		name = "Italian lira"
+		fixed-rate = "1936.27"
+		/>
+	<currency
+		symbol = "¥"
+		code = "JPY"
+		official-rules-precision = "100.0"
+		smallest-coin-precision = "100.0"
+		name = "Japanese yen"
+		/>
+	<currency
+		symbol = "₩"
+		code = "KRW"
+		official-rules-precision = "100.0"
+		smallest-coin-precision = "1000.0"
+		name = "South Korean won"
+		/>
+	<currency
+		symbol = "SLRs"
+		code = "LKR"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Sri Lankan rupee"
+		/>
+	<currency
+		symbol = "lt"
+		code = "LTL"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Latvian lats"
+		/>
+	<currency
+		symbol = "FLux"
+		code = "LUF"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "10.0"
+		name = "Luxembourg franc"
+		fixed-rate = "40.3399"
+		/>
+	<currency
+		symbol = "Ls"
+		code = "LVL"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Lithuanian litas"
+		/>
+	<currency
+		symbol = "Lm"
+		code = "MTL"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Maltese lira"
+		fixed-rate = "0.4293"
+		/>
+	<currency
+		symbol = "Mex$"
+		code = "MXN"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Mexican peso"
+		/>
+	<currency
+		symbol = "MR"
+		code = "MYR"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Malaysian ringgit"
+		/>
+	<currency
+		symbol = "Fl"
+		code = "NLG"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Dutch gulden"
+		fixed-rate = "2.20371"
+		/>
+	<currency
+		symbol = "NKr"
+		code = "NOK"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "50.0"
+		name = "Norvegian krone"
+		/>
+	<currency
+		symbol = "NZ$"
+		code = "NZD"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "New Zealand dollar"
+		/>
+	<currency
+		symbol = "₱"
+		code = "PHP"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Philippine peso"
+		/>
+	<currency
+		symbol = "zł"
+		code = "PLN"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Polish zloty"
+		/>
+	<currency
+		symbol = "Esc"
+		code = "PTE"
+		official-rules-precision = "100.0"
+		smallest-coin-precision = "100.0"
+		name = "Portuguese escudo"
+		fixed-rate = "200.482"
+		/>
+	<currency
+		symbol = "L"
+		code = "RON"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "New Romanian leu"
+		/>
+	<currency
+		symbol = "руб"
+		code = "RUB"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Russian rouble"
+		/>
+	<currency
+		symbol = "SKr"
+		code = "SEK"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Swedish krona"
+		/>
+	<currency
+		symbol = "S$"
+		code = "SGD"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "5.0"
+		name = "Singapore dollar"
+		/>
+	<currency
+		symbol = "SIT"
+		code = "SIT"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Slovenian tolar"
+		fixed-rate = "239.64"
+		/>
+	<currency
+		symbol = "Sk"
+		code = "SKK"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Slovakian koruna"
+		/>
+	<currency
+		symbol = "Bt"
+		code = "THB"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "Thailandese baht"
+		/>
+	<currency
+		symbol = "YTL"
+		code = "TRY"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "New Turkish lira"
+		/>
+	<currency
+		symbol = "Bt"
+		code = "TWD"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "New Taiwanese dollar"
+		/>
+	<currency
+		symbol = "$"
+		code = "USD"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "US dollar"
+		/>
+	<currency
+		symbol = "$"
+		code = "VEB"
+		official-rules-precision = "100.0"
+		smallest-coin-precision = "1000.0"
+		name = "Venezuelian bolivar"
+		/>
+	<currency
+		symbol = "R"
+		code = "ZAR"
+		official-rules-precision = "1.0"
+		smallest-coin-precision = "1.0"
+		name = "South African rand"
+		/>
+</currencies>

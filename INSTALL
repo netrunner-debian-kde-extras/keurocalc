@@ -1,0 +1,18 @@
+First, make sure with
+  $ echo $PATH
+that the directory of the Qt executables are in your PATH.
+If not, add it, for example:
+  $ export PATH=/opt/qt4/bin:$PATH
+
+To compile KEuroCalc, type, as a normal user:
+  $ mkdir build && cd build
+  $ cmake -DCMAKE_INSTALL_PREFIX=/opt/kde4 ../keurocalc
+  $ make
+  (replace "/opt/kde4" with the path where KDE is installed,
+   and "../keurocalc" with the path to the sources of KEuroCalc)
+
+To install KEuroCalc, type, as root user:
+  # make install
+
+To run KEuroCalc, type, as a normal user again:
+  $ keurocalc

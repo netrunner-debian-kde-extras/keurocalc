@@ -1,0 +1,578 @@
+# translation of keurocalc.po to Serbian
+# Chusslove Illich <caslav.ilic@gmx.net>, 2004.
+# Slobodan Simic <simicsl@verat.net>, 2005, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: keurocalc\n"
+"POT-Creation-Date: 2006-12-18 08:55+0100\n"
+"PO-Revision-Date: 2007-08-09 09:37+0200\n"
+"Last-Translator: Slobodan Simic <simicsl@verat.net>\n"
+"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>"
+"=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Časlav Ilić,Slobodan Simić"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "caslav.ilic@gmx.net,simicsl@verat.net"
+
+#: keurocalc.cpp:69
+msgid "Cannot load currencies.xml"
+msgstr "Ne mogu da učitam currencies.xml"
+
+#: keurocalc.cpp:439 keurocalc.cpp:513
+msgid "Not loaded"
+msgstr "Nije učitano"
+
+#: keurocalc.cpp:1205
+msgid "Fixed"
+msgstr "Fiksno"
+
+#: keurocalc.cpp:1209
+msgid "ECB"
+msgstr "ECB"
+
+#: keurocalc.cpp:1210 keurocalc.cpp:1214
+msgid "Loading..."
+msgstr "Učitavam..."
+
+#: keurocalc.cpp:1213
+msgid "NY FRB"
+msgstr "NY FRB"
+
+#: keurocalc.cpp:1219
+msgid "Official rules"
+msgstr "Zvanična pravila"
+
+#: keurocalc.cpp:1222
+msgid "Smallest coin"
+msgstr "Najmanji novčić"
+
+#: keurocalc.cpp:1225
+msgid "No rounding"
+msgstr "Bez zaokruživanja"
+
+#: main.cpp:31
+msgid "KEuroCalc"
+msgstr "KEuroCalc"
+
+#: main.cpp:32
+msgid "Cash converter and calculator"
+msgstr "Konvertor novca i kalkulator"
+
+#: main.cpp:33
+msgid "(c) 2001-2006, the KEuroCalc developers"
+msgstr "(c) 2001-2006, programeri KEuroCalc-a"
+
+#: main.cpp:34
+msgid ""
+"A program by Éric Bischoff <ebischoff@nerim.net>\n"
+"\n"
+"This program is dedicated to humorist Michael Moore, for he\n"
+"knows that money does not justify anything...\n"
+msgstr ""
+"Program Erika Bišofa (Éric Bischoff) <ebischoff@nerim.net>\n"
+"\n"
+"Ovaj program je posvećen humoristi Majklu Muru (Michael Moore),\n"
+"jer on zna da novac ne opravdava sve...\n"
+
+#: main.cpp:46
+msgid "Design and implementation"
+msgstr "Dizajn i implementacija"
+
+#: main.cpp:47
+msgid "Additional functionnality"
+msgstr "Dodatna funkcionalnost"
+
+#: main.cpp:48
+msgid "Design and testing"
+msgstr "Dizajn i testiranje"
+
+#: main.cpp:49
+msgid "Graphical artwork"
+msgstr "Grafička obrada"
+
+#: names.cpp:1
+msgid "Austrian schilling"
+msgstr "Austrijski šiling"
+
+#: names.cpp:2
+msgid "Australian dollar"
+msgstr "Australijanski dolar"
+
+#: names.cpp:3
+msgid "Belgian franc"
+msgstr "Belgijski franak"
+
+#: names.cpp:4
+msgid "Bulgarian lev"
+msgstr "Bugarski lev"
+
+#: names.cpp:5
+msgid "Brazilian real"
+msgstr "Brazilski real"
+
+#: names.cpp:6
+msgid "Canadian dollar"
+msgstr "Kanadski dolar"
+
+#: names.cpp:7
+msgid "Swiss franc"
+msgstr "Švajcarski franak"
+
+#: names.cpp:8
+msgid "Chinese yuan"
+msgstr "Kineski juan"
+
+#: names.cpp:9
+msgid "Cyprus pound"
+msgstr "Kiparska funta"
+
+#: names.cpp:10
+msgid "Czech koruna"
+msgstr "Češka koruna"
+
+#: names.cpp:11
+msgid "German deutschmark"
+msgstr "Nemačka marka"
+
+#: names.cpp:12
+msgid "Danish krone"
+msgstr "Danska kruna"
+
+#: names.cpp:13
+msgid "Estonian kroon"
+msgstr "Estonska kruna"
+
+#: names.cpp:14
+msgid "Spanish peseta"
+msgstr "Španska pezeta"
+
+#: names.cpp:15
+msgid "EU euro"
+msgstr "EU evro"
+
+#: names.cpp:16
+msgid "Finnish markka"
+msgstr "Finska marka"
+
+#: names.cpp:17
+msgid "French franc"
+msgstr "Francuski franak"
+
+#: names.cpp:18
+msgid "Great Britain pound"
+msgstr "Britanska funta"
+
+#: names.cpp:19
+msgid "Greek drachma"
+msgstr "Grčka drahma"
+
+#: names.cpp:20
+msgid "Hong kong dollar"
+msgstr "Hong-konški dolar"
+
+#: names.cpp:21
+msgid "Croatian kuna"
+msgstr "Hrvatska kuna"
+
+#: names.cpp:22
+msgid "Hungarian forint"
+msgstr "Mađarska forinta"
+
+#: names.cpp:23
+msgid "Indonesian rupiah"
+msgstr "Indonezijski rupi"
+
+#: names.cpp:24
+msgid "Irish punt"
+msgstr "Irska funta"
+
+#: names.cpp:25
+msgid "Indian rupee"
+msgstr "Indijski rupi"
+
+#: names.cpp:26
+msgid "Icelandic krona"
+msgstr "Islandska kruna"
+
+#: names.cpp:27
+msgid "Italian lira"
+msgstr "Italijanska lira"
+
+#: names.cpp:28
+msgid "Japanese yen"
+msgstr "Japanski jen"
+
+#: names.cpp:29
+msgid "South Korean won"
+msgstr "Južnokorejski von"
+
+#: names.cpp:30
+msgid "Sri Lankan rupee"
+msgstr "Šrilankaški rupi"
+
+#: names.cpp:31
+msgid "Latvian lats"
+msgstr "Latvijski lats"
+
+#: names.cpp:32
+msgid "Luxembourg franc"
+msgstr "Luksemburški franak"
+
+#: names.cpp:33
+msgid "Lithuanian litas"
+msgstr "Litvanski litas"
+
+#: names.cpp:34
+msgid "Maltese lira"
+msgstr "Malteška lira"
+
+#: names.cpp:35
+msgid "Mexican peso"
+msgstr "Meksički pezos"
+
+#: names.cpp:36
+msgid "Malaysian ringgit"
+msgstr "Malezijski ringit"
+
+#: names.cpp:37
+msgid "Dutch gulden"
+msgstr "Holandski gulden"
+
+#: names.cpp:38
+msgid "Norvegian krone"
+msgstr "Norveška kruna"
+
+#: names.cpp:39
+msgid "New Zealand dollar"
+msgstr "Novozelandski dolar"
+
+#: names.cpp:40
+msgid "Philippine peso"
+msgstr "Filipinski pezo"
+
+#: names.cpp:41
+msgid "Polish zloty"
+msgstr "Poljska zlota"
+
+#: names.cpp:42
+msgid "Portuguese escudo"
+msgstr "Portugalski eskudo"
+
+#: names.cpp:43
+msgid "New Romanian leu"
+msgstr "Novi rumunski lej"
+
+#: names.cpp:44
+msgid "Russian rouble"
+msgstr "Ruska rublja"
+
+#: names.cpp:45
+msgid "Swedish krona"
+msgstr "Švedska kruna"
+
+#: names.cpp:46
+msgid "Singapore dollar"
+msgstr "Singapurski dolar"
+
+#: names.cpp:47
+msgid "Slovenian tolar"
+msgstr "Slovenački tolar"
+
+#: names.cpp:48
+msgid "Slovakian koruna"
+msgstr "Slovačka koruna"
+
+#: names.cpp:49
+msgid "Thailandese baht"
+msgstr "Tajlandski baht"
+
+#: names.cpp:50
+msgid "New Turkish lira"
+msgstr "Nova turska lira"
+
+#: names.cpp:51
+msgid "New Taiwanese dollar"
+msgstr "Novi tajvanski dolar"
+
+#: names.cpp:52
+msgid "US dollar"
+msgstr "SAD dolar"
+
+#: names.cpp:53
+msgid "Venezuelian bolivar"
+msgstr "Venecuelanski bolivar"
+
+#: names.cpp:54
+msgid "South African rand"
+msgstr "Južnoafrički rand"
+
+#. i18n: file calculator.ui line 16
+#: rc.cpp:3
+#, no-c-format
+msgid "Currency Calculator"
+msgstr "Kalkulator valuta"
+
+#. i18n: file calculator.ui line 67
+#: rc.cpp:6
+#, no-c-format
+msgid "Input"
+msgstr "Ulaz"
+
+#. i18n: file calculator.ui line 731
+#: rc.cpp:11
+#, no-c-format
+msgid "Result"
+msgstr "Rezultat"
+
+#. i18n: file calculator.ui line 1117
+#: rc.cpp:18
+#, no-c-format
+msgid "Substract from memory"
+msgstr "Oduzmi iz memorije"
+
+#. i18n: file calculator.ui line 1132
+#: rc.cpp:22
+#, no-c-format
+msgid "Multiply"
+msgstr "Pomnoži"
+
+#. i18n: file calculator.ui line 1144
+#: rc.cpp:25
+#, no-c-format
+msgid "Reset"
+msgstr "Resetuj"
+
+#. i18n: file calculator.ui line 1150
+#: rc.cpp:29
+#, no-c-format
+msgid "Reset both input, result and memory"
+msgstr "Resetuj i ulaz i rezultat i memoriju"
+
+#. i18n: file calculator.ui line 1173
+#: rc.cpp:33
+#, no-c-format
+msgid "Enter"
+msgstr "Unesi"
+
+#. i18n: file calculator.ui line 1180
+#: rc.cpp:36
+#, no-c-format
+msgid "Enter simple value"
+msgstr "Unesi jednostavnu vrednost"
+
+#. i18n: file calculator.ui line 1209
+#: rc.cpp:39
+#, no-c-format
+msgid "&Settings..."
+msgstr "Po&dešavanja..."
+
+#. i18n: file calculator.ui line 1212
+#: rc.cpp:42
+#, no-c-format
+msgid "Configure KEuroCalc"
+msgstr "Podesi KEuroCalc"
+
+#. i18n: file calculator.ui line 1269
+#: rc.cpp:52
+#, no-c-format
+msgid "Apply percentage value"
+msgstr "Primeni procentualnu vrednost"
+
+#. i18n: file calculator.ui line 1296
+#: rc.cpp:57
+#, no-c-format
+msgid "Store in memory"
+msgstr "Skladišti u memoriju"
+
+#. i18n: file calculator.ui line 1343
+#: rc.cpp:62
+#, no-c-format
+msgid "Recall from memory"
+msgstr "Vrati iz memorije"
+
+#. i18n: file calculator.ui line 1370
+#: rc.cpp:67
+#, no-c-format
+msgid "Enter value expressed in reference currency"
+msgstr "Unesite vrednost izraženu u referentnoj valuti"
+
+#. i18n: file calculator.ui line 1400
+#: rc.cpp:72
+#, no-c-format
+msgid "Add to memory"
+msgstr "Dodaj u memoriju"
+
+#. i18n: file calculator.ui line 1412
+#: rc.cpp:75
+#, no-c-format
+msgid "&Help..."
+msgstr "&Pomoć..."
+
+#. i18n: file calculator.ui line 1415
+#: rc.cpp:78
+#, no-c-format
+msgid "Display help pages"
+msgstr "Prikaži strane pomoći"
+
+#. i18n: file calculator.ui line 1433
+#: rc.cpp:82
+#, no-c-format
+msgid "Enter value expressed in currency"
+msgstr "Unesite vrednost izraženu u valuti"
+
+#. i18n: file calculator.ui line 1460
+#: rc.cpp:87
+#, no-c-format
+msgid "Divide"
+msgstr "Podeli"
+
+#. i18n: file calculator.ui line 1472
+#: rc.cpp:90
+#, no-c-format
+msgid "Currencies"
+msgstr "Valute"
+
+#. i18n: file calculator.ui line 1498
+#: rc.cpp:94
+#, no-c-format
+msgid "Correct last input digit"
+msgstr "Ispravi poslednju ulaznu cifru"
+
+#. i18n: file calculator.ui line 1516
+#: rc.cpp:98
+#, no-c-format
+msgid "Subtract"
+msgstr "Oduzmi"
+
+#. i18n: file calculator.ui line 1531
+#: rc.cpp:102
+#, no-c-format
+msgid "Change sign"
+msgstr "Promeni znak"
+
+#. i18n: file calculator.ui line 1543
+#: rc.cpp:105
+#, no-c-format
+msgid "&About..."
+msgstr "&O..."
+
+#. i18n: file calculator.ui line 1546
+#: rc.cpp:108
+#, no-c-format
+msgid "Display about box"
+msgstr "Prikaži informacije o programu"
+
+#. i18n: file settingsdialog.ui line 16
+#: rc.cpp:115
+#, no-c-format
+msgid "Settings..."
+msgstr "Podešavanja..."
+
+#. i18n: file settingsdialog.ui line 35
+#: rc.cpp:118
+#, no-c-format
+msgid "Default currency"
+msgstr "Podrazumevana valuta"
+
+#. i18n: file settingsdialog.ui line 62
+#: rc.cpp:121
+#, no-c-format
+msgid "Reference currency, rates origin"
+msgstr "Referentna valuta, osnova za cene"
+
+#. i18n: file settingsdialog.ui line 77
+#: rc.cpp:124
+#, no-c-format
+msgid "Euro, no ne&twork access (fixed rates only)"
+msgstr "Evro, bez mrežnog pris&tupa (fiksni odnos)"
+
+#. i18n: file settingsdialog.ui line 95
+#: rc.cpp:127
+#, no-c-format
+msgid "Euro, European Central &Bank"
+msgstr "Evro, Evropska centralna &banka"
+
+#. i18n: file settingsdialog.ui line 113
+#: rc.cpp:130
+#, no-c-format
+msgid "&Dollar, New York Federal Reserve Bank"
+msgstr "&Dolar, Njujorška banka federalnih rezervi"
+
+#. i18n: file settingsdialog.ui line 134
+#: rc.cpp:133
+#, no-c-format
+msgid "Rounding"
+msgstr "Zaokruživanje"
+
+#. i18n: file settingsdialog.ui line 149
+#: rc.cpp:136
+#, no-c-format
+msgid "Official roundin&g rules"
+msgstr "&Zvanično pravilo zaokruživanja"
+
+#. i18n: file settingsdialog.ui line 164
+#: rc.cpp:139
+#, no-c-format
+msgid "&Smallest coin method"
+msgstr "Način &najmanje pare"
+
+#. i18n: file settingsdialog.ui line 187
+#: rc.cpp:142
+#, no-c-format
+msgid "&No rounding at all"
+msgstr "&Bez zaokruživanja"
+
+#. i18n: file settingsdialog.ui line 200
+#: rc.cpp:145
+#, no-c-format
+msgid "Look and feel"
+msgstr "Izgled i osećaj"
+
+#. i18n: file settingsdialog.ui line 236
+#: rc.cpp:148
+#, no-c-format
+msgid "Display color"
+msgstr "Boja prikaza"
+
+#. i18n: file settingsdialog.ui line 513
+#: rc.cpp:151
+#, no-c-format
+msgid "215.06 €"
+msgstr "215.06 €"
+
+#. i18n: file settingsdialog.ui line 531
+#: rc.cpp:154
+#, no-c-format
+msgid "C&hange..."
+msgstr "P&romeni..."
+
+#. i18n: file settingsdialog.ui line 583
+#: rc.cpp:157
+#, no-c-format
+msgid "Enable splash screen"
+msgstr "Uključi pozdravni ekran"
+
+#. i18n: file settingsdialog.ui line 654
+#: rc.cpp:160
+#, no-c-format
+msgid "O&K"
+msgstr "U &redu"
+
+#. i18n: file settingsdialog.ui line 665
+#: rc.cpp:163
+#, no-c-format
+msgid "Cance&l"
+msgstr "Po&ništi"
