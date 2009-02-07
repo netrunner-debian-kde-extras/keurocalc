@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-04-03 08:10+0200\n"
+"POT-Creation-Date: 2009-01-09 16:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,160 +16,160 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: calculator.cpp:2386
+#: calculator.cpp:783
 msgid "Currency Calculator"
 msgstr ""
 
-#: calculator.cpp:2387
+#: calculator.cpp:787
 msgid "Input"
 msgstr ""
 
-#: calculator.cpp:2390
+#: calculator.cpp:790
 msgid "Result"
 msgstr ""
 
-#: calculator.cpp:2395
-msgid "Substract from memory"
-msgstr ""
-
-#: calculator.cpp:2397
-msgid "Multiply"
-msgstr ""
-
-#: calculator.cpp:2398
-msgid "Reset"
-msgstr ""
-
-#: calculator.cpp:2400
-msgid "Reset both input, result and memory"
-msgstr ""
-
-#: calculator.cpp:2402
-msgid "Enter"
-msgstr ""
-
-#: calculator.cpp:2403
-msgid "Enter simple value"
-msgstr ""
-
-#: calculator.cpp:2404
-msgid "&Settings..."
-msgstr ""
-
-#: calculator.cpp:2405 settingsdialog.cpp:268
-msgid "Alt+S"
-msgstr ""
-
-#: calculator.cpp:2406
-msgid "Configure KEuroCalc"
-msgstr ""
-
-#: calculator.cpp:2410
-msgid "Add"
-msgstr ""
-
-#: calculator.cpp:2412
-msgid "Apply percentage value"
-msgstr ""
-
-#: calculator.cpp:2415
-msgid "Store in memory"
-msgstr ""
-
-#: calculator.cpp:2418
-msgid "Recall from memory"
-msgstr ""
-
-#: calculator.cpp:2421
-msgid "Enter value expressed in reference currency"
-msgstr ""
-
-#: calculator.cpp:2424
-msgid "Add to memory"
-msgstr ""
-
-#: calculator.cpp:2425
-msgid "&Help..."
-msgstr ""
-
-#: calculator.cpp:2426 settingsdialog.cpp:275
-msgid "Alt+H"
-msgstr ""
-
-#: calculator.cpp:2427
-msgid "Display help pages"
-msgstr ""
-
-#: calculator.cpp:2429
-msgid "Enter value expressed in currency"
-msgstr ""
-
-#: calculator.cpp:2432
-msgid "Divide"
-msgstr ""
-
-#: calculator.cpp:2433
-msgid "Currencies"
-msgstr ""
-
-#: calculator.cpp:2435
+#: calculator.cpp:797
 msgid "Correct last input digit"
 msgstr ""
 
-#: calculator.cpp:2437
-msgid "Subtract"
+#: calculator.cpp:803
+msgid "Enter value expressed in reference currency"
 msgstr ""
 
-#: calculator.cpp:2439
-msgid "Change sign"
+#: calculator.cpp:809
+msgid "Divide"
 msgstr ""
 
-#: calculator.cpp:2440
-msgid "&About..."
+#: calculator.cpp:815
+msgid "Store in memory"
 msgstr ""
 
-#: calculator.cpp:2441
-msgid "Alt+A"
+#: calculator.cpp:821
+msgid "Reset both input, result and memory"
 msgstr ""
 
-#: calculator.cpp:2442
+#: calculator.cpp:824
+msgid "Reset"
+msgstr ""
+
+#: calculator.cpp:831
+msgid "Enter value expressed in currency"
+msgstr ""
+
+#: calculator.cpp:837
+msgid "Multiply"
+msgstr ""
+
+#: calculator.cpp:843
+msgid "Recall from memory"
+msgstr ""
+
+#: calculator.cpp:849
 msgid "Display about box"
 msgstr ""
 
-#: keurocalc.cpp:69
+#: calculator.cpp:852
+msgid "&About..."
+msgstr ""
+
+#: calculator.cpp:853
+msgid "Alt+A"
+msgstr ""
+
+#: calculator.cpp:859
+msgid "Enter simple value"
+msgstr ""
+
+#: calculator.cpp:862
+msgid "Enter"
+msgstr ""
+
+#: calculator.cpp:865
+msgid "Subtract"
+msgstr ""
+
+#: calculator.cpp:871
+msgid "Substract from memory"
+msgstr ""
+
+#: calculator.cpp:877
+msgid "Display help pages"
+msgstr ""
+
+#: calculator.cpp:880
+msgid "&Help..."
+msgstr ""
+
+#: calculator.cpp:881 settingsdialog.cpp:371
+msgid "Alt+H"
+msgstr ""
+
+#: calculator.cpp:886
+msgid "Apply percentage value"
+msgstr ""
+
+#: calculator.cpp:892
+msgid "Change sign"
+msgstr ""
+
+#: calculator.cpp:898
+msgid "Add"
+msgstr ""
+
+#: calculator.cpp:904
+msgid "Add to memory"
+msgstr ""
+
+#: calculator.cpp:910
+msgid "Configure KEuroCalc"
+msgstr ""
+
+#: calculator.cpp:913
+msgid "&Settings..."
+msgstr ""
+
+#: calculator.cpp:914 settingsdialog.cpp:364
+msgid "Alt+S"
+msgstr ""
+
+#: calculator.cpp:917
+msgid "Currencies"
+msgstr ""
+
+#: keurocalc.cpp:71
 msgid "Cannot load currencies.xml"
 msgstr ""
 
-#: keurocalc.cpp:439 keurocalc.cpp:513
-msgid "Not loaded"
-msgstr ""
-
-#: keurocalc.cpp:1205
+#: keurocalc.cpp:968
 msgid "Fixed"
 msgstr ""
 
-#: keurocalc.cpp:1209
+#: keurocalc.cpp:972
 msgid "ECB"
 msgstr ""
 
-#: keurocalc.cpp:1210 keurocalc.cpp:1214
+#: keurocalc.cpp:973 keurocalc.cpp:977
 msgid "Loading..."
 msgstr ""
 
-#: keurocalc.cpp:1213
+#: keurocalc.cpp:976
 msgid "NY FRB"
 msgstr ""
 
-#: keurocalc.cpp:1219
+#: keurocalc.cpp:982
 msgid "Official rules"
 msgstr ""
 
-#: keurocalc.cpp:1222
+#: keurocalc.cpp:985
 msgid "Smallest coin"
 msgstr ""
 
-#: keurocalc.cpp:1225
+#: keurocalc.cpp:988
 msgid "No rounding"
+msgstr ""
+
+#: keurocalc.cpp:1053
+msgid "Not loaded"
 msgstr ""
 
 #: main.cpp:31
@@ -181,7 +181,7 @@ msgid "Cash converter and calculator"
 msgstr ""
 
 #: main.cpp:33
-msgid "(c) 2001-2006, the KEuroCalc developers"
+msgid "(c) 2001-2009, the KEuroCalc developers"
 msgstr ""
 
 #: main.cpp:34
@@ -192,326 +192,342 @@ msgid ""
 "knows that money does not justify anything...\n"
 msgstr ""
 
-#: main.cpp:46
+#: main.cpp:42
+msgid "Éric Bischoff"
+msgstr ""
+
+#: main.cpp:42
 msgid "Design and implementation"
 msgstr ""
 
-#: main.cpp:47
+#: main.cpp:43
+msgid "Gil Gross"
+msgstr ""
+
+#: main.cpp:43
 msgid "Additional functionnality"
 msgstr ""
 
-#: main.cpp:48
+#: main.cpp:44
+msgid "Melchior Franz"
+msgstr ""
+
+#: main.cpp:44
 msgid "Design and testing"
 msgstr ""
 
-#: main.cpp:49
+#: main.cpp:45
+msgid "Bas Willems"
+msgstr ""
+
+#: main.cpp:45
 msgid "Graphical artwork"
-msgstr ""
-
-#: names.cpp:1
-msgid "Austrian schilling"
-msgstr ""
-
-#: names.cpp:2
-msgid "Australian dollar"
-msgstr ""
-
-#: names.cpp:3
-msgid "Belgian franc"
-msgstr ""
-
-#: names.cpp:4
-msgid "Bulgarian lev"
-msgstr ""
-
-#: names.cpp:5
-msgid "Brazilian real"
-msgstr ""
-
-#: names.cpp:6
-msgid "Canadian dollar"
-msgstr ""
-
-#: names.cpp:7
-msgid "Swiss franc"
-msgstr ""
-
-#: names.cpp:8
-msgid "Chinese yuan"
-msgstr ""
-
-#: names.cpp:9
-msgid "Cyprus pound"
-msgstr ""
-
-#: names.cpp:10
-msgid "Czech koruna"
-msgstr ""
-
-#: names.cpp:11
-msgid "German deutschmark"
-msgstr ""
-
-#: names.cpp:12
-msgid "Danish krone"
-msgstr ""
-
-#: names.cpp:13
-msgid "Estonian kroon"
-msgstr ""
-
-#: names.cpp:14
-msgid "Spanish peseta"
-msgstr ""
-
-#: names.cpp:15
-msgid "EU euro"
-msgstr ""
-
-#: names.cpp:16
-msgid "Finnish markka"
-msgstr ""
-
-#: names.cpp:17
-msgid "French franc"
-msgstr ""
-
-#: names.cpp:18
-msgid "Great Britain pound"
-msgstr ""
-
-#: names.cpp:19
-msgid "Greek drachma"
-msgstr ""
-
-#: names.cpp:20
-msgid "Hong kong dollar"
-msgstr ""
-
-#: names.cpp:21
-msgid "Croatian kuna"
-msgstr ""
-
-#: names.cpp:22
-msgid "Hungarian forint"
-msgstr ""
-
-#: names.cpp:23
-msgid "Indonesian rupiah"
-msgstr ""
-
-#: names.cpp:24
-msgid "Irish punt"
-msgstr ""
-
-#: names.cpp:25
-msgid "Indian rupee"
-msgstr ""
-
-#: names.cpp:26
-msgid "Icelandic krona"
-msgstr ""
-
-#: names.cpp:27
-msgid "Italian lira"
-msgstr ""
-
-#: names.cpp:28
-msgid "Japanese yen"
-msgstr ""
-
-#: names.cpp:29
-msgid "South Korean won"
-msgstr ""
-
-#: names.cpp:30
-msgid "Sri Lankan rupee"
-msgstr ""
-
-#: names.cpp:31
-msgid "Latvian lats"
-msgstr ""
-
-#: names.cpp:32
-msgid "Luxembourg franc"
-msgstr ""
-
-#: names.cpp:33
-msgid "Lithuanian litas"
-msgstr ""
-
-#: names.cpp:34
-msgid "Maltese lira"
-msgstr ""
-
-#: names.cpp:35
-msgid "Mexican peso"
-msgstr ""
-
-#: names.cpp:36
-msgid "Malaysian ringgit"
-msgstr ""
-
-#: names.cpp:37
-msgid "Dutch gulden"
-msgstr ""
-
-#: names.cpp:38
-msgid "Norvegian krone"
-msgstr ""
-
-#: names.cpp:39
-msgid "New Zealand dollar"
-msgstr ""
-
-#: names.cpp:40
-msgid "Philippine peso"
-msgstr ""
-
-#: names.cpp:41
-msgid "Polish zloty"
-msgstr ""
-
-#: names.cpp:42
-msgid "Portuguese escudo"
-msgstr ""
-
-#: names.cpp:43
-msgid "New Romanian leu"
-msgstr ""
-
-#: names.cpp:44
-msgid "Russian rouble"
-msgstr ""
-
-#: names.cpp:45
-msgid "Swedish krona"
-msgstr ""
-
-#: names.cpp:46
-msgid "Singapore dollar"
-msgstr ""
-
-#: names.cpp:47
-msgid "Slovenian tolar"
-msgstr ""
-
-#: names.cpp:48
-msgid "Slovakian koruna"
-msgstr ""
-
-#: names.cpp:49
-msgid "Thailandese baht"
-msgstr ""
-
-#: names.cpp:50
-msgid "New Turkish lira"
-msgstr ""
-
-#: names.cpp:51
-msgid "New Taiwanese dollar"
-msgstr ""
-
-#: names.cpp:52
-msgid "US dollar"
-msgstr ""
-
-#: names.cpp:53
-msgid "Venezuelian bolivar"
 msgstr ""
 
 #: names.cpp:54
 msgid "South African rand"
 msgstr ""
 
-#: settingsdialog.cpp:256
+#: names.cpp:53
+msgid "Venezuelian bolivar"
+msgstr ""
+
+#: names.cpp:52
+msgid "US dollar"
+msgstr ""
+
+#: names.cpp:51
+msgid "New Taiwanese dollar"
+msgstr ""
+
+#: names.cpp:50
+msgid "New Turkish lira"
+msgstr ""
+
+#: names.cpp:49
+msgid "Thailandese baht"
+msgstr ""
+
+#: names.cpp:48
+msgid "Slovakian koruna"
+msgstr ""
+
+#: names.cpp:47
+msgid "Slovenian tolar"
+msgstr ""
+
+#: names.cpp:46
+msgid "Singapore dollar"
+msgstr ""
+
+#: names.cpp:45
+msgid "Swedish krona"
+msgstr ""
+
+#: names.cpp:44
+msgid "Russian rouble"
+msgstr ""
+
+#: names.cpp:43
+msgid "New Romanian leu"
+msgstr ""
+
+#: names.cpp:42
+msgid "Portuguese escudo"
+msgstr ""
+
+#: names.cpp:41
+msgid "Polish zloty"
+msgstr ""
+
+#: names.cpp:40
+msgid "Philippine peso"
+msgstr ""
+
+#: names.cpp:39
+msgid "New Zealand dollar"
+msgstr ""
+
+#: names.cpp:38
+msgid "Norvegian krone"
+msgstr ""
+
+#: names.cpp:37
+msgid "Dutch gulden"
+msgstr ""
+
+#: names.cpp:36
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: names.cpp:35
+msgid "Mexican peso"
+msgstr ""
+
+#: names.cpp:34
+msgid "Maltese lira"
+msgstr ""
+
+#: names.cpp:33
+msgid "Latvian latas"
+msgstr ""
+
+#: names.cpp:32
+msgid "Luxembourg franc"
+msgstr ""
+
+#: names.cpp:31
+msgid "Lituanian litas"
+msgstr ""
+
+#: names.cpp:30
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: names.cpp:29
+msgid "South Korean won"
+msgstr ""
+
+#: names.cpp:28
+msgid "Japanese yen"
+msgstr ""
+
+#: names.cpp:27
+msgid "Italian lira"
+msgstr ""
+
+#: names.cpp:26
+msgid "Icelandic krona"
+msgstr ""
+
+#: names.cpp:25
+msgid "Indian rupee"
+msgstr ""
+
+#: names.cpp:24
+msgid "Irish punt"
+msgstr ""
+
+#: names.cpp:23
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: names.cpp:22
+msgid "Hungarian forint"
+msgstr ""
+
+#: names.cpp:21
+msgid "Croatian kuna"
+msgstr ""
+
+#: names.cpp:20
+msgid "Hong kong dollar"
+msgstr ""
+
+#: names.cpp:19
+msgid "Greek drachma"
+msgstr ""
+
+#: names.cpp:18
+msgid "Great Britain pound"
+msgstr ""
+
+#: names.cpp:17
+msgid "French franc"
+msgstr ""
+
+#: names.cpp:16
+msgid "Finnish markka"
+msgstr ""
+
+#: names.cpp:15
+msgid "EU euro"
+msgstr ""
+
+#: names.cpp:14
+msgid "Spanish peseta"
+msgstr ""
+
+#: names.cpp:13
+msgid "Estonian kroon"
+msgstr ""
+
+#: names.cpp:12
+msgid "Danish krone"
+msgstr ""
+
+#: names.cpp:11
+msgid "German deutschmark"
+msgstr ""
+
+#: names.cpp:10
+msgid "Czech koruna"
+msgstr ""
+
+#: names.cpp:9
+msgid "Cyprus pound"
+msgstr ""
+
+#: names.cpp:8
+msgid "Chinese yuan"
+msgstr ""
+
+#: names.cpp:7
+msgid "Swiss franc"
+msgstr ""
+
+#: names.cpp:6
+msgid "Canadian dollar"
+msgstr ""
+
+#: names.cpp:5
+msgid "Brazilian real"
+msgstr ""
+
+#: names.cpp:4
+msgid "Bulgarian lev"
+msgstr ""
+
+#: names.cpp:3
+msgid "Belgian franc"
+msgstr ""
+
+#: names.cpp:2
+msgid "Australian dollar"
+msgstr ""
+
+#: names.cpp:1
+msgid "Austrian schilling"
+msgstr ""
+
+#: settingsdialog.cpp:352
 msgid "Settings..."
 msgstr ""
 
-#: settingsdialog.cpp:257
+#: settingsdialog.cpp:353
 msgid "Default currency"
 msgstr ""
 
-#: settingsdialog.cpp:258
+#: settingsdialog.cpp:354
 msgid "Reference currency, rates origin"
 msgstr ""
 
-#: settingsdialog.cpp:259
+#: settingsdialog.cpp:355
 msgid "Euro, no ne&twork access (fixed rates only)"
 msgstr ""
 
-#: settingsdialog.cpp:260
+#: settingsdialog.cpp:356
 msgid "Alt+T"
 msgstr ""
 
-#: settingsdialog.cpp:261
+#: settingsdialog.cpp:357
 msgid "Euro, European Central &Bank"
 msgstr ""
 
-#: settingsdialog.cpp:262
+#: settingsdialog.cpp:358
 msgid "Alt+B"
 msgstr ""
 
-#: settingsdialog.cpp:263
+#: settingsdialog.cpp:359
 msgid "&Dollar, New York Federal Reserve Bank"
 msgstr ""
 
-#: settingsdialog.cpp:264
+#: settingsdialog.cpp:360
 msgid "Alt+D"
 msgstr ""
 
-#: settingsdialog.cpp:265
+#: settingsdialog.cpp:361
 msgid "Rounding"
 msgstr ""
 
-#: settingsdialog.cpp:266
+#: settingsdialog.cpp:362
 msgid "Official roundin&g rules"
 msgstr ""
 
-#: settingsdialog.cpp:267
+#: settingsdialog.cpp:363
 msgid "&Smallest coin method"
 msgstr ""
 
-#: settingsdialog.cpp:269
+#: settingsdialog.cpp:365
 msgid "&No rounding at all"
 msgstr ""
 
-#: settingsdialog.cpp:270
+#: settingsdialog.cpp:366
 msgid "Alt+N"
 msgstr ""
 
-#: settingsdialog.cpp:271
+#: settingsdialog.cpp:367
 msgid "Look and feel"
 msgstr ""
 
-#: settingsdialog.cpp:272
+#: settingsdialog.cpp:368
 msgid "Display color"
 msgstr ""
 
-#: settingsdialog.cpp:273
+#: settingsdialog.cpp:369
 msgid "215.06 €"
 msgstr ""
 
-#: settingsdialog.cpp:274
+#: settingsdialog.cpp:370
 msgid "C&hange..."
 msgstr ""
 
-#: settingsdialog.cpp:276
+#: settingsdialog.cpp:372
 msgid "Enable splash screen"
 msgstr ""
 
-#: settingsdialog.cpp:277
+#: settingsdialog.cpp:373
 msgid "O&K"
 msgstr ""
 
-#: settingsdialog.cpp:278
+#: settingsdialog.cpp:374
 msgid "Alt+K"
 msgstr ""
 
-#: settingsdialog.cpp:279
+#: settingsdialog.cpp:375
 msgid "Cance&l"
 msgstr ""
 
-#: settingsdialog.cpp:280
+#: settingsdialog.cpp:376
 msgid "Alt+L"
 msgstr ""

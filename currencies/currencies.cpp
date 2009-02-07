@@ -2,7 +2,7 @@
                          currencies.cpp  -  list of currencies
                              -------------------
     begin                : sam déc  1 23:40:19 CET 2001
-    copyright            : (C) 2001-2008 by Éric Bischoff
+    copyright            : (C) 2001-2009 by Éric Bischoff
     email                : ebischoff@nerim.net
  ***************************************************************************/
 
@@ -58,7 +58,7 @@ bool Currencies::readCurrencies( const char *filename )
 	QString name;
 
 	numCurrencies = currenciesList.count();
-	if (currency) delete currency;
+	if (currency) delete [] currency;
 	currency = new currencyStruc[numCurrencies];
 	for (num = 0; num < numCurrencies; num++)
 	{
