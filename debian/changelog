@@ -1,8 +1,9 @@
-keurocalc (1.0.2-2) UNRELEASED; urgency=low
+keurocalc (1.0.2-2) unstable; urgency=low
 
-  * Prepare for upcoming sid upload.
+  * Released to unstable.
+  * Bumped Standards-Version to 3.8.1, no changes needed.
 
- -- Michael Meskes <meskes@debian.org>  Mon, 09 Feb 2009 13:14:24 +0100
+ -- Michael Meskes <meskes@debian.org>  Tue, 07 Apr 2009 13:08:55 +0200
 
 keurocalc (1.0.2-1) experimental; urgency=low
 
