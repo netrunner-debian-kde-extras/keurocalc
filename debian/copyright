@@ -47,7 +47,7 @@ The following files are licensed under the GNU Free Documentation License:
 The full text of the GNU General Public License version 2 is available on
 Debian systems in /usr/share/common-licenses/GFDL.
 
-The Debian packaging is (C) 2005-2009, Claudio Moratti <maxer@knio.it> and
-Michael Meskes <meskes@debian.org>. It is licensed under the GPL, either
+The Debian packaging is Copyright C) 2005-2010, Claudio Moratti <maxer@knio.it>
+and Michael Meskes <meskes@debian.org>. It is licensed under the GPL, either
 version 2, or (at your option) any later version, see above.
 
