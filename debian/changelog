@@ -1,3 +1,11 @@
+keurocalc (1.0.2-3) unstable; urgency=low
+
+  * Added cmake build dependency which is no longer provided by
+    kdelibs5-dev.
+  * Bumped Standards-Version to 3.8.4, no changes needed.
+
+ -- Michael Meskes <meskes@debian.org>  Thu, 06 May 2010 10:42:39 +0200
+
 keurocalc (1.0.2-2) unstable; urgency=low
 
   * Released to unstable.
