@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keurocalc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2006-07-12 04:09+0000\n"
+"POT-Creation-Date: 2010-05-17 04:10+0000\n"
 "PO-Revision-Date: 2007-07-14 00:42+0200\n"
 "Last-Translator: Rinse de Vries <rinsedevries@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-KDE-DocBook-SVN-URL: trunk/extragear/utils/doc/keurocalc/index.docbook\n"
 "X-KDE-DocBook-SVN-Changed-Revision: 525912\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Tag: title
 #: index.docbook:12
@@ -41,153 +41,159 @@ msgstr "ebischoff@_NOSPAM_nerim.net"
 #, no-c-format
 msgid "ROLES_OF_TRANSLATORS"
 msgstr ""
-"<othercredit role=\"translator\"><firstname>Jaap</firstname><surname>"
-"Woldringh</surname><affiliation><address><email>jjh.woldringh@_NOSPAM_planet.nl<"
-"/email></address></affiliation><contrib></contrib></othercredit>"
+"<othercredit role=\"translator\"><firstname>Jaap</"
+"firstname><surname>Woldringh</surname><affiliation><address><email>jjh."
+"woldringh@_NOSPAM_planet.nl</email></address></affiliation><contrib></"
+"contrib></othercredit>"
 
 #. Tag: holder
-#: index.docbook:33
+#: index.docbook:28
 #, no-c-format
 msgid "Éric Bischoff"
 msgstr "Éric Bischoff"
 
 #. Tag: para
-#: index.docbook:41
-#, no-c-format
+#: index.docbook:36
+#, fuzzy, no-c-format
+#| msgid ""
+#| "&keurocalc; is an universal pocket currency converter and calculator. "
+#| "This documentation describes &keurocalc; version 0.9.6."
 msgid ""
 "&keurocalc; is an universal pocket currency converter and calculator. This "
-"documentation describes &keurocalc; version 0.9.6."
+"documentation describes &keurocalc; version 1.0.0."
 msgstr ""
-"&keurocalc; is een universele rekenmachine die geschikt is voor het omrekenen "
-"van munteenheden. In deze documentatie wordt &keurocalc; versie 0.9.6 "
-"beschreven."
+"&keurocalc; is een universele rekenmachine die geschikt is voor het "
+"omrekenen van munteenheden. In deze documentatie wordt &keurocalc; versie "
+"0.9.6 beschreven."
 
 #. Tag: keyword
-#: index.docbook:48
+#: index.docbook:43
 #, no-c-format
 msgid "<keyword>KDE</keyword>"
 msgstr "<keyword>KDE</keyword>"
 
 #. Tag: keyword
-#: index.docbook:49
+#: index.docbook:44
 #, no-c-format
 msgid "extragear"
 msgstr "extragear"
 
 #. Tag: keyword
-#: index.docbook:50
+#: index.docbook:45
 #, no-c-format
 msgid "KEuroCalc"
 msgstr "KEuroCalc"
 
 #. Tag: keyword
-#: index.docbook:51
+#: index.docbook:46
 #, no-c-format
 msgid "currency"
 msgstr "munteenheid"
 
 #. Tag: keyword
-#: index.docbook:52
+#: index.docbook:47
 #, no-c-format
 msgid "converter"
 msgstr "omrekenmachine"
 
 #. Tag: keyword
-#: index.docbook:53
+#: index.docbook:48
 #, no-c-format
 msgid "calculator"
 msgstr "rekenmachine"
 
 #. Tag: title
-#: index.docbook:59
+#: index.docbook:54
 #, no-c-format
 msgid "Introduction"
 msgstr "Inleiding"
 
 #. Tag: para
-#: index.docbook:61
+#: index.docbook:56
 #, no-c-format
 msgid "&keurocalc; is an universal pocket currency converter and calculator."
 msgstr ""
-"&keurocalc; is een universele rekenmachine die geschikt is voor het omrekenen "
-"van munteenheden."
+"&keurocalc; is een universele rekenmachine die geschikt is voor het "
+"omrekenen van munteenheden."
 
 #. Tag: para
-#: index.docbook:65
-#, no-c-format
+#: index.docbook:60
+#, fuzzy, no-c-format
+#| msgid ""
+#| "On the 1st of January, 2002, 12 European countries united their national "
+#| "currencies into a single one, the euro (€). The same will probably happen "
+#| "in 2007 in some Eastern European countries. &keurocalc; helps:"
 msgid ""
 "On the 1st of January, 2002, 12 European countries united their national "
-"currencies into a single one, the euro (€). The same will probably happen in "
-"2007 in some Eastern European countries. &keurocalc; helps:"
+"currencies into a single one, the euro (€). The same happens from time to "
+"time on a smaller scale with new European countries. &keurocalc; helps:"
 msgstr ""
-"Op 1 Januari 2002 voegden 12 Europese landen hun nationale valuta samen in een "
-"enkele, de euro (€). Hetzelfde zal mogelijk in 2007 het geval zijn voor enkele "
-"Oost-Europese landen. &keurocalc; helpt:"
+"Op 1 Januari 2002 voegden 12 Europese landen hun nationale valuta samen in "
+"een enkele, de euro (€). Hetzelfde zal mogelijk in 2007 het geval zijn voor "
+"enkele Oost-Europese landen. &keurocalc; helpt:"
 
 #. Tag: term
-#: index.docbook:72
+#: index.docbook:67
 #, no-c-format
 msgid "During the transition periods"
 msgstr "Gedurende de overgangsperioden"
 
 #. Tag: para
-#: index.docbook:75
+#: index.docbook:70
 #, no-c-format
 msgid ""
-"To verify one's bank account, when paying both in euros and in the old currency "
-"(Italian liras, for example)."
+"To verify one's bank account, when paying both in euros and in the old "
+"currency (Italian liras, for example)."
 msgstr ""
-"Om iemands bankrekening te controleren, bij het betalen in zowel euro's als in "
-"de oude munteenheden (Italiaanse lires bijvoorbeeld)."
+"Om iemands bankrekening te controleren, bij het betalen in zowel euro's als "
+"in de oude munteenheden (Italiaanse lires bijvoorbeeld)."
 
 #. Tag: para
-#: index.docbook:77
+#: index.docbook:72
 #, no-c-format
 msgid ""
 "To verify one's shopping, and compute the change if paying with a banknote "
 "labeled in the old currency."
 msgstr ""
-"Om uw uitgaven te controleren en het wisselgeld te kunnen berekenen indien er "
-"wordt betaald met een bankbiljet in de oude munteenheid."
+"Om uw uitgaven te controleren en het wisselgeld te kunnen berekenen indien "
+"er wordt betaald met een bankbiljet in de oude munteenheid."
 
 #. Tag: term
-#: index.docbook:84
+#: index.docbook:79
 #, no-c-format
 msgid "Many years after the transition periods"
 msgstr "Vele jaren na de overgangsperioden"
 
 #. Tag: para
-#: index.docbook:85
+#: index.docbook:80
 #, no-c-format
 msgid ""
-"To get an idea of the value of the things in the old currency at any stage of "
-"calculations."
+"To get an idea of the value of the things in the old currency at any stage "
+"of calculations."
 msgstr ""
 "Om op elk moment van de berekeningen een idee te hebben van de bedragen "
 "uitgedrukt in de oude munteenheid."
 
 #. Tag: term
-#: index.docbook:90
+#: index.docbook:85
 #, no-c-format
 msgid "At any time"
 msgstr "Op elk moment"
 
 #. Tag: para
-#: index.docbook:93
+#: index.docbook:88
 #, no-c-format
 msgid ""
 "To do conversions between the euro and other currencies, like the British "
-"Pound, according to the daily exchange rate defined by the <ulink "
-"url=\"http://www.ecb.int/stats/eurofxref/\">European Central Bank (ECB)</ulink>"
-"."
+"Pound, according to the daily exchange rate defined by the <ulink url="
+"\"http://www.ecb.int/stats/eurofxref/\">European Central Bank (ECB)</ulink>."
 msgstr ""
 "Om de euro en andere valuta zoals het Britse Pond naar elkaar te kunnen "
-"omrekenen, volgens de dagelijkse wisselkoersen van de <ulink "
-"url=\"http://www.ecb.int/stats/eurofxref/\">Europese Centrale Bank (ECB)</ulink>"
-"."
+"omrekenen, volgens de dagelijkse wisselkoersen van de <ulink url=\"http://"
+"www.ecb.int/stats/eurofxref/\">Europese Centrale Bank (ECB)</ulink>."
 
 #. Tag: para
-#: index.docbook:96
+#: index.docbook:91
 #, no-c-format
 msgid ""
 "To do conversions between any two currencies that are part of the list "
@@ -197,31 +203,29 @@ msgstr ""
 "voorkomen, naar elkaar te kunnen omrekenen."
 
 #. Tag: para
-#: index.docbook:98
+#: index.docbook:93
 #, no-c-format
 msgid ""
-"To do conversions between the US dollar and other currencies according to the "
-"daily exchange rate defined by the <ulink "
-"url=\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">"
-"New York Federal Reserve Bank (NY FRB)</ulink>."
+"To do conversions between the US dollar and other currencies according to "
+"the daily exchange rate defined by the <ulink url=\"http://www.ny.frb.org/"
+"markets/fxrates/noon.cfm\">New York Federal Reserve Bank (NY FRB)</ulink>."
 msgstr ""
 "Om de US-dollar en andere valuta naar elkaar te kunnen omrekenen, volgens de "
-"dagelijkse wisselkoersen van de <ulink "
-"url=\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">"
-"New York Federal Reserve Bank (NY FRB)</ulink>."
+"dagelijkse wisselkoersen van de <ulink url=\"http://www.ny.frb.org/markets/"
+"fxrates/noon.cfm\">New York Federal Reserve Bank (NY FRB)</ulink>."
 
 #. Tag: para
-#: index.docbook:102
+#: index.docbook:97
 #, no-c-format
 msgid ""
 "To do conversions between any two currencies that are part of the list "
 "published the NY FRB."
 msgstr ""
-"Om elke twee valuta, die in de door door de NY FRB gepubliceerde (koersen)lijst "
-"voorkomen, naar elkaar te kunnen omrekenen."
+"Om elke twee valuta, die in de door door de NY FRB gepubliceerde (koersen)"
+"lijst voorkomen, naar elkaar te kunnen omrekenen."
 
 #. Tag: para
-#: index.docbook:111
+#: index.docbook:106
 #, no-c-format
 msgid ""
 "&keurocalc; has the following advantages in term of comfort and usability:"
@@ -229,40 +233,41 @@ msgstr ""
 "&keurocalc; heeft de volgende voordelen in termen van gemak en bruikbaarheid:"
 
 #. Tag: para
-#: index.docbook:115
+#: index.docbook:110
 #, no-c-format
 msgid ""
-"You see every intermediate value and the result in both the reference currency "
-"(euro or dollar) and in the other currency."
+"You see every intermediate value and the result in both the reference "
+"currency (euro or dollar) and in the other currency."
 msgstr ""
-"U ziet elk tussenresultaat en het antwoord in zowel de referentie-munteenheid "
-"(euro of dollar) als in de andere valuta."
+"U ziet elk tussenresultaat en het antwoord in zowel de referentie-"
+"munteenheid (euro of dollar) als in de andere valuta."
 
 #. Tag: para
-#: index.docbook:117
+#: index.docbook:112
 #, no-c-format
 msgid ""
 "There is a separate input area where you can type a new value while still "
 "having the previous result visible."
 msgstr ""
-"Er is een apart invoerscherm waarin u de nieuwe waarde kunt typen terwijl het "
-"vorige antwoord zichtbaar blijft."
+"Er is een apart invoerscherm waarin u de nieuwe waarde kunt typen terwijl "
+"het vorige antwoord zichtbaar blijft."
 
 #. Tag: para
-#: index.docbook:119
+#: index.docbook:114
 #, no-c-format
 msgid ""
-"The ergonomy is very close to usual pocket calculators, despite the fact that "
-"any value you type can be a value in the reference currency (euro or dollar), a "
-"value in the other currency, a percentage or an unit-less quantity."
+"The ergonomy is very close to usual pocket calculators, despite the fact "
+"that any value you type can be a value in the reference currency (euro or "
+"dollar), a value in the other currency, a percentage or an unit-less "
+"quantity."
 msgstr ""
 "De ergonomie is bijna gelijk aan die van de gewone zakrekenmachines, ondanks "
-"het feit dat elke waarde die u intypt een waarde kan zijn in de "
-"referentie-munteenheid (euro of dollar), een waarde in de andere munteenheid, "
-"een percentage of een hoeveelheid zonder eenheid."
+"het feit dat elke waarde die u intypt een waarde kan zijn in de referentie-"
+"munteenheid (euro of dollar), een waarde in de andere munteenheid, een "
+"percentage of een hoeveelheid zonder eenheid."
 
 #. Tag: para
-#: index.docbook:122
+#: index.docbook:117
 #, no-c-format
 msgid ""
 "You press the keys in the order you would speak aloud what you're doing."
@@ -271,97 +276,97 @@ msgstr ""
 "terwijl u hiermee bezig bent."
 
 #. Tag: para
-#: index.docbook:124
+#: index.docbook:119
 #, no-c-format
 msgid ""
-"If you make mistakes, a special correction button enables you to correct your "
-"last input data, as long as you didn't validate."
+"If you make mistakes, a special correction button enables you to correct "
+"your last input data, as long as you didn't validate."
 msgstr ""
-"Gemaakte fouten, zolang die nog niet zijn bevestigd, kunnen worden hersteld met "
-"behulp van een speciale correctietoets."
+"Gemaakte fouten, zolang die nog niet zijn bevestigd, kunnen worden hersteld "
+"met behulp van een speciale correctietoets."
 
 #. Tag: para
-#: index.docbook:126
+#: index.docbook:121
 #, no-c-format
 msgid ""
 "The numbers are displayed according to your locale settings: with either a "
 "comma or a dot as a decimal point, according to your &kcontrol; settings."
 msgstr ""
-"De getallen worden overeenkomstig de lokale instellingen weergegeven, met een "
-"komma of een punt als decimaal scheidingsteken. Dit wordt geregeld met uw "
-"instellingen in &kcontrol;."
+"De getallen worden overeenkomstig de lokale instellingen weergegeven, met "
+"een komma of een punt als decimaal scheidingsteken. Dit wordt geregeld met "
+"uw instellingen in &kcontrol;."
 
 #. Tag: para
-#: index.docbook:129
+#: index.docbook:124
 #, no-c-format
 msgid ""
-"You can decide which reference currency you want to use (euro or dollar), which "
-"other currency to start with when you launch &keurocalc;, and which rounding "
-"method to use."
+"You can decide which reference currency you want to use (euro or dollar), "
+"which other currency to start with when you launch &keurocalc;, and which "
+"rounding method to use."
 msgstr ""
-"U kunt bepalen welke referentie-munteenheid u wilt gebruiken (euro of dollar), "
-"met welke andere munteenheid u wilt beginnen bij het opstarten van &keurocalc;, "
-"en welke methode u wilt gebruiken voor het afronden."
+"U kunt bepalen welke referentie-munteenheid u wilt gebruiken (euro of "
+"dollar), met welke andere munteenheid u wilt beginnen bij het opstarten van "
+"&keurocalc;, en welke methode u wilt gebruiken voor het afronden."
 
 #. Tag: para
-#: index.docbook:135
+#: index.docbook:130
 #, no-c-format
 msgid "&keurocalc; allows the following operations:"
 msgstr "Met &keurocalc; zijn de volgende bewerkingen mogelijk:"
 
 #. Tag: para
-#: index.docbook:138
+#: index.docbook:133
 #, no-c-format
 msgid "Conversions from and to the reference currency (euro or dollar)."
 msgstr "Conversies van en naar de referentie-munteenheid (euro of dollar)."
 
 #. Tag: para
-#: index.docbook:139
+#: index.docbook:134
 #, no-c-format
 msgid ""
-"Systematic rounding of the displayed result, but computations done internally "
-"with the precision of the mathematical libraries."
+"Systematic rounding of the displayed result, but computations done "
+"internally with the precision of the mathematical libraries."
 msgstr ""
 "Het systematisch afronden van het getoonde antwoord, intern worden de "
 "berekeningen echter gedaan met de nauwkeurigheid van de wiskundige "
 "bibliotheken."
 
 #. Tag: para
-#: index.docbook:141
+#: index.docbook:136
 #, no-c-format
 msgid "Usual additions, subtractions, multiplications and divisions."
 msgstr "Het gebruikelijke optellen, aftrekken, vermenigvuldigen en delen."
 
 #. Tag: para
-#: index.docbook:142
+#: index.docbook:137
 #, no-c-format
 msgid "Apply a percentage, add a percentage, or subtract a percentage."
 msgstr "Een percentage toepassen, een percentage optellen of aftrekken."
 
 #. Tag: para
-#: index.docbook:144
+#: index.docbook:139
 #, no-c-format
 msgid ""
-"Possibility to store values in an intermediate memory, or use that memory as a "
-"running total."
+"Possibility to store values in an intermediate memory, or use that memory as "
+"a running total."
 msgstr ""
-"De mogelijkheid waarden op te slaan in een tussengeheugen, of om dat geheugen "
-"te gebruiken om totaalbedragen bij te houden."
+"De mogelijkheid waarden op te slaan in een tussengeheugen, of om dat "
+"geheugen te gebruiken om totaalbedragen bij te houden."
 
 #. Tag: para
-#: index.docbook:149
+#: index.docbook:144
 #, no-c-format
 msgid "Here are some limitations of &keurocalc;:"
 msgstr "Dit zijn enkele beperkingen van &keurocalc;:"
 
 #. Tag: para
-#: index.docbook:152
+#: index.docbook:147
 #, no-c-format
 msgid "No parenthesized or complex expressions."
 msgstr "Geen berekeningen met haakjes of ingewikkelde expressies."
 
 #. Tag: para
-#: index.docbook:153
+#: index.docbook:148
 #, no-c-format
 msgid ""
 "Some roundings go wrong due to the limitations of the mathematical library."
@@ -370,20 +375,20 @@ msgstr ""
 "wiskundige bibliotheek."
 
 #. Tag: para
-#: index.docbook:155
+#: index.docbook:150
 #, no-c-format
 msgid ""
-"Inflationist currencies cannot be handled due to limited display size. However, "
-"with the change to the new Turkish lira and the removal of six zeroes in that "
-"currency, it is not a practical problem anymore."
+"Inflationist currencies cannot be handled due to limited display size. "
+"However, with the change to the new Turkish lira and the removal of six "
+"zeroes in that currency, it is not a practical problem anymore."
 msgstr ""
-"Sterk aan inflatie onderhevige valuta kunnen niet worden behandeld als gevolg "
-"van de beperkte mogelijkheden de bedragen weer te geven. Maar met de overgang "
-"naar de nieuwe Turkse lire en het verwijderen van zes nullen bij deze "
-"munteenheid is dit geen praktisch probleem meer."
+"Sterk aan inflatie onderhevige valuta kunnen niet worden behandeld als "
+"gevolg van de beperkte mogelijkheden de bedragen weer te geven. Maar met de "
+"overgang naar de nieuwe Turkse lire en het verwijderen van zes nullen bij "
+"deze munteenheid is dit geen praktisch probleem meer."
 
 #. Tag: para
-#: index.docbook:159
+#: index.docbook:154
 #, no-c-format
 msgid ""
 "New York Federal Reserve Bank rates are not available during the non-working "
@@ -393,128 +398,127 @@ msgstr ""
 "wordt gewerkt niet beschikbaar (Kerstmis, Pasen, enz.)."
 
 #. Tag: para
-#: index.docbook:164
+#: index.docbook:159
 #, no-c-format
 msgid ""
 "&keurocalc; never guarantees the exactness of the exchange rates nor the "
-"accuracy of the result. You are always invited to verify your computations by "
-"some other means. As the <link linkend=\"credits\">license</link> "
+"accuracy of the result. You are always invited to verify your computations "
+"by some other means. As the <link linkend=\"credits\">license</link> "
 "agreement states, there's no liability of the authors if the results are not "
 "correct or as expected. Also, please notice that the variable exchange rates "
 "are downloaded in an unencrypted and therefore insecure manner from the data "
-"sources (European Central Bank and New York Federal Reserve Bank). Some <quote>"
-"man-in-the-middle</quote> attacker may confuse &keurocalc; by forging exchange "
-"rates. More simply, a transmission error is always possible."
+"sources (European Central Bank and New York Federal Reserve Bank). Some "
+"<quote>man-in-the-middle</quote> attacker may confuse &keurocalc; by forging "
+"exchange rates. More simply, a transmission error is always possible."
 msgstr ""
 "Met &keurocalc; worden de juiste koerswaarden noch de nauwkeurigheid van de "
 "antwoorden gegarandeerd. U moet altijd uw berekeningen verifiëren met een "
-"andere methode. Zoals u in de <link linkend=\"credits\">licentie</link>"
-"-overeenkomst kunt lezen zijn de auteurs niet aansprakelijk indien de "
-"antwoorden niet juist of naar verwachting zijn. Let er alstublieft ook op dat "
-"de variabele wisselkoersen zonder versleuteling en dus op een onveilige manier "
-"worden opgehaald van de gegevensbronnen (Europese Centrale Bank en New York "
-"Federal Reserve Bank). Een aanvaller die zich tussen deze bronnen en u bevindt "
-"(<quote>man-in-the-middle</quote> kan &keurocalc; om de tuin leiden door met "
-"deze wisselkoersen te knoeien. Of, eenvoudiger, er kan altijd een "
-"transmissiefout optreden."
+"andere methode. Zoals u in de <link linkend=\"credits\">licentie</link>-"
+"overeenkomst kunt lezen zijn de auteurs niet aansprakelijk indien de "
+"antwoorden niet juist of naar verwachting zijn. Let er alstublieft ook op "
+"dat de variabele wisselkoersen zonder versleuteling en dus op een onveilige "
+"manier worden opgehaald van de gegevensbronnen (Europese Centrale Bank en "
+"New York Federal Reserve Bank). Een aanvaller die zich tussen deze bronnen "
+"en u bevindt (<quote>man-in-the-middle</quote> kan &keurocalc; om de tuin "
+"leiden door met deze wisselkoersen te knoeien. Of, eenvoudiger, er kan "
+"altijd een transmissiefout optreden."
 
 #. Tag: title
-#: index.docbook:177
+#: index.docbook:172
 #, no-c-format
 msgid "Using &keurocalc;"
 msgstr "Het gebruik van &keurocalc;"
 
 #. Tag: title
-#: index.docbook:184
+#: index.docbook:179
 #, no-c-format
 msgid "Performing Conversions"
 msgstr "Conversies uitvoeren"
 
 #. Tag: title
-#: index.docbook:188
+#: index.docbook:183
 #, no-c-format
 msgid "To convert 1000 Belgian francs into euros"
 msgstr "Het omrekenen van 1000 Belgische francs naar euro's"
 
 #. Tag: para
-#: index.docbook:189
+#: index.docbook:184
 #, no-c-format
 msgid ""
-"Select the <guilabel>BEF - Belgian franc</guilabel> (<foreignphrase>"
-"francs belges</foreignphrase>) item in the currencies drop down list on the "
-"bottom. If that choice is not available, press the <guibutton>"
-"Settings...</guibutton> button and select <guilabel>"
-"Euro, no network access (fixed rates only)</guilabel> "
-"to make the correct rates list appear."
+"Select the <guilabel>BEF - Belgian franc</guilabel> (<foreignphrase>francs "
+"belges</foreignphrase>) item in the currencies drop down list on the bottom. "
+"If that choice is not available, press the <guibutton>Settings...</"
+"guibutton> button and select <guilabel>Euro, no network access (fixed rates "
+"only)</guilabel> to make the correct rates list appear."
 msgstr ""
-"Selecteer <guilabel>BEF - Belgische franc</guilabel> (<foreignphrase>"
-"francs belges</foreignphrase>) in het contextmenu voor munteenheden."
+"Selecteer <guilabel>BEF - Belgische franc</guilabel> (<foreignphrase>francs "
+"belges</foreignphrase>) in het contextmenu voor munteenheden."
 
 #. Tag: para
-#: index.docbook:195
+#: index.docbook:190
 #, no-c-format
 msgid ""
 "Type <userinput>1000</userinput> on the keyboard or use the corresponding "
-"numerical buttons. The digits appear while you are typing them in the <guilabel>"
-"Input</guilabel> display. If you make a mistake while typing the digits use the "
-"&Backspace; key or the <guibutton>&lt;-</guibutton> button."
+"numerical buttons. The digits appear while you are typing them in the "
+"<guilabel>Input</guilabel> display. If you make a mistake while typing the "
+"digits use the &Backspace; key or the <guibutton>&lt;-</guibutton> button."
 msgstr ""
 "Typ <userinput>1000</userinput> op het toetsenbord of gebruik de "
-"overeenkomstige numerieke knoppen. In het <guilabel>Invoer</guilabel>"
-"scherm verschijnen de cijfers terwijl u typt. Als u een fout maakt kunt u dit "
+"overeenkomstige numerieke knoppen. In het <guilabel>Invoer</guilabel>scherm "
+"verschijnen de cijfers terwijl u typt. Als u een fout maakt kunt u dit "
 "corrigeren met de &Backspace;-toets of de  <guibutton>&lt;-</guibutton> knop."
 
 #. Tag: para
-#: index.docbook:199
+#: index.docbook:194
 #, no-c-format
 msgid ""
-"Press the <guibutton>FB</guibutton> button or the <keycap>F</keycap> "
-"key. In fact, any key that is not already reserved for some other usage will "
-"validate the input as a number expressed in the currency, so <keycap>B</keycap> "
-"or <keycap>X</keycap> would have worked as well."
+"Press the <guibutton>FB</guibutton> button or the <keycap>F</keycap> key. In "
+"fact, any key that is not already reserved for some other usage will "
+"validate the input as a number expressed in the currency, so <keycap>B</"
+"keycap> or <keycap>X</keycap> would have worked as well."
 msgstr ""
-"Druk op de <guibutton>FB</guibutton>-knop of de <keycap>F</keycap>"
-"-toets. In feite kunt u elke toets die niet voor iets anders is gereserveerd "
-"gebruiken om de invoer te bevestigen als een bedrag uitgedrukt in de "
-"munteenheid, zodat u even goed <keycap>B</keycap> of <keycap>X</keycap> "
-"hiervoor had kunnen gebruiken."
+"Druk op de <guibutton>FB</guibutton>-knop of de <keycap>F</keycap>-toets. In "
+"feite kunt u elke toets die niet voor iets anders is gereserveerd gebruiken "
+"om de invoer te bevestigen als een bedrag uitgedrukt in de munteenheid, "
+"zodat u even goed <keycap>B</keycap> of <keycap>X</keycap> hiervoor had "
+"kunnen gebruiken."
 
 #. Tag: para
-#: index.docbook:203
+#: index.docbook:198
 #, no-c-format
 msgid ""
-"Read the result in the <guilabel>Result</guilabel> display on the right: 24.79 "
-"€ or 24,79 € according to our locale settings."
+"Read the result in the <guilabel>Result</guilabel> display on the right: "
+"24.79 € or 24,79 € according to our locale settings."
 msgstr ""
-"Lees het antwoord in het  <guilabel>Antwoord</guilabel>"
-"-scherm rechts: 24.79 € of 24,79 €, afhankelijk van onze lokale instellingen."
+"Lees het antwoord in het  <guilabel>Antwoord</guilabel>-scherm rechts: 24.79 "
+"€ of 24,79 €, afhankelijk van onze lokale instellingen."
 
 #. Tag: title
-#: index.docbook:208
+#: index.docbook:203
 #, no-c-format
 msgid "To convert 25 euros into Belgian francs"
 msgstr "25 euro's omrekenen naar Belgische francs"
 
 #. Tag: para
-#: index.docbook:209
+#: index.docbook:204
 #, no-c-format
 msgid ""
-"If the fixed rates currencies are available, select the <guilabel>"
-"BEF - Belgian franc</guilabel> item in the currencies drop down list on the "
+"If the fixed rates currencies are available, select the <guilabel>BEF - "
+"Belgian franc</guilabel> item in the currencies drop down list on the "
 "bottom. You can skip this step if it's already the selected currency."
 msgstr ""
-"Indien de valuta met vaste wisselkoersen beschikbaar zijn, selecteer <guilabel>"
-"BEF - Belgische franc</guilabel> in het contextmenu voor valuta. U kunt deze "
-"stap overslaan indien dit reeds de geselecteerde valuta is."
+"Indien de valuta met vaste wisselkoersen beschikbaar zijn, selecteer "
+"<guilabel>BEF - Belgische franc</guilabel> in het contextmenu voor valuta. U "
+"kunt deze stap overslaan indien dit reeds de geselecteerde valuta is."
 
 #. Tag: para
-#: index.docbook:213
+#: index.docbook:208
 #, no-c-format
 msgid "Type <userinput>25</userinput>."
 msgstr "Typ <userinput>25</userinput>."
 
 #. Tag: para
-#: index.docbook:214
+#: index.docbook:209
 #, no-c-format
 msgid ""
 "Press the <guibutton>€</guibutton> button or the <keycap>E</keycap> key."
@@ -522,142 +526,149 @@ msgstr ""
 "Druk op de <guibutton>€</guibutton>-knop of de <keycap>E</keycap>-toets."
 
 #. Tag: para
-#: index.docbook:216
+#: index.docbook:211
 #, no-c-format
 msgid ""
 "Read the result in the <guilabel>Result</guilabel> display on the right: "
-"1008.50 FB or 1008,50 FB. The exact value is 1008.4975, but it's rounded to the "
-"closest hundredth of a Belgian franc. The rounding unit depends on the currency "
-"and on the rounding method: with the official rounding rules, for Belgian "
-"francs it's 0.01 FB, for Italian liras it's 1 L for example."
+"1008.50 FB or 1008,50 FB. The exact value is 1008.4975, but it's rounded to "
+"the closest hundredth of a Belgian franc. The rounding unit depends on the "
+"currency and on the rounding method: with the official rounding rules, for "
+"Belgian francs it's 0.01 FB, for Italian liras it's 1 L for example."
 msgstr ""
-"Lees het antwoord in het <guilabel>Antwoord</guilabel>"
-"-scherm rechts: 1008.50 FB of 1008,50 FB. De exacte waarde is 1008.4975, maar "
-"deze is afgerond naar het dichtstbijzijnde honderdste deel van een Belgische "
-"franc. De afrond-eenheid is afhankelijk van de munteenheid en de afrondmethode "
-"met de officiële afrondregels. Voor Belgische francs is dit 0,01 FB, voor "
+"Lees het antwoord in het <guilabel>Antwoord</guilabel>-scherm rechts: "
+"1008.50 FB of 1008,50 FB. De exacte waarde is 1008.4975, maar deze is "
+"afgerond naar het dichtstbijzijnde honderdste deel van een Belgische franc. "
+"De afrond-eenheid is afhankelijk van de munteenheid en de afrondmethode met "
+"de officiële afrondregels. Voor Belgische francs is dit 0,01 FB, voor "
 "Italiaanse lires is dit 1 L, bijvoorbeeld."
 
 #. Tag: para
-#: index.docbook:223
+#: index.docbook:218
 #, no-c-format
 msgid "You could also have typed: <userinput>25 Enter E</userinput>."
 msgstr "U had ook kunnen typen: <userinput>25 Enter E</userinput>."
 
 #. Tag: title
-#: index.docbook:226
+#: index.docbook:221
 #, no-c-format
 msgid "To convert 120 German marks into Spanish pesetas"
 msgstr "Conversie van 120 Duitse marken naar Spaanse peseta's"
 
 #. Tag: para
-#: index.docbook:227
+#: index.docbook:222
 #, no-c-format
 msgid ""
-"If the fixed rates currencies are available, select the <guilabel>"
-"DEM - German deutschmark</guilabel> item in the currencies drop down list."
+"If the fixed rates currencies are available, select the <guilabel>DEM - "
+"German deutschmark</guilabel> item in the currencies drop down list."
 msgstr ""
-"Indien de valuta met vaste wisselkoersen beschikbaar zijn, selecteer <guilabel>"
-"DEM - Duitse marken</guilabel> in het contextmenu voor valuta."
+"Indien de valuta met vaste wisselkoersen beschikbaar zijn, selecteer "
+"<guilabel>DEM - Duitse marken</guilabel> in het contextmenu voor valuta."
 
 #. Tag: para
-#: index.docbook:230
+#: index.docbook:225
 #, no-c-format
 msgid "Type <userinput>120</userinput>."
 msgstr "Typ <userinput>120</userinput>."
 
 #. Tag: para
-#: index.docbook:231
+#: index.docbook:226
 #, no-c-format
 msgid ""
-"Press the <guibutton>DM</guibutton> button or the <keycap>D</keycap> or <keycap>"
-"M</keycap> keys."
+"Press the <guibutton>DM</guibutton> button or the <keycap>D</keycap> or "
+"<keycap>M</keycap> keys."
 msgstr ""
-"Druk op de <guibutton>DM</guibutton>-knop of de <keycap>D</keycap>- of <keycap>"
-"M</keycap>-toets."
+"Druk op de <guibutton>DM</guibutton>-knop of de <keycap>D</keycap>- of "
+"<keycap>M</keycap>-toets."
 
 #. Tag: para
-#: index.docbook:233
-#, no-c-format
+#: index.docbook:228
+#, fuzzy, no-c-format
+#| msgid ""
+#| "Just select the <guilabel>ESP - Spanish peseta</guilabel> item to see the "
+#| "same amount of 61.36 € converted into pesetas in the <guilabel>Results</"
+#| "guilabel> area."
 msgid ""
-"Just select the <guilabel>ESP - Spanish peseta</guilabel> "
-"item to see the same amount of 61.36 € converted into pesetas in the <guilabel>"
-"Results</guilabel> area."
+"Just select the <guilabel>ESP - Spanish peseta</guilabel> item to see the "
+"same amount of 61.36 € converted into pesetas in the <guilabel>Result</"
+"guilabel> area."
 msgstr ""
-"Selecteer nu <guilabel>ESP - Spaanse peseta</guilabel> "
-"waarna u dit zelfde bedrag van 61,36 € naar peseta's ziet omgerekend in het "
-"<guilabel>Antwoord</guilabel>-scherm."
+"Selecteer nu <guilabel>ESP - Spaanse peseta</guilabel> waarna u dit zelfde "
+"bedrag van 61,36 € naar peseta's ziet omgerekend in het <guilabel>Antwoord</"
+"guilabel>-scherm."
 
 #. Tag: title
-#: index.docbook:241
+#: index.docbook:236
 #, no-c-format
 msgid "Adding and Subtracting"
 msgstr "Optellen en aftrekken"
 
 #. Tag: title
-#: index.docbook:244
+#: index.docbook:239
 #, no-c-format
 msgid "How much is 3 + 5?"
 msgstr "Hoeveel is 3 + 5?"
 
 #. Tag: para
-#: index.docbook:245
+#: index.docbook:240
 #, no-c-format
 msgid ""
-"Type <userinput>3</userinput> and then press <guibutton>+</guibutton>"
-". Notice that in the result field, <computeroutput>3</computeroutput> "
-"is a simple value displayed on just one line, with no monetary unit."
+"Type <userinput>3</userinput> and then press <guibutton>+</guibutton>. "
+"Notice that in the result field, <computeroutput>3</computeroutput> is a "
+"simple value displayed on just one line, with no monetary unit."
 msgstr ""
-"Typ <userinput>3</userinput> en druk daarna op <guibutton>+</guibutton>"
-". Merk op dat in het antwoordscherm <computeroutput>3</computeroutput> "
-"gewoon een getal is op een regel, zonder valuta."
+"Typ <userinput>3</userinput> en druk daarna op <guibutton>+</guibutton>. "
+"Merk op dat in het antwoordscherm <computeroutput>3</computeroutput> gewoon "
+"een getal is op een regel, zonder valuta."
 
 #. Tag: para
-#: index.docbook:248
-#, no-c-format
+#: index.docbook:243
+#, fuzzy, no-c-format
+#| msgid ""
+#| "Type <userinput>5</userinput> and then press the <guibutton>Enter</"
+#| "guibutton> button or the <keycap>Enter</keycap> key. The result "
+#| "<computeroutput>8</computeroutput> appears on the right."
 msgid ""
-"Type <userinput>5</userinput> and then press the <guibutton>Enter</guibutton> "
-"button or the <keycap>Enter</keycap> key. The result <computeroutput>"
-"8</computeroutput> appears on the right."
+"Type <userinput>5</userinput> and then press the <guibutton>Enter</"
+"guibutton> button or the &Enter; key. The result <computeroutput>8</"
+"computeroutput> appears on the right."
 msgstr ""
-"Typ <userinput>5</userinput> en druk daarna op de <guibutton>Enter</guibutton>"
-"-knop of op de <keycap>Enter</keycap>-toets. Het antwoord <computeroutput>"
-"8</computeroutput> verschijnt rechts."
+"Typ <userinput>5</userinput> en druk daarna op de <guibutton>Enter</"
+"guibutton>-knop of op de <keycap>Enter</keycap>-toets. Het antwoord "
+"<computeroutput>8</computeroutput> verschijnt rechts."
 
 #. Tag: title
-#: index.docbook:254
+#: index.docbook:249
 #, no-c-format
 msgid ""
 "You received 100 US dollars and paid 32.50 euros for a book, how much do you "
 "have left in your bank account?"
 msgstr ""
-"U ontving 100 US-dollars en betaalde 32,50 euro's voor een boek, hoeveel staat "
-"er nu op uw bankrekening?"
+"U ontving 100 US-dollars en betaalde 32,50 euro's voor een boek, hoeveel "
+"staat er nu op uw bankrekening?"
 
 #. Tag: para
-#: index.docbook:256
+#: index.docbook:251
 #, no-c-format
 msgid ""
 "Make sure that the variable exchange rates are available. If not, press the "
-"<guibutton>Settings...</guibutton> to select either <guilabel>"
-"Euro, European Central Bank</guilabel> or <guilabel>"
-"Dollar, New York Federal Reserve Bank</guilabel>. Now select the <guilabel>"
-"USD - US dollar</guilabel> or the <guilabel>EUR - EU euro</guilabel> "
-"item in the scroll down list on the bottom. If you have no Internet access, "
-"that item won't be available as the latest variable rates between the euro and "
-"the dollar cannot be determined."
+"<guibutton>Settings...</guibutton> to select either <guilabel>Euro, European "
+"Central Bank</guilabel> or <guilabel>Dollar, New York Federal Reserve Bank</"
+"guilabel>. Now select the <guilabel>USD - US dollar</guilabel> or the "
+"<guilabel>EUR - EU euro</guilabel> item in the scroll down list on the "
+"bottom. If you have no Internet access, that item won't be available as the "
+"latest variable rates between the euro and the dollar cannot be determined."
 msgstr ""
 "Overtuig u ervan dat de variabele wisselkoersen beschikbaar zijn. Indien dit "
-"niet het geval is drukt u op <guibutton>Instellingen...</guibutton> "
-"en selecteert u óf <guilabel>Euro, Europese Centrale Bank</guilabel> "
-"óf <guilabel>Dollar, New York Federal Reserve Bank</guilabel>"
-". Selecteer nu <guilabel>USD - US-dollar</guilabel> of <guilabel>"
-"EUR - EU-euro</guilabel> in het contextmenu. Zonder een internetverbinding kan "
-"dit niet omdat dan de laatste variabele wisselkoersen tussen de euro en de "
-"dollar niet kunnen worden bepaald."
+"niet het geval is drukt u op <guibutton>Instellingen...</guibutton> en "
+"selecteert u óf <guilabel>Euro, Europese Centrale Bank</guilabel> óf "
+"<guilabel>Dollar, New York Federal Reserve Bank</guilabel>. Selecteer nu "
+"<guilabel>USD - US-dollar</guilabel> of <guilabel>EUR - EU-euro</guilabel> "
+"in het contextmenu. Zonder een internetverbinding kan dit niet omdat dan de "
+"laatste variabele wisselkoersen tussen de euro en de dollar niet kunnen "
+"worden bepaald."
 
 #. Tag: para
-#: index.docbook:264
+#: index.docbook:259
 #, no-c-format
 msgid ""
 "Type <userinput>100</userinput> and then press <guibutton>$</guibutton>."
@@ -665,78 +676,79 @@ msgstr ""
 "Typ <userinput>100</userinput> en druk dan op <guibutton>$</guibutton>."
 
 #. Tag: para
+#: index.docbook:260
+#, no-c-format
+msgid ""
+"Press the <guibutton>-</guibutton> button or the <keycap>-</keycap> key. "
+"Notice the <computeroutput>-</computeroutput> sign in the leftmost part of "
+"the <guilabel>Input</guilabel> display."
+msgstr ""
+"Druk op de <guibutton>-</guibutton> knop of de <keycap>-</keycap> toets. Let "
+"op het <computeroutput>-</computeroutput> teken in het meest linkse deel van "
+"het <guilabel>Invoer</guilabel>-scherm."
+
+#. Tag: para
+#: index.docbook:263
+#, no-c-format
+msgid ""
+"Type <userinput>32,50</userinput> or <userinput>32.50</userinput> and then "
+"press <guibutton>€</guibutton>."
+msgstr ""
+"Typ <userinput>32,50</userinput> of <userinput>32.50</userinput> en druk "
+"daarna op <guibutton>€</guibutton>."
+
+#. Tag: para
 #: index.docbook:265
 #, no-c-format
 msgid ""
-"Press the <guibutton>-</guibutton> button or the <keycap>-</keycap> "
-"key. Notice the <computeroutput>-</computeroutput> sign in the leftmost part of "
-"the <guilabel>Input</guilabel> display."
-msgstr ""
-"Druk op de <guibutton>-</guibutton> knop of de <keycap>-</keycap> "
-"toets. Let op het <computeroutput>-</computeroutput> "
-"teken in het meest linkse deel van het <guilabel>Invoer</guilabel>-scherm."
-
-#. Tag: para
-#: index.docbook:268
-#, no-c-format
-msgid ""
-"Type <userinput>32,50</userinput> or <userinput>32.50</userinput> "
-"and then press <guibutton>€</guibutton>."
-msgstr ""
-"Typ <userinput>32,50</userinput> of <userinput>32.50</userinput> "
-"en druk daarna op <guibutton>€</guibutton>."
-
-#. Tag: para
-#: index.docbook:270
-#, no-c-format
-msgid ""
 "Read the result in the <guilabel>Result</guilabel> display on the right. The "
-"exact value might depend on latest exchange rates. Notice that during the whole "
-"computation you've been able to read the values both in euro and in US dollars. "
-"Pay attention to the fact that different data sources (ECB or NY FRB) might not "
-"provide the same conversion rate between the euro and the dollar."
+"exact value might depend on latest exchange rates. Notice that during the "
+"whole computation you've been able to read the values both in euro and in US "
+"dollars. Pay attention to the fact that different data sources (ECB or NY "
+"FRB) might not provide the same conversion rate between the euro and the "
+"dollar."
 msgstr ""
-"Lees het antwoord in het <guilabel>Antwoord</guilabel>"
-"-scherm rechts. De exacte waarde hangt af van de laatste wisselkoersen. Merk op "
-"dat gedurende de gehele bewerking u de waardes zowel in euro's als in "
-"US-dollars kunt zien. Merk ook op dat het verschil kan maken welke bron u "
-"gebruikt voor uw gegevens (ECB of NY FRB). Beiden geven niet noodzakelijk "
-"dezelfde wisselkoers op tussen euro en dollar."
+"Lees het antwoord in het <guilabel>Antwoord</guilabel>-scherm rechts. De "
+"exacte waarde hangt af van de laatste wisselkoersen. Merk op dat gedurende "
+"de gehele bewerking u de waardes zowel in euro's als in US-dollars kunt "
+"zien. Merk ook op dat het verschil kan maken welke bron u gebruikt voor uw "
+"gegevens (ECB of NY FRB). Beiden geven niet noodzakelijk dezelfde "
+"wisselkoers op tussen euro en dollar."
 
 #. Tag: title
-#: index.docbook:278
+#: index.docbook:273
 #, no-c-format
 msgid ""
-"You pay a 32.50 € book with a 500 FF banknote. How much was the clerk supposed "
-"to give you back, in euro notes and coins?"
+"You pay a 32.50 € book with a 500 FF banknote. How much was the clerk "
+"supposed to give you back, in euro notes and coins?"
 msgstr ""
-"U betaalt 32,50 € voor een boek met een bankbiljet van 500 FF. Hoeveel zou de "
-"winkelbediende u terug moeten geven, in euro-bankbiljetten en -munten?"
+"U betaalt 32,50 € voor een boek met een bankbiljet van 500 FF. Hoeveel zou "
+"de winkelbediende u terug moeten geven, in euro-bankbiljetten en -munten?"
 
 #. Tag: para
-#: index.docbook:280
+#: index.docbook:275
 #, no-c-format
 msgid ""
-"Select the <guilabel>FRF - French francs</guilabel> item in the currencies drop "
-"down list if not already selected."
+"Select the <guilabel>FRF - French francs</guilabel> item in the currencies "
+"drop down list if not already selected."
 msgstr ""
 "Selecteer <guilabel>FRF - Franse francs</guilabel> in het contextmenu voor "
 "valuta, indien dit niet reeds is geselecteerd."
 
 #. Tag: para
-#: index.docbook:282
+#: index.docbook:277
 #, no-c-format
 msgid ""
-"Type <userinput>32.50</userinput> or <userinput>32,50</userinput> "
-"and then press <guibutton>€</guibutton>. You can also type <userinput>"
-"32.5</userinput> without the trailing <userinput>0</userinput>."
+"Type <userinput>32.50</userinput> or <userinput>32,50</userinput> and then "
+"press <guibutton>€</guibutton>. You can also type <userinput>32.5</"
+"userinput> without the trailing <userinput>0</userinput>."
 msgstr ""
-"Typ <userinput>32.50</userinput> of <userinput>32,50</userinput> "
-"en druk dan op de <guibutton>€</guibutton>-knop. U kunt ook <userinput>"
-"32,5</userinput> typen zonder de laatste <userinput>0</userinput>."
+"Typ <userinput>32.50</userinput> of <userinput>32,50</userinput> en druk dan "
+"op de <guibutton>€</guibutton>-knop. U kunt ook <userinput>32,5</userinput> "
+"typen zonder de laatste <userinput>0</userinput>."
 
 #. Tag: para
-#: index.docbook:285
+#: index.docbook:280
 #, no-c-format
 msgid ""
 "Press the <guibutton>-</guibutton> button or the <keycap>-</keycap> key."
@@ -744,48 +756,48 @@ msgstr ""
 "Druk op de <guibutton>-</guibutton> knop of de <keycap>-</keycap> toets."
 
 #. Tag: para
-#: index.docbook:286
+#: index.docbook:281
 #, no-c-format
 msgid ""
 "Type <userinput>500</userinput> and press the <guibutton>FF</guibutton> "
 "button or the <keycap>F</keycap> key."
 msgstr ""
-"Typ <userinput>500</userinput> en druk op de <guibutton>FF</guibutton>"
-"-knop of de <keycap>F</keycap>-toets."
+"Typ <userinput>500</userinput> en druk op de <guibutton>FF</guibutton>-knop "
+"of de <keycap>F</keycap>-toets."
+
+#. Tag: para
+#: index.docbook:283
+#, no-c-format
+msgid ""
+"The result <computeroutput>-43.72 €</computeroutput> is negative, indicating "
+"that change money has to be given back to the customer. The <guibutton>+/-</"
+"guibutton> button or the <keycap>S</keycap> key permit you to change the "
+"sign of the result."
+msgstr ""
+"Het antwoord <computeroutput>-43,72 €</computeroutput> is negatief, wat "
+"betekent dat de klant wisselgeld terug moet krijgen. Met de knop <guibutton>"
+"+/-</guibutton> of de toets <keycap>S</keycap> kan het teken van het "
+"antwoord worden gewijzigd."
 
 #. Tag: para
 #: index.docbook:288
-#, no-c-format
-msgid ""
-"The result <computeroutput>-43.72 €</computeroutput> "
-"is negative, indicating that change money has to be given back to the customer. "
-"The <guibutton>+/-</guibutton> button or the <keycap>S</keycap> "
-"key permit you to change the sign of the result."
-msgstr ""
-"Het antwoord <computeroutput>-43,72 €</computeroutput> "
-"is negatief, wat betekent dat de klant wisselgeld terug moet krijgen. Met de "
-"knop <guibutton>+/-</guibutton> of de toets <keycap>S</keycap> "
-"kan het teken van het antwoord worden gewijzigd."
-
-#. Tag: para
-#: index.docbook:293
 #, no-c-format
 msgid ""
 "Do not try to add euros to simple values (with no currency unit): it won't "
 "work, for the same reason you cannot add 5 meters to 3 kilograms."
 msgstr ""
 "Probeer geen euro's op te tellen bij eenvoudige getallen (zonder een "
-"munteenheid). Dit gaat natuurlijk niet, om dezelfde reden dat u niet 5 meters "
-"kunt optellen bij 3 kilogrammen."
+"munteenheid). Dit gaat natuurlijk niet, om dezelfde reden dat u niet 5 "
+"meters kunt optellen bij 3 kilogrammen."
 
 #. Tag: title
-#: index.docbook:299
+#: index.docbook:294
 #, no-c-format
 msgid "Multiplying and Dividing"
 msgstr "Vermenigvuldigen en delen"
 
 #. Tag: title
-#: index.docbook:302
+#: index.docbook:297
 #, no-c-format
 msgid ""
 "You buy 3.2 kilograms of apples at 2 € per kilogram. How much does the whole "
@@ -795,99 +807,103 @@ msgstr ""
 "Australische dollars?"
 
 #. Tag: para
-#: index.docbook:304
+#: index.docbook:299
 #, no-c-format
 msgid ""
-"Select the <guilabel>AUD - Australian dollar</guilabel> "
-"item if available and if not already selected."
+"Select the <guilabel>AUD - Australian dollar</guilabel> item if available "
+"and if not already selected."
 msgstr ""
-"Selecteer <guilabel>AUD - Australische dollar</guilabel> "
-"indien beschikbaar en niet reeds geselecteerd."
+"Selecteer <guilabel>AUD - Australische dollar</guilabel> indien beschikbaar "
+"en niet reeds geselecteerd."
 
 #. Tag: para
-#: index.docbook:306
+#: index.docbook:301
 #, no-c-format
 msgid "Type <userinput>2</userinput> and press <guibutton>€</guibutton>."
 msgstr "Typ <userinput>2</userinput> en druk op <guibutton>€</guibutton>."
 
 #. Tag: para
-#: index.docbook:307
+#: index.docbook:302
 #, no-c-format
 msgid ""
-"Press the <guibutton>X</guibutton> button or the <keycap>*</keycap> "
-"key. Notice the <computeroutput>X</computeroutput> sign at the left of the "
+"Press the <guibutton>X</guibutton> button or the <keycap>*</keycap> key. "
+"Notice the <computeroutput>X</computeroutput> sign at the left of the "
 "<guilabel>Input</guilabel> display."
 msgstr ""
-"Druk op de knop <guibutton>X</guibutton> of de <keycap>*</keycap>"
-"-toets. Zie het <computeroutput>X</computeroutput>-teken links van het  "
+"Druk op de knop <guibutton>X</guibutton> of de <keycap>*</keycap>-toets. Zie "
+"het <computeroutput>X</computeroutput>-teken links van het  "
 "<guilabel>Invoer</guilabel>-scherm."
 
 #. Tag: para
-#: index.docbook:310
-#, no-c-format
+#: index.docbook:305
+#, fuzzy, no-c-format
+#| msgid ""
+#| "Now type <userinput>3.2</userinput> followed by the <guibutton>Enter</"
+#| "guibutton> button or the <keycap>Enter</keycap> key: this means "
+#| "<quote>3.2 units</quote> at 2 € each."
 msgid ""
-"Now type <userinput>3.2</userinput> followed by the <guibutton>Enter</guibutton> "
-"button or the <keycap>Enter</keycap> key: this means <quote>3.2 units</quote> "
-"at 2 € each."
+"Now type <userinput>3.2</userinput> followed by the <guibutton>Enter</"
+"guibutton> button or the &Enter; key: this means <quote>3.2 units</quote> at "
+"2 € each."
 msgstr ""
-"Typ nu <userinput>3,2</userinput> en daarna op de knop <guibutton>"
-"Enter</guibutton> of de toets <keycap>Enter</keycap>: dit betekent <quote>"
-"3,2 eenheden</quote> voor 2 € elk."
+"Typ nu <userinput>3,2</userinput> en daarna op de knop <guibutton>Enter</"
+"guibutton> of de toets <keycap>Enter</keycap>: dit betekent <quote>3,2 "
+"eenheden</quote> voor 2 € elk."
 
 #. Tag: para
-#: index.docbook:313
+#: index.docbook:308
 #, no-c-format
 msgid ""
-"The result in Australian dollars matches <computeroutput>6.4 €</computeroutput>"
-"."
+"The result in Australian dollars matches <computeroutput>6.4 €</"
+"computeroutput>."
 msgstr ""
-"Het antwoord in Australische dollars komt overeen met <computeroutput>"
-"6.4 €</computeroutput>."
+"Het antwoord in Australische dollars komt overeen met <computeroutput>6.4 €</"
+"computeroutput>."
 
 #. Tag: para
-#: index.docbook:316
+#: index.docbook:311
 #, no-c-format
 msgid ""
-"You could also have used the following order: <userinput>3.2 = * 2 €</userinput> "
-"or even <userinput>3.2 * 2 €</userinput>."
+"You could also have used the following order: <userinput>3.2 = * 2 €</"
+"userinput> or even <userinput>3.2 * 2 €</userinput>."
 msgstr ""
-"U zou het ook op deze manier hebben kunnen doen: <userinput>"
-"3,2 = * 2 €</userinput> of zelfs <userinput>3,2 * 2 €</userinput>."
+"U zou het ook op deze manier hebben kunnen doen: <userinput>3,2 = * 2 €</"
+"userinput> of zelfs <userinput>3,2 * 2 €</userinput>."
 
 #. Tag: para
-#: index.docbook:319
+#: index.docbook:314
 #, no-c-format
 msgid ""
-"It's not possible to multiply X euros by Y dollars, just as you don't multiply "
-"10 fingers by 2 ears."
+"It's not possible to multiply X euros by Y dollars, just as you don't "
+"multiply 10 fingers by 2 ears."
 msgstr ""
-"Het is niet mogelijk om X euro's met Y dollars te vermenigvuldigen, net zoals u "
-"ook niet 10 vingers met 2 oren kunt vermenigvuldigen."
+"Het is niet mogelijk om X euro's met Y dollars te vermenigvuldigen, net "
+"zoals u ook niet 10 vingers met 2 oren kunt vermenigvuldigen."
 
 #. Tag: title
-#: index.docbook:326
+#: index.docbook:321
 #, no-c-format
 msgid "Using Percentages"
 msgstr "Rekenen met percentages"
 
 #. Tag: title
-#: index.docbook:329
+#: index.docbook:324
 #, no-c-format
 msgid "How much is 20% of 3000 yen?"
 msgstr "Hoeveel is 20% van 3000 yen?"
 
 #. Tag: para
-#: index.docbook:330 index.docbook:342 index.docbook:356
+#: index.docbook:325 index.docbook:337 index.docbook:351
 #, no-c-format
 msgid ""
-"Select the <guilabel>JPY - Japanese yen</guilabel> item if available and if not "
-"already selected."
+"Select the <guilabel>JPY - Japanese yen</guilabel> item if available and if "
+"not already selected."
 msgstr ""
-"Selecteer <guilabel>JPY - Japanse yen</guilabel> indien beschikbaar en nog niet "
-"geselecteerd."
+"Selecteer <guilabel>JPY - Japanse yen</guilabel> indien beschikbaar en nog "
+"niet geselecteerd."
 
 #. Tag: para
-#: index.docbook:332 index.docbook:344 index.docbook:358
+#: index.docbook:327 index.docbook:339 index.docbook:353
 #, no-c-format
 msgid ""
 "Type <userinput>3000</userinput> and press the <guibutton>¥</guibutton> "
@@ -897,60 +913,60 @@ msgstr ""
 "of de <keycap>Y</keycap>-toets."
 
 #. Tag: para
-#: index.docbook:334 index.docbook:347 index.docbook:361
+#: index.docbook:329 index.docbook:342 index.docbook:356
 #, no-c-format
 msgid ""
 "Enter <userinput>20</userinput> and press the <guibutton>%</guibutton> "
-"button or the <keycap>%</keycap> key. As with multiplications, the value had to "
-"be typed <emphasis>before</emphasis> the percentage."
+"button or the <keycap>%</keycap> key. As with multiplications, the value had "
+"to be typed <emphasis>before</emphasis> the percentage."
 msgstr ""
-"Voer <userinput>20</userinput> in en druk op de knop <guibutton>%</guibutton> "
-"of de <keycap>%</keycap>-toets. Net zoals bij vermenigvuldigen moet het "
-"getalworden ingetoetst <emphasis>voor</emphasis> het percentage."
+"Voer <userinput>20</userinput> in en druk op de knop <guibutton>%</"
+"guibutton> of de <keycap>%</keycap>-toets. Net zoals bij vermenigvuldigen "
+"moet het getalworden ingetoetst <emphasis>voor</emphasis> het percentage."
 
 #. Tag: para
-#: index.docbook:337
+#: index.docbook:332
 #, no-c-format
 msgid "Look at the result: it is equivalent to 600 yen."
 msgstr "Kijk naar het antwoord: dit is 600 yen."
 
 #. Tag: title
-#: index.docbook:341
+#: index.docbook:336
 #, no-c-format
 msgid "How much is 3000 yen plus 20%?"
 msgstr "Hoeveel is 3000 yen plus 20%?"
 
 #. Tag: para
-#: index.docbook:346
+#: index.docbook:341
 #, no-c-format
 msgid ""
 "Press the <guibutton>+</guibutton> button or the <keycap>+</keycap> key."
 msgstr ""
-"Herhaal de vorige stappen en druk op de knop <guibutton>+</guibutton> "
-"of de toets <keycap>+</keycap> tussen beide."
+"Herhaal de vorige stappen en druk op de knop <guibutton>+</guibutton> of de "
+"toets <keycap>+</keycap> tussen beide."
 
 #. Tag: para
-#: index.docbook:350
+#: index.docbook:345
 #, no-c-format
 msgid "Look at the result: 26.96 € or 3600 ¥ at the time of writing."
 msgstr "Zie het antwoord: 24,94€ of 3600 ¥ op het tijdstip van vertalen."
 
 #. Tag: title
-#: index.docbook:355
+#: index.docbook:350
 #, no-c-format
 msgid "How much is 3000 yen minus 20%?"
 msgstr "Hoeveel is 3000 yen minus 20%?"
 
 #. Tag: para
-#: index.docbook:360
+#: index.docbook:355
 #, no-c-format
 msgid "Press the <guibutton>-</guibutton> button or <keycap>-</keycap> key."
 msgstr ""
-"Druk nu tussen beide stappen op de knop <guibutton>-</guibutton> "
-"of de toets <keycap>-</keycap>."
+"Druk nu tussen beide stappen op de knop <guibutton>-</guibutton> of de toets "
+"<keycap>-</keycap>."
 
 #. Tag: para
-#: index.docbook:364
+#: index.docbook:359
 #, no-c-format
 msgid ""
 "Look at the result: 17.97 € or 2400 ¥ at the date of writing these lines."
@@ -959,149 +975,151 @@ msgstr ""
 "vertaald."
 
 #. Tag: title
-#: index.docbook:371
+#: index.docbook:366
 #, no-c-format
 msgid "Using Intermediate Memory"
 msgstr "Gebruik van het tussengeheugen"
 
 #. Tag: title
-#: index.docbook:374
+#: index.docbook:369
 #, no-c-format
 msgid "How do I store now and recall later some value?"
 msgstr "Hoe sla ik nu een waarde op en roep ik die later weer op?"
 
 #. Tag: para
-#: index.docbook:375
+#: index.docbook:370
 #, no-c-format
 msgid "Do your computations."
 msgstr "Maak uw berekeningen."
 
 #. Tag: para
-#: index.docbook:376
+#: index.docbook:371
 #, no-c-format
 msgid ""
-"Press <guibutton>Min</guibutton> (Memory in) button to store the value in the "
-"<guilabel>Result</guilabel> area. Please notice that the other memory keys now "
-"become available."
+"Press <guibutton>Min</guibutton> (Memory in) button to store the value in "
+"the <guilabel>Result</guilabel> area. Please notice that the other memory "
+"keys now become available."
 msgstr ""
-"Druk op de knop <guibutton>Min</guibutton> (Memory in (geheugen in)) waardoor "
-"de waarde in het <guilabel>Antwoord</guilabel>-scherm in het geheugen wordt "
-"opgeslagen. Merk op dat de andere geheugenknoppen nu beschikbaar zijn geworden."
+"Druk op de knop <guibutton>Min</guibutton> (Memory in (geheugen in)) "
+"waardoor de waarde in het <guilabel>Antwoord</guilabel>-scherm in het "
+"geheugen wordt opgeslagen. Merk op dat de andere geheugenknoppen nu "
+"beschikbaar zijn geworden."
 
 #. Tag: para
-#: index.docbook:379
+#: index.docbook:374
 #, no-c-format
 msgid "Do some other work with the calculator."
 msgstr "Doe wat andere berekeningen met de rekenmachine."
 
 #. Tag: para
-#: index.docbook:380
+#: index.docbook:375
 #, no-c-format
 msgid ""
 "Recall the value from the memory by pressing the <guibutton>MR</guibutton> "
 "(Memory Recall) button."
 msgstr ""
-"Roep de waarde op uit het geheugen door op de knop <guibutton>MR</guibutton>  "
-"(Memory Recall (geheugen oproepen)) te drukken."
+"Roep de waarde op uit het geheugen door op de knop <guibutton>MR</"
+"guibutton>  (Memory Recall (geheugen oproepen)) te drukken."
 
 #. Tag: para
-#: index.docbook:384
+#: index.docbook:379
 #, no-c-format
 msgid ""
-"Internally, the values are recalled with no unit or in the reference currency "
-"(euro or dollar) with the maximum precision allowed by the mathematical "
-"library. In some rare cases, this might lead to rounding problems if the stored "
-"value is a rounded value in a non-reference currency."
+"Internally, the values are recalled with no unit or in the reference "
+"currency (euro or dollar) with the maximum precision allowed by the "
+"mathematical library. In some rare cases, this might lead to rounding "
+"problems if the stored value is a rounded value in a non-reference currency."
 msgstr ""
 "Intern worden de waarden zonder eenheid of referentie-munteenheid (euro of "
-"dollar) opgeslagen met de maximum nauwkeurigheid die de wiskundige bibliotheek "
-"toestaat. In sommige gevallen kan dit leiden tot afrondproblemen indien de "
-"opgeslagen waarde een afgeronde waarde is in een niet-referentievaluta."
+"dollar) opgeslagen met de maximum nauwkeurigheid die de wiskundige "
+"bibliotheek toestaat. In sommige gevallen kan dit leiden tot afrondproblemen "
+"indien de opgeslagen waarde een afgeronde waarde is in een niet-"
+"referentievaluta."
 
 #. Tag: title
-#: index.docbook:390
+#: index.docbook:385
 #, no-c-format
 msgid "How do I clear the memory?"
 msgstr "Hoe kan ik de inhoud van het geheugen wissen?"
 
 #. Tag: para
-#: index.docbook:391
+#: index.docbook:386
 #, no-c-format
 msgid ""
 "Press the <guibutton>Reset</guibutton> button. Please notice that the "
-"<guibutton>Reset</guibutton> clears everything: the input, the result and the "
-"memory."
+"<guibutton>Reset</guibutton> clears everything: the input, the result and "
+"the memory."
 msgstr ""
 "Druk op de knop <guibutton>Wissen</guibutton>. Let erop dat met de knop "
 "<guibutton>Wissen</guibutton> alles wordt gewist: de invoer, het antwoord en "
 "het geheugen."
 
 #. Tag: title
-#: index.docbook:397
+#: index.docbook:392
 #, no-c-format
 msgid "How do I compute 3.1 * 5.2 € + 2.7 * 8.9 €?"
 msgstr "Hoe bereken ik 3,1 * 5,2 € + 2,7 * 8,9 €?"
 
 #. Tag: para
-#: index.docbook:398 index.docbook:410
+#: index.docbook:393 index.docbook:405
 #, no-c-format
 msgid "First compute the first half: <userinput>3.1 * 5.2 €</userinput>."
 msgstr "Bereken eerst de eerste helft: <userinput>3,1 * 5,2 €</userinput>."
 
 #. Tag: para
-#: index.docbook:399 index.docbook:411
+#: index.docbook:394 index.docbook:406
 #, no-c-format
 msgid "Store the result in memory with <guibutton>Min</guibutton> button."
 msgstr ""
 "Sla het antwoord op in het geheugen met de knop <guibutton>Min</guibutton>."
 
 #. Tag: para
-#: index.docbook:400 index.docbook:412
+#: index.docbook:395 index.docbook:407
 #, no-c-format
 msgid "Now compute the other half: <userinput>2.7 * 8.9 €</userinput>."
 msgstr "Bereken nu de andere helft: <userinput>2,7 * 8,9 €</userinput>."
 
 #. Tag: para
-#: index.docbook:401
+#: index.docbook:396
 #, no-c-format
 msgid "Add the result to the memory with <guibutton>M+</guibutton> button."
 msgstr ""
-"Tel het antwoord op bij dat in het geheugen met de knop <guibutton>"
-"M+</guibutton>."
+"Tel het antwoord op bij dat in het geheugen met de knop <guibutton>M+</"
+"guibutton>."
 
 #. Tag: para
-#: index.docbook:402 index.docbook:414
+#: index.docbook:397 index.docbook:409
 #, no-c-format
 msgid "Recall the sum with <guibutton>MR</guibutton> button."
 msgstr "Roep de som op uit het geheugen met de knop <guibutton>MR</guibutton>."
 
 #. Tag: para
-#: index.docbook:405
+#: index.docbook:400
 #, no-c-format
 msgid ""
-"There are other solutions like <userinput>3.1 * 5.2 € Min 2.7 * 8.9 € + "
-"MR</userinput>."
+"There are other solutions like <userinput>3.1 * 5.2 € Min 2.7 * 8.9 € + MR</"
+"userinput>."
 msgstr ""
-"Er zijn nog meer methoden zoals <userinput>3,1 * 5,2 € Min 2,7 * 8,9 € + "
-"MR</userinput>."
+"Er zijn nog meer methoden zoals <userinput>3,1 * 5,2 € Min 2,7 * 8,9 € + MR</"
+"userinput>."
 
 #. Tag: title
-#: index.docbook:409
+#: index.docbook:404
 #, no-c-format
 msgid "How do I compute 3.1 * 5.2 € - 2.7 * 8.9 €?"
 msgstr "Hoe bereken ik 3,1 * 5,2 € - 2,7 * 8,9 €?"
 
 #. Tag: para
-#: index.docbook:413
+#: index.docbook:408
 #, no-c-format
 msgid ""
 "Subtract the result from the memory with <guibutton>M-</guibutton> button."
 msgstr ""
-"Net als hierboven, maar trek nu het antwoord af van dat in het geheugen met de "
-"knop <guibutton>M-</guibutton>."
+"Net als hierboven, maar trek nu het antwoord af van dat in het geheugen met "
+"de knop <guibutton>M-</guibutton>."
 
 #. Tag: para
-#: index.docbook:417
+#: index.docbook:412
 #, no-c-format
 msgid ""
 "The sequence <userinput>3.1 * 5.2 € Min 2.7 * 8.9 € - MR</userinput> "
@@ -1111,112 +1129,114 @@ msgstr ""
 "wordt het verschil in de omgekeerde richting berekend."
 
 #. Tag: title
-#: index.docbook:424
+#: index.docbook:419
 #, no-c-format
 msgid "Command Reference"
 msgstr "Opdrachtenoverzicht"
 
 #. Tag: title
-#: index.docbook:427
+#: index.docbook:422
 #, no-c-format
 msgid "Default Shortcuts"
 msgstr "Standaard sneltoetsen"
 
 #. Tag: keycombo
-#: index.docbook:430
+#: index.docbook:425
 #, no-c-format
 msgid "&Alt; <keycap>F4</keycap>"
 msgstr "&Alt; <keycap>F4</keycap>"
 
 #. Tag: member
-#: index.docbook:431
+#: index.docbook:426
 #, no-c-format
 msgid "Exits from &keurocalc;"
 msgstr "&keurocalc; verlaten"
 
 #. Tag: keycombo
-#: index.docbook:433
+#: index.docbook:428
 #, no-c-format
 msgid "&Alt; <keycap>A</keycap>"
 msgstr "&Alt; <keycap>A</keycap>"
 
 #. Tag: member
-#: index.docbook:434 index.docbook:525
+#: index.docbook:429 index.docbook:520
 #, no-c-format
 msgid "Displays these help pages"
 msgstr "Deze helppagina's tonen"
 
 #. Tag: keycombo
-#: index.docbook:436
+#: index.docbook:431
 #, no-c-format
 msgid "&Alt; <keycap>C</keycap>"
 msgstr "&Alt; <keycap>C</keycap>"
 
 #. Tag: member
-#: index.docbook:437
+#: index.docbook:432
 #, no-c-format
 msgid "Goes to the currency selection area"
 msgstr "Naar het selectiegebied gaan voor munteenheden"
 
 #. Tag: keycombo
-#: index.docbook:439
+#: index.docbook:434
 #, no-c-format
 msgid "&Alt; <keycap>H</keycap>"
 msgstr "&Alt; <keycap>H</keycap>"
 
 #. Tag: member
-#: index.docbook:440 index.docbook:522
+#: index.docbook:435 index.docbook:517
 #, no-c-format
 msgid "Displays the <guilabel>About</guilabel> box"
 msgstr "Het vak <guilabel>Info over</guilabel> tonen"
 
 #. Tag: member
-#: index.docbook:442
+#: index.docbook:437
 #, no-c-format
 msgid "<keycap>0</keycap> - <keycap>9</keycap>"
 msgstr "<keycap>0</keycap> - <keycap>9</keycap>"
 
 #. Tag: member
-#: index.docbook:443 index.docbook:486
+#: index.docbook:438 index.docbook:481
 #, no-c-format
 msgid "Input digits"
 msgstr "Cijfers invoeren"
 
 #. Tag: member
-#: index.docbook:445
+#: index.docbook:440
 #, no-c-format
 msgid "<keycap>.</keycap> or <keycap>,</keycap>"
 msgstr "<keycap>.</keycap> of <keycap>,</keycap>"
 
 #. Tag: member
-#: index.docbook:446 index.docbook:489
+#: index.docbook:441 index.docbook:484
 #, no-c-format
 msgid "Decimal separator"
 msgstr "Decimaal scheidingsteken"
 
 #. Tag: member
-#: index.docbook:448
+#: index.docbook:443
 #, no-c-format
 msgid ""
-"<keycap>+</keycap>, <keycap>-</keycap>, <keycap>*</keycap> and <keycap>"
-"/</keycap>"
+"<keycap>+</keycap>, <keycap>-</keycap>, <keycap>*</keycap> and <keycap>/</"
+"keycap>"
 msgstr ""
-"<keycap>+</keycap>, <keycap>-</keycap>, <keycap>*</keycap> en <keycap>/</keycap>"
+"<keycap>+</keycap>, <keycap>-</keycap>, <keycap>*</keycap> en <keycap>/</"
+"keycap>"
 
 #. Tag: member
-#: index.docbook:449 index.docbook:516
+#: index.docbook:444 index.docbook:511
 #, no-c-format
 msgid "Operators: addition, subtraction, multiplication and division"
 msgstr "Bewerkingen: optellen, aftrekken, vermenigvuldigen, delen"
 
 #. Tag: member
-#: index.docbook:451
-#, no-c-format
-msgid "<keycap>Enter</keycap> and <keycap>Return</keycap>"
+#: index.docbook:446
+#, fuzzy, no-c-format
+#| msgid "<keycap>Enter</keycap> and <keycap>Return</keycap>"
+msgid "&Enter; and <keycap>Return</keycap>"
 msgstr "<keycap>Enter</keycap> en <keycap>Return</keycap>"
 
 #. Tag: member
-#: index.docbook:452 index.docbook:504
+#: index.docbook:447 index.docbook:499
 #, no-c-format
 msgid "Validation of input number considered as a simple, unitless, value"
 msgstr ""
@@ -1224,25 +1244,25 @@ msgstr ""
 "eenheid"
 
 #. Tag: keycap
-#: index.docbook:454
+#: index.docbook:449
 #, no-c-format
 msgid "<keycap>%</keycap>"
 msgstr "<keycap>%</keycap>"
 
 #. Tag: member
-#: index.docbook:455 index.docbook:507
+#: index.docbook:450 index.docbook:502
 #, no-c-format
 msgid "Validation of input number considered as a percentage"
 msgstr "Bevestigen van ingevoerd getal, beschouwd als een percentage"
 
 #. Tag: member
-#: index.docbook:457
+#: index.docbook:452
 #, no-c-format
 msgid "&Backspace;"
 msgstr "&Backspace;"
 
 #. Tag: member
-#: index.docbook:458 index.docbook:492
+#: index.docbook:453 index.docbook:487
 #, no-c-format
 msgid "Removal of last input: digits, decimal separator or operator"
 msgstr ""
@@ -1250,54 +1270,56 @@ msgstr ""
 "bewerking"
 
 #. Tag: member
-#: index.docbook:460
-#, no-c-format
-msgid ""
-"<keycap>Tab</keycap> and <keycombo action=\"simul\">&Shift; <keycap>Tab</keycap>"
-"</keycombo> keys"
+#: index.docbook:455
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<keycap>Tab</keycap> and <keycombo action=\"simul\">&Shift; <keycap>Tab</"
+#| "keycap></keycombo> keys"
+msgid "&Tab; and <keycombo action=\"simul\">&Shift; &Tab;</keycombo> keys"
 msgstr ""
-"<keycap>Tab</keycap> en <keycombo action=\"simul\">&Shift; <keycap>Tab</keycap>"
-"</keycombo>"
+"<keycap>Tab</keycap> en <keycombo action=\"simul\">&Shift; <keycap>Tab</"
+"keycap></keycombo>"
 
 #. Tag: member
-#: index.docbook:461
+#: index.docbook:456
 #, no-c-format
 msgid "Moves from one button to the next or previous one"
 msgstr "Met de knopselectie van de ene knop naar de andere gaan of terug"
 
 #. Tag: member
-#: index.docbook:463
+#: index.docbook:458
 #, no-c-format
 msgid "Arrow keys"
 msgstr "Pijl-toetsen"
 
 #. Tag: member
-#: index.docbook:464
+#: index.docbook:459
 #, no-c-format
 msgid "In the currency selection area, moves from one currency to the other"
 msgstr ""
-"Bij het kiezen van een munteenheid, van de ene naar de andere munteenheid gaan"
+"Bij het kiezen van een munteenheid, van de ene naar de andere munteenheid "
+"gaan"
 
 #. Tag: member
-#: index.docbook:466
+#: index.docbook:461
 #, no-c-format
 msgid "Space bar"
 msgstr "Spatiebalk"
 
 #. Tag: member
-#: index.docbook:467
+#: index.docbook:462
 #, no-c-format
 msgid "When focus is on a push button, presses this button"
 msgstr "Indien de focus op een drukknop is: drukken op deze knop"
 
 #. Tag: member
-#: index.docbook:469
+#: index.docbook:464
 #, no-c-format
 msgid "<keycap>E</keycap> or <keycap>$</keycap>"
 msgstr "<keycap>E</keycap> of <keycap>$</keycap>"
 
 #. Tag: member
-#: index.docbook:470 index.docbook:498
+#: index.docbook:465 index.docbook:493
 #, no-c-format
 msgid ""
 "Validation of input number considered as a value expressed in the reference "
@@ -1307,25 +1329,25 @@ msgstr ""
 "referentie-munteenheid (euro of dollar)"
 
 #. Tag: keycap
-#: index.docbook:472
+#: index.docbook:467
 #, no-c-format
 msgid "<keycap>S</keycap>"
 msgstr "<keycap>S</keycap>"
 
 #. Tag: member
-#: index.docbook:473 index.docbook:510
+#: index.docbook:468 index.docbook:505
 #, no-c-format
 msgid "Change sign of the result"
 msgstr "Het teken veranderen van het antwoord"
 
 #. Tag: member
-#: index.docbook:475
+#: index.docbook:470
 #, no-c-format
 msgid "Any other key"
 msgstr "Elke andere toets"
 
 #. Tag: member
-#: index.docbook:476 index.docbook:501
+#: index.docbook:471 index.docbook:496
 #, no-c-format
 msgid "Validation of input number considered as a number in the other currency"
 msgstr ""
@@ -1333,93 +1355,94 @@ msgstr ""
 "munteenheid"
 
 #. Tag: title
-#: index.docbook:482
+#: index.docbook:477
 #, no-c-format
 msgid "The buttons"
 msgstr "De knoppen"
 
 #. Tag: member
-#: index.docbook:485
+#: index.docbook:480
 #, no-c-format
 msgid "<guibutton>0</guibutton> to <guibutton>9</guibutton>"
 msgstr "<guibutton>0</guibutton> tot <guibutton>9</guibutton>"
 
 #. Tag: member
-#: index.docbook:488
+#: index.docbook:483
 #, no-c-format
 msgid "<guibutton>.</guibutton> or <guibutton>,</guibutton>"
 msgstr "<guibutton>.</guibutton> of <guibutton>,</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:491
+#: index.docbook:486
 #, no-c-format
 msgid "&lt;-"
 msgstr "&lt;-"
 
 #. Tag: guibutton
-#: index.docbook:494
+#: index.docbook:489
 #, no-c-format
 msgid "<guibutton>AC</guibutton>"
 msgstr "<guibutton>Wissen</guibutton>"
 
 #. Tag: member
-#: index.docbook:495
+#: index.docbook:490
 #, no-c-format
 msgid "Clear all: both input and result area"
 msgstr "Alles wissen: zowel het invoer- als het antwoordscherm"
 
 #. Tag: member
-#: index.docbook:497
+#: index.docbook:492
 #, no-c-format
 msgid "<guibutton>€</guibutton> or <guibutton>$</guibutton>"
 msgstr "<guibutton>€</guibutton> of <guibutton>$</guibutton>"
 
 #. Tag: member
-#: index.docbook:500
+#: index.docbook:495
 #, no-c-format
 msgid "The button labeled with the name of an other currency"
 msgstr "De knop met de naam van een andere munteenheid"
 
 #. Tag: guibutton
-#: index.docbook:503
+#: index.docbook:498
 #, no-c-format
 msgid "Enter"
 msgstr "Enter"
 
 #. Tag: guibutton
-#: index.docbook:506
+#: index.docbook:501
 #, no-c-format
 msgid "<guibutton>%</guibutton>"
 msgstr "<guibutton>%</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:509
+#: index.docbook:504
 #, no-c-format
 msgid "<guibutton>+/-</guibutton>"
 msgstr "<guibutton>+/-</guibutton>"
 
 #. Tag: member
-#: index.docbook:512
+#: index.docbook:507
 #, no-c-format
 msgid ""
-"<guibutton>Min</guibutton>, <guibutton>MR</guibutton>, <guibutton>M+</guibutton> "
-"and <guibutton>-</guibutton>"
+"<guibutton>Min</guibutton>, <guibutton>MR</guibutton>, <guibutton>M+</"
+"guibutton> and <guibutton>-</guibutton>"
 msgstr ""
-"<guibutton>Min</guibutton>, <guibutton>MR</guibutton>, <guibutton>M+</guibutton> "
-"en <guibutton>M-</guibutton>"
+"<guibutton>Min</guibutton>, <guibutton>MR</guibutton>, <guibutton>M+</"
+"guibutton> en <guibutton>M-</guibutton>"
 
 #. Tag: member
-#: index.docbook:513
+#: index.docbook:508
 #, no-c-format
 msgid ""
 "Store result in memory, recall memory into result, add result to memory and "
 "subtract result from memory"
 msgstr ""
 "Antwoord opslaan in geheugen, ophalen inhoud geheugen naar antwoordscherm, "
-"antwoord optellen bij inhoud geheugen en aftrekken antwoord van geheugeninhoud"
+"antwoord optellen bij inhoud geheugen en aftrekken antwoord van "
+"geheugeninhoud"
 
 #. Tag: member
-#: index.docbook:515
+#: index.docbook:510
 #, no-c-format
 msgid ""
 "<guibutton>/</guibutton>, <guibutton>X</guibutton>, <guibutton>-</guibutton> "
@@ -1429,217 +1452,217 @@ msgstr ""
 "en <guibutton>+</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:518
+#: index.docbook:513
 #, no-c-format
 msgid "Reset"
 msgstr "Wissen"
 
 #. Tag: member
-#: index.docbook:519
+#: index.docbook:514
 #, no-c-format
 msgid "Reset both input, result and memory"
 msgstr "Wissen van invoer, antwoord en geheugen"
 
 #. Tag: guibutton
-#: index.docbook:521
+#: index.docbook:516
 #, no-c-format
-msgid "<accel>A</accel>bout"
-msgstr "<accel>I</accel>nfo over"
+msgid "About"
+msgstr ""
 
 #. Tag: guibutton
-#: index.docbook:524
+#: index.docbook:519
 #, no-c-format
-msgid "<accel>H</accel>elp"
-msgstr "<accel>H</accel>elp"
+msgid "Help"
+msgstr ""
 
 #. Tag: member
-#: index.docbook:527
+#: index.docbook:522
 #, no-c-format
 msgid "The drop down list with currency codes and names"
 msgstr "Het contextmenu met de codes en namen van de munteenheden"
 
 #. Tag: member
-#: index.docbook:528
+#: index.docbook:523
 #, no-c-format
 msgid "Selects an other currency to work with"
 msgstr "Selecteren van een andere munteenheid om mee te werken"
 
 #. Tag: title
-#: index.docbook:534
+#: index.docbook:529
 #, no-c-format
 msgid "The Settings Dialog"
 msgstr "De Instellingendialoog"
 
 #. Tag: title
-#: index.docbook:541
+#: index.docbook:536
 #, no-c-format
 msgid "Reference currency, rates origin"
 msgstr "Referentie-munteenheid, bron koersen"
 
 #. Tag: para
-#: index.docbook:543
+#: index.docbook:538
 #, no-c-format
 msgid ""
 "This setting defines the reference currency (euro or dollar), and from where "
-"&keurocalc; should download the exchange rates between the reference currency "
-"and other currencies. The following choices are available:"
+"&keurocalc; should download the exchange rates between the reference "
+"currency and other currencies. The following choices are available:"
 msgstr ""
-"Met deze instelling wordt de referentie-munteenheid ingesteld (euro of dollar), "
-"en van welke bron &keurocalc; de wisselkoersen moet ophalen tussen de "
-"referentie-munteenheid en andere valuta. De volgende keuzes zijn beschikbaar:"
+"Met deze instelling wordt de referentie-munteenheid ingesteld (euro of "
+"dollar), en van welke bron &keurocalc; de wisselkoersen moet ophalen tussen "
+"de referentie-munteenheid en andere valuta. De volgende keuzes zijn "
+"beschikbaar:"
 
 #. Tag: guilabel
-#: index.docbook:550
+#: index.docbook:545
 #, no-c-format
 msgid "Euro, no network access (fixed rates only)"
 msgstr "Euro, geen toegang tot internet (alleen vaste koersen)"
 
 #. Tag: para
-#: index.docbook:552
+#: index.docbook:547
 #, no-c-format
 msgid ""
 "Euro is the reference currency. No variable rate is downloaded or used. The "
-"only available currencies are the ones that have a fixed conversion rate with "
-"the euro."
+"only available currencies are the ones that have a fixed conversion rate "
+"with the euro."
 msgstr ""
 "De euro is de referentie-munteenheid. Er worden geen variabele wisselkoersen "
-"opgehaald of gebruikt. De enige beschikbare munteenheden zijn die met een vaste "
-"omrekeningskoers met de euro."
+"opgehaald of gebruikt. De enige beschikbare munteenheden zijn die met een "
+"vaste omrekeningskoers met de euro."
 
 #. Tag: para
-#: index.docbook:555
+#: index.docbook:550
 #, no-c-format
 msgid "This setting is adapted to computers with no network access."
 msgstr ""
 "Deze instelling wordt gebruikt op computers zonder toegang tot het internet."
 
 #. Tag: guilabel
-#: index.docbook:560
+#: index.docbook:555
 #, no-c-format
 msgid "Euro, European Central Bank"
 msgstr "Euro, Europese Centrale Bank"
 
 #. Tag: para
-#: index.docbook:562
+#: index.docbook:557
 #, no-c-format
 msgid ""
 "Euro is the reference currency. The fixed exchange rates are available. "
-"&keurocalc; attempts to download the variable rates from the <ulink "
-"url=\"http://www.ecb.int/stats/eurofxref/\">European Central Bank (ECB)</ulink>"
-"."
+"&keurocalc; attempts to download the variable rates from the <ulink url="
+"\"http://www.ecb.int/stats/eurofxref/\">European Central Bank (ECB)</ulink>."
 msgstr ""
-"De euro is de referentie-munteenheid. De vaste wisselkoersen zijn beschikbaar. "
-"&keurocalc; probeert de variabele koersen op te halen van de <ulink "
-"url=\"http://www.ecb.int/stats/eurofxref/\">Europese Centrale Bank (ECB)</ulink>"
-"."
+"De euro is de referentie-munteenheid. De vaste wisselkoersen zijn "
+"beschikbaar. &keurocalc; probeert de variabele koersen op te halen van de "
+"<ulink url=\"http://www.ecb.int/stats/eurofxref/\">Europese Centrale Bank "
+"(ECB)</ulink>."
 
 #. Tag: guilabel
-#: index.docbook:569
+#: index.docbook:564
 #, no-c-format
 msgid "Dollar, New York Federal Reserve Bank"
 msgstr "Dollar, New York Federal Reserve Bank"
 
 #. Tag: para
-#: index.docbook:571
+#: index.docbook:566
 #, no-c-format
 msgid ""
 "Dollar is the reference currency. There are no fixed exchange rates. "
-"&keurocalc; attempts to download the variable rates from the <ulink "
-"url=\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">"
-"New York Federal Reserve Bank (NY FRB)</ulink>."
+"&keurocalc; attempts to download the variable rates from the <ulink url="
+"\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">New York Federal Reserve "
+"Bank (NY FRB)</ulink>."
 msgstr ""
 "De US-dollar is de referentie-munteenheid. Er zijn geen vaste wisselkoersen. "
-"&keurocalc; probeert de variabele koersen op te halen van de <ulink "
-"url=\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">"
-"New York Federal Reserve Bank (NY FRB)</ulink>."
+"&keurocalc; probeert de variabele koersen op te halen van de <ulink url="
+"\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">New York Federal Reserve "
+"Bank (NY FRB)</ulink>."
 
 #. Tag: para
-#: index.docbook:575
+#: index.docbook:570
 #, no-c-format
 msgid ""
 "Currently, &keurocalc; has a problem determining the date of the latest "
-"exchange rates published by that bank, because of time zone offsets and "
-"non-working days. For safety, &keurocalc; always asks for yesterday's rates, "
+"exchange rates published by that bank, because of time zone offsets and non-"
+"working days. For safety, &keurocalc; always asks for yesterday's rates, "
 "which is of course not optimal."
 msgstr ""
-"Op dit moment heeft &keurocalc; een probleem met het vaststellen van de datum "
-"waarop de laatste wisselkoersen door die bank zijn gepubliceerd, vanwege "
-"verschillen in tijdzones en dagen waarop niet wordt gewerkt. Voor de zekerheid "
-"vraagt &keurocalc; steeds om de koersen van gisteren, wat natuurlijk niet "
-"optimaal is."
+"Op dit moment heeft &keurocalc; een probleem met het vaststellen van de "
+"datum waarop de laatste wisselkoersen door die bank zijn gepubliceerd, "
+"vanwege verschillen in tijdzones en dagen waarop niet wordt gewerkt. Voor de "
+"zekerheid vraagt &keurocalc; steeds om de koersen van gisteren, wat "
+"natuurlijk niet optimaal is."
 
 #. Tag: title
-#: index.docbook:587
+#: index.docbook:582
 #, no-c-format
 msgid "Default currency"
 msgstr "Standaard munteenheid"
 
 #. Tag: para
-#: index.docbook:589
+#: index.docbook:584
 #, no-c-format
 msgid ""
-"This setting defines the other currency that is used when &keurocalc; starts up "
-"or when the user validates the new settings."
+"This setting defines the other currency that is used when &keurocalc; starts "
+"up or when the user validates the new settings."
 msgstr ""
 "Met deze instelling wordt de andere munteenheid gekozen die in &keurocalc; "
 "wordt gebruikt wanneer dit programma wordt gestart, of wanneer de gebruiker "
 "nieuwe instellingen kiest."
 
 #. Tag: para
-#: index.docbook:592
+#: index.docbook:587
 #, no-c-format
 msgid ""
-"Notice that the selected currency might not be provided by the selected rates "
-"source. In that case, the first available currency in the list is used."
+"Notice that the selected currency might not be provided by the selected "
+"rates source. In that case, the first available currency in the list is used."
 msgstr ""
-"Merk op dat de geselecteerde muntsoort misschien niet aanwezig is in de lijst "
-"van de wisselkoersen van de bron voor koersen. In dat geval wordt de eerste "
-"munteenheid in de lijst gebruikt."
+"Merk op dat de geselecteerde muntsoort misschien niet aanwezig is in de "
+"lijst van de wisselkoersen van de bron voor koersen. In dat geval wordt de "
+"eerste munteenheid in de lijst gebruikt."
 
 #. Tag: title
-#: index.docbook:598
+#: index.docbook:593
 #, no-c-format
 msgid "Rounding"
 msgstr "Afronding"
 
 #. Tag: para
-#: index.docbook:600
+#: index.docbook:595
 #, no-c-format
 msgid ""
-"This setting defines how the results should be presented in the display area. "
-"Internally, all computations are done with the precision offered by the "
-"mathematical library, but it usually makes no sense presenting tenths of cents. "
-"The following rounding methods are available:"
+"This setting defines how the results should be presented in the display "
+"area. Internally, all computations are done with the precision offered by "
+"the mathematical library, but it usually makes no sense presenting tenths of "
+"cents. The following rounding methods are available:"
 msgstr ""
-"Met deze instelling wordt gedefinieerd hoe de antwoorden worden weergegeven in "
-"het antwoordscherm. Intern worden alle berekeningen uitgevoerd met de "
-"nauwkeurigheid die mogelijk wordt gemaakt door de wiskundige bibliotheek, maar "
-"het is gewoonlijk zinloos om antwoorden in tienden van centen te geven. De "
-"volgende afrondmethodes staan ter beschikking:"
+"Met deze instelling wordt gedefinieerd hoe de antwoorden worden weergegeven "
+"in het antwoordscherm. Intern worden alle berekeningen uitgevoerd met de "
+"nauwkeurigheid die mogelijk wordt gemaakt door de wiskundige bibliotheek, "
+"maar het is gewoonlijk zinloos om antwoorden in tienden van centen te geven. "
+"De volgende afrondmethodes staan ter beschikking:"
 
 #. Tag: guilabel
-#: index.docbook:607
+#: index.docbook:602
 #, no-c-format
 msgid "Official rounding rules"
 msgstr "Officiële afrondregels"
 
 #. Tag: para
-#: index.docbook:609
+#: index.docbook:604
 #, no-c-format
 msgid ""
-"The EU conversion rules or other official conversion rules are used. It means "
-"that the result is rounded to the next unit for currencies like the Japanese "
-"yen or the Italian lira, and rounded to the next hundredth of unit (<quote>"
-"cents</quote>) for currencies like the euro or the dollar."
+"The EU conversion rules or other official conversion rules are used. It "
+"means that the result is rounded to the next unit for currencies like the "
+"Japanese yen or the Italian lira, and rounded to the next hundredth of unit "
+"(<quote>cents</quote>) for currencies like the euro or the dollar."
 msgstr ""
 "De regels van de EU of andere officiële regels worden gebruikt. Dit betekent "
 "dat het antwoord wordt afgerond tot de dichtstbijzijnde eenheid voor "
 "munteenheden als de Japanse yen of de Italiaanse lire, en tot het "
-"dichtstbijzijnde honderdste deel van de eenheid (<quote>centen</quote>"
-") voor munteenheden als de euro en de dollar."
+"dichtstbijzijnde honderdste deel van de eenheid (<quote>centen</quote>) voor "
+"munteenheden als de euro en de dollar."
 
 #. Tag: para
-#: index.docbook:613
+#: index.docbook:608
 #, no-c-format
 msgid ""
 "For example, 158.323 yen would be rounded to 158 yen. 12.537 euro would be "
@@ -1649,29 +1672,29 @@ msgstr ""
 "afgerond tot 12,54 euro."
 
 #. Tag: guilabel
-#: index.docbook:619
+#: index.docbook:614
 #, no-c-format
 msgid "Smallest coin method"
 msgstr "Kleinste-munt methode"
 
 #. Tag: para
-#: index.docbook:621
+#: index.docbook:616
 #, no-c-format
 msgid ""
-"The result is rounded to the next value of the smallest coin that circulates in "
-"the country that uses that currency. For disappeared currencies like the "
+"The result is rounded to the next value of the smallest coin that circulates "
+"in the country that uses that currency. For disappeared currencies like the "
 "Italian lira, it uses the smallest coin that used to circulate before the "
 "currency has been withdrawn: in the case of the Italian lira, it was the 50 "
 "liras coin."
 msgstr ""
 "Het antwoord wordt afgerond tot de dichtstbijzijnde kleinste munt die "
 "circuleert in het land waar die munteenheid wordt gebruikt. Voor muntsoorten "
-"die verdwenen zijn zoals de Italiaanse lire wordt de kleinste munt gebruikt die "
-"in circulatie was voordat de muntsoort werd ingetrokken: in het geval van de "
-"Italiaanse lire was dit de munt van 50 lire."
+"die verdwenen zijn zoals de Italiaanse lire wordt de kleinste munt gebruikt "
+"die in circulatie was voordat de muntsoort werd ingetrokken: in het geval "
+"van de Italiaanse lire was dit de munt van 50 lire."
 
 #. Tag: para
-#: index.docbook:626
+#: index.docbook:621
 #, no-c-format
 msgid ""
 "For example, 1235.9 Italian liras would be rounded to 1250 liras. 39.45 "
@@ -1681,76 +1704,77 @@ msgstr ""
 "Noorse kronen worden afgerond tot 39,50 kronen."
 
 #. Tag: para
-#: index.docbook:628
+#: index.docbook:623
 #, no-c-format
 msgid ""
 "We lack information about the smallest coins that exist in every country. "
 "Please send a bug report if &keurocalc; uses an incorrect value for the "
 "smallest available coin in your country, and we will enter that information."
 msgstr ""
-"Wij hebben onvoldoende informatie over de kleinste munten die in omloop zijn in "
-"alle landen. Stuurt u ons een \"bugreport\" (een bericht over een "
-"programmafout) indien door &keurocalc; een onjuiste waarde wordt gebruikt voor "
-"de kleinste munt die in uw land in omloop is, waarna we die informatie kunnen "
-"gebruiken om het programma beter te maken."
+"Wij hebben onvoldoende informatie over de kleinste munten die in omloop zijn "
+"in alle landen. Stuurt u ons een \"bugreport\" (een bericht over een "
+"programmafout) indien door &keurocalc; een onjuiste waarde wordt gebruikt "
+"voor de kleinste munt die in uw land in omloop is, waarna we die informatie "
+"kunnen gebruiken om het programma beter te maken."
 
 #. Tag: guilabel
-#: index.docbook:635
+#: index.docbook:630
 #, no-c-format
 msgid "No rounding at all"
 msgstr "Geen afronding"
 
 #. Tag: para
-#: index.docbook:637
+#: index.docbook:632
 #, no-c-format
 msgid "The computed value is displayed unchanged, as a floating point number."
 msgstr "De berekende waarde wordt ongewijzigd getoond, als een decimale breuk."
 
 #. Tag: title
-#: index.docbook:646
-#, no-c-format
-msgid "Look an feel"
+#: index.docbook:641
+#, fuzzy, no-c-format
+#| msgid "Look an feel"
+msgid "Look and feel"
 msgstr "Uiterlijk en gedrag"
 
 #. Tag: para
-#: index.docbook:648
+#: index.docbook:643
 #, no-c-format
 msgid ""
-"This setting defines the appearance and behavior of &keurocalc;. The following "
-"options are available:"
+"This setting defines the appearance and behavior of &keurocalc;. The "
+"following options are available:"
 msgstr ""
 "Met deze instelling wijzigt u het uiterlijk en gedrag van &keurocalc;. De "
 "volgende opties zijn aanwezig:"
 
 #. Tag: guilabel
-#: index.docbook:653
+#: index.docbook:648
 #, no-c-format
 msgid "Display color"
 msgstr "Schermkleur"
 
 #. Tag: para
-#: index.docbook:655
+#: index.docbook:650
 #, no-c-format
 msgid ""
 "The background color of the display areas (both input and result). To change "
-"the background color, click on <guibutton>Change...</guibutton>"
-". This opens the standard &kde; color selection dialog. Choose a new color, "
-"then press <guibutton>OK</guibutton> to validate the new choice."
+"the background color, click on <guibutton>Change...</guibutton>. This opens "
+"the standard &kde; color selection dialog. Choose a new color, then press "
+"<guibutton>OK</guibutton> to validate the new choice."
 msgstr ""
-"De achtergrondkleur van de schermpjes voor zowel de invoer als het antwoord. Om "
-"de achtergrondkleur te wijzigen klikt u op <guibutton>Wijzigen...</guibutton>"
-". Hiermee opent u de standaard dialoog van &kde; voor het selecteren van een "
-"kleur. Kies een nieuwe kleur. Daarna drukt u op <guibutton>OK</guibutton> "
-"waarmee de nieuwe keuze wordt bevestigd."
+"De achtergrondkleur van de schermpjes voor zowel de invoer als het antwoord. "
+"Om de achtergrondkleur te wijzigen klikt u op <guibutton>Wijzigen...</"
+"guibutton>. Hiermee opent u de standaard dialoog van &kde; voor het "
+"selecteren van een kleur. Kies een nieuwe kleur. Daarna drukt u op "
+"<guibutton>OK</guibutton> waarmee de nieuwe keuze wordt bevestigd."
 
 #. Tag: guilabel
-#: index.docbook:663
+#: index.docbook:658
 #, no-c-format
 msgid "Enable splash screen"
 msgstr "Opstartscherm aan"
 
 #. Tag: para
-#: index.docbook:665
+#: index.docbook:660
 #, no-c-format
 msgid ""
 "Uncheck this box if you do not want to initial picture to appear when "
@@ -1760,160 +1784,173 @@ msgstr ""
 "getoond voor het werkelijke opstarten van &keurocalc;."
 
 #. Tag: title
-#: index.docbook:677
+#: index.docbook:672
 #, no-c-format
 msgid "Credits and License"
 msgstr "Dankbetuigingen en licenties"
 
 #. Tag: para
-#: index.docbook:679
+#: index.docbook:674
 #, no-c-format
 msgid "&keurocalc;"
 msgstr "&keurocalc;"
 
 #. Tag: para
-#: index.docbook:681
+#: index.docbook:676
 #, no-c-format
 msgid "Program copyright 2001-2006 the &keurocalc; developers:"
 msgstr "Programma copyright 2001-2006 de ontwikkelaars van &keurocalc;:"
 
 #. Tag: para
-#: index.docbook:684
+#: index.docbook:679
 #, no-c-format
 msgid ""
-"Éric Bischoff <email>ebischoff@_NOSPAM_nerim.net</email> "
-"- design and implementation"
+"Éric Bischoff <email>ebischoff@_NOSPAM_nerim.net</email> - design and "
+"implementation"
 msgstr ""
-"Éric Bischoff <email>ebischoff@_NOSPAM_nerim.net</email> "
-"- ontwerp en implementatie"
+"Éric Bischoff <email>ebischoff@_NOSPAM_nerim.net</email> - ontwerp en "
+"implementatie"
 
 #. Tag: para
-#: index.docbook:685
+#: index.docbook:680
+#, fuzzy, no-c-format
+#| msgid ""
+#| "Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> - additional "
+#| "functionnality"
+msgid ""
+"Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> - additional "
+"functionality"
+msgstr ""
+"Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> - toegevoegde "
+"functionaliteit"
+
+#. Tag: para
+#: index.docbook:681
 #, no-c-format
 msgid ""
-"Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> "
-"- additional functionnality"
+"Melchior Franz <email>a8603365@_NOSPAM_unet.univie.ac.at</email> - design "
+"and testing"
 msgstr ""
-"Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> "
-"- toegevoegde functionaliteit"
+"Melchior Franz <email>a8603365@_NOSPAM_unet.univie.ac.at</email> - ontwerp "
+"en testen"
 
 #. Tag: para
-#: index.docbook:686
-#, no-c-format
-msgid ""
-"Melchior Franz <email>a8603365@_NOSPAM_unet.univie.ac.at</email> "
-"- design and testing"
-msgstr ""
-"Melchior Franz <email>a8603365@_NOSPAM_unet.univie.ac.at</email> "
-"- ontwerp en testen"
-
-#. Tag: para
-#: index.docbook:687
+#: index.docbook:682
 #, no-c-format
 msgid ""
 "Bas Willems <email>cybersurfer@_NOSPAM_euronet.nl</email> - graphical artwork"
 msgstr ""
-"Bas Willems <email>cybersurfer@_NOSPAM_euronet.nl</email> "
-"- grafische vormgeving"
+"Bas Willems <email>cybersurfer@_NOSPAM_euronet.nl</email> - grafische "
+"vormgeving"
 
 #. Tag: para
-#: index.docbook:690
-#, no-c-format
+#: index.docbook:685
+#, fuzzy, no-c-format
+#| msgid ""
+#| "Documentation copyright 2001-2006 Éric Bischoff "
+#| "<email>ebischoff@_NOSPAM_nerim.net</email>."
 msgid ""
-"Documentation copyright 2001-2006 Éric Bischoff <email>"
-"ebischoff@_NOSPAM_nerim.net</email>."
+"Documentation copyright 2001-2007 Éric Bischoff "
+"<email>ebischoff@_NOSPAM_nerim.net</email>."
 msgstr ""
-"Documentatie copyright 2001-2006 Éric Bischoff <email>"
-"ebischoff@_NOSPAM_nerim.net</email>."
+"Documentatie copyright 2001-2006 Éric Bischoff "
+"<email>ebischoff@_NOSPAM_nerim.net</email>."
 
 #. Tag: para
-#: index.docbook:693
+#: index.docbook:688
 #, no-c-format
 msgid "Documentation reviewed by &Philip.Rodrigues; &Philip.Rodrigues.mail;."
 msgstr ""
 "Documentatie nagekeken door &Philip.Rodrigues; &Philip.Rodrigues.mail;."
 
 #. Tag: trans_comment
-#: index.docbook:694
+#: index.docbook:689
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr "<para><email>jjh punt woldringh bij planet punt nl</email></para>"
 
 #. Tag: chapter
-#: index.docbook:694
+#: index.docbook:689
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&underFDL; &underGPL;"
 
 #. Tag: title
-#: index.docbook:702
+#: index.docbook:697
 #, no-c-format
 msgid "Installation"
 msgstr "Installeren"
 
 #. Tag: title
-#: index.docbook:705
+#: index.docbook:700
 #, no-c-format
 msgid "How to obtain &keurocalc;"
 msgstr "Hoe &keurocalc; te verkrijgen"
 
 #. Tag: para
-#: index.docbook:707
+#: index.docbook:702
 #, no-c-format
 msgid ""
-"&keurocalc; is part of the <ulink url=\"http://extragear.kde.org/\">"
-"KDE extragear-utils</ulink> package. The latest version of &keurocalc; can be "
-"downloaded from its <ulink "
-"url=\"http://opensource.bureau-cornavin.com/keurocalc/\">home page</ulink>."
+"&keurocalc; is part of the <ulink url=\"http://extragear.kde.org/\">KDE "
+"extragear-utils</ulink> package. The latest version of &keurocalc; can be "
+"downloaded from its <ulink url=\"http://opensource.bureau-cornavin.com/"
+"keurocalc/\">home page</ulink>."
 msgstr ""
-"&keurocalc; maakt deel uit van het pakket <ulink "
-"url=\"http://extragear.kde.org/\">KDE extragear-utils</ulink>"
-". U kunt de laatste versie van &keurocalc; ophalen van de <ulink "
-"url=\"http://opensource.bureau-cornavin.com/keurocalc/\">thuispagina</ulink>."
+"&keurocalc; maakt deel uit van het pakket <ulink url=\"http://extragear.kde."
+"org/\">KDE extragear-utils</ulink>. U kunt de laatste versie van &keurocalc; "
+"ophalen van de <ulink url=\"http://opensource.bureau-cornavin.com/keurocalc/"
+"\">thuispagina</ulink>."
 
 #. Tag: title
-#: index.docbook:716
+#: index.docbook:711
 #, no-c-format
 msgid "Requirements"
 msgstr "Vereisten"
 
 #. Tag: para
-#: index.docbook:718
-#, no-c-format
-msgid "In order to successfully use &keurocalc;, you need &kde; 3.5."
+#: index.docbook:713
+#, fuzzy, no-c-format
+#| msgid "In order to successfully use &keurocalc;, you need &kde; 3.5."
+msgid "In order to successfully use &keurocalc;, you need &kde; 4.0."
 msgstr "Om &keurocalc; met succes te kunnen installeren is &kde; 3.5 nodig."
 
 #. Tag: para
-#: index.docbook:720
+#: index.docbook:715
 #, no-c-format
 msgid ""
-"All required libraries can be found on <ulink url=\"ftp://ftp.kde.org\">"
-"ftp.kde.org</ulink>, the &FTP; site of the &kde; project."
+"All required libraries can be found on <ulink url=\"ftp://ftp.kde.org\">ftp."
+"kde.org</ulink>, the &FTP; site of the &kde; project."
 msgstr ""
-"Alle benodigde bibliotheken zijn te vinden op <ulink url=\"ftp://ftp.kde.org\">"
-"ftp.kde.org</ulink>, de &FTP;-internetpagina van het &kde;-project."
+"Alle benodigde bibliotheken zijn te vinden op <ulink url=\"ftp://ftp.kde.org"
+"\">ftp.kde.org</ulink>, de &FTP;-internetpagina van het &kde;-project."
 
 #. Tag: title
-#: index.docbook:727
+#: index.docbook:722
 #, no-c-format
 msgid "Compilation and Installation"
 msgstr "Compileren en installeren"
 
 #. Tag: para
-#: index.docbook:729
+#: index.docbook:724
 #, no-c-format
 msgid ""
-"In order to compile and install &keurocalc; on your system, type the following "
-"in the base directory of the &keurocalc; distribution:"
+"In order to compile and install &keurocalc; on your system, type the "
+"following in the base directory of the &keurocalc; distribution:"
 msgstr ""
 "Om &keurocalc; te compileren en te installeren op uw systeem, typt u het "
 "volgende in de basismap van de &keurocalc;-distributie:"
 
 #. Tag: screen
-#: index.docbook:733
-#, no-c-format
+#: index.docbook:728
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<prompt>%</prompt> <userinput>./configure</userinput>\n"
+#| "<prompt>%</prompt> <userinput>make</userinput>\n"
+#| "<prompt>%</prompt> <userinput>make install</userinput>"
 msgid ""
-"<prompt>%</prompt> <userinput>./configure</userinput>\n"
+"<prompt>%</prompt> <userinput>mkdir build</userinput>\n"
+"<prompt>%</prompt> <userinput>cd build</userinput>\n"
+"<prompt>%</prompt> <userinput>cmake ..</userinput>\n"
 "<prompt>%</prompt> <userinput>make</userinput>\n"
 "<prompt>%</prompt> <userinput>make install</userinput>"
 msgstr ""
@@ -1922,14 +1959,25 @@ msgstr ""
 "<prompt>%</prompt> <userinput>make install</userinput>"
 
 #. Tag: para
-#: index.docbook:736
-#, no-c-format
+#: index.docbook:731
+#, fuzzy, no-c-format
+#| msgid ""
+#| "Since &keurocalc; uses <application>autoconf</application> and "
+#| "<application>automake</application> you should have not trouble compiling "
+#| "it. Should you run into problems please report them to &keurocalc;'s "
+#| "authors."
 msgid ""
-"Since &keurocalc; uses <application>autoconf</application> and <application>"
-"automake</application> you should have not trouble compiling it. Should you run "
-"into problems please report them to &keurocalc;'s authors."
+"Since cmake autodetects your system settings, you should have no trouble "
+"compiling &keurocalc;. Should you run into problems please report them to "
+"&keurocalc;'s authors."
 msgstr ""
-"Omdat &keurocalc; gebruik maakt van <application>autoconf</application> "
-"en <application>automake</application> zouden er geen problemen moeten zijn bij "
-"het compileren. Zijn die er toch, dan vragen wij u die te melden aan de auteurs "
-"van &keurocalc;."
+"Omdat &keurocalc; gebruik maakt van <application>autoconf</application> en "
+"<application>automake</application> zouden er geen problemen moeten zijn bij "
+"het compileren. Zijn die er toch, dan vragen wij u die te melden aan de "
+"auteurs van &keurocalc;."
+
+#~ msgid "<accel>A</accel>bout"
+#~ msgstr "<accel>I</accel>nfo over"
+
+#~ msgid "<accel>H</accel>elp"
+#~ msgstr "<accel>H</accel>elp"

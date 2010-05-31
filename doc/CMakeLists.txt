@@ -9,6 +9,8 @@ add_subdirectory(it)
 add_subdirectory(nb)
 add_subdirectory(nl)
 add_subdirectory(pt)
+add_subdirectory(pt_BR)
 add_subdirectory(sv)
+add_subdirectory(uk)
 
 ADD_CUSTOM_TARGET(doc ALL DEPENDS ${_sources})

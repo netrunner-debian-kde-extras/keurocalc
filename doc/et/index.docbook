@@ -48,15 +48,7 @@
 
 <copyright>
 <year
->2001</year>
-<year
->2002</year>
-<year
->2003</year>
-<year
->2004</year>
-<year
->2005</year>
+>2001-2010</year>
 <holder
 >Éric Bischoff</holder>
 </copyright>
@@ -64,13 +56,13 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2005-05-20</date>
+>2010-05-16</date>
 <releaseinfo
->0.09.02</releaseinfo>
+>1.0.3</releaseinfo>
 
 <abstract>
 <para
->&keurocalc; on käepärane valuutateisendaja ja kalkulaator. Käesolev käsiraamat kirjeldab &keurocalc;i versiooni 0.9.2. </para>
+>&keurocalc; on käepärane valuutateisendaja ja kalkulaator. Käesolev käsiraamat kirjeldab &keurocalc;i versiooni 1.0.0. </para>
 </abstract>
 
 <keywordset>
@@ -98,7 +90,7 @@
 >&keurocalc; on käepärane valuutateisendaja ja kalkulaator. </para>
 
 <para
->Alates 1. jaanuarist 2002 on kaksteist Euroopa riiki loobunud oma rahvusvaluutast ühisraha euro (€) kasuks. Tõenäoliselt 2007. aastal lähevad sellele üle ka mitmed Ida-Euroopa riigid. &keurocalc; on abiks: <variablelist>
+>Alates 1. jaanuarist 2002 on kaksteist Euroopa riiki loobunud oma rahvusvaluutast ühisraha euro (€) kasuks. Tasapisi lähevad sellele üle ka uued Euroopa Liidu riigid. &keurocalc; on abiks: <variablelist>
 <varlistentry>
 <term
 >Üleminekuperioodil</term>
@@ -185,7 +177,7 @@
 ></listitem>
 <listitem
 ><para
->Arve näidatakse vastavalt sinu maa tavale, nii võib kümnendkoha eraldajaks olla koma või punkt (seda saab määrata &kcontrol;es)</para
+>Arve näidatakse vastavalt sinu maa tavale, nii võib kümnendkoha eraldajaks olla koma või punkt (seda saab määrata &juhtimiskeskus;es).</para
 ></listitem>
 <listitem
 ><para
@@ -273,10 +265,10 @@
 > (<foreignphrase
 >francs belges</foreignphrase
 >) kalkulaatori allosas rahaühiku nimekirjas. Kui see ei ole saadaval, klõpsa nuppu <guibutton
->Seadistused..</guibutton
+>Seadistused...</guibutton
 > ja vali <guilabel
 >Euro, võrguühenduseta (ainult fikseeritud kurss)</guilabel
->, mis toob nähtavale korrektse kursside loendi.</para
+>, mis toob nähtavale korrektse kursside nimekirja.</para
 ></step>
 <step
 ><para
@@ -290,10 +282,14 @@
 ></step>
 <step
 ><para
->Klõpsa nuppu <guibutton
->€</guibutton
+>Vajuta nuppu <guibutton
+>FB</guibutton
 > või klahvi <keycap
->E</keycap
+>F</keycap
+>. Õigupoolest võib mis tahes klahvi, mida ei ole mingile muule operatsioonile omistatud, kasutada sisendi määratlemiseks numbrilise valuutana, nii et sama hästi oleks võinud vajutada klahvi <keycap
+>B</keycap
+> või <keycap
+>X</keycap
 >.</para
 ></step>
 <step
@@ -310,7 +306,7 @@
 >25 euro teisendamine Belgia frankideks</title>
 <step
 ><para
->Kui saadaval on fikseeritud kurssidega valuutad, vali all hüpikloendist <guilabel
+>Kui saadaval on fikseeritud kurssidega valuutad, vali all hüpiknimekirjast <guilabel
 >BEF - Belgia frank</guilabel
 >. Seda ei ole vaja, kui kasutasid just äsja sama valuutat.</para
 ></step>
@@ -322,14 +318,10 @@
 ></step>
 <step
 ><para
->Vajuta nuppu <guibutton
->FB</guibutton
+>Klõpsa nuppu <guibutton
+>€</guibutton
 > või klahvi <keycap
->F</keycap
->. Õigupoolest võib mis tahes klahvi, mida ei ole mingile muule operatsioonile omistatud, kasutada sisendi määratlemiseks numbrilise valuutana, nii et sama hästi oleks võinud vajutada klahvi <keycap
->B</keycap
-> või <keycap
->X</keycap
+>E</keycap
 >.</para
 ></step>
 <step
@@ -405,9 +397,7 @@
 >5</userinput
 > ja vajuta nuppu <guibutton
 >Enter</guibutton
-> või klahvi <keycap
->Enter</keycap
->. Paremale ilmub tulemus <computeroutput
+> või klahvi &Enter;. Paremale ilmub tulemus <computeroutput
 >8</computeroutput
 >.</para
 ></step>
@@ -567,9 +557,7 @@
 >3,2</userinput
 > ja vajuta seejärel nuppu <guibutton
 >Enter</guibutton
-> või klahvi <keycap
->Enter</keycap
->. See tähendabki <quote
+> või klahvi &Enter;. See tähendabki <quote
 >3,2 ühikut</quote
 >, iga ühik hinnaga 2 €.</para
 ></step>
@@ -812,7 +800,7 @@
 
 <para
 >Sama tulemuse annab aga näiteks ka <userinput
->3,1 * 5,2 € Min 2,7 * 8,9 €? + MR</userinput
+>3,1 * 5,2 € Min 2,7 * 8,9 € + MR</userinput
 >.</para>
 
 <procedure>
@@ -852,7 +840,7 @@
 
 <para
 >Vastupidises järjekorras arvutamiseks sisesta <userinput
->3,1 * 5,2 € Min 2,7 * 8,9 €? - MR</userinput
+>3,1 * 5,2 € Min 2,7 * 8,9 € - MR</userinput
 ></para>
 
 </sect1>
@@ -937,9 +925,7 @@
 >Tehtemärgid: liitmine, lahutamine, korrutamine ja jagamine</member>
 
 <member
-><keycap
->Enter</keycap
-> ja <keycap
+>&Enter; ja <keycap
 >Return</keycap
 ></member>
 <member
@@ -958,12 +944,8 @@
 >Eemaldab viimati sisestatud numbri, kümnendkoha eraldaja või tehtemärgi</member>
 
 <member
-><keycap
->Tab</keycap
-> ja <keycombo action="simul"
->&Shift;<keycap
-> Tab</keycap
-></keycombo
+>&Tab; ja <keycombo action="simul"
+>&Shift; &Tab;</keycombo
 ></member>
 <member
 >Liigub ühelt nupult järgmisele või eelmisele</member>
@@ -1109,9 +1091,7 @@
 
 <member
 ><guibutton
-><accel
->I</accel
->nfo</guibutton
+>Info</guibutton
 ></member>
 <member
 >Näitab <guilabel
@@ -1120,9 +1100,7 @@
 
 <member
 ><guibutton
-><accel
->A</accel
->bi</guibutton
+>Abi</guibutton
 ></member>
 <member
 >Näitab abi (käesolevat käsiraamatut)</member>
@@ -1172,7 +1150,7 @@
 ></term>
 <listitem>
 <para
->Baasvaluuta on euro. Saadaval on kursimuutused. &keurocalc; püüab kursimuutused tõmmata <ulink url="http://www.ecb.int/stats/eurofxref/"
+>Baasvaluuta on euro. Saadaval on fikseeritud kursid. &keurocalc; püüab kursimuutused tõmmata <ulink url="http://www.ecb.int/stats/eurofxref/"
 >Euroopa Keskpangast (ECB)</ulink
 >.</para>
 </listitem>
@@ -1239,9 +1217,9 @@
 ></term>
 <listitem>
 <para
->Tulemus ümardatakse antud valuutat kasutaval maal käibiva väikseima mündi väärtuseni. Kadunud rahaühikute, näiteks Itaalia liiride korral, kasutatakse väikseimat münti, mis oli käibel enne rahaühiku kadumist (Itaalia liiride puhul oli selleks kümneliirine münt).</para>
+>Tulemus ümardatakse antud valuutat kasutaval maal käibiva väikseima mündi väärtuseni. Kadunud rahaühikute, näiteks Itaalia liiride korral, kasutatakse väikseimat münti, mis oli käibel enne rahaühiku kadumist (Itaalia liiride puhul oli selleks 50-liirine münt).</para>
 <para
->Näiteks 1235,9 Itaalia liiri ümardatakse 1240 liiriks, 55 462,2 Rumeenia leevi aga 55 500 leeviks.</para>
+>Näiteks 1235,9 Itaalia liiri ümardatakse 1250 liiriks, 39,45 Norra krooni aga 39,50 krooniks.</para>
 <para
 >Meil ei ole paraku absoluutselt iga maa kohta andmeid, milline on väikseim käibelolev münt. Palun saada vearaport, kui &keurocalc; kasutab sinu maa korral vigast väikseima mündi väärtust, ja me lisame selle info enda andmebaasi.</para>
 </listitem>
@@ -1261,6 +1239,43 @@
 </variablelist>
 
 </sect2>
+
+<sect2 id="settings-look-and-feel">
+<title
+>Välimus</title>
+
+<para
+>Need seadistused määravad &keurocalc;i välimuse ja käitumise. Siin on järgmised valikud:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Värvi näitamine</guilabel
+></term>
+<listitem>
+<para
+>Nii sisendi kui ka tulemuse näitamise ala taustavärv. Taustavärvi muutmiseks klõpsa nupule <guibutton
+>Muuda...</guibutton
+> See avab tavapärase &kde; värvi valimise dialoogi. Vali uus värv ja klõpsa selle kasutamiseks nupule <guibutton
+>OK</guibutton
+>.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Käivituslogo näitamine</guilabel
+></term>
+<listitem>
+<para
+>Kastist märke eemaldamisel ei näidata &keurocalc;i käivitamise ajal käivituslogo.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect2>
 </sect1>
 </chapter>
 
@@ -1273,12 +1288,18 @@
 >&keurocalc;</para>
 
 <para
->Rakenduse autoriõigus 2001-2004: &keurocalc;i arendajad: <itemizedlist>
+>Rakenduse autoriõigus 2001-2006: &keurocalc;i arendajad: <itemizedlist>
 <listitem
 ><para
 >Éric Bischoff <email
->e.bischoff@_NOSPAM_noos.fr</email
+>ebischoff@_NOSPAM_nerim.net</email
 > - disain ja teostus</para
+></listitem>
+<listitem
+><para
+>Gil Gross <email
+>ptit.ours@_NOSPAM_gmail.com</email
+> - lisavõimalused</para
 ></listitem>
 <listitem
 ><para
@@ -1296,8 +1317,8 @@
 ></para>
 
 <para
->Dokumentatsiooni autoriõigus 2001-2004: Éric Bischoff <email
->e.bischoff@_NOSPAM_noos.fr</email
+>Dokumentatsiooni autoriõigus 2001-2007: Éric Bischoff <email
+>ebischoff@_NOSPAM_nerim.net</email
 >.</para>
 
 <para
@@ -1318,9 +1339,9 @@
 >&keurocalc;i hankimine</title>
 
 <para
->&keurocalc; kuulub <ulink url="http://extragear.kde.org/"
->KDE extragear 3</ulink
-> paketti. &keurocalc;i uusima versiooni võib alla tõmmata  <ulink url="http://opensource.bureau-cornavin.com/keurocalc/"
+>&keurocalc; kuulub paketti <ulink url="http://extragear.kde.org/"
+>KDE extragear-utils</ulink
+>. &keurocalc;i uusima versiooni võib alla tõmmata  <ulink url="http://opensource.bureau-cornavin.com/keurocalc/"
 >tema koduleheküljelt</ulink
 >. </para>
 
@@ -1331,7 +1352,7 @@
 >Nõuded</title>
 
 <para
->&keurocalc;i edukaks kasutamiseks on vajalik KDE 3.2.</para>
+>&keurocalc;i edukaks kasutamiseks on vajalik &kde; 4.0.</para>
 
 <para
 >Kõik vajalikud teegid leiab &kde; projekti &FTP; saidilt <ulink url="ftp://ftp.kde.org"
@@ -1349,7 +1370,15 @@
 ><prompt
 >%</prompt
 > <userinput
->./configure</userinput>
+>mkdir build</userinput>
+<prompt
+>%</prompt
+> <userinput
+>cd build</userinput>
+<prompt
+>%</prompt
+> <userinput
+>cmake ..</userinput>
 <prompt
 >%</prompt
 > <userinput
@@ -1363,7 +1392,7 @@
 </para>
 
 <para
->Kuna &keurocalc; kasutab autoconf'i ja automake'i, ei tohiks kompileerimisel probleeme tekkida. Kui neid siiski esineb, anna neist palun teada &keurocalc;i autorile.</para>
+>Kuna CMake tuvastab automaatselt süsteemi seadistused, ei tohiks &keurocalc;i kompileerimisel probleeme tekkida. Kui neid siiski esineb, anna neist palun teada &keurocalc;i autoritele.</para>
 
 </sect1>
 

@@ -38,7 +38,7 @@
 ><affiliation
 ><address
 ><email
->zenith@chemeng.ntnu.no</email
+>federico.zenith@member.fsf.org</email
 ></address
 ></affiliation
 ><contrib
@@ -59,6 +59,10 @@
 >2005</year>
 <year
 >2006</year>
+<year
+>2007</year>
+<year
+>2008</year>
 <holder
 >Éric Bischoff</holder>
 </copyright>
@@ -66,13 +70,13 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2006-04-03</date>
+>2008-02-24</date>
 <releaseinfo
->0.09.06</releaseinfo>
+>1.0.0</releaseinfo>
 
 <abstract>
 <para
->&keurocalc; è un convertitore di valuta e calcolatore tascabile. Questa documentazione descrive la versione 0.9.6 di &keurocalc;. </para>
+>&keurocalc; è un convertitore di valuta universale e calcolatore tascabile. Questa documentazione descrive la versione 1.0.0 di &keurocalc;. </para>
 </abstract>
 
 <keywordset>
@@ -100,7 +104,7 @@
 >&keurocalc; è un convertitore di valuta e calcolatore tascabile. </para>
 
 <para
->Il primo gennaio 2002, dodici nazione europee hanno unito le loro valute nazionali in una sola, l'euro (€). Probabilmente lo stesso avverrà nel 2007 per altre nazioni dell'Europa orientale. &keurocalc; è d'aiuto: <variablelist>
+>Il primo gennaio 2002, dodici nazioni europee hanno riunito le loro valute in una sola, l'euro (€). Ciò si ripete di tanto in tanto, su scala minore, con nuovi paesi europei. &keurocalc; è d'aiuto: <variablelist>
 <varlistentry>
 <term
 >Nei periodi di transizione</term>
@@ -287,7 +291,7 @@
 >Scrivi <userinput
 >1000</userinput
 > sulla tastiera, o usa i tasti numerici corrispondenti. Le cifre appaiono mentre le scrivi nel visore <guilabel
->Input</guilabel
+>Immissione</guilabel
 >. Se fai un errore scrivendo le cifre, usa il tasto &Backspace; o il pulsante <guibutton
 >&lt;-</guibutton
 >.</para
@@ -298,11 +302,11 @@
 >FB</guibutton
 > o il tasto <keycap
 >F</keycap
->. In realtà, qualsiasi tasto che non sia già riservato per qualche altro uso confermerà l'input come numero espresso in quella valuta, quindi anche <keycap
+>. In effetti, qualsiasi tasto che non sia già riservato per qualche altro uso confermerà i dati immessi come numero espresso in quella valuta, quindi funzionerebbero anche <keycap
 >B</keycap
 > o <keycap
 >X</keycap
-> funzionerebbero.</para
+>.</para
 ></step>
 <step
 ><para
@@ -378,8 +382,8 @@
 ><para
 >Basta selezionare l'elemento <guilabel
 >ESP - Peseta spagnola</guilabel
-> per vedere la stessa quantità di 61,36 € convertita in pesete nell'area del <guilabel
->Risultato</guilabel
+> per vedere la stessa quantità di 61,36 € convertita in pesete nell'area dei <guilabel
+>Risultati</guilabel
 >.</para
 ></step>
 </procedure>
@@ -408,10 +412,8 @@
 >Scrivi <userinput
 >5</userinput
 > e quindi premi il pulsante <guibutton
->Immetti</guibutton
-> o il tasto <keycap
->Invio</keycap
->. A destra apparirà il risultato <computeroutput
+>Invio</guibutton
+> o il tasto &Enter;. A destra apparirà il risultato <computeroutput
 >8</computeroutput
 >.</para
 ></step>
@@ -451,7 +453,7 @@
 >. Nota il segno <computeroutput
 >-</computeroutput
 > nella parte a sinistra del visore dell'<guilabel
->Input</guilabel
+>Immissione</guilabel
 >.</para
 ></step>
 <step
@@ -562,18 +564,16 @@
 >. Nota il segno <computeroutput
 >X</computeroutput
 > a sinistra del visore <guilabel
->Input</guilabel
+>Immissione</guilabel
 >.</para
 ></step>
 <step
 ><para
 >Ora scrivi <userinput
 >3,2</userinput
-> seguito dal pulsante <guibutton
->Immetti</guibutton
-> o dal tasto <keycap
->Invio</keycap
->: ciò vuol dire <quote
+>, seguito dal pulsante <guibutton
+>Invio</guibutton
+> o dal tasto &Enter;: ciò vuol dire <quote
 >3,2 unità</quote
 > da 2 € l'una.</para
 ></step>
@@ -775,7 +775,7 @@
 >Azzera</guibutton
 >. Nota come il pulsante <guibutton
 >Azzera</guibutton
-> pulisca tutto: l'input, il risultato e la memoria.</para
+> pulisca tutto: l'immissione, il risultato e la memoria.</para
 ></step>
 </procedure>
 
@@ -941,20 +941,18 @@
 >Operatori di addizione, sottrazione, moltiplicazione e divisione</member>
 
 <member
-><keycap
->Invio</keycap
-> e <keycap
+>&Enter; e <keycap
 >Immetti</keycap
 ></member>
 <member
->Conferma del numero di input considerato come valore semplice e senza unità</member>
+>Conferma del numero immesso, considerato come valore semplice e senza unità</member>
 
 <member
 ><keycap
 >%</keycap
 ></member>
 <member
->Conferma del numero di input considerato come percentuale</member>
+>Conferma del numero immesso, considerato come percentuale</member>
 
 <member
 >&Backspace;</member>
@@ -962,12 +960,8 @@
 >Rimozione dell'ultimo input: cifre, separatore decimale od operatore</member>
 
 <member
-><keycap
->Tab</keycap
-> e i tasti <keycombo action="simul"
->&Shift; <keycap
->Tab</keycap
-></keycombo
+>&Tab; e i tasti <keycombo action="simul"
+>&Shift;&Tab;</keycombo
 ></member>
 <member
 >Si sposta da un pulsante al prossimo o al precedente</member>
@@ -989,7 +983,7 @@
 >$</keycap
 ></member>
 <member
->Conferma del numero di input considerato come un valore espresso nella valuta di riferimento (euro o dollari)</member>
+>Conferma del numero immesso, considerato come un valore espresso nella valuta di riferimento (euro o dollari)</member>
 
 <member
 ><keycap
@@ -1001,7 +995,7 @@
 <member
 >Qualsiasi altro tasto</member>
 <member
->Conferma del numero di input considerato come un numero nell'altra valuta</member>
+>Conferma del numero immesso, considerato come un numero nell'altra valuta</member>
 </simplelist>
 
 </sect1>
@@ -1041,7 +1035,7 @@
 >AC</guibutton
 ></member>
 <member
->Pulisci tutto: sia l'input che l'area del risultato</member>
+>Pulisci tutto: sia l'immissione che l'area del risultato</member>
 
 <member
 ><guibutton
@@ -1050,26 +1044,26 @@
 >$</guibutton
 ></member>
 <member
->Conferma del numero di input considerato come un valore espresso nella valuta di riferimento (euro o dollari)</member>
+>Conferma del numero immesso, considerato come un valore espresso nella valuta di riferimento (euro o dollari)</member>
 
 <member
 >Il pulsante indicato con il nome di un'altra valuta</member>
 <member
->Conferma del numero di input considerato come un numero nell'altra valuta</member>
+>Conferma del numero immesso, considerato come un numero nell'altra valuta</member>
 
 <member
 ><guibutton
->Immetti</guibutton
+>Invio</guibutton
 ></member>
 <member
->Conferma del numero di input considerato come valore semplice e senza unità</member>
+>Conferma del numero immesso, considerato come valore semplice e senza unità</member>
 
 <member
 ><guibutton
 >%</guibutton
 ></member>
 <member
->Conferma del numero di input considerato come percentuale</member>
+>Conferma del numero immesso, considerato come percentuale</member>
 
 <member
 ><guibutton
@@ -1109,13 +1103,11 @@
 >Azzera</guibutton
 ></member>
 <member
->Azzera l'input, il risultato e la memoria</member>
+>Azzera l'immissione, il risultato e la memoria</member>
 
 <member
 ><guibutton
->Informazioni <accel
->s</accel
->u...</guibutton
+>Informazioni</guibutton
 ></member>
 <member
 >Visualizza il riquadro delle <guilabel
@@ -1124,9 +1116,7 @@
 
 <member
 ><guibutton
-><accel
->A</accel
->iuto</guibutton
+>Aiuto</guibutton
 ></member>
 <member
 >Visualizza queste pagine dell'aiuto</member>
@@ -1343,15 +1333,15 @@
 ></para>
 
 <para
->Copyright della documentazione 2001-2006 Éric Bischoff <email
->e.bischoff@_NOSPAM_nerim.net</email
+>Copyright della documentazione 2001-2007 Éric Bischoff <email
+>ebischoff@_NOSPAM_nerim.net</email
 >.</para>
 
 <para
 >Documentazione riletta da &Philip.Rodrigues; &Philip.Rodrigues.mail;.</para>
 <para
 >Federico Zenith<email
->zenith@chemeng.ntnu.no</email
+>federico.zenith@member.fsf.org</email
 ></para
 > 
 &underFDL; &underGPL; </chapter>
@@ -1378,7 +1368,7 @@
 >Requisiti</title>
 
 <para
->Per usare correttamente &keurocalc;, hai bisogno di &kde; 3.5.</para>
+>Per usare correttamente &keurocalc;, ti serve &kde; 4.0.</para>
 
 <para
 >Tutte le librerie necessarie possono essere trovate su <ulink url="ftp://ftp.kde.org"
@@ -1396,7 +1386,15 @@
 ><prompt
 >%</prompt
 > <userinput
->./configure</userinput>
+>mkdir build</userinput>
+<prompt
+>%</prompt
+> <userinput
+>cd build</userinput>
+<prompt
+>%</prompt
+> <userinput
+>cmake ..</userinput>
 <prompt
 >%</prompt
 > <userinput
@@ -1410,11 +1408,9 @@
 </para>
 
 <para
->Siccome &keurocalc; usa <application
->autoconf</application
-> e <application
->automake</application
->, non dovresti avere problemi a compilarlo. Dovessi avere problemi, segnalali agli autori di &keurocalc;.</para>
+>Siccome <application
+>Cmake</application
+> rileva automaticamente le impostazioni di sistema, non dovresti avere problemi a compilare &keurocalc;. Se ne dovessi avere, per piacere, segnalali agli autori di &keurocalc;.</para>
 
 </sect1>
 

@@ -16,9 +16,9 @@ kde4_add_ui_files( keurocalc_SRCS
 
 kde4_add_executable(keurocalc ${keurocalc_SRCS} )
 
-target_link_libraries(keurocalc ${KDE4_KIO_LIBS} ${KDE4_KDEUI_LIBS} ${KDE4_KDEPRINT_LIBS} )
+target_link_libraries(keurocalc ${KDE4_KIO_LIBS} ${KDE4_KDEUI_LIBS} )
 
-install(TARGETS keurocalc DESTINATION ${BIN_INSTALL_DIR} )
+install(TARGETS keurocalc ${INSTALL_TARGETS_DEFAULT_ARGS} )
 
 
 ########### install files ###############

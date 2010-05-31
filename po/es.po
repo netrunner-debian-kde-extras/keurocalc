@@ -1,3 +1,4 @@
+# Translation of keurocalc.po to Spanish
 # translation of keurocalc.po to Español
 # translation of keurocalc.po to
 # Translation of keurocalc to Castilian aka Spanish
@@ -8,66 +9,57 @@
 # Quique <quique@sindominio.net>, 2004.
 # Rafael Rodríguez <apt-drink@gulic.org>, 2005.
 # santi <santi@kde-es.org>, 2006.
+# Enrique Matias Sanchez <cronopios@gmail.com>, 2008.
+# Israel Garcia Garcia <israelgarcia86@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: keurocalc\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-04-25 11:07+0200\n"
-"PO-Revision-Date: 2006-04-05 16:37+0200\n"
-"Last-Translator: santi <santi@kde-es.org>\n"
-"Language-Team: Español <kde-es@kybs.de>\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-05-20 04:56+0200\n"
+"PO-Revision-Date: 2010-01-31 11:56+0100\n"
+"Last-Translator: Israel Garcia Garcia <israelgarcia86@gmail.com>\n"
+"Language-Team: Español <kde-l10n-es@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.2\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "Quique"
-
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "quique@sindominio.net"
-
-#: keurocalc.cpp:69
+#: keurocalc.cpp:70
 msgid "Cannot load currencies.xml"
 msgstr "No se puede cargar currencies.xml"
 
-#: keurocalc.cpp:439 keurocalc.cpp:513
-msgid "Not loaded"
-msgstr "No cargado"
-
-#: keurocalc.cpp:1205
+#: keurocalc.cpp:968
 msgid "Fixed"
 msgstr "Fijo"
 
-#: keurocalc.cpp:1209
+#: keurocalc.cpp:972
 msgid "ECB"
 msgstr "BCE"
 
-#: keurocalc.cpp:1210 keurocalc.cpp:1214
+#: keurocalc.cpp:973 keurocalc.cpp:977
 msgid "Loading..."
 msgstr "Cargando..."
 
-#: keurocalc.cpp:1213
+#: keurocalc.cpp:976
 msgid "NY FRB"
 msgstr "NY FRB"
 
-#: keurocalc.cpp:1219
+#: keurocalc.cpp:982
 msgid "Official rules"
 msgstr "Reglas oficiales"
 
-#: keurocalc.cpp:1222
+#: keurocalc.cpp:985
 msgid "Smallest coin"
 msgstr "Moneda más pequeña"
 
-#: keurocalc.cpp:1225
+#: keurocalc.cpp:988
 msgid "No rounding"
 msgstr "Sin redondeo"
+
+#: keurocalc.cpp:1053
+msgid "Not loaded"
+msgstr "No cargado"
 
 #: main.cpp:31
 msgid "KEuroCalc"
@@ -78,8 +70,10 @@ msgid "Cash converter and calculator"
 msgstr "Conversor de moneda y calculadora"
 
 #: main.cpp:33
-msgid "(c) 2001-2006, the KEuroCalc developers"
-msgstr "(c) 2001-2006, los desarrolladores de KEuroCalc"
+#, fuzzy
+#| msgid "(c) 2001-2009, the KEuroCalc developers"
+msgid "(c) 2001-2010, the KEuroCalc developers"
+msgstr "(c) 2001-2009, los desarrolladores de KEuroCalc"
 
 #: main.cpp:34
 msgid ""
@@ -93,519 +87,525 @@ msgstr ""
 "Este programa está dedicado al humorista Michael Moore,\n"
 "porque sabe que dinero no justifica nada...\n"
 
-#: main.cpp:46
+#: main.cpp:42
+msgid "Éric Bischoff"
+msgstr "Éric Bischoff"
+
+#: main.cpp:42
 msgid "Design and implementation"
 msgstr "Diseño e implementación"
 
-#: main.cpp:47
-msgid "Additional functionnality"
+#: main.cpp:43
+msgid "Gil Gross"
+msgstr "Gil Gross"
+
+#: main.cpp:43
+msgid "Additional functionality"
 msgstr "Funcionalidad adicional"
 
-#: main.cpp:48
+#: main.cpp:44
+msgid "Melchior Franz"
+msgstr "Melchior Franz"
+
+#: main.cpp:44
 msgid "Design and testing"
 msgstr "Diseño y pruebas"
 
-#: main.cpp:49
+#: main.cpp:45
+msgid "Bas Willems"
+msgstr "Bas Willems"
+
+#: main.cpp:45
 msgid "Graphical artwork"
 msgstr "Trabajo gráfico"
 
-#: names.cpp:1
-msgid "Austrian schilling"
-msgstr "Chelín austriaco"
-
-#: names.cpp:2
-msgid "Australian dollar"
-msgstr "Dólar australiano"
-
-#: names.cpp:3
-msgid "Belgian franc"
-msgstr "Franco belga"
-
-#: names.cpp:4
-msgid "Bulgarian lev"
-msgstr "Lev búlgaro"
-
-#: names.cpp:5
-msgid "Brazilian real"
-msgstr "Real brasileño"
-
-#: names.cpp:6
-msgid "Canadian dollar"
-msgstr "Dólar canadiense"
-
-#: names.cpp:7
-msgid "Swiss franc"
-msgstr "Franco suizo"
-
-#: names.cpp:8
-msgid "Chinese yuan"
-msgstr "Yuan chino"
-
-#: names.cpp:9
-msgid "Cyprus pound"
-msgstr "Libra chipriota"
-
-#: names.cpp:10
-msgid "Czech koruna"
-msgstr "Corona checa"
-
-#: names.cpp:11
-msgid "German deutschmark"
-msgstr "Marco alemán"
-
-#: names.cpp:12
-msgid "Danish krone"
-msgstr "Corona danesa"
-
-#: names.cpp:13
-msgid "Estonian kroon"
-msgstr "Corona de Estonia"
-
-#: names.cpp:14
-msgid "Spanish peseta"
-msgstr "Peseta española"
-
-#: names.cpp:15
-msgid "EU euro"
-msgstr "Euro de la Unión Europea"
-
-#: names.cpp:16
-msgid "Finnish markka"
-msgstr "Marco finlandés"
-
-#: names.cpp:17
-msgid "French franc"
-msgstr "Franco francés"
-
-#: names.cpp:18
-msgid "Great Britain pound"
-msgstr "Libra británica"
-
-#: names.cpp:19
-msgid "Greek drachma"
-msgstr "Dracma griego"
-
-#: names.cpp:20
-msgid "Hong kong dollar"
-msgstr "Dólar de Hong Kong"
-
-#: names.cpp:21
-msgid "Croatian kuna"
-msgstr "Kuna croata"
-
-#: names.cpp:22
-msgid "Hungarian forint"
-msgstr "Forint húngaro"
-
-#: names.cpp:23
-msgid "Indonesian rupiah"
-msgstr "Rupia indonesia"
-
-#: names.cpp:24
-msgid "Irish punt"
-msgstr "Libra irlandesa"
-
-#: names.cpp:25
-msgid "Indian rupee"
-msgstr "Rupia india"
-
-#: names.cpp:26
-msgid "Icelandic krona"
-msgstr "Corona islandesa"
-
-#: names.cpp:27
-msgid "Italian lira"
-msgstr "Lira italiana"
-
-#: names.cpp:28
-msgid "Japanese yen"
-msgstr "Yen japonés"
-
-#: names.cpp:29
-msgid "South Korean won"
-msgstr "Won surcoreano"
-
-#: names.cpp:30
-msgid "Sri Lankan rupee"
-msgstr "Rupia de Sri Lanka"
-
-#: names.cpp:31
-msgid "Latvian lats"
-msgstr "Lats letón"
-
-#: names.cpp:32
-msgid "Luxembourg franc"
-msgstr "Franco luxemburgués"
-
-#: names.cpp:33
-msgid "Lithuanian litas"
-msgstr "Litas lituano"
-
-#: names.cpp:34
-msgid "Maltese lira"
-msgstr "Lira maltesa"
-
-#: names.cpp:35
-msgid "Mexican peso"
-msgstr "Peso mexicano"
-
-#: names.cpp:36
-msgid "Malaysian ringgit"
-msgstr "Ringgit malayo"
-
-#: names.cpp:37
-msgid "Dutch gulden"
-msgstr "Florín holandés"
-
-#: names.cpp:38
-msgid "Norvegian krone"
-msgstr "Corona noruega"
-
-#: names.cpp:39
-msgid "New Zealand dollar"
-msgstr "Dólar neozelandés"
-
-#: names.cpp:40
-msgid "Philippine peso"
-msgstr "Peso filipino"
-
-#: names.cpp:41
-msgid "Polish zloty"
-msgstr "Zloty polaco"
-
-#: names.cpp:42
-msgid "Portuguese escudo"
-msgstr "Escudo portugués"
-
-#: names.cpp:43
-msgid "New Romanian leu"
-msgstr "Nuevo leu rumano"
-
-#: names.cpp:44
-msgid "Russian rouble"
-msgstr "Rublo ruso"
-
-#: names.cpp:45
-msgid "Swedish krona"
-msgstr "Corona sueca"
-
-#: names.cpp:46
-msgid "Singapore dollar"
-msgstr "Dólar de Singapur"
-
-#: names.cpp:47
-msgid "Slovenian tolar"
-msgstr "Tolar esloveno"
-
-#: names.cpp:48
-msgid "Slovakian koruna"
-msgstr "Corona eslovaca"
-
-#: names.cpp:49
-msgid "Thailandese baht"
-msgstr "Baht tailandés"
-
-#: names.cpp:50
-msgid "New Turkish lira"
-msgstr "Nueva lira turca"
-
-#: names.cpp:51
-msgid "New Taiwanese dollar"
-msgstr "Nuevo dólar de Taiwan"
-
-#: names.cpp:52
-msgid "US dollar"
-msgstr "Dólar estadounidense"
+#: names.cpp:54
+msgid "South African rand"
+msgstr "Rand sudafricana"
 
 #: names.cpp:53
 msgid "Venezuelian bolivar"
 msgstr "Bolívar venezolano"
 
-#: names.cpp:54
-msgid "South African rand"
-msgstr "Rand sudafricano"
+#: names.cpp:52
+msgid "US dollar"
+msgstr "Dólar de los Estados Unidos de América"
 
-#. i18n: file calculator.ui line 16
+#: names.cpp:51
+msgid "New Taiwanese dollar"
+msgstr "Nuevo dólar de Taiwan"
+
+#: names.cpp:50
+msgid "New Turkish lira"
+msgstr "Nueva lira turca"
+
+#: names.cpp:49
+msgid "Thailandese baht"
+msgstr "Bath de Tailandia"
+
+#: names.cpp:48
+msgid "Slovakian koruna"
+msgstr "Koruna eslovaca"
+
+#: names.cpp:47
+msgid "Slovenian tolar"
+msgstr "Tolar eslovenio"
+
+#: names.cpp:46
+msgid "Singapore dollar"
+msgstr "Dolar de Singapur"
+
+#: names.cpp:45
+msgid "Swedish krona"
+msgstr "Krona sueca"
+
+#: names.cpp:44
+msgid "Russian rouble"
+msgstr "Rublo ruso"
+
+#: names.cpp:43
+msgid "New Romanian leu"
+msgstr "Nuevo leu rumano"
+
+#: names.cpp:42
+msgid "Portuguese escudo"
+msgstr "Escudo portugués"
+
+#: names.cpp:41
+msgid "Polish zloty"
+msgstr "Zloty polaco"
+
+#: names.cpp:40
+msgid "Philippine peso"
+msgstr "Peso filipino"
+
+#: names.cpp:39
+msgid "New Zealand dollar"
+msgstr "Dolar de Nueva Zelanda"
+
+#: names.cpp:38
+msgid "Norvegian krone"
+msgstr "Krone noruega"
+
+#: names.cpp:37
+msgid "Dutch gulden"
+msgstr "Gulden holandés"
+
+#: names.cpp:36
+msgid "Malaysian ringgit"
+msgstr "Ringit malasio"
+
+#: names.cpp:35
+msgid "Mexican peso"
+msgstr "Peso mejicano"
+
+#: names.cpp:34
+msgid "Maltese lira"
+msgstr "Lira de Malta"
+
+#: names.cpp:33
+msgid "Latvian latas"
+msgstr "Latas letón"
+
+#: names.cpp:32
+msgid "Luxembourg franc"
+msgstr "Franco luxemburgués"
+
+#: names.cpp:31
+msgid "Lituanian litas"
+msgstr "Litas lituano"
+
+#: names.cpp:30
+msgid "Sri Lankan rupee"
+msgstr "Rupia de Sri Lanka"
+
+#: names.cpp:29
+msgid "South Korean won"
+msgstr "Won de Corea del Sur"
+
+#: names.cpp:28
+msgid "Japanese yen"
+msgstr "Yen japonés"
+
+#: names.cpp:27
+msgid "Italian lira"
+msgstr "Lira italiana"
+
+#: names.cpp:26
+msgid "Icelandic krona"
+msgstr "Corona islandesa"
+
+#: names.cpp:25
+msgid "Indian rupee"
+msgstr "Rupia india"
+
+#: names.cpp:24
+msgid "Irish punt"
+msgstr "Libra irlandesa"
+
+#: names.cpp:23
+msgid "Indonesian rupiah"
+msgstr "Rupia indonesia"
+
+#: names.cpp:22
+msgid "Hungarian forint"
+msgstr "Forint húngaro"
+
+#: names.cpp:21
+msgid "Croatian kuna"
+msgstr "Kuna croata"
+
+#: names.cpp:20
+msgid "Hong kong dollar"
+msgstr "Dólar de Hong-kong"
+
+#: names.cpp:19
+msgid "Greek drachma"
+msgstr "Dracma de Grecia"
+
+#: names.cpp:18
+msgid "Great Britain pound"
+msgstr "Libra de Gran Bretaña"
+
+#: names.cpp:17
+msgid "French franc"
+msgstr "Franco francés"
+
+#: names.cpp:16
+msgid "Finnish markka"
+msgstr "Markka finlandés"
+
+#: names.cpp:15
+msgid "EU euro"
+msgstr "Euro de la UE"
+
+#: names.cpp:14
+msgid "Spanish peseta"
+msgstr "Peseta española"
+
+#: names.cpp:13
+msgid "Estonian kroon"
+msgstr "Kroon estonio"
+
+#: names.cpp:12
+msgid "Danish krone"
+msgstr "Corona danesa"
+
+#: names.cpp:11
+msgid "German deutschmark"
+msgstr "Marco alemán"
+
+#: names.cpp:10
+msgid "Czech koruna"
+msgstr "Corona checa"
+
+#: names.cpp:9
+msgid "Cyprus pound"
+msgstr "Libra de Chipre"
+
+#: names.cpp:8
+msgid "Chinese yuan"
+msgstr "Yuan chino"
+
+#: names.cpp:7
+msgid "Swiss franc"
+msgstr "Franco suizo"
+
+#: names.cpp:6
+msgid "Canadian dollar"
+msgstr "Dólar canadiense"
+
+#: names.cpp:5
+msgid "Brazilian real"
+msgstr "Real brasileño"
+
+#: names.cpp:4
+msgid "Bulgarian lev"
+msgstr "Lev búlgaro"
+
+#: names.cpp:3
+msgid "Belgian franc"
+msgstr "Franco belga"
+
+#: names.cpp:2
+msgid "Australian dollar"
+msgstr "Dólar australiano"
+
+#: names.cpp:1
+msgid "Austrian schilling"
+msgstr "Chelín austriaco"
+
+#. i18n: file: calculator.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, Calculator)
 #: rc.cpp:3
-#, no-c-format
 msgid "Currency Calculator"
 msgstr "Calculadora monetaria"
 
-#. i18n: file calculator.ui line 67
+#. i18n: file: calculator.ui:205
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox4)
 #: rc.cpp:6
-#, no-c-format
 msgid "Input"
 msgstr "Entrada"
 
-#. i18n: file calculator.ui line 731
-#: rc.cpp:11
-#, no-c-format
+#. i18n: file: calculator.ui:1247
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox5)
+#: rc.cpp:9
 msgid "Result"
 msgstr "Resultado"
 
-#. i18n: file calculator.ui line 1117
-#: rc.cpp:18
-#, no-c-format
-msgid "Substract from memory"
-msgstr "Restar de la memoria"
-
-#. i18n: file calculator.ui line 1132
-#: rc.cpp:22
-#, no-c-format
-msgid "Multiply"
-msgstr "Multiplicar"
-
-#. i18n: file calculator.ui line 1144
-#: rc.cpp:25
-#, no-c-format
-msgid "Reset"
-msgstr "Reiniciar"
-
-#. i18n: file calculator.ui line 1150
-#: rc.cpp:29
-#, no-c-format
-msgid "Reset both input, result and memory"
-msgstr "Reiniciar la zona de entrada, el resultado y la memoria"
-
-#. i18n: file calculator.ui line 1173
-#: rc.cpp:33
-#, no-c-format
-msgid "Enter"
-msgstr "Introducir"
-
-#. i18n: file calculator.ui line 1180
-#: rc.cpp:36
-#, no-c-format
-msgid "Enter simple value"
-msgstr "Introducir un valor simple"
-
-#. i18n: file calculator.ui line 1209
-#: rc.cpp:39
-#, no-c-format
-msgid "&Settings..."
-msgstr "Preferencia&s..."
-
-#. i18n: file calculator.ui line 1212
-#: rc.cpp:42
-#, no-c-format
-msgid "Configure KEuroCalc"
-msgstr "Configuración de KEuroCalc"
-
-#. i18n: file calculator.ui line 1269
-#: rc.cpp:52
-#, no-c-format
-msgid "Apply percentage value"
-msgstr "Aplicar un porcentaje"
-
-#. i18n: file calculator.ui line 1296
-#: rc.cpp:57
-#, no-c-format
-msgid "Store in memory"
-msgstr "Almacenar en la memoria"
-
-#. i18n: file calculator.ui line 1343
-#: rc.cpp:62
-#, no-c-format
-msgid "Recall from memory"
-msgstr "Obtener de la memoria"
-
-#. i18n: file calculator.ui line 1370
-#: rc.cpp:67
-#, no-c-format
-msgid "Enter value expressed in reference currency"
-msgstr "Introducir un valor expresado en la divisa de referencia"
-
-#. i18n: file calculator.ui line 1400
-#: rc.cpp:72
-#, no-c-format
-msgid "Add to memory"
-msgstr "Añadir a la memoria"
-
-#. i18n: file calculator.ui line 1412
-#: rc.cpp:75
-#, no-c-format
-msgid "&Help..."
-msgstr "&Ayuda..."
-
-#. i18n: file calculator.ui line 1415
-#: rc.cpp:78
-#, no-c-format
-msgid "Display help pages"
-msgstr "Mostrar las páginas de ayuda"
-
-#. i18n: file calculator.ui line 1433
-#: rc.cpp:82
-#, no-c-format
-msgid "Enter value expressed in currency"
-msgstr "Introducir un valor expresado en la divisa"
-
-#. i18n: file calculator.ui line 1460
-#: rc.cpp:87
-#, no-c-format
-msgid "Divide"
-msgstr "Dividir"
-
-#. i18n: file calculator.ui line 1472
-#: rc.cpp:90
-#, no-c-format
-msgid "Currencies"
-msgstr "Divisas"
-
-#. i18n: file calculator.ui line 1498
-#: rc.cpp:94
-#, no-c-format
+#. i18n: file: calculator.ui:1858
+#. i18n: ectx: property (toolTip), widget (QPushButton, BackspaceButton)
+#: rc.cpp:12
 msgid "Correct last input digit"
 msgstr "Corregir el último dígito introducido"
 
-#. i18n: file calculator.ui line 1516
-#: rc.cpp:98
-#, no-c-format
-msgid "Subtract"
-msgstr "Restar"
+#. i18n: file: calculator.ui:1896
+#. i18n: ectx: property (toolTip), widget (QPushButton, ReferenceButton)
+#: rc.cpp:15
+msgid "Enter value expressed in reference currency"
+msgstr "Introducir un valor expresado en la divisa de referencia"
 
-#. i18n: file calculator.ui line 1531
-#: rc.cpp:102
-#, no-c-format
-msgid "Change sign"
-msgstr "Cambio de signo"
+#. i18n: file: calculator.ui:1918
+#. i18n: ectx: property (toolTip), widget (QPushButton, SlashButton)
+#: rc.cpp:18
+msgid "Divide"
+msgstr "Dividir"
 
-#. i18n: file calculator.ui line 1543
-#: rc.cpp:105
-#, no-c-format
-msgid "&About..."
-msgstr "&Acerca de..."
+#. i18n: file: calculator.ui:1940
+#. i18n: ectx: property (toolTip), widget (QPushButton, MInputButton)
+#: rc.cpp:21
+msgid "Store in memory"
+msgstr "Almacenar en la memoria"
 
-#. i18n: file calculator.ui line 1546
-#: rc.cpp:108
-#, no-c-format
+#. i18n: file: calculator.ui:1978
+#. i18n: ectx: property (toolTip), widget (QPushButton, ResetButton)
+#: rc.cpp:24
+msgid "Reset both input, result and memory"
+msgstr "Reiniciar la zona de entrada, el resultado y la memoria"
+
+#. i18n: file: calculator.ui:1981
+#. i18n: ectx: property (text), widget (QPushButton, ResetButton)
+#: rc.cpp:27
+msgid "Reset"
+msgstr "Reiniciar"
+
+#. i18n: file: calculator.ui:2060
+#. i18n: ectx: property (toolTip), widget (QPushButton, CurrencyButton)
+#: rc.cpp:30
+msgid "Enter value expressed in currency"
+msgstr "Introducir un valor expresado en la divisa"
+
+#. i18n: file: calculator.ui:2085
+#. i18n: ectx: property (toolTip), widget (QPushButton, AsteriskButton)
+#: rc.cpp:33
+msgid "Multiply"
+msgstr "Multiplicar"
+
+#. i18n: file: calculator.ui:2110
+#. i18n: ectx: property (toolTip), widget (QPushButton, MRecallButton)
+#: rc.cpp:36
+msgid "Recall from memory"
+msgstr "Obtener de la memoria"
+
+#. i18n: file: calculator.ui:2132
+#. i18n: ectx: property (toolTip), widget (QPushButton, AboutButton)
+#: rc.cpp:39
 msgid "Display about box"
 msgstr "Mostrar la caja Acerca de"
 
-#. i18n: file settingsdialog.ui line 16
-#: rc.cpp:115
-#, no-c-format
-msgid "Settings..."
-msgstr "Configuración..."
+#. i18n: file: calculator.ui:2135
+#. i18n: ectx: property (text), widget (QPushButton, AboutButton)
+#: rc.cpp:42
+msgid "&About..."
+msgstr "&Acerca de..."
 
-#. i18n: file settingsdialog.ui line 35
-#: rc.cpp:118
-#, no-c-format
+#. i18n: file: calculator.ui:2214
+#. i18n: ectx: property (toolTip), widget (QPushButton, SimpleValueButton)
+#: rc.cpp:45
+msgid "Enter simple value"
+msgstr "Introducir un valor simple"
+
+#. i18n: file: calculator.ui:2217
+#. i18n: ectx: property (text), widget (QPushButton, SimpleValueButton)
+#: rc.cpp:48
+msgctxt "Enter button"
+msgid "Enter"
+msgstr "Introducir"
+
+#. i18n: file: calculator.ui:2242
+#. i18n: ectx: property (toolTip), widget (QPushButton, MinusButton)
+#: rc.cpp:51
+msgid "Subtract"
+msgstr "Restar"
+
+#. i18n: file: calculator.ui:2267
+#. i18n: ectx: property (toolTip), widget (QPushButton, MMinusButton)
+#: rc.cpp:54
+msgid "Substract from memory"
+msgstr "Restar de la memoria"
+
+#. i18n: file: calculator.ui:2289
+#. i18n: ectx: property (toolTip), widget (QPushButton, HelpButton)
+#: rc.cpp:57
+msgid "Display help pages"
+msgstr "Mostrar las páginas de ayuda"
+
+#. i18n: file: calculator.ui:2292
+#. i18n: ectx: property (text), widget (QPushButton, HelpButton)
+#: rc.cpp:60
+msgid "&Help..."
+msgstr "&Ayuda..."
+
+#. i18n: file: calculator.ui:2349
+#. i18n: ectx: property (toolTip), widget (QPushButton, PercentButton)
+#: rc.cpp:63
+msgid "Apply percentage value"
+msgstr "Aplicar un porcentaje"
+
+#. i18n: file: calculator.ui:2371
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusMinusButton)
+#: rc.cpp:66
+msgid "Change sign"
+msgstr "Cambio de signo"
+
+#. i18n: file: calculator.ui:2396
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusButton)
+#: rc.cpp:69
+msgid "Add"
+msgstr "Añadir"
+
+#. i18n: file: calculator.ui:2421
+#. i18n: ectx: property (toolTip), widget (QPushButton, MPlusButton)
+#: rc.cpp:72
+msgid "Add to memory"
+msgstr "Añadir a la memoria"
+
+#. i18n: file: calculator.ui:2443
+#. i18n: ectx: property (toolTip), widget (QPushButton, SettingsButton)
+#: rc.cpp:75
+msgid "Configure KEuroCalc"
+msgstr "Configurar KEuroCalc"
+
+#. i18n: file: calculator.ui:2446
+#. i18n: ectx: property (text), widget (QPushButton, SettingsButton)
+#: rc.cpp:78
+msgid "&Settings..."
+msgstr "Opcione&s..."
+
+#. i18n: file: calculator.ui:2459
+#. i18n: ectx: property (toolTip), widget (QComboBox, CurrencyList)
+#: rc.cpp:81
+msgid "Currencies"
+msgstr "Divisas"
+
+#. i18n: file: settingsdialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, SettingsDialog)
+#: rc.cpp:84
+msgid "Settings"
+msgstr "Opciones"
+
+#. i18n: file: settingsdialog.ui:34
+#. i18n: ectx: property (text), widget (QLabel, defaultCurrencyText)
+#: rc.cpp:87
 msgid "Default currency"
 msgstr "Divisa predeterminada"
 
-#. i18n: file settingsdialog.ui line 62
-#: rc.cpp:121
-#, no-c-format
+#. i18n: file: settingsdialog.ui:59
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:90
 msgid "Reference currency, rates origin"
 msgstr "Divisa de referencia, origen de las cotizaciones"
 
-#. i18n: file settingsdialog.ui line 77
-#: rc.cpp:124
-#, no-c-format
+#. i18n: file: settingsdialog.ui:74
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroFixed)
+#: rc.cpp:93
 msgid "Euro, no ne&twork access (fixed rates only)"
 msgstr "Euro, sin acceso a red (sólo co&tizaciones fijas)"
 
-#. i18n: file settingsdialog.ui line 95
-#: rc.cpp:127
-#, no-c-format
+#. i18n: file: settingsdialog.ui:87
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroECB)
+#: rc.cpp:96
 msgid "Euro, European Central &Bank"
 msgstr "Euro, &Banco Central Europeo"
 
-#. i18n: file settingsdialog.ui line 113
-#: rc.cpp:130
-#, no-c-format
+#. i18n: file: settingsdialog.ui:100
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonDollarNYFRB)
+#: rc.cpp:99
 msgid "&Dollar, New York Federal Reserve Bank"
 msgstr "&Dólar, Banco de la Reserva Federal de Nueva York"
 
-#. i18n: file settingsdialog.ui line 134
-#: rc.cpp:133
-#, no-c-format
+#. i18n: file: settingsdialog.ui:116
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: rc.cpp:102
 msgid "Rounding"
 msgstr "Redondeo"
 
-#. i18n: file settingsdialog.ui line 149
-#: rc.cpp:136
-#, no-c-format
+#. i18n: file: settingsdialog.ui:131
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonOfficialRules)
+#: rc.cpp:105
 msgid "Official roundin&g rules"
 msgstr "Re&glas de redondeo oficiales"
 
-#. i18n: file settingsdialog.ui line 164
-#: rc.cpp:139
-#, no-c-format
+#. i18n: file: settingsdialog.ui:141
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonSmallestCoin)
+#: rc.cpp:108
 msgid "&Smallest coin method"
 msgstr "Método de la moneda má&s pequeña"
 
-#. i18n: file settingsdialog.ui line 187
-#: rc.cpp:142
-#, no-c-format
+#. i18n: file: settingsdialog.ui:151
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonNoRounding)
+#: rc.cpp:111
 msgid "&No rounding at all"
 msgstr "Si&n redondeo"
 
-#. i18n: file settingsdialog.ui line 200
-#: rc.cpp:145
-#, no-c-format
+#. i18n: file: settingsdialog.ui:161
+#. i18n: ectx: property (title), widget (QGroupBox, AppearanceGroup)
+#: rc.cpp:114
 msgid "Look and feel"
 msgstr "Aspecto y usabilidad"
 
-#. i18n: file settingsdialog.ui line 236
-#: rc.cpp:148
-#, no-c-format
+#. i18n: file: settingsdialog.ui:197
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:117
 msgid "Display color"
 msgstr "Color en que se muestra"
 
-#. i18n: file settingsdialog.ui line 513
-#: rc.cpp:151
-#, no-c-format
+#. i18n: file: settingsdialog.ui:672
+#. i18n: ectx: property (text), widget (QLabel, displayColorResult)
+#: rc.cpp:120
 msgid "215.06 €"
 msgstr "215,06 €"
 
-#. i18n: file settingsdialog.ui line 531
-#: rc.cpp:154
-#, no-c-format
+#. i18n: file: settingsdialog.ui:688
+#. i18n: ectx: property (text), widget (KPushButton, kPushButtonDisplayColor)
+#: rc.cpp:123
 msgid "C&hange..."
 msgstr "C&ambio..."
 
-#. i18n: file settingsdialog.ui line 583
-#: rc.cpp:157
-#, no-c-format
+#. i18n: file: settingsdialog.ui:737
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxSplashScreen)
+#: rc.cpp:126
 msgid "Enable splash screen"
 msgstr "Activar pantalla anunciadora"
 
-#. i18n: file settingsdialog.ui line 654
-#: rc.cpp:160
-#, no-c-format
+#. i18n: file: settingsdialog.ui:805
+#. i18n: ectx: property (text), widget (QPushButton, OKButton)
+#: rc.cpp:129
 msgid "O&K"
 msgstr "Ace&ptar"
 
-#. i18n: file settingsdialog.ui line 665
-#: rc.cpp:163
-#, no-c-format
+#. i18n: file: settingsdialog.ui:815
+#. i18n: ectx: property (text), widget (QPushButton, CancelButton)
+#: rc.cpp:132
 msgid "Cance&l"
 msgstr "Cance&lar"
 
-#~ msgid "Alt+S"
-#~ msgstr "Alt+S"
+#: rc.cpp:133
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Israel García García,Enrique Matías Sánchez (Quique)"
 
-#~ msgid "Alt+H"
-#~ msgstr "Alt+H"
-
-#~ msgid "Alt+A"
-#~ msgstr "Alt+A"
-
-#~ msgid "Alt+T"
-#~ msgstr "Alt+T"
-
-#~ msgid "Alt+B"
-#~ msgstr "Alt+B"
-
-#~ msgid "Alt+D"
-#~ msgstr "Alt+D"
-
-#~ msgid "Alt+N"
-#~ msgstr "Alt+N"
-
-#~ msgid "Alt+K"
-#~ msgstr "Alt+K"
-
-#~ msgid "Alt+L"
-#~ msgstr "Alt+L"
+#: rc.cpp:134
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "israelgarcia86@gmail.com,cronopios@gmail.com"

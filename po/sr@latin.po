@@ -1,0 +1,616 @@
+# translation of keurocalc.po to Serbian
+# Chusslove Illich <caslav.ilic@gmx.net>, 2004.
+# Slobodan Simic <simicsl@verat.net>, 2005, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: keurocalc\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-05-20 04:56+0200\n"
+"PO-Revision-Date: 2007-08-09 09:37+0200\n"
+"Last-Translator: Slobodan Simic <simicsl@verat.net>\n"
+"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%"
+"10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
+
+#: keurocalc.cpp:70
+msgid "Cannot load currencies.xml"
+msgstr "Ne mogu da učitam currencies.xml"
+
+#: keurocalc.cpp:968
+msgid "Fixed"
+msgstr "Fiksno"
+
+#: keurocalc.cpp:972
+msgid "ECB"
+msgstr "ECB"
+
+#: keurocalc.cpp:973 keurocalc.cpp:977
+msgid "Loading..."
+msgstr "Učitavam..."
+
+#: keurocalc.cpp:976
+msgid "NY FRB"
+msgstr "NY FRB"
+
+#: keurocalc.cpp:982
+msgid "Official rules"
+msgstr "Zvanična pravila"
+
+#: keurocalc.cpp:985
+msgid "Smallest coin"
+msgstr "Najmanji novčić"
+
+#: keurocalc.cpp:988
+msgid "No rounding"
+msgstr "Bez zaokruživanja"
+
+#: keurocalc.cpp:1053
+msgid "Not loaded"
+msgstr "Nije učitano"
+
+#: main.cpp:31
+msgid "KEuroCalc"
+msgstr "KEuroCalc"
+
+#: main.cpp:32
+msgid "Cash converter and calculator"
+msgstr "Konvertor novca i kalkulator"
+
+#: main.cpp:33
+#, fuzzy
+#| msgid "(c) 2001-2006, the KEuroCalc developers"
+msgid "(c) 2001-2010, the KEuroCalc developers"
+msgstr "(c) 2001-2006, programeri KEuroCalc-a"
+
+#: main.cpp:34
+msgid ""
+"A program by Éric Bischoff <ebischoff@nerim.net>\n"
+"\n"
+"This program is dedicated to humorist Michael Moore, for he\n"
+"knows that money does not justify anything...\n"
+msgstr ""
+"Program Erika Bišofa (Éric Bischoff) <ebischoff@nerim.net>\n"
+"\n"
+"Ovaj program je posvećen humoristi Majklu Muru (Michael Moore),\n"
+"jer on zna da novac ne opravdava sve...\n"
+
+#: main.cpp:42
+msgid "Éric Bischoff"
+msgstr ""
+
+#: main.cpp:42
+msgid "Design and implementation"
+msgstr "Dizajn i implementacija"
+
+#: main.cpp:43
+msgid "Gil Gross"
+msgstr ""
+
+#: main.cpp:43
+#, fuzzy
+#| msgid "Additional functionnality"
+msgid "Additional functionality"
+msgstr "Dodatna funkcionalnost"
+
+#: main.cpp:44
+msgid "Melchior Franz"
+msgstr ""
+
+#: main.cpp:44
+msgid "Design and testing"
+msgstr "Dizajn i testiranje"
+
+#: main.cpp:45
+msgid "Bas Willems"
+msgstr ""
+
+#: main.cpp:45
+msgid "Graphical artwork"
+msgstr "Grafička obrada"
+
+#: names.cpp:54
+msgid "South African rand"
+msgstr "Južnoafrički rand"
+
+#: names.cpp:53
+msgid "Venezuelian bolivar"
+msgstr "Venecuelanski bolivar"
+
+#: names.cpp:52
+msgid "US dollar"
+msgstr "SAD dolar"
+
+#: names.cpp:51
+msgid "New Taiwanese dollar"
+msgstr "Novi tajvanski dolar"
+
+#: names.cpp:50
+msgid "New Turkish lira"
+msgstr "Nova turska lira"
+
+#: names.cpp:49
+msgid "Thailandese baht"
+msgstr "Tajlandski baht"
+
+#: names.cpp:48
+msgid "Slovakian koruna"
+msgstr "Slovačka koruna"
+
+#: names.cpp:47
+msgid "Slovenian tolar"
+msgstr "Slovenački tolar"
+
+#: names.cpp:46
+msgid "Singapore dollar"
+msgstr "Singapurski dolar"
+
+#: names.cpp:45
+msgid "Swedish krona"
+msgstr "Švedska kruna"
+
+#: names.cpp:44
+msgid "Russian rouble"
+msgstr "Ruska rublja"
+
+#: names.cpp:43
+msgid "New Romanian leu"
+msgstr "Novi rumunski lej"
+
+#: names.cpp:42
+msgid "Portuguese escudo"
+msgstr "Portugalski eskudo"
+
+#: names.cpp:41
+msgid "Polish zloty"
+msgstr "Poljska zlota"
+
+#: names.cpp:40
+msgid "Philippine peso"
+msgstr "Filipinski pezo"
+
+#: names.cpp:39
+msgid "New Zealand dollar"
+msgstr "Novozelandski dolar"
+
+#: names.cpp:38
+msgid "Norvegian krone"
+msgstr "Norveška kruna"
+
+#: names.cpp:37
+msgid "Dutch gulden"
+msgstr "Holandski gulden"
+
+#: names.cpp:36
+msgid "Malaysian ringgit"
+msgstr "Malezijski ringit"
+
+#: names.cpp:35
+msgid "Mexican peso"
+msgstr "Meksički pezos"
+
+#: names.cpp:34
+msgid "Maltese lira"
+msgstr "Malteška lira"
+
+#: names.cpp:33
+#, fuzzy
+#| msgid "Latvian lats"
+msgid "Latvian latas"
+msgstr "Latvijski lats"
+
+#: names.cpp:32
+msgid "Luxembourg franc"
+msgstr "Luksemburški franak"
+
+#: names.cpp:31
+#, fuzzy
+#| msgid "Lithuanian litas"
+msgid "Lituanian litas"
+msgstr "Litvanski litas"
+
+#: names.cpp:30
+msgid "Sri Lankan rupee"
+msgstr "Šrilankaški rupi"
+
+#: names.cpp:29
+msgid "South Korean won"
+msgstr "Južnokorejski von"
+
+#: names.cpp:28
+msgid "Japanese yen"
+msgstr "Japanski jen"
+
+#: names.cpp:27
+msgid "Italian lira"
+msgstr "Italijanska lira"
+
+#: names.cpp:26
+msgid "Icelandic krona"
+msgstr "Islandska kruna"
+
+#: names.cpp:25
+msgid "Indian rupee"
+msgstr "Indijski rupi"
+
+#: names.cpp:24
+msgid "Irish punt"
+msgstr "Irska funta"
+
+#: names.cpp:23
+msgid "Indonesian rupiah"
+msgstr "Indonezijski rupi"
+
+#: names.cpp:22
+msgid "Hungarian forint"
+msgstr "Mađarska forinta"
+
+#: names.cpp:21
+msgid "Croatian kuna"
+msgstr "Hrvatska kuna"
+
+#: names.cpp:20
+msgid "Hong kong dollar"
+msgstr "Hong-konški dolar"
+
+#: names.cpp:19
+msgid "Greek drachma"
+msgstr "Grčka drahma"
+
+#: names.cpp:18
+msgid "Great Britain pound"
+msgstr "Britanska funta"
+
+#: names.cpp:17
+msgid "French franc"
+msgstr "Francuski franak"
+
+#: names.cpp:16
+msgid "Finnish markka"
+msgstr "Finska marka"
+
+#: names.cpp:15
+msgid "EU euro"
+msgstr "EU evro"
+
+#: names.cpp:14
+msgid "Spanish peseta"
+msgstr "Španska pezeta"
+
+#: names.cpp:13
+msgid "Estonian kroon"
+msgstr "Estonska kruna"
+
+#: names.cpp:12
+msgid "Danish krone"
+msgstr "Danska kruna"
+
+#: names.cpp:11
+msgid "German deutschmark"
+msgstr "Nemačka marka"
+
+#: names.cpp:10
+msgid "Czech koruna"
+msgstr "Češka koruna"
+
+#: names.cpp:9
+msgid "Cyprus pound"
+msgstr "Kiparska funta"
+
+#: names.cpp:8
+msgid "Chinese yuan"
+msgstr "Kineski juan"
+
+#: names.cpp:7
+msgid "Swiss franc"
+msgstr "Švajcarski franak"
+
+#: names.cpp:6
+msgid "Canadian dollar"
+msgstr "Kanadski dolar"
+
+#: names.cpp:5
+msgid "Brazilian real"
+msgstr "Brazilski real"
+
+#: names.cpp:4
+msgid "Bulgarian lev"
+msgstr "Bugarski lev"
+
+#: names.cpp:3
+msgid "Belgian franc"
+msgstr "Belgijski franak"
+
+#: names.cpp:2
+msgid "Australian dollar"
+msgstr "Australijanski dolar"
+
+#: names.cpp:1
+msgid "Austrian schilling"
+msgstr "Austrijski šiling"
+
+#. i18n: file: calculator.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, Calculator)
+#: rc.cpp:3
+msgid "Currency Calculator"
+msgstr "Kalkulator valuta"
+
+#. i18n: file: calculator.ui:205
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox4)
+#: rc.cpp:6
+msgid "Input"
+msgstr "Ulaz"
+
+#. i18n: file: calculator.ui:1247
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox5)
+#: rc.cpp:9
+msgid "Result"
+msgstr "Rezultat"
+
+#. i18n: file: calculator.ui:1858
+#. i18n: ectx: property (toolTip), widget (QPushButton, BackspaceButton)
+#: rc.cpp:12
+msgid "Correct last input digit"
+msgstr "Ispravi poslednju ulaznu cifru"
+
+#. i18n: file: calculator.ui:1896
+#. i18n: ectx: property (toolTip), widget (QPushButton, ReferenceButton)
+#: rc.cpp:15
+msgid "Enter value expressed in reference currency"
+msgstr "Unesite vrednost izraženu u referentnoj valuti"
+
+#. i18n: file: calculator.ui:1918
+#. i18n: ectx: property (toolTip), widget (QPushButton, SlashButton)
+#: rc.cpp:18
+msgid "Divide"
+msgstr "Podeli"
+
+#. i18n: file: calculator.ui:1940
+#. i18n: ectx: property (toolTip), widget (QPushButton, MInputButton)
+#: rc.cpp:21
+msgid "Store in memory"
+msgstr "Skladišti u memoriju"
+
+#. i18n: file: calculator.ui:1978
+#. i18n: ectx: property (toolTip), widget (QPushButton, ResetButton)
+#: rc.cpp:24
+msgid "Reset both input, result and memory"
+msgstr "Resetuj i ulaz i rezultat i memoriju"
+
+#. i18n: file: calculator.ui:1981
+#. i18n: ectx: property (text), widget (QPushButton, ResetButton)
+#: rc.cpp:27
+msgid "Reset"
+msgstr "Resetuj"
+
+#. i18n: file: calculator.ui:2060
+#. i18n: ectx: property (toolTip), widget (QPushButton, CurrencyButton)
+#: rc.cpp:30
+msgid "Enter value expressed in currency"
+msgstr "Unesite vrednost izraženu u valuti"
+
+#. i18n: file: calculator.ui:2085
+#. i18n: ectx: property (toolTip), widget (QPushButton, AsteriskButton)
+#: rc.cpp:33
+msgid "Multiply"
+msgstr "Pomnoži"
+
+#. i18n: file: calculator.ui:2110
+#. i18n: ectx: property (toolTip), widget (QPushButton, MRecallButton)
+#: rc.cpp:36
+msgid "Recall from memory"
+msgstr "Vrati iz memorije"
+
+#. i18n: file: calculator.ui:2132
+#. i18n: ectx: property (toolTip), widget (QPushButton, AboutButton)
+#: rc.cpp:39
+msgid "Display about box"
+msgstr "Prikaži informacije o programu"
+
+#. i18n: file: calculator.ui:2135
+#. i18n: ectx: property (text), widget (QPushButton, AboutButton)
+#: rc.cpp:42
+msgid "&About..."
+msgstr "&O..."
+
+#. i18n: file: calculator.ui:2214
+#. i18n: ectx: property (toolTip), widget (QPushButton, SimpleValueButton)
+#: rc.cpp:45
+msgid "Enter simple value"
+msgstr "Unesi jednostavnu vrednost"
+
+#. i18n: file: calculator.ui:2217
+#. i18n: ectx: property (text), widget (QPushButton, SimpleValueButton)
+#: rc.cpp:48
+#, fuzzy
+#| msgid "Enter"
+msgctxt "Enter button"
+msgid "Enter"
+msgstr "Unesi"
+
+#. i18n: file: calculator.ui:2242
+#. i18n: ectx: property (toolTip), widget (QPushButton, MinusButton)
+#: rc.cpp:51
+msgid "Subtract"
+msgstr "Oduzmi"
+
+#. i18n: file: calculator.ui:2267
+#. i18n: ectx: property (toolTip), widget (QPushButton, MMinusButton)
+#: rc.cpp:54
+msgid "Substract from memory"
+msgstr "Oduzmi iz memorije"
+
+#. i18n: file: calculator.ui:2289
+#. i18n: ectx: property (toolTip), widget (QPushButton, HelpButton)
+#: rc.cpp:57
+msgid "Display help pages"
+msgstr "Prikaži strane pomoći"
+
+#. i18n: file: calculator.ui:2292
+#. i18n: ectx: property (text), widget (QPushButton, HelpButton)
+#: rc.cpp:60
+msgid "&Help..."
+msgstr "&Pomoć..."
+
+#. i18n: file: calculator.ui:2349
+#. i18n: ectx: property (toolTip), widget (QPushButton, PercentButton)
+#: rc.cpp:63
+msgid "Apply percentage value"
+msgstr "Primeni procentualnu vrednost"
+
+#. i18n: file: calculator.ui:2371
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusMinusButton)
+#: rc.cpp:66
+msgid "Change sign"
+msgstr "Promeni znak"
+
+#. i18n: file: calculator.ui:2396
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusButton)
+#: rc.cpp:69
+msgid "Add"
+msgstr ""
+
+#. i18n: file: calculator.ui:2421
+#. i18n: ectx: property (toolTip), widget (QPushButton, MPlusButton)
+#: rc.cpp:72
+msgid "Add to memory"
+msgstr "Dodaj u memoriju"
+
+#. i18n: file: calculator.ui:2443
+#. i18n: ectx: property (toolTip), widget (QPushButton, SettingsButton)
+#: rc.cpp:75
+msgid "Configure KEuroCalc"
+msgstr "Podesi KEuroCalc"
+
+#. i18n: file: calculator.ui:2446
+#. i18n: ectx: property (text), widget (QPushButton, SettingsButton)
+#: rc.cpp:78
+msgid "&Settings..."
+msgstr "Po&dešavanja..."
+
+#. i18n: file: calculator.ui:2459
+#. i18n: ectx: property (toolTip), widget (QComboBox, CurrencyList)
+#: rc.cpp:81
+msgid "Currencies"
+msgstr "Valute"
+
+#. i18n: file: settingsdialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, SettingsDialog)
+#: rc.cpp:84
+#, fuzzy
+#| msgid "Settings..."
+msgid "Settings"
+msgstr "Podešavanja..."
+
+#. i18n: file: settingsdialog.ui:34
+#. i18n: ectx: property (text), widget (QLabel, defaultCurrencyText)
+#: rc.cpp:87
+msgid "Default currency"
+msgstr "Podrazumevana valuta"
+
+#. i18n: file: settingsdialog.ui:59
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:90
+msgid "Reference currency, rates origin"
+msgstr "Referentna valuta, osnova za cene"
+
+#. i18n: file: settingsdialog.ui:74
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroFixed)
+#: rc.cpp:93
+msgid "Euro, no ne&twork access (fixed rates only)"
+msgstr "Evro, bez mrežnog pris&tupa (fiksni odnos)"
+
+#. i18n: file: settingsdialog.ui:87
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroECB)
+#: rc.cpp:96
+msgid "Euro, European Central &Bank"
+msgstr "Evro, Evropska centralna &banka"
+
+#. i18n: file: settingsdialog.ui:100
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonDollarNYFRB)
+#: rc.cpp:99
+msgid "&Dollar, New York Federal Reserve Bank"
+msgstr "&Dolar, Njujorška banka federalnih rezervi"
+
+#. i18n: file: settingsdialog.ui:116
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: rc.cpp:102
+msgid "Rounding"
+msgstr "Zaokruživanje"
+
+#. i18n: file: settingsdialog.ui:131
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonOfficialRules)
+#: rc.cpp:105
+msgid "Official roundin&g rules"
+msgstr "&Zvanično pravilo zaokruživanja"
+
+#. i18n: file: settingsdialog.ui:141
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonSmallestCoin)
+#: rc.cpp:108
+msgid "&Smallest coin method"
+msgstr "Način &najmanje pare"
+
+#. i18n: file: settingsdialog.ui:151
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonNoRounding)
+#: rc.cpp:111
+msgid "&No rounding at all"
+msgstr "&Bez zaokruživanja"
+
+#. i18n: file: settingsdialog.ui:161
+#. i18n: ectx: property (title), widget (QGroupBox, AppearanceGroup)
+#: rc.cpp:114
+msgid "Look and feel"
+msgstr "Izgled i osećaj"
+
+#. i18n: file: settingsdialog.ui:197
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:117
+msgid "Display color"
+msgstr "Boja prikaza"
+
+#. i18n: file: settingsdialog.ui:672
+#. i18n: ectx: property (text), widget (QLabel, displayColorResult)
+#: rc.cpp:120
+msgid "215.06 €"
+msgstr "215.06 €"
+
+#. i18n: file: settingsdialog.ui:688
+#. i18n: ectx: property (text), widget (KPushButton, kPushButtonDisplayColor)
+#: rc.cpp:123
+msgid "C&hange..."
+msgstr "P&romeni..."
+
+#. i18n: file: settingsdialog.ui:737
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxSplashScreen)
+#: rc.cpp:126
+msgid "Enable splash screen"
+msgstr "Uključi pozdravni ekran"
+
+#. i18n: file: settingsdialog.ui:805
+#. i18n: ectx: property (text), widget (QPushButton, OKButton)
+#: rc.cpp:129
+msgid "O&K"
+msgstr "U &redu"
+
+#. i18n: file: settingsdialog.ui:815
+#. i18n: ectx: property (text), widget (QPushButton, CancelButton)
+#: rc.cpp:132
+msgid "Cance&l"
+msgstr "Po&ništi"
+
+#: rc.cpp:133
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:134
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""

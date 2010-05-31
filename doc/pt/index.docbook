@@ -38,7 +38,7 @@
 ><affiliation
 ><address
 ><email
->jncp@netcabo.pt</email
+>zepires@gmail.com</email
 ></address
 ></affiliation
 ><contrib
@@ -59,6 +59,10 @@
 >2005</year>
 <year
 >2006</year>
+<year
+>2007</year>
+<year
+>2008</year>
 <holder
 >Éric Bischoff</holder>
 </copyright>
@@ -66,13 +70,13 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2006-04-03</date>
+>2008-02-24</date>
 <releaseinfo
->0.09.06</releaseinfo>
+>1.0.0</releaseinfo>
 
 <abstract>
 <para
->O &keurocalc; é um conversor e calculadora de cotações monetárias de bolso. Esta documentação descreve o &keurocalc; versão 0.9.6. </para>
+>O &keurocalc; é um conversor e calculadora de cotações monetárias de bolso. Esta documentação descreve o &keurocalc; versão 1.0.0. </para>
 </abstract>
 
 <keywordset>
@@ -100,7 +104,7 @@
 >O &keurocalc; é um conversor e uma calculadora de cotações e moedas de bolso. </para>
 
 <para
->A 1 de Janeiro de 2002, 12 países europeus uniram as suas moedas nacionais numa só, o euro (€). O mesmo irá acontecer provavelmente em 2007 com alguns países da Europa de Leste. O &keurocalc; ajuda: <variablelist>
+>A 1 de Janeiro de 2002, 12 países europeus uniram as suas moedas nacionais numa só, o euro (€). O mesmo acontece de tempos a tempos, a uma escala menor, à medida que entram novos países Europeus. O &keurocalc; ajuda: <variablelist>
 <varlistentry>
 <term
 >Durante os períodos de transição</term>
@@ -1113,9 +1117,7 @@
 
 <member
 ><guibutton
-><accel
->A</accel
->cerca</guibutton
+>Acerca</guibutton
 ></member>
 <member
 >Mostra a janela <guilabel
@@ -1124,9 +1126,7 @@
 
 <member
 ><guibutton
->A<accel
->j</accel
->uda</guibutton
+>Ajuda</guibutton
 ></member>
 <member
 >Mostra estas páginas de ajuda</member>
@@ -1343,7 +1343,7 @@
 ></para>
 
 <para
->Documentação com 'copyright' 2001-2006 Éric Bischoff <email
+>Documentação com 'copyright' 2001-2007 Éric Bischoff <email
 >ebischoff@_NOSPAM_nerim.net</email
 >.</para>
 
@@ -1351,7 +1351,7 @@
 >Documentação revista por &Philip.Rodrigues; &Philip.Rodrigues.mail;.</para>
 <para
 >Tradução de José Nuno Pires <email
->jncp@netcabo.pt</email
+>zepires@gmail.com</email
 ></para
 > 
 &underFDL; &underGPL; </chapter>
@@ -1378,7 +1378,7 @@
 >Requisitos</title>
 
 <para
->Para poder usar com sucesso o &keurocalc;, você precisa do &kde; 3.5.</para>
+>Para poder usar com sucesso o &keurocalc;, você precisa do &kde; 4.0.</para>
 
 <para
 >Todas as bibliotecas necessárias podem ser obtidas em <ulink url="ftp://ftp.kde.org"
@@ -1396,7 +1396,15 @@
 ><prompt
 >%</prompt
 > <userinput
->./configure</userinput>
+>mkdir build</userinput>
+<prompt
+>%</prompt
+> <userinput
+>cd build</userinput>
+<prompt
+>%</prompt
+> <userinput
+>cmake ..</userinput>
 <prompt
 >%</prompt
 > <userinput
@@ -1410,11 +1418,7 @@
 </para>
 
 <para
->Dado que o &keurocalc; usa o <application
->autoconf</application
-> e o <application
->automake</application
->, você não deverá ter problemas a compilá-lo. Se tiver problemas, por favor comunique-os ao autor do &keurocalc;.</para>
+>Dado que o CMake detecta automaticamente a configuração do seu sistema, não deverá ter problemas a compilar o &keurocalc;. Se tiver problemas, por favor comunique-os aos autores do &keurocalc;.</para>
 
 </sect1>
 
