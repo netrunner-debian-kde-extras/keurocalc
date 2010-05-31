@@ -24,20 +24,13 @@
 <!-- TRANS:ROLES_OF_TRANSLATORS -->
 
 <copyright>
-<year>2001</year>
-<year>2002</year>
-<year>2003</year>
-<year>2004</year>
-<year>2005</year>
-<year>2006</year>
-<year>2007</year>
-<year>2008</year>
+<year>2001-2010</year>
 <holder>Éric Bischoff</holder>
 </copyright>
 <legalnotice>&FDLNotice;</legalnotice>
 
-<date>2008-02-24</date>
-<releaseinfo>1.0.0</releaseinfo>
+<date>2010-05-16</date>
+<releaseinfo>1.0.3</releaseinfo>
 
 <abstract>
 <para>
@@ -234,7 +227,7 @@ the currencies drop down list.</para></step>
 or <keycap>M</keycap> keys.</para></step>
 <step><para>Just select the <guilabel>ESP - Spanish peseta</guilabel> item
 to see the same amount of 61.36 € converted into pesetas in the
-<guilabel>Results</guilabel> area.</para></step>
+<guilabel>Result</guilabel> area.</para></step>
 </procedure>
 
 </sect1>
@@ -248,7 +241,7 @@ to see the same amount of 61.36 € converted into pesetas in the
 Notice that in the result field, <computeroutput>3</computeroutput>
 is a simple value displayed on just one line, with no monetary unit.</para></step>
 <step><para>Type <userinput>5</userinput> and then press the
-<guibutton>Enter</guibutton> button or the <keycap>Enter</keycap> key. The
+<guibutton>Enter</guibutton> button or the &Enter; key. The
 result <computeroutput>8</computeroutput> appears on the right.</para></step>
 </procedure>
 
@@ -310,7 +303,7 @@ available and if not already selected.</para></step>
 key. Notice the <computeroutput>X</computeroutput> sign at the left of
 the <guilabel>Input</guilabel> display.</para></step>
 <step><para>Now type <userinput>3.2</userinput> followed by the <guibutton>Enter</guibutton> button
-or the <keycap>Enter</keycap> key: this means <quote>3.2 units</quote> at
+or the &Enter; key: this means <quote>3.2 units</quote> at
 2 € each.</para></step>
 <step><para>The result in Australian dollars matches <computeroutput>6.4 €</computeroutput>.</para></step>
 </procedure>
@@ -450,7 +443,7 @@ computes the difference in the reverse order.</para>
 <member><keycap>+</keycap>, <keycap>-</keycap>, <keycap>*</keycap> and <keycap>/</keycap></member>
 <member>Operators: addition, subtraction, multiplication and division</member>
 
-<member><keycap>Enter</keycap> and <keycap>Return</keycap></member>
+<member>&Enter; and <keycap>Return</keycap></member>
 <member>Validation of input number considered as a simple, unitless, value</member>
 
 <member><keycap>%</keycap></member>
@@ -459,7 +452,7 @@ computes the difference in the reverse order.</para>
 <member>&Backspace;</member>
 <member>Removal of last input: digits, decimal separator or operator</member>
 
-<member><keycap>Tab</keycap> and <keycombo action="simul">&Shift; <keycap>Tab</keycap></keycombo> keys</member>
+<member>&Tab; and <keycombo action="simul">&Shift; &Tab;</keycombo> keys</member>
 <member>Moves from one button to the next or previous one</member>
 
 <member>Arrow keys</member>
@@ -520,10 +513,10 @@ computes the difference in the reverse order.</para>
 <member><guibutton>Reset</guibutton></member>
 <member>Reset both input, result and memory</member>
 
-<member><guibutton><accel>A</accel>bout</guibutton></member>
+<member><guibutton>About</guibutton></member>
 <member>Displays the <guilabel>About</guilabel> box</member>
 
-<member><guibutton><accel>H</accel>elp</guibutton></member>
+<member><guibutton>Help</guibutton></member>
 <member>Displays these help pages</member>
 
 <member>The drop down list with currency codes and names</member>
@@ -645,7 +638,7 @@ available coin in your country, and we will enter that information.</para>
 </sect2>
 
 <sect2 id="settings-look-and-feel">
-<title>Look an feel</title>
+<title>Look and feel</title>
 
 <para>This setting defines the appearance and behavior of &keurocalc;.
 The following options are available:</para>
@@ -684,7 +677,7 @@ when &keurocalc; starts.</para>
 
 <itemizedlist>
 <listitem><para>Éric Bischoff <email>ebischoff@_NOSPAM_nerim.net</email> - design and implementation</para></listitem>
-<listitem><para>Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> - additional functionnality</para></listitem>
+<listitem><para>Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> - additional functionality</para></listitem>
 <listitem><para>Melchior Franz <email>a8603365@_NOSPAM_unet.univie.ac.at</email> - design and testing</para></listitem>
 <listitem><para>Bas Willems <email>cybersurfer@_NOSPAM_euronet.nl</email> - graphical artwork</para></listitem>
 </itemizedlist></para>

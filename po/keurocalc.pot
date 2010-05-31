@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -7,136 +7,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-09 16:05+0100\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-05-15 05:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: calculator.cpp:783
-msgid "Currency Calculator"
-msgstr ""
-
-#: calculator.cpp:787
-msgid "Input"
-msgstr ""
-
-#: calculator.cpp:790
-msgid "Result"
-msgstr ""
-
-#: calculator.cpp:797
-msgid "Correct last input digit"
-msgstr ""
-
-#: calculator.cpp:803
-msgid "Enter value expressed in reference currency"
-msgstr ""
-
-#: calculator.cpp:809
-msgid "Divide"
-msgstr ""
-
-#: calculator.cpp:815
-msgid "Store in memory"
-msgstr ""
-
-#: calculator.cpp:821
-msgid "Reset both input, result and memory"
-msgstr ""
-
-#: calculator.cpp:824
-msgid "Reset"
-msgstr ""
-
-#: calculator.cpp:831
-msgid "Enter value expressed in currency"
-msgstr ""
-
-#: calculator.cpp:837
-msgid "Multiply"
-msgstr ""
-
-#: calculator.cpp:843
-msgid "Recall from memory"
-msgstr ""
-
-#: calculator.cpp:849
-msgid "Display about box"
-msgstr ""
-
-#: calculator.cpp:852
-msgid "&About..."
-msgstr ""
-
-#: calculator.cpp:853
-msgid "Alt+A"
-msgstr ""
-
-#: calculator.cpp:859
-msgid "Enter simple value"
-msgstr ""
-
-#: calculator.cpp:862
-msgid "Enter"
-msgstr ""
-
-#: calculator.cpp:865
-msgid "Subtract"
-msgstr ""
-
-#: calculator.cpp:871
-msgid "Substract from memory"
-msgstr ""
-
-#: calculator.cpp:877
-msgid "Display help pages"
-msgstr ""
-
-#: calculator.cpp:880
-msgid "&Help..."
-msgstr ""
-
-#: calculator.cpp:881 settingsdialog.cpp:371
-msgid "Alt+H"
-msgstr ""
-
-#: calculator.cpp:886
-msgid "Apply percentage value"
-msgstr ""
-
-#: calculator.cpp:892
-msgid "Change sign"
-msgstr ""
-
-#: calculator.cpp:898
-msgid "Add"
-msgstr ""
-
-#: calculator.cpp:904
-msgid "Add to memory"
-msgstr ""
-
-#: calculator.cpp:910
-msgid "Configure KEuroCalc"
-msgstr ""
-
-#: calculator.cpp:913
-msgid "&Settings..."
-msgstr ""
-
-#: calculator.cpp:914 settingsdialog.cpp:364
-msgid "Alt+S"
-msgstr ""
-
-#: calculator.cpp:917
-msgid "Currencies"
-msgstr ""
-
-#: keurocalc.cpp:71
+#: keurocalc.cpp:70
 msgid "Cannot load currencies.xml"
 msgstr ""
 
@@ -181,7 +61,7 @@ msgid "Cash converter and calculator"
 msgstr ""
 
 #: main.cpp:33
-msgid "(c) 2001-2009, the KEuroCalc developers"
+msgid "(c) 2001-2010, the KEuroCalc developers"
 msgstr ""
 
 #: main.cpp:34
@@ -205,7 +85,7 @@ msgid "Gil Gross"
 msgstr ""
 
 #: main.cpp:43
-msgid "Additional functionnality"
+msgid "Additional functionality"
 msgstr ""
 
 #: main.cpp:44
@@ -440,94 +320,277 @@ msgstr ""
 msgid "Austrian schilling"
 msgstr ""
 
-#: settingsdialog.cpp:352
-msgid "Settings..."
+#. i18n: file: calculator.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, Calculator)
+#: rc.cpp:3
+msgid "Currency Calculator"
 msgstr ""
 
-#: settingsdialog.cpp:353
+#. i18n: file: calculator.ui:204
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox4)
+#: rc.cpp:6
+msgid "Input"
+msgstr ""
+
+#. i18n: file: calculator.ui:1250
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox5)
+#: rc.cpp:9
+msgid "Result"
+msgstr ""
+
+#. i18n: file: calculator.ui:1871
+#. i18n: ectx: property (toolTip), widget (QPushButton, BackspaceButton)
+#: rc.cpp:12
+msgid "Correct last input digit"
+msgstr ""
+
+#. i18n: file: calculator.ui:1911
+#. i18n: ectx: property (toolTip), widget (QPushButton, ReferenceButton)
+#: rc.cpp:15
+msgid "Enter value expressed in reference currency"
+msgstr ""
+
+#. i18n: file: calculator.ui:1935
+#. i18n: ectx: property (toolTip), widget (QPushButton, SlashButton)
+#: rc.cpp:18
+msgid "Divide"
+msgstr ""
+
+#. i18n: file: calculator.ui:1959
+#. i18n: ectx: property (toolTip), widget (QPushButton, MInputButton)
+#: rc.cpp:21
+msgid "Store in memory"
+msgstr ""
+
+#. i18n: file: calculator.ui:1999
+#. i18n: ectx: property (toolTip), widget (QPushButton, ResetButton)
+#: rc.cpp:24
+msgid "Reset both input, result and memory"
+msgstr ""
+
+#. i18n: file: calculator.ui:2002
+#. i18n: ectx: property (text), widget (QPushButton, ResetButton)
+#: rc.cpp:27
+msgid "Reset"
+msgstr ""
+
+#. i18n: file: calculator.ui:2089
+#. i18n: ectx: property (toolTip), widget (QPushButton, CurrencyButton)
+#: rc.cpp:30
+msgid "Enter value expressed in currency"
+msgstr ""
+
+#. i18n: file: calculator.ui:2116
+#. i18n: ectx: property (toolTip), widget (QPushButton, AsteriskButton)
+#: rc.cpp:33
+msgid "Multiply"
+msgstr ""
+
+#. i18n: file: calculator.ui:2143
+#. i18n: ectx: property (toolTip), widget (QPushButton, MRecallButton)
+#: rc.cpp:36
+msgid "Recall from memory"
+msgstr ""
+
+#. i18n: file: calculator.ui:2167
+#. i18n: ectx: property (toolTip), widget (QPushButton, AboutButton)
+#: rc.cpp:39
+msgid "Display about box"
+msgstr ""
+
+#. i18n: file: calculator.ui:2170
+#. i18n: ectx: property (text), widget (QPushButton, AboutButton)
+#: rc.cpp:42
+msgid "&About..."
+msgstr ""
+
+#. i18n: file: calculator.ui:2257
+#. i18n: ectx: property (toolTip), widget (QPushButton, SimpleValueButton)
+#: rc.cpp:45
+msgid "Enter simple value"
+msgstr ""
+
+#. i18n: file: calculator.ui:2260
+#. i18n: ectx: property (text), widget (QPushButton, SimpleValueButton)
+#: rc.cpp:48
+msgctxt "Enter button"
+msgid "Enter"
+msgstr ""
+
+#. i18n: file: calculator.ui:2287
+#. i18n: ectx: property (toolTip), widget (QPushButton, MinusButton)
+#: rc.cpp:51
+msgid "Subtract"
+msgstr ""
+
+#. i18n: file: calculator.ui:2314
+#. i18n: ectx: property (toolTip), widget (QPushButton, MMinusButton)
+#: rc.cpp:54
+msgid "Substract from memory"
+msgstr ""
+
+#. i18n: file: calculator.ui:2338
+#. i18n: ectx: property (toolTip), widget (QPushButton, HelpButton)
+#: rc.cpp:57
+msgid "Display help pages"
+msgstr ""
+
+#. i18n: file: calculator.ui:2341
+#. i18n: ectx: property (text), widget (QPushButton, HelpButton)
+#: rc.cpp:60
+msgid "&Help..."
+msgstr ""
+
+#. i18n: file: calculator.ui:2404
+#. i18n: ectx: property (toolTip), widget (QPushButton, PercentButton)
+#: rc.cpp:63
+msgid "Apply percentage value"
+msgstr ""
+
+#. i18n: file: calculator.ui:2428
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusMinusButton)
+#: rc.cpp:66
+msgid "Change sign"
+msgstr ""
+
+#. i18n: file: calculator.ui:2455
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusButton)
+#: rc.cpp:69
+msgid "Add"
+msgstr ""
+
+#. i18n: file: calculator.ui:2482
+#. i18n: ectx: property (toolTip), widget (QPushButton, MPlusButton)
+#: rc.cpp:72
+msgid "Add to memory"
+msgstr ""
+
+#. i18n: file: calculator.ui:2506
+#. i18n: ectx: property (toolTip), widget (QPushButton, SettingsButton)
+#: rc.cpp:75
+msgid "Configure KEuroCalc"
+msgstr ""
+
+#. i18n: file: calculator.ui:2509
+#. i18n: ectx: property (text), widget (QPushButton, SettingsButton)
+#: rc.cpp:78
+msgid "&Settings..."
+msgstr ""
+
+#. i18n: file: calculator.ui:2522
+#. i18n: ectx: property (toolTip), widget (QComboBox, CurrencyList)
+#: rc.cpp:81
+msgid "Currencies"
+msgstr ""
+
+#. i18n: file: settingsdialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, SettingsDialog)
+#: rc.cpp:84
+msgid "Settings"
+msgstr ""
+
+#. i18n: file: settingsdialog.ui:33
+#. i18n: ectx: property (text), widget (QLabel, defaultCurrencyText)
+#: rc.cpp:87
 msgid "Default currency"
 msgstr ""
 
-#: settingsdialog.cpp:354
+#. i18n: file: settingsdialog.ui:60
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:90
 msgid "Reference currency, rates origin"
 msgstr ""
 
-#: settingsdialog.cpp:355
+#. i18n: file: settingsdialog.ui:75
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroFixed)
+#: rc.cpp:93
 msgid "Euro, no ne&twork access (fixed rates only)"
 msgstr ""
 
-#: settingsdialog.cpp:356
-msgid "Alt+T"
-msgstr ""
-
-#: settingsdialog.cpp:357
+#. i18n: file: settingsdialog.ui:88
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroECB)
+#: rc.cpp:96
 msgid "Euro, European Central &Bank"
 msgstr ""
 
-#: settingsdialog.cpp:358
-msgid "Alt+B"
-msgstr ""
-
-#: settingsdialog.cpp:359
+#. i18n: file: settingsdialog.ui:101
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonDollarNYFRB)
+#: rc.cpp:99
 msgid "&Dollar, New York Federal Reserve Bank"
 msgstr ""
 
-#: settingsdialog.cpp:360
-msgid "Alt+D"
-msgstr ""
-
-#: settingsdialog.cpp:361
+#. i18n: file: settingsdialog.ui:119
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: rc.cpp:102
 msgid "Rounding"
 msgstr ""
 
-#: settingsdialog.cpp:362
+#. i18n: file: settingsdialog.ui:134
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonOfficialRules)
+#: rc.cpp:105
 msgid "Official roundin&g rules"
 msgstr ""
 
-#: settingsdialog.cpp:363
+#. i18n: file: settingsdialog.ui:144
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonSmallestCoin)
+#: rc.cpp:108
 msgid "&Smallest coin method"
 msgstr ""
 
-#: settingsdialog.cpp:365
+#. i18n: file: settingsdialog.ui:154
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonNoRounding)
+#: rc.cpp:111
 msgid "&No rounding at all"
 msgstr ""
 
-#: settingsdialog.cpp:366
-msgid "Alt+N"
-msgstr ""
-
-#: settingsdialog.cpp:367
+#. i18n: file: settingsdialog.ui:164
+#. i18n: ectx: property (title), widget (QGroupBox, AppearanceGroup)
+#: rc.cpp:114
 msgid "Look and feel"
 msgstr ""
 
-#: settingsdialog.cpp:368
+#. i18n: file: settingsdialog.ui:200
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:117
 msgid "Display color"
 msgstr ""
 
-#: settingsdialog.cpp:369
+#. i18n: file: settingsdialog.ui:674
+#. i18n: ectx: property (text), widget (QLabel, displayColorResult)
+#: rc.cpp:120
 msgid "215.06 €"
 msgstr ""
 
-#: settingsdialog.cpp:370
+#. i18n: file: settingsdialog.ui:690
+#. i18n: ectx: property (text), widget (KPushButton, kPushButtonDisplayColor)
+#: rc.cpp:123
 msgid "C&hange..."
 msgstr ""
 
-#: settingsdialog.cpp:372
+#. i18n: file: settingsdialog.ui:739
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxSplashScreen)
+#: rc.cpp:126
 msgid "Enable splash screen"
 msgstr ""
 
-#: settingsdialog.cpp:373
+#. i18n: file: settingsdialog.ui:807
+#. i18n: ectx: property (text), widget (QPushButton, OKButton)
+#: rc.cpp:129
 msgid "O&K"
 msgstr ""
 
-#: settingsdialog.cpp:374
-msgid "Alt+K"
-msgstr ""
-
-#: settingsdialog.cpp:375
+#. i18n: file: settingsdialog.ui:817
+#. i18n: ectx: property (text), widget (QPushButton, CancelButton)
+#: rc.cpp:132
 msgid "Cance&l"
 msgstr ""
 
-#: settingsdialog.cpp:376
-msgid "Alt+L"
+#: rc.cpp:133
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:134
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
 msgstr ""

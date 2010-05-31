@@ -1,19 +1,21 @@
 # translation of keurocalc.po to Estonian
 # Copyright (C) 2003 Free Software Foundation, Inc.
-# Marek Laane <bald@starman.ee>, 2003-2007.
 #
+# Marek Laane <bald@starman.ee>, 2003-2007,2009.
+# Marek Laane <bald@smail.ee>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: keurocalc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2006-07-12 04:09+0000\n"
-"PO-Revision-Date: 2007-05-13 23:46+0200\n"
-"Last-Translator: Marek Laane <bald@starman.ee>\n"
+"POT-Creation-Date: 2010-05-17 04:10+0000\n"
+"PO-Revision-Date: 2009-12-01 14:20+0200\n"
+"Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <kde-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.3\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Tag: title
 #: index.docbook:12
@@ -38,104 +40,105 @@ msgstr "ebischoff@_NOSPAM_nerim.net"
 #, no-c-format
 msgid "ROLES_OF_TRANSLATORS"
 msgstr ""
-"<othercredit role=\"translator\"> <firstname>Marek</firstname> <surname>"
-"Laane</surname> <affiliation><address><email>bald@starman.ee</email></address>"
-"</affiliation><contrib>Tõlge eesti keelde</contrib></othercredit>"
+"<othercredit role=\"translator\"> <firstname>Marek</firstname> "
+"<surname>Laane</surname> <affiliation><address><email>bald@starman.ee</"
+"email></address></affiliation><contrib>Tõlge eesti keelde</contrib></"
+"othercredit>"
 
 #. Tag: holder
-#: index.docbook:33
+#: index.docbook:28
 #, no-c-format
 msgid "Éric Bischoff"
 msgstr "Éric Bischoff"
 
 #. Tag: para
-#: index.docbook:41
+#: index.docbook:36
 #, no-c-format
 msgid ""
 "&keurocalc; is an universal pocket currency converter and calculator. This "
-"documentation describes &keurocalc; version 0.9.6."
+"documentation describes &keurocalc; version 1.0.0."
 msgstr ""
-"&keurocalc; on käepärane valuutateisendaja ja kalkulaator. Käesolev käsiraamat "
-"kirjeldab &keurocalc;i versiooni 0.9.6."
+"&keurocalc; on käepärane valuutateisendaja ja kalkulaator. Käesolev "
+"käsiraamat kirjeldab &keurocalc;i versiooni 1.0.0."
 
 #. Tag: keyword
-#: index.docbook:48
+#: index.docbook:43
 #, no-c-format
 msgid "<keyword>KDE</keyword>"
 msgstr "<keyword>KDE</keyword>"
 
 #. Tag: keyword
-#: index.docbook:49
+#: index.docbook:44
 #, no-c-format
 msgid "extragear"
 msgstr "extragear"
 
 #. Tag: keyword
-#: index.docbook:50
+#: index.docbook:45
 #, no-c-format
 msgid "KEuroCalc"
 msgstr "KEuroCalc"
 
 #. Tag: keyword
-#: index.docbook:51
+#: index.docbook:46
 #, no-c-format
 msgid "currency"
 msgstr "valuuta"
 
 #. Tag: keyword
-#: index.docbook:52
+#: index.docbook:47
 #, no-c-format
 msgid "converter"
 msgstr "teisendaja"
 
 #. Tag: keyword
-#: index.docbook:53
+#: index.docbook:48
 #, no-c-format
 msgid "calculator"
 msgstr "kalkulaator"
 
 #. Tag: title
-#: index.docbook:59
+#: index.docbook:54
 #, no-c-format
 msgid "Introduction"
 msgstr "Sissejuhatus"
 
 #. Tag: para
-#: index.docbook:61
+#: index.docbook:56
 #, no-c-format
 msgid "&keurocalc; is an universal pocket currency converter and calculator."
 msgstr "&keurocalc; on käepärane valuutateisendaja ja kalkulaator."
 
 #. Tag: para
-#: index.docbook:65
+#: index.docbook:60
 #, no-c-format
 msgid ""
 "On the 1st of January, 2002, 12 European countries united their national "
-"currencies into a single one, the euro (€). The same will probably happen in "
-"2007 in some Eastern European countries. &keurocalc; helps:"
+"currencies into a single one, the euro (€). The same happens from time to "
+"time on a smaller scale with new European countries. &keurocalc; helps:"
 msgstr ""
 "Alates 1. jaanuarist 2002 on kaksteist Euroopa riiki loobunud oma "
-"rahvusvaluutast ühisraha euro (€) kasuks. Tõenäoliselt 2007. aastal lähevad "
-"sellele üle ka mitmed Ida-Euroopa riigid. &keurocalc; on abiks:"
+"rahvusvaluutast ühisraha euro (€) kasuks. Tasapisi lähevad sellele üle ka "
+"uued Euroopa Liidu riigid. &keurocalc; on abiks:"
 
 #. Tag: term
-#: index.docbook:72
+#: index.docbook:67
 #, no-c-format
 msgid "During the transition periods"
 msgstr "Üleminekuperioodil"
 
 #. Tag: para
-#: index.docbook:75
+#: index.docbook:70
 #, no-c-format
 msgid ""
-"To verify one's bank account, when paying both in euros and in the old currency "
-"(Italian liras, for example)."
+"To verify one's bank account, when paying both in euros and in the old "
+"currency (Italian liras, for example)."
 msgstr ""
 "Pangaarve kontrollimisel, kui makseid tehakse nii eurodes kui vanas valuutas "
 "(näiteks Itaalia liirides)"
 
 #. Tag: para
-#: index.docbook:77
+#: index.docbook:72
 #, no-c-format
 msgid ""
 "To verify one's shopping, and compute the change if paying with a banknote "
@@ -145,40 +148,39 @@ msgstr ""
 "rahatähtedega"
 
 #. Tag: term
-#: index.docbook:84
+#: index.docbook:79
 #, no-c-format
 msgid "Many years after the transition periods"
 msgstr "Paljude aastate kestel pärast üleminekut"
 
 #. Tag: para
-#: index.docbook:85
+#: index.docbook:80
 #, no-c-format
 msgid ""
-"To get an idea of the value of the things in the old currency at any stage of "
-"calculations."
+"To get an idea of the value of the things in the old currency at any stage "
+"of calculations."
 msgstr "Teadasaamisel, kui palju maksid asjad vanas vääringus."
 
 #. Tag: term
-#: index.docbook:90
+#: index.docbook:85
 #, no-c-format
 msgid "At any time"
 msgstr "Alati"
 
 #. Tag: para
-#: index.docbook:93
+#: index.docbook:88
 #, no-c-format
 msgid ""
 "To do conversions between the euro and other currencies, like the British "
-"Pound, according to the daily exchange rate defined by the <ulink "
-"url=\"http://www.ecb.int/stats/eurofxref/\">European Central Bank (ECB)</ulink>"
-"."
+"Pound, according to the daily exchange rate defined by the <ulink url="
+"\"http://www.ecb.int/stats/eurofxref/\">European Central Bank (ECB)</ulink>."
 msgstr ""
 "Teisendusteks eurode ja muude valuutade vahel (näiteks Briti nael) vastavalt "
 "<ulink url=\"http://www.ecb.int/stats/eurofxref/\">Euroopa Keskpanga (ECB) "
 "igapäevasele vahetuskursile</ulink>."
 
 #. Tag: para
-#: index.docbook:96
+#: index.docbook:91
 #, no-c-format
 msgid ""
 "To do conversions between any two currencies that are part of the list "
@@ -186,20 +188,19 @@ msgid ""
 msgstr "Kahe valuuta teisendamisel, mille kursse avaldab ECB."
 
 #. Tag: para
-#: index.docbook:98
+#: index.docbook:93
 #, no-c-format
 msgid ""
-"To do conversions between the US dollar and other currencies according to the "
-"daily exchange rate defined by the <ulink "
-"url=\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">"
-"New York Federal Reserve Bank (NY FRB)</ulink>."
+"To do conversions between the US dollar and other currencies according to "
+"the daily exchange rate defined by the <ulink url=\"http://www.ny.frb.org/"
+"markets/fxrates/noon.cfm\">New York Federal Reserve Bank (NY FRB)</ulink>."
 msgstr ""
-"Teisendusteks USA dollari ja muude valuutade vahel vastavalt <ulink "
-"url=\"http://www.ecb.int\">New Yorgi Föderaalreservi (NY RFB)igapäevasele "
+"Teisendusteks USA dollari ja muude valuutade vahel vastavalt <ulink url="
+"\"http://www.ecb.int\">New Yorgi Föderaalreservi (NY RFB)igapäevasele "
 "vahetuskursile</ulink>."
 
 #. Tag: para
-#: index.docbook:102
+#: index.docbook:97
 #, no-c-format
 msgid ""
 "To do conversions between any two currencies that are part of the list "
@@ -207,140 +208,143 @@ msgid ""
 msgstr "Kahe valuuta teisendamisel, mille kursse avaldab NY RFB."
 
 #. Tag: para
-#: index.docbook:111
+#: index.docbook:106
 #, no-c-format
 msgid ""
 "&keurocalc; has the following advantages in term of comfort and usability:"
 msgstr "&keurocalc; pakub järgmisi mugavaid kasutusvõimalusi:"
 
 #. Tag: para
-#: index.docbook:115
+#: index.docbook:110
 #, no-c-format
 msgid ""
-"You see every intermediate value and the result in both the reference currency "
-"(euro or dollar) and in the other currency."
+"You see every intermediate value and the result in both the reference "
+"currency (euro or dollar) and in the other currency."
 msgstr ""
-"Nii kõiki vahesummasid kui tulemust saab näha nii muus vääringus kui "
-"eurodes/dollarites"
+"Nii kõiki vahesummasid kui tulemust saab näha nii muus vääringus kui eurodes/"
+"dollarites"
 
 #. Tag: para
-#: index.docbook:117
+#: index.docbook:112
 #, no-c-format
 msgid ""
 "There is a separate input area where you can type a new value while still "
 "having the previous result visible."
 msgstr ""
-"Eraldi sisendalale saab kirjutada uue väärtuse, samal ajal on näha ka viimane "
-"tulemus"
+"Eraldi sisendalale saab kirjutada uue väärtuse, samal ajal on näha ka "
+"viimane tulemus"
 
 #. Tag: para
-#: index.docbook:119
+#: index.docbook:114
 #, no-c-format
 msgid ""
-"The ergonomy is very close to usual pocket calculators, despite the fact that "
-"any value you type can be a value in the reference currency (euro or dollar), a "
-"value in the other currency, a percentage or an unit-less quantity."
+"The ergonomy is very close to usual pocket calculators, despite the fact "
+"that any value you type can be a value in the reference currency (euro or "
+"dollar), a value in the other currency, a percentage or an unit-less "
+"quantity."
 msgstr ""
 "Kuigi väärtust võib sisestada nii eurodes/dollarites kui muus valuutas, "
 "protsendi või hulgana, on arvutused kiired (võrreldavad tavaliste "
 "taskuarvutitega)"
 
 #. Tag: para
-#: index.docbook:122
+#: index.docbook:117
 #, no-c-format
 msgid ""
 "You press the keys in the order you would speak aloud what you're doing."
 msgstr ""
-"Klahve saab vajutada just sellises järjekorras, nagu see käib peast arvutamisel"
+"Klahve saab vajutada just sellises järjekorras, nagu see käib peast "
+"arvutamisel"
 
 #. Tag: para
-#: index.docbook:124
+#: index.docbook:119
 #, no-c-format
 msgid ""
-"If you make mistakes, a special correction button enables you to correct your "
-"last input data, as long as you didn't validate."
+"If you make mistakes, a special correction button enables you to correct "
+"your last input data, as long as you didn't validate."
 msgstr ""
-"Kui teed vea, saab erinupuga parandada viimast sisestatud väärtust, kui sa ei "
-"ole sellega juba mingit operatsiooni ette võtnud"
+"Kui teed vea, saab erinupuga parandada viimast sisestatud väärtust, kui sa "
+"ei ole sellega juba mingit operatsiooni ette võtnud"
 
 #. Tag: para
-#: index.docbook:126
+#: index.docbook:121
 #, no-c-format
 msgid ""
 "The numbers are displayed according to your locale settings: with either a "
 "comma or a dot as a decimal point, according to your &kcontrol; settings."
 msgstr ""
-"Arve näidatakse vastavalt sinu maa tavale, nii võib kümnendkoha eraldajaks olla "
-"koma või punkt (seda saab määrata &juhtimiskeskus;es)."
+"Arve näidatakse vastavalt sinu maa tavale, nii võib kümnendkoha eraldajaks "
+"olla koma või punkt (seda saab määrata &juhtimiskeskus;es)."
 
 #. Tag: para
-#: index.docbook:129
+#: index.docbook:124
 #, no-c-format
 msgid ""
-"You can decide which reference currency you want to use (euro or dollar), which "
-"other currency to start with when you launch &keurocalc;, and which rounding "
-"method to use."
+"You can decide which reference currency you want to use (euro or dollar), "
+"which other currency to start with when you launch &keurocalc;, and which "
+"rounding method to use."
 msgstr ""
-"Määrata saab baasvääringu (euro või dollar), selle, millise vääringuga alustada "
-"&keurocalc;i käivitamisel, kui ka kasutatava ümardamismeetodi."
+"Määrata saab baasvääringu (euro või dollar), selle, millise vääringuga "
+"alustada &keurocalc;i käivitamisel, kui ka kasutatava ümardamismeetodi."
 
 #. Tag: para
-#: index.docbook:135
+#: index.docbook:130
 #, no-c-format
 msgid "&keurocalc; allows the following operations:"
 msgstr "&keurocalc; võimaldab sooritada järgmisi tehteid:"
 
 #. Tag: para
-#: index.docbook:138
+#: index.docbook:133
 #, no-c-format
 msgid "Conversions from and to the reference currency (euro or dollar)."
 msgstr "Teisendused baasvaluutast ja baasvaluutasse (euro või dollar)"
 
 #. Tag: para
-#: index.docbook:139
+#: index.docbook:134
 #, no-c-format
 msgid ""
-"Systematic rounding of the displayed result, but computations done internally "
-"with the precision of the mathematical libraries."
+"Systematic rounding of the displayed result, but computations done "
+"internally with the precision of the mathematical libraries."
 msgstr ""
 "Näidatava tulemuse süstemaatiline ümardamine, samas sooritatakse arvutused "
 "seesmiselt nii täpselt, kui seda võimaldavad matemaatikateegid"
 
 #. Tag: para
-#: index.docbook:141
+#: index.docbook:136
 #, no-c-format
 msgid "Usual additions, subtractions, multiplications and divisions."
 msgstr "Tavapärased liitmis-, lahutamis-, korrutamis- ja jagamistehted"
 
 #. Tag: para
-#: index.docbook:142
+#: index.docbook:137
 #, no-c-format
 msgid "Apply a percentage, add a percentage, or subtract a percentage."
 msgstr "Võimalus võtta protsent, liita protsent või lahutada protsent"
 
 #. Tag: para
-#: index.docbook:144
+#: index.docbook:139
 #, no-c-format
 msgid ""
-"Possibility to store values in an intermediate memory, or use that memory as a "
-"running total."
+"Possibility to store values in an intermediate memory, or use that memory as "
+"a running total."
 msgstr ""
-"Võimalus salvestada väärtused vahemällu või kasutada seda vahetehete lisamiseks"
+"Võimalus salvestada väärtused vahemällu või kasutada seda vahetehete "
+"lisamiseks"
 
 #. Tag: para
-#: index.docbook:149
+#: index.docbook:144
 #, no-c-format
 msgid "Here are some limitations of &keurocalc;:"
 msgstr "&keurocalc;il on siiski ka mõned piirangud:"
 
 #. Tag: para
-#: index.docbook:152
+#: index.docbook:147
 #, no-c-format
 msgid "No parenthesized or complex expressions."
 msgstr "Sulgudes või kompleksavaldisi ei saa kasutada"
 
 #. Tag: para
-#: index.docbook:153
+#: index.docbook:148
 #, no-c-format
 msgid ""
 "Some roundings go wrong due to the limitations of the mathematical library."
@@ -348,19 +352,19 @@ msgstr ""
 "Ümardamine võib vahel anda vale tulemuse matemaatikateegi piiratuse tõttu"
 
 #. Tag: para
-#: index.docbook:155
+#: index.docbook:150
 #, no-c-format
 msgid ""
-"Inflationist currencies cannot be handled due to limited display size. However, "
-"with the change to the new Turkish lira and the removal of six zeroes in that "
-"currency, it is not a practical problem anymore."
+"Inflationist currencies cannot be handled due to limited display size. "
+"However, with the change to the new Turkish lira and the removal of six "
+"zeroes in that currency, it is not a practical problem anymore."
 msgstr ""
 "Piiratud esitusala tõttu ei saa korralikult käsitleda kõrge inflatsiooniga "
 "valuutasid. Kuid pärast Türgi uue liiri kasutuselevõttu, millega eemaldati "
 "rahaühikult kuus nulli, ei ole see enam märkimisväärne probleem."
 
 #. Tag: para
-#: index.docbook:159
+#: index.docbook:154
 #, no-c-format
 msgid ""
 "New York Federal Reserve Bank rates are not available during the non-working "
@@ -370,234 +374,233 @@ msgstr ""
 "lihavõtted jne.)"
 
 #. Tag: para
-#: index.docbook:164
+#: index.docbook:159
 #, no-c-format
 msgid ""
 "&keurocalc; never guarantees the exactness of the exchange rates nor the "
-"accuracy of the result. You are always invited to verify your computations by "
-"some other means. As the <link linkend=\"credits\">license</link> "
+"accuracy of the result. You are always invited to verify your computations "
+"by some other means. As the <link linkend=\"credits\">license</link> "
 "agreement states, there's no liability of the authors if the results are not "
 "correct or as expected. Also, please notice that the variable exchange rates "
 "are downloaded in an unencrypted and therefore insecure manner from the data "
-"sources (European Central Bank and New York Federal Reserve Bank). Some <quote>"
-"man-in-the-middle</quote> attacker may confuse &keurocalc; by forging exchange "
-"rates. More simply, a transmission error is always possible."
+"sources (European Central Bank and New York Federal Reserve Bank). Some "
+"<quote>man-in-the-middle</quote> attacker may confuse &keurocalc; by forging "
+"exchange rates. More simply, a transmission error is always possible."
 msgstr ""
 "&keurocalc; ei garanteeri absoluutselt täpset tulemust. Kui see on vähegi "
-"oluline, tasub alati kontrollida arvutusi mingil muul moel. Nagu selgitab <link "
-"linkend=\"credits\">litsents</link>, ei võta autorid endale vastutust, kui "
-"tulemus ei ole täpne või oodatud. Samuti tasub tähele panna, et Euroopa "
-"Keskpanga ja New Yorgi Föderaalreservi valuutakursid tõmmatakse krüptimata ja "
-"seepärast ebaturvaliselt - mõni ründaja võib &keurocalc;i segadusse ajada "
+"oluline, tasub alati kontrollida arvutusi mingil muul moel. Nagu selgitab "
+"<link linkend=\"credits\">litsents</link>, ei võta autorid endale vastutust, "
+"kui tulemus ei ole täpne või oodatud. Samuti tasub tähele panna, et Euroopa "
+"Keskpanga ja New Yorgi Föderaalreservi valuutakursid tõmmatakse krüptimata "
+"ja seepärast ebaturvaliselt - mõni ründaja võib &keurocalc;i segadusse ajada "
 "valesid kursse pakkudes või siis ei pruugi allatõmbamine alati edukalt minna."
 
 #. Tag: title
-#: index.docbook:177
+#: index.docbook:172
 #, no-c-format
 msgid "Using &keurocalc;"
 msgstr "&keurocalc;i kasutamine"
 
 #. Tag: title
-#: index.docbook:184
+#: index.docbook:179
 #, no-c-format
 msgid "Performing Conversions"
 msgstr "Valuutateisendused"
 
 #. Tag: title
-#: index.docbook:188
+#: index.docbook:183
 #, no-c-format
 msgid "To convert 1000 Belgian francs into euros"
 msgstr "1000 Belgia frangi teisendamine eurodesse"
 
 #. Tag: para
-#: index.docbook:189
+#: index.docbook:184
 #, no-c-format
 msgid ""
-"Select the <guilabel>BEF - Belgian franc</guilabel> (<foreignphrase>"
-"francs belges</foreignphrase>) item in the currencies drop down list on the "
-"bottom. If that choice is not available, press the <guibutton>"
-"Settings...</guibutton> button and select <guilabel>"
-"Euro, no network access (fixed rates only)</guilabel> "
-"to make the correct rates list appear."
+"Select the <guilabel>BEF - Belgian franc</guilabel> (<foreignphrase>francs "
+"belges</foreignphrase>) item in the currencies drop down list on the bottom. "
+"If that choice is not available, press the <guibutton>Settings...</"
+"guibutton> button and select <guilabel>Euro, no network access (fixed rates "
+"only)</guilabel> to make the correct rates list appear."
 msgstr ""
-"Vali <guilabel>BEF - Belgia frank</guilabel> (<foreignphrase>"
-"francs belges</foreignphrase>) kalkulaatori allosas rahaühiku nimekirjas. Kui "
-"see ei ole saadaval, klõpsa nuppu <guibutton>Seadistused...</guibutton> "
-"ja vali <guilabel>Euro, võrguühenduseta (ainult fikseeritud kurss)</guilabel>"
-", mis toob nähtavale korrektse kursside nimekirja."
+"Vali <guilabel>BEF - Belgia frank</guilabel> (<foreignphrase>francs belges</"
+"foreignphrase>) kalkulaatori allosas rahaühiku nimekirjas. Kui see ei ole "
+"saadaval, klõpsa nuppu <guibutton>Seadistused...</guibutton> ja vali "
+"<guilabel>Euro, võrguühenduseta (ainult fikseeritud kurss)</guilabel>, mis "
+"toob nähtavale korrektse kursside nimekirja."
 
 #. Tag: para
-#: index.docbook:195
+#: index.docbook:190
 #, no-c-format
 msgid ""
 "Type <userinput>1000</userinput> on the keyboard or use the corresponding "
-"numerical buttons. The digits appear while you are typing them in the <guilabel>"
-"Input</guilabel> display. If you make a mistake while typing the digits use the "
-"&Backspace; key or the <guibutton>&lt;-</guibutton> button."
+"numerical buttons. The digits appear while you are typing them in the "
+"<guilabel>Input</guilabel> display. If you make a mistake while typing the "
+"digits use the &Backspace; key or the <guibutton>&lt;-</guibutton> button."
 msgstr ""
 "Kirjuta klaviatuuril <userinput>1000</userinput> või kasuta selleks "
-"kalkulaatori numbrinuppe. Kirjutamisel ilmuvad numbrid väljale <guilabel>"
-"Sisend</guilabel>. Kui teed numbreid kirjutades vea, kasuta parandamiseks "
-"klahvi &Backspace; või nuppu <guibutton>&lt;-</guibutton>."
+"kalkulaatori numbrinuppe. Kirjutamisel ilmuvad numbrid väljale "
+"<guilabel>Sisend</guilabel>. Kui teed numbreid kirjutades vea, kasuta "
+"parandamiseks klahvi &Backspace; või nuppu <guibutton>&lt;-</guibutton>."
 
 #. Tag: para
-#: index.docbook:199
+#: index.docbook:194
 #, no-c-format
 msgid ""
-"Press the <guibutton>FB</guibutton> button or the <keycap>F</keycap> "
-"key. In fact, any key that is not already reserved for some other usage will "
-"validate the input as a number expressed in the currency, so <keycap>B</keycap> "
-"or <keycap>X</keycap> would have worked as well."
+"Press the <guibutton>FB</guibutton> button or the <keycap>F</keycap> key. In "
+"fact, any key that is not already reserved for some other usage will "
+"validate the input as a number expressed in the currency, so <keycap>B</"
+"keycap> or <keycap>X</keycap> would have worked as well."
 msgstr ""
-"Vajuta nuppu <guibutton>FB</guibutton> või klahvi <keycap>F</keycap>"
-". Õigupoolest võib mis tahes klahvi, mida ei ole mingile muule operatsioonile "
+"Vajuta nuppu <guibutton>FB</guibutton> või klahvi <keycap>F</keycap>. "
+"Õigupoolest võib mis tahes klahvi, mida ei ole mingile muule operatsioonile "
 "omistatud, kasutada sisendi määratlemiseks numbrilise valuutana, nii et sama "
 "hästi oleks võinud vajutada klahvi <keycap>B</keycap> või <keycap>X</keycap>."
 
 #. Tag: para
-#: index.docbook:203
+#: index.docbook:198
 #, no-c-format
 msgid ""
-"Read the result in the <guilabel>Result</guilabel> display on the right: 24.79 "
-"€ or 24,79 € according to our locale settings."
+"Read the result in the <guilabel>Result</guilabel> display on the right: "
+"24.79 € or 24,79 € according to our locale settings."
 msgstr ""
-"Vaata tulemust paremal asuval väljal <guilabel>Tulemus</guilabel>"
-": vastavalt kohalikele rahaühiku seadistustele on see 24.79 € või 24,79 €."
+"Vaata tulemust paremal asuval väljal <guilabel>Tulemus</guilabel>: vastavalt "
+"kohalikele rahaühiku seadistustele on see 24.79 € või 24,79 €."
 
 #. Tag: title
-#: index.docbook:208
+#: index.docbook:203
 #, no-c-format
 msgid "To convert 25 euros into Belgian francs"
 msgstr "25 euro teisendamine Belgia frankideks"
 
 #. Tag: para
-#: index.docbook:209
+#: index.docbook:204
 #, no-c-format
 msgid ""
-"If the fixed rates currencies are available, select the <guilabel>"
-"BEF - Belgian franc</guilabel> item in the currencies drop down list on the "
+"If the fixed rates currencies are available, select the <guilabel>BEF - "
+"Belgian franc</guilabel> item in the currencies drop down list on the "
 "bottom. You can skip this step if it's already the selected currency."
 msgstr ""
 "Kui saadaval on fikseeritud kurssidega valuutad, vali all hüpiknimekirjast "
-"<guilabel>BEF - Belgia frank</guilabel>. Seda ei ole vaja, kui kasutasid just "
-"äsja sama valuutat."
+"<guilabel>BEF - Belgia frank</guilabel>. Seda ei ole vaja, kui kasutasid "
+"just äsja sama valuutat."
 
 #. Tag: para
-#: index.docbook:213
+#: index.docbook:208
 #, no-c-format
 msgid "Type <userinput>25</userinput>."
 msgstr "Kirjuta <userinput>25</userinput>."
 
 #. Tag: para
-#: index.docbook:214
+#: index.docbook:209
 #, no-c-format
 msgid ""
 "Press the <guibutton>€</guibutton> button or the <keycap>E</keycap> key."
 msgstr "Klõpsa nuppu <guibutton>€</guibutton> või klahvi <keycap>E</keycap>."
 
 #. Tag: para
-#: index.docbook:216
+#: index.docbook:211
 #, no-c-format
 msgid ""
 "Read the result in the <guilabel>Result</guilabel> display on the right: "
-"1008.50 FB or 1008,50 FB. The exact value is 1008.4975, but it's rounded to the "
-"closest hundredth of a Belgian franc. The rounding unit depends on the currency "
-"and on the rounding method: with the official rounding rules, for Belgian "
-"francs it's 0.01 FB, for Italian liras it's 1 L for example."
+"1008.50 FB or 1008,50 FB. The exact value is 1008.4975, but it's rounded to "
+"the closest hundredth of a Belgian franc. The rounding unit depends on the "
+"currency and on the rounding method: with the official rounding rules, for "
+"Belgian francs it's 0.01 FB, for Italian liras it's 1 L for example."
 msgstr ""
-"Vaata tulemust paremal asuval väljal <guilabel>Tulemus</guilabel>"
-": see on 1008,50 FB või 1008,50 FB. Täpne väärtus oleks 1008,4975, kuid see "
-"ümardati Belgia frankide lähima sajandikuni. Ümardamise tase sõltub "
-"rahaühikust: Belgia frankidel on see 0,01 FB, Itaalia liiridel aga näiteks 1 L."
+"Vaata tulemust paremal asuval väljal <guilabel>Tulemus</guilabel>: see on "
+"1008,50 FB või 1008,50 FB. Täpne väärtus oleks 1008,4975, kuid see ümardati "
+"Belgia frankide lähima sajandikuni. Ümardamise tase sõltub rahaühikust: "
+"Belgia frankidel on see 0,01 FB, Itaalia liiridel aga näiteks 1 L."
 
 #. Tag: para
-#: index.docbook:223
+#: index.docbook:218
 #, no-c-format
 msgid "You could also have typed: <userinput>25 Enter E</userinput>."
 msgstr "Sama hästi oleks võinud kirjutada <userinput>25 Enter E</userinput>."
 
 #. Tag: title
-#: index.docbook:226
+#: index.docbook:221
 #, no-c-format
 msgid "To convert 120 German marks into Spanish pesetas"
 msgstr "120 Saksa marga teisendamine Hispaania peseetadeks"
 
 #. Tag: para
-#: index.docbook:227
+#: index.docbook:222
 #, no-c-format
 msgid ""
-"If the fixed rates currencies are available, select the <guilabel>"
-"DEM - German deutschmark</guilabel> item in the currencies drop down list."
+"If the fixed rates currencies are available, select the <guilabel>DEM - "
+"German deutschmark</guilabel> item in the currencies drop down list."
 msgstr ""
 "Kui saadaval on fikseeritud kurssidega valuutad, vali all hüpikloendist "
 "<guilabel>DEM - Saksa mark</guilabel>."
 
 #. Tag: para
-#: index.docbook:230
+#: index.docbook:225
 #, no-c-format
 msgid "Type <userinput>120</userinput>."
 msgstr "Kirjuta <userinput>120</userinput>."
 
 #. Tag: para
-#: index.docbook:231
+#: index.docbook:226
 #, no-c-format
 msgid ""
-"Press the <guibutton>DM</guibutton> button or the <keycap>D</keycap> or <keycap>"
-"M</keycap> keys."
+"Press the <guibutton>DM</guibutton> button or the <keycap>D</keycap> or "
+"<keycap>M</keycap> keys."
 msgstr ""
-"Vajuta nuppu <guibutton>DM</guibutton> või klahvi <keycap>D</keycap> "
-"või <keycap>M</keycap>."
+"Vajuta nuppu <guibutton>DM</guibutton> või klahvi <keycap>D</keycap> või "
+"<keycap>M</keycap>."
 
 #. Tag: para
-#: index.docbook:233
+#: index.docbook:228
 #, no-c-format
 msgid ""
-"Just select the <guilabel>ESP - Spanish peseta</guilabel> "
-"item to see the same amount of 61.36 € converted into pesetas in the <guilabel>"
-"Results</guilabel> area."
+"Just select the <guilabel>ESP - Spanish peseta</guilabel> item to see the "
+"same amount of 61.36 € converted into pesetas in the <guilabel>Result</"
+"guilabel> area."
 msgstr ""
-"Nüüd vali raadionupp <guilabel>ESP - Hispaania peseeta</guilabel>"
-", et näha tulemust 61,36 € teisendatuna peseetadesse väljal <guilabel>"
-"Tulemus</guilabel>."
+"Nüüd vali raadionupp <guilabel>ESP - Hispaania peseeta</guilabel>, et näha "
+"tulemust 61,36 € teisendatuna peseetadesse väljal <guilabel>Tulemus</"
+"guilabel>."
 
 #. Tag: title
-#: index.docbook:241
+#: index.docbook:236
 #, no-c-format
 msgid "Adding and Subtracting"
 msgstr "Liitmine ja lahutamine"
 
 #. Tag: title
-#: index.docbook:244
+#: index.docbook:239
 #, no-c-format
 msgid "How much is 3 + 5?"
 msgstr "Kui palju on 3 + 5?"
 
 #. Tag: para
-#: index.docbook:245
+#: index.docbook:240
 #, no-c-format
 msgid ""
-"Type <userinput>3</userinput> and then press <guibutton>+</guibutton>"
-". Notice that in the result field, <computeroutput>3</computeroutput> "
-"is a simple value displayed on just one line, with no monetary unit."
+"Type <userinput>3</userinput> and then press <guibutton>+</guibutton>. "
+"Notice that in the result field, <computeroutput>3</computeroutput> is a "
+"simple value displayed on just one line, with no monetary unit."
 msgstr ""
-"Kirjuta <userinput>3</userinput> ja vajuta <guibutton>+</guibutton>"
-". Pane tähele, et tulemusväljal on <computeroutput>3</computeroutput> "
-"lihtne väärtus, mis on esitatud ainult ühel real, ilma rahaühikuta."
+"Kirjuta <userinput>3</userinput> ja vajuta <guibutton>+</guibutton>. Pane "
+"tähele, et tulemusväljal on <computeroutput>3</computeroutput> lihtne "
+"väärtus, mis on esitatud ainult ühel real, ilma rahaühikuta."
 
 #. Tag: para
-#: index.docbook:248
+#: index.docbook:243
 #, no-c-format
 msgid ""
-"Type <userinput>5</userinput> and then press the <guibutton>Enter</guibutton> "
-"button or the <keycap>Enter</keycap> key. The result <computeroutput>"
-"8</computeroutput> appears on the right."
+"Type <userinput>5</userinput> and then press the <guibutton>Enter</"
+"guibutton> button or the &Enter; key. The result <computeroutput>8</"
+"computeroutput> appears on the right."
 msgstr ""
-"Kirjuta <userinput>5</userinput> ja vajuta nuppu <guibutton>Enter</guibutton> "
-"või klahvi <keycap>Enter</keycap>. Paremale ilmub tulemus <computeroutput>"
-"8</computeroutput>."
+"Kirjuta <userinput>5</userinput> ja vajuta nuppu <guibutton>Enter</"
+"guibutton> või klahvi &Enter;. Paremale ilmub tulemus <computeroutput>8</"
+"computeroutput>."
 
 #. Tag: title
-#: index.docbook:254
+#: index.docbook:249
 #, no-c-format
 msgid ""
 "You received 100 US dollars and paid 32.50 euros for a book, how much do you "
@@ -607,112 +610,112 @@ msgstr ""
 "arvele?"
 
 #. Tag: para
-#: index.docbook:256
+#: index.docbook:251
 #, no-c-format
 msgid ""
 "Make sure that the variable exchange rates are available. If not, press the "
-"<guibutton>Settings...</guibutton> to select either <guilabel>"
-"Euro, European Central Bank</guilabel> or <guilabel>"
-"Dollar, New York Federal Reserve Bank</guilabel>. Now select the <guilabel>"
-"USD - US dollar</guilabel> or the <guilabel>EUR - EU euro</guilabel> "
-"item in the scroll down list on the bottom. If you have no Internet access, "
-"that item won't be available as the latest variable rates between the euro and "
-"the dollar cannot be determined."
+"<guibutton>Settings...</guibutton> to select either <guilabel>Euro, European "
+"Central Bank</guilabel> or <guilabel>Dollar, New York Federal Reserve Bank</"
+"guilabel>. Now select the <guilabel>USD - US dollar</guilabel> or the "
+"<guilabel>EUR - EU euro</guilabel> item in the scroll down list on the "
+"bottom. If you have no Internet access, that item won't be available as the "
+"latest variable rates between the euro and the dollar cannot be determined."
 msgstr ""
-"Kontrolli, et saadaval oleks muutuvad valuutakursid. Kui see nii ei ole, klõpsa "
-"nupule <guibutton>Seadistused...</guibutton> ja vali kas <guilabel>"
-"Euro, Euroopa Keskpank</guilabel> või <guilabel>Dollar, New Yorgi "
-"Föderaalreserv</guilabel>. Seejärel vali all <guilabel>"
-"USD - USA dollar</guilabel> või <guilabel>EUR - euro</guilabel>"
-". Kui sul ei ole internetiühendust, siis ei saa seda paraku kasutada, sest pole "
-"võimalik teada saada euro ja dollari uusimat vahetuskurssi."
+"Kontrolli, et saadaval oleks muutuvad valuutakursid. Kui see nii ei ole, "
+"klõpsa nupule <guibutton>Seadistused...</guibutton> ja vali kas "
+"<guilabel>Euro, Euroopa Keskpank</guilabel> või <guilabel>Dollar, New Yorgi "
+"Föderaalreserv</guilabel>. Seejärel vali all <guilabel>USD - USA dollar</"
+"guilabel> või <guilabel>EUR - euro</guilabel>. Kui sul ei ole "
+"internetiühendust, siis ei saa seda paraku kasutada, sest pole võimalik "
+"teada saada euro ja dollari uusimat vahetuskurssi."
 
 #. Tag: para
-#: index.docbook:264
+#: index.docbook:259
 #, no-c-format
 msgid ""
 "Type <userinput>100</userinput> and then press <guibutton>$</guibutton>."
 msgstr "Kirjuta <userinput>100</userinput> ja vajuta <guibutton>$</guibutton>."
 
 #. Tag: para
+#: index.docbook:260
+#, no-c-format
+msgid ""
+"Press the <guibutton>-</guibutton> button or the <keycap>-</keycap> key. "
+"Notice the <computeroutput>-</computeroutput> sign in the leftmost part of "
+"the <guilabel>Input</guilabel> display."
+msgstr ""
+"Vajuta nuppu <guibutton>-</guibutton> või klahvi <keycap>-</keycap>. Pane "
+"tähele, et <computeroutput>-</computeroutput> ilmub välja <guilabel>Sisend</"
+"guilabel> vasakpoolsesse serva."
+
+#. Tag: para
+#: index.docbook:263
+#, no-c-format
+msgid ""
+"Type <userinput>32,50</userinput> or <userinput>32.50</userinput> and then "
+"press <guibutton>€</guibutton>."
+msgstr ""
+"Kirjuta <userinput>32,50</userinput> (või <userinput>32.50</userinput>) ja "
+"vajuta <guibutton>€</guibutton>."
+
+#. Tag: para
 #: index.docbook:265
 #, no-c-format
 msgid ""
-"Press the <guibutton>-</guibutton> button or the <keycap>-</keycap> "
-"key. Notice the <computeroutput>-</computeroutput> sign in the leftmost part of "
-"the <guilabel>Input</guilabel> display."
-msgstr ""
-"Vajuta nuppu <guibutton>-</guibutton> või klahvi <keycap>-</keycap>"
-". Pane tähele, et <computeroutput>-</computeroutput> ilmub välja <guilabel>"
-"Sisend</guilabel> vasakpoolsesse serva."
-
-#. Tag: para
-#: index.docbook:268
-#, no-c-format
-msgid ""
-"Type <userinput>32,50</userinput> or <userinput>32.50</userinput> "
-"and then press <guibutton>€</guibutton>."
-msgstr ""
-"Kirjuta <userinput>32,50</userinput> (või <userinput>32.50</userinput>"
-") ja vajuta <guibutton>€</guibutton>."
-
-#. Tag: para
-#: index.docbook:270
-#, no-c-format
-msgid ""
 "Read the result in the <guilabel>Result</guilabel> display on the right. The "
-"exact value might depend on latest exchange rates. Notice that during the whole "
-"computation you've been able to read the values both in euro and in US dollars. "
-"Pay attention to the fact that different data sources (ECB or NY FRB) might not "
-"provide the same conversion rate between the euro and the dollar."
+"exact value might depend on latest exchange rates. Notice that during the "
+"whole computation you've been able to read the values both in euro and in US "
+"dollars. Pay attention to the fact that different data sources (ECB or NY "
+"FRB) might not provide the same conversion rate between the euro and the "
+"dollar."
 msgstr ""
-"Vaata tulemust paremal asuval väljal <guilabel>Tulemus</guilabel>"
-". Tulemus sõltub parajasti kehtivast vahetuskursist. Pane tähele, et kogu tehte "
-"ajal oli võimalik näha väärtusi nii eurodes kui USA dollarites. Arvesta, et "
+"Vaata tulemust paremal asuval väljal <guilabel>Tulemus</guilabel>. Tulemus "
+"sõltub parajasti kehtivast vahetuskursist. Pane tähele, et kogu tehte ajal "
+"oli võimalik näha väärtusi nii eurodes kui USA dollarites. Arvesta, et "
 "erinevad andmeallikad (ECB või NY RFB) ei pruugi tingimata teatada ühesugust "
 "euro ja dollari vahetuskurssi."
 
 #. Tag: title
-#: index.docbook:278
+#: index.docbook:273
 #, no-c-format
 msgid ""
-"You pay a 32.50 € book with a 500 FF banknote. How much was the clerk supposed "
-"to give you back, in euro notes and coins?"
+"You pay a 32.50 € book with a 500 FF banknote. How much was the clerk "
+"supposed to give you back, in euro notes and coins?"
 msgstr ""
 "Tasusid 32,50 € maksva raamatu eest 500 FF rahatähega. Kui palju peaks müüja "
 "sulle eurodes tagasi andma?"
 
 #. Tag: para
-#: index.docbook:280
+#: index.docbook:275
 #, no-c-format
 msgid ""
-"Select the <guilabel>FRF - French francs</guilabel> item in the currencies drop "
-"down list if not already selected."
+"Select the <guilabel>FRF - French francs</guilabel> item in the currencies "
+"drop down list if not already selected."
 msgstr ""
 "Vali rahaühikute hüpikloendist <guilabel>FRF - Prantsuse frangid</guilabel> "
 "(kui see pole veel valitud)."
 
 #. Tag: para
-#: index.docbook:282
+#: index.docbook:277
 #, no-c-format
 msgid ""
-"Type <userinput>32.50</userinput> or <userinput>32,50</userinput> "
-"and then press <guibutton>€</guibutton>. You can also type <userinput>"
-"32.5</userinput> without the trailing <userinput>0</userinput>."
+"Type <userinput>32.50</userinput> or <userinput>32,50</userinput> and then "
+"press <guibutton>€</guibutton>. You can also type <userinput>32.5</"
+"userinput> without the trailing <userinput>0</userinput>."
 msgstr ""
-"Kirjuta <userinput>32,50</userinput> (või <userinput>32.50</userinput>"
-") ja  vajuta <guibutton>€</guibutton>. Võid ka kirjutada lihtsalt  <userinput>"
-"32,5</userinput> ilma lõpetava <userinput>0</userinput>-ta."
+"Kirjuta <userinput>32,50</userinput> (või <userinput>32.50</userinput>) ja  "
+"vajuta <guibutton>€</guibutton>. Võid ka kirjutada lihtsalt  "
+"<userinput>32,5</userinput> ilma lõpetava <userinput>0</userinput>-ta."
 
 #. Tag: para
-#: index.docbook:285
+#: index.docbook:280
 #, no-c-format
 msgid ""
 "Press the <guibutton>-</guibutton> button or the <keycap>-</keycap> key."
 msgstr "Vajuta nuppu <guibutton>-</guibutton> või klahvi <keycap>-</keycap>."
 
 #. Tag: para
-#: index.docbook:286
+#: index.docbook:281
 #, no-c-format
 msgid ""
 "Type <userinput>500</userinput> and press the <guibutton>FF</guibutton> "
@@ -722,36 +725,36 @@ msgstr ""
 "või klahvi <keycap>F</keycap>."
 
 #. Tag: para
-#: index.docbook:288
+#: index.docbook:283
 #, no-c-format
 msgid ""
-"The result <computeroutput>-43.72 €</computeroutput> "
-"is negative, indicating that change money has to be given back to the customer. "
-"The <guibutton>+/-</guibutton> button or the <keycap>S</keycap> "
-"key permit you to change the sign of the result."
+"The result <computeroutput>-43.72 €</computeroutput> is negative, indicating "
+"that change money has to be given back to the customer. The <guibutton>+/-</"
+"guibutton> button or the <keycap>S</keycap> key permit you to change the "
+"sign of the result."
 msgstr ""
-"Tulemus <computeroutput>-43.72 €</computeroutput> on negatiivne, mis tähendab, "
-"et ostjale tuleb raha tagasi anda. Tulemuse märki on võimalik muuta nupuga "
-"<guibutton>+/-</guibutton> või klahviga <keycap>S</keycap>."
+"Tulemus <computeroutput>-43.72 €</computeroutput> on negatiivne, mis "
+"tähendab, et ostjale tuleb raha tagasi anda. Tulemuse märki on võimalik "
+"muuta nupuga <guibutton>+/-</guibutton> või klahviga <keycap>S</keycap>."
 
 #. Tag: para
-#: index.docbook:293
+#: index.docbook:288
 #, no-c-format
 msgid ""
 "Do not try to add euros to simple values (with no currency unit): it won't "
 "work, for the same reason you cannot add 5 meters to 3 kilograms."
 msgstr ""
-"Ära püüa liita eurosid tavalise arvuga - see annab sama hea tulemuse kui liita "
-"5 meetrile 3 kilogrammi."
+"Ära püüa liita eurosid tavalise arvuga - see annab sama hea tulemuse kui "
+"liita 5 meetrile 3 kilogrammi."
 
 #. Tag: title
-#: index.docbook:299
+#: index.docbook:294
 #, no-c-format
 msgid "Multiplying and Dividing"
 msgstr "Korrutamine ja jagamine"
 
 #. Tag: title
-#: index.docbook:302
+#: index.docbook:297
 #, no-c-format
 msgid ""
 "You buy 3.2 kilograms of apples at 2 € per kilogram. How much does the whole "
@@ -761,96 +764,98 @@ msgstr ""
 "Austraalia dollarites?"
 
 #. Tag: para
-#: index.docbook:304
+#: index.docbook:299
 #, no-c-format
 msgid ""
-"Select the <guilabel>AUD - Australian dollar</guilabel> "
-"item if available and if not already selected."
+"Select the <guilabel>AUD - Australian dollar</guilabel> item if available "
+"and if not already selected."
 msgstr ""
-"Vali <guilabel>AUD - Austraalia dollar</guilabel>, kui see ei ole juba valitud."
+"Vali <guilabel>AUD - Austraalia dollar</guilabel>, kui see ei ole juba "
+"valitud."
 
 #. Tag: para
-#: index.docbook:306
+#: index.docbook:301
 #, no-c-format
 msgid "Type <userinput>2</userinput> and press <guibutton>€</guibutton>."
 msgstr "Kirjuta <userinput>2</userinput> ja vajuta <guibutton>€</guibutton>."
 
 #. Tag: para
-#: index.docbook:307
+#: index.docbook:302
 #, no-c-format
 msgid ""
-"Press the <guibutton>X</guibutton> button or the <keycap>*</keycap> "
-"key. Notice the <computeroutput>X</computeroutput> sign at the left of the "
+"Press the <guibutton>X</guibutton> button or the <keycap>*</keycap> key. "
+"Notice the <computeroutput>X</computeroutput> sign at the left of the "
 "<guilabel>Input</guilabel> display."
 msgstr ""
-"Vajuta nuppu <guibutton>X</guibutton> või klahvi <keycap>*</keycap>"
-". Pane tähele, et märk <computeroutput>X</computeroutput> ilmub välja <guilabel>"
-"Sisend</guilabel> vasakpoolsesse serva."
+"Vajuta nuppu <guibutton>X</guibutton> või klahvi <keycap>*</keycap>. Pane "
+"tähele, et märk <computeroutput>X</computeroutput> ilmub välja "
+"<guilabel>Sisend</guilabel> vasakpoolsesse serva."
 
 #. Tag: para
-#: index.docbook:310
+#: index.docbook:305
 #, no-c-format
 msgid ""
-"Now type <userinput>3.2</userinput> followed by the <guibutton>Enter</guibutton> "
-"button or the <keycap>Enter</keycap> key: this means <quote>3.2 units</quote> "
-"at 2 € each."
+"Now type <userinput>3.2</userinput> followed by the <guibutton>Enter</"
+"guibutton> button or the &Enter; key: this means <quote>3.2 units</quote> at "
+"2 € each."
 msgstr ""
-"Nüüd kirjuta <userinput>3,2</userinput> ja vajuta seejärel nuppu <guibutton>"
-"Enter</guibutton> või klahvi <keycap>Enter</keycap>. See tähendabki <quote>"
-"3,2 ühikut</quote>, iga ühik hinnaga 2 €."
+"Nüüd kirjuta <userinput>3,2</userinput> ja vajuta seejärel nuppu "
+"<guibutton>Enter</guibutton> või klahvi &Enter;. See tähendabki <quote>3,2 "
+"ühikut</quote>, iga ühik hinnaga 2 €."
 
 #. Tag: para
-#: index.docbook:313
+#: index.docbook:308
 #, no-c-format
 msgid ""
-"The result in Australian dollars matches <computeroutput>6.4 €</computeroutput>"
-"."
+"The result in Australian dollars matches <computeroutput>6.4 €</"
+"computeroutput>."
 msgstr ""
-"Tulemusele Austraalia dollarites vastab <computeroutput>6.4 €</computeroutput>."
+"Tulemusele Austraalia dollarites vastab <computeroutput>6.4 €</"
+"computeroutput>."
 
 #. Tag: para
-#: index.docbook:316
+#: index.docbook:311
 #, no-c-format
 msgid ""
-"You could also have used the following order: <userinput>3.2 = * 2 €</userinput> "
-"or even <userinput>3.2 * 2 €</userinput>."
+"You could also have used the following order: <userinput>3.2 = * 2 €</"
+"userinput> or even <userinput>3.2 * 2 €</userinput>."
 msgstr ""
-"Kirjutada võib ka <userinput>3,2 = * 2 €</userinput> või isegi <userinput>"
-"3,2 * 2 €</userinput>."
+"Kirjutada võib ka <userinput>3,2 = * 2 €</userinput> või isegi "
+"<userinput>3,2 * 2 €</userinput>."
 
 #. Tag: para
-#: index.docbook:319
+#: index.docbook:314
 #, no-c-format
 msgid ""
-"It's not possible to multiply X euros by Y dollars, just as you don't multiply "
-"10 fingers by 2 ears."
+"It's not possible to multiply X euros by Y dollars, just as you don't "
+"multiply 10 fingers by 2 ears."
 msgstr ""
 "Mõistagi ei ole võimalik korrutada X eurot Y dollariga, nagu ei saa ka "
 "korrutada 10 sõrme 2 kõrvaga."
 
 #. Tag: title
-#: index.docbook:326
+#: index.docbook:321
 #, no-c-format
 msgid "Using Percentages"
 msgstr "Protsentarvutus"
 
 #. Tag: title
-#: index.docbook:329
+#: index.docbook:324
 #, no-c-format
 msgid "How much is 20% of 3000 yen?"
 msgstr "Kui palju on 20% 3000 jeenist?"
 
 #. Tag: para
-#: index.docbook:330 index.docbook:342 index.docbook:356
+#: index.docbook:325 index.docbook:337 index.docbook:351
 #, no-c-format
 msgid ""
-"Select the <guilabel>JPY - Japanese yen</guilabel> item if available and if not "
-"already selected."
+"Select the <guilabel>JPY - Japanese yen</guilabel> item if available and if "
+"not already selected."
 msgstr ""
 "Vali <guilabel>JPY - Jaapani jeen</guilabel>, kui see ei ole juba valitud."
 
 #. Tag: para
-#: index.docbook:332 index.docbook:344 index.docbook:358
+#: index.docbook:327 index.docbook:339 index.docbook:353
 #, no-c-format
 msgid ""
 "Type <userinput>3000</userinput> and press the <guibutton>¥</guibutton> "
@@ -860,500 +865,499 @@ msgstr ""
 "või klahvi <keycap>Y</keycap>."
 
 #. Tag: para
-#: index.docbook:334 index.docbook:347 index.docbook:361
+#: index.docbook:329 index.docbook:342 index.docbook:356
 #, no-c-format
 msgid ""
 "Enter <userinput>20</userinput> and press the <guibutton>%</guibutton> "
-"button or the <keycap>%</keycap> key. As with multiplications, the value had to "
-"be typed <emphasis>before</emphasis> the percentage."
+"button or the <keycap>%</keycap> key. As with multiplications, the value had "
+"to be typed <emphasis>before</emphasis> the percentage."
 msgstr ""
 "Kirjuta <userinput>20</userinput> ja vajuta nuppu <guibutton>%</guibutton> "
-"või klahvi <keycap>%</keycap>. Nagu korrutamise puhul, tuleb ka siin kirjutada "
-"väärtus <emphasis>enne</emphasis> protsendimärki."
+"või klahvi <keycap>%</keycap>. Nagu korrutamise puhul, tuleb ka siin "
+"kirjutada väärtus <emphasis>enne</emphasis> protsendimärki."
 
 #. Tag: para
-#: index.docbook:337
+#: index.docbook:332
 #, no-c-format
 msgid "Look at the result: it is equivalent to 600 yen."
 msgstr "Vaata tulemust: see on 600 jeeni."
 
 #. Tag: title
-#: index.docbook:341
+#: index.docbook:336
 #, no-c-format
 msgid "How much is 3000 yen plus 20%?"
 msgstr "Kui palju on 3000 jeeni pluss 20%?"
 
 #. Tag: para
-#: index.docbook:346
+#: index.docbook:341
 #, no-c-format
 msgid ""
 "Press the <guibutton>+</guibutton> button or the <keycap>+</keycap> key."
 msgstr "Vajuta nuppu <guibutton>+</guibutton> või klahvi <keycap>+</keycap>."
 
 #. Tag: para
-#: index.docbook:350
+#: index.docbook:345
 #, no-c-format
 msgid "Look at the result: 26.96 € or 3600 ¥ at the time of writing."
 msgstr "Vaata tulemust: 26,96 € või 3600 ¥ nende ridade kirjutamise ajal."
 
 #. Tag: title
-#: index.docbook:355
+#: index.docbook:350
 #, no-c-format
 msgid "How much is 3000 yen minus 20%?"
 msgstr "Kui palju on 3000 jeeni miinus 20%?"
 
 #. Tag: para
-#: index.docbook:360
+#: index.docbook:355
 #, no-c-format
 msgid "Press the <guibutton>-</guibutton> button or <keycap>-</keycap> key."
 msgstr "Vajuta nuppu <guibutton>-</guibutton> või klahvi <keycap>-</keycap>."
 
 #. Tag: para
-#: index.docbook:364
+#: index.docbook:359
 #, no-c-format
 msgid ""
 "Look at the result: 17.97 € or 2400 ¥ at the date of writing these lines."
 msgstr "Vaata tulemust: 17,97 € või 2400 ¥ nende ridade kirjutamise ajal."
 
 #. Tag: title
-#: index.docbook:371
+#: index.docbook:366
 #, no-c-format
 msgid "Using Intermediate Memory"
 msgstr "Vahemälu kasutamine"
 
 #. Tag: title
-#: index.docbook:374
+#: index.docbook:369
 #, no-c-format
 msgid "How do I store now and recall later some value?"
 msgstr "Kuidas mõningaid väärtusi salvestada ja hiljem uuesti kasutada?"
 
 #. Tag: para
-#: index.docbook:375
+#: index.docbook:370
 #, no-c-format
 msgid "Do your computations."
 msgstr "Soorita oma tehted."
 
 #. Tag: para
-#: index.docbook:376
+#: index.docbook:371
 #, no-c-format
 msgid ""
-"Press <guibutton>Min</guibutton> (Memory in) button to store the value in the "
-"<guilabel>Result</guilabel> area. Please notice that the other memory keys now "
-"become available."
+"Press <guibutton>Min</guibutton> (Memory in) button to store the value in "
+"the <guilabel>Result</guilabel> area. Please notice that the other memory "
+"keys now become available."
 msgstr ""
 "Vajuta nuppu <userinput>Min</userinput> (Memory in ehk Mällu), mis salvestab "
 "tsoonis <guilabel>Tulemus</guilabel> oleva väärtuse. Pane tähele, et nüüd "
 "aktiveeruvad ka muud mälu kasutamise võimalused."
 
 #. Tag: para
-#: index.docbook:379
+#: index.docbook:374
 #, no-c-format
 msgid "Do some other work with the calculator."
 msgstr "Soorita kalkulaatoril veel mingeid tehteid."
 
 #. Tag: para
-#: index.docbook:380
+#: index.docbook:375
 #, no-c-format
 msgid ""
 "Recall the value from the memory by pressing the <guibutton>MR</guibutton> "
 "(Memory Recall) button."
 msgstr ""
-"Võta väärtus mälust klõpsuga nupule <guibutton>MR</guibutton> "
-"(Memory Recall ehk Mälustvõtmine)."
+"Võta väärtus mälust klõpsuga nupule <guibutton>MR</guibutton> (Memory Recall "
+"ehk Mälustvõtmine)."
 
 #. Tag: para
-#: index.docbook:384
+#: index.docbook:379
 #, no-c-format
 msgid ""
-"Internally, the values are recalled with no unit or in the reference currency "
-"(euro or dollar) with the maximum precision allowed by the mathematical "
-"library. In some rare cases, this might lead to rounding problems if the stored "
-"value is a rounded value in a non-reference currency."
+"Internally, the values are recalled with no unit or in the reference "
+"currency (euro or dollar) with the maximum precision allowed by the "
+"mathematical library. In some rare cases, this might lead to rounding "
+"problems if the stored value is a rounded value in a non-reference currency."
 msgstr ""
-"Seesmiselt võetakse väärtused kas ühikuta või baasvaluutas (euro või dollar), "
-"kasutades maksimaalset täpsust, mida võimaldab matemaatikateek. Mõnel "
-"haruldasel juhul võib tekkida ümardamisprobleeme, kui salvestatud väärtus on "
-"juba ümardatud väärtusega mõnes muus valuutas kui euro."
+"Seesmiselt võetakse väärtused kas ühikuta või baasvaluutas (euro või "
+"dollar), kasutades maksimaalset täpsust, mida võimaldab matemaatikateek. "
+"Mõnel haruldasel juhul võib tekkida ümardamisprobleeme, kui salvestatud "
+"väärtus on juba ümardatud väärtusega mõnes muus valuutas kui euro."
 
 #. Tag: title
-#: index.docbook:390
+#: index.docbook:385
 #, no-c-format
 msgid "How do I clear the memory?"
 msgstr "Kuidas vahemälu puhastada?"
 
 #. Tag: para
-#: index.docbook:391
+#: index.docbook:386
 #, no-c-format
 msgid ""
 "Press the <guibutton>Reset</guibutton> button. Please notice that the "
-"<guibutton>Reset</guibutton> clears everything: the input, the result and the "
-"memory."
+"<guibutton>Reset</guibutton> clears everything: the input, the result and "
+"the memory."
 msgstr ""
-"Vajuta nupule <guibutton>Lähtesta</guibutton>. Palun arvesta, et klõps nupule "
-"<guibutton>Lähtesta</guibutton> puhastab kõik, nii sisendi, tulemuse kui mälu."
+"Vajuta nupule <guibutton>Lähtesta</guibutton>. Palun arvesta, et klõps "
+"nupule <guibutton>Lähtesta</guibutton> puhastab kõik, nii sisendi, tulemuse "
+"kui mälu."
 
 #. Tag: title
-#: index.docbook:397
+#: index.docbook:392
 #, no-c-format
 msgid "How do I compute 3.1 * 5.2 € + 2.7 * 8.9 €?"
 msgstr "Kuidas arvutada 3,1 * 5,2 € + 2,7 * 8,9 €?"
 
 #. Tag: para
-#: index.docbook:398 index.docbook:410
+#: index.docbook:393 index.docbook:405
 #, no-c-format
 msgid "First compute the first half: <userinput>3.1 * 5.2 €</userinput>."
 msgstr "Kõigepealt esimene tehe: <userinput>3,1 * 5,2 €</userinput>."
 
 #. Tag: para
-#: index.docbook:399 index.docbook:411
+#: index.docbook:394 index.docbook:406
 #, no-c-format
 msgid "Store the result in memory with <guibutton>Min</guibutton> button."
 msgstr "Salvesta see mällu nupuga <guibutton>Min</guibutton>."
 
 #. Tag: para
-#: index.docbook:400 index.docbook:412
+#: index.docbook:395 index.docbook:407
 #, no-c-format
 msgid "Now compute the other half: <userinput>2.7 * 8.9 €</userinput>."
 msgstr "Nüüd teine tehe: <userinput>2,7 * 8,9 €</userinput>."
 
 #. Tag: para
-#: index.docbook:401
+#: index.docbook:396
 #, no-c-format
 msgid "Add the result to the memory with <guibutton>M+</guibutton> button."
 msgstr "Lisa see mälus olevale väärtusele nupuga <guibutton>M+</guibutton>."
 
 #. Tag: para
-#: index.docbook:402 index.docbook:414
+#: index.docbook:397 index.docbook:409
 #, no-c-format
 msgid "Recall the sum with <guibutton>MR</guibutton> button."
 msgstr "Vaata tulemust klõpsuga nupule <guibutton>MR</guibutton>."
 
 #. Tag: para
-#: index.docbook:405
+#: index.docbook:400
 #, no-c-format
 msgid ""
-"There are other solutions like <userinput>3.1 * 5.2 € Min 2.7 * 8.9 € + "
-"MR</userinput>."
+"There are other solutions like <userinput>3.1 * 5.2 € Min 2.7 * 8.9 € + MR</"
+"userinput>."
 msgstr ""
 "Sama tulemuse annab aga näiteks ka <userinput>3,1 * 5,2 € Min 2,7 * 8,9 € + "
 "MR</userinput>."
 
 #. Tag: title
-#: index.docbook:409
+#: index.docbook:404
 #, no-c-format
 msgid "How do I compute 3.1 * 5.2 € - 2.7 * 8.9 €?"
 msgstr "Kuidas arvutada 3,1 * 5,2 € - 2,7 * 8,9 €?"
 
 #. Tag: para
-#: index.docbook:413
+#: index.docbook:408
 #, no-c-format
 msgid ""
 "Subtract the result from the memory with <guibutton>M-</guibutton> button."
 msgstr "Lahuta tulemus mälust nupuga <guibutton>M-</guibutton>."
 
 #. Tag: para
-#: index.docbook:417
+#: index.docbook:412
 #, no-c-format
 msgid ""
 "The sequence <userinput>3.1 * 5.2 € Min 2.7 * 8.9 € - MR</userinput> "
 "computes the difference in the reverse order."
 msgstr ""
-"Vastupidises järjekorras arvutamiseks sisesta <userinput>"
-"3,1 * 5,2 € Min 2,7 * 8,9 € - MR</userinput>"
+"Vastupidises järjekorras arvutamiseks sisesta <userinput>3,1 * 5,2 € Min 2,7 "
+"* 8,9 € - MR</userinput>"
 
 #. Tag: title
-#: index.docbook:424
+#: index.docbook:419
 #, no-c-format
 msgid "Command Reference"
 msgstr "Käskude seletused"
 
 #. Tag: title
-#: index.docbook:427
+#: index.docbook:422
 #, no-c-format
 msgid "Default Shortcuts"
 msgstr "Vaikimisi kiirklahvid"
 
 #. Tag: keycombo
-#: index.docbook:430
+#: index.docbook:425
 #, no-c-format
 msgid "&Alt; <keycap>F4</keycap>"
 msgstr "&Alt; <keycap>F4</keycap>"
 
 #. Tag: member
-#: index.docbook:431
+#: index.docbook:426
 #, no-c-format
 msgid "Exits from &keurocalc;"
 msgstr "Lõpetab &keurocalc;i töö"
 
 #. Tag: keycombo
-#: index.docbook:433
+#: index.docbook:428
 #, no-c-format
 msgid "&Alt; <keycap>A</keycap>"
 msgstr "&Alt; <keycap>A</keycap>"
 
 #. Tag: member
-#: index.docbook:434 index.docbook:525
+#: index.docbook:429 index.docbook:520
 #, no-c-format
 msgid "Displays these help pages"
 msgstr "Näitab abi (käesolevat käsiraamatut)"
 
 #. Tag: keycombo
-#: index.docbook:436
+#: index.docbook:431
 #, no-c-format
 msgid "&Alt; <keycap>C</keycap>"
 msgstr "&Alt; <keycap>C</keycap>"
 
 #. Tag: member
-#: index.docbook:437
+#: index.docbook:432
 #, no-c-format
 msgid "Goes to the currency selection area"
 msgstr "Liigub rahaühiku valimise tsooni"
 
 #. Tag: keycombo
-#: index.docbook:439
+#: index.docbook:434
 #, no-c-format
 msgid "&Alt; <keycap>H</keycap>"
 msgstr "&Alt; <keycap>H</keycap>"
 
 #. Tag: member
-#: index.docbook:440 index.docbook:522
+#: index.docbook:435 index.docbook:517
 #, no-c-format
 msgid "Displays the <guilabel>About</guilabel> box"
 msgstr "Näitab <guilabel>info</guilabel>kasti"
 
 #. Tag: member
-#: index.docbook:442
+#: index.docbook:437
 #, no-c-format
 msgid "<keycap>0</keycap> - <keycap>9</keycap>"
 msgstr "<keycap>0</keycap> - <keycap>9</keycap>"
 
 #. Tag: member
-#: index.docbook:443 index.docbook:486
+#: index.docbook:438 index.docbook:481
 #, no-c-format
 msgid "Input digits"
 msgstr "Sisendnumbrid"
 
 #. Tag: member
-#: index.docbook:445
+#: index.docbook:440
 #, no-c-format
 msgid "<keycap>.</keycap> or <keycap>,</keycap>"
 msgstr "<keycap>.</keycap> või <keycap>,</keycap>"
 
 #. Tag: member
-#: index.docbook:446 index.docbook:489
+#: index.docbook:441 index.docbook:484
 #, no-c-format
 msgid "Decimal separator"
 msgstr "Kümnendkohtade eraldaja"
 
 #. Tag: member
-#: index.docbook:448
+#: index.docbook:443
 #, no-c-format
 msgid ""
-"<keycap>+</keycap>, <keycap>-</keycap>, <keycap>*</keycap> and <keycap>"
-"/</keycap>"
+"<keycap>+</keycap>, <keycap>-</keycap>, <keycap>*</keycap> and <keycap>/</"
+"keycap>"
 msgstr ""
-"<keycap>+</keycap>, <keycap>-</keycap>, <keycap>*</keycap> ja <keycap>/</keycap>"
+"<keycap>+</keycap>, <keycap>-</keycap>, <keycap>*</keycap> ja <keycap>/</"
+"keycap>"
 
 #. Tag: member
-#: index.docbook:449 index.docbook:516
+#: index.docbook:444 index.docbook:511
 #, no-c-format
 msgid "Operators: addition, subtraction, multiplication and division"
 msgstr "Tehtemärgid: liitmine, lahutamine, korrutamine ja jagamine"
 
 #. Tag: member
-#: index.docbook:451
+#: index.docbook:446
 #, no-c-format
-msgid "<keycap>Enter</keycap> and <keycap>Return</keycap>"
-msgstr "<keycap>Enter</keycap> ja <keycap>Return</keycap>"
+msgid "&Enter; and <keycap>Return</keycap>"
+msgstr "&Enter; ja <keycap>Return</keycap>"
 
 #. Tag: member
-#: index.docbook:452 index.docbook:504
+#: index.docbook:447 index.docbook:499
 #, no-c-format
 msgid "Validation of input number considered as a simple, unitless, value"
 msgstr "Sisendnumbri tunnistamine tavaliseks, rahaühikuta väärtuseks"
 
 #. Tag: keycap
-#: index.docbook:454
+#: index.docbook:449
 #, no-c-format
 msgid "<keycap>%</keycap>"
 msgstr "<keycap>%</keycap>"
 
 #. Tag: member
-#: index.docbook:455 index.docbook:507
+#: index.docbook:450 index.docbook:502
 #, no-c-format
 msgid "Validation of input number considered as a percentage"
 msgstr "Sisendnumbri tunnistamine protsendiks"
 
 #. Tag: member
-#: index.docbook:457
+#: index.docbook:452
 #, no-c-format
 msgid "&Backspace;"
 msgstr "&Backspace;"
 
 #. Tag: member
-#: index.docbook:458 index.docbook:492
+#: index.docbook:453 index.docbook:487
 #, no-c-format
 msgid "Removal of last input: digits, decimal separator or operator"
 msgstr ""
 "Eemaldab viimati sisestatud numbri, kümnendkoha eraldaja või tehtemärgi"
 
 #. Tag: member
-#: index.docbook:460
+#: index.docbook:455
 #, no-c-format
-msgid ""
-"<keycap>Tab</keycap> and <keycombo action=\"simul\">&Shift; <keycap>Tab</keycap>"
-"</keycombo> keys"
-msgstr ""
-"<keycap>Tab</keycap> ja <keycombo action=\"simul\">&Shift;<keycap> Tab</keycap>"
-"</keycombo>"
+msgid "&Tab; and <keycombo action=\"simul\">&Shift; &Tab;</keycombo> keys"
+msgstr "&Tab; ja <keycombo action=\"simul\">&Shift; &Tab;</keycombo>"
 
 #. Tag: member
-#: index.docbook:461
+#: index.docbook:456
 #, no-c-format
 msgid "Moves from one button to the next or previous one"
 msgstr "Liigub ühelt nupult järgmisele või eelmisele"
 
 #. Tag: member
-#: index.docbook:463
+#: index.docbook:458
 #, no-c-format
 msgid "Arrow keys"
 msgstr "Nooleklahvid"
 
 #. Tag: member
-#: index.docbook:464
+#: index.docbook:459
 #, no-c-format
 msgid "In the currency selection area, moves from one currency to the other"
 msgstr "Rahaühiku valimise tsoonis liigub ühelt rahaühikult teisele"
 
 #. Tag: member
-#: index.docbook:466
+#: index.docbook:461
 #, no-c-format
 msgid "Space bar"
 msgstr "Tühikuklahv"
 
 #. Tag: member
-#: index.docbook:467
+#: index.docbook:462
 #, no-c-format
 msgid "When focus is on a push button, presses this button"
 msgstr "Kui fookuses on vajutatav nupp, siis vajutab seda"
 
 #. Tag: member
-#: index.docbook:469
+#: index.docbook:464
 #, no-c-format
 msgid "<keycap>E</keycap> or <keycap>$</keycap>"
 msgstr "<keycap>E</keycap> või <keycap>$</keycap>"
 
 #. Tag: member
-#: index.docbook:470 index.docbook:498
+#: index.docbook:465 index.docbook:493
 #, no-c-format
 msgid ""
 "Validation of input number considered as a value expressed in the reference "
 "currency (euro or dollar)"
 msgstr ""
-"Sisendnumbri tunnistamine baasvaluutas (euro või dollar) väljendatud väärtuseks"
+"Sisendnumbri tunnistamine baasvaluutas (euro või dollar) väljendatud "
+"väärtuseks"
 
 #. Tag: keycap
-#: index.docbook:472
+#: index.docbook:467
 #, no-c-format
 msgid "<keycap>S</keycap>"
 msgstr "<keycap>S</keycap>"
 
 #. Tag: member
-#: index.docbook:473 index.docbook:510
+#: index.docbook:468 index.docbook:505
 #, no-c-format
 msgid "Change sign of the result"
 msgstr "Muudab tulemuse märki"
 
 #. Tag: member
-#: index.docbook:475
+#: index.docbook:470
 #, no-c-format
 msgid "Any other key"
 msgstr "Suvaline muu klahv"
 
 #. Tag: member
-#: index.docbook:476 index.docbook:501
+#: index.docbook:471 index.docbook:496
 #, no-c-format
 msgid "Validation of input number considered as a number in the other currency"
 msgstr "Sisendnumbri tunnistamine muus vääringus väärtuseks"
 
 #. Tag: title
-#: index.docbook:482
+#: index.docbook:477
 #, no-c-format
 msgid "The buttons"
 msgstr "Nupud"
 
 #. Tag: member
-#: index.docbook:485
+#: index.docbook:480
 #, no-c-format
 msgid "<guibutton>0</guibutton> to <guibutton>9</guibutton>"
 msgstr "<guibutton>0</guibutton> kuni <guibutton>9</guibutton>"
 
 #. Tag: member
-#: index.docbook:488
+#: index.docbook:483
 #, no-c-format
 msgid "<guibutton>.</guibutton> or <guibutton>,</guibutton>"
 msgstr "<guibutton>.</guibutton> või <guibutton>,</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:491
+#: index.docbook:486
 #, no-c-format
 msgid "&lt;-"
 msgstr "&lt;-"
 
 #. Tag: guibutton
-#: index.docbook:494
+#: index.docbook:489
 #, no-c-format
 msgid "<guibutton>AC</guibutton>"
 msgstr "<guibutton>AC</guibutton>"
 
 #. Tag: member
-#: index.docbook:495
+#: index.docbook:490
 #, no-c-format
 msgid "Clear all: both input and result area"
 msgstr "Puhastab kõik, nii sisendi- kui tulemuseala"
 
 #. Tag: member
-#: index.docbook:497
+#: index.docbook:492
 #, no-c-format
 msgid "<guibutton>€</guibutton> or <guibutton>$</guibutton>"
 msgstr "<guibutton>€</guibutton> või <guibutton>$</guibutton>"
 
 #. Tag: member
-#: index.docbook:500
+#: index.docbook:495
 #, no-c-format
 msgid "The button labeled with the name of an other currency"
 msgstr "Muu vääringu nimega nupp"
 
 #. Tag: guibutton
-#: index.docbook:503
+#: index.docbook:498
 #, no-c-format
 msgid "Enter"
 msgstr "Enter"
 
 #. Tag: guibutton
-#: index.docbook:506
+#: index.docbook:501
 #, no-c-format
 msgid "<guibutton>%</guibutton>"
 msgstr "<guibutton>%</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:509
+#: index.docbook:504
 #, no-c-format
 msgid "<guibutton>+/-</guibutton>"
 msgstr "<guibutton>+/-</guibutton>"
 
 #. Tag: member
-#: index.docbook:512
+#: index.docbook:507
 #, no-c-format
 msgid ""
-"<guibutton>Min</guibutton>, <guibutton>MR</guibutton>, <guibutton>M+</guibutton> "
-"and <guibutton>-</guibutton>"
+"<guibutton>Min</guibutton>, <guibutton>MR</guibutton>, <guibutton>M+</"
+"guibutton> and <guibutton>-</guibutton>"
 msgstr ""
-"<guibutton>Min</guibutton>, <guibutton>MR</guibutton>, <guibutton>M+</guibutton> "
-"ja <guibutton>M-</guibutton>"
+"<guibutton>Min</guibutton>, <guibutton>MR</guibutton>, <guibutton>M+</"
+"guibutton> ja <guibutton>M-</guibutton>"
 
 #. Tag: member
-#: index.docbook:513
+#: index.docbook:508
 #, no-c-format
 msgid ""
 "Store result in memory, recall memory into result, add result to memory and "
@@ -1363,7 +1367,7 @@ msgstr ""
 "väärtusele ja lahutab tulemuse mälus olevast väärtusest"
 
 #. Tag: member
-#: index.docbook:515
+#: index.docbook:510
 #, no-c-format
 msgid ""
 "<guibutton>/</guibutton>, <guibutton>X</guibutton>, <guibutton>-</guibutton> "
@@ -1373,207 +1377,207 @@ msgstr ""
 "ja <guibutton>+</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:518
+#: index.docbook:513
 #, no-c-format
 msgid "Reset"
 msgstr "Lähtesta"
 
 #. Tag: member
-#: index.docbook:519
+#: index.docbook:514
 #, no-c-format
 msgid "Reset both input, result and memory"
 msgstr "Puhastab kõik, nii sisendi, tulemuse kui mälu"
 
 #. Tag: guibutton
-#: index.docbook:521
+#: index.docbook:516
 #, no-c-format
-msgid "<accel>A</accel>bout"
-msgstr "<accel>I</accel>nfo"
+msgid "About"
+msgstr "Info"
 
 #. Tag: guibutton
-#: index.docbook:524
+#: index.docbook:519
 #, no-c-format
-msgid "<accel>H</accel>elp"
-msgstr "<accel>A</accel>bi"
+msgid "Help"
+msgstr "Abi"
 
 #. Tag: member
-#: index.docbook:527
+#: index.docbook:522
 #, no-c-format
 msgid "The drop down list with currency codes and names"
 msgstr "Hüpikloend valuutakoodide ja -nimedega"
 
 #. Tag: member
-#: index.docbook:528
+#: index.docbook:523
 #, no-c-format
 msgid "Selects an other currency to work with"
 msgstr "Valib kasutatava muu vääringu"
 
 #. Tag: title
-#: index.docbook:534
+#: index.docbook:529
 #, no-c-format
 msgid "The Settings Dialog"
 msgstr "Seadistustedialog"
 
 #. Tag: title
-#: index.docbook:541
+#: index.docbook:536
 #, no-c-format
 msgid "Reference currency, rates origin"
 msgstr "Baasvaluuta, kursi päritolu"
 
 #. Tag: para
-#: index.docbook:543
+#: index.docbook:538
 #, no-c-format
 msgid ""
 "This setting defines the reference currency (euro or dollar), and from where "
-"&keurocalc; should download the exchange rates between the reference currency "
-"and other currencies. The following choices are available:"
+"&keurocalc; should download the exchange rates between the reference "
+"currency and other currencies. The following choices are available:"
 msgstr ""
 "See määrab baasvaluuta (euro või dollar) ning selle, kust peaks &keurocalc; "
-"tõmbama baasvaluuta ja muude valuutade kursi. Võimalikud on järgmised valikud:"
+"tõmbama baasvaluuta ja muude valuutade kursi. Võimalikud on järgmised "
+"valikud:"
 
 #. Tag: guilabel
-#: index.docbook:550
+#: index.docbook:545
 #, no-c-format
 msgid "Euro, no network access (fixed rates only)"
 msgstr "Euro, võrguühendusega (ainult fikseeritud kursid)"
 
 #. Tag: para
-#: index.docbook:552
+#: index.docbook:547
 #, no-c-format
 msgid ""
 "Euro is the reference currency. No variable rate is downloaded or used. The "
-"only available currencies are the ones that have a fixed conversion rate with "
-"the euro."
+"only available currencies are the ones that have a fixed conversion rate "
+"with the euro."
 msgstr ""
-"Baasvaluuta on euro. Kursimuutusi ei tõmmata ega kasutata. Kasutada saab ainult "
-"rahaühikuid, mille kurss euro suhtes on fikseeritud."
+"Baasvaluuta on euro. Kursimuutusi ei tõmmata ega kasutata. Kasutada saab "
+"ainult rahaühikuid, mille kurss euro suhtes on fikseeritud."
 
 #. Tag: para
-#: index.docbook:555
+#: index.docbook:550
 #, no-c-format
 msgid "This setting is adapted to computers with no network access."
 msgstr "See sobib võrguühenduseta arvutitele."
 
 #. Tag: guilabel
-#: index.docbook:560
+#: index.docbook:555
 #, no-c-format
 msgid "Euro, European Central Bank"
 msgstr "Euro, Euroopa Keskpank"
 
 #. Tag: para
-#: index.docbook:562
+#: index.docbook:557
 #, no-c-format
 msgid ""
 "Euro is the reference currency. The fixed exchange rates are available. "
-"&keurocalc; attempts to download the variable rates from the <ulink "
-"url=\"http://www.ecb.int/stats/eurofxref/\">European Central Bank (ECB)</ulink>"
-"."
+"&keurocalc; attempts to download the variable rates from the <ulink url="
+"\"http://www.ecb.int/stats/eurofxref/\">European Central Bank (ECB)</ulink>."
 msgstr ""
 "Baasvaluuta on euro. Saadaval on fikseeritud kursid. &keurocalc; püüab "
-"kursimuutused tõmmata <ulink url=\"http://www.ecb.int/stats/eurofxref/\">"
-"Euroopa Keskpangast (ECB)</ulink>."
+"kursimuutused tõmmata <ulink url=\"http://www.ecb.int/stats/eurofxref/"
+"\">Euroopa Keskpangast (ECB)</ulink>."
 
 #. Tag: guilabel
-#: index.docbook:569
+#: index.docbook:564
 #, no-c-format
 msgid "Dollar, New York Federal Reserve Bank"
 msgstr "Dollar, New Yorgi Föderaalreserv"
 
 #. Tag: para
-#: index.docbook:571
+#: index.docbook:566
 #, no-c-format
 msgid ""
 "Dollar is the reference currency. There are no fixed exchange rates. "
-"&keurocalc; attempts to download the variable rates from the <ulink "
-"url=\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">"
-"New York Federal Reserve Bank (NY FRB)</ulink>."
+"&keurocalc; attempts to download the variable rates from the <ulink url="
+"\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">New York Federal Reserve "
+"Bank (NY FRB)</ulink>."
 msgstr ""
-"Baasvaluuta on dollar. Selle puhul pole fikseeritud kursse. &keurocalc; püüab "
-"kursimuutused tõmmata <ulink "
-"url=\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">"
-"New Yorgi Föderaalreservist (NY FRB)</ulink>."
+"Baasvaluuta on dollar. Selle puhul pole fikseeritud kursse. &keurocalc; "
+"püüab kursimuutused tõmmata <ulink url=\"http://www.ny.frb.org/markets/"
+"fxrates/noon.cfm\">New Yorgi Föderaalreservist (NY FRB)</ulink>."
 
 #. Tag: para
-#: index.docbook:575
+#: index.docbook:570
 #, no-c-format
 msgid ""
 "Currently, &keurocalc; has a problem determining the date of the latest "
-"exchange rates published by that bank, because of time zone offsets and "
-"non-working days. For safety, &keurocalc; always asks for yesterday's rates, "
+"exchange rates published by that bank, because of time zone offsets and non-"
+"working days. For safety, &keurocalc; always asks for yesterday's rates, "
 "which is of course not optimal."
 msgstr ""
 "Praegu on &keurocalc;il teatud raskusi Föderaalreservi uusima kursi "
-"tuvastamisega erinevate ajavööndite ja töövabade pühade tõttu. Kindluse mõttes "
-"hangib &keurocalc; alati eelmise päeva kursi, mis paraku ei ole kahtlemata "
-"kõige etem lahendus."
+"tuvastamisega erinevate ajavööndite ja töövabade pühade tõttu. Kindluse "
+"mõttes hangib &keurocalc; alati eelmise päeva kursi, mis paraku ei ole "
+"kahtlemata kõige etem lahendus."
 
 #. Tag: title
-#: index.docbook:587
+#: index.docbook:582
 #, no-c-format
 msgid "Default currency"
 msgstr "Vaikevaluuta"
 
 #. Tag: para
-#: index.docbook:589
+#: index.docbook:584
 #, no-c-format
 msgid ""
-"This setting defines the other currency that is used when &keurocalc; starts up "
-"or when the user validates the new settings."
+"This setting defines the other currency that is used when &keurocalc; starts "
+"up or when the user validates the new settings."
 msgstr ""
-"See määrab rahaühiku, mida kasutatakse &keurocalc;i käivitamise järel või siis, "
-"kui kasutaja muudab seadistusi."
+"See määrab rahaühiku, mida kasutatakse &keurocalc;i käivitamise järel või "
+"siis, kui kasutaja muudab seadistusi."
 
 #. Tag: para
-#: index.docbook:592
+#: index.docbook:587
 #, no-c-format
 msgid ""
-"Notice that the selected currency might not be provided by the selected rates "
-"source. In that case, the first available currency in the list is used."
+"Notice that the selected currency might not be provided by the selected "
+"rates source. In that case, the first available currency in the list is used."
 msgstr ""
 "Pane tähele, et valitud valuutakursside allikas ei pruugi seda rahaühikut "
-"pakkudagi. Sellisel juhul kasutatakse esimest kättesaadavat rahaühikut loendis."
+"pakkudagi. Sellisel juhul kasutatakse esimest kättesaadavat rahaühikut "
+"loendis."
 
 #. Tag: title
-#: index.docbook:598
+#: index.docbook:593
 #, no-c-format
 msgid "Rounding"
 msgstr "Ümardamine"
 
 #. Tag: para
-#: index.docbook:600
+#: index.docbook:595
 #, no-c-format
 msgid ""
-"This setting defines how the results should be presented in the display area. "
-"Internally, all computations are done with the precision offered by the "
-"mathematical library, but it usually makes no sense presenting tenths of cents. "
-"The following rounding methods are available:"
+"This setting defines how the results should be presented in the display "
+"area. Internally, all computations are done with the precision offered by "
+"the mathematical library, but it usually makes no sense presenting tenths of "
+"cents. The following rounding methods are available:"
 msgstr ""
 "See määrab tulemuste esitamise viisi. Seesmiselt sooritatakse kõik arvutused "
-"täpsusega, mida võimaldab matemaatikateek, kuid tavaliselt ei ole mõtet näidata "
-"sendi murdosi. Kasutada saab järgmisi ümardamismeetodeid:"
+"täpsusega, mida võimaldab matemaatikateek, kuid tavaliselt ei ole mõtet "
+"näidata sendi murdosi. Kasutada saab järgmisi ümardamismeetodeid:"
 
 #. Tag: guilabel
-#: index.docbook:607
+#: index.docbook:602
 #, no-c-format
 msgid "Official rounding rules"
 msgstr "Ametlik ümardamisreegel"
 
 #. Tag: para
-#: index.docbook:609
+#: index.docbook:604
 #, no-c-format
 msgid ""
-"The EU conversion rules or other official conversion rules are used. It means "
-"that the result is rounded to the next unit for currencies like the Japanese "
-"yen or the Italian lira, and rounded to the next hundredth of unit (<quote>"
-"cents</quote>) for currencies like the euro or the dollar."
+"The EU conversion rules or other official conversion rules are used. It "
+"means that the result is rounded to the next unit for currencies like the "
+"Japanese yen or the Italian lira, and rounded to the next hundredth of unit "
+"(<quote>cents</quote>) for currencies like the euro or the dollar."
 msgstr ""
-"Kasutatakse euro või muude valuutade ametlikke ümardamisreegleid. See tähendab, "
-"et tulemus ümardatakse näiteks Jaapani jeenide või Itaalia liiride korral "
-"lähima täisarvuni, euro või dollari korral aga lähimate sajandikeni (<quote>"
-"sentideni</quote>)."
+"Kasutatakse euro või muude valuutade ametlikke ümardamisreegleid. See "
+"tähendab, et tulemus ümardatakse näiteks Jaapani jeenide või Itaalia liiride "
+"korral lähima täisarvuni, euro või dollari korral aga lähimate sajandikeni "
+"(<quote>sentideni</quote>)."
 
 #. Tag: para
-#: index.docbook:613
+#: index.docbook:608
 #, no-c-format
 msgid ""
 "For example, 158.323 yen would be rounded to 158 yen. 12.537 euro would be "
@@ -1582,38 +1586,38 @@ msgstr ""
 "Näiteks 158,323 jeeni ümardatakse 158 jeeniks, 12,537 eurot aga 12,54 euroks."
 
 #. Tag: guilabel
-#: index.docbook:619
+#: index.docbook:614
 #, no-c-format
 msgid "Smallest coin method"
 msgstr "Väikseima mündi meetod"
 
 #. Tag: para
-#: index.docbook:621
+#: index.docbook:616
 #, no-c-format
 msgid ""
-"The result is rounded to the next value of the smallest coin that circulates in "
-"the country that uses that currency. For disappeared currencies like the "
+"The result is rounded to the next value of the smallest coin that circulates "
+"in the country that uses that currency. For disappeared currencies like the "
 "Italian lira, it uses the smallest coin that used to circulate before the "
 "currency has been withdrawn: in the case of the Italian lira, it was the 50 "
 "liras coin."
 msgstr ""
 "Tulemus ümardatakse antud valuutat kasutaval maal käibiva väikseima mündi "
 "väärtuseni. Kadunud rahaühikute, näiteks Itaalia liiride korral, kasutatakse "
-"väikseimat münti, mis oli käibel enne rahaühiku kadumist (Itaalia liiride puhul "
-"oli selleks 50-liirine münt)."
+"väikseimat münti, mis oli käibel enne rahaühiku kadumist (Itaalia liiride "
+"puhul oli selleks 50-liirine münt)."
 
 #. Tag: para
-#: index.docbook:626
+#: index.docbook:621
 #, no-c-format
 msgid ""
 "For example, 1235.9 Italian liras would be rounded to 1250 liras. 39.45 "
 "Norwegian crowns would be rounded to 39.50 crowns."
 msgstr ""
-"Näiteks 1235,9 Itaalia liiri ümardatakse 1250 liiriks, 39,45 Norra krooni aga "
-"39,50 krooniks."
+"Näiteks 1235,9 Itaalia liiri ümardatakse 1250 liiriks, 39,45 Norra krooni "
+"aga 39,50 krooniks."
 
 #. Tag: para
-#: index.docbook:628
+#: index.docbook:623
 #, no-c-format
 msgid ""
 "We lack information about the smallest coins that exist in every country. "
@@ -1621,65 +1625,66 @@ msgid ""
 "smallest available coin in your country, and we will enter that information."
 msgstr ""
 "Meil ei ole paraku absoluutselt iga maa kohta andmeid, milline on väikseim "
-"käibelolev münt. Palun saada vearaport, kui &keurocalc; kasutab sinu maa korral "
-"vigast väikseima mündi väärtust, ja me lisame selle info enda andmebaasi."
+"käibelolev münt. Palun saada vearaport, kui &keurocalc; kasutab sinu maa "
+"korral vigast väikseima mündi väärtust, ja me lisame selle info enda "
+"andmebaasi."
 
 #. Tag: guilabel
-#: index.docbook:635
+#: index.docbook:630
 #, no-c-format
 msgid "No rounding at all"
 msgstr "Ei ümardata"
 
 #. Tag: para
-#: index.docbook:637
+#: index.docbook:632
 #, no-c-format
 msgid "The computed value is displayed unchanged, as a floating point number."
 msgstr "Leitud väärtus esitatakse muutmata kujul."
 
 #. Tag: title
-#: index.docbook:646
+#: index.docbook:641
 #, no-c-format
-msgid "Look an feel"
+msgid "Look and feel"
 msgstr "Välimus"
 
 #. Tag: para
-#: index.docbook:648
+#: index.docbook:643
 #, no-c-format
 msgid ""
-"This setting defines the appearance and behavior of &keurocalc;. The following "
-"options are available:"
+"This setting defines the appearance and behavior of &keurocalc;. The "
+"following options are available:"
 msgstr ""
-"Need seadistused määravad &keurocalc;i välimuse ja käitumise. Siin on järgmised "
-"valikud:"
+"Need seadistused määravad &keurocalc;i välimuse ja käitumise. Siin on "
+"järgmised valikud:"
 
 #. Tag: guilabel
-#: index.docbook:653
+#: index.docbook:648
 #, no-c-format
 msgid "Display color"
 msgstr "Värvi näitamine"
 
 #. Tag: para
-#: index.docbook:655
+#: index.docbook:650
 #, no-c-format
 msgid ""
 "The background color of the display areas (both input and result). To change "
-"the background color, click on <guibutton>Change...</guibutton>"
-". This opens the standard &kde; color selection dialog. Choose a new color, "
-"then press <guibutton>OK</guibutton> to validate the new choice."
+"the background color, click on <guibutton>Change...</guibutton>. This opens "
+"the standard &kde; color selection dialog. Choose a new color, then press "
+"<guibutton>OK</guibutton> to validate the new choice."
 msgstr ""
 "Nii sisendi kui ka tulemuse näitamise ala taustavärv. Taustavärvi muutmiseks "
-"klõpsa nupule <guibutton>Muuda...</guibutton> See avab tavapärase &kde; värvi "
-"valimise dialoogi. Vali uus värv ja klõpsa selle kasutamiseks nupule <guibutton>"
-"OK</guibutton>."
+"klõpsa nupule <guibutton>Muuda...</guibutton> See avab tavapärase &kde; "
+"värvi valimise dialoogi. Vali uus värv ja klõpsa selle kasutamiseks nupule "
+"<guibutton>OK</guibutton>."
 
 #. Tag: guilabel
-#: index.docbook:663
+#: index.docbook:658
 #, no-c-format
 msgid "Enable splash screen"
 msgstr "Käivituslogo näitamine"
 
 #. Tag: para
-#: index.docbook:665
+#: index.docbook:660
 #, no-c-format
 msgid ""
 "Uncheck this box if you do not want to initial picture to appear when "
@@ -1689,52 +1694,52 @@ msgstr ""
 "käivituslogo."
 
 #. Tag: title
-#: index.docbook:677
+#: index.docbook:672
 #, no-c-format
 msgid "Credits and License"
 msgstr "Autorid ja litsents"
 
 #. Tag: para
-#: index.docbook:679
+#: index.docbook:674
 #, no-c-format
 msgid "&keurocalc;"
 msgstr "&keurocalc;"
 
 #. Tag: para
-#: index.docbook:681
+#: index.docbook:676
 #, no-c-format
 msgid "Program copyright 2001-2006 the &keurocalc; developers:"
 msgstr "Rakenduse autoriõigus 2001-2006: &keurocalc;i arendajad:"
 
 #. Tag: para
-#: index.docbook:684
+#: index.docbook:679
 #, no-c-format
 msgid ""
-"Éric Bischoff <email>ebischoff@_NOSPAM_nerim.net</email> "
-"- design and implementation"
+"Éric Bischoff <email>ebischoff@_NOSPAM_nerim.net</email> - design and "
+"implementation"
 msgstr ""
 "Éric Bischoff <email>ebischoff@_NOSPAM_nerim.net</email> - disain ja teostus"
 
 #. Tag: para
-#: index.docbook:685
+#: index.docbook:680
 #, no-c-format
 msgid ""
-"Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> "
-"- additional functionnality"
+"Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> - additional "
+"functionality"
 msgstr "Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> - lisavõimalused"
 
 #. Tag: para
-#: index.docbook:686
+#: index.docbook:681
 #, no-c-format
 msgid ""
-"Melchior Franz <email>a8603365@_NOSPAM_unet.univie.ac.at</email> "
-"- design and testing"
+"Melchior Franz <email>a8603365@_NOSPAM_unet.univie.ac.at</email> - design "
+"and testing"
 msgstr ""
-"Melchior Franz <email>a8603365@_NOSPAM_unet.univie.ac.at</email> "
-"- disain ja testimine"
+"Melchior Franz <email>a8603365@_NOSPAM_unet.univie.ac.at</email> - disain ja "
+"testimine"
 
 #. Tag: para
-#: index.docbook:687
+#: index.docbook:682
 #, no-c-format
 msgid ""
 "Bas Willems <email>cybersurfer@_NOSPAM_euronet.nl</email> - graphical artwork"
@@ -1742,119 +1747,123 @@ msgstr ""
 "Bas Willems <email>cybersurfer@_NOSPAM_euronet.nl</email> - graafiline pool"
 
 #. Tag: para
-#: index.docbook:690
+#: index.docbook:685
 #, no-c-format
 msgid ""
-"Documentation copyright 2001-2006 Éric Bischoff <email>"
-"ebischoff@_NOSPAM_nerim.net</email>."
+"Documentation copyright 2001-2007 Éric Bischoff "
+"<email>ebischoff@_NOSPAM_nerim.net</email>."
 msgstr ""
-"Dokumentatsiooni autoriõigus 2001-2006: Éric Bischoff <email>"
-"ebischoff@_NOSPAM_nerim.net</email>."
+"Dokumentatsiooni autoriõigus 2001-2007: Éric Bischoff "
+"<email>ebischoff@_NOSPAM_nerim.net</email>."
 
 #. Tag: para
-#: index.docbook:693
+#: index.docbook:688
 #, no-c-format
 msgid "Documentation reviewed by &Philip.Rodrigues; &Philip.Rodrigues.mail;."
 msgstr ""
 "Dokumentatsiooni korrigeeris: &Philip.Rodrigues; &Philip.Rodrigues.mail;."
 
 #. Tag: trans_comment
-#: index.docbook:694
+#: index.docbook:689
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 "<para>Tõlge eesti keelde: Marek Laane <email>bald@starman.ee</email></para>"
 
 #. Tag: chapter
-#: index.docbook:694
+#: index.docbook:689
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&underFDL; &underGPL;"
 
 #. Tag: title
-#: index.docbook:702
+#: index.docbook:697
 #, no-c-format
 msgid "Installation"
 msgstr "Paigaldamine"
 
 #. Tag: title
-#: index.docbook:705
+#: index.docbook:700
 #, no-c-format
 msgid "How to obtain &keurocalc;"
 msgstr "&keurocalc;i hankimine"
 
 #. Tag: para
-#: index.docbook:707
+#: index.docbook:702
 #, no-c-format
 msgid ""
-"&keurocalc; is part of the <ulink url=\"http://extragear.kde.org/\">"
-"KDE extragear-utils</ulink> package. The latest version of &keurocalc; can be "
-"downloaded from its <ulink "
-"url=\"http://opensource.bureau-cornavin.com/keurocalc/\">home page</ulink>."
+"&keurocalc; is part of the <ulink url=\"http://extragear.kde.org/\">KDE "
+"extragear-utils</ulink> package. The latest version of &keurocalc; can be "
+"downloaded from its <ulink url=\"http://opensource.bureau-cornavin.com/"
+"keurocalc/\">home page</ulink>."
 msgstr ""
-"&keurocalc; kuulub paketti <ulink url=\"http://extragear.kde.org/\">"
-"KDE extragear-utils</ulink>. &keurocalc;i uusima versiooni võib alla tõmmata  "
-"<ulink url=\"http://opensource.bureau-cornavin.com/keurocalc/\">"
-"tema koduleheküljelt</ulink>."
+"&keurocalc; kuulub paketti <ulink url=\"http://extragear.kde.org/\">KDE "
+"extragear-utils</ulink>. &keurocalc;i uusima versiooni võib alla tõmmata  "
+"<ulink url=\"http://opensource.bureau-cornavin.com/keurocalc/\">tema "
+"koduleheküljelt</ulink>."
 
 #. Tag: title
-#: index.docbook:716
+#: index.docbook:711
 #, no-c-format
 msgid "Requirements"
 msgstr "Nõuded"
 
 #. Tag: para
-#: index.docbook:718
+#: index.docbook:713
 #, no-c-format
-msgid "In order to successfully use &keurocalc;, you need &kde; 3.5."
-msgstr "&keurocalc;i edukaks kasutamiseks on vajalik &kde; 3.5."
+msgid "In order to successfully use &keurocalc;, you need &kde; 4.0."
+msgstr "&keurocalc;i edukaks kasutamiseks on vajalik &kde; 4.0."
 
 #. Tag: para
-#: index.docbook:720
+#: index.docbook:715
 #, no-c-format
 msgid ""
-"All required libraries can be found on <ulink url=\"ftp://ftp.kde.org\">"
-"ftp.kde.org</ulink>, the &FTP; site of the &kde; project."
+"All required libraries can be found on <ulink url=\"ftp://ftp.kde.org\">ftp."
+"kde.org</ulink>, the &FTP; site of the &kde; project."
 msgstr ""
-"Kõik vajalikud teegid leiab &kde; projekti &FTP; saidilt <ulink "
-"url=\"ftp://ftp.kde.org\">ftp.kde.org</ulink>."
+"Kõik vajalikud teegid leiab &kde; projekti &FTP; saidilt <ulink url=\"ftp://"
+"ftp.kde.org\">ftp.kde.org</ulink>."
 
 #. Tag: title
-#: index.docbook:727
+#: index.docbook:722
 #, no-c-format
 msgid "Compilation and Installation"
 msgstr "Kompileerimine ja paigaldamine"
 
 #. Tag: para
-#: index.docbook:729
+#: index.docbook:724
 #, no-c-format
 msgid ""
-"In order to compile and install &keurocalc; on your system, type the following "
-"in the base directory of the &keurocalc; distribution:"
+"In order to compile and install &keurocalc; on your system, type the "
+"following in the base directory of the &keurocalc; distribution:"
 msgstr ""
 "&keurocalc;i kompileerimiseks ja paigaldamiseks anna &keurocalc;i "
 "baaskataloogis järgmised käsud:"
 
 #. Tag: screen
-#: index.docbook:733
+#: index.docbook:728
 #, no-c-format
 msgid ""
-"<prompt>%</prompt> <userinput>./configure</userinput>\n"
+"<prompt>%</prompt> <userinput>mkdir build</userinput>\n"
+"<prompt>%</prompt> <userinput>cd build</userinput>\n"
+"<prompt>%</prompt> <userinput>cmake ..</userinput>\n"
 "<prompt>%</prompt> <userinput>make</userinput>\n"
 "<prompt>%</prompt> <userinput>make install</userinput>"
 msgstr ""
-"<prompt>%</prompt> <userinput>./configure</userinput>\n"
+"<prompt>%</prompt> <userinput>mkdir build</userinput>\n"
+"<prompt>%</prompt> <userinput>cd build</userinput>\n"
+"<prompt>%</prompt> <userinput>cmake ..</userinput>\n"
 "<prompt>%</prompt> <userinput>make</userinput>\n"
 "<prompt>%</prompt> <userinput>make install</userinput>"
 
 #. Tag: para
-#: index.docbook:736
+#: index.docbook:731
 #, no-c-format
 msgid ""
-"Since &keurocalc; uses <application>autoconf</application> and <application>"
-"automake</application> you should have not trouble compiling it. Should you run "
-"into problems please report them to &keurocalc;'s authors."
+"Since cmake autodetects your system settings, you should have no trouble "
+"compiling &keurocalc;. Should you run into problems please report them to "
+"&keurocalc;'s authors."
 msgstr ""
-"Kuna &keurocalc; kasutab <application>autoconf</application>'i ja <application>"
-"automake</application>'i, ei tohiks kompileerimisel probleeme tekkida. Kui neid "
-"siiski esineb, anna neist palun teada &keurocalc;i autoritele."
+"Kuna CMake tuvastab automaatselt süsteemi seadistused, ei tohiks &keurocalc;"
+"i kompileerimisel probleeme tekkida. Kui neid siiski esineb, anna neist "
+"palun teada &keurocalc;i autoritele."

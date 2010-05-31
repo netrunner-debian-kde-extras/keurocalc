@@ -3,7 +3,7 @@
 # curconvd is a D-Bus currency conversion service (no user interface).
 # One could very well package two separate binary packages.
 Name:   	keurocalc
-Version: 	1.0.1
+Version: 	1.0.3
 Release: 	1
 Url:		http://opensource.bureau-cornavin.com/keurocalc/index.html
 Source0: 	keurocalc-%{version}.tgz
@@ -64,6 +64,7 @@ rm -fr %buildroot
 /opt/kde4/share/locale/ar/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/bg/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/br/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/ca/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/cs/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/da/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/de/LC_MESSAGES/keurocalc.mo
@@ -79,15 +80,20 @@ rm -fr %buildroot
 /opt/kde4/share/locale/ja/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/ka/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/nb/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/nds/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/nl/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/pl/LC_MESSAGES/keurocalc.mo
-/opt/kde4/share/locale/pt_BR/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/pt/LC_MESSAGES/keurocalc.mo
-/opt/kde4/share/locale/sr@Latn/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/pt_BR/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/ru/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/sk/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/sr/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/sr@Latn/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/sv/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/ta/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/tr/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/uk/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/zh_TW/LC_MESSAGES/keurocalc.mo
 
 %dir /opt/kde4/share/doc/HTML/en/keurocalc/
 %doc /opt/kde4/share/doc/HTML/en/keurocalc/common
@@ -100,22 +106,22 @@ rm -fr %buildroot
 %doc /opt/kde4/share/doc/HTML/da/keurocalc/common
 %doc /opt/kde4/share/doc/HTML/da/keurocalc/index.cache.bz2
 %doc /opt/kde4/share/doc/HTML/da/keurocalc/index.docbook
-# %doc /opt/kde4/share/doc/HTML/da/keurocalc/screenshot.png
-# %doc /opt/kde4/share/doc/HTML/da/keurocalc/settings.png
+%doc /opt/kde4/share/doc/HTML/da/keurocalc/screenshot.png
+%doc /opt/kde4/share/doc/HTML/da/keurocalc/settings.png
 
 %dir /opt/kde4/share/doc/HTML/es/keurocalc/
 %doc /opt/kde4/share/doc/HTML/es/keurocalc/common
 %doc /opt/kde4/share/doc/HTML/es/keurocalc/index.cache.bz2
 %doc /opt/kde4/share/doc/HTML/es/keurocalc/index.docbook
-# %doc /opt/kde4/share/doc/HTML/es/keurocalc/screenshot.png
-# %doc /opt/kde4/share/doc/HTML/es/keurocalc/settings.png
+%doc /opt/kde4/share/doc/HTML/es/keurocalc/screenshot.png
+%doc /opt/kde4/share/doc/HTML/es/keurocalc/settings.png
 
 %dir /opt/kde4/share/doc/HTML/et/keurocalc/
 %doc /opt/kde4/share/doc/HTML/et/keurocalc/common
 %doc /opt/kde4/share/doc/HTML/et/keurocalc/index.cache.bz2
 %doc /opt/kde4/share/doc/HTML/et/keurocalc/index.docbook
-# %doc /opt/kde4/share/doc/HTML/et/keurocalc/screenshot.png
-# %doc /opt/kde4/share/doc/HTML/et/keurocalc/settings.png
+%doc /opt/kde4/share/doc/HTML/et/keurocalc/screenshot.png
+%doc /opt/kde4/share/doc/HTML/et/keurocalc/settings.png
 
 %dir /opt/kde4/share/doc/HTML/fr/keurocalc/
 %doc /opt/kde4/share/doc/HTML/fr/keurocalc/common
@@ -142,15 +148,22 @@ rm -fr %buildroot
 %doc /opt/kde4/share/doc/HTML/nl/keurocalc/common
 %doc /opt/kde4/share/doc/HTML/nl/keurocalc/index.cache.bz2
 %doc /opt/kde4/share/doc/HTML/nl/keurocalc/index.docbook
-# %doc /opt/kde4/share/doc/HTML/nl/keurocalc/screenshot.png
-# %doc /opt/kde4/share/doc/HTML/nl/keurocalc/settings.png
+%doc /opt/kde4/share/doc/HTML/nl/keurocalc/screenshot.png
+%doc /opt/kde4/share/doc/HTML/nl/keurocalc/settings.png
 
 %dir /opt/kde4/share/doc/HTML/pt/keurocalc/
 %doc /opt/kde4/share/doc/HTML/pt/keurocalc/common
 %doc /opt/kde4/share/doc/HTML/pt/keurocalc/index.cache.bz2
 %doc /opt/kde4/share/doc/HTML/pt/keurocalc/index.docbook
-# %doc /opt/kde4/share/doc/HTML/pt/keurocalc/screenshot.png
-# %doc /opt/kde4/share/doc/HTML/pt/keurocalc/settings.png
+%doc /opt/kde4/share/doc/HTML/pt/keurocalc/screenshot.png
+%doc /opt/kde4/share/doc/HTML/pt/keurocalc/settings.png
+
+%dir /opt/kde4/share/doc/HTML/pt_BR/keurocalc/
+%doc /opt/kde4/share/doc/HTML/pt_BR/keurocalc/common
+%doc /opt/kde4/share/doc/HTML/pt_BR/keurocalc/index.cache.bz2
+%doc /opt/kde4/share/doc/HTML/pt_BR/keurocalc/index.docbook
+%doc /opt/kde4/share/doc/HTML/pt_BR/keurocalc/screenshot.png
+%doc /opt/kde4/share/doc/HTML/pt_BR/keurocalc/settings.png
 
 %dir /opt/kde4/share/doc/HTML/sv/keurocalc/
 %doc /opt/kde4/share/doc/HTML/sv/keurocalc/common
@@ -158,6 +171,13 @@ rm -fr %buildroot
 %doc /opt/kde4/share/doc/HTML/sv/keurocalc/index.docbook
 %doc /opt/kde4/share/doc/HTML/sv/keurocalc/screenshot.png
 %doc /opt/kde4/share/doc/HTML/sv/keurocalc/settings.png
+
+%dir /opt/kde4/share/doc/HTML/uk/keurocalc/
+%doc /opt/kde4/share/doc/HTML/uk/keurocalc/common
+%doc /opt/kde4/share/doc/HTML/uk/keurocalc/index.cache.bz2
+%doc /opt/kde4/share/doc/HTML/uk/keurocalc/index.docbook
+%doc /opt/kde4/share/doc/HTML/uk/keurocalc/screenshot.png
+%doc /opt/kde4/share/doc/HTML/uk/keurocalc/settings.png
 
 /opt/kde4/bin/curconvd
 

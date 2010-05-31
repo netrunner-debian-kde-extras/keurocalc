@@ -13,7 +13,7 @@
 
 <bookinfo>
 <title
->Manuel de &keurocalc;</title>
+>Le manuel de &keurocalc;</title>
 
 <authorgroup>
 <author
@@ -30,7 +30,7 @@
 </author>
 </authorgroup>
 
-&traducteurJeromeBlanc; &traducteurEricBischoff; 
+&traducteurCyrilleBieuzent; 
 
 <copyright>
 <year
@@ -45,6 +45,10 @@
 >2005</year>
 <year
 >2006</year>
+<year
+>2007</year>
+<year
+>2008</year>
 <holder
 >Éric Bischoff</holder>
 </copyright>
@@ -52,13 +56,13 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2006-03-30</date>
+>2008-02-24</date>
 <releaseinfo
->0.09.06</releaseinfo>
+>1.0.0</releaseinfo>
 
 <abstract>
 <para
->&keurocalc; is an universal pocket currency converter and calculator. This documentation describes &keurocalc; version 0.9.6. </para>
+>&keurocalc; est un convertisseur de devise universel et une calculatrice de poche. Cette documentation décrit &keurocalc; en version 1.0.0. </para>
 </abstract>
 
 <keywordset>
@@ -69,7 +73,7 @@
 <keyword
 >KEuroCalc</keyword>
 <keyword
->devise</keyword>
+>Devise</keyword>
 <keyword
 >convertisseur</keyword>
 <keyword
@@ -86,10 +90,10 @@
 >&keurocalc; est un convertisseur universel et une calculatrice de poche. </para>
 
 <para
->Le 1er janvier 2002, 12 pays Européens ont uni leurs devises nationales en une seule : l'euro (€). . La même chose se  produira probablement en 2007 dans certains pays d'Europe de l'Est. &keurocalc; aide à : <variablelist>
+>Le 1er janvier 2002, 12 pays européens ont uni leurs devises nationales en une seule : l'euro. (€) De nouveau pays rejoignent la zone euro de temps en temps. &keurocalc; aide : <variablelist>
 <varlistentry>
 <term
->Durant les périodes de transition</term>
+>Durant les périodes de transitions</term>
 <listitem>
 <para
 ><itemizedlist>
@@ -124,8 +128,8 @@
 <listitem
 ><para
 >Pour effectuer des conversions entre l'euro et d'autres devises, comme la livre sterling, conformément aux taux de change quotidiens définis par la <ulink url="http://www.ecb.int/stats/eurofxref/"
->Banque Centrale Européenne (BCE)</ulink
->.</para
+>Banque Centrale Européenne (BCE) </ulink
+></para
 ></listitem>
 <listitem
 ><para
@@ -133,7 +137,7 @@
 ></listitem>
 <listitem
 ><para
->Pour effectuer des conversions entre le dollar US et d'autres devises conformément aux taux de change quotidiens définis par la <ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
+>Pour effectuer des conversions entre le dollar US et d'autres devises conformément aux taux de change quotidiens définis par la<ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
 >Banque de la Réserve Fédérale de New York (NY FRB)</ulink
 >.</para
 ></listitem>
@@ -150,7 +154,7 @@
 </para>
 
 <para
->&keurocalc; a les avantages suivants en termes de confort d'utilisation : <itemizedlist>
+>&keurocalc; a les avantages suivants en termes de confort d'utilisation :  <itemizedlist>
 <listitem
 ><para
 >Vous voyez toutes les valeurs intermédiaires et le résultat dans la devise de référence (euro ou dollar) et dans l'autre devise en même temps.</para
@@ -165,7 +169,7 @@
 ></listitem>
 <listitem
 ><para
->Vous pressez les touches dans l'ordre dans lequel vous parleriez à voix haute ce que vous faites.</para
+>Vous appuyez les touches dans l'ordre dans lequel vous parleriez à voix haute ce que vous faites.</para
 ></listitem>
 <listitem
 ><para
@@ -202,13 +206,13 @@
 ></listitem>
 <listitem
 ><para
->Possibilité de ranger des valeurs dans une mémoire intermédiaire ou d'utiliser cette mémoire comme accumulateur additif.</para
+>Possibilité de stocker des valeurs dans une mémoire intermédiaire ou d'utiliser cette mémoire comme accumulateur additif.</para
 ></listitem>
 </itemizedlist>
 </para>
 
 <para
->Voici quelques limitations de &keurocalc; : <itemizedlist>
+>Voici quelques limitations de &keurocalc; :  <itemizedlist>
 <listitem
 ><para
 >Aucune expression complexe ou contenant des parenthèses.</para
@@ -232,7 +236,7 @@
 ><para
 >&keurocalc; ne garantit jamais l'exactitude des taux de change ni des résultats. Vous êtes toujours invité à vérifier vos calculs par d'autres moyens. Comme l'indique l'accord de <link linkend="credits"
 >licence</link
->, les auteurs ne sont pas responsables dans le cas où les résultats seraient incorrects ou différents de ceux qui étaient attendus. Veuillez également noter que les taux de change variables sont téléchargés de manière non cryptée et par conséquent non sûre depuis les sources de données (Banque Centrale Européenne et Banque de la Réserve Fédérale de New York). Un attaquant du type "man-in-the-middle" peut tromper &keurocalc; en fabriquant de faux taux de change. De manière plus simple, une erreur de transmission est toujours possible.</para
+>, les auteurs ne sont pas responsables dans le cas où les résultats seraient incorrects ou différents de ceux qui étaient attendus. Veuillez également noter que les taux de change variables sont téléchargés de manière non chiffrée et par conséquent non sûre depuis les sources de données (Banque Centrale Européenne et Banque de la Réserve Fédérale de New York). Un attaquant du type « attaque de l'homme du milieu (HDM) » peut tromper &keurocalc; en fabricant de faux taux de change. De manière plus simple, une erreur de transmission est toujours possible.</para
 ></warning>
 
 </chapter>
@@ -257,7 +261,7 @@
 <step
 ><para
 >Choisissez <guilabel
->BEF - Francs belges</guilabel
+>BEF - francs belges</guilabel
 > dans la liste déroulante des devises en bas. Si ce choix n'est pas proposé, appuyez sur le bouton <guibutton
 >Configuration...</guibutton
 > et choisissez <guilabel
@@ -268,9 +272,9 @@
 ><para
 >Tapez <userinput
 >1000</userinput
-> sur le clavier ou utilisez les boutons numériques correspondants. Leschiffres apparaissent dans la zone d'affichage <guilabel
+> sur le clavier ou utilisez les boutons numériques correspondants. Les chiffres apparaissent dans la zone d'affichage <guilabel
 >Saisie</guilabel
-> au fur et à mesure que vous les saisissez. Si vous faites une erreur en saisissant les chiffres, utilisez la touche &Correction; ou le bouton <guibutton
+> au fur et à mesure que vous les saisissez. Si vous faites une erreur en saisissant les chiffres, utilisez la touche&Correction; ou le bouton <guibutton
 >&lt;-</guibutton
 >.</para
 ></step>
@@ -280,9 +284,9 @@
 >FB</guibutton
 > ou appuyez sur la touche <keycap
 >F</keycap
->. En fait, toute touche n'étant pas déjà réservée pour un autre usage validera la saisie comme un nombre exprimé dans la devise choisie, ainsi, les touches <keycap
+>. En fait, toute touche n'étant pas déjà réservée pour un autre usage validera la saisie comme un nombre exprimé dans la devise choisie, ainsi, les touches<keycap
 >B</keycap
-> ou <keycap
+> or <keycap
 >X</keycap
 > auraient tout aussi bien marché.</para
 ></step>
@@ -290,7 +294,7 @@
 ><para
 >Lisez le résultat dans l'affichage <guilabel
 >Résultat</guilabel
-> sur la droite : 4.79 € ou 24,79 € en fonctions de vos paramètres locaux.</para
+> sur la droite : 24.79 € ou 24,79 € en fonctions de vos paramètres locaux.</para
 ></step
 > 
 </procedure>
@@ -302,17 +306,17 @@
 ><para
 >Lorsque la liste des devises à taux fixe est disponible, choisissez <guilabel
 >BEF - Francs belges</guilabel
-> dans  la liste déroulante des devises en bas. Vous pouvez sauter cette étape si c'est déjà la devise choisie.</para
+> dans la liste déroulante des devises en bas. Vous pouvez sauter cette étape si c'est déjà la devise choisie.</para
 ></step>
 <step
 ><para
->Tapez <userinput
+>Saisissez <userinput
 >25</userinput
 >.</para
 ></step>
 <step
 ><para
->Cliquez sur le bouton <guibutton
+>Cliquez sur le bouton<guibutton
 >€</guibutton
 > ou appuyez sur la touche <keycap
 >E</keycap
@@ -322,7 +326,7 @@
 ><para
 >Lisez le résultat dans la zone d'affichage <guilabel
 >Résultat</guilabel
-> sur la droite : 1008.50 FB ou 1008,50 FB. La valeur exacte est 1008,4975, mais elle est arrondie au centième de franc belge le plus proche. L'unité d'arrondi dépend de la devise et de la méthode d'arrondi : par exemple; avec les règles d'arrondi officielles, pour le franc belge c'est 0,01 FB, alors que pour la lire italienne, c'est 1 L.</para
+> sur la droite : 1008.50 FB ou 1008,50 FB. La valeur exacte est 1008,4975, mais elle est arrondie au centième de franc belge le plus proche. L'unité d'arrondi dépend de la devise et de la méthode d'arrondi : par exemple, avec les règles d'arrondi officielles, pour le franc belge c'est 0,01 FB, alors que pour la lire italienne, c'est 1 L.</para
 ></step>
 </procedure>
 
@@ -342,7 +346,7 @@
 ></step>
 <step
 ><para
->Tapez <userinput
+>Typez <userinput
 >120</userinput
 >.</para
 ></step>
@@ -352,14 +356,14 @@
 >DM</guibutton
 > ou appuyez sur la touche <keycap
 >D</keycap
->. ou <keycap
+> ou <keycap
 >M</keycap
 >.</para
 ></step>
 <step
 ><para
 >Choisissez simplement <guilabel
->ESP - Pésete espagnole</guilabel
+>ESP - Pesete espagnole</guilabel
 > pour voir le même montant de 61,36 € convertis en pesetas dans la zone d'affichage des <guilabel
 >Résultats</guilabel
 ></para
@@ -374,7 +378,7 @@
 
 <procedure>
 <title
->Combien font 3 + 5 ? </title>
+>Combien font 3 + 5 ?</title>
 <step
 ><para
 >Tapez <userinput
@@ -383,7 +387,7 @@
 >+</guibutton
 >. Remarquez que dans le champ Résultat, <computeroutput
 >3</computeroutput
-> est une simple valeur affichée seulement sur une ligne, sans unité montétaire.</para
+> est une simple valeur affichée seulement sur une ligne, sans unité monétaire.</para
 ></step>
 <step
 ><para
@@ -395,7 +399,7 @@
 >Entrée</keycap
 >. Le résultat <computeroutput
 >8</computeroutput
->apparaît sur la droite.</para
+> apparaît sur la droite.</para
 ></step>
 </procedure>
 
@@ -404,16 +408,16 @@
 >Vous avez reçu 100 dollars et vous payez 32,50 euros pour un livre, combien vous reste-t-il sur votre compte en banque ?</title>
 <step
 ><para
->Assurez-vous que les taux de change variables sont disponibles. Si ce n'est pas le cas, appuyez sur le bouton <guibutton
->Configuration...</guibutton
-> pour choisir soit <guilabel
+>Assurez-vous que les taux de change variables sont disponibles. Si ce n'est pas le cas, appuyez sur le bouton<guibutton
+>Configuration..</guibutton
+> pour choisir soit<guilabel
 >Euro, Banque Centrale Européenne</guilabel
 > soit <guilabel
 >Dollar, Banque de la Réserve Fédérale de New York</guilabel
 >. Choisissez à présent <guilabel
 >USD - Dollar US</guilabel
-> ou <guilabel
->EUR - Euro européen</guilabel
+> or the <guilabel
+>EUR - Euro</guilabel
 > dans la liste déroulante en bas. Si vous n'avez pas d'accès à Internet, ces choix ne seront pas disponibles puisque les derniers taux de change entre l'euro et le dollar ne pourront pas être déterminés.</para
 ></step>
 <step
@@ -426,7 +430,7 @@
 ></step>
 <step
 ><para
->Cliquez sur le bouton <guibutton
+>Cliquez sur le bouton<guibutton
 >-</guibutton
 > ou appuyez sur la touche <keycap
 >-</keycap
@@ -434,7 +438,7 @@
 >-</computeroutput
 > à l'extrémité gauche de la zone de <guilabel
 >Saisie</guilabel
-> </para
+>.</para
 ></step>
 <step
 ><para
@@ -456,7 +460,7 @@
 
 <procedure>
 <title
->Vous payez un livre 32,50 € avec un billet de 500 FF. Combien l'employé est-il censé vous rendre en pièces et billets en euros ? </title>
+>Vous payez un livre 32,50 € avec un billet de 500 FF. Combien l'employé est-il censé vous rendre en pièces et billets en euros ?</title>
 <step
 ><para
 >Choisissez <guilabel
@@ -472,7 +476,7 @@
 > et cliquez sur le bouton <guibutton
 >€</guibutton
 >. Vous pouvez également saisir <userinput
->32,5</userinput
+>32.5</userinput
 > sans le dernier <userinput
 >0</userinput
 >.</para
@@ -489,7 +493,7 @@
 ><para
 >Tapez <userinput
 >500</userinput
->  et cliquez sur le bouton <guibutton
+>et cliquez sur le bouton <guibutton
 >FF</guibutton
 > ou appuyez sur la touche <keycap
 >F</keycap
@@ -498,10 +502,10 @@
 <step
 ><para
 >Le résultat <computeroutput
->-43,72 €</computeroutput
+>-43.72 €</computeroutput
 > est négatif, indiquant que l'employé doit rendre de la monnaie. Le bouton <guibutton
 >+/-</guibutton
->  ou la touche <keycap
+> ou la touche <keycap
 >S</keycap
 > permettent de changer le signe du résultat.</para
 ></step>
@@ -520,7 +524,7 @@
 
 <procedure>
 <title
->Vous achetez 3,2 kilogrammes de pommes à 2 € le kilogramme. Combien l'ensemble coûte-t-il en dollars australiens ? </title>
+>Vous achetez 3,2 kilogrammes de pommes à 2 € le kilogramme. Combien l'ensemble coûte-t-il en dollars australiens ?</title>
 <step
 ><para
 >Choisissez <guilabel
@@ -531,7 +535,7 @@
 ><para
 >Tapez <userinput
 >2</userinput
->  et cliquez sur le bouton <guibutton
+> et cliquez sur le bouton <guibutton
 >€</guibutton
 >.</para
 ></step>
@@ -544,34 +548,34 @@
 >. Remarquez le signe <computeroutput
 >X</computeroutput
 > sur la gauche de la zone de <guilabel
->Saisie</guilabel
+>Input</guilabel
 >.</para
 ></step>
 <step
 ><para
->Maintenant, saisissez <userinput
->3,2</userinput
+>Maintenant, saisissez<userinput
+>3.2</userinput
 > puis cliquez sur le bouton <guibutton
 >Valide</guibutton
 > ou appuyez sur la touche <keycap
->Valide</keycap
+>Entrée</keycap
 > : cela signifie <quote
->3,2 unités</quote
+>3.2 unités</quote
 > à 2 € chacune.</para
 ></step>
 <step
 ><para
 >Le résultat en dollars australiens correspond à <computeroutput
->6,4 €</computeroutput
+>6.4 €</computeroutput
 >.</para
 ></step>
 </procedure>
 
 <para
 >Cela aurait également été possible dans l'ordre suivant : <userinput
->3,2 = * 2 €</userinput
+>3.2 = * 2 €</userinput
 > ou même <userinput
->3,2 * 2 €</userinput
+>3.2 * 2 €</userinput
 >.</para>
 
 <note
@@ -587,7 +591,7 @@
 
 <procedure>
 <title
->Combien font 20% de 3000 yen ?</title>
+>Combien font 20 % de 3000 yen ?</title>
 <step
 ><para
 >Choisissez <guilabel
@@ -598,15 +602,15 @@
 ><para
 >Tapez <userinput
 >3000</userinput
-> et cliquez sur le bouton <guibutton
+>et cliquez sur le bouton <guibutton
 >¥</guibutton
-> ou appuyez sur la touche <keycap
+> et cliquez sur le bouton <keycap
 >Y</keycap
 >.</para
 ></step>
 <step
 ><para
->Saisissez <userinput
+>Saisissez<userinput
 >20</userinput
 > et cliquez sur le bouton <guibutton
 >%</guibutton
@@ -624,7 +628,7 @@
 
 <procedure>
 <title
->Combien font 3000 yen plus 20% ? </title>
+>Combien font 3000 yen plus 20 % ?</title>
 <step
 ><para
 >Choisissez <guilabel
@@ -635,9 +639,9 @@
 ><para
 >Tapez <userinput
 >3000</userinput
-> et cliquez sur le bouton <guibutton
+>et cliquez sur le bouton <guibutton
 >¥</guibutton
-> ou appuyez sur la touche <keycap
+> et cliquez sur le bouton <keycap
 >Y</keycap
 >.</para
 ></step>
@@ -645,13 +649,13 @@
 ><para
 >Cliquez sur le bouton <guibutton
 >+</guibutton
->  ou appuyez sur la touche <keycap
+> ou appuyez sur la touche <keycap
 >+</keycap
 >.</para
 ></step>
 <step
 ><para
->Saisissez <userinput
+>Saisissez<userinput
 >20</userinput
 > et cliquez sur le bouton <guibutton
 >%</guibutton
@@ -669,7 +673,7 @@
 
 <procedure>
 <title
->Combien font 3000 yens moins 20% ?</title>
+>Combien font 3000 yens moins 20 % ?</title>
 <step
 ><para
 >Choisissez <guilabel
@@ -680,9 +684,9 @@
 ><para
 >Tapez <userinput
 >3000</userinput
-> et cliquez sur le bouton <guibutton
+>et cliquez sur le bouton <guibutton
 >¥</guibutton
-> ou appuyez sur la touche <keycap
+> et cliquez sur le bouton <keycap
 >Y</keycap
 >.</para
 ></step>
@@ -696,7 +700,7 @@
 ></step>
 <step
 ><para
->Saisissez <userinput
+>Saisissez<userinput
 >20</userinput
 > et cliquez sur le bouton <guibutton
 >%</guibutton
@@ -750,11 +754,11 @@
 
 <procedure>
 <title
->Comment est-ce que j'efface la mémoire ?</title>
+>Comment est-ce que j'efface la mémoire ?</title>
 <step
 ><para
 >Cliquez sur le bouton <guibutton
->Rééinitialiser</guibutton
+>Réinitialiser</guibutton
 >. Veuillez noter que le bouton <guibutton
 >Réinitialise</guibutton
 > efface tout : la zone de saisie, le résultat et la mémoire.</para
@@ -767,7 +771,7 @@
 <step
 ><para
 >Calculez d'abord la première moitié : <userinput
->3,1 * 5,2 €</userinput
+>3.1 * 5.2 €</userinput
 >.</para
 ></step>
 <step
@@ -779,7 +783,7 @@
 <step
 ><para
 >Calculez à présent l'autre moitié : <userinput
->2,7 * 8,9 €</userinput
+>2.7 * 8.9 €</userinput
 >.</para
 ></step>
 <step
@@ -798,7 +802,7 @@
 
 <para
 >Il y a d'autres solutions comme <userinput
->3,1 * 5,2 € Min 2,7 * 8,9 € + MR</userinput
+>3.1 * 5.2 € Min 2.7 * 8.9 € + MR</userinput
 >.</para>
 
 <procedure>
@@ -807,7 +811,7 @@
 <step
 ><para
 >Calculez d'abord la première moitié : <userinput
->3,1 * 5,2 €</userinput
+>3.1 * 5.2 €</userinput
 >.</para
 ></step>
 <step
@@ -819,7 +823,7 @@
 <step
 ><para
 >Calculez à présent l'autre moitié : <userinput
->2,7 * 8,9 €</userinput
+>2.7 * 8.9 €</userinput
 >.</para
 ></step>
 <step
@@ -838,7 +842,7 @@
 
 <para
 >La séquence <userinput
->3,1 * 5,2 € Min 2,7 * 8,9 € - MR</userinput
+>3.1 * 5.2 € Min 2.7 * 8.9 € - MR</userinput
 > calcule la différence en ordre inverse.</para>
 
 </sect1>
@@ -860,7 +864,7 @@
 ></keycombo
 ></member>
 <member
->Sort de &keurocalc;</member>
+>Sort de KEuroCalc</member>
 
 <member
 ><keycombo action="simul"
@@ -878,18 +882,18 @@
 ></keycombo
 ></member>
 <member
->Va dans la zone Devise</member>
+>Aller dans la zone Devise</member>
 
 <member
 ><keycombo action="simul"
 >&Alt; <keycap
->H</keycap
+>P</keycap
 ></keycombo
 ></member>
 <member
 >Affiche la fenêtre <guilabel
->À propos de&etc;</guilabel
-> </member>
+>À propos de...</guilabel
+></member>
 
 <member
 ><keycap
@@ -916,7 +920,7 @@
 >-</keycap
 >, <keycap
 >*</keycap
-> and <keycap
+> et <keycap
 >/</keycap
 ></member>
 <member
@@ -924,19 +928,19 @@
 
 <member
 ><keycap
->Entrée</keycap
+>Valide</keycap
 > et <keycap
 >Entr</keycap
 ></member>
 <member
->Validation du nombre saisi considere comme une valeur simple et sans unité</member>
+>Validation du nombre saisi considère comme une valeur simple et sans unité</member>
 
 <member
 ><keycap
->%</keycap
+> % </keycap
 ></member>
 <member
->Validation du nombre saisi considere comme un pourcentage</member>
+>Validation du nombre saisi considère comme un pourcentage</member>
 
 <member
 >&Correction;</member>
@@ -1004,9 +1008,9 @@
 
 <member
 ><guibutton
->.</guibutton
+>. </guibutton
 > ou <guibutton
->,</guibutton
+>, </guibutton
 ></member>
 <member
 >Séparateur décimal</member>
@@ -1023,7 +1027,7 @@
 >AC</guibutton
 ></member>
 <member
->Efface tout  les zones de saisie et de résultat</member>
+>Efface tout : les zones de saisie et de résultat</member>
 
 <member
 ><guibutton
@@ -1035,7 +1039,7 @@
 >Validation du nombre saisi considéré comme une valeur exprimée dans la devise de référence (euro ou dollar)</member>
 
 <member
->Le bouton intitulé avec le nom d'une autre devise</member>
+>Validation du nombre saisi considéré comme une valeur exprimée dans la devise de référence (euro ou dollar)</member>
 <member
 >Validation du nombre saisi considéré comme un nombre exprimé dans l'autre devise</member>
 
@@ -1044,14 +1048,14 @@
 >Valider</guibutton
 ></member>
 <member
->Validation du nombre saisi considere comme une valeur simple et sans unité</member>
+>Validation du nombre saisi considère comme une valeur simple et sans unité</member>
 
 <member
 ><guibutton
->%</guibutton
+> % </guibutton
 ></member>
 <member
->Validation du nombre saisi considere comme un pourcentage</member>
+>Validation du nombre saisi considère comme un pourcentage</member>
 
 <member
 ><guibutton
@@ -1095,14 +1099,14 @@
 
 <member
 ><guibutton
->À<accel
->p</accel
->ropos...</guibutton
+><accel
+>A</accel
+> propos...</guibutton
 ></member>
 <member
 >Affiche la fenêtre <guilabel
->À propos de&etc;</guilabel
-> </member>
+>À propos de...</guilabel
+></member>
 
 <member
 ><guibutton
@@ -1159,8 +1163,8 @@
 <listitem>
 <para
 >L'euro est la devise de référence. Les taux de changes fixes sont disponibles. &keurocalc; essaye de télécharger les taux variables depuis la <ulink url="http://www.ecb.int/stats/eurofxref/"
->Banque Centrale Européenne (BCE)</ulink
->.</para>
+>Banque Centrale Européenne (BCE).</ulink
+></para>
 </listitem>
 </varlistentry>
 
@@ -1188,7 +1192,7 @@
 >Devise par défaut</title>
 
 <para
->Ce réglage définit l'autre devise qui sera utilisée quand &keurocalc; démarre ou quand l'utilisateur valide une nouvelle configuration.</para>
+>Ce réglage définit l'autre devise qui sera utilisée lorsque &keurocalc; démarre ou quand l'utilisateur enregistre une nouvelle configuration.</para>
 
 <para
 >Veuillez remarquer que la devise choisie peut ne pas être offerte par la source de taux choisie. Dans ce cas, la première devise de la liste est utilisée.</para>
@@ -1210,11 +1214,7 @@
 ></term>
 <listitem>
 <para
->Les règles de conversion de l'Union Européenne et les autres règles de conversion officielles sont utilisées. En pratique, le résultat est arrondi à l'unité la plus proche pour les devises comme le yen japonais ou la lire italienne, et au centième d'unité (<quote
->cent</quote
-> ou <quote
->centime</quote
->) pour les devises comme l'euro ou le dollar.</para>
+>Les règles de conversion de l'Union Européenne et les autres règles de conversion officielles sont utilisées. En pratique, le résultat est arrondi à l'unité la plus proche pour les devises comme le yen japonais ou la lire italienne, et au centième d'unité (« cent » ou « centime ») pour les devises comme l'euro ou le dollar.</para>
 <para
 >Par exemple, 158,323 yen seraient arrondis à 158 yen. 12,537 euro seraient arrondis à 12,54 euro.</para>
 </listitem>
@@ -1252,35 +1252,35 @@
 
 <sect2 id="settings-look-and-feel">
 <title
->Look an feel</title>
+>Apparence</title>
 
 <para
->This setting defines the appearance and behavior of &keurocalc;. The following options are available:</para>
+>Ce configuration définit l'apparence et la conduite de &keurocalc;. Les options suivantes sont disponibles : </para>
 
 <variablelist>
 <varlistentry>
 <term
 ><guilabel
->Display color</guilabel
+>	Couleur d'affichage</guilabel
 ></term>
 <listitem>
 <para
->The background color of the display areas (both input and result). To change the background color, click on <guibutton
->Change...</guibutton
->. This opens the standard &kde; color selection dialog. Choose a new color, then press <guibutton
->OK</guibutton
-> to validate the new choice.</para>
+>La couleur d'arrière plan dans les différentes zones d'affichages (saisie et résultat). Pour modifier la couleur d'arrière plan, cliquer sur <guibutton
+>Changer...</guibutton
+>. Cela ouvre la boîte de sélection des couleurs. Choisissez une nouvelle couleur, appuyez <guibutton
+>Ok</guibutton
+> pour valider le nouveau choix.</para>
 </listitem>
 </varlistentry>
 
 <varlistentry>
 <term
 ><guilabel
->Enable splash screen</guilabel
+>Activé l'écran de démarrage</guilabel
 ></term>
 <listitem>
 <para
->Uncheck this box if you do not want to initial picture to appear when &keurocalc; starts.</para>
+>Décocher cette case, si vous ne souhaitez pas voir apparaître l'image au démarrage de &keurocalc;.</para>
 </listitem>
 </varlistentry>
 </variablelist>
@@ -1298,43 +1298,43 @@
 >&keurocalc;</para>
 
 <para
->Programme Copyright 2001-2006 les développeurs de &keurocalc; : <itemizedlist>
+>Copyright du logiciel 2001-2006 les développeurs &keurocalc; :  <itemizedlist>
 <listitem
 ><para
 >Éric Bischoff <email
 >ebischoff@_NOSPAM_nerim.net</email
-> - Conception et mise en œuvre</para
+> - Conception et implémentation</para
 ></listitem>
 <listitem
 ><para
 >Gil Gross <email
 >ptit.ours@_NOSPAM_gmail.com</email
-> - fonctionnalités supplémentaires</para
+> - Fonctionnalités additionnelles</para
 ></listitem>
 <listitem
 ><para
 >Melchior Franz <email
 >a8603365@_NOSPAM_unet.univie.ac.at</email
-> - Conception et essais</para
+> - Conception et tests</para
 ></listitem>
 <listitem
 ><para
 >Bas Willems <email
 >cybersurfer@_NOSPAM_euronet.nl</email
-> - Graphismes</para
+> - Graphisme</para
 ></listitem>
 </itemizedlist
 ></para>
 
 <para
->Documentation copyright 2001-2006 Éric Bischoff <email
->e.bischoff@_NOSPAM_nerim.net</email
+>Copyright de la documentation 2001-2007 Éric Bischoff <email
+>ebischoff@_NOSPAM_nerim.net</email
 >.</para>
 
 <para
->Documentation relue et corrigée par &Philip.Rodrigues; &Philip.Rodrigues.mail;.</para>
+>Relecture de la documentation par &Philip.Rodrigues; &Philip.Rodrigues.mail;.</para>
 <para
->Traduction française par &JeromeBlanc;.</para
+>Traduction française par &CyrilleBieuzent;.</para
 > 
 &underFDL; &underGPL; </chapter>
 
@@ -1347,25 +1347,25 @@
 >Comment obtenir &keurocalc;</title>
 
 <para
->&keurocalc; fait partie du paquetage <ulink url="http://extragear.kde.org/"
+>&keurocalc; fait partie du paquetage<ulink url="http://extragear.kde.org/"
 >KDE extragear-utils</ulink
->. La dernière version de &keurocalc; peut être téléchargée depuis la <ulink url="http://opensource.bureau-cornavin.com/keurocalc/"
->page du projet</ulink
+>. La dernière version de &keurocalc; peut être télécharger depuis la <ulink url="http://opensource.bureau-cornavin.com/keurocalc/"
+>home page</ulink
 >. </para>
 
 </sect1>
 
 <sect1 id="requirements">
 <title
->Configuration nécessaire</title>
+>Pré requis</title>
 
 <para
->Pour pouvoir utiliser &keurocalc; avec succès, il vous faut KDE 3.4.</para>
+>Pour utiliser avec succès &keurocalc;, vous avez besoin de &kde; 4.0.</para>
 
 <para
->Toutes les bibliothèques nécessaires peuvent être trouvées sur <ulink url="ftp://ftp.kde.org"
+>Toutes les bibliothèques requises peuvent être trouvées sur <ulink url="ftp://ftp.kde.org"
 >ftp.kde.org</ulink
-> le site &FTP; du projet &kde;.</para>
+>, le site &FTP; du projet &kde;.</para>
 
 </sect1>
 
@@ -1374,17 +1374,25 @@
 >Compilation et installation</title>
 
 <para
->Afin de pouvoir compiler et installer &keurocalc; sur votre système, saisissez les commandes suivantes dans le dossier racine de votre distribution de &keurocalc; : <screen width="40"
+>Pour compiler et installer &keurocalc; sur votre système, tapez la chose suivante dans le dossier de base de &keurocalc; :  <screen width="40"
 ><prompt
->%</prompt
+> % </prompt
 > <userinput
->./configure</userinput>
+>mkdir build</userinput>
 <prompt
->%</prompt
+> % </prompt
+> <userinput
+>cd build</userinput>
+<prompt
+> % </prompt
+> <userinput
+>cmake </userinput>
+<prompt
+> % </prompt
 > <userinput
 >make</userinput>
 <prompt
->%</prompt
+> % </prompt
 > <userinput
 >make install</userinput
 >
@@ -1392,11 +1400,7 @@
 </para>
 
 <para
->Comme &keurocalc; utilise <application
->autoconf</application
-> et <application
->automake</application
->, vous ne devriez pas avoir de problèmes pour le compiler. Si toutefois vous rencontrez des problèmes, veuillez les reporter à l'auteur de &keurocalc;.</para>
+>Comme cmake auto détecte les paramètres de votre système, vous ne devriez pas avoir de problème pendant la compilation de &keurocalc;. Si vous rencontrez des problèmes, s'il vous plaît, signalez les aux auteurs de &keurocalc;.</para>
 
 </sect1>
 
