@@ -1,3 +1,9 @@
+keurocalc (1.0.3-2) unstable; urgency=low
+
+  * Rename /usr/share/doc/kde4 to /usr/share/doc/kde. (Closes: #584382)
+
+ -- Michael Meskes <meskes@debian.org>  Thu, 03 Jun 2010 16:15:46 +0200
+
 keurocalc (1.0.3-1) unstable; urgency=low
 
   * Imported Upstream version 1.0.3
