@@ -1,3 +1,10 @@
+keurocalc (1.1.0-1) unstable; urgency=low
+
+  * Imported Upstream version 1.1.0
+  * Bumped Standards-Version to 3.9.1, no changes needed.
+
+ -- Michael Meskes <meskes@debian.org>  Sun, 23 Jan 2011 17:11:30 +0100
+
 keurocalc (1.0.3-2) unstable; urgency=low
 
   * Rename /usr/share/doc/kde4 to /usr/share/doc/kde. (Closes: #584382)

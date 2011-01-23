@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Michael Meskes <meskes@debian.org>
 Build-Depends: debhelper (>= 5.0.0), kdelibs5-dev (>= 4:4.4.4), cdbs, cmake
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Homepage: http://opensource.bureau-cornavin.com/keurocalc/
 Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/keurocalc.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/keurocalc.git
