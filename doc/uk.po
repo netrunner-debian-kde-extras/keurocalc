@@ -5,10 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keurocalc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-17 04:10+0000\n"
+"POT-Creation-Date: 2011-01-09 01:03+0000\n"
 "PO-Revision-Date: 2010-02-04 19:14+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation@linux.org.ua>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,8 +17,8 @@ msgstr ""
 "X-KDE-DocBook-SVN-Changed-Revision: 779910\n"
 "X-KDE-Associated-UI-Catalogs: \n"
 "X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. Tag: title
 #: index.docbook:12
@@ -53,12 +54,24 @@ msgstr ""
 msgid "Éric Bischoff"
 msgstr "Éric Bischoff"
 
+#. Tag: date
+#: index.docbook:32
+#, no-c-format
+msgid "2011-01-08"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:33
+#, no-c-format
+msgid "1.1.0"
+msgstr ""
+
 #. Tag: para
 #: index.docbook:36
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "&keurocalc; is an universal pocket currency converter and calculator. This "
-"documentation describes &keurocalc; version 1.0.0."
+"documentation describes &keurocalc; version 1.1.0."
 msgstr ""
 "&keurocalc; — це універсальний кишеньковий інструмент для обчислення "
 "вартості грошових сум у різних валютах і калькулятор. У цій документації "
@@ -176,10 +189,10 @@ msgstr "Будь-коли"
 
 #. Tag: para
 #: index.docbook:88
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "To do conversions between the euro and other currencies, like the British "
-"Pound, according to the daily exchange rate defined by the <ulink url="
+"Pound, according to the daily exchange rate published by the <ulink url="
 "\"http://www.ecb.int/stats/eurofxref/\">European Central Bank (ECB)</ulink>."
 msgstr ""
 "Для виконання перетворень суми у євро на суму у інших валютах, наприклад, "
@@ -189,39 +202,40 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:91
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "To do conversions between any two currencies that are part of the list "
-"published the ECB."
+"published by the ECB."
 msgstr ""
 "Для виконання перетворення сум у будь-яких інших валютах, які містяться у "
 "списку, оприлюдненому ЄЦБ."
 
 #. Tag: para
-#: index.docbook:93
-#, no-c-format
+#: index.docbook:99
+#, fuzzy, no-c-format
 msgid ""
-"To do conversions between the US dollar and other currencies according to "
-"the daily exchange rate defined by the <ulink url=\"http://www.ny.frb.org/"
-"markets/fxrates/noon.cfm\">New York Federal Reserve Bank (NY FRB)</ulink>."
+"To do conversions between the euro and other currencies, like the British "
+"Pound, according to the daily exchange rate published by the <ulink url="
+"\"http://rss.timegenie.com/foreign_exchange_rates_forex\">Time Genie</ulink> "
+"foreign exchange (TG)."
 msgstr ""
-"Для виконання перетворень між доларом США та іншими валютами, згідно до "
-"денного курсу обміну, встановленого <ulink url=\"http://www.ny.frb.org/"
-"markets/fxrates/noon.cfm\">Федеральним резервним банком Нью-Йорка (NY FRB)</"
-"ulink>."
+"Для виконання перетворень суми у євро на суму у інших валютах, наприклад, "
+"британських фунтах, відповідно до курсу обміну, встановленого <ulink url="
+"\"http://www.ecb.int/stats/eurofxref/\">Європейським центральним банком (ЄЦБ)"
+"</ulink>."
 
 #. Tag: para
-#: index.docbook:97
-#, no-c-format
+#: index.docbook:103
+#, fuzzy, no-c-format
 msgid ""
 "To do conversions between any two currencies that are part of the list "
-"published the NY FRB."
+"published by the TG."
 msgstr ""
 "Для виконання перетворення сум у будь-яких інших валютах, які містяться у "
-"списку, оприлюдненому NY FRB."
+"списку, оприлюдненому ЄЦБ."
 
 #. Tag: para
-#: index.docbook:106
+#: index.docbook:112
 #, no-c-format
 msgid ""
 "&keurocalc; has the following advantages in term of comfort and usability:"
@@ -230,17 +244,17 @@ msgstr ""
 "користуванні:"
 
 #. Tag: para
-#: index.docbook:110
-#, no-c-format
+#: index.docbook:116
+#, fuzzy, no-c-format
 msgid ""
 "You see every intermediate value and the result in both the reference "
-"currency (euro or dollar) and in the other currency."
+"currency (euro) and in the other currency."
 msgstr ""
 "Ви можете бачити всі проміжні значення і результат у основній валюті (євро "
 "або доларах), а також у вказаній вами валюті."
 
 #. Tag: para
-#: index.docbook:112
+#: index.docbook:119
 #, no-c-format
 msgid ""
 "There is a separate input area where you can type a new value while still "
@@ -250,13 +264,12 @@ msgstr ""
 "значення без втрати можливості спостерігати за попереднім результатом."
 
 #. Tag: para
-#: index.docbook:114
-#, no-c-format
+#: index.docbook:121
+#, fuzzy, no-c-format
 msgid ""
 "The ergonomy is very close to usual pocket calculators, despite the fact "
-"that any value you type can be a value in the reference currency (euro or "
-"dollar), a value in the other currency, a percentage or an unit-less "
-"quantity."
+"that any value you type can be a value in the reference currency (euro), a "
+"value in the other currency, a percentage or an unit-less quantity."
 msgstr ""
 "Ергономіка програми дуже близька до ергономіки звичайних кишенькових "
 "калькуляторів, не зважаючи на те, що ви можете ввести будь-яке значення у "
@@ -264,7 +277,7 @@ msgstr ""
 "вигляді безрозмірної величини."
 
 #. Tag: para
-#: index.docbook:117
+#: index.docbook:125
 #, no-c-format
 msgid ""
 "You press the keys in the order you would speak aloud what you're doing."
@@ -273,7 +286,7 @@ msgstr ""
 "діям слова."
 
 #. Tag: para
-#: index.docbook:119
+#: index.docbook:127
 #, no-c-format
 msgid ""
 "If you make mistakes, a special correction button enables you to correct "
@@ -283,7 +296,7 @@ msgstr ""
 "виправити останні введені дані, аж доки ви їх не підтвердите."
 
 #. Tag: para
-#: index.docbook:121
+#: index.docbook:129
 #, no-c-format
 msgid ""
 "The numbers are displayed according to your locale settings: with either a "
@@ -294,33 +307,33 @@ msgstr ""
 "вказаних у Системних параметрах."
 
 #. Tag: para
-#: index.docbook:124
-#, no-c-format
+#: index.docbook:132
+#, fuzzy, no-c-format
 msgid ""
-"You can decide which reference currency you want to use (euro or dollar), "
-"which other currency to start with when you launch &keurocalc;, and which "
-"rounding method to use."
+"You can decide which reference currency you want to use (euro), which other "
+"currency to start with when you launch &keurocalc;, and which rounding "
+"method to use."
 msgstr ""
 "Ви можете вибрати основну валюту, яку ви бажаєте використовувати (євро або "
 "долар), початкову валюту, яка використовуватиметься після запуску "
 "&keurocalc;, а також визначитися з методом округлення значень."
 
 #. Tag: para
-#: index.docbook:130
+#: index.docbook:138
 #, no-c-format
 msgid "&keurocalc; allows the following operations:"
 msgstr "За допомогою &keurocalc; можна виконувати такі дії:"
 
 #. Tag: para
-#: index.docbook:133
-#, no-c-format
-msgid "Conversions from and to the reference currency (euro or dollar)."
+#: index.docbook:141
+#, fuzzy, no-c-format
+msgid "Conversions from and to the reference currency (euro)."
 msgstr ""
 "Пряме і зворотне перетворення з однієї грошової одиниці у іншу (євро або "
 "долар)."
 
 #. Tag: para
-#: index.docbook:134
+#: index.docbook:143
 #, no-c-format
 msgid ""
 "Systematic rounding of the displayed result, but computations done "
@@ -330,19 +343,19 @@ msgstr ""
 "точністю, з якою їх здатні виконувати математичні бібліотеки системи."
 
 #. Tag: para
-#: index.docbook:136
+#: index.docbook:145
 #, no-c-format
 msgid "Usual additions, subtractions, multiplications and divisions."
 msgstr "Звичайні дії з додавання, віднімання, множення і ділення."
 
 #. Tag: para
-#: index.docbook:137
+#: index.docbook:146
 #, no-c-format
 msgid "Apply a percentage, add a percentage, or subtract a percentage."
 msgstr "Взяття відсотків, додавання відсотків і віднімання відсотків."
 
 #. Tag: para
-#: index.docbook:139
+#: index.docbook:148
 #, no-c-format
 msgid ""
 "Possibility to store values in an intermediate memory, or use that memory as "
@@ -352,19 +365,19 @@ msgstr ""
 "обчислення суми."
 
 #. Tag: para
-#: index.docbook:144
+#: index.docbook:153
 #, no-c-format
 msgid "Here are some limitations of &keurocalc;:"
 msgstr "Ось деякі з обмежень &keurocalc;:"
 
 #. Tag: para
-#: index.docbook:147
+#: index.docbook:156
 #, no-c-format
 msgid "No parenthesized or complex expressions."
 msgstr "Не можна обчислювати складні вирази або вирази з дужками."
 
 #. Tag: para
-#: index.docbook:148
+#: index.docbook:157
 #, no-c-format
 msgid ""
 "Some roundings go wrong due to the limitations of the mathematical library."
@@ -373,7 +386,7 @@ msgstr ""
 "обмеження математичної бібліотеки."
 
 #. Tag: para
-#: index.docbook:150
+#: index.docbook:159
 #, no-c-format
 msgid ""
 "Inflationist currencies cannot be handled due to limited display size. "
@@ -385,18 +398,8 @@ msgstr ""
 "зменшенням її грошових значень на шість порядків проблему має бути усунуто."
 
 #. Tag: para
-#: index.docbook:154
-#, no-c-format
-msgid ""
-"New York Federal Reserve Bank rates are not available during the non-working "
-"days (Christmas, Easter, etc.)."
-msgstr ""
-"Курси Нью-йоркського Федерального Резервного Банка недоступні протягом "
-"святкових днів (Різдва, Пасхи тощо)."
-
-#. Tag: para
-#: index.docbook:159
-#, no-c-format
+#: index.docbook:168
+#, fuzzy, no-c-format
 msgid ""
 "&keurocalc; never guarantees the exactness of the exchange rates nor the "
 "accuracy of the result. You are always invited to verify your computations "
@@ -404,9 +407,9 @@ msgid ""
 "agreement states, there's no liability of the authors if the results are not "
 "correct or as expected. Also, please notice that the variable exchange rates "
 "are downloaded in an unencrypted and therefore insecure manner from the data "
-"sources (European Central Bank and New York Federal Reserve Bank). Some "
-"<quote>man-in-the-middle</quote> attacker may confuse &keurocalc; by forging "
-"exchange rates. More simply, a transmission error is always possible."
+"sources (European Central Bank and Time Genie). Some <quote>man-in-the-"
+"middle</quote> attacker may confuse &keurocalc; by forging exchange rates. "
+"More simply, a transmission error is always possible."
 msgstr ""
 "&keurocalc; не гарантує ні точності обмінних курсів, ні точності отриманих "
 "результатів. Завжди варто перевірити ваші обчислення у якийсь інший спосіб. "
@@ -422,25 +425,25 @@ msgstr ""
 "даних."
 
 #. Tag: title
-#: index.docbook:172
+#: index.docbook:181
 #, no-c-format
 msgid "Using &keurocalc;"
 msgstr "Користування &keurocalc;"
 
 #. Tag: title
-#: index.docbook:179
+#: index.docbook:188
 #, no-c-format
 msgid "Performing Conversions"
 msgstr "Виконання перетворення"
 
 #. Tag: title
-#: index.docbook:183
+#: index.docbook:192
 #, no-c-format
 msgid "To convert 1000 Belgian francs into euros"
 msgstr "Щоб дізнатися вартість 1000 бельгійських франків у євро"
 
 #. Tag: para
-#: index.docbook:184
+#: index.docbook:193
 #, no-c-format
 msgid ""
 "Select the <guilabel>BEF - Belgian franc</guilabel> (<foreignphrase>francs "
@@ -457,7 +460,7 @@ msgstr ""
 "програма показала потрібний список курсів."
 
 #. Tag: para
-#: index.docbook:190
+#: index.docbook:199
 #, no-c-format
 msgid ""
 "Type <userinput>1000</userinput> on the keyboard or use the corresponding "
@@ -472,7 +475,7 @@ msgstr ""
 "&Backspace; або кнопкою <guibutton>&lt;-</guibutton>."
 
 #. Tag: para
-#: index.docbook:194
+#: index.docbook:203
 #, no-c-format
 msgid ""
 "Press the <guibutton>FB</guibutton> button or the <keycap>F</keycap> key. In "
@@ -486,7 +489,7 @@ msgstr ""
 "можете скористатися і клавішами <keycap>B</keycap> і <keycap>X</keycap>."
 
 #. Tag: para
-#: index.docbook:198
+#: index.docbook:207
 #, no-c-format
 msgid ""
 "Read the result in the <guilabel>Result</guilabel> display on the right: "
@@ -497,13 +500,13 @@ msgstr ""
 "системи."
 
 #. Tag: title
-#: index.docbook:203
+#: index.docbook:212
 #, no-c-format
 msgid "To convert 25 euros into Belgian francs"
 msgstr "Щоб дізнатися вартість 25 євро у бельгійських франках"
 
 #. Tag: para
-#: index.docbook:204
+#: index.docbook:213
 #, no-c-format
 msgid ""
 "If the fixed rates currencies are available, select the <guilabel>BEF - "
@@ -516,13 +519,13 @@ msgstr ""
 "відповідну валюту вже було вибрано."
 
 #. Tag: para
-#: index.docbook:208
+#: index.docbook:217
 #, no-c-format
 msgid "Type <userinput>25</userinput>."
 msgstr "Введіть <userinput>25</userinput>."
 
 #. Tag: para
-#: index.docbook:209
+#: index.docbook:218
 #, no-c-format
 msgid ""
 "Press the <guibutton>€</guibutton> button or the <keycap>E</keycap> key."
@@ -530,7 +533,7 @@ msgstr ""
 "Натисніть кнопку <guibutton>€</guibutton> або клавішу <keycap>E</keycap>."
 
 #. Tag: para
-#: index.docbook:211
+#: index.docbook:220
 #, no-c-format
 msgid ""
 "Read the result in the <guilabel>Result</guilabel> display on the right: "
@@ -547,20 +550,20 @@ msgstr ""
 "італійських лір — це 1 L."
 
 #. Tag: para
-#: index.docbook:218
+#: index.docbook:227
 #, no-c-format
 msgid "You could also have typed: <userinput>25 Enter E</userinput>."
 msgstr ""
 "Ви також могли послідовно натиснути: <userinput>25 Enter E</userinput>."
 
 #. Tag: title
-#: index.docbook:221
+#: index.docbook:230
 #, no-c-format
 msgid "To convert 120 German marks into Spanish pesetas"
 msgstr "Щоб дізнатися вартість 120 німецьких марок у іспанських песетах"
 
 #. Tag: para
-#: index.docbook:222
+#: index.docbook:231
 #, no-c-format
 msgid ""
 "If the fixed rates currencies are available, select the <guilabel>DEM - "
@@ -570,13 +573,13 @@ msgstr ""
 "дойчмарка</guilabel> у спадному списку валют."
 
 #. Tag: para
-#: index.docbook:225
+#: index.docbook:234
 #, no-c-format
 msgid "Type <userinput>120</userinput>."
 msgstr "Введіть <userinput>120</userinput>."
 
 #. Tag: para
-#: index.docbook:226
+#: index.docbook:235
 #, no-c-format
 msgid ""
 "Press the <guibutton>DM</guibutton> button or the <keycap>D</keycap> or "
@@ -586,7 +589,7 @@ msgstr ""
 "keycap> або<keycap>M</keycap>."
 
 #. Tag: para
-#: index.docbook:228
+#: index.docbook:237
 #, no-c-format
 msgid ""
 "Just select the <guilabel>ESP - Spanish peseta</guilabel> item to see the "
@@ -598,19 +601,19 @@ msgstr ""
 "<guilabel>Результат</guilabel>."
 
 #. Tag: title
-#: index.docbook:236
+#: index.docbook:245
 #, no-c-format
 msgid "Adding and Subtracting"
 msgstr "Додавання і віднімання"
 
 #. Tag: title
-#: index.docbook:239
+#: index.docbook:248
 #, no-c-format
 msgid "How much is 3 + 5?"
 msgstr "Скільки буде 3 + 5?"
 
 #. Tag: para
-#: index.docbook:240
+#: index.docbook:249
 #, no-c-format
 msgid ""
 "Type <userinput>3</userinput> and then press <guibutton>+</guibutton>. "
@@ -622,7 +625,7 @@ msgstr ""
 "показано просте значення у одному рядку, без шифру грошової одиниці."
 
 #. Tag: para
-#: index.docbook:243
+#: index.docbook:252
 #, no-c-format
 msgid ""
 "Type <userinput>5</userinput> and then press the <guibutton>Enter</"
@@ -635,7 +638,7 @@ msgstr ""
 "праворуч."
 
 #. Tag: title
-#: index.docbook:249
+#: index.docbook:258
 #, no-c-format
 msgid ""
 "You received 100 US dollars and paid 32.50 euros for a book, how much do you "
@@ -645,14 +648,13 @@ msgstr ""
 "залишилося на вашому банківському рахунку?"
 
 #. Tag: para
-#: index.docbook:251
-#, no-c-format
+#: index.docbook:260
+#, fuzzy, no-c-format
 msgid ""
 "Make sure that the variable exchange rates are available. If not, press the "
 "<guibutton>Settings...</guibutton> to select either <guilabel>Euro, European "
-"Central Bank</guilabel> or <guilabel>Dollar, New York Federal Reserve Bank</"
-"guilabel>. Now select the <guilabel>USD - US dollar</guilabel> or the "
-"<guilabel>EUR - EU euro</guilabel> item in the scroll down list on the "
+"Central Bank</guilabel> or <guilabel>Euro, Time Genie</guilabel>. Now select "
+"the <guilabel>USD - US dollar</guilabel> item in the scroll down list on the "
 "bottom. If you have no Internet access, that item won't be available as the "
 "latest variable rates between the euro and the dollar cannot be determined."
 msgstr ""
@@ -667,7 +669,7 @@ msgstr ""
 "курси між євро і доларом."
 
 #. Tag: para
-#: index.docbook:259
+#: index.docbook:269
 #, no-c-format
 msgid ""
 "Type <userinput>100</userinput> and then press <guibutton>$</guibutton>."
@@ -676,7 +678,7 @@ msgstr ""
 "guibutton>."
 
 #. Tag: para
-#: index.docbook:260
+#: index.docbook:270
 #, no-c-format
 msgid ""
 "Press the <guibutton>-</guibutton> button or the <keycap>-</keycap> key. "
@@ -688,7 +690,7 @@ msgstr ""
 "показано знак <computeroutput>-</computeroutput>."
 
 #. Tag: para
-#: index.docbook:263
+#: index.docbook:273
 #, no-c-format
 msgid ""
 "Type <userinput>32,50</userinput> or <userinput>32.50</userinput> and then "
@@ -698,15 +700,14 @@ msgstr ""
 "потім натисніть кнопку <guibutton>€</guibutton>."
 
 #. Tag: para
-#: index.docbook:265
-#, no-c-format
+#: index.docbook:275
+#, fuzzy, no-c-format
 msgid ""
 "Read the result in the <guilabel>Result</guilabel> display on the right. The "
 "exact value might depend on latest exchange rates. Notice that during the "
 "whole computation you've been able to read the values both in euro and in US "
-"dollars. Pay attention to the fact that different data sources (ECB or NY "
-"FRB) might not provide the same conversion rate between the euro and the "
-"dollar."
+"dollars. Pay attention to the fact that different data sources (ECB or TG) "
+"might not provide the same conversion rate between the euro and the dollar."
 msgstr ""
 "Прочитайте результат у полі <guilabel>Результат</guilabel>, розташованому "
 "праворуч. Точне значення може залежати від останніх обмінних курсів. "
@@ -715,7 +716,7 @@ msgstr ""
 "(ECB і NY FRB) обмінні курси між євро і доларом можуть не збігатися."
 
 #. Tag: title
-#: index.docbook:273
+#: index.docbook:283
 #, no-c-format
 msgid ""
 "You pay a 32.50 € book with a 500 FF banknote. How much was the clerk "
@@ -725,7 +726,7 @@ msgstr ""
 "повернути вам касир у банкнотах і монетах євро?"
 
 #. Tag: para
-#: index.docbook:275
+#: index.docbook:285
 #, no-c-format
 msgid ""
 "Select the <guilabel>FRF - French francs</guilabel> item in the currencies "
@@ -735,7 +736,7 @@ msgstr ""
 "валют, якщо цей пункт ще не вибрано."
 
 #. Tag: para
-#: index.docbook:277
+#: index.docbook:287
 #, no-c-format
 msgid ""
 "Type <userinput>32.50</userinput> or <userinput>32,50</userinput> and then "
@@ -747,7 +748,7 @@ msgstr ""
 "<userinput>32.5</userinput> без останнього <userinput>0</userinput>."
 
 #. Tag: para
-#: index.docbook:280
+#: index.docbook:290
 #, no-c-format
 msgid ""
 "Press the <guibutton>-</guibutton> button or the <keycap>-</keycap> key."
@@ -755,7 +756,7 @@ msgstr ""
 "Натисніть кнопку <guibutton>-</guibutton> або клавішу <keycap>-</keycap>."
 
 #. Tag: para
-#: index.docbook:281
+#: index.docbook:291
 #, no-c-format
 msgid ""
 "Type <userinput>500</userinput> and press the <guibutton>FF</guibutton> "
@@ -765,7 +766,7 @@ msgstr ""
 "guibutton> або клавішу <keycap>F</keycap>."
 
 #. Tag: para
-#: index.docbook:283
+#: index.docbook:293
 #, no-c-format
 msgid ""
 "The result <computeroutput>-43.72 €</computeroutput> is negative, indicating "
@@ -779,7 +780,7 @@ msgstr ""
 "змінити знак результату."
 
 #. Tag: para
-#: index.docbook:288
+#: index.docbook:298
 #, no-c-format
 msgid ""
 "Do not try to add euros to simple values (with no currency unit): it won't "
@@ -790,13 +791,13 @@ msgstr ""
 "можете додати 5 метрів і 3 кілограми."
 
 #. Tag: title
-#: index.docbook:294
+#: index.docbook:304
 #, no-c-format
 msgid "Multiplying and Dividing"
 msgstr "Множення і ділення"
 
 #. Tag: title
-#: index.docbook:297
+#: index.docbook:307
 #, no-c-format
 msgid ""
 "You buy 3.2 kilograms of apples at 2 € per kilogram. How much does the whole "
@@ -806,7 +807,7 @@ msgstr ""
 "коштуватиме у австралійських доларах?"
 
 #. Tag: para
-#: index.docbook:299
+#: index.docbook:309
 #, no-c-format
 msgid ""
 "Select the <guilabel>AUD - Australian dollar</guilabel> item if available "
@@ -816,14 +817,14 @@ msgstr ""
 "доступний і якщо його ще не вибрано."
 
 #. Tag: para
-#: index.docbook:301
+#: index.docbook:311
 #, no-c-format
 msgid "Type <userinput>2</userinput> and press <guibutton>€</guibutton>."
 msgstr ""
 "Введіть <userinput>2</userinput> і натисніть кнопку <guibutton>€</guibutton>."
 
 #. Tag: para
-#: index.docbook:302
+#: index.docbook:312
 #, no-c-format
 msgid ""
 "Press the <guibutton>X</guibutton> button or the <keycap>*</keycap> key. "
@@ -835,7 +836,7 @@ msgstr ""
 "<computeroutput>X</computeroutput>."
 
 #. Tag: para
-#: index.docbook:305
+#: index.docbook:315
 #, no-c-format
 msgid ""
 "Now type <userinput>3.2</userinput> followed by the <guibutton>Enter</"
@@ -847,7 +848,7 @@ msgstr ""
 "кожна."
 
 #. Tag: para
-#: index.docbook:308
+#: index.docbook:318
 #, no-c-format
 msgid ""
 "The result in Australian dollars matches <computeroutput>6.4 €</"
@@ -857,7 +858,7 @@ msgstr ""
 "computeroutput>."
 
 #. Tag: para
-#: index.docbook:311
+#: index.docbook:321
 #, no-c-format
 msgid ""
 "You could also have used the following order: <userinput>3.2 = * 2 €</"
@@ -867,7 +868,7 @@ msgstr ""
 "= * 2 €</userinput>, або навіть таким: <userinput>3.2 * 2 €</userinput>."
 
 #. Tag: para
-#: index.docbook:314
+#: index.docbook:324
 #, no-c-format
 msgid ""
 "It's not possible to multiply X euros by Y dollars, just as you don't "
@@ -877,19 +878,19 @@ msgstr ""
 "перемножити 10 пальців на 2 вуха."
 
 #. Tag: title
-#: index.docbook:321
+#: index.docbook:331
 #, no-c-format
 msgid "Using Percentages"
 msgstr "Використання відсотків"
 
 #. Tag: title
-#: index.docbook:324
+#: index.docbook:334
 #, no-c-format
 msgid "How much is 20% of 3000 yen?"
 msgstr "Скільки буде 20% від 3000 єн?"
 
 #. Tag: para
-#: index.docbook:325 index.docbook:337 index.docbook:351
+#: index.docbook:335 index.docbook:347 index.docbook:361
 #, no-c-format
 msgid ""
 "Select the <guilabel>JPY - Japanese yen</guilabel> item if available and if "
@@ -899,7 +900,7 @@ msgstr ""
 "його ще не вибрано."
 
 #. Tag: para
-#: index.docbook:327 index.docbook:339 index.docbook:353
+#: index.docbook:337 index.docbook:349 index.docbook:363
 #, no-c-format
 msgid ""
 "Type <userinput>3000</userinput> and press the <guibutton>¥</guibutton> "
@@ -909,7 +910,7 @@ msgstr ""
 "guibutton> або клавішу <keycap>Y</keycap>."
 
 #. Tag: para
-#: index.docbook:329 index.docbook:342 index.docbook:356
+#: index.docbook:339 index.docbook:352 index.docbook:366
 #, no-c-format
 msgid ""
 "Enter <userinput>20</userinput> and press the <guibutton>%</guibutton> "
@@ -921,19 +922,19 @@ msgstr ""
 "слід ввести <emphasis>до</emphasis> символу відсотків."
 
 #. Tag: para
-#: index.docbook:332
+#: index.docbook:342
 #, no-c-format
 msgid "Look at the result: it is equivalent to 600 yen."
 msgstr "Погляньте на результат: вийшло 600 єн."
 
 #. Tag: title
-#: index.docbook:336
+#: index.docbook:346
 #, no-c-format
 msgid "How much is 3000 yen plus 20%?"
 msgstr "Скільки буде 3000 єн плюс 20%?"
 
 #. Tag: para
-#: index.docbook:341
+#: index.docbook:351
 #, no-c-format
 msgid ""
 "Press the <guibutton>+</guibutton> button or the <keycap>+</keycap> key."
@@ -941,27 +942,27 @@ msgstr ""
 "Натисніть кнопку <guibutton>+</guibutton> або клавішу <keycap>+</keycap>."
 
 #. Tag: para
-#: index.docbook:345
+#: index.docbook:355
 #, no-c-format
 msgid "Look at the result: 26.96 € or 3600 ¥ at the time of writing."
 msgstr ""
 "Погляньте на результат: 26.96 € або 3600 ¥ на час написання цього підручника."
 
 #. Tag: title
-#: index.docbook:350
+#: index.docbook:360
 #, no-c-format
 msgid "How much is 3000 yen minus 20%?"
 msgstr "Скільки буде 3000 єн мінус 20%?"
 
 #. Tag: para
-#: index.docbook:355
+#: index.docbook:365
 #, no-c-format
 msgid "Press the <guibutton>-</guibutton> button or <keycap>-</keycap> key."
 msgstr ""
 "Натисніть кнопку <guibutton>-</guibutton> або клавішу <keycap>-</keycap>."
 
 #. Tag: para
-#: index.docbook:359
+#: index.docbook:369
 #, no-c-format
 msgid ""
 "Look at the result: 17.97 € or 2400 ¥ at the date of writing these lines."
@@ -969,25 +970,25 @@ msgstr ""
 "Погляньте на результат: 17.97 € або 2400 ¥ на час написання цього підручника."
 
 #. Tag: title
-#: index.docbook:366
+#: index.docbook:376
 #, no-c-format
 msgid "Using Intermediate Memory"
 msgstr "Використання проміжної пам’яті"
 
 #. Tag: title
-#: index.docbook:369
+#: index.docbook:379
 #, no-c-format
 msgid "How do I store now and recall later some value?"
 msgstr "Як зберегти, а потім скористатися певним значенням?"
 
 #. Tag: para
-#: index.docbook:370
+#: index.docbook:380
 #, no-c-format
 msgid "Do your computations."
 msgstr "Виконайте певні розрахунки."
 
 #. Tag: para
-#: index.docbook:371
+#: index.docbook:381
 #, no-c-format
 msgid ""
 "Press <guibutton>Min</guibutton> (Memory in) button to store the value in "
@@ -1000,13 +1001,13 @@ msgstr ""
 "пам’яттю."
 
 #. Tag: para
-#: index.docbook:374
+#: index.docbook:384
 #, no-c-format
 msgid "Do some other work with the calculator."
 msgstr "Виконайте інше завдання на калькуляторі."
 
 #. Tag: para
-#: index.docbook:375
+#: index.docbook:385
 #, no-c-format
 msgid ""
 "Recall the value from the memory by pressing the <guibutton>MR</guibutton> "
@@ -1016,13 +1017,13 @@ msgstr ""
 "(Memory Recall)."
 
 #. Tag: para
-#: index.docbook:379
-#, no-c-format
+#: index.docbook:389
+#, fuzzy, no-c-format
 msgid ""
 "Internally, the values are recalled with no unit or in the reference "
-"currency (euro or dollar) with the maximum precision allowed by the "
-"mathematical library. In some rare cases, this might lead to rounding "
-"problems if the stored value is a rounded value in a non-reference currency."
+"currency (euro) with the maximum precision allowed by the mathematical "
+"library. In some rare cases, this might lead to rounding problems if the "
+"stored value is a rounded value in a non-reference currency."
 msgstr ""
 "У внутрішньому форматі значення зберігаються без символів величини або у "
 "грошових одиницях (євро або доларах) з максимальною точністю, яку підтримує "
@@ -1031,13 +1032,13 @@ msgstr ""
 "є значенням з округленням у неосновній валюті."
 
 #. Tag: title
-#: index.docbook:385
+#: index.docbook:396
 #, no-c-format
 msgid "How do I clear the memory?"
 msgstr "Як спорожнити пам’ять?"
 
 #. Tag: para
-#: index.docbook:386
+#: index.docbook:397
 #, no-c-format
 msgid ""
 "Press the <guibutton>Reset</guibutton> button. Please notice that the "
@@ -1049,19 +1050,19 @@ msgstr ""
 "всіх полів: вводу, результату і пам’яті."
 
 #. Tag: title
-#: index.docbook:392
+#: index.docbook:403
 #, no-c-format
 msgid "How do I compute 3.1 * 5.2 € + 2.7 * 8.9 €?"
 msgstr "Як обчислити 3.1 * 5.2 € + 2.7 * 8.9 €?"
 
 #. Tag: para
-#: index.docbook:393 index.docbook:405
+#: index.docbook:404 index.docbook:416
 #, no-c-format
 msgid "First compute the first half: <userinput>3.1 * 5.2 €</userinput>."
 msgstr "Спочатку обчисліть першу частину: <userinput>3.1 * 5.2 €</userinput>."
 
 #. Tag: para
-#: index.docbook:394 index.docbook:406
+#: index.docbook:405 index.docbook:417
 #, no-c-format
 msgid "Store the result in memory with <guibutton>Min</guibutton> button."
 msgstr ""
@@ -1069,13 +1070,13 @@ msgstr ""
 "guibutton>."
 
 #. Tag: para
-#: index.docbook:395 index.docbook:407
+#: index.docbook:406 index.docbook:418
 #, no-c-format
 msgid "Now compute the other half: <userinput>2.7 * 8.9 €</userinput>."
 msgstr "Тепер обчисліть другу частину: <userinput>2.7 * 8.9 €</userinput>."
 
 #. Tag: para
-#: index.docbook:396
+#: index.docbook:407
 #, no-c-format
 msgid "Add the result to the memory with <guibutton>M+</guibutton> button."
 msgstr ""
@@ -1083,7 +1084,7 @@ msgstr ""
 "<guibutton>M+</guibutton>."
 
 #. Tag: para
-#: index.docbook:397 index.docbook:409
+#: index.docbook:408 index.docbook:420
 #, no-c-format
 msgid "Recall the sum with <guibutton>MR</guibutton> button."
 msgstr ""
@@ -1091,7 +1092,7 @@ msgstr ""
 "guibutton>."
 
 #. Tag: para
-#: index.docbook:400
+#: index.docbook:411
 #, no-c-format
 msgid ""
 "There are other solutions like <userinput>3.1 * 5.2 € Min 2.7 * 8.9 € + MR</"
@@ -1101,13 +1102,13 @@ msgstr ""
 "* 8.9 € + MR</userinput>."
 
 #. Tag: title
-#: index.docbook:404
+#: index.docbook:415
 #, no-c-format
 msgid "How do I compute 3.1 * 5.2 € - 2.7 * 8.9 €?"
 msgstr "Як мені обчислити 3.1 * 5.2 € - 2.7 * 8.9 €?"
 
 #. Tag: para
-#: index.docbook:408
+#: index.docbook:419
 #, no-c-format
 msgid ""
 "Subtract the result from the memory with <guibutton>M-</guibutton> button."
@@ -1116,7 +1117,7 @@ msgstr ""
 "кнопки <guibutton>M-</guibutton>."
 
 #. Tag: para
-#: index.docbook:412
+#: index.docbook:423
 #, no-c-format
 msgid ""
 "The sequence <userinput>3.1 * 5.2 € Min 2.7 * 8.9 € - MR</userinput> "
@@ -1126,91 +1127,91 @@ msgstr ""
 "userinput> обчислить різницю у зворотному порядку."
 
 #. Tag: title
-#: index.docbook:419
+#: index.docbook:430
 #, no-c-format
 msgid "Command Reference"
 msgstr "Довідка щодо команд"
 
 #. Tag: title
-#: index.docbook:422
+#: index.docbook:433
 #, no-c-format
 msgid "Default Shortcuts"
 msgstr "Типові клавіатурні скорочення"
 
 #. Tag: keycombo
-#: index.docbook:425
+#: index.docbook:436
 #, no-c-format
 msgid "&Alt; <keycap>F4</keycap>"
 msgstr "&Alt; <keycap>F4</keycap>"
 
 #. Tag: member
-#: index.docbook:426
+#: index.docbook:437
 #, no-c-format
 msgid "Exits from &keurocalc;"
 msgstr "Завершує роботу &keurocalc;"
 
 #. Tag: keycombo
-#: index.docbook:428
+#: index.docbook:439
 #, no-c-format
 msgid "&Alt; <keycap>A</keycap>"
 msgstr "&Alt; <keycap>A</keycap>"
 
 #. Tag: member
-#: index.docbook:429 index.docbook:520
+#: index.docbook:440 index.docbook:533
 #, no-c-format
 msgid "Displays these help pages"
 msgstr "Показує ці сторінки довідки"
 
 #. Tag: keycombo
-#: index.docbook:431
+#: index.docbook:442
 #, no-c-format
 msgid "&Alt; <keycap>C</keycap>"
 msgstr "&Alt; <keycap>C</keycap>"
 
 #. Tag: member
-#: index.docbook:432
+#: index.docbook:443
 #, no-c-format
 msgid "Goes to the currency selection area"
 msgstr "Переводить вас до області вибору валют"
 
 #. Tag: keycombo
-#: index.docbook:434
+#: index.docbook:445
 #, no-c-format
 msgid "&Alt; <keycap>H</keycap>"
 msgstr "&Alt; <keycap>H</keycap>"
 
 #. Tag: member
-#: index.docbook:435 index.docbook:517
+#: index.docbook:446 index.docbook:530
 #, no-c-format
 msgid "Displays the <guilabel>About</guilabel> box"
 msgstr "Показує панель <guilabel>Про програму</guilabel>"
 
 #. Tag: member
-#: index.docbook:437
+#: index.docbook:448
 #, no-c-format
 msgid "<keycap>0</keycap> - <keycap>9</keycap>"
 msgstr "<keycap>0</keycap> - <keycap>9</keycap>"
 
 #. Tag: member
-#: index.docbook:438 index.docbook:481
+#: index.docbook:449 index.docbook:493
 #, no-c-format
 msgid "Input digits"
 msgstr "Введення цифр"
 
 #. Tag: member
-#: index.docbook:440
+#: index.docbook:451
 #, no-c-format
 msgid "<keycap>.</keycap> or <keycap>,</keycap>"
 msgstr "<keycap>.</keycap> або <keycap>,</keycap>"
 
 #. Tag: member
-#: index.docbook:441 index.docbook:484
+#: index.docbook:452 index.docbook:496
 #, no-c-format
 msgid "Decimal separator"
 msgstr "Відокремлюють цілу частину від дробової"
 
 #. Tag: member
-#: index.docbook:443
+#: index.docbook:454
 #, no-c-format
 msgid ""
 "<keycap>+</keycap>, <keycap>-</keycap>, <keycap>*</keycap> and <keycap>/</"
@@ -1220,43 +1221,43 @@ msgstr ""
 "keycap>"
 
 #. Tag: member
-#: index.docbook:444 index.docbook:511
+#: index.docbook:455 index.docbook:524
 #, no-c-format
 msgid "Operators: addition, subtraction, multiplication and division"
 msgstr "Оператори: додавання, віднімання, множення і ділення"
 
 #. Tag: member
-#: index.docbook:446
+#: index.docbook:457
 #, no-c-format
 msgid "&Enter; and <keycap>Return</keycap>"
 msgstr "&Enter; або <keycap>Return</keycap>"
 
 #. Tag: member
-#: index.docbook:447 index.docbook:499
+#: index.docbook:458 index.docbook:512
 #, no-c-format
 msgid "Validation of input number considered as a simple, unitless, value"
 msgstr "Визначення введеного числа, яка простого значення без величини"
 
 #. Tag: keycap
-#: index.docbook:449
+#: index.docbook:460
 #, no-c-format
 msgid "<keycap>%</keycap>"
 msgstr "<keycap>%</keycap>"
 
 #. Tag: member
-#: index.docbook:450 index.docbook:502
+#: index.docbook:461 index.docbook:515
 #, no-c-format
 msgid "Validation of input number considered as a percentage"
 msgstr "Визначення введеного числа як відсотків"
 
 #. Tag: member
-#: index.docbook:452
+#: index.docbook:463
 #, no-c-format
 msgid "&Backspace;"
 msgstr "&Backspace;"
 
 #. Tag: member
-#: index.docbook:453 index.docbook:487
+#: index.docbook:464 index.docbook:499
 #, no-c-format
 msgid "Removal of last input: digits, decimal separator or operator"
 msgstr ""
@@ -1264,7 +1265,7 @@ msgstr ""
 "оператора"
 
 #. Tag: member
-#: index.docbook:455
+#: index.docbook:466
 #, no-c-format
 msgid "&Tab; and <keycombo action=\"simul\">&Shift; &Tab;</keycombo> keys"
 msgstr ""
@@ -1272,31 +1273,31 @@ msgstr ""
 "keycombo>"
 
 #. Tag: member
-#: index.docbook:456
+#: index.docbook:467
 #, no-c-format
 msgid "Moves from one button to the next or previous one"
 msgstr "Пересування до наступної або попередньої кнопки"
 
 #. Tag: member
-#: index.docbook:458
+#: index.docbook:469
 #, no-c-format
 msgid "Arrow keys"
 msgstr "Клавіші зі стрілками"
 
 #. Tag: member
-#: index.docbook:459
+#: index.docbook:470
 #, no-c-format
 msgid "In the currency selection area, moves from one currency to the other"
 msgstr "У полі вибору валюти пересуває від одного пункту валюти до іншого"
 
 #. Tag: member
-#: index.docbook:461
+#: index.docbook:472
 #, no-c-format
 msgid "Space bar"
 msgstr "Пробіл"
 
 #. Tag: member
-#: index.docbook:462
+#: index.docbook:473
 #, no-c-format
 msgid "When focus is on a push button, presses this button"
 msgstr ""
@@ -1304,112 +1305,112 @@ msgstr ""
 "цієї кнопки"
 
 #. Tag: member
-#: index.docbook:464
+#: index.docbook:475
 #, no-c-format
 msgid "<keycap>E</keycap> or <keycap>$</keycap>"
 msgstr "<keycap>E</keycap> або <keycap>$</keycap>"
 
 #. Tag: member
-#: index.docbook:465 index.docbook:493
-#, no-c-format
+#: index.docbook:476 index.docbook:505
+#, fuzzy, no-c-format
 msgid ""
 "Validation of input number considered as a value expressed in the reference "
-"currency (euro or dollar)"
+"currency (euro)"
 msgstr ""
 "Визначення введеного числа як значення у основній валюті (євро або доларах)"
 
 #. Tag: keycap
-#: index.docbook:467
+#: index.docbook:479
 #, no-c-format
 msgid "<keycap>S</keycap>"
 msgstr "<keycap>S</keycap>"
 
 #. Tag: member
-#: index.docbook:468 index.docbook:505
+#: index.docbook:480 index.docbook:518
 #, no-c-format
 msgid "Change sign of the result"
 msgstr "Зміна знаку результату"
 
 #. Tag: member
-#: index.docbook:470
+#: index.docbook:482
 #, no-c-format
 msgid "Any other key"
 msgstr "Будь-яка інша клавіша"
 
 #. Tag: member
-#: index.docbook:471 index.docbook:496
+#: index.docbook:483 index.docbook:509
 #, no-c-format
 msgid "Validation of input number considered as a number in the other currency"
 msgstr "Визначення введеного числа як величини у неосновній валюті"
 
 #. Tag: title
-#: index.docbook:477
+#: index.docbook:489
 #, no-c-format
 msgid "The buttons"
 msgstr "Кнопки"
 
 #. Tag: member
-#: index.docbook:480
+#: index.docbook:492
 #, no-c-format
 msgid "<guibutton>0</guibutton> to <guibutton>9</guibutton>"
 msgstr "Від <guibutton>0</guibutton> до <guibutton>9</guibutton>"
 
 #. Tag: member
-#: index.docbook:483
+#: index.docbook:495
 #, no-c-format
 msgid "<guibutton>.</guibutton> or <guibutton>,</guibutton>"
 msgstr "<guibutton>.</guibutton> або <guibutton>,</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:486
+#: index.docbook:498
 #, no-c-format
 msgid "&lt;-"
 msgstr "&lt;-"
 
 #. Tag: guibutton
-#: index.docbook:489
+#: index.docbook:501
 #, no-c-format
 msgid "<guibutton>AC</guibutton>"
 msgstr "<guibutton>AC</guibutton>"
 
 #. Tag: member
-#: index.docbook:490
+#: index.docbook:502
 #, no-c-format
 msgid "Clear all: both input and result area"
 msgstr "Спорожнити все: область введення і область результату"
 
 #. Tag: member
-#: index.docbook:492
+#: index.docbook:504
 #, no-c-format
 msgid "<guibutton>€</guibutton> or <guibutton>$</guibutton>"
 msgstr "<guibutton>€</guibutton> або <guibutton>$</guibutton>"
 
 #. Tag: member
-#: index.docbook:495
+#: index.docbook:508
 #, no-c-format
 msgid "The button labeled with the name of an other currency"
 msgstr "Кнопка з міткою, що відповідає назві неосновної валюти"
 
 #. Tag: guibutton
-#: index.docbook:498
+#: index.docbook:511
 #, no-c-format
 msgid "Enter"
 msgstr "Ввести"
 
 #. Tag: guibutton
-#: index.docbook:501
+#: index.docbook:514
 #, no-c-format
 msgid "<guibutton>%</guibutton>"
 msgstr "<guibutton>%</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:504
+#: index.docbook:517
 #, no-c-format
 msgid "<guibutton>+/-</guibutton>"
 msgstr "<guibutton>+/-</guibutton>"
 
 #. Tag: member
-#: index.docbook:507
+#: index.docbook:520
 #, no-c-format
 msgid ""
 "<guibutton>Min</guibutton>, <guibutton>MR</guibutton>, <guibutton>M+</"
@@ -1419,7 +1420,7 @@ msgstr ""
 "guibutton> і <guibutton>-</guibutton>"
 
 #. Tag: member
-#: index.docbook:508
+#: index.docbook:521
 #, no-c-format
 msgid ""
 "Store result in memory, recall memory into result, add result to memory and "
@@ -1429,7 +1430,7 @@ msgstr ""
 "результат до значення у пам’яті і відняти результат від значення у пам’яті."
 
 #. Tag: member
-#: index.docbook:510
+#: index.docbook:523
 #, no-c-format
 msgid ""
 "<guibutton>/</guibutton>, <guibutton>X</guibutton>, <guibutton>-</guibutton> "
@@ -1439,73 +1440,73 @@ msgstr ""
 "і <guibutton>+</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:513
+#: index.docbook:526
 #, no-c-format
 msgid "Reset"
 msgstr "Скинути"
 
 #. Tag: member
-#: index.docbook:514
+#: index.docbook:527
 #, no-c-format
 msgid "Reset both input, result and memory"
 msgstr "Скинути ввід, результат і пам’ять"
 
 #. Tag: guibutton
-#: index.docbook:516
+#: index.docbook:529
 #, no-c-format
 msgid "About"
 msgstr "Про"
 
 #. Tag: guibutton
-#: index.docbook:519
+#: index.docbook:532
 #, no-c-format
 msgid "Help"
 msgstr "Довідка"
 
 #. Tag: member
-#: index.docbook:522
+#: index.docbook:535
 #, no-c-format
 msgid "The drop down list with currency codes and names"
 msgstr "Відкриває спадний список кодів і назв валют"
 
 #. Tag: member
-#: index.docbook:523
+#: index.docbook:536
 #, no-c-format
 msgid "Selects an other currency to work with"
 msgstr "Обирає іншу валюту для операцій"
 
 #. Tag: title
-#: index.docbook:529
+#: index.docbook:542
 #, no-c-format
 msgid "The Settings Dialog"
 msgstr "Діалогове вікно параметрів"
 
 #. Tag: title
-#: index.docbook:536
+#: index.docbook:549
 #, no-c-format
 msgid "Reference currency, rates origin"
 msgstr "Похідна валюта, джерело ставок"
 
 #. Tag: para
-#: index.docbook:538
-#, no-c-format
+#: index.docbook:551
+#, fuzzy, no-c-format
 msgid ""
-"This setting defines the reference currency (euro or dollar), and from where "
-"&keurocalc; should download the exchange rates between the reference "
-"currency and other currencies. The following choices are available:"
+"This setting defines from where &keurocalc; should download the exchange "
+"rates between the reference currency and other currencies. The following "
+"choices are available:"
 msgstr ""
 "За допомогою цього пункту можна визначити основну валюту (євро або долар) та "
 "джерело, звідки &keurocalc; має звантажувати обмінні курси між основною "
 "валютою і іншими валютами. Доступними є такі пункти:"
 
 #. Tag: guilabel
-#: index.docbook:545
+#: index.docbook:558
 #, no-c-format
 msgid "Euro, no network access (fixed rates only)"
 msgstr "Євро, без доступу до мережі (лише фіксовані курси)"
 
 #. Tag: para
-#: index.docbook:547
+#: index.docbook:560
 #, no-c-format
 msgid ""
 "Euro is the reference currency. No variable rate is downloaded or used. The "
@@ -1517,19 +1518,19 @@ msgstr ""
 "відносно євро."
 
 #. Tag: para
-#: index.docbook:550
+#: index.docbook:563
 #, no-c-format
 msgid "This setting is adapted to computers with no network access."
 msgstr "Цей параметр призначено для комп’ютерів без доступу до мережі."
 
 #. Tag: guilabel
-#: index.docbook:555
+#: index.docbook:568
 #, no-c-format
 msgid "Euro, European Central Bank"
 msgstr "Євро, Центральний Європейський Банк"
 
 #. Tag: para
-#: index.docbook:557
+#: index.docbook:570
 #, no-c-format
 msgid ""
 "Euro is the reference currency. The fixed exchange rates are available. "
@@ -1541,47 +1542,32 @@ msgstr ""
 "ecb.int/stats/eurofxref/\">Європейського Центрального Банка (ECB)</ulink>."
 
 #. Tag: guilabel
-#: index.docbook:564
+#: index.docbook:591
 #, no-c-format
-msgid "Dollar, New York Federal Reserve Bank"
-msgstr "Долар, Нью-йоркський Банк Федерального Резерву"
+msgid "Euro, Time Genie"
+msgstr ""
 
 #. Tag: para
-#: index.docbook:566
-#, no-c-format
+#: index.docbook:593
+#, fuzzy, no-c-format
 msgid ""
-"Dollar is the reference currency. There are no fixed exchange rates. "
+"Euro is the reference currency. The fixed exchange rates are available. "
 "&keurocalc; attempts to download the variable rates from the <ulink url="
-"\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">New York Federal Reserve "
-"Bank (NY FRB)</ulink>."
+"\"http://rss.timegenie.com/foreign_exchange_rates_forex\">Time Genie (TG)</"
+"ulink>."
 msgstr ""
-"Основною валютою є долар. Фіксовані обмінні курси будуть недоступними. "
-"&keurocalc; спробує звантажити змінні курси валют з сайта <ulink url="
-"\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">Нью-йоркського "
-"Федерального резервного банка (NY FRB)</ulink>."
-
-#. Tag: para
-#: index.docbook:570
-#, no-c-format
-msgid ""
-"Currently, &keurocalc; has a problem determining the date of the latest "
-"exchange rates published by that bank, because of time zone offsets and non-"
-"working days. For safety, &keurocalc; always asks for yesterday's rates, "
-"which is of course not optimal."
-msgstr ""
-"У поточній версії &keurocalc; має проблеми з визначенням дат останніх "
-"обмінних курсів, опублікованих банком, через різницю у часових поясах і "
-"неробочі дні. З міркувань безпеки &keurocalc; завжди надсилає запит на "
-"вчорашні курси, що, звичайно ж, не є оптимальним."
+"Основною валютою є євро. Доступними будуть фіксовані обмінні курси. "
+"&keurocalc; спробує звантажити змінні курси з сайта <ulink url=\"http://www."
+"ecb.int/stats/eurofxref/\">Європейського Центрального Банка (ECB)</ulink>."
 
 #. Tag: title
-#: index.docbook:582
+#: index.docbook:604
 #, no-c-format
 msgid "Default currency"
 msgstr "Типова валюта"
 
 #. Tag: para
-#: index.docbook:584
+#: index.docbook:606
 #, no-c-format
 msgid ""
 "This setting defines the other currency that is used when &keurocalc; starts "
@@ -1592,7 +1578,7 @@ msgstr ""
 "користувачем нових параметрів."
 
 #. Tag: para
-#: index.docbook:587
+#: index.docbook:609
 #, no-c-format
 msgid ""
 "Notice that the selected currency might not be provided by the selected "
@@ -1603,13 +1589,13 @@ msgstr ""
 "доступних у списку пунктів валют."
 
 #. Tag: title
-#: index.docbook:593
+#: index.docbook:615
 #, no-c-format
 msgid "Rounding"
 msgstr "Заокруглення"
 
 #. Tag: para
-#: index.docbook:595
+#: index.docbook:617
 #, no-c-format
 msgid ""
 "This setting defines how the results should be presented in the display "
@@ -1624,13 +1610,13 @@ msgstr ""
 "використовувати такі методи округлення:"
 
 #. Tag: guilabel
-#: index.docbook:602
+#: index.docbook:624
 #, no-c-format
 msgid "Official rounding rules"
 msgstr "Офіційні правила заокруглення"
 
 #. Tag: para
-#: index.docbook:604
+#: index.docbook:626
 #, no-c-format
 msgid ""
 "The EU conversion rules or other official conversion rules are used. It "
@@ -1645,7 +1631,7 @@ msgstr ""
 "(<quote>копійок</quote>) для валют на зразок євро або долара."
 
 #. Tag: para
-#: index.docbook:608
+#: index.docbook:630
 #, no-c-format
 msgid ""
 "For example, 158.323 yen would be rounded to 158 yen. 12.537 euro would be "
@@ -1655,13 +1641,13 @@ msgstr ""
 "до 12,54 євро."
 
 #. Tag: guilabel
-#: index.docbook:614
+#: index.docbook:636
 #, no-c-format
 msgid "Smallest coin method"
 msgstr "Метод найменшої монети"
 
 #. Tag: para
-#: index.docbook:616
+#: index.docbook:638
 #, no-c-format
 msgid ""
 "The result is rounded to the next value of the smallest coin that circulates "
@@ -1677,7 +1663,7 @@ msgstr ""
 "у випадку ліри, це монета у 50 лір."
 
 #. Tag: para
-#: index.docbook:621
+#: index.docbook:643
 #, no-c-format
 msgid ""
 "For example, 1235.9 Italian liras would be rounded to 1250 liras. 39.45 "
@@ -1687,7 +1673,7 @@ msgstr ""
 "норвезьких крон буде округлено до 39,50 крон."
 
 #. Tag: para
-#: index.docbook:623
+#: index.docbook:645
 #, no-c-format
 msgid ""
 "We lack information about the smallest coins that exist in every country. "
@@ -1700,13 +1686,13 @@ msgstr ""
 "які перебувають у обігу у вашій країні, — автори негайно виправлять помилку."
 
 #. Tag: guilabel
-#: index.docbook:630
+#: index.docbook:652
 #, no-c-format
 msgid "No rounding at all"
 msgstr "Зовсім без заокруглення"
 
 #. Tag: para
-#: index.docbook:632
+#: index.docbook:654
 #, no-c-format
 msgid "The computed value is displayed unchanged, as a floating point number."
 msgstr ""
@@ -1714,13 +1700,13 @@ msgstr ""
 "комою."
 
 #. Tag: title
-#: index.docbook:641
+#: index.docbook:663
 #, no-c-format
 msgid "Look and feel"
 msgstr "Вигляд і поведінка"
 
 #. Tag: para
-#: index.docbook:643
+#: index.docbook:665
 #, no-c-format
 msgid ""
 "This setting defines the appearance and behavior of &keurocalc;. The "
@@ -1730,13 +1716,13 @@ msgstr ""
 "Ви можете скористатися такими параметрами:"
 
 #. Tag: guilabel
-#: index.docbook:648
+#: index.docbook:670
 #, no-c-format
 msgid "Display color"
 msgstr "Колір показу"
 
 #. Tag: para
-#: index.docbook:650
+#: index.docbook:672
 #, no-c-format
 msgid ""
 "The background color of the display areas (both input and result). To change "
@@ -1751,13 +1737,13 @@ msgstr ""
 "підтвердити ваш вибір."
 
 #. Tag: guilabel
-#: index.docbook:658
+#: index.docbook:680
 #, no-c-format
 msgid "Enable splash screen"
 msgstr "Увімкнути екран заставки"
 
 #. Tag: para
-#: index.docbook:660
+#: index.docbook:682
 #, no-c-format
 msgid ""
 "Uncheck this box if you do not want to initial picture to appear when "
@@ -1767,26 +1753,26 @@ msgstr ""
 "час запуску &keurocalc;."
 
 #. Tag: title
-#: index.docbook:672
+#: index.docbook:694
 #, no-c-format
 msgid "Credits and License"
 msgstr "Подяки і ліцензія"
 
 #. Tag: para
-#: index.docbook:674
+#: index.docbook:696
 #, no-c-format
 msgid "&keurocalc;"
 msgstr "&keurocalc;"
 
 #. Tag: para
-#: index.docbook:676
-#, no-c-format
-msgid "Program copyright 2001-2006 the &keurocalc; developers:"
+#: index.docbook:698
+#, fuzzy, no-c-format
+msgid "Program copyright 2001-2011 the &keurocalc; developers:"
 msgstr ""
 "Авторські права на програму належать розробникам &keurocalc;:, ©2001-2006"
 
 #. Tag: para
-#: index.docbook:679
+#: index.docbook:701
 #, no-c-format
 msgid ""
 "Éric Bischoff <email>ebischoff@_NOSPAM_nerim.net</email> - design and "
@@ -1796,7 +1782,7 @@ msgstr ""
 "втілення зовнішнього вигляду"
 
 #. Tag: para
-#: index.docbook:680
+#: index.docbook:702
 #, no-c-format
 msgid ""
 "Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> - additional "
@@ -1805,7 +1791,7 @@ msgstr ""
 "Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> — додаткові функції"
 
 #. Tag: para
-#: index.docbook:681
+#: index.docbook:703
 #, no-c-format
 msgid ""
 "Melchior Franz <email>a8603365@_NOSPAM_unet.univie.ac.at</email> - design "
@@ -1815,7 +1801,7 @@ msgstr ""
 "вигляд і тестування"
 
 #. Tag: para
-#: index.docbook:682
+#: index.docbook:704
 #, no-c-format
 msgid ""
 "Bas Willems <email>cybersurfer@_NOSPAM_euronet.nl</email> - graphical artwork"
@@ -1824,24 +1810,24 @@ msgstr ""
 "графічних елементів"
 
 #. Tag: para
-#: index.docbook:685
-#, no-c-format
+#: index.docbook:707
+#, fuzzy, no-c-format
 msgid ""
-"Documentation copyright 2001-2007 Éric Bischoff "
+"Documentation copyright 2001-2011 Éric Bischoff "
 "<email>ebischoff@_NOSPAM_nerim.net</email>."
 msgstr ""
 "Авторські права на документацію належать Éric Bischoff "
 "<email>ebischoff@_NOSPAM_nerim.net</email>, ©2001-2007."
 
 #. Tag: para
-#: index.docbook:688
+#: index.docbook:710
 #, no-c-format
 msgid "Documentation reviewed by &Philip.Rodrigues; &Philip.Rodrigues.mail;."
 msgstr ""
 "Автор перегляду документації &Philip.Rodrigues; &Philip.Rodrigues.mail;."
 
 #. Tag: trans_comment
-#: index.docbook:689
+#: index.docbook:711
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
@@ -1849,25 +1835,25 @@ msgstr ""
 "para>"
 
 #. Tag: chapter
-#: index.docbook:689
+#: index.docbook:711
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&underFDL; &underGPL;"
 
 #. Tag: title
-#: index.docbook:697
+#: index.docbook:719
 #, no-c-format
 msgid "Installation"
 msgstr "Встановлення"
 
 #. Tag: title
-#: index.docbook:700
+#: index.docbook:722
 #, no-c-format
 msgid "How to obtain &keurocalc;"
 msgstr "Як отримати &keurocalc;"
 
 #. Tag: para
-#: index.docbook:702
+#: index.docbook:724
 #, no-c-format
 msgid ""
 "&keurocalc; is part of the <ulink url=\"http://extragear.kde.org/\">KDE "
@@ -1881,13 +1867,13 @@ msgstr ""
 "сторінки програми</ulink>."
 
 #. Tag: title
-#: index.docbook:711
+#: index.docbook:733
 #, no-c-format
 msgid "Requirements"
 msgstr "Вимоги"
 
 #. Tag: para
-#: index.docbook:713
+#: index.docbook:735
 #, no-c-format
 msgid "In order to successfully use &keurocalc;, you need &kde; 4.0."
 msgstr ""
@@ -1895,7 +1881,7 @@ msgstr ""
 "встановити &kde; 4.0."
 
 #. Tag: para
-#: index.docbook:715
+#: index.docbook:737
 #, no-c-format
 msgid ""
 "All required libraries can be found on <ulink url=\"ftp://ftp.kde.org\">ftp."
@@ -1905,13 +1891,13 @@ msgstr ""
 "kde.org</ulink>, сайті &FTP; проекту &kde;."
 
 #. Tag: title
-#: index.docbook:722
+#: index.docbook:744
 #, no-c-format
 msgid "Compilation and Installation"
 msgstr "Збирання і встановлення"
 
 #. Tag: para
-#: index.docbook:724
+#: index.docbook:746
 #, no-c-format
 msgid ""
 "In order to compile and install &keurocalc; on your system, type the "
@@ -1921,7 +1907,7 @@ msgstr ""
 "такі команди у основній теці видобутого пакунка &keurocalc;:"
 
 #. Tag: screen
-#: index.docbook:728
+#: index.docbook:750
 #, no-c-format
 msgid ""
 "<prompt>%</prompt> <userinput>mkdir build</userinput>\n"
@@ -1937,7 +1923,7 @@ msgstr ""
 "<prompt>%</prompt> <userinput>make install</userinput>"
 
 #. Tag: para
-#: index.docbook:731
+#: index.docbook:753
 #, no-c-format
 msgid ""
 "Since cmake autodetects your system settings, you should have no trouble "
@@ -1947,6 +1933,55 @@ msgstr ""
 "Оскільки cmake автоматично визначає параметри вашої системи, у вас не "
 "повинно виникнути проблем зі збиранням &keurocalc;. Якщо такі проблеми все ж "
 "виникнуть, повідомте про них авторам &keurocalc;."
+
+#~ msgid ""
+#~ "To do conversions between the US dollar and other currencies according to "
+#~ "the daily exchange rate defined by the <ulink url=\"http://www.ny.frb.org/"
+#~ "markets/fxrates/noon.cfm\">New York Federal Reserve Bank (NY FRB)</ulink>."
+#~ msgstr ""
+#~ "Для виконання перетворень між доларом США та іншими валютами, згідно до "
+#~ "денного курсу обміну, встановленого <ulink url=\"http://www.ny.frb.org/"
+#~ "markets/fxrates/noon.cfm\">Федеральним резервним банком Нью-Йорка (NY FRB)"
+#~ "</ulink>."
+
+#~ msgid ""
+#~ "To do conversions between any two currencies that are part of the list "
+#~ "published the NY FRB."
+#~ msgstr ""
+#~ "Для виконання перетворення сум у будь-яких інших валютах, які містяться у "
+#~ "списку, оприлюдненому NY FRB."
+
+#~ msgid ""
+#~ "New York Federal Reserve Bank rates are not available during the non-"
+#~ "working days (Christmas, Easter, etc.)."
+#~ msgstr ""
+#~ "Курси Нью-йоркського Федерального Резервного Банка недоступні протягом "
+#~ "святкових днів (Різдва, Пасхи тощо)."
+
+#~ msgid "Dollar, New York Federal Reserve Bank"
+#~ msgstr "Долар, Нью-йоркський Банк Федерального Резерву"
+
+#~ msgid ""
+#~ "Dollar is the reference currency. There are no fixed exchange rates. "
+#~ "&keurocalc; attempts to download the variable rates from the <ulink url="
+#~ "\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">New York Federal "
+#~ "Reserve Bank (NY FRB)</ulink>."
+#~ msgstr ""
+#~ "Основною валютою є долар. Фіксовані обмінні курси будуть недоступними. "
+#~ "&keurocalc; спробує звантажити змінні курси валют з сайта <ulink url="
+#~ "\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">Нью-йоркського "
+#~ "Федерального резервного банка (NY FRB)</ulink>."
+
+#~ msgid ""
+#~ "Currently, &keurocalc; has a problem determining the date of the latest "
+#~ "exchange rates published by that bank, because of time zone offsets and "
+#~ "non-working days. For safety, &keurocalc; always asks for yesterday's "
+#~ "rates, which is of course not optimal."
+#~ msgstr ""
+#~ "У поточній версії &keurocalc; має проблеми з визначенням дат останніх "
+#~ "обмінних курсів, опублікованих банком, через різницю у часових поясах і "
+#~ "неробочі дні. З міркувань безпеки &keurocalc; завжди надсилає запит на "
+#~ "вчорашні курси, що, звичайно ж, не є оптимальним."
 
 #~ msgid "<accel>A</accel>bout"
 #~ msgstr "<accel>П</accel>ро"

@@ -8,50 +8,172 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: keurocalc\n"
-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-20 04:56+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-09 01:46+0100\n"
 "PO-Revision-Date: 2009-11-18 15:18+0200\n"
 "Last-Translator: Petros <pvidalis@gmail.com>\n"
 "Language-Team: Ελληνικά <i18ngr@lists.hellug.gr>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
+#: calculator.cpp:784
+msgid "Currency Calculator"
+msgstr "Υπολογιστής συναλλάγματος"
+
+#: calculator.cpp:788
+msgid "Input"
+msgstr "Είσοδος"
+
+#: calculator.cpp:791
+msgid "Result"
+msgstr "Αποτέλεσμα"
+
+#: calculator.cpp:797
+msgid "Correct last input digit"
+msgstr "Διόρθωση τελευταίου ψηφίου εισόδου"
+
+#: calculator.cpp:801
+msgid "Enter value expressed in reference currency"
+msgstr "Εισαγωγή τιμής εκφραζόμενης στο νόμισμα αναφοράς"
+
+#: calculator.cpp:805
+msgid "Divide"
+msgstr "Διαίρεση"
+
+#: calculator.cpp:809
+msgid "Store in memory"
+msgstr "Αποθήκευση στη μνήμη"
+
+#: calculator.cpp:813
+msgid "Reset both input, result and memory"
+msgstr "Επαναφορά της εισόδου, του αποτελέσματος και της μνήμης"
+
+#: calculator.cpp:815
+msgid "Reset"
+msgstr "Επαναφορά"
+
+#: calculator.cpp:821
+msgid "Enter value expressed in currency"
+msgstr "Εισαγωγή τιμής εκφραζόμενης στο νόμισμα"
+
+#: calculator.cpp:825
+msgid "Multiply"
+msgstr "Πολλαπλασιασμός"
+
+#: calculator.cpp:829
+msgid "Recall from memory"
+msgstr "Επαναφορά από τη μνήμη"
+
+#: calculator.cpp:833
+msgid "Display about box"
+msgstr "Εμφάνιση κουτιού σχετικά με το πρόγραμμα"
+
+#: calculator.cpp:835
+msgid "&About..."
+msgstr "&Σχετικά..."
+
+#: calculator.cpp:836
+msgid "Alt+A"
+msgstr ""
+
+#: calculator.cpp:841
+msgid "Enter simple value"
+msgstr "Εισαγωγή απλής τιμής"
+
+#: calculator.cpp:843
+#, fuzzy
+msgid "Enter"
+msgstr "Enter"
+
+#: calculator.cpp:845
+msgid "Subtract"
+msgstr "Αφαίρεση"
+
+#: calculator.cpp:849
+msgid "Substract from memory"
+msgstr "Αφαίρεση από τη μνήμη"
+
+#: calculator.cpp:853
+msgid "Display help pages"
+msgstr "Εμφάνιση σελίδων βοήθειας"
+
+#: calculator.cpp:855
+msgid "&Help..."
+msgstr "&Βοήθεια..."
+
+#: calculator.cpp:856 settingsdialog.cpp:372
+msgid "Alt+H"
+msgstr ""
+
+#: calculator.cpp:860
+msgid "Apply percentage value"
+msgstr "Εφαρμογή ποσοστού τις εκατό"
+
+#: calculator.cpp:864
+msgid "Change sign"
+msgstr "Αλλαγή προσήμου"
+
+#: calculator.cpp:868
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: calculator.cpp:872
+msgid "Add to memory"
+msgstr "Πρόσθεση στη μνήμη"
+
+#: calculator.cpp:876
+msgid "Configure KEuroCalc"
+msgstr "Ρύθμιση του KEuroCalc"
+
+#: calculator.cpp:878
+msgid "&Settings..."
+msgstr "&Ρυθμίσεις..."
+
+#: calculator.cpp:879 settingsdialog.cpp:365
+msgid "Alt+S"
+msgstr ""
+
+#: calculator.cpp:881
+msgid "Currencies"
+msgstr "Νομίσματα"
+
 #: keurocalc.cpp:70
 msgid "Cannot load currencies.xml"
 msgstr "Αποτυχία φόρτωσης του currencies.xml"
 
-#: keurocalc.cpp:968
+#: keurocalc.cpp:973
 msgid "Fixed"
 msgstr "Σταθερό"
 
-#: keurocalc.cpp:972
+#: keurocalc.cpp:977
 msgid "ECB"
 msgstr "ECB"
 
-#: keurocalc.cpp:973 keurocalc.cpp:977
+#: keurocalc.cpp:978 keurocalc.cpp:986
 msgid "Loading..."
 msgstr "Φόρτωση..."
 
-#: keurocalc.cpp:976
-msgid "NY FRB"
-msgstr "NY FRB"
+#: keurocalc.cpp:985
+msgid "TG"
+msgstr ""
 
-#: keurocalc.cpp:982
+#: keurocalc.cpp:991
 msgid "Official rules"
 msgstr "Επίσημοι κανόνες"
 
-#: keurocalc.cpp:985
+#: keurocalc.cpp:994
 msgid "Smallest coin"
 msgstr "Μικρότερο νόμισμα"
 
-#: keurocalc.cpp:988
+#: keurocalc.cpp:997
 msgid "No rounding"
 msgstr "Δίχως στρογγυλοποίηση"
 
-#: keurocalc.cpp:1053
+#: keurocalc.cpp:1071
 msgid "Not loaded"
 msgstr "Μη φορτωμένο"
 
@@ -65,16 +187,19 @@ msgstr "Μετατροπέας συναλλάγματος και υπολογι�
 
 #: main.cpp:33
 #, fuzzy
-#| msgid "(c) 2001-2009, the KEuroCalc developers"
-msgid "(c) 2001-2010, the KEuroCalc developers"
+msgid "(c) 2001-2011, the KEuroCalc developers"
 msgstr "(c) 2001-2009, οι προγραμματιστές του KEuroCalc"
 
 #: main.cpp:34
+#, fuzzy
 msgid ""
 "A program by Éric Bischoff <ebischoff@nerim.net>\n"
 "\n"
 "This program is dedicated to humorist Michael Moore, for he\n"
 "knows that money does not justify anything...\n"
+"\n"
+"Time Genie exchange rates courtesy of <a href='http://www.timegenie.com/' "
+"title='foreign exchange rates courtesy of Time Genie'>Time Genie</a>\n"
 msgstr ""
 "Ένα πρόγραμμα από τον Éric Bischoff <ebischoff@nerim.net>\n"
 "\n"
@@ -95,7 +220,6 @@ msgstr "Gil Gross"
 
 #: main.cpp:43
 #, fuzzy
-#| msgid "Additional functionnality"
 msgid "Additional functionality"
 msgstr "Επιπλέον λειτουργικότητα"
 
@@ -115,493 +239,505 @@ msgstr "Bas Willems"
 msgid "Graphical artwork"
 msgstr "Γραφικό στόλισμα"
 
-#: names.cpp:54
+#: names.cpp:96
 msgid "South African rand"
 msgstr "Νότια Αφρική ραντ"
 
-#: names.cpp:53
-msgid "Venezuelian bolivar"
+#: names.cpp:95
+msgid "Yemen Rial"
+msgstr ""
+
+#: names.cpp:94
+#, fuzzy
+msgid "West African CFA Franc"
+msgstr "Νότια Αφρική ραντ"
+
+#: names.cpp:93
+#, fuzzy
+msgid "East Caribbean Dollar"
+msgstr "Αυστραλία δολάριο"
+
+#: names.cpp:92
+#, fuzzy
+msgid "Central African CFA Franc"
+msgstr "Νότια Αφρική ραντ"
+
+#: names.cpp:91
+msgid "Vietnam Dong"
+msgstr ""
+
+#: names.cpp:90
+#, fuzzy
+msgid "Venezuelan Bolivar Fuerte"
 msgstr "Βενεζουέλα μπολιβάρ"
 
-#: names.cpp:52
+#: names.cpp:89
 msgid "US dollar"
 msgstr "ΗΠΑ δολάριο"
 
-#: names.cpp:51
+#: names.cpp:88
+msgid "Ukraine Hryvnia"
+msgstr ""
+
+#: names.cpp:87
 msgid "New Taiwanese dollar"
 msgstr "Ταϊβάν δολάριο"
 
-#: names.cpp:50
+#: names.cpp:86
+msgid "Trinidad and Tobago Dollar"
+msgstr ""
+
+#: names.cpp:85
 msgid "New Turkish lira"
 msgstr "Τουρκία λίρα"
 
-#: names.cpp:49
+#: names.cpp:84
 msgid "Thailandese baht"
 msgstr "Ταϊλανδέζικο μπαχτ"
 
-#: names.cpp:48
+#: names.cpp:83
+msgid "Syrian Pound"
+msgstr ""
+
+#: names.cpp:82
+msgid "Sao Tome and Principe Dobra"
+msgstr ""
+
+#: names.cpp:81
 msgid "Slovakian koruna"
 msgstr "Σλοβακική κορώνα"
 
-#: names.cpp:47
+#: names.cpp:80
 msgid "Slovenian tolar"
 msgstr "Σλοβένικο τόλαρ"
 
-#: names.cpp:46
+#: names.cpp:79
 msgid "Singapore dollar"
 msgstr "Σινγκαπούρη δολάριο"
 
-#: names.cpp:45
+#: names.cpp:78
 msgid "Swedish krona"
 msgstr "Σουηδική κορώνα"
 
-#: names.cpp:44
+#: names.cpp:77
+msgid "Saudi Arabia Riyal"
+msgstr ""
+
+#: names.cpp:76
 msgid "Russian rouble"
 msgstr "Ρώσικο ρούβλι"
 
-#: names.cpp:43
+#: names.cpp:75
+msgid "Serbian Dinar"
+msgstr ""
+
+#: names.cpp:74
 msgid "New Romanian leu"
 msgstr "Ρουμάνικο λεβ"
 
-#: names.cpp:42
+#: names.cpp:73
+msgid "Qatar Rial"
+msgstr ""
+
+#: names.cpp:72
 msgid "Portuguese escudo"
 msgstr "Πορτογαλέζικο εσκούδο"
 
-#: names.cpp:41
+#: names.cpp:71
 msgid "Polish zloty"
 msgstr "Πολωνικό ζλότι"
 
-#: names.cpp:40
+#: names.cpp:70
+#, fuzzy
+msgid "Pakistan Rupee"
+msgstr "Ινδικό ρούπε"
+
+#: names.cpp:69
 msgid "Philippine peso"
 msgstr "Φιλιππίνες πέσο"
 
-#: names.cpp:39
+#: names.cpp:68
+msgid "Peru Neuevo Sol"
+msgstr ""
+
+#: names.cpp:67
+msgid "Panama Balboa"
+msgstr ""
+
+#: names.cpp:66
+msgid "Oman Rial"
+msgstr ""
+
+#: names.cpp:65
 msgid "New Zealand dollar"
 msgstr "Νέα Ζηλανδία δολάριο"
 
-#: names.cpp:38
+#: names.cpp:64
 msgid "Norvegian krone"
 msgstr "Νορβηγική κορώνα"
 
-#: names.cpp:37
+#: names.cpp:63
 msgid "Dutch gulden"
 msgstr "Ολλανδικό γκούλντεν"
 
-#: names.cpp:36
+#: names.cpp:62
+msgid "Mozambican Metical"
+msgstr ""
+
+#: names.cpp:61
 msgid "Malaysian ringgit"
 msgstr "Μαλαισιάνο ρίνγκιτ"
 
-#: names.cpp:35
+#: names.cpp:60
 msgid "Mexican peso"
 msgstr "Μεξικάνικο πέσο"
 
-#: names.cpp:34
+#: names.cpp:59
 msgid "Maltese lira"
 msgstr "Μαλτέζικη λίρα"
 
-#: names.cpp:33
+#: names.cpp:58
+msgid "Macau Pataca"
+msgstr ""
+
+#: names.cpp:57
+msgid "Morocco Dirham"
+msgstr ""
+
+#: names.cpp:56
 msgid "Latvian latas"
 msgstr "Λετονικό λάτας"
 
-#: names.cpp:32
+#: names.cpp:55
 msgid "Luxembourg franc"
 msgstr "Λουξεμβούργο φράγκο"
 
-#: names.cpp:31
+#: names.cpp:54
 msgid "Lituanian litas"
 msgstr "Λιθουανία λίτας"
 
-#: names.cpp:30
+#: names.cpp:53
 msgid "Sri Lankan rupee"
 msgstr "Σρι Λάνκα ρούπε"
 
-#: names.cpp:29
+#: names.cpp:52
+msgid "Kazakhstan Tenge"
+msgstr ""
+
+#: names.cpp:51
+#, fuzzy
+msgid "Cayman Islands Dollar"
+msgstr "Καναδικό δολάριο"
+
+#: names.cpp:50
+msgid "Kuwait Dinar"
+msgstr ""
+
+#: names.cpp:49
 msgid "South Korean won"
 msgstr "Νότια Κορέα γουόν"
 
-#: names.cpp:28
+#: names.cpp:48
+msgid "Cambodia Riel"
+msgstr ""
+
+#: names.cpp:47
+#, fuzzy
+msgid "Kenya Schilling"
+msgstr "Αυστρία σκίλινγκ"
+
+#: names.cpp:46
 msgid "Japanese yen"
 msgstr "Ιαπωνικό γιεν"
 
-#: names.cpp:27
+#: names.cpp:45
+#, fuzzy
+msgid "Jamaica Dollar"
+msgstr "Καναδικό δολάριο"
+
+#: names.cpp:44
 msgid "Italian lira"
 msgstr "Ιταλική λίρα"
 
-#: names.cpp:26
+#: names.cpp:43
 msgid "Icelandic krona"
 msgstr "Ισλανδική κορώνα"
 
-#: names.cpp:25
+#: names.cpp:42
+msgid "Iran Rial"
+msgstr ""
+
+#: names.cpp:41
 msgid "Indian rupee"
 msgstr "Ινδικό ρούπε"
 
-#: names.cpp:24
+#: names.cpp:40
+msgid "Israel New Shekel"
+msgstr ""
+
+#: names.cpp:39
 msgid "Irish punt"
 msgstr "Ιρλανδικό πουντ"
 
-#: names.cpp:23
+#: names.cpp:38
 msgid "Indonesian rupiah"
 msgstr "Ινδονησία ρούπια"
 
-#: names.cpp:22
+#: names.cpp:37
 msgid "Hungarian forint"
 msgstr "Ουγγαρία φιορίνι"
 
-#: names.cpp:21
+#: names.cpp:36
 msgid "Croatian kuna"
 msgstr "Κροατική κορώνα"
 
-#: names.cpp:20
+#: names.cpp:35
 msgid "Hong kong dollar"
 msgstr "Χονγκ Κονγκ δολάριο"
 
-#: names.cpp:19
+#: names.cpp:34
+#, fuzzy
+msgid "Guyana Dollar"
+msgstr "Καναδικό δολάριο"
+
+#: names.cpp:33
 msgid "Greek drachma"
 msgstr "Ελληνική δραχμή"
 
-#: names.cpp:18
+#: names.cpp:32
 msgid "Great Britain pound"
 msgstr "Μεγάλη βρετανία λίρα"
 
-#: names.cpp:17
+#: names.cpp:31
 msgid "French franc"
 msgstr "Γαλλικό φράγκο"
 
-#: names.cpp:16
+#: names.cpp:30
+#, fuzzy
+msgid "Fiji Dollar"
+msgstr "ΗΠΑ δολάριο"
+
+#: names.cpp:29
 msgid "Finnish markka"
 msgstr "Φινλανδική μάρκα"
 
-#: names.cpp:15
+#: names.cpp:28
 msgid "EU euro"
 msgstr "Ε.Ε. ευρώ"
 
-#: names.cpp:14
+#: names.cpp:27
 msgid "Spanish peseta"
 msgstr "Ισπανική πεσέτα"
 
-#: names.cpp:13
+#: names.cpp:26
+#, fuzzy
+msgid "Egypt Pound"
+msgstr "Κυπριακή λίρα"
+
+#: names.cpp:25
 msgid "Estonian kroon"
 msgstr "Εσθονική κορώνα"
 
-#: names.cpp:12
+#: names.cpp:24
+msgid "Dominican Republic Peso"
+msgstr ""
+
+#: names.cpp:23
 msgid "Danish krone"
 msgstr "Δανική κορώνα"
 
-#: names.cpp:11
+#: names.cpp:22
 msgid "German deutschmark"
 msgstr "Γερμανικό μάρκο"
 
-#: names.cpp:10
+#: names.cpp:21
 msgid "Czech koruna"
 msgstr "Τσέχικη κορώνα"
 
-#: names.cpp:9
+#: names.cpp:20
 msgid "Cyprus pound"
 msgstr "Κυπριακή λίρα"
 
-#: names.cpp:8
+#: names.cpp:19
+msgid "Cape Verde Escudo"
+msgstr ""
+
+#: names.cpp:18
 msgid "Chinese yuan"
 msgstr "Κινέζικο γιουάν"
 
-#: names.cpp:7
+#: names.cpp:17
+msgid "Chile Peso"
+msgstr ""
+
+#: names.cpp:16
 msgid "Swiss franc"
 msgstr "Ελβετικό φράγκο"
 
-#: names.cpp:6
+#: names.cpp:15
 msgid "Canadian dollar"
 msgstr "Καναδικό δολάριο"
 
-#: names.cpp:5
+#: names.cpp:14
+#, fuzzy
+msgid "Bahamas Dollar"
+msgstr "Καναδικό δολάριο"
+
+#: names.cpp:13
 msgid "Brazilian real"
 msgstr "Βραζιλία ρεάλ"
 
-#: names.cpp:4
+#: names.cpp:12
+msgid "Brunei Dollar"
+msgstr ""
+
+#: names.cpp:11
+msgid "Bermuda Dollar"
+msgstr ""
+
+#: names.cpp:10
+msgid "Bahrain Dinar"
+msgstr ""
+
+#: names.cpp:9
 msgid "Bulgarian lev"
 msgstr "Βουλγαρία λεβ"
 
-#: names.cpp:3
+#: names.cpp:8
 msgid "Belgian franc"
 msgstr "Βελγικό φράγκο"
 
-#: names.cpp:2
+#: names.cpp:7
+#, fuzzy
+msgid "Barbados Dollar"
+msgstr "Καναδικό δολάριο"
+
+#: names.cpp:6
 msgid "Australian dollar"
 msgstr "Αυστραλία δολάριο"
 
-#: names.cpp:1
+#: names.cpp:5
 msgid "Austrian schilling"
 msgstr "Αυστρία σκίλινγκ"
 
-#. i18n: file: calculator.ui:14
-#. i18n: ectx: property (windowTitle), widget (QDialog, Calculator)
-#: rc.cpp:3
-msgid "Currency Calculator"
-msgstr "Υπολογιστής συναλλάγματος"
+#: names.cpp:4
+msgid "Argentina Peso"
+msgstr ""
 
-#. i18n: file: calculator.ui:205
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox4)
-#: rc.cpp:6
-msgid "Input"
-msgstr "Είσοδος"
+#: names.cpp:3
+msgid "Angola Kwanza"
+msgstr ""
 
-#. i18n: file: calculator.ui:1247
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox5)
-#: rc.cpp:9
-msgid "Result"
-msgstr "Αποτέλεσμα"
+#: names.cpp:2
+msgid "Netherlands Antilles Guilder"
+msgstr ""
 
-#. i18n: file: calculator.ui:1858
-#. i18n: ectx: property (toolTip), widget (QPushButton, BackspaceButton)
-#: rc.cpp:12
-msgid "Correct last input digit"
-msgstr "Διόρθωση τελευταίου ψηφίου εισόδου"
+#: names.cpp:1
+msgid "United Arab Emirates Dirham"
+msgstr ""
 
-#. i18n: file: calculator.ui:1896
-#. i18n: ectx: property (toolTip), widget (QPushButton, ReferenceButton)
-#: rc.cpp:15
-msgid "Enter value expressed in reference currency"
-msgstr "Εισαγωγή τιμής εκφραζόμενης στο νόμισμα αναφοράς"
-
-#. i18n: file: calculator.ui:1918
-#. i18n: ectx: property (toolTip), widget (QPushButton, SlashButton)
-#: rc.cpp:18
-msgid "Divide"
-msgstr "Διαίρεση"
-
-#. i18n: file: calculator.ui:1940
-#. i18n: ectx: property (toolTip), widget (QPushButton, MInputButton)
-#: rc.cpp:21
-msgid "Store in memory"
-msgstr "Αποθήκευση στη μνήμη"
-
-#. i18n: file: calculator.ui:1978
-#. i18n: ectx: property (toolTip), widget (QPushButton, ResetButton)
-#: rc.cpp:24
-msgid "Reset both input, result and memory"
-msgstr "Επαναφορά της εισόδου, του αποτελέσματος και της μνήμης"
-
-#. i18n: file: calculator.ui:1981
-#. i18n: ectx: property (text), widget (QPushButton, ResetButton)
-#: rc.cpp:27
-msgid "Reset"
-msgstr "Επαναφορά"
-
-#. i18n: file: calculator.ui:2060
-#. i18n: ectx: property (toolTip), widget (QPushButton, CurrencyButton)
-#: rc.cpp:30
-msgid "Enter value expressed in currency"
-msgstr "Εισαγωγή τιμής εκφραζόμενης στο νόμισμα"
-
-#. i18n: file: calculator.ui:2085
-#. i18n: ectx: property (toolTip), widget (QPushButton, AsteriskButton)
-#: rc.cpp:33
-msgid "Multiply"
-msgstr "Πολλαπλασιασμός"
-
-#. i18n: file: calculator.ui:2110
-#. i18n: ectx: property (toolTip), widget (QPushButton, MRecallButton)
-#: rc.cpp:36
-msgid "Recall from memory"
-msgstr "Επαναφορά από τη μνήμη"
-
-#. i18n: file: calculator.ui:2132
-#. i18n: ectx: property (toolTip), widget (QPushButton, AboutButton)
-#: rc.cpp:39
-msgid "Display about box"
-msgstr "Εμφάνιση κουτιού σχετικά με το πρόγραμμα"
-
-#. i18n: file: calculator.ui:2135
-#. i18n: ectx: property (text), widget (QPushButton, AboutButton)
-#: rc.cpp:42
-msgid "&About..."
-msgstr "&Σχετικά..."
-
-#. i18n: file: calculator.ui:2214
-#. i18n: ectx: property (toolTip), widget (QPushButton, SimpleValueButton)
-#: rc.cpp:45
-msgid "Enter simple value"
-msgstr "Εισαγωγή απλής τιμής"
-
-#. i18n: file: calculator.ui:2217
-#. i18n: ectx: property (text), widget (QPushButton, SimpleValueButton)
-#: rc.cpp:48
-msgctxt "Enter button"
-msgid "Enter"
-msgstr "Enter"
-
-#. i18n: file: calculator.ui:2242
-#. i18n: ectx: property (toolTip), widget (QPushButton, MinusButton)
-#: rc.cpp:51
-msgid "Subtract"
-msgstr "Αφαίρεση"
-
-#. i18n: file: calculator.ui:2267
-#. i18n: ectx: property (toolTip), widget (QPushButton, MMinusButton)
-#: rc.cpp:54
-msgid "Substract from memory"
-msgstr "Αφαίρεση από τη μνήμη"
-
-#. i18n: file: calculator.ui:2289
-#. i18n: ectx: property (toolTip), widget (QPushButton, HelpButton)
-#: rc.cpp:57
-msgid "Display help pages"
-msgstr "Εμφάνιση σελίδων βοήθειας"
-
-#. i18n: file: calculator.ui:2292
-#. i18n: ectx: property (text), widget (QPushButton, HelpButton)
-#: rc.cpp:60
-msgid "&Help..."
-msgstr "&Βοήθεια..."
-
-#. i18n: file: calculator.ui:2349
-#. i18n: ectx: property (toolTip), widget (QPushButton, PercentButton)
-#: rc.cpp:63
-msgid "Apply percentage value"
-msgstr "Εφαρμογή ποσοστού τις εκατό"
-
-#. i18n: file: calculator.ui:2371
-#. i18n: ectx: property (toolTip), widget (QPushButton, PlusMinusButton)
-#: rc.cpp:66
-msgid "Change sign"
-msgstr "Αλλαγή προσήμου"
-
-#. i18n: file: calculator.ui:2396
-#. i18n: ectx: property (toolTip), widget (QPushButton, PlusButton)
-#: rc.cpp:69
-msgid "Add"
-msgstr "Προσθήκη"
-
-#. i18n: file: calculator.ui:2421
-#. i18n: ectx: property (toolTip), widget (QPushButton, MPlusButton)
-#: rc.cpp:72
-msgid "Add to memory"
-msgstr "Πρόσθεση στη μνήμη"
-
-#. i18n: file: calculator.ui:2443
-#. i18n: ectx: property (toolTip), widget (QPushButton, SettingsButton)
-#: rc.cpp:75
-msgid "Configure KEuroCalc"
-msgstr "Ρύθμιση του KEuroCalc"
-
-#. i18n: file: calculator.ui:2446
-#. i18n: ectx: property (text), widget (QPushButton, SettingsButton)
-#: rc.cpp:78
-msgid "&Settings..."
-msgstr "&Ρυθμίσεις..."
-
-#. i18n: file: calculator.ui:2459
-#. i18n: ectx: property (toolTip), widget (QComboBox, CurrencyList)
-#: rc.cpp:81
-msgid "Currencies"
-msgstr "Νομίσματα"
-
-#. i18n: file: settingsdialog.ui:14
-#. i18n: ectx: property (windowTitle), widget (QDialog, SettingsDialog)
-#: rc.cpp:84
+#: settingsdialog.cpp:353
 msgid "Settings"
 msgstr "Ρυθμίσεις"
 
-#. i18n: file: settingsdialog.ui:34
-#. i18n: ectx: property (text), widget (QLabel, defaultCurrencyText)
-#: rc.cpp:87
+#: settingsdialog.cpp:354
 msgid "Default currency"
 msgstr "Προκαθορισμένο νόμισμα"
 
-#. i18n: file: settingsdialog.ui:59
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:90
+#: settingsdialog.cpp:355
 msgid "Reference currency, rates origin"
 msgstr "Νόμισμα αναφοράς, προέλευση τιμών"
 
-#. i18n: file: settingsdialog.ui:74
-#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroFixed)
-#: rc.cpp:93
+#: settingsdialog.cpp:356
 msgid "Euro, no ne&twork access (fixed rates only)"
 msgstr "Euro, χωρίς πρόσβαση δ&ικτύου(σταθερές τιμές μόνο)"
 
-#. i18n: file: settingsdialog.ui:87
-#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroECB)
-#: rc.cpp:96
+#: settingsdialog.cpp:357
+msgid "Alt+T"
+msgstr ""
+
+#: settingsdialog.cpp:358
 msgid "Euro, European Central &Bank"
 msgstr "Euro, Κεντρική ευρ&ωπαϊκή τράπεζα"
 
-#. i18n: file: settingsdialog.ui:100
-#. i18n: ectx: property (text), widget (QRadioButton, radioButtonDollarNYFRB)
-#: rc.cpp:99
-msgid "&Dollar, New York Federal Reserve Bank"
-msgstr "&Δολάριο, Ομοσπονδιακή τράπεζα αποθεματικού Νέας Υόρκης"
+#: settingsdialog.cpp:359
+msgid "Alt+B"
+msgstr ""
 
-#. i18n: file: settingsdialog.ui:116
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:102
+#: settingsdialog.cpp:360
+msgid "Euro, Time &Genie"
+msgstr ""
+
+#: settingsdialog.cpp:361
+msgid "Alt+G"
+msgstr ""
+
+#: settingsdialog.cpp:362
 msgid "Rounding"
 msgstr "Στρογγυλοποίηση"
 
-#. i18n: file: settingsdialog.ui:131
-#. i18n: ectx: property (text), widget (QRadioButton, radioButtonOfficialRules)
-#: rc.cpp:105
+#: settingsdialog.cpp:363
 msgid "Official roundin&g rules"
 msgstr "Επίσημοι κανόνες στ&ρογγυλοποίησης"
 
-#. i18n: file: settingsdialog.ui:141
-#. i18n: ectx: property (text), widget (QRadioButton, radioButtonSmallestCoin)
-#: rc.cpp:108
+#: settingsdialog.cpp:364
 msgid "&Smallest coin method"
 msgstr "Μέθοδος μι&κρότερου νομίσματος"
 
-#. i18n: file: settingsdialog.ui:151
-#. i18n: ectx: property (text), widget (QRadioButton, radioButtonNoRounding)
-#: rc.cpp:111
+#: settingsdialog.cpp:366
 msgid "&No rounding at all"
 msgstr "&Χωρίς στρογγυλοποίηση"
 
-#. i18n: file: settingsdialog.ui:161
-#. i18n: ectx: property (title), widget (QGroupBox, AppearanceGroup)
-#: rc.cpp:114
+#: settingsdialog.cpp:367
+msgid "Alt+N"
+msgstr ""
+
+#: settingsdialog.cpp:368
 msgid "Look and feel"
 msgstr "Εμφάνιση και Αίσθηση"
 
-#. i18n: file: settingsdialog.ui:197
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:117
+#: settingsdialog.cpp:369
 msgid "Display color"
 msgstr "Εμφάνιση χρώματος"
 
-#. i18n: file: settingsdialog.ui:672
-#. i18n: ectx: property (text), widget (QLabel, displayColorResult)
-#: rc.cpp:120
+#: settingsdialog.cpp:370
 msgid "215.06 €"
 msgstr "215.06 €"
 
-#. i18n: file: settingsdialog.ui:688
-#. i18n: ectx: property (text), widget (KPushButton, kPushButtonDisplayColor)
-#: rc.cpp:123
+#: settingsdialog.cpp:371
 msgid "C&hange..."
 msgstr "Αλ&λαγή..."
 
-#. i18n: file: settingsdialog.ui:737
-#. i18n: ectx: property (text), widget (QCheckBox, checkBoxSplashScreen)
-#: rc.cpp:126
+#: settingsdialog.cpp:373
 msgid "Enable splash screen"
 msgstr "Ενεργοποίηση εισαγωγικής οθόνης"
 
-#. i18n: file: settingsdialog.ui:805
-#. i18n: ectx: property (text), widget (QPushButton, OKButton)
-#: rc.cpp:129
+#: settingsdialog.cpp:374
 msgid "O&K"
 msgstr "Ε&ντάξει"
 
-#. i18n: file: settingsdialog.ui:815
-#. i18n: ectx: property (text), widget (QPushButton, CancelButton)
-#: rc.cpp:132
+#: settingsdialog.cpp:375
+msgid "Alt+K"
+msgstr ""
+
+#: settingsdialog.cpp:376
 msgid "Cance&l"
 msgstr "Ακύρω&ση"
 
-#: rc.cpp:133
+#: settingsdialog.cpp:377
+msgid "Alt+L"
+msgstr ""
+
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Σπύρος Γεωργαράς, Τούσης Μανώλης"
 
-#: rc.cpp:134
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sng@hellug.gr, manolis@koppermind.homelinux.org"
+
+#~ msgid "NY FRB"
+#~ msgstr "NY FRB"
+
+#~ msgid "&Dollar, New York Federal Reserve Bank"
+#~ msgstr "&Δολάριο, Ομοσπονδιακή τράπεζα αποθεματικού Νέας Υόρκης"
