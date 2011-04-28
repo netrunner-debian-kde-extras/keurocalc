@@ -1,2 +1,1 @@
-unapply-patches = True
-abort-on-uptream-changes = True
+unapply-patches
