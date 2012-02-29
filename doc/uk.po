@@ -1,14 +1,14 @@
 # translation of keurocalc.po to Ukrainian
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2008, 2009, 2010.
+# Yuri Chornoivan <yurchor@ukr.net>, 2008, 2009, 2010, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: keurocalc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-09 01:03+0000\n"
-"PO-Revision-Date: 2010-02-04 19:14+0200\n"
+"POT-Creation-Date: 2012-02-26 03:57+0000\n"
+"PO-Revision-Date: 2012-02-25 20:40+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <translation@linux.org.ua>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,9 +16,9 @@ msgstr ""
 "X-KDE-DocBook-SVN-URL: trunk/extragear/utils/doc/keurocalc/index.docbook\n"
 "X-KDE-DocBook-SVN-Changed-Revision: 779910\n"
 "X-KDE-Associated-UI-Catalogs: \n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #. Tag: title
 #: index.docbook:12
@@ -57,25 +57,25 @@ msgstr "Éric Bischoff"
 #. Tag: date
 #: index.docbook:32
 #, no-c-format
-msgid "2011-01-08"
-msgstr ""
+msgid "2012-02-07"
+msgstr "7 лютого 2012 року"
 
 #. Tag: releaseinfo
 #: index.docbook:33
 #, no-c-format
-msgid "1.1.0"
-msgstr ""
+msgid "1.2.0"
+msgstr "1.2.0"
 
 #. Tag: para
 #: index.docbook:36
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "&keurocalc; is an universal pocket currency converter and calculator. This "
-"documentation describes &keurocalc; version 1.1.0."
+"documentation describes &keurocalc; version 1.2.0."
 msgstr ""
 "&keurocalc; — це універсальний кишеньковий інструмент для обчислення "
 "вартості грошових сум у різних валютах і калькулятор. У цій документації "
-"описано &keurocalc; версії 1.0.0."
+"описано &keurocalc; версії 1.2.0."
 
 #. Tag: keyword
 #: index.docbook:43
@@ -153,7 +153,7 @@ msgid ""
 "currency (Italian liras, for example)."
 msgstr ""
 "Під час перевірки банківського рахунку, якщо ви сплачуєте одразу у євро та "
-"старій валюті (наприклад, італійських лірах)."
+"старій валюті (наприклад італійських лірах)."
 
 #. Tag: para
 #: index.docbook:72
@@ -189,20 +189,20 @@ msgstr "Будь-коли"
 
 #. Tag: para
 #: index.docbook:88
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "To do conversions between the euro and other currencies, like the British "
 "Pound, according to the daily exchange rate published by the <ulink url="
 "\"http://www.ecb.int/stats/eurofxref/\">European Central Bank (ECB)</ulink>."
 msgstr ""
-"Для виконання перетворень суми у євро на суму у інших валютах, наприклад, "
-"британських фунтах, відповідно до курсу обміну, встановленого <ulink url="
+"Для виконання перетворень суми у євро на суму у інших валютах, наприклад "
+"британських фунтах, відповідно до курсу обміну, оприлюдненого <ulink url="
 "\"http://www.ecb.int/stats/eurofxref/\">Європейським центральним банком (ЄЦБ)"
 "</ulink>."
 
 #. Tag: para
 #: index.docbook:91
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "To do conversions between any two currencies that are part of the list "
 "published by the ECB."
@@ -212,27 +212,27 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:99
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "To do conversions between the euro and other currencies, like the British "
 "Pound, according to the daily exchange rate published by the <ulink url="
 "\"http://rss.timegenie.com/foreign_exchange_rates_forex\">Time Genie</ulink> "
 "foreign exchange (TG)."
 msgstr ""
-"Для виконання перетворень суми у євро на суму у інших валютах, наприклад, "
-"британських фунтах, відповідно до курсу обміну, встановленого <ulink url="
-"\"http://www.ecb.int/stats/eurofxref/\">Європейським центральним банком (ЄЦБ)"
-"</ulink>."
+"Для виконання перетворень суми у євро на суму у інших валютах, наприклад "
+"британських фунтах, відповідно до курсу обміну, оприлюдненому службою обміну "
+"валют <ulink url=\"http://rss.timegenie.com/foreign_exchange_rates_forex"
+"\">Time Genie</ulink> (TG)."
 
 #. Tag: para
 #: index.docbook:103
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "To do conversions between any two currencies that are part of the list "
 "published by the TG."
 msgstr ""
 "Для виконання перетворення сум у будь-яких інших валютах, які містяться у "
-"списку, оприлюдненому ЄЦБ."
+"списку, оприлюдненому TG."
 
 #. Tag: para
 #: index.docbook:112
@@ -245,13 +245,13 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:116
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "You see every intermediate value and the result in both the reference "
 "currency (euro) and in the other currency."
 msgstr ""
-"Ви можете бачити всі проміжні значення і результат у основній валюті (євро "
-"або доларах), а також у вказаній вами валюті."
+"Ви можете бачити всі проміжні значення і результат у основній валюті (євро), "
+"а також у вказаній вами валюті."
 
 #. Tag: para
 #: index.docbook:119
@@ -265,7 +265,7 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:121
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "The ergonomy is very close to usual pocket calculators, despite the fact "
 "that any value you type can be a value in the reference currency (euro), a "
@@ -273,8 +273,8 @@ msgid ""
 msgstr ""
 "Ергономіка програми дуже близька до ергономіки звичайних кишенькових "
 "калькуляторів, не зважаючи на те, що ви можете ввести будь-яке значення у "
-"основній валюті (євро або доларах), у іншій валюті, у відсотках або у "
-"вигляді безрозмірної величини."
+"основній валюті (євро), у іншій валюті, у відсотках або у вигляді "
+"безрозмірної величини."
 
 #. Tag: para
 #: index.docbook:125
@@ -300,23 +300,24 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The numbers are displayed according to your locale settings: with either a "
-"comma or a dot as a decimal point, according to your &kcontrol; settings."
+"comma or a dot as a decimal point, according to your &systemsettings; "
+"settings."
 msgstr ""
 "Числа буде показано у відповідності з параметрами локалі вашої системи: буде "
 "використано десяткову кому або десяткову крапку, залежно від параметрів, "
-"вказаних у Системних параметрах."
+"вказаних у «Системних параметрах»."
 
 #. Tag: para
 #: index.docbook:132
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
-"You can decide which reference currency you want to use (euro), which other "
-"currency to start with when you launch &keurocalc;, and which rounding "
+"You can decide where &keurocalc; should download the conversion rates from, "
+"which currency to start with when you launch &keurocalc;, and which rounding "
 "method to use."
 msgstr ""
-"Ви можете вибрати основну валюту, яку ви бажаєте використовувати (євро або "
-"долар), початкову валюту, яка використовуватиметься після запуску "
-"&keurocalc;, а також визначитися з методом округлення значень."
+"Ви можете вибрати, звідки &keurocalc; має звантажувати дані обмінних курсів, "
+"початкову валюту, яка використовуватиметься після запуску &keurocalc;, а "
+"також визначитися з методом округлення значень."
 
 #. Tag: para
 #: index.docbook:138
@@ -326,11 +327,9 @@ msgstr "За допомогою &keurocalc; можна виконувати та
 
 #. Tag: para
 #: index.docbook:141
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Conversions from and to the reference currency (euro)."
-msgstr ""
-"Пряме і зворотне перетворення з однієї грошової одиниці у іншу (євро або "
-"долар)."
+msgstr "Пряме і зворотне перетворення з однієї грошової одиниці у іншу (євро)."
 
 #. Tag: para
 #: index.docbook:143
@@ -399,7 +398,7 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:168
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "&keurocalc; never guarantees the exactness of the exchange rates nor the "
 "accuracy of the result. You are always invited to verify your computations "
@@ -418,11 +417,10 @@ msgstr ""
 "програми результат буде неправильним або не таким, як ви очікували. Крім "
 "того, будь ласка, зауважте, що дані про обмінні курси звантажуються "
 "програмою у незашифрованому, а отже не у безпечному форматі з сайтів джерел "
-"даних (Європейського Центрального Банка та Нью-йоркського Федерального "
-"Резервного Банка). Зловмисні атаки шляхом <quote>втручання</quote> можуть "
-"призвести до того, що &keurocalc; буде повідомлено неправильні курси валют. "
-"Простішою причиною можливих помилок, може бути помилка під час передавання "
-"даних."
+"даних (Європейського Центрального Банка та Time Genie). Зловмисні атаки "
+"шляхом <quote>втручання</quote> можуть призвести до того, що &keurocalc; "
+"буде повідомлено неправильні курси валют. Простішою причиною можливих "
+"помилок, може бути помилка під час передавання даних."
 
 #. Tag: title
 #: index.docbook:181
@@ -649,7 +647,7 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:260
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Make sure that the variable exchange rates are available. If not, press the "
 "<guibutton>Settings...</guibutton> to select either <guilabel>Euro, European "
@@ -661,12 +659,11 @@ msgstr ""
 "Переконайтеся, що ви маєте доступ до змінних обмінних курсів. Якщо це не "
 "так, натисніть кнопку <guibutton>Параметри...</guibutton>, щоб вибрати або "
 "пункт <guilabel>Євро, Центральний Європейський Банк</guilabel> або "
-"<guilabel>Долар, Нью-йоркський Банк Федерального Резерву</guilabel>. Після "
-"цього оберіть пункт <guilabel>USD - Долар США</guilabel> або пункт "
-"<guilabel>EUR - Євро</guilabel> зі спадного списку, розташованого у нижній "
-"частині вікна програми. Якщо у вас немає доступу до мережі Інтернет, цей "
-"пункт не буде доступним, оскільки програма не зможе визначити останні змінні "
-"курси між євро і доларом."
+"<guilabel>Євро, TG</guilabel>. Після цього оберіть пункт <guilabel>USD - "
+"Долар США</guilabel> зі спадного списку, розташованого у нижній частині "
+"вікна програми. Якщо у вас немає доступу до мережі Інтернет, цей пункт не "
+"буде доступним, оскільки програма не зможе визначити останні змінні курси "
+"між євро і доларом."
 
 #. Tag: para
 #: index.docbook:269
@@ -701,7 +698,7 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:275
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Read the result in the <guilabel>Result</guilabel> display on the right. The "
 "exact value might depend on latest exchange rates. Notice that during the "
@@ -713,7 +710,7 @@ msgstr ""
 "праворуч. Точне значення може залежати від останніх обмінних курсів. "
 "Зауважте, що протягом обчислень ви могли спостерігати за значеннями у євро і "
 "доларах США. Зверніть увагу на те, що за використання різних джерел даних "
-"(ECB і NY FRB) обмінні курси між євро і доларом можуть не збігатися."
+"(ECB і TG) обмінні курси між євро і доларом можуть не збігатися."
 
 #. Tag: title
 #: index.docbook:283
@@ -1018,7 +1015,7 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:389
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Internally, the values are recalled with no unit or in the reference "
 "currency (euro) with the maximum precision allowed by the mathematical "
@@ -1026,10 +1023,10 @@ msgid ""
 "stored value is a rounded value in a non-reference currency."
 msgstr ""
 "У внутрішньому форматі значення зберігаються без символів величини або у "
-"грошових одиницях (євро або доларах) з максимальною точністю, яку підтримує "
-"математична бібліотека. У деяких рідкісних випадках подібний формат "
-"зберігання може призвести до проблем з округленням, якщо збережене значення "
-"є значенням з округленням у неосновній валюті."
+"грошових одиницях (євро) з максимальною точністю, яку підтримує математична "
+"бібліотека. У деяких рідкісних випадках подібний формат зберігання може "
+"призвести до проблем з округленням, якщо збережене значення є значенням з "
+"округленням у неосновній валюті."
 
 #. Tag: title
 #: index.docbook:396
@@ -1312,12 +1309,11 @@ msgstr "<keycap>E</keycap> або <keycap>$</keycap>"
 
 #. Tag: member
 #: index.docbook:476 index.docbook:505
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Validation of input number considered as a value expressed in the reference "
 "currency (euro)"
-msgstr ""
-"Визначення введеного числа як значення у основній валюті (євро або доларах)"
+msgstr "Визначення введеного числа як значення у основній валюті (євро)"
 
 #. Tag: keycap
 #: index.docbook:479
@@ -1489,15 +1485,15 @@ msgstr "Похідна валюта, джерело ставок"
 
 #. Tag: para
 #: index.docbook:551
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "This setting defines from where &keurocalc; should download the exchange "
 "rates between the reference currency and other currencies. The following "
 "choices are available:"
 msgstr ""
-"За допомогою цього пункту можна визначити основну валюту (євро або долар) та "
-"джерело, звідки &keurocalc; має звантажувати обмінні курси між основною "
-"валютою і іншими валютами. Доступними є такі пункти:"
+"За допомогою цього пункту можна визначити джерело, звідки &keurocalc; має "
+"звантажувати обмінні курси між основною валютою і іншими валютами. "
+"Доступними є такі пункти:"
 
 #. Tag: guilabel
 #: index.docbook:558
@@ -1545,11 +1541,11 @@ msgstr ""
 #: index.docbook:591
 #, no-c-format
 msgid "Euro, Time Genie"
-msgstr ""
+msgstr "Євро, Time Genie"
 
 #. Tag: para
 #: index.docbook:593
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Euro is the reference currency. The fixed exchange rates are available. "
 "&keurocalc; attempts to download the variable rates from the <ulink url="
@@ -1557,8 +1553,8 @@ msgid ""
 "ulink>."
 msgstr ""
 "Основною валютою є євро. Доступними будуть фіксовані обмінні курси. "
-"&keurocalc; спробує звантажити змінні курси з сайта <ulink url=\"http://www."
-"ecb.int/stats/eurofxref/\">Європейського Центрального Банка (ECB)</ulink>."
+"&keurocalc; спробує звантажити змінні курси з сайта <ulink url=\"http://rss."
+"timegenie.com/foreign_exchange_rates_forex\">Time Genie (TG)</ulink>."
 
 #. Tag: title
 #: index.docbook:604
@@ -1766,10 +1762,10 @@ msgstr "&keurocalc;"
 
 #. Tag: para
 #: index.docbook:698
-#, fuzzy, no-c-format
-msgid "Program copyright 2001-2011 the &keurocalc; developers:"
+#, no-c-format
+msgid "Program copyright 2001-2012 the &keurocalc; developers:"
 msgstr ""
-"Авторські права на програму належать розробникам &keurocalc;:, ©2001-2006"
+"Авторські права на програму належать розробникам &keurocalc;:, 2001–2012:"
 
 #. Tag: para
 #: index.docbook:701
@@ -1811,13 +1807,13 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:707
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
-"Documentation copyright 2001-2011 Éric Bischoff "
+"Documentation copyright 2001-2012 Éric Bischoff "
 "<email>ebischoff@_NOSPAM_nerim.net</email>."
 msgstr ""
 "Авторські права на документацію належать Éric Bischoff "
-"<email>ebischoff@_NOSPAM_nerim.net</email>, ©2001-2007."
+"<email>ebischoff@_NOSPAM_nerim.net</email>, 2001–2012."
 
 #. Tag: para
 #: index.docbook:710
@@ -1831,7 +1827,7 @@ msgstr ""
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
-"<para>Переклад українською: Юрій Чорноіван<email>yurchor@ukr.net</email></"
+"<para>Переклад українською: Юрій Чорноіван <email>yurchor@ukr.net</email></"
 "para>"
 
 #. Tag: chapter
@@ -1934,13 +1930,19 @@ msgstr ""
 "повинно виникнути проблем зі збиранням &keurocalc;. Якщо такі проблеми все ж "
 "виникнуть, повідомте про них авторам &keurocalc;."
 
+#~ msgid "2011-01-08"
+#~ msgstr "8 січня 2011 року"
+
+#~ msgid "1.1.0"
+#~ msgstr "1.1.0"
+
 #~ msgid ""
 #~ "To do conversions between the US dollar and other currencies according to "
 #~ "the daily exchange rate defined by the <ulink url=\"http://www.ny.frb.org/"
 #~ "markets/fxrates/noon.cfm\">New York Federal Reserve Bank (NY FRB)</ulink>."
 #~ msgstr ""
-#~ "Для виконання перетворень між доларом США та іншими валютами, згідно до "
-#~ "денного курсу обміну, встановленого <ulink url=\"http://www.ny.frb.org/"
+#~ "Для виконання перетворень між доларом США та іншими валютами, відповідно "
+#~ "до денного курсу обміну, встановленого <ulink url=\"http://www.ny.frb.org/"
 #~ "markets/fxrates/noon.cfm\">Федеральним резервним банком Нью-Йорка (NY FRB)"
 #~ "</ulink>."
 

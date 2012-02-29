@@ -24,18 +24,18 @@
 <!-- TRANS:ROLES_OF_TRANSLATORS -->
 
 <copyright>
-<year>2001-2011</year>
+<year>2001-2012</year>
 <holder>Éric Bischoff</holder>
 </copyright>
 <legalnotice>&FDLNotice;</legalnotice>
 
-<date>2011-01-08</date>
-<releaseinfo>1.1.0</releaseinfo>
+<date>2012-02-07</date>
+<releaseinfo>1.2.0</releaseinfo>
 
 <abstract>
 <para>
 &keurocalc; is an universal pocket currency converter and calculator.
-This documentation describes &keurocalc; version 1.1.0.
+This documentation describes &keurocalc; version 1.2.0.
 </para>
 </abstract>
 
@@ -127,10 +127,10 @@ aloud what you're doing.</para></listitem>
 <listitem><para>If you make mistakes, a special correction button enables you
 to correct your last input data, as long as you didn't validate.</para></listitem>
 <listitem><para>The numbers are displayed according to your locale settings:
-with either a comma or a dot as a decimal point, according to your &kcontrol;
+with either a comma or a dot as a decimal point, according to your &systemsettings;
 settings.</para></listitem>
-<listitem><para>You can decide which reference currency you want to use
-(euro<!-- or dollar -->), which other currency to start with when you launch &keurocalc;, and
+<listitem><para>You can decide where &keurocalc; should download the conversion
+rates from, which currency to start with when you launch &keurocalc;, and
 which rounding method to use.</para></listitem>
 </itemizedlist>
 </para>
@@ -695,7 +695,7 @@ when &keurocalc; starts.</para>
 
 <para>&keurocalc;</para>
 
-<para>Program copyright 2001-2011 the &keurocalc; developers:
+<para>Program copyright 2001-2012 the &keurocalc; developers:
 
 <itemizedlist>
 <listitem><para>Éric Bischoff <email>ebischoff@_NOSPAM_nerim.net</email> - design and implementation</para></listitem>
@@ -704,7 +704,7 @@ when &keurocalc; starts.</para>
 <listitem><para>Bas Willems <email>cybersurfer@_NOSPAM_euronet.nl</email> - graphical artwork</para></listitem>
 </itemizedlist></para>
 
-<para>Documentation copyright 2001-2011 Éric Bischoff
+<para>Documentation copyright 2001-2012 Éric Bischoff
 <email>ebischoff@_NOSPAM_nerim.net</email>.</para>
 
 <para>Documentation reviewed by &Philip.Rodrigues; &Philip.Rodrigues.mail;.</para>

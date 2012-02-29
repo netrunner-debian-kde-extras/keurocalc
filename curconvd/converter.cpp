@@ -2,7 +2,7 @@
                           converter.cpp  -  d-bus service
                              -------------------
     begin                : lun nov 13 11:22:05 CET 2006
-    copyright            : (C) 2006-2011 by Éric Bischoff
+    copyright            : (C) 2006-2012 by Éric Bischoff
     email                : ebischoff@nerim.net
  ***************************************************************************/
 
@@ -16,6 +16,8 @@
  ***************************************************************************/
 
 #include <stdio.h>
+
+#include <klocale.h>
 
 #include <QDBusConnection>
 #include <QStringList>
@@ -31,7 +33,7 @@ CurrencyConverter::CurrencyConverter()
 {
 	QDBusConnection::sessionBus().registerObject("/CurrencyConverter", this, QDBusConnection::ExportScriptableSlots);
 
-	printf( "curconvd: waiting for D-Bus requests\n" );
+	printf( "%s\n", (const char *) i18n("curconvd: waiting for D-Bus requests").toUtf8() );
 }
 
 // Destructor
@@ -39,7 +41,7 @@ CurrencyConverter::~CurrencyConverter()
 {
 	QDBusConnection::sessionBus().unregisterObject("/CurrencyConverter");
 
-	printf( "curconvd: stopped waiting for D-Bus requests\n" );
+	printf( "%s\n", (const char *) i18n("curconvd: stopped waiting for D-Bus requests").toUtf8() );
 }
 
 // List available data sources
@@ -51,7 +53,8 @@ QStringList CurrencyConverter::DataSources()
 
 	dataSources << QString("(fixed)");
         dataSources << QString("http://www.ecb.int");
-	dataSources << QString("http://www.ny.frb.org");
+//	dataSources << QString("http://www.newyorkfed.org");
+	dataSources << QString("http://rss.timegenie.com");
 
 	return dataSources;
 }
@@ -82,7 +85,9 @@ QString CurrencyConverter::ReferenceCurrency(const QString &dataSource)
 		reference = "EUR";
 	else if (dataSource == "http://www.ecb.int")
 		reference = "EUR";
-	else if (dataSource == "http://www.ny.frb.org")
+//	else if (dataSource == "http://www.newyorkfed.org")
+//		reference = "USD";
+	else if (dataSource == "http://rss.timegenie.com")
 		reference = "USD";
 	else reference = "";
 

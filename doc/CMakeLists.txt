@@ -1,5 +1,3 @@
-project(doc)
-
 add_subdirectory(da)
 add_subdirectory(en)
 add_subdirectory(es)

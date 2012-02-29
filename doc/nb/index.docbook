@@ -48,15 +48,7 @@
 
 <copyright>
 <year
->2001</year>
-<year
->2002</year>
-<year
->2003</year>
-<year
->2004</year>
-<year
->2005</year>
+>2001-2012</year>
 <holder
 >Éric Bischoff</holder>
 </copyright>
@@ -64,13 +56,13 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2005-07-26</date>
+>2012-02-07</date>
 <releaseinfo
->0.09.05</releaseinfo>
+>1.2.0</releaseinfo>
 
 <abstract>
 <para
->&keurocalc; er en universell valutekonverterer og kalkulator. Denne dokumentasjonen beskriver versjon 0.9.5. </para>
+>&keurocalc; is an universal pocket currency converter and calculator. This documentation describes &keurocalc; version 1.2.0. </para>
 </abstract>
 
 <keywordset>
@@ -98,7 +90,7 @@
 >&keurocalc; er en universell valutakonverterer og -kalkulator. </para>
 
 <para
->1. januar 2002 sluttet 12 europeiske land seg til en felles myntenhet, euro (€). Det samme vil antakelig skje med noen Øst-Europeiske land i 2007. &keurocalc; hjelper: <variablelist>
+>On the 1st of January, 2002, 12 European countries united their national currencies into a single one, the euro (€). The same happens from time to time on a smaller scale with new European countries. &keurocalc; helps: <variablelist>
 <varlistentry>
 <term
 >Under overgangsperiodene</term>
@@ -135,23 +127,37 @@
 ><itemizedlist>
 <listitem
 ><para
->For å foreta konverteringer mellom euro og andre valutaer, for eksempel britiske pund, i henhold til de daglige kursene gitt av <ulink url="http://www.ecb.int/stats/eurofxref/"
->Den europeiske sentralbanken (ECB)</ulink
+>To do conversions between the euro and other currencies, like the British Pound, according to the daily exchange rate published by the <ulink url="http://www.ecb.int/stats/eurofxref/"
+>European Central Bank (ECB)</ulink
 >.</para
 ></listitem>
 <listitem
 ><para
->For å foreta en konvertering mellom to valutaer som er med på listen fra sentralbanken.</para
+>To do conversions between any two currencies that are part of the list published by the ECB.</para
 ></listitem>
-<listitem
+<!--listitem
 ><para
->For å foreta konverteringer mellom US dollar og andre valutaer ifølge de daglige kursene definert av <ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
->New Yorks føderale bank for reserver (NY FRB)</ulink
+>To do conversions between the US dollar and other currencies
+according to the daily exchange rate published by the
+<ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
+>New York
+Federal Reserve Bank (NY FRB)</ulink
 >.</para
 ></listitem>
 <listitem
 ><para
->For å foreta konverteringer mellom to valutaer som er med på listen utgitt av NY FRB.</para
+>To do conversions between any two currencies that are part of the list
+published by the NY FRB.</para
+></listitem-->
+<listitem
+><para
+>To do conversions between the euro and other currencies, like the British Pound, according to the daily exchange rate published by the <ulink url="http://rss.timegenie.com/foreign_exchange_rates_forex"
+>Time Genie</ulink
+> foreign exchange (TG).</para
+></listitem>
+<listitem
+><para
+>To do conversions between any two currencies that are part of the list published by the TG.</para
 ></listitem>
 </itemizedlist
 ></para>
@@ -165,7 +171,7 @@
 >&keurocalc; har følgende fordeler når det gjelder behagelighet og brukbarhet: <itemizedlist>
 <listitem
 ><para
->Mellomverdier og resultat vises i både referansevalutaen (euro eller US dollar) og den andre valutaen.</para
+>You see every intermediate value and the result in both the reference currency (euro) and in the other currency.</para
 ></listitem>
 <listitem
 ><para
@@ -173,7 +179,7 @@
 ></listitem>
 <listitem
 ><para
->Utformingen er veldig lik en vanlig lommekalkulator, selv om en verdi som skrives inn kan være en verdi i referansevalutaen (euro eller US dollar), en verdi i en annen valuta, en prosentdel eller et enhetsløst tall.</para
+>The ergonomy is very close to usual pocket calculators, despite the fact that any value you type can be a value in the reference currency (euro), a value in the other currency, a percentage or an unit-less quantity.</para
 ></listitem>
 <listitem
 ><para
@@ -185,11 +191,11 @@
 ></listitem>
 <listitem
 ><para
->Tall vises i henhold til de lokale innstillingene; med enten et punktum eller et komma som angitt i &kcontrol;-innstillingene.</para
+>The numbers are displayed according to your locale settings: with either a comma or a dot as a decimal point, according to your &systemsettings; settings.</para
 ></listitem>
 <listitem
 ><para
->Det går an å velge ønsket referansevaluta (euro eller US dollar), hvilken annen valuta som skal brukes når &keurocalc; startes, og hvilken avrundingsmetode som skal brukes.</para
+>You can decide where &keurocalc; should download the conversion rates from, which currency to start with when you launch &keurocalc;, and which rounding method to use.</para
 ></listitem>
 </itemizedlist>
 </para>
@@ -198,7 +204,7 @@
 >&keurocalc; tillater følgende operasjoner: <itemizedlist>
 <listitem
 ><para
->Konvertering fra og til referansevalutaen (euro eller US dollar).</para
+>Conversions from and to the reference currency (euro).</para
 ></listitem>
 <listitem
 ><para
@@ -233,18 +239,21 @@
 ><para
 >Inflasjonsvalutaer kan ikke håndteres på grunn av begrensinger i visningsstørrelsen; men med endringene i den nye tyrkiske lira med fjerning av seks nuller, er ikke dette et stort problem lenger.</para
 ></listitem>
-<listitem
+<!-- listitem
 ><para
->Kurser fra New Yorks føderale bank for reserver er ikke tilgjengelige under perioder som f.eks. jul og påske.</para
-></listitem>
+>New York Federal Reserve Bank rates are not available
+during the non-working days (Christmas, Easter, etc.).</para
+></listitem-->
 </itemizedlist>
 </para>
 
 <warning
 ><para
->&keurocalc; garanterer ikike nøyaktigheten til valutakursene, og du kan gjerne kontrollere dem med andre verktøy. Forfatteren påtar seg intet ansvar hvis resultater er ukorrekte eller ikke som forventet, i henhold til <link linkend="credits"
->lisensavtalen</link
->. Vær også oppmerksom på at valutakursene lastes ned med en ukryptert og derfor usikret forbindelse til datakildene, Den europeiske sentralbanken eller New Yorks føderale bank for reserver. En angriper kan forvirre &keurocalc; ved å lage falske valutakurser, eller, konspirasjonsteorier til side, kan det simpelthen skje en feil under overføring av data.</para
+>&keurocalc; never guarantees the exactness of the exchange rates nor the accuracy of the result. You are always invited to verify your computations by some other means. As the <link linkend="credits"
+>license</link
+> agreement states, there's no liability of the authors if the results are not correct or as expected. Also, please notice that the variable exchange rates are downloaded in an unencrypted and therefore insecure manner from the data sources (European Central Bank and Time Genie). Some <quote
+>man-in-the-middle</quote
+> attacker may confuse &keurocalc; by forging exchange rates. More simply, a transmission error is always possible.</para
 ></warning>
 
 </chapter>
@@ -269,7 +278,7 @@
 <step
 ><para
 >Velg <guilabel
->BEF - belgiske franc</guilabel
+>BEF – belgiske franc</guilabel
 > (<foreignphrase
 >francs belges</foreignphrase
 >) fra listen over valutaer nederst i programmet. Hvis valutaen ikke er tilgjengelig, gå til <guibutton
@@ -317,7 +326,7 @@
 <step
 ><para
 >Velg <guilabel
->BEF - belgiske franc</guilabel
+>BEF – belgiske franc</guilabel
 > fra listen over valutaer, i nede i programvinduet. Dette er ikke nødvendig hvis belgiske franc allerede er valgt.</para
 ></step>
 <step
@@ -353,7 +362,7 @@
 <step
 ><para
 >Velg <guilabel
->DEM - tyske mark</guilabel
+>DEM – tyske mark</guilabel
 > fra listen over valutaer.</para
 ></step>
 <step
@@ -374,11 +383,11 @@
 ></step>
 <step
 ><para
->Velg <guilabel
->ESP - spanske peseta</guilabel
-> for å se beløpet (61,36 € hvis du brukte de innebygde valutakursene) uttrykt i spanske peseta i <guilabel
->Resultat</guilabel
->-feltet.</para
+>Just select the <guilabel
+>ESP - Spanish peseta</guilabel
+> item to see the same amount of 61.36 € converted into pesetas in the <guilabel
+>Result</guilabel
+> area.</para
 ></step>
 </procedure>
 
@@ -403,15 +412,13 @@
 ></step>
 <step
 ><para
->Skriv inn <userinput
+>Type <userinput
 >5</userinput
-> og klikk på <guibutton
->Send</guibutton
->-knappen eller bruk <keycap
->Enter</keycap
->-tasten. Resultatet, <computeroutput
+> and then press the <guibutton
+>Enter</guibutton
+> button or the &Enter; key. The result <computeroutput
 >8</computeroutput
->, vises til høyre.</para
+> appears on the right.</para
 ></step>
 </procedure>
 
@@ -420,15 +427,15 @@
 >Du mottok 100 US dollar og betalte 32,50 euro for en bok. Hvor mye er igjen?</title>
 <step
 ><para
->Forsikre deg om at de variable valutakursene er tilgjengelige. Hvis ikke, klikk på <guibutton
->Innstillinger</guibutton
-> og velg enten <guilabel
->Euro, Den europeiske sentralbanken</guilabel
-> elle r<guilabel
->Dollar, New Yorks føderale bank</guilabel
->. Velg så <guilabel
+>Make sure that the variable exchange rates are available. If not, press the <guibutton
+>Settings...</guibutton
+> to select either <guilabel
+>Euro, European Central Bank</guilabel
+> or <guilabel
+>Euro, Time Genie</guilabel
+>. Now select the <guilabel
 >USD - US dollar</guilabel
-> fra listen over valutaer. Dette elementet vil ikke være tilgjengelig hvis du ikke har Internett-tilgang, fordi de variable kursene mellom euro og US dollar ikke kan avgjøres.</para
+> item in the scroll down list on the bottom. If you have no Internet access, that item won't be available as the latest variable rates between the euro and the dollar cannot be determined.</para
 ></step>
 <step
 ><para
@@ -460,9 +467,9 @@
 ></step>
 <step
 ><para
->Les resultatet i <guilabel
->Resultat</guilabel
->-feltet til høyre. Svaret avhenger av valutakursene. Merk at du under hele prosessen har kunnet lese verdiene i både US dollar og euro. Det viktig å ta hensyn til at dataklidene (Den europeiske sentralbanken eller New Yorks føderale bank for reserver) ikke nødvendigvis gir samme kurs mellom euro og US dollar.</para
+>Read the result in the <guilabel
+>Result</guilabel
+> display on the right. The exact value might depend on latest exchange rates. Notice that during the whole computation you've been able to read the values both in euro and in US dollars. Pay attention to the fact that different data sources (ECB or TG) might not provide the same conversion rate between the euro and the dollar.</para
 ></step>
 </procedure>
 
@@ -472,7 +479,7 @@
 <step
 ><para
 >Velg <guilabel
->FRF - franske franc</guilabel
+>FRF – franske franc</guilabel
 > i listen over valuter hvis den allerede ikke er valgt.</para
 ></step>
 <step
@@ -503,13 +510,13 @@
 ></step>
 <step
 ><para
->Resultatet (<computeroutput
->-43,72 €</computeroutput
-> hvis du bruker de innebyde kursene) er negativt, og indikerer at du skal få penger igjen. <guibutton
+>The result <computeroutput
+>-43.72 €</computeroutput
+> is negative, indicating that change money has to be given back to the customer. The <guibutton
 >+/-</guibutton
->-knappen eller <keycap
+> button or the <keycap
 >S</keycap
->-tasten endrer fortegn.</para
+> key permit you to change the sign of the result.</para
 ></step>
 </procedure>
 
@@ -530,7 +537,7 @@
 <step
 ><para
 >Velg <guilabel
->AUD - australske dollar</guilabel
+>AUD – australske dollar</guilabel
 > fra listen over valutaer.</para
 ></step>
 <step
@@ -555,18 +562,18 @@
 ></step>
 <step
 ><para
->Skriv inn <userinput
->3,2</userinput
-> etterfulgt av <guibutton
->Send</guibutton
->-knappen eller <keycap
->Enter</keycap
->-tasten. Dette betyr 3,2 enheter til 2 € per strykke.</para
+>Now type <userinput
+>3.2</userinput
+> followed by the <guibutton
+>Enter</guibutton
+> button or the &Enter; key: this means <quote
+>3.2 units</quote
+> at 2 € each.</para
 ></step>
 <step
 ><para
->Resultatet i australske dollar er en konvertering av <computeroutput
->6,4 €</computeroutput
+>The result in Australian dollars matches <computeroutput
+>6.4 €</computeroutput
 >.</para
 ></step>
 </procedure>
@@ -595,7 +602,7 @@
 <step
 ><para
 >Velg <guilabel
->JPY - japanske yen</guilabel
+>JPY – japanske yen</guilabel
 > fra listen over valutaer.</para
 ></step>
 <step
@@ -632,7 +639,7 @@
 <step
 ><para
 >Velg <guilabel
->JPY - japanske yen</guilabel
+>JPY – japanske yen</guilabel
 > fra listen over valutaer.</para
 ></step>
 <step
@@ -677,7 +684,7 @@
 <step
 ><para
 >Velg <guilabel
->JPY - japanske yen</guilabel
+>JPY – japanske yen</guilabel
 > fra listen over valutaer.</para
 ></step>
 <step
@@ -750,7 +757,7 @@
 </procedure>
 
 <para
->Verdiene lagres internt uten valuta eller i referansevalutaen (euro eller US dollar) med den høyestre presisjonen som tillates av biblioteket for matematikk. I sjeldne tilfeller kan dette føre til problemer hvis den lagrede verdien er en avrundet verdi i en ikke-referanse valuta.</para>
+>Internally, the values are recalled with no unit or in the reference currency (euro) with the maximum precision allowed by the mathematical library. In some rare cases, this might lead to rounding problems if the stored value is a rounded value in a non-reference currency.</para>
 
 <procedure>
 <title
@@ -805,7 +812,7 @@
 
 <procedure>
 <title
->Hvordan regne 3,1 * 5,2 € - 2,7 * 8,9 €?</title>
+>Hvordan regne 3,1 * 5,2 € – 2,7 * 8,9 €?</title>
 <step
 ><para
 >Regn den første halvdelen først: <userinput
@@ -840,7 +847,7 @@
 
 <para
 >Sekvensen <userinput
->3,1 * 5,2 € Min 2,7 * 8,9 € - MR</userinput
+>3,1 * 5,2 € Min 2,7 * 8,9 € – MR</userinput
 > regner forskjellen i omvendt rekkefølge.</para>
 
 </sect1>
@@ -896,7 +903,7 @@
 <member
 ><keycap
 >0</keycap
-> - <keycap
+> – <keycap
 >9</keycap
 ></member>
 <member
@@ -925,8 +932,8 @@
 >Addisjon, substraksjon, multiplikasjon og divisjon</member>
 
 <member
-><keycap
->Enter</keycap
+>&Enter; and <keycap
+>Return</keycap
 ></member>
 <member
 >Validerer inndataen osm en enkel, valutaløs verdi</member>
@@ -944,13 +951,9 @@
 >Fjerner siste siffer, desimaltegn eller operatør</member>
 
 <member
-><keycap
->Tab</keycap
-> og <keycombo action="simul"
->&Shift; <keycap
->Tab</keycap
-></keycombo
-></member>
+>&Tab; and <keycombo action="simul"
+>&Shift; &Tab;</keycombo
+> keys</member>
 <member
 >Flytter fokus fra en knapp til den neste eller forrige</member>
 
@@ -971,7 +974,7 @@
 >$</keycap
 ></member>
 <member
->Validerer inndataen som en verdi uttrykt i referansevalutaen (euro eller US-dollar)</member>
+>Validation of input number considered as a value expressed in the reference currency (euro)</member>
 
 <member
 ><keycap
@@ -1032,7 +1035,7 @@
 >$</guibutton
 ></member>
 <member
->Validerer inndataen som en verdi uttrykt i referansevalutaen (euro eller US-dollar)</member>
+>Validation of input number considered as a value expressed in the reference currency (euro)</member>
 
 <member
 >Knappen merket med navnet til en annen valuta</member>
@@ -1096,7 +1099,7 @@
 
 <member
 ><guibutton
->Om</guibutton
+>About</guibutton
 ></member>
 <member
 >Viser <guilabel
@@ -1105,9 +1108,7 @@
 
 <member
 ><guibutton
-><accel
->H</accel
->jelp</guibutton
+>Help</guibutton
 ></member>
 <member
 >Viser disse hjelpesidene</member>
@@ -1134,7 +1135,7 @@
 >Referansevalutaen</title>
 
 <para
->Denne innstillingen angir referansevalutaen (euro eller US dollar), og hvor &keurocalc; skal hente valutakursene mellom referansevalutaen og andre valutaer. Alternativene er som følger:</para>
+>This setting defines from where &keurocalc; should download the exchange rates between the reference currency and other currencies. The following choices are available:</para>
 
 <variablelist>
 <varlistentry>
@@ -1163,18 +1164,37 @@
 </listitem>
 </varlistentry>
 
-<varlistentry>
+<!--varlistentry>
 <term
 ><guilabel
->US dollar, New Yorks føderale bank</guilabel
+>Dollar, New York Federal Reserve Bank</guilabel
 ></term>
 <listitem>
 <para
->US dollar er referansevalutaen. Det er ingen faste kurser, og &keurocalc; prøver å laste ned de variable kursene fra <ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
->New Yorks føderale bank for reserver</ulink
+>Dollar is the reference currency. There are no fixed exchange rates.
+&keurocalc; attempts to download the variable rates from the
+<ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
+>New York
+Federal Reserve Bank (NY FRB)</ulink
 >.</para>
 <para
->&keurocalc; har for øyeblikket problemer med å avgjøre datoen til de siste kursene som banken gir ut, grunnet forskjell i tidssoner og helligdager. Derfor ber programmet for sikkerhets skyld om gårsdagens kurser, noe som selvfølgelig ikke er en optimal løsning.</para>
+>Currently, &keurocalc; has a problem determining the date of the latest
+exchange rates published by that bank, because of time zone offsets and non-working
+days. For safety, &keurocalc; always asks for yesterday's rates, which is of course
+not optimal.</para>
+</listitem>
+</varlistentry-->
+
+<varlistentry>
+<term
+><guilabel
+>Euro, Time Genie</guilabel
+></term>
+<listitem>
+<para
+>Euro is the reference currency. The fixed exchange rates are available. &keurocalc; attempts to download the variable rates from the <ulink url="http://rss.timegenie.com/foreign_exchange_rates_forex"
+>Time Genie (TG)</ulink
+>.</para>
 </listitem>
 </varlistentry>
 
@@ -1246,6 +1266,43 @@
 </variablelist>
 
 </sect2>
+
+<sect2 id="settings-look-and-feel">
+<title
+>Look and feel</title>
+
+<para
+>This setting defines the appearance and behavior of &keurocalc;. The following options are available:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Display color</guilabel
+></term>
+<listitem>
+<para
+>The background color of the display areas (both input and result). To change the background color, click on <guibutton
+>Change...</guibutton
+>. This opens the standard &kde; color selection dialog. Choose a new color, then press <guibutton
+>OK</guibutton
+> to validate the new choice.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Enable splash screen</guilabel
+></term>
+<listitem>
+<para
+>Uncheck this box if you do not want to initial picture to appear when &keurocalc; starts.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect2>
 </sect1>
 </chapter>
 
@@ -1258,38 +1315,46 @@
 >&keurocalc;</para>
 
 <para
->Kopirett 2001-2004 tilhører &keurocalc;-utviklerne. <itemizedlist>
+>Program copyright 2001-2012 the &keurocalc; developers: <itemizedlist>
 <listitem
 ><para
 >Éric Bischoff <email
->e.bischoff@_INGENREKLAME_noos.fr</email
-> - utforming og implementering</para
+>ebischoff@_NOSPAM_nerim.net</email
+> - design and implementation</para
+></listitem>
+<listitem
+><para
+>Gil Gross <email
+>ptit.ours@_NOSPAM_gmail.com</email
+> - additional functionality</para
 ></listitem>
 <listitem
 ><para
 >Melchior Franz <email
 >a8603365@_INGENREKLAME_unet.univie.ac.at</email
-> - utforming og testing</para
+> – utforming og testing</para
 ></listitem>
 <listitem
 ><para
 >Bas Willems <email
 >cybersurfer@_INGENREKLAME_euronet.nl</email
-> - grafikk</para
+> – grafikk</para
 ></listitem>
 </itemizedlist
 ></para>
 
 <para
->Kopirett 2001-2004 for dokumentasjonen tilhører Éric Bischoff <email
->e.bischoff@_INGENREKLAME_noos.fr</email
+>Documentation copyright 2001-2012 Éric Bischoff <email
+>ebischoff@_NOSPAM_nerim.net</email
 >.</para>
 
 <para
 >Dokumentasjonen ble gjennomgått av &Philip.Rodrigues; &Philip.Rodrigues.mail;</para>
-<para>Oversatt til norsk (bokmål) av Alexander N. Sørnes <email
+<para
+>Oversatt til norsk (bokmål) av Alexander N. Sørnes <email
 >alex@thehandofagony.com</email
-> </para>
+></para
+> 
 &underFDL; &underGPL; </chapter>
 
 <appendix id="installation">
@@ -1314,7 +1379,7 @@
 >Systemkrav</title>
 
 <para
->For å installere &keurocalc; må du ha &kde; 3.4.</para>
+>In order to successfully use &keurocalc;, you need &kde; 4.0.</para>
 
 <para
 >Alle nødvendige biblioteker finnes på <ulink url="ftp://ftp.kde.org"
@@ -1329,28 +1394,16 @@
 
 <para
 >Skriv inn følgende i rotkatalogen til &keurocalc;-distribusjonen for å installere programmet: <screen width="40"
-><prompt
->%</prompt
-> <userinput
->./configure</userinput>
-<prompt
->%</prompt
-> <userinput
->make</userinput>
-<prompt
->%</prompt
-> <userinput
->make install</userinput
->
+><prompt>%</prompt> <userinput>mkdir build</userinput>
+<prompt>%</prompt> <userinput>cd build</userinput>
+<prompt>%</prompt> <userinput>cmake ..</userinput>
+<prompt>%</prompt> <userinput>make</userinput>
+<prompt>%</prompt> <userinput>make install</userinput>
 </screen>
 </para>
 
 <para
->Siden &keurocalc; bruker <application
->autoconf</application
-> og <application
->automake</application
->, bør det ikke være noe problem å installere det. Hvis det allikevel ikke virker, rapporter det til &keurocalc;s forfatter.</para>
+>Since cmake autodetects your system settings, you should have no trouble compiling &keurocalc;. Should you run into problems please report them to &keurocalc;'s authors.</para>
 
 </sect1>
 

@@ -48,21 +48,7 @@
 
 <copyright>
 <year
->2001</year>
-<year
->2002</year>
-<year
->2003</year>
-<year
->2004</year>
-<year
->2005</year>
-<year
->2006</year>
-<year
->2007</year>
-<year
->2008</year>
+>2001-2012</year>
 <holder
 >Éric Bischoff</holder>
 </copyright>
@@ -70,13 +56,13 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2008-02-24</date>
+>2012-02-07</date>
 <releaseinfo
->1.0.0</releaseinfo>
+>1.2.0</releaseinfo>
 
 <abstract>
 <para
->&keurocalc; è un convertitore di valuta universale e calcolatore tascabile. Questa documentazione descrive la versione 1.0.0 di &keurocalc;. </para>
+>&keurocalc; is an universal pocket currency converter and calculator. This documentation describes &keurocalc; version 1.2.0. </para>
 </abstract>
 
 <keywordset>
@@ -141,7 +127,7 @@
 ><itemizedlist>
 <listitem
 ><para
->Per convertire tra euro e altre valute, come la sterlina inglese, secondo il tasso di cambio del giorno così come definito dalla <ulink url="http://www.ecb.int/stats/eurofxref/"
+>Per convertire tra euro e altre valute, come la sterlina inglese, secondo il tasso di cambio del giorno così come pubblicato dalla <ulink url="http://www.ecb.int/stats/eurofxref/"
 >Banca Centrale Europea (BCE)</ulink
 >.</para
 ></listitem>
@@ -149,15 +135,29 @@
 ><para
 >Per convertire tra due valute qualsiasi che facciano parte dell'elenco pubblicato dalla BCE.</para
 ></listitem>
-<listitem
+<!--listitem
 ><para
->Per convertire tra dollari americani e altre valute secondo il tasso di cambio così come definito dalla <ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
->Federal Reserve Bank di New York (NY FRB)</ulink
+>To do conversions between the US dollar and other currencies
+according to the daily exchange rate published by the
+<ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
+>New York
+Federal Reserve Bank (NY FRB)</ulink
 >.</para
 ></listitem>
 <listitem
 ><para
->Per convertire tra due valute qualsiasi che facciano parte dell'elenco pubblicato dalla NY FRB.</para
+>To do conversions between any two currencies that are part of the list
+published by the NY FRB.</para
+></listitem-->
+<listitem
+><para
+>Per convertire tra euro e altre valute, come la sterlina inglese, secondo il tasso di cambio del giorno pubblicato dal convertitore di <ulink url="http://rss.timegenie.com/foreign_exchange_rates_forex"
+>Time Genie</ulink
+>.</para
+></listitem>
+<listitem
+><para
+>Per convertire tra due valute qualsiasi che facciano parte dell'elenco pubblicato da TG.</para
 ></listitem>
 </itemizedlist
 ></para>
@@ -171,7 +171,7 @@
 >&keurocalc; ha i seguenti vantaggi in termini di comodità e facilità d'uso: <itemizedlist>
 <listitem
 ><para
->Vedi ogni valore intermedio e il risultato sia nella valuta di riferimento (euro o dollari) che nell'altra.</para
+>Vedi ogni valore intermedio e il risultato sia nella valuta di riferimento (euro) che nell'altra.</para
 ></listitem>
 <listitem
 ><para
@@ -179,7 +179,7 @@
 ></listitem>
 <listitem
 ><para
->L'ergonomia è molto vicina a quella dei normali calcolatori tascabili, nonostante il fatto che qualsiasi valore che scrivi può essere nella valuta di riferimento (euro o dollari), nell'altra valuta, una percentuale o una quantità adimensionale.</para
+>L'ergonomia è molto vicina a quella dei normali calcolatori tascabili, nonostante il fatto che qualsiasi valore che scrivi può essere nella valuta di riferimento (euro), nell'altra valuta, una percentuale o una quantità adimensionale.</para
 ></listitem>
 <listitem
 ><para
@@ -191,11 +191,11 @@
 ></listitem>
 <listitem
 ><para
->I numeri sono visualizzati secondo le tue impostazioni locali, con una virgola o un punto per indicare i valori decimali, secondo le impostazioni di &kcontrol;.</para
+>I numeri sono visualizzati secondo le tue impostazioni locali, con una virgola o un punto per indicare i valori decimali, secondo le impostazioni delle &systemsettings;.</para
 ></listitem>
 <listitem
 ><para
->Puoi decidere quale valuta di riferimento vuoi usare (euro o dollari), con quale altra valuta cominciare quando avvii &keurocalc;, e quale metodo di arrotondamento usare.</para
+>You can decide where &keurocalc; should download the conversion rates from, which currency to start with when you launch &keurocalc;, and which rounding method to use.</para
 ></listitem>
 </itemizedlist>
 </para>
@@ -204,7 +204,7 @@
 >&keurocalc; permette le operazioni seguenti: <itemizedlist>
 <listitem
 ><para
->Conversione da e alla valuta di riferimento (euro o dollari).</para
+>Conversione da e alla valuta di riferimento (euro).</para
 ></listitem>
 <listitem
 ><para
@@ -239,10 +239,11 @@
 ><para
 >Le valute inflazionate non possono essere gestite a causa delle dimensioni limitate del visore. Comunque, con il cambio alla nuova lira turca e la rimozione di sei zeri in quella valuta, praticamente questo non è più un problema.</para
 ></listitem>
-<listitem
+<!-- listitem
 ><para
->I tassi di cambio della Federal Reserve Bank di New York non sono disponibili durante i giorni non lavorativi (Natale, Pasqua, eccetera).</para
-></listitem>
+>New York Federal Reserve Bank rates are not available
+during the non-working days (Christmas, Easter, etc.).</para
+></listitem-->
 </itemizedlist>
 </para>
 
@@ -250,7 +251,7 @@
 ><para
 >&keurocalc; non garantisce mai l'esattezza dei tassi di cambio né l'accuratezza del risultato. Sei sempre incoraggiato a verificare i tuoi calcoli in altri modi. Come dichiarato dall'accordo di <link linkend="credits"
 >licenza</link
->, non c'è alcuna responsabilità degli autori se i risultati non sono giusti o come uno se li aspetterebbe. Nota anche che i tassi di cambio variabili sono scaricati senza cifratura, e quindi in modo non sicuro, dalle sorgenti dei dati (la Banca Centrale Europea e la Federal Reserve Bank di New York). Alcune intrusioni del tipo <quote
+>, non c'è alcuna responsabilità degli autori se i risultati non sono giusti o come uno se li aspetterebbe. Nota anche che i tassi di cambio variabili sono scaricati senza cifratura, e quindi in modo non sicuro, dalle sorgenti dei dati (la Banca Centrale Europea e Time Genie). Alcune intrusioni del tipo <quote
 >persona-nel-mezzo</quote
 > potrebbero confondere &keurocalc; truccando i tassi di cambio. Più semplicemente, un errore di trasmissione è sempre possibile.</para
 ></warning>
@@ -428,12 +429,10 @@
 >Impostazioni...</guibutton
 > per selezionare <guilabel
 >Euro, Banca Centrale Europea</guilabel
-> , <guilabel
->Dollaro, Federal Reserve Bank di New York</guilabel
+>, <guilabel
+>Euro, Time Genie</guilabel
 >. Adesso seleziona l'elemento <guilabel
 >USD - Dollaro americano</guilabel
-> o <guilabel
->EUR - Euro UE</guilabel
 > nell'elenco a cascata in basso. Se non hai accesso a Internet, quell'elemento non sarà disponibile perché gli ultimi tassi variabili tra euro e dollaro non potranno essere determinati.</para
 ></step>
 <step
@@ -470,7 +469,7 @@
 ><para
 >Leggi il risultato nel visore <guilabel
 >Risultato</guilabel
-> a destra. Il valore esatto dipenderà dagli ultimi tassi di cambio. Nota che nel corso di tutto il calcolo hai potuto leggere i valori sia in euro che in dollari americani. Fai attenzione al fatto che diverse fonti di dati (BCE o NY FRB) potrebbero non fornire lo stesso tasso di conversione tra euro e dollaro.</para
+> a destra. Il valore esatto dipenderà dagli ultimi tassi di cambio. Nota che nel corso di tutto il calcolo hai potuto leggere i valori sia in euro che in dollari americani. Fai attenzione al fatto che diverse fonti di dati (BCE o TG) potrebbero non fornire lo stesso tasso di conversione tra euro e dollaro.</para
 ></step>
 </procedure>
 
@@ -517,13 +516,13 @@
 ></step>
 <step
 ><para
->Il risultato <computeroutput
->-43,72 €</computeroutput
-> è negativo, e vuol dire che al cliente va dato un resto. Il pulsante <guibutton
+>The result <computeroutput
+>-43.72 €</computeroutput
+> is negative, indicating that change money has to be given back to the customer. The <guibutton
 >+/-</guibutton
-> o il tasto <keycap
+> button or the <keycap
 >S</keycap
-> ti permettono di cambiare il segno del risultato.</para
+> key permit you to change the sign of the result.</para
 ></step>
 </procedure>
 
@@ -579,8 +578,8 @@
 ></step>
 <step
 ><para
->Il risultato in dollari australiani corrisponde a <computeroutput
->6,4 €</computeroutput
+>The result in Australian dollars matches <computeroutput
+>6.4 €</computeroutput
 >.</para
 ></step>
 </procedure>
@@ -764,7 +763,7 @@
 </procedure>
 
 <para
->Internamente, i valori sono richiamati senza unità o nella valuta di riferimento (euro o dollari) con la precisione massima permessa dalla libreria matematica. In alcuni rari casi, ciò potrebbe portare a problemi di arrotondamento se il valore salvato è arrotondato in una valuta non di riferimento.</para>
+>Internamente, i valori sono richiamati senza unità o nella valuta di riferimento (euro) con la precisione massima permessa dalla libreria matematica. In alcuni rari casi, ciò potrebbe portare a problemi di arrotondamento se il valore salvato è arrotondato in una valuta non di riferimento.</para>
 
 <procedure>
 <title
@@ -983,7 +982,7 @@
 >$</keycap
 ></member>
 <member
->Conferma del numero immesso, considerato come un valore espresso nella valuta di riferimento (euro o dollari)</member>
+>Conferma del numero immesso, considerato come un valore espresso nella valuta di riferimento (euro)</member>
 
 <member
 ><keycap
@@ -1044,7 +1043,7 @@
 >$</guibutton
 ></member>
 <member
->Conferma del numero immesso, considerato come un valore espresso nella valuta di riferimento (euro o dollari)</member>
+>Conferma del numero immesso, considerato come un valore espresso nella valuta di riferimento (euro)</member>
 
 <member
 >Il pulsante indicato con il nome di un'altra valuta</member>
@@ -1143,7 +1142,7 @@
 >Valuta di riferimento, fonte dei tassi</title>
 
 <para
->Questa impostazione definisce la valuta di riferimento (euro o dollaro), e da dove &keurocalc; dovrebbe scaricare i tassi di cambio tra la valuta di riferimento e le altre. Sono disponibili le scelte seguenti:</para>
+>Questa impostazione definisce da dove &keurocalc; dovrebbe scaricare i tassi di cambio tra la valuta di riferimento e le altre. Sono disponibili le scelte seguenti:</para>
 
 <variablelist>
 <varlistentry>
@@ -1172,18 +1171,37 @@
 </listitem>
 </varlistentry>
 
-<varlistentry>
+<!--varlistentry>
 <term
 ><guilabel
->Dollaro, Federal Reserve Bank di New York</guilabel
+>Dollar, New York Federal Reserve Bank</guilabel
 ></term>
 <listitem>
 <para
->La valuta di riferimento è il dollaro. Non ci sono tassi di cambio fissi. &keurocalc; cerca di scaricare i tassi variabili dalla <ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
->Federal Reserve Bank di New York (NY FRB)</ulink
+>Dollar is the reference currency. There are no fixed exchange rates.
+&keurocalc; attempts to download the variable rates from the
+<ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
+>New York
+Federal Reserve Bank (NY FRB)</ulink
 >.</para>
 <para
->Attualmente, &keurocalc; ha problemi a determinare la data degli ultimi tassi di cambio pubblicati da quella banca, a causa di fusi orari e giorni lavorativi. Per sicurezza, &keurocalc; chiede sempre i dati di ieri, cosa ovviamente non ottimale.</para>
+>Currently, &keurocalc; has a problem determining the date of the latest
+exchange rates published by that bank, because of time zone offsets and non-working
+days. For safety, &keurocalc; always asks for yesterday's rates, which is of course
+not optimal.</para>
+</listitem>
+</varlistentry-->
+
+<varlistentry>
+<term
+><guilabel
+>Euro, Time Genie</guilabel
+></term>
+<listitem>
+<para
+>La valuta di riferimento è l'euro. I tassi fissi sono disponibili. &keurocalc; cerca di scaricare i tassi variabili da <ulink url="http://rss.timegenie.com/foreign_exchange_rates_forex"
+>Time Genie (TG)</ulink
+>.</para>
 </listitem>
 </varlistentry>
 
@@ -1304,7 +1322,7 @@
 >&keurocalc;</para>
 
 <para
->Copyright del programma 2001-2006 degli sviluppatori di &keurocalc;: <itemizedlist>
+>Program copyright 2001-2012 the &keurocalc; developers: <itemizedlist>
 <listitem
 ><para
 >Éric Bischoff <email
@@ -1333,7 +1351,7 @@
 ></para>
 
 <para
->Copyright della documentazione 2001-2007 Éric Bischoff <email
+>Documentation copyright 2001-2012 Éric Bischoff <email
 >ebischoff@_NOSPAM_nerim.net</email
 >.</para>
 

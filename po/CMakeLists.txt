@@ -1,21 +1,36 @@
-project(po)
+find_package(Gettext REQUIRED)
 
-FILE(GLOB _pofiles *.po)
-FOREACH(_infile ${_pofiles})
-    GET_FILENAME_COMPONENT(_lang ${_infile} NAME_WE)
-    GET_FILENAME_COMPONENT(_outfile ${CMAKE_CURRENT_BINARY_DIR}/${_lang}.mo ABSOLUTE)
-
-    ADD_CUSTOM_COMMAND(
-        OUTPUT ${_outfile}
-        COMMAND msgfmt -o ${_outfile} ${_infile}
-        DEPENDS ${_infile})
-
-    INSTALL(
-        FILES ${_outfile}
-        DESTINATION ${LOCALE_INSTALL_DIR}/${_lang}/LC_MESSAGES/
-        RENAME keurocalc.mo)
-
-    SET(_sources ${_sources} ${_outfile})
-ENDFOREACH(_infile ${_pofiles})
-
-ADD_CUSTOM_TARGET(po ALL DEPENDS ${_sources})
+add_subdirectory(ar)
+add_subdirectory(bg)
+add_subdirectory(bs)
+add_subdirectory(ca)
+add_subdirectory(ca@valencia)
+add_subdirectory(cs)
+add_subdirectory(da)
+add_subdirectory(de)
+add_subdirectory(el)
+add_subdirectory(en_GB)
+add_subdirectory(es)
+add_subdirectory(et)
+add_subdirectory(fr)
+add_subdirectory(ga)
+add_subdirectory(gl)
+add_subdirectory(hu)
+add_subdirectory(it)
+add_subdirectory(ja)
+add_subdirectory(ka)
+add_subdirectory(ko)
+add_subdirectory(nb)
+add_subdirectory(nds)
+add_subdirectory(nl)
+add_subdirectory(pl)
+add_subdirectory(pt)
+add_subdirectory(pt_BR)
+add_subdirectory(ru)
+add_subdirectory(sr)
+add_subdirectory(sr@latin)
+add_subdirectory(sv)
+add_subdirectory(ta)
+add_subdirectory(tr)
+add_subdirectory(uk)
+add_subdirectory(zh_TW)
