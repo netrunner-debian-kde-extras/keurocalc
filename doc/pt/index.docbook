@@ -48,21 +48,7 @@
 
 <copyright>
 <year
->2001</year>
-<year
->2002</year>
-<year
->2003</year>
-<year
->2004</year>
-<year
->2005</year>
-<year
->2006</year>
-<year
->2007</year>
-<year
->2008</year>
+>2001-2012</year>
 <holder
 >Éric Bischoff</holder>
 </copyright>
@@ -70,13 +56,13 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2008-02-24</date>
+>2012-02-07</date>
 <releaseinfo
->1.0.0</releaseinfo>
+>1.2.0</releaseinfo>
 
 <abstract>
 <para
->O &keurocalc; é um conversor e calculadora de cotações monetárias de bolso. Esta documentação descreve o &keurocalc; versão 1.0.0. </para>
+>O &keurocalc; é um conversor e calculadora de cotações monetárias de bolso. Esta documentação descreve o &keurocalc; versão 1.2.0. </para>
 </abstract>
 
 <keywordset>
@@ -149,15 +135,29 @@
 ><para
 >Para fazer conversões entre quaisquer duas moedas que façam parte da lista publicada pelo ECB.</para
 ></listitem>
-<listitem
+<!--listitem
 ><para
->Para fazer conversões entre o Dólar Americano e as outras moedas, de acordo com a taxa de câmbio diária definida pelo <ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
->Banco da Reserva Federal de Nova Iorque (NY FRB)</ulink
+>To do conversions between the US dollar and other currencies
+according to the daily exchange rate published by the
+<ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
+>New York
+Federal Reserve Bank (NY FRB)</ulink
 >.</para
 ></listitem>
 <listitem
 ><para
->Para fazer conversões entre quaisquer duas moedas que façam parte da lista publicada pelo NY FRB.</para
+>To do conversions between any two currencies that are part of the list
+published by the NY FRB.</para
+></listitem-->
+<listitem
+><para
+>Para fazer conversões entre o Euro e outras moedas, como a Libra Inglesa, de acordo com a taxa de câmbio diária definida pelo serviço de câmbios <ulink url="http://rss.timegenie.com/foreign_exchange_rates_forex"
+>Time Genie (TG)</ulink
+>.</para
+></listitem>
+<listitem
+><para
+>Para fazer conversões entre quaisquer duas moedas que façam parte da lista publicada pelo TG.</para
 ></listitem>
 </itemizedlist
 ></para>
@@ -171,7 +171,7 @@
 >O &keurocalc; tem as seguintes vantagens em termos de conforto e usabilidade: <itemizedlist>
 <listitem
 ><para
->Você vê todos os valores intermédios e o resultado tanto na moeda de referência (euro ou dólar) e na outra moeda.</para
+>Você vê todos os valores intermédios e o resultado tanto na moeda de referência (euro) e na outra moeda.</para
 ></listitem>
 <listitem
 ><para
@@ -179,7 +179,7 @@
 ></listitem>
 <listitem
 ><para
->A ergonomia é muito parecida com a das calculadoras de bolso, apesar do facto de qualquer valor que você escreva possa a ser um valor na moeda de referência (euro ou dólar), um valor na outra moeda, uma percentagem ou uma quantia sem unidades.</para
+>A ergonomia é muito parecida com a das calculadoras de bolso, apesar do facto de qualquer valor que você escreva possa a ser um valor na moeda de referência (euro), um valor na outra moeda, uma percentagem ou uma quantia sem unidades.</para
 ></listitem>
 <listitem
 ><para
@@ -191,11 +191,11 @@
 ></listitem>
 <listitem
 ><para
->Os números são apresentados de acordo com a sua configuração local: quer com uma vírgula quer com um ponto como separador decimal, de acordo com a sua configuração do &kcontrol;.</para
+>Os números são apresentados de acordo com a sua configuração local: quer com uma vírgula quer com um ponto como separador decimal, de acordo com a sua configuração do &systemsettings;.</para
 ></listitem>
 <listitem
 ><para
->Você poderá decidir qual é a moeda de referência que deseja usar (euro ou dólar), bem como a outra moeda a usar inicialmente, quando lançar o &keurocalc; e qual o método de arredondamento a usar.</para
+>Você poderá decidir de onde o &keurocalc; deverá obter as taxas de referência, bem como a moeda a usar inicialmente, quando lançar o &keurocalc; e qual o método de arredondamento a usar.</para
 ></listitem>
 </itemizedlist>
 </para>
@@ -204,7 +204,7 @@
 >O &keurocalc; permite as seguintes operações: <itemizedlist>
 <listitem
 ><para
->As conversões de e para a moeda de referência (euro ou dólar).</para
+>As conversões de e para a moeda de referência (euro).</para
 ></listitem>
 <listitem
 ><para
@@ -239,10 +239,11 @@
 ><para
 >As moedas inflaccionistas não poderão ser tratadas, devido a um tamanho limitado na visualização. Contudo, com a mudança para a nova Lira Turca e a remoção dos seis zeros dessa moeda, isto já não é mais um problema.</para
 ></listitem>
-<listitem
+<!-- listitem
 ><para
->As taxas do Banco da Reserva Federal de Nova Iorque não estão disponíveis durante os feriados (Natal, Páscoa, etc.).</para
-></listitem>
+>New York Federal Reserve Bank rates are not available
+during the non-working days (Christmas, Easter, etc.).</para
+></listitem-->
 </itemizedlist>
 </para>
 
@@ -250,7 +251,7 @@
 ><para
 >O &keurocalc; nunca garante a exactidão das taxas de câmbio nem a precisão do resultado. Você está sempre convidado a verificar os seus cálculos de outra forma qualquer. Como o acordo da <link linkend="credits"
 >licença</link
-> diz, não existe nenhuma culpabilidade sobre os autores se os resultados não forem correctos ou como seriam de esperar. Do mesmo modo, repare que as taxas de câmbio variáveis são obtidas de uma forma não-cifrada e, como tal insegura, das fontes de dados (o Banco Central Europeu e o Banco da Reserva Federal). Algum ataque do tipo <quote
+> diz, não existe nenhuma culpabilidade sobre os autores se os resultados não forem correctos ou como seriam de esperar. Do mesmo modo, repare que as taxas de câmbio variáveis são obtidas de uma forma não-cifrada e, como tal insegura, das fontes de dados (o Banco Central Europeu e o Time Genie). Algum ataque do tipo <quote
 >homem-no-meio</quote
 > poderá confundir o &keurocalc;, forjando as taxas de câmbio. De forma mais simples, um erro de transmissão é sempre possível.</para
 ></warning>
@@ -382,8 +383,8 @@
 ><para
 >Agora seleccione o item <guilabel
 >ESP - Peseta espanhola</guilabel
-> para ver a mesma quantia de 61,36 € convertida para pesetas na área <guilabel
->Resultados</guilabel
+> para ver a mesma quantia de 61,36 € convertida para pesetas na área do <guilabel
+>Resultado</guilabel
 >.</para
 ></step>
 </procedure>
@@ -413,9 +414,7 @@
 >5</userinput
 > e depois carregue no botão <guibutton
 >Introduzir</guibutton
-> ou na tecla <keycap
->Enter</keycap
->. O resultado <computeroutput
+> ou na tecla &Enter;. O resultado <computeroutput
 >8</computeroutput
 > aparecerá à direita.</para
 ></step>
@@ -431,11 +430,9 @@
 > seleccionar tanto o <guilabel
 >Euro, Banco Central Europeu</guilabel
 > ou <guilabel
->Dólar, Banco da Reserva Federal de Nova Iorque</guilabel
+>Euro, Time Genie</guilabel
 >. Agora, seleccione o <guilabel
 >USD - dólar americano</guilabel
-> ou o  <guilabel
->EUR - euro da UE</guilabel
 > na lista em baixo. Se não tiver nenhum acesso à Internet, esse item não estará disponível, dado que as últimas taxas variáveis entre o euro e o dólar não poderão ser determinadas.</para
 ></step>
 <step
@@ -472,7 +469,7 @@
 ><para
 >Leia o resultado no campo <guilabel
 >Resultado</guilabel
-> à direita. O valor exacto poderá depender das últimas taxas de câmbio. Repare que, durante o cálculo completo, você foi capaz de ler os valores tanto em Euros como em Dólares. Preste atenção ao facto que as diferentes fontes de dados (ECB ou NY FRB) poderão não fornecer a mesma taxa de câmbio entre o Euro e o Dólar Americano.</para
+> à direita. O valor exacto poderá depender das últimas taxas de câmbio. Repare que, durante o cálculo completo, você foi capaz de ler os valores tanto em Euros como em Dólares. Preste atenção ao facto que as diferentes fontes de dados (ECB ou TG) poderão não fornecer a mesma taxa de câmbio entre o Euro e o Dólar Americano.</para
 ></step>
 </procedure>
 
@@ -521,7 +518,7 @@
 ><para
 >O resultado <computeroutput
 >-43,72 €</computeroutput
-> é negativo, o que significa que é necessário dar troco de volta ao cliente. O botão <guibutton
+> € é negativo, o que significa que é necessário dar troco de volta ao cliente. O botão <guibutton
 >+/-</guibutton
 > ou a tecla <keycap
 >S</keycap
@@ -575,9 +572,7 @@
 >3,2</userinput
 > seguido do botão <guibutton
 >Introduzir</guibutton
-> ou da tecla <keycap
->Enter</keycap
->: isto significa <quote
+> ou da tecla &Enter;: isto significa <quote
 >3,2 unidades</quote
 > a 2 € cada.</para
 ></step>
@@ -768,7 +763,7 @@
 </procedure>
 
 <para
->Internamente, os valores são lidos da memória sem nenhuma unidade ou referência a moeda (euro ou dólar) com a máxima precisão permitida pela biblioteca matemática. Em alguns casos ratos, isto pode levar a problemas de arredondamento se o valor armazenado for um valor arredondado numa moeda sem referência.</para>
+>Internamente, os valores são lidos da memória sem nenhuma unidade ou referência a moeda (euro ou dólar) com a máxima precisão permitida pela biblioteca matemática. Em alguns casos raros, isto pode levar a problemas de arredondamento se o valor armazenado for um valor arredondado numa moeda sem referência.</para>
 
 <procedure>
 <title
@@ -945,9 +940,7 @@
 >Operadores: soma, subtracção, multiplicação e divisão</member>
 
 <member
-><keycap
->Enter</keycap
-> e <keycap
+>&Enter; e <keycap
 >Return</keycap
 ></member>
 <member
@@ -966,12 +959,8 @@
 >Remoção do último dado introduzido: algarismos, separador decimal ou operador</member>
 
 <member
->Teclas <keycap
->Tab</keycap
-> e <keycombo action="simul"
->&Shift; <keycap
->Tab</keycap
-></keycombo
+>Teclas &Tab; e <keycombo action="simul"
+>&Shift; &Tab;</keycombo
 ></member>
 <member
 >Move de um botão para o próximo ou para o anterior, respectivamente</member>
@@ -993,7 +982,7 @@
 >$</keycap
 ></member>
 <member
->Validação do número introduzido como o um valor expresso na moeda de referência (euros ou dólares)</member>
+>Validação do número introduzido como o um valor expresso na moeda de referência (euros)</member>
 
 <member
 ><keycap
@@ -1054,7 +1043,7 @@
 >$</guibutton
 ></member>
 <member
->Validação do número introduzido como o um valor expresso na moeda de referência (euros ou dólares)</member>
+>Validação do número introduzido como o um valor expresso na moeda de referência (euros)</member>
 
 <member
 >O botão assinalado com o nome da outra moeda</member>
@@ -1153,7 +1142,7 @@
 >Moeda de referência, origem das taxas</title>
 
 <para
->Esta configuração define a moeda de referência (euro ou dólar) e de onde o &keurocalc; deverá obter as taxas de câmbio entre a moeda de referência e as outras moedas. Estão disponíveis as seguintes opções:</para>
+>Esta configuração define de onde o &keurocalc; deverá obter as taxas de câmbio entre a moeda de referência e as outras moedas. Estão disponíveis as seguintes opções:</para>
 
 <variablelist>
 <varlistentry>
@@ -1182,18 +1171,37 @@
 </listitem>
 </varlistentry>
 
-<varlistentry>
+<!--varlistentry>
 <term
 ><guilabel
->Dólar, Banco da Reserva Federal de New York</guilabel
+>Dollar, New York Federal Reserve Bank</guilabel
 ></term>
 <listitem>
 <para
->O dólar é a moeda de referência. Não existem taxas de câmbio fixas. O &keurocalc; tenta obter as taxas variáveis do <ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
->Banco da Reserva Federal de Nova Iorque (NY FRB)</ulink
+>Dollar is the reference currency. There are no fixed exchange rates.
+&keurocalc; attempts to download the variable rates from the
+<ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
+>New York
+Federal Reserve Bank (NY FRB)</ulink
 >.</para>
 <para
->De momento, o &keurocalc; tem um problema a determinar a data das últimas taxas de câmbio publicadas por esse banco, devido aos desvios de fusos-horários e aos dias feriados. Por segurança, o &keurocalc; pede sempre as taxas de ontem, o que não é óptimo, obviamente.</para>
+>Currently, &keurocalc; has a problem determining the date of the latest
+exchange rates published by that bank, because of time zone offsets and non-working
+days. For safety, &keurocalc; always asks for yesterday's rates, which is of course
+not optimal.</para>
+</listitem>
+</varlistentry-->
+
+<varlistentry>
+<term
+><guilabel
+>Euro, Time Genie</guilabel
+></term>
+<listitem>
+<para
+>O Euro é a moeda de referência. As taxas de câmbio fixas estão disponíveis. O &keurocalc; tenta obter as taxas variáveis do <ulink url="http://rss.timegenie.com/foreign_exchange_rates_forex/"
+>Time Genie (TG)</ulink
+>.</para>
 </listitem>
 </varlistentry>
 
@@ -1314,7 +1322,7 @@
 >&keurocalc;</para>
 
 <para
->Programa com 'copyright' 2001-2006, a equipa de desenvolvimento do &keurocalc;: <itemizedlist>
+>Programa com 'copyright' 2001-2012, a equipa de desenvolvimento do &keurocalc;: <itemizedlist>
 <listitem
 ><para
 >Éric Bischoff <email
@@ -1343,7 +1351,7 @@
 ></para>
 
 <para
->Documentação com 'copyright' 2001-2007 Éric Bischoff <email
+>Documentação com 'copyright' 2001-2012 Éric Bischoff <email
 >ebischoff@_NOSPAM_nerim.net</email
 >.</para>
 

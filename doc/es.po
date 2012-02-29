@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keurocalc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-09 01:03+0000\n"
+"POT-Creation-Date: 2012-02-26 03:57+0000\n"
 "PO-Revision-Date: 2006-04-12 23:02+0200\n"
 "Last-Translator: santi <santi@kde-es.org>\n"
 "Language-Team: Español <kde-es@kybs.de>\n"
@@ -56,21 +56,24 @@ msgstr "Éric Bischoff"
 #. Tag: date
 #: index.docbook:32
 #, no-c-format
-msgid "2011-01-08"
+msgid "2012-02-07"
 msgstr ""
 
 #. Tag: releaseinfo
 #: index.docbook:33
 #, no-c-format
-msgid "1.1.0"
+msgid "1.2.0"
 msgstr ""
 
 #. Tag: para
 #: index.docbook:36
 #, fuzzy, no-c-format
+#| msgid ""
+#| "&keurocalc; is an universal pocket currency converter and calculator. "
+#| "This documentation describes &keurocalc; version 0.9.6."
 msgid ""
 "&keurocalc; is an universal pocket currency converter and calculator. This "
-"documentation describes &keurocalc; version 1.1.0."
+"documentation describes &keurocalc; version 1.2.0."
 msgstr ""
 "&keurocalc; es un conversor universal de bolsillo de divisas y una "
 "calculadora. Está documentación describe la versión 0.9.6 de &keurocalc;."
@@ -128,6 +131,10 @@ msgstr ""
 #. Tag: para
 #: index.docbook:60
 #, fuzzy, no-c-format
+#| msgid ""
+#| "On the 1st of January, 2002, 12 European countries united their national "
+#| "currencies into a single one, the euro (€). The same will probably happen "
+#| "in 2007 in some Eastern European countries. &keurocalc; helps:"
 msgid ""
 "On the 1st of January, 2002, 12 European countries united their national "
 "currencies into a single one, the euro (€). The same happens from time to "
@@ -188,6 +195,11 @@ msgstr "En cualquier momento:"
 #. Tag: para
 #: index.docbook:88
 #, fuzzy, no-c-format
+#| msgid ""
+#| "To do conversions between the euro and other currencies, like the British "
+#| "Pound, according to the daily exchange rate defined by the <ulink url="
+#| "\"http://www.ecb.int/stats/eurofxref/\">European Central Bank (ECB)</"
+#| "ulink>."
 msgid ""
 "To do conversions between the euro and other currencies, like the British "
 "Pound, according to the daily exchange rate published by the <ulink url="
@@ -200,6 +212,9 @@ msgstr ""
 #. Tag: para
 #: index.docbook:91
 #, fuzzy, no-c-format
+#| msgid ""
+#| "To do conversions between any two currencies that are part of the list "
+#| "published the ECB."
 msgid ""
 "To do conversions between any two currencies that are part of the list "
 "published by the ECB."
@@ -210,6 +225,11 @@ msgstr ""
 #. Tag: para
 #: index.docbook:99
 #, fuzzy, no-c-format
+#| msgid ""
+#| "To do conversions between the euro and other currencies, like the British "
+#| "Pound, according to the daily exchange rate defined by the <ulink url="
+#| "\"http://www.ecb.int/stats/eurofxref/\">European Central Bank (ECB)</"
+#| "ulink>."
 msgid ""
 "To do conversions between the euro and other currencies, like the British "
 "Pound, according to the daily exchange rate published by the <ulink url="
@@ -223,6 +243,9 @@ msgstr ""
 #. Tag: para
 #: index.docbook:103
 #, fuzzy, no-c-format
+#| msgid ""
+#| "To do conversions between any two currencies that are part of the list "
+#| "published the ECB."
 msgid ""
 "To do conversions between any two currencies that are part of the list "
 "published by the TG."
@@ -242,6 +265,9 @@ msgstr ""
 #. Tag: para
 #: index.docbook:116
 #, fuzzy, no-c-format
+#| msgid ""
+#| "You see every intermediate value and the result in both the reference "
+#| "currency (euro or dollar) and in the other currency."
 msgid ""
 "You see every intermediate value and the result in both the reference "
 "currency (euro) and in the other currency."
@@ -262,6 +288,11 @@ msgstr ""
 #. Tag: para
 #: index.docbook:121
 #, fuzzy, no-c-format
+#| msgid ""
+#| "The ergonomy is very close to usual pocket calculators, despite the fact "
+#| "that any value you type can be a value in the reference currency (euro or "
+#| "dollar), a value in the other currency, a percentage or an unit-less "
+#| "quantity."
 msgid ""
 "The ergonomy is very close to usual pocket calculators, despite the fact "
 "that any value you type can be a value in the reference currency (euro), a "
@@ -291,10 +322,15 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:129
-#, no-c-format
+#, fuzzy, no-c-format
+#| msgid ""
+#| "The numbers are displayed according to your locale settings: with either "
+#| "a comma or a dot as a decimal point, according to your &kcontrol; "
+#| "settings."
 msgid ""
 "The numbers are displayed according to your locale settings: with either a "
-"comma or a dot as a decimal point, according to your &kcontrol; settings."
+"comma or a dot as a decimal point, according to your &systemsettings; "
+"settings."
 msgstr ""
 "Los números se muestran de acuerdo con su configuración local: con una coma "
 "o un punto como separador decimal, de acuerdo con las preferencias de "
@@ -303,9 +339,13 @@ msgstr ""
 #. Tag: para
 #: index.docbook:132
 #, fuzzy, no-c-format
+#| msgid ""
+#| "You can decide which reference currency you want to use (euro or dollar), "
+#| "which other currency to start with when you launch &keurocalc;, and which "
+#| "rounding method to use."
 msgid ""
-"You can decide which reference currency you want to use (euro), which other "
-"currency to start with when you launch &keurocalc;, and which rounding "
+"You can decide where &keurocalc; should download the conversion rates from, "
+"which currency to start with when you launch &keurocalc;, and which rounding "
 "method to use."
 msgstr ""
 "Puede decidir qué divisa de referencia utilizar (euro o dólar), que otra "
@@ -320,6 +360,7 @@ msgstr "&keurocalc; permite las siguientes operaciones:"
 #. Tag: para
 #: index.docbook:141
 #, fuzzy, no-c-format
+#| msgid "Conversions from and to the reference currency (euro or dollar)."
 msgid "Conversions from and to the reference currency (euro)."
 msgstr "Conversiones de y a la divisa de referencia (euro o dólar)."
 
@@ -392,6 +433,17 @@ msgstr ""
 #. Tag: para
 #: index.docbook:168
 #, fuzzy, no-c-format
+#| msgid ""
+#| "&keurocalc; never guarantees the exactness of the exchange rates nor the "
+#| "accuracy of the result. You are always invited to verify your "
+#| "computations by some other means. As the <link linkend=\"credits"
+#| "\">license</link> agreement states, there's no liability of the authors "
+#| "if the results are not correct or as expected. Also, please notice that "
+#| "the variable exchange rates are downloaded in an unencrypted and "
+#| "therefore insecure manner from the data sources (European Central Bank "
+#| "and New York Federal Reserve Bank). Some <quote>man-in-the-middle</quote> "
+#| "attacker may confuse &keurocalc; by forging exchange rates. More simply, "
+#| "a transmission error is always possible."
 msgid ""
 "&keurocalc; never guarantees the exactness of the exchange rates nor the "
 "accuracy of the result. You are always invited to verify your computations "
@@ -576,6 +628,10 @@ msgstr ""
 #. Tag: para
 #: index.docbook:237
 #, fuzzy, no-c-format
+#| msgid ""
+#| "Just select the <guilabel>ESP - Spanish peseta</guilabel> item to see the "
+#| "same amount of 61.36 € converted into pesetas in the <guilabel>Results</"
+#| "guilabel> area."
 msgid ""
 "Just select the <guilabel>ESP - Spanish peseta</guilabel> item to see the "
 "same amount of 61.36 € converted into pesetas in the <guilabel>Result</"
@@ -612,6 +668,10 @@ msgstr ""
 #. Tag: para
 #: index.docbook:252
 #, fuzzy, no-c-format
+#| msgid ""
+#| "Type <userinput>5</userinput> and then press the <guibutton>Enter</"
+#| "guibutton> button or the <keycap>Enter</keycap> key. The result "
+#| "<computeroutput>8</computeroutput> appears on the right."
 msgid ""
 "Type <userinput>5</userinput> and then press the <guibutton>Enter</"
 "guibutton> button or the &Enter; key. The result <computeroutput>8</"
@@ -634,6 +694,15 @@ msgstr ""
 #. Tag: para
 #: index.docbook:260
 #, fuzzy, no-c-format
+#| msgid ""
+#| "Make sure that the variable exchange rates are available. If not, press "
+#| "the <guibutton>Settings...</guibutton> to select either <guilabel>Euro, "
+#| "European Central Bank</guilabel> or <guilabel>Dollar, New York Federal "
+#| "Reserve Bank</guilabel>. Now select the <guilabel>USD - US dollar</"
+#| "guilabel> or the <guilabel>EUR - EU euro</guilabel> item in the scroll "
+#| "down list on the bottom. If you have no Internet access, that item won't "
+#| "be available as the latest variable rates between the euro and the dollar "
+#| "cannot be determined."
 msgid ""
 "Make sure that the variable exchange rates are available. If not, press the "
 "<guibutton>Settings...</guibutton> to select either <guilabel>Euro, European "
@@ -683,6 +752,13 @@ msgstr ""
 #. Tag: para
 #: index.docbook:275
 #, fuzzy, no-c-format
+#| msgid ""
+#| "Read the result in the <guilabel>Result</guilabel> display on the right. "
+#| "The exact value might depend on latest exchange rates. Notice that during "
+#| "the whole computation you've been able to read the values both in euro "
+#| "and in US dollars. Pay attention to the fact that different data sources "
+#| "(ECB or NY FRB) might not provide the same conversion rate between the "
+#| "euro and the dollar."
 msgid ""
 "Read the result in the <guilabel>Result</guilabel> display on the right. The "
 "exact value might depend on latest exchange rates. Notice that during the "
@@ -748,7 +824,12 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:293
-#, no-c-format
+#, fuzzy, no-c-format
+#| msgid ""
+#| "The result <computeroutput>-43.72 €</computeroutput> is negative, "
+#| "indicating that change money has to be given back to the customer. The "
+#| "<guibutton>+/-</guibutton> button or the <keycap>S</keycap> key permit "
+#| "you to change the sign of the result."
 msgid ""
 "The result <computeroutput>-43.72 €</computeroutput> is negative, indicating "
 "that change money has to be given back to the customer. The <guibutton>+/-</"
@@ -817,6 +898,10 @@ msgstr ""
 #. Tag: para
 #: index.docbook:315
 #, fuzzy, no-c-format
+#| msgid ""
+#| "Now type <userinput>3.2</userinput> followed by the <guibutton>Enter</"
+#| "guibutton> button or the <keycap>Enter</keycap> key: this means "
+#| "<quote>3.2 units</quote> at 2 € each."
 msgid ""
 "Now type <userinput>3.2</userinput> followed by the <guibutton>Enter</"
 "guibutton> button or the &Enter; key: this means <quote>3.2 units</quote> at "
@@ -828,7 +913,10 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:318
-#, no-c-format
+#, fuzzy, no-c-format
+#| msgid ""
+#| "The result in Australian dollars matches <computeroutput>6.4 €</"
+#| "computeroutput>."
 msgid ""
 "The result in Australian dollars matches <computeroutput>6.4 €</"
 "computeroutput>."
@@ -996,6 +1084,12 @@ msgstr ""
 #. Tag: para
 #: index.docbook:389
 #, fuzzy, no-c-format
+#| msgid ""
+#| "Internally, the values are recalled with no unit or in the reference "
+#| "currency (euro or dollar) with the maximum precision allowed by the "
+#| "mathematical library. In some rare cases, this might lead to rounding "
+#| "problems if the stored value is a rounded value in a non-reference "
+#| "currency."
 msgid ""
 "Internally, the values are recalled with no unit or in the reference "
 "currency (euro) with the maximum precision allowed by the mathematical "
@@ -1199,6 +1293,7 @@ msgstr "Operadores: suma, resta, multiplicación y división."
 #. Tag: member
 #: index.docbook:457
 #, fuzzy, no-c-format
+#| msgid "<keycap>Enter</keycap> and <keycap>Return</keycap>"
 msgid "&Enter; and <keycap>Return</keycap>"
 msgstr "<keycap>Introducir</keycap> y <keycap>Entrar</keycap>"
 
@@ -1236,6 +1331,9 @@ msgstr "Elimina la última entrada: dígitos, separador decimal u operador."
 #. Tag: member
 #: index.docbook:466
 #, fuzzy, no-c-format
+#| msgid ""
+#| "<keycap>Tab</keycap> and <keycombo action=\"simul\">&Shift; <keycap>Tab</"
+#| "keycap></keycombo> keys"
 msgid "&Tab; and <keycombo action=\"simul\">&Shift; &Tab;</keycombo> keys"
 msgstr ""
 "Teclas <keycap>Tab</keycap> y <keycombo action=\"simul\">&Shift; "
@@ -1280,6 +1378,9 @@ msgstr "<keycap>E</keycap> o <keycap>$</keycap>"
 #. Tag: member
 #: index.docbook:476 index.docbook:505
 #, fuzzy, no-c-format
+#| msgid ""
+#| "Validation of input number considered as a value expressed in the "
+#| "reference currency (euro or dollar)"
 msgid ""
 "Validation of input number considered as a value expressed in the reference "
 "currency (euro)"
@@ -1459,6 +1560,11 @@ msgstr "Divisa de referencia, origen de las cotizaciones"
 #. Tag: para
 #: index.docbook:551
 #, fuzzy, no-c-format
+#| msgid ""
+#| "This setting defines the reference currency (euro or dollar), and from "
+#| "where &keurocalc; should download the exchange rates between the "
+#| "reference currency and other currencies. The following choices are "
+#| "available:"
 msgid ""
 "This setting defines from where &keurocalc; should download the exchange "
 "rates between the reference currency and other currencies. The following "
@@ -1520,6 +1626,11 @@ msgstr ""
 #. Tag: para
 #: index.docbook:593
 #, fuzzy, no-c-format
+#| msgid ""
+#| "Euro is the reference currency. The fixed exchange rates are available. "
+#| "&keurocalc; attempts to download the variable rates from the <ulink url="
+#| "\"http://www.ecb.int/stats/eurofxref/\">European Central Bank (ECB)</"
+#| "ulink>."
 msgid ""
 "Euro is the reference currency. The fixed exchange rates are available. "
 "&keurocalc; attempts to download the variable rates from the <ulink url="
@@ -1667,6 +1778,7 @@ msgstr ""
 #. Tag: title
 #: index.docbook:663
 #, fuzzy, no-c-format
+#| msgid "Look an feel"
 msgid "Look and feel"
 msgstr "Aspecto y comportamiento"
 
@@ -1732,7 +1844,8 @@ msgstr "&keurocalc;"
 #. Tag: para
 #: index.docbook:698
 #, fuzzy, no-c-format
-msgid "Program copyright 2001-2011 the &keurocalc; developers:"
+#| msgid "Program copyright 2001-2006 the &keurocalc; developers:"
+msgid "Program copyright 2001-2012 the &keurocalc; developers:"
 msgstr ""
 "Derechos de autor del programa. 2001-2006. Los desarrolladores de "
 "&keurocalc;:"
@@ -1750,6 +1863,9 @@ msgstr ""
 #. Tag: para
 #: index.docbook:702
 #, fuzzy, no-c-format
+#| msgid ""
+#| "Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> - additional "
+#| "functionnality"
 msgid ""
 "Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> - additional "
 "functionality"
@@ -1778,8 +1894,11 @@ msgstr ""
 #. Tag: para
 #: index.docbook:707
 #, fuzzy, no-c-format
+#| msgid ""
+#| "Documentation copyright 2001-2006 Éric Bischoff "
+#| "<email>ebischoff@_NOSPAM_nerim.net</email>."
 msgid ""
-"Documentation copyright 2001-2011 Éric Bischoff "
+"Documentation copyright 2001-2012 Éric Bischoff "
 "<email>ebischoff@_NOSPAM_nerim.net</email>."
 msgstr ""
 "Derechos de autor de la documentación. 2001-2006. Éric Bischoff <email>e."
@@ -1840,6 +1959,7 @@ msgstr "Requerimientos"
 #. Tag: para
 #: index.docbook:735
 #, fuzzy, no-c-format
+#| msgid "In order to successfully use &keurocalc;, you need &kde; 3.5."
 msgid "In order to successfully use &keurocalc;, you need &kde; 4.0."
 msgstr "Para utilizar &keurocalc; correctamente, necesita &kde; 3.5."
 
@@ -1872,6 +1992,10 @@ msgstr ""
 #. Tag: screen
 #: index.docbook:750
 #, fuzzy, no-c-format
+#| msgid ""
+#| "<prompt>%</prompt> <userinput>./configure</userinput>\n"
+#| "<prompt>%</prompt> <userinput>make</userinput>\n"
+#| "<prompt>%</prompt> <userinput>make install</userinput>"
 msgid ""
 "<prompt>%</prompt> <userinput>mkdir build</userinput>\n"
 "<prompt>%</prompt> <userinput>cd build</userinput>\n"
@@ -1886,6 +2010,11 @@ msgstr ""
 #. Tag: para
 #: index.docbook:753
 #, fuzzy, no-c-format
+#| msgid ""
+#| "Since &keurocalc; uses <application>autoconf</application> and "
+#| "<application>automake</application> you should have not trouble compiling "
+#| "it. Should you run into problems please report them to &keurocalc;'s "
+#| "authors."
 msgid ""
 "Since cmake autodetects your system settings, you should have no trouble "
 "compiling &keurocalc;. Should you run into problems please report them to "

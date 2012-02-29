@@ -1,0 +1,79 @@
+# translation of curconvd.po to Ukrainian
+# Translation of curconvd.po to Ukrainian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ivan Petrouchtchak <fr.ivan@ukrainian-orthodox.org>, 2008.
+# Yuri Chornoivan <yurchor@ukr.net>, 2008, 2009, 2010, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: curconvd\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-02-25 04:16+0100\n"
+"PO-Revision-Date: 2012-02-25 09:27+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <translation@linux.org.ua>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: converter.cpp:36
+msgid "curconvd: waiting for D-Bus requests"
+msgstr "curconvd: очікування на запити D-Bus"
+
+#: converter.cpp:44
+msgid "curconvd: stopped waiting for D-Bus requests"
+msgstr "curconvd: припинено очікування на запити D-Bus"
+
+#: main.cpp:30
+msgid "CurConvD"
+msgstr "CurConvD"
+
+#: main.cpp:31
+msgid "A currency converter daemon"
+msgstr "Фонова служба конвертування валюти"
+
+#: main.cpp:32
+msgid "(c) 2006-2012, the curconvd developers"
+msgstr "© розробники curconvd, 2006–2012"
+
+#: main.cpp:33
+msgid ""
+"A program by Éric Bischoff <ebischoff@nerim.net>\n"
+"\n"
+"Time Genie exchange rates courtesy of <a href='http://www.timegenie.com/' "
+"title='foreign exchange rates courtesy of Time Genie'>Time Genie</a>\n"
+msgstr ""
+"Автором програми є Éric Bischoff <ebischoff@nerim.net>\n"
+"\n"
+"Обмінні курси Time Genie є власністю <a href='http://www.timegenie.com/' "
+"title='служба обміну валют Time Genie'>Time Genie</a>\n"
+
+#: main.cpp:41
+msgid "Éric Bischoff"
+msgstr "Éric Bischoff"
+
+#: main.cpp:41
+msgid "Design and implementation"
+msgstr "Дизайн і впровадження"
+
+#: main.cpp:53
+msgid "Time Genie exchange rates courtesy of Time Genie"
+msgstr "Обмінні курси Time Genie є власністю Time Genie"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "о. Іван Петрущак"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "fr.ivan@ukrainian-orthodox.org"
+
+#~ msgid "A program by Éric Bischoff <ebischoff@nerim.net>\n"
+#~ msgstr "Програму написав Éric Bischoff <ebischoff@nerim.net>\n"

@@ -1,5 +1,3 @@
-project( keurocalc )
-
 ########### next target ###############
 
 set( keurocalc_SRCS

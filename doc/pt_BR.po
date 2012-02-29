@@ -1,14 +1,17 @@
+# tradução do keurocalc.po para Brazilian Portuguese
 # translation of keurocalc.po to Brazilian Portuguese
 #
-# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2008.
-# Marcus Vinícius de Andrade Gama <marcus.gama@gmail.com>, 2010.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2008, 2010.
+# Marcus Vinícius de Andrade Gama <marcus.gama@gmail.com>, 2010, 2011.
+# André Marcelo Alvarenga <andrealvarenga@gmx.net>, 2010, 2011.
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: keurocalc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-09 01:03+0000\n"
-"PO-Revision-Date: 2010-01-09 20:36-0300\n"
-"Last-Translator: Marcus Vinícius de Andrade Gama <marcus.gama@gmail.com>\n"
+"POT-Creation-Date: 2012-02-26 03:57+0000\n"
+"PO-Revision-Date: 2012-02-26 13:26-0300\n"
+"Last-Translator: André Marcelo Alvarenga <alvarenga@kde.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_br@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +27,7 @@ msgstr ""
 #: index.docbook:12
 #, no-c-format
 msgid "The &keurocalc; Handbook"
-msgstr "O Manual do &keurocalc;"
+msgstr "Manual do &keurocalc;"
 
 #. Tag: author
 #: index.docbook:15
@@ -56,24 +59,24 @@ msgstr "Éric Bischoff"
 #. Tag: date
 #: index.docbook:32
 #, no-c-format
-msgid "2011-01-08"
-msgstr ""
+msgid "2012-02-07"
+msgstr "07/02/2012"
 
 #. Tag: releaseinfo
 #: index.docbook:33
 #, no-c-format
-msgid "1.1.0"
-msgstr ""
+msgid "1.2.0"
+msgstr "1.2.0"
 
 #. Tag: para
 #: index.docbook:36
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "&keurocalc; is an universal pocket currency converter and calculator. This "
-"documentation describes &keurocalc; version 1.1.0."
+"documentation describes &keurocalc; version 1.2.0."
 msgstr ""
 "O &keurocalc; é um conversor e calculadora de cotações monetárias de bolso. "
-"Esta documentação descreve o &keurocalc; versão 1.0.0."
+"Esta documentação descreve o &keurocalc; versão 1.2.0."
 
 #. Tag: keyword
 #: index.docbook:43
@@ -186,19 +189,19 @@ msgstr "A qualquer momento"
 
 #. Tag: para
 #: index.docbook:88
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "To do conversions between the euro and other currencies, like the British "
 "Pound, according to the daily exchange rate published by the <ulink url="
 "\"http://www.ecb.int/stats/eurofxref/\">European Central Bank (ECB)</ulink>."
 msgstr ""
 "Para fazer conversões entre o Euro e outras moedas, como a Libra Inglesa, de "
-"acordo com a taxa de câmbio diária definida pelo <ulink url=\"http://www.ecb."
-"int/stats/eurofxref/\">Banco Central Europeu (ECB)</ulink>."
+"acordo com a taxa de câmbio diária publicada pelo <ulink url=\"http://www."
+"ecb.int/stats/eurofxref/\">Banco Central Europeu (ECB)</ulink>."
 
 #. Tag: para
 #: index.docbook:91
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "To do conversions between any two currencies that are part of the list "
 "published by the ECB."
@@ -208,7 +211,7 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:99
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "To do conversions between the euro and other currencies, like the British "
 "Pound, according to the daily exchange rate published by the <ulink url="
@@ -216,18 +219,18 @@ msgid ""
 "foreign exchange (TG)."
 msgstr ""
 "Para fazer conversões entre o Euro e outras moedas, como a Libra Inglesa, de "
-"acordo com a taxa de câmbio diária definida pelo <ulink url=\"http://www.ecb."
-"int/stats/eurofxref/\">Banco Central Europeu (ECB)</ulink>."
+"acordo com a taxa de câmbio diária publicada pelo <ulink url=\"http://rss."
+"timegenie.com/foreign_exchange_rates_forex\">Time Genie (TG)</ulink>."
 
 #. Tag: para
 #: index.docbook:103
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "To do conversions between any two currencies that are part of the list "
 "published by the TG."
 msgstr ""
 "Para fazer conversões entre quaisquer duas moedas que façam parte da lista "
-"publicada pelo ECB."
+"publicada pelo TG."
 
 #. Tag: para
 #: index.docbook:112
@@ -239,13 +242,13 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:116
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "You see every intermediate value and the result in both the reference "
 "currency (euro) and in the other currency."
 msgstr ""
 "Você vê todos os valores intermediários e o resultado tanto na moeda de "
-"referência (euro ou dólar) como na outra moeda."
+"referência (euro) e na outra moeda."
 
 #. Tag: para
 #: index.docbook:119
@@ -259,7 +262,7 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:121
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "The ergonomy is very close to usual pocket calculators, despite the fact "
 "that any value you type can be a value in the reference currency (euro), a "
@@ -267,8 +270,7 @@ msgid ""
 msgstr ""
 "A ergonomia é muito parecida com a das calculadoras de bolso, apesar do fato "
 "de qualquer valor que você digite possa ser um valor na moeda de referência "
-"(euro ou dólar), um valor na outra moeda, uma percentagem ou uma quantia sem "
-"unidades."
+"(euro), um valor na outra moeda, uma percentagem ou uma quantia sem unidades."
 
 #. Tag: para
 #: index.docbook:125
@@ -294,23 +296,24 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The numbers are displayed according to your locale settings: with either a "
-"comma or a dot as a decimal point, according to your &kcontrol; settings."
+"comma or a dot as a decimal point, according to your &systemsettings; "
+"settings."
 msgstr ""
 "Os números são apresentados de acordo com a sua configuração local: quer com "
 "uma vírgula quer com um ponto como separador decimal, de acordo com a sua "
-"configuração do &kcontrol;."
+"configuração do &systemsettings;."
 
 #. Tag: para
 #: index.docbook:132
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
-"You can decide which reference currency you want to use (euro), which other "
-"currency to start with when you launch &keurocalc;, and which rounding "
+"You can decide where &keurocalc; should download the conversion rates from, "
+"which currency to start with when you launch &keurocalc;, and which rounding "
 "method to use."
 msgstr ""
-"Você poderá decidir qual é a moeda de referência que deseja usar (euro ou "
-"dólar), bem como a outra moeda a usar inicialmente, quando lançar o "
-"&keurocalc; e qual o método de arredondamento usar."
+"Você pode decidir onde o &keurocalc; deve baixar as taxas de conversão, qual "
+"a moeda deve ser usada ao iniciar o &keurocalc; e qual o método de "
+"arredondamento usar."
 
 #. Tag: para
 #: index.docbook:138
@@ -320,9 +323,9 @@ msgstr "O &keurocalc; permite as seguintes operações:"
 
 #. Tag: para
 #: index.docbook:141
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Conversions from and to the reference currency (euro)."
-msgstr "As conversões de e para a moeda de referência (euro ou dólar)."
+msgstr "As conversões de e para a moeda de referência (euro)."
 
 #. Tag: para
 #: index.docbook:143
@@ -391,7 +394,7 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:168
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "&keurocalc; never guarantees the exactness of the exchange rates nor the "
 "accuracy of the result. You are always invited to verify your computations "
@@ -409,10 +412,10 @@ msgstr ""
 "diz, não existe nenhuma culpabilidade sobre os autores se os resultados não "
 "forem corretos ou como seriam de esperar. Do mesmo modo, repare que as taxas "
 "de câmbio variáveis são obtidas de uma forma não-criptografada e, como tal "
-"insegura, das fontes de dados (o Banco Central Europeu e o Banco da Reserva "
-"Federal). Algum ataque do tipo <quote>homem-no-meio</quote> poderá confundir "
-"o &keurocalc;, forjando as taxas de câmbio. De forma mais simples, um erro "
-"de transmissão é sempre possível."
+"insegura, das fontes de dados (o Banco Central Europeu e o Time Genie). "
+"Algum ataque do tipo <quote>homem-no-meio</quote> poderá confundir o "
+"&keurocalc;, forjando as taxas de câmbio. De forma mais simples, um erro de "
+"transmissão é sempre possível."
 
 #. Tag: title
 #: index.docbook:181
@@ -636,7 +639,7 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:260
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Make sure that the variable exchange rates are available. If not, press the "
 "<guibutton>Settings...</guibutton> to select either <guilabel>Euro, European "
@@ -648,9 +651,8 @@ msgstr ""
 "Certifique-se de que as taxas de câmbio variáveis estão disponíveis. Caso "
 "contrário, pressione o botão <guibutton>Configurações...</guibutton> para "
 "selecionar tanto o <guilabel>Euro, Banco Central Europeu</guilabel> ou "
-"<guilabel>Dólar, Banco da Reserva Federal de Nova Iorque</guilabel>. Agora, "
-"selecione o <guilabel>USD - dólar americano</guilabel> ou o  <guilabel>EUR - "
-"euro da UE</guilabel> na lista abaixo. Se não tiver nenhum acesso à "
+"<guilabel>Euro, Time Genie</guilabel>. Agora, selecione o <guilabel>USD - "
+"dólar americano</guilabel> na lista abaixo. Se não tiver nenhum acesso à "
 "Internet, esse item não estará disponível, uma vez que as últimas taxas "
 "variáveis entre o euro e o dólar não poderão ser determinadas."
 
@@ -688,7 +690,7 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:275
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Read the result in the <guilabel>Result</guilabel> display on the right. The "
 "exact value might depend on latest exchange rates. Notice that during the "
@@ -700,7 +702,7 @@ msgstr ""
 "exato poderá depender das últimas taxas de câmbio. Repare que, durante o "
 "cálculo completo, você foi capaz de ler os valores tanto em Euros como em "
 "Dólares. Preste atenção ao fato de que as diferentes fontes de dados (ECB ou "
-"NY FRB) poderão não fornecer a mesma taxa de câmbio entre o Euro e o Dólar "
+"TG) poderão não fornecer a mesma taxa de câmbio entre o Euro e o Dólar "
 "Americano."
 
 #. Tag: title
@@ -1005,7 +1007,7 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:389
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Internally, the values are recalled with no unit or in the reference "
 "currency (euro) with the maximum precision allowed by the mathematical "
@@ -1013,8 +1015,8 @@ msgid ""
 "stored value is a rounded value in a non-reference currency."
 msgstr ""
 "Internamente, os valores são lidos da memória sem nenhuma unidade ou "
-"referência a moeda (euro ou dólar) com a máxima precisão permitida pela "
-"biblioteca matemática. Em alguns casos raros, isto pode levar a problemas de "
+"referência a moeda (euro) com a máxima precisão permitida pela biblioteca "
+"matemática. Em alguns casos raros, isto pode levar a problemas de "
 "arredondamento se o valor armazenado for um valor arredondado numa moeda sem "
 "referência."
 
@@ -1287,13 +1289,13 @@ msgstr "<keycap>E</keycap> ou <keycap>$</keycap>"
 
 #. Tag: member
 #: index.docbook:476 index.docbook:505
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Validation of input number considered as a value expressed in the reference "
 "currency (euro)"
 msgstr ""
 "Validação do número inserido como o um valor expresso na moeda de referência "
-"(euros ou dólares)"
+"(euro)"
 
 #. Tag: keycap
 #: index.docbook:479
@@ -1465,15 +1467,15 @@ msgstr "Moeda de referência, origem das taxas"
 
 #. Tag: para
 #: index.docbook:551
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "This setting defines from where &keurocalc; should download the exchange "
 "rates between the reference currency and other currencies. The following "
 "choices are available:"
 msgstr ""
-"Esta configuração define a moeda de referência (euro ou dólar) e de onde o "
-"&keurocalc; deverá obter as taxas de câmbio entre a moeda de referência e as "
-"outras moedas. Estão disponíveis as seguintes opções:"
+"Esta configuração define de onde o &keurocalc; deverá obter as taxas de "
+"câmbio entre a moeda de referência e as outras moedas. Estão disponíveis as "
+"seguintes opções:"
 
 #. Tag: guilabel
 #: index.docbook:558
@@ -1521,11 +1523,11 @@ msgstr ""
 #: index.docbook:591
 #, no-c-format
 msgid "Euro, Time Genie"
-msgstr ""
+msgstr "Euro, Time Genie"
 
 #. Tag: para
 #: index.docbook:593
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Euro is the reference currency. The fixed exchange rates are available. "
 "&keurocalc; attempts to download the variable rates from the <ulink url="
@@ -1533,8 +1535,8 @@ msgid ""
 "ulink>."
 msgstr ""
 "O Euro é a moeda de referência. As taxas de câmbio fixas estão disponíveis. "
-"O &keurocalc; tenta obter as taxas variáveis do <ulink url=\"http://www.ecb."
-"int/stats/eurofxref/\">Banco Central Europeu(ECB)</ulink>."
+"O &keurocalc; tenta obter as taxas variáveis do <ulink url=\"http://rss."
+"timegenie.com/foreign_exchange_rates_forex\">Time Genie (TG)</ulink>."
 
 #. Tag: title
 #: index.docbook:604
@@ -1703,8 +1705,8 @@ msgid ""
 "the standard &kde; color selection dialog. Choose a new color, then press "
 "<guibutton>OK</guibutton> to validate the new choice."
 msgstr ""
-"A cor de fundo das áreas de visualização (tanto dos dados de entrada como "
-"doresultado). Para mudar a cor de fundo, clique em <guibutton>Modificar...</"
+"A cor de fundo das áreas de visualização (tanto dos dados de entrada como do "
+"resultado). Para mudar a cor de fundo, clique em <guibutton>Modificar...</"
 "guibutton>. Isto irá abrir a janela normal do &kde; para selecionar cores. "
 "Escolha uma cor nova e, quando terminar, pressione <guibutton>OK</guibutton> "
 "para validar a nova escolha."
@@ -1739,11 +1741,10 @@ msgstr "&keurocalc;"
 
 #. Tag: para
 #: index.docbook:698
-#, fuzzy, no-c-format
-msgid "Program copyright 2001-2011 the &keurocalc; developers:"
+#, no-c-format
+msgid "Program copyright 2001-2012 the &keurocalc; developers:"
 msgstr ""
-"Programa com 'copyright' 2001-2006, a equipa de desenvolvimento do "
-"&keurocalc;:"
+"Direitos autorais do programa 2001-2012, os desenvolvedores do &keurocalc;:"
 
 #. Tag: para
 #: index.docbook:701
@@ -1785,12 +1786,12 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:707
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
-"Documentation copyright 2001-2011 Éric Bischoff "
+"Documentation copyright 2001-2012 Éric Bischoff "
 "<email>ebischoff@_NOSPAM_nerim.net</email>."
 msgstr ""
-"Documentação com 'copyright' 2001-2007 Éric Bischoff "
+"Direitos autorais da documentação 2001-2012 Éric Bischoff "
 "<email>ebischoff@_NOSPAM_nerim.net</email>."
 
 #. Tag: para
@@ -1886,7 +1887,7 @@ msgid ""
 "<prompt>%</prompt> <userinput>make</userinput>\n"
 "<prompt>%</prompt> <userinput>make install</userinput>"
 msgstr ""
-"<prompt> %</prompt> <userinput>mkdir build</userinput>\n"
+"<prompt>%</prompt> <userinput>mkdir build</userinput>\n"
 "<prompt>%</prompt> <userinput>cd build</userinput>\n"
 "<prompt>%</prompt> <userinput>cmake ..</userinput>\n"
 "<prompt>%</prompt> <userinput>make</userinput>\n"
@@ -1904,51 +1905,8 @@ msgstr ""
 "não deverá ter problemas ao compilar o &keurocalc;. Se tiver problemas, por "
 "favor comunique-os aos autores do &keurocalc;."
 
-#~ msgid ""
-#~ "To do conversions between the US dollar and other currencies according to "
-#~ "the daily exchange rate defined by the <ulink url=\"http://www.ny.frb.org/"
-#~ "markets/fxrates/noon.cfm\">New York Federal Reserve Bank (NY FRB)</ulink>."
-#~ msgstr ""
-#~ "Para fazer conversões entre o Dólar Americano e as outras moedas, de "
-#~ "acordo com a taxa de câmbio diária definida pelo <ulink url=\"http://www."
-#~ "ny.frb.org/markets/fxrates/noon.cfm\">Banco da Reserva Federal de Nova "
-#~ "Iorque (NY FRB)</ulink>."
+#~ msgid "2011-01-08"
+#~ msgstr "08/01/2011"
 
-#~ msgid ""
-#~ "To do conversions between any two currencies that are part of the list "
-#~ "published the NY FRB."
-#~ msgstr ""
-#~ "Para fazer conversões entre quaisquer duas moedas que façam parte da "
-#~ "lista publicada pelo NY FRB."
-
-#~ msgid ""
-#~ "New York Federal Reserve Bank rates are not available during the non-"
-#~ "working days (Christmas, Easter, etc.)."
-#~ msgstr ""
-#~ "As taxas do Banco da Reserva Federal de Nova Iorque não estão disponíveis "
-#~ "durante os feriados (Natal, Páscoa, etc.)."
-
-#~ msgid "Dollar, New York Federal Reserve Bank"
-#~ msgstr "Dólar, Banco da Reserva Federal de New York"
-
-#~ msgid ""
-#~ "Dollar is the reference currency. There are no fixed exchange rates. "
-#~ "&keurocalc; attempts to download the variable rates from the <ulink url="
-#~ "\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">New York Federal "
-#~ "Reserve Bank (NY FRB)</ulink>."
-#~ msgstr ""
-#~ "O dólar é a moeda de referência. Não existem taxas de câmbio fixas. O "
-#~ "&keurocalc; tenta obter as taxas variáveis do <ulink url=\"http://www.ny."
-#~ "frb.org/markets/fxrates/noon.cfm\">Banco da Reserva Federal de Nova "
-#~ "Iorque (NY FRB)</ulink>."
-
-#~ msgid ""
-#~ "Currently, &keurocalc; has a problem determining the date of the latest "
-#~ "exchange rates published by that bank, because of time zone offsets and "
-#~ "non-working days. For safety, &keurocalc; always asks for yesterday's "
-#~ "rates, which is of course not optimal."
-#~ msgstr ""
-#~ "Atualmente, o &keurocalc; tem um problema para determinar a data das "
-#~ "últimas taxas de câmbio publicadas por esse banco, devido às diferenças "
-#~ "de fusos-horários e aos dias feriados. Por segurança, o &keurocalc; pede "
-#~ "sempre as taxas de ontem, o que não é ótimo, obviamente."
+#~ msgid "1.1.0"
+#~ msgstr "1.1.0"

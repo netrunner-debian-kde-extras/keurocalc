@@ -1,12 +1,13 @@
 # translation of keurocalc.po to Swedish
 #
-# Stefan Asserhäll <stefan.asserhall@comhem.se>, 2008, 2009.
+# Stefan Asserhäll <stefan.asserhall@comhem.se>, 2008, 2009, 2010.
+# Stefan Asserhall <stefan.asserhall@comhem.se>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: keurocalc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-09 01:03+0000\n"
-"PO-Revision-Date: 2009-09-18 18:24+0200\n"
+"POT-Creation-Date: 2012-02-26 03:57+0000\n"
+"PO-Revision-Date: 2012-02-26 19:52+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@comhem.se>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -16,7 +17,7 @@ msgstr ""
 "X-KDE-DocBook-SVN-URL: trunk/extragear/utils/doc/keurocalc/index.docbook\n"
 "X-KDE-DocBook-SVN-Changed-Revision: 779910\n"
 "X-KDE-Associated-UI-Catalogs: \n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Tag: title
@@ -56,24 +57,24 @@ msgstr "Éric Bischoff"
 #. Tag: date
 #: index.docbook:32
 #, no-c-format
-msgid "2011-01-08"
-msgstr ""
+msgid "2012-02-07"
+msgstr "2012-02-07"
 
 #. Tag: releaseinfo
 #: index.docbook:33
 #, no-c-format
-msgid "1.1.0"
-msgstr ""
+msgid "1.2.0"
+msgstr "1.2.0"
 
 #. Tag: para
 #: index.docbook:36
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "&keurocalc; is an universal pocket currency converter and calculator. This "
-"documentation describes &keurocalc; version 1.1.0."
+"documentation describes &keurocalc; version 1.2.0."
 msgstr ""
 "&keurocalc; är en generell valutakonverterare och räknare. Den här "
-"dokumentationen beskriver &keurocalc; version 1.0.0."
+"dokumentationen beskriver &keurocalc; version 1.2.0."
 
 #. Tag: keyword
 #: index.docbook:43
@@ -185,19 +186,19 @@ msgstr "När som helst"
 
 #. Tag: para
 #: index.docbook:88
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "To do conversions between the euro and other currencies, like the British "
 "Pound, according to the daily exchange rate published by the <ulink url="
 "\"http://www.ecb.int/stats/eurofxref/\">European Central Bank (ECB)</ulink>."
 msgstr ""
 "För att konvertera mellan euro och andra valutor som brittiska pund, enligt "
-"daglig valutakurs som definieras av <ulink url=\"http://www.ecb.int/stats/"
+"daglig valutakurs som publiceras av <ulink url=\"http://www.ecb.int/stats/"
 "eurofxref/\">Europeiska centralbanken (ECB)</ulink>."
 
 #. Tag: para
 #: index.docbook:91
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "To do conversions between any two currencies that are part of the list "
 "published by the ECB."
@@ -207,7 +208,7 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:99
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "To do conversions between the euro and other currencies, like the British "
 "Pound, according to the daily exchange rate published by the <ulink url="
@@ -215,18 +216,18 @@ msgid ""
 "foreign exchange (TG)."
 msgstr ""
 "För att konvertera mellan euro och andra valutor som brittiska pund, enligt "
-"daglig valutakurs som definieras av <ulink url=\"http://www.ecb.int/stats/"
-"eurofxref/\">Europeiska centralbanken (ECB)</ulink>."
+"daglig valutakurs som publiceras av <ulink url=\"http://rss.timegenie.com/"
+"foreign_exchange_rates_forex\">Time Genie</ulink> (TG)."
 
 #. Tag: para
 #: index.docbook:103
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "To do conversions between any two currencies that are part of the list "
 "published by the TG."
 msgstr ""
 "För att göra konvertering mellan två godtyckliga valutor som ingår i listan "
-"som publiceras av ECB."
+"som publiceras av TG."
 
 #. Tag: para
 #: index.docbook:112
@@ -239,13 +240,13 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:116
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "You see every intermediate value and the result in both the reference "
 "currency (euro) and in the other currency."
 msgstr ""
-"Du ser varje beräkningsvärde och resultatet i både referensvalutan (euro "
-"eller dollar) och den andra valutan."
+"Du ser varje beräkningsvärde och resultatet i både referensvalutan (euro) "
+"och den andra valutan."
 
 #. Tag: para
 #: index.docbook:119
@@ -259,16 +260,15 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:121
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "The ergonomy is very close to usual pocket calculators, despite the fact "
 "that any value you type can be a value in the reference currency (euro), a "
 "value in the other currency, a percentage or an unit-less quantity."
 msgstr ""
 "Ergonomiskt är programmet mycket likt vanliga miniräknare, trots att alla "
-"värden du skriver in antingen kan vara ett värde i referensvalutan (euro "
-"eller dollar), ett värde i den andra valutan, ett procenttal eller ett värde "
-"utan enhet."
+"värden du skriver in antingen kan vara ett värde i referensvalutan (euro), "
+"ett värde i den andra valutan, ett procenttal eller ett värde utan enhet."
 
 #. Tag: para
 #: index.docbook:125
@@ -293,21 +293,22 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The numbers are displayed according to your locale settings: with either a "
-"comma or a dot as a decimal point, according to your &kcontrol; settings."
+"comma or a dot as a decimal point, according to your &systemsettings; "
+"settings."
 msgstr ""
 "Tal visas enligt dina landsinställningar: antingen med decimalkomma eller "
-"decimalpunkt beroende på inställningarna i Inställningscentralen."
+"decimalpunkt beroende på inställningarna i Systeminställningar."
 
 #. Tag: para
 #: index.docbook:132
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
-"You can decide which reference currency you want to use (euro), which other "
-"currency to start with when you launch &keurocalc;, and which rounding "
+"You can decide where &keurocalc; should download the conversion rates from, "
+"which currency to start with when you launch &keurocalc;, and which rounding "
 "method to use."
 msgstr ""
-"Du kan bestämma vilken referensvaluta du vill använda (euro eller dollar), "
-"vilken annan valuta du ska använda när &keurocalc; startas, och vilken "
+"Du kan bestämma varifrån &keurocalc; ska ladda ner konverteringskurser, "
+"vilken valuta du ska använda när &keurocalc; startas, och vilken "
 "avrundningsmetod som ska användas."
 
 #. Tag: para
@@ -318,9 +319,9 @@ msgstr "&keurocalc; tillåter följande åtgärder:"
 
 #. Tag: para
 #: index.docbook:141
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Conversions from and to the reference currency (euro)."
-msgstr "Konvertering från och till referensvalutan (euro eller dollar)."
+msgstr "Konvertering från och till referensvalutan (euro)."
 
 #. Tag: para
 #: index.docbook:143
@@ -391,7 +392,7 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:168
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "&keurocalc; never guarantees the exactness of the exchange rates nor the "
 "accuracy of the result. You are always invited to verify your computations "
@@ -409,9 +410,9 @@ msgstr ""
 "det inget ansvar hos upphovsmännen om resultaten inte är riktiga eller de "
 "förväntade. Observera också att rörliga valutakurser laddas ner utan "
 "kryptering och därför utan säkerhet från datakällorna (Europeiska "
-"centralbanken och New York Federal Reserve banken). En attack från en "
-"<quote>man i mitten</quote> kan förvirra &keurocalc;  genom att förfalska "
-"valutakurser, och ett enkelt överföringsfel är alltid en möjligthet."
+"centralbanken och Time Genie). En attack från en <quote>man i mitten</quote> "
+"kan förvirra &keurocalc;  genom att förfalska valutakurser, och ett enkelt "
+"överföringsfel är alltid en möjligthet."
 
 #. Tag: title
 #: index.docbook:181
@@ -634,7 +635,7 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:260
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Make sure that the variable exchange rates are available. If not, press the "
 "<guibutton>Settings...</guibutton> to select either <guilabel>Euro, European "
@@ -645,12 +646,11 @@ msgid ""
 msgstr ""
 "Försäkra dig om att rörliga valutakurser är tillgängliga. Om inte, tryck på "
 "<guibutton>Inställningar...</guibutton> för att antingen välja "
-"<guilabel>Euro, Europeiska centralbanken</guilabel> eller <guilabel>Dollar, "
-"New York Federal Reserve banken</guilabel>. Välj nu alternativet "
-"<guilabel>USD - Amerikanska dollar</guilabel> eller <guilabel>EUR - "
-"Europeiska euro</guilabel> i kombinationsrutan längst ner. Om du inte är "
-"uppkopplad mot Internet, finns inte alternativet tillgängligt eftersom den "
-"senaste rörliga valutakursen mellan euro och dollar inte kan avgöras."
+"<guilabel>Euro, Europeiska centralbanken</guilabel> eller <guilabel>Euro, "
+"Time Genie</guilabel>. Välj nu alternativet <guilabel>USD - Amerikanska "
+"dollar</guilabel> i kombinationsrutan längst ner. Om du inte är uppkopplad "
+"mot Internet, finns inte alternativet tillgängligt eftersom den senaste "
+"rörliga valutakursen mellan euro och dollar inte kan avgöras."
 
 #. Tag: para
 #: index.docbook:269
@@ -685,7 +685,7 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:275
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Read the result in the <guilabel>Result</guilabel> display on the right. The "
 "exact value might depend on latest exchange rates. Notice that during the "
@@ -696,8 +696,8 @@ msgstr ""
 "Läs av resultatet i rutan <guilabel>Resultat</guilabel> till höger. Det "
 "exakta värdet beror på de senaste valutakurserna. Observera att under hela "
 "beräkningen har du kunnat se värdet både i euro och i amerikanska dollar. "
-"Var medveten om det faktum att olika datakällor (ECB eller NY FRB) kanske "
-"inte ger samma valutakurs för konvertering mellan euro och dollar."
+"Var medveten om det faktum att olika datakällor (ECB eller TG) kanske inte "
+"ger samma valutakurs för konvertering mellan euro och dollar."
 
 #. Tag: title
 #: index.docbook:283
@@ -1000,17 +1000,17 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:389
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Internally, the values are recalled with no unit or in the reference "
 "currency (euro) with the maximum precision allowed by the mathematical "
 "library. In some rare cases, this might lead to rounding problems if the "
 "stored value is a rounded value in a non-reference currency."
 msgstr ""
-"Internt hämtas värden utan någon enhet eller i referensvalutan (euro eller "
-"dollar) med maximal precision som tillåts av matematikbiblioteket. I vissa "
-"sällsynta fall kan det orsaka avrundningsproblem om det lagrade värdet är "
-"ett avrundat värde i en annan valuta än referensvalutan."
+"Internt hämtas värden utan någon enhet eller i referensvalutan (euro) med "
+"maximal precision som tillåts av matematikbiblioteket. I vissa sällsynta "
+"fall kan det orsaka avrundningsproblem om det lagrade värdet är ett avrundat "
+"värde i en annan valuta än referensvalutan."
 
 #. Tag: title
 #: index.docbook:396
@@ -1284,13 +1284,13 @@ msgstr "<keycap>E</keycap> eller <keycap>$</keycap>"
 
 #. Tag: member
 #: index.docbook:476 index.docbook:505
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Validation of input number considered as a value expressed in the reference "
 "currency (euro)"
 msgstr ""
 "Kontroll av det inmatade talet, betraktat som ett tal i referensvalutan "
-"(euro eller dollar)"
+"(euro)"
 
 #. Tag: keycap
 #: index.docbook:479
@@ -1463,15 +1463,15 @@ msgstr "Referensvaluta, kurskälla"
 
 #. Tag: para
 #: index.docbook:551
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "This setting defines from where &keurocalc; should download the exchange "
 "rates between the reference currency and other currencies. The following "
 "choices are available:"
 msgstr ""
-"Den här inställningen definierar referensvalutan (euro eller dollar) och "
-"varifrån &keurocalc; ska ladda ner valutakurserna för referensvalutan och "
-"andra valutor. Följande alternativ är tillgängliga:"
+"Den här inställningen definierar varifrån &keurocalc; ska ladda ner "
+"valutakurserna för referensvalutan och andra valutor. Följande alternativ är "
+"tillgängliga:"
 
 #. Tag: guilabel
 #: index.docbook:558
@@ -1519,11 +1519,11 @@ msgstr ""
 #: index.docbook:591
 #, no-c-format
 msgid "Euro, Time Genie"
-msgstr ""
+msgstr "Euro, Time Genie"
 
 #. Tag: para
 #: index.docbook:593
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Euro is the reference currency. The fixed exchange rates are available. "
 "&keurocalc; attempts to download the variable rates from the <ulink url="
@@ -1531,8 +1531,8 @@ msgid ""
 "ulink>."
 msgstr ""
 "Euro är referensvalutan. Fasta växlingskurser är tillgängliga. &keurocalc; "
-"försöker ladda ner rörliga kurser från <ulink url=\"http://www.ecb.int/stats/"
-"eurofxref/\">Europeiska centralbanken (ECB)</ulink>."
+"försöker ladda ner rörliga kurser från <ulink url=\"http://rss.timegenie.com/"
+"foreign_exchange_rates_forex\">Time Genie (TG)</ulink>."
 
 #. Tag: title
 #: index.docbook:604
@@ -1733,9 +1733,9 @@ msgstr "&keurocalc;"
 
 #. Tag: para
 #: index.docbook:698
-#, fuzzy, no-c-format
-msgid "Program copyright 2001-2011 the &keurocalc; developers:"
-msgstr "Program Copyright 2001-2006 &keurocalc;-utvecklarna:"
+#, no-c-format
+msgid "Program copyright 2001-2012 the &keurocalc; developers:"
+msgstr "Program Copyright 2001-2012 &keurocalc;-utvecklarna:"
 
 #. Tag: para
 #: index.docbook:701
@@ -1777,12 +1777,12 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:707
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
-"Documentation copyright 2001-2011 Éric Bischoff "
+"Documentation copyright 2001-2012 Éric Bischoff "
 "<email>ebischoff@_NOSPAM_nerim.net</email>."
 msgstr ""
-"Dokumentation copyright 2001-2007 Éric Bischoff "
+"Dokumentation copyright 2001-2012 Éric Bischoff "
 "<email>ebischoff@_INGEN_SKRÄPPOST_nerim.net</email>."
 
 #. Tag: para
@@ -1896,6 +1896,12 @@ msgstr ""
 "Eftersom cmake detekterar dina systeminställningar automatiskt, bör du inte "
 "ha några problem med att kompilera &keurocalc;. Skulle du stöta på problem, "
 "rapportera dem gärna till &keurocalc;s upphovsmän."
+
+#~ msgid "2011-01-08"
+#~ msgstr "2011-01-08"
+
+#~ msgid "1.1.0"
+#~ msgstr "1.1.0"
 
 #~ msgid ""
 #~ "To do conversions between the US dollar and other currencies according to "

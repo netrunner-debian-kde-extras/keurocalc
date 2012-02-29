@@ -5,7 +5,7 @@
 >'>
   <!ENTITY kappname "&keurocalc;">
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY % Estonian  "INCLUDE"
+  <!ENTITY % Estonian "INCLUDE"
 ><!-- change language only here -->
 ]>
 
@@ -48,7 +48,7 @@
 
 <copyright>
 <year
->2001-2010</year>
+>2001-2012</year>
 <holder
 >Éric Bischoff</holder>
 </copyright>
@@ -56,13 +56,13 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2010-05-16</date>
+>2012-02-07</date>
 <releaseinfo
->1.0.3</releaseinfo>
+>1.2.0</releaseinfo>
 
 <abstract>
 <para
->&keurocalc; on käepärane valuutateisendaja ja kalkulaator. Käesolev käsiraamat kirjeldab &keurocalc;i versiooni 1.0.0. </para>
+>&keurocalc; is an universal pocket currency converter and calculator. This documentation describes &keurocalc; version 1.2.0. </para>
 </abstract>
 
 <keywordset>
@@ -127,23 +127,37 @@
 ><itemizedlist>
 <listitem
 ><para
->Teisendusteks eurode ja muude valuutade vahel (näiteks Briti nael) vastavalt <ulink url="http://www.ecb.int/stats/eurofxref/"
->Euroopa Keskpanga (ECB) igapäevasele vahetuskursile</ulink
+>To do conversions between the euro and other currencies, like the British Pound, according to the daily exchange rate published by the <ulink url="http://www.ecb.int/stats/eurofxref/"
+>European Central Bank (ECB)</ulink
 >.</para
 ></listitem>
 <listitem
 ><para
->Kahe valuuta teisendamisel, mille kursse avaldab ECB.</para
+>To do conversions between any two currencies that are part of the list published by the ECB.</para
 ></listitem>
-<listitem
+<!--listitem
 ><para
->Teisendusteks USA dollari ja muude valuutade vahel vastavalt <ulink url="http://www.ecb.int"
->New Yorgi Föderaalreservi (NY RFB)igapäevasele vahetuskursile</ulink
+>To do conversions between the US dollar and other currencies
+according to the daily exchange rate published by the
+<ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
+>New York
+Federal Reserve Bank (NY FRB)</ulink
 >.</para
 ></listitem>
 <listitem
 ><para
->Kahe valuuta teisendamisel, mille kursse avaldab NY RFB.</para
+>To do conversions between any two currencies that are part of the list
+published by the NY FRB.</para
+></listitem-->
+<listitem
+><para
+>To do conversions between the euro and other currencies, like the British Pound, according to the daily exchange rate published by the <ulink url="http://rss.timegenie.com/foreign_exchange_rates_forex"
+>Time Genie</ulink
+> foreign exchange (TG).</para
+></listitem>
+<listitem
+><para
+>To do conversions between any two currencies that are part of the list published by the TG.</para
 ></listitem>
 </itemizedlist
 ></para>
@@ -157,7 +171,7 @@
 >&keurocalc; pakub järgmisi mugavaid kasutusvõimalusi: <itemizedlist>
 <listitem
 ><para
->Nii kõiki vahesummasid kui tulemust saab näha nii muus vääringus kui eurodes/dollarites</para
+>You see every intermediate value and the result in both the reference currency (euro) and in the other currency.</para
 ></listitem>
 <listitem
 ><para
@@ -165,7 +179,7 @@
 ></listitem>
 <listitem
 ><para
->Kuigi väärtust võib sisestada nii eurodes/dollarites kui muus valuutas, protsendi või hulgana, on arvutused kiired (võrreldavad tavaliste taskuarvutitega)</para
+>The ergonomy is very close to usual pocket calculators, despite the fact that any value you type can be a value in the reference currency (euro), a value in the other currency, a percentage or an unit-less quantity.</para
 ></listitem>
 <listitem
 ><para
@@ -177,11 +191,11 @@
 ></listitem>
 <listitem
 ><para
->Arve näidatakse vastavalt sinu maa tavale, nii võib kümnendkoha eraldajaks olla koma või punkt (seda saab määrata &juhtimiskeskus;es).</para
+>The numbers are displayed according to your locale settings: with either a comma or a dot as a decimal point, according to your &systemsettings; settings.</para
 ></listitem>
 <listitem
 ><para
->Määrata saab baasvääringu (euro või dollar), selle, millise vääringuga alustada &keurocalc;i käivitamisel, kui ka kasutatava ümardamismeetodi.</para
+>You can decide where &keurocalc; should download the conversion rates from, which currency to start with when you launch &keurocalc;, and which rounding method to use.</para
 ></listitem>
 </itemizedlist>
 </para>
@@ -190,7 +204,7 @@
 >&keurocalc; võimaldab sooritada järgmisi tehteid: <itemizedlist>
 <listitem
 ><para
->Teisendused baasvaluutast ja baasvaluutasse (euro või dollar)</para
+>Conversions from and to the reference currency (euro).</para
 ></listitem>
 <listitem
 ><para
@@ -225,18 +239,21 @@
 ><para
 >Piiratud esitusala tõttu ei saa korralikult käsitleda kõrge inflatsiooniga valuutasid. Kuid pärast Türgi uue liiri kasutuselevõttu, millega eemaldati rahaühikult kuus nulli, ei ole see enam märkimisväärne probleem.</para
 ></listitem>
-<listitem
+<!-- listitem
 ><para
->New Yorgi Föderaalreservi kursid ei ole saadaval pühade ajal (jõulud, lihavõtted jne.)</para
-></listitem>
+>New York Federal Reserve Bank rates are not available
+during the non-working days (Christmas, Easter, etc.).</para
+></listitem-->
 </itemizedlist>
 </para>
 
 <warning
 ><para
->&keurocalc; ei garanteeri absoluutselt täpset tulemust. Kui see on vähegi oluline, tasub alati kontrollida arvutusi mingil muul moel. Nagu selgitab <link linkend="credits"
->litsents</link
->, ei võta autorid endale vastutust, kui tulemus ei ole täpne või oodatud. Samuti tasub tähele panna, et Euroopa Keskpanga ja New Yorgi Föderaalreservi valuutakursid tõmmatakse krüptimata ja seepärast ebaturvaliselt - mõni ründaja võib &keurocalc;i segadusse ajada valesid kursse pakkudes või siis ei pruugi allatõmbamine alati edukalt minna.</para
+>&keurocalc; never guarantees the exactness of the exchange rates nor the accuracy of the result. You are always invited to verify your computations by some other means. As the <link linkend="credits"
+>license</link
+> agreement states, there's no liability of the authors if the results are not correct or as expected. Also, please notice that the variable exchange rates are downloaded in an unencrypted and therefore insecure manner from the data sources (European Central Bank and Time Genie). Some <quote
+>man-in-the-middle</quote
+> attacker may confuse &keurocalc; by forging exchange rates. More simply, a transmission error is always possible.</para
 ></warning>
 
 </chapter>
@@ -408,17 +425,15 @@
 >Said 100 USA dollarit ja maksid 32,50 eurot raamatu eest. Kui palju jäi veel arvele?</title>
 <step
 ><para
->Kontrolli, et saadaval oleks muutuvad valuutakursid. Kui see nii ei ole, klõpsa nupule <guibutton
->Seadistused...</guibutton
-> ja vali kas <guilabel
->Euro, Euroopa Keskpank</guilabel
-> või <guilabel
->Dollar, New Yorgi Föderaalreserv</guilabel
->. Seejärel vali all <guilabel
->USD - USA dollar</guilabel
-> või <guilabel
->EUR - euro</guilabel
->. Kui sul ei ole internetiühendust, siis ei saa seda paraku kasutada, sest pole võimalik teada saada euro ja dollari uusimat vahetuskurssi.</para
+>Make sure that the variable exchange rates are available. If not, press the <guibutton
+>Settings...</guibutton
+> to select either <guilabel
+>Euro, European Central Bank</guilabel
+> or <guilabel
+>Euro, Time Genie</guilabel
+>. Now select the <guilabel
+>USD - US dollar</guilabel
+> item in the scroll down list on the bottom. If you have no Internet access, that item won't be available as the latest variable rates between the euro and the dollar cannot be determined.</para
 ></step>
 <step
 ><para
@@ -452,9 +467,9 @@
 ></step>
 <step
 ><para
->Vaata tulemust paremal asuval väljal <guilabel
->Tulemus</guilabel
->. Tulemus sõltub parajasti kehtivast vahetuskursist. Pane tähele, et kogu tehte ajal oli võimalik näha väärtusi nii eurodes kui USA dollarites. Arvesta, et erinevad andmeallikad (ECB või NY RFB) ei pruugi tingimata teatada ühesugust euro ja dollari vahetuskurssi.</para
+>Read the result in the <guilabel
+>Result</guilabel
+> display on the right. The exact value might depend on latest exchange rates. Notice that during the whole computation you've been able to read the values both in euro and in US dollars. Pay attention to the fact that different data sources (ECB or TG) might not provide the same conversion rate between the euro and the dollar.</para
 ></step>
 </procedure>
 
@@ -501,13 +516,13 @@
 ></step>
 <step
 ><para
->Tulemus <computeroutput
+>The result <computeroutput
 >-43.72 €</computeroutput
-> on negatiivne, mis tähendab, et ostjale tuleb raha tagasi anda. Tulemuse märki on võimalik muuta nupuga <guibutton
+> is negative, indicating that change money has to be given back to the customer. The <guibutton
 >+/-</guibutton
-> või klahviga <keycap
+> button or the <keycap
 >S</keycap
->.</para
+> key permit you to change the sign of the result.</para
 ></step>
 </procedure>
 
@@ -563,7 +578,7 @@
 ></step>
 <step
 ><para
->Tulemusele Austraalia dollarites vastab <computeroutput
+>The result in Australian dollars matches <computeroutput
 >6.4 €</computeroutput
 >.</para
 ></step>
@@ -748,7 +763,7 @@
 </procedure>
 
 <para
->Seesmiselt võetakse väärtused kas ühikuta või baasvaluutas (euro või dollar), kasutades maksimaalset täpsust, mida võimaldab matemaatikateek. Mõnel haruldasel juhul võib tekkida ümardamisprobleeme, kui salvestatud väärtus on juba ümardatud väärtusega mõnes muus valuutas kui euro.</para>
+>Internally, the values are recalled with no unit or in the reference currency (euro) with the maximum precision allowed by the mathematical library. In some rare cases, this might lead to rounding problems if the stored value is a rounded value in a non-reference currency.</para>
 
 <procedure>
 <title
@@ -967,7 +982,7 @@
 >$</keycap
 ></member>
 <member
->Sisendnumbri tunnistamine baasvaluutas (euro või dollar) väljendatud väärtuseks</member>
+>Validation of input number considered as a value expressed in the reference currency (euro)</member>
 
 <member
 ><keycap
@@ -1028,7 +1043,7 @@
 >$</guibutton
 ></member>
 <member
->Sisendnumbri tunnistamine baasvaluutas (euro või dollar) väljendatud väärtuseks</member>
+>Validation of input number considered as a value expressed in the reference currency (euro)</member>
 
 <member
 >Muu vääringu nimega nupp</member>
@@ -1127,7 +1142,7 @@
 >Baasvaluuta, kursi päritolu</title>
 
 <para
->See määrab baasvaluuta (euro või dollar) ning selle, kust peaks &keurocalc; tõmbama baasvaluuta ja muude valuutade kursi. Võimalikud on järgmised valikud:</para>
+>This setting defines from where &keurocalc; should download the exchange rates between the reference currency and other currencies. The following choices are available:</para>
 
 <variablelist>
 <varlistentry>
@@ -1156,18 +1171,37 @@
 </listitem>
 </varlistentry>
 
-<varlistentry>
+<!--varlistentry>
 <term
 ><guilabel
->Dollar, New Yorgi Föderaalreserv</guilabel
+>Dollar, New York Federal Reserve Bank</guilabel
 ></term>
 <listitem>
 <para
->Baasvaluuta on dollar. Selle puhul pole fikseeritud kursse. &keurocalc; püüab kursimuutused tõmmata <ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
->New Yorgi Föderaalreservist (NY FRB)</ulink
+>Dollar is the reference currency. There are no fixed exchange rates.
+&keurocalc; attempts to download the variable rates from the
+<ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
+>New York
+Federal Reserve Bank (NY FRB)</ulink
 >.</para>
 <para
->Praegu on &keurocalc;il teatud raskusi Föderaalreservi uusima kursi tuvastamisega erinevate ajavööndite ja töövabade pühade tõttu. Kindluse mõttes hangib &keurocalc; alati eelmise päeva kursi, mis paraku ei ole kahtlemata kõige etem lahendus.</para>
+>Currently, &keurocalc; has a problem determining the date of the latest
+exchange rates published by that bank, because of time zone offsets and non-working
+days. For safety, &keurocalc; always asks for yesterday's rates, which is of course
+not optimal.</para>
+</listitem>
+</varlistentry-->
+
+<varlistentry>
+<term
+><guilabel
+>Euro, Time Genie</guilabel
+></term>
+<listitem>
+<para
+>Euro is the reference currency. The fixed exchange rates are available. &keurocalc; attempts to download the variable rates from the <ulink url="http://rss.timegenie.com/foreign_exchange_rates_forex"
+>Time Genie (TG)</ulink
+>.</para>
 </listitem>
 </varlistentry>
 
@@ -1288,7 +1322,7 @@
 >&keurocalc;</para>
 
 <para
->Rakenduse autoriõigus 2001-2006: &keurocalc;i arendajad: <itemizedlist>
+>Program copyright 2001-2012 the &keurocalc; developers: <itemizedlist>
 <listitem
 ><para
 >Éric Bischoff <email
@@ -1317,7 +1351,7 @@
 ></para>
 
 <para
->Dokumentatsiooni autoriõigus 2001-2007: Éric Bischoff <email
+>Documentation copyright 2001-2012 Éric Bischoff <email
 >ebischoff@_NOSPAM_nerim.net</email
 >.</para>
 

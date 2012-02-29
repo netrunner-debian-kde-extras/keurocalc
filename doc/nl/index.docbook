@@ -48,17 +48,7 @@
 
 <copyright>
 <year
->2001</year>
-<year
->2002</year>
-<year
->2003</year>
-<year
->2004</year>
-<year
->2005</year>
-<year
->2006</year>
+>2001-2012</year>
 <holder
 >Éric Bischoff</holder>
 </copyright>
@@ -66,13 +56,13 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2006-04-03</date>
+>2012-02-07</date>
 <releaseinfo
->0.09.06</releaseinfo>
+>1.2.0</releaseinfo>
 
 <abstract>
 <para
->&keurocalc; is een universele rekenmachine die geschikt is voor het omrekenen van munteenheden. In deze documentatie wordt &keurocalc; versie 0.9.6 beschreven. </para>
+>&keurocalc; is an universal pocket currency converter and calculator. This documentation describes &keurocalc; version 1.2.0. </para>
 </abstract>
 
 <keywordset>
@@ -100,7 +90,7 @@
 >&keurocalc; is een universele rekenmachine die geschikt is voor het omrekenen van munteenheden. </para>
 
 <para
->Op 1 Januari 2002 voegden 12 Europese landen hun nationale valuta samen in een enkele, de euro (€). Hetzelfde zal mogelijk in 2007 het geval zijn voor enkele Oost-Europese landen. &keurocalc; helpt: <variablelist>
+>Op 1 Januari 2002 voegden 12 Europese landen hun nationale valuta samen in een enkele, de euro (€). Hetzelfde zal zo af en toe op kleinere schaal gebeuren met nieuwe Oost-Europese landen. &keurocalc; helpt: <variablelist>
 <varlistentry>
 <term
 >Gedurende de overgangsperioden</term>
@@ -137,7 +127,7 @@
 ><itemizedlist>
 <listitem
 ><para
->Om de euro en andere valuta zoals het Britse Pond naar elkaar te kunnen omrekenen, volgens de dagelijkse wisselkoersen van de <ulink url="http://www.ecb.int/stats/eurofxref/"
+>Om de euro en andere valuta zoals het Britse Pond naar elkaar te kunnen omrekenen, volgens de dagelijkse wisselkoersen gepubliceerd door de <ulink url="http://www.ecb.int/stats/eurofxref/"
 >Europese Centrale Bank (ECB)</ulink
 >.</para
 ></listitem>
@@ -145,15 +135,29 @@
 ><para
 >Om elke twee valuta, die in de door door de ECB gepubliceerde (koersen)lijst voorkomen, naar elkaar te kunnen omrekenen.</para
 ></listitem>
-<listitem
+<!--listitem
 ><para
->Om de US-dollar en andere valuta naar elkaar te kunnen omrekenen, volgens de dagelijkse wisselkoersen van de <ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
->New York Federal Reserve Bank (NY FRB)</ulink
+>To do conversions between the US dollar and other currencies
+according to the daily exchange rate published by the
+<ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
+>New York
+Federal Reserve Bank (NY FRB)</ulink
 >.</para
 ></listitem>
 <listitem
 ><para
->Om elke twee valuta, die in de door door de NY FRB gepubliceerde (koersen)lijst voorkomen, naar elkaar te kunnen omrekenen.</para
+>To do conversions between any two currencies that are part of the list
+published by the NY FRB.</para
+></listitem-->
+<listitem
+><para
+>Om de euro en andere valuta zoals het Britse Pond naar elkaar te kunnen omrekenen, volgens de dagelijkse wisselkoersen gepubliceerd door de <ulink url="http://rss.timegenie.com/foreign_exchange_rates_forex"
+>Time Genie</ulink
+> foreign exchange (TG)..</para
+></listitem>
+<listitem
+><para
+>Om elke twee valuta, die in de door door de TG gepubliceerde (koersen)lijst voorkomen, naar elkaar te kunnen omrekenen.</para
 ></listitem>
 </itemizedlist
 ></para>
@@ -167,7 +171,7 @@
 >&keurocalc; heeft de volgende voordelen in termen van gemak en bruikbaarheid: <itemizedlist>
 <listitem
 ><para
->U ziet elk tussenresultaat en het antwoord in zowel de referentie-munteenheid (euro of dollar) als in de andere valuta.</para
+>U ziet elk tussenresultaat en het antwoord in zowel de referentie-munteenheid (euro) als in de andere valuta.</para
 ></listitem>
 <listitem
 ><para
@@ -175,7 +179,7 @@
 ></listitem>
 <listitem
 ><para
->De ergonomie is bijna gelijk aan die van de gewone zakrekenmachines, ondanks het feit dat elke waarde die u intypt een waarde kan zijn in de referentie-munteenheid (euro of dollar), een waarde in de andere munteenheid, een percentage of een hoeveelheid zonder eenheid.</para
+>De ergonomie is bijna gelijk aan die van de gewone zakrekenmachines, ondanks het feit dat elke waarde die u intypt een waarde kan zijn in de referentie-munteenheid (euro), een waarde in de andere munteenheid, een percentage of een hoeveelheid zonder eenheid.</para
 ></listitem>
 <listitem
 ><para
@@ -187,11 +191,11 @@
 ></listitem>
 <listitem
 ><para
->De getallen worden overeenkomstig de lokale instellingen weergegeven, met een komma of een punt als decimaal scheidingsteken. Dit wordt geregeld met uw instellingen in &kcontrol;.</para
+>De getallen worden overeenkomstig de lokale instellingen weergegeven, met een komma of een punt als decimaal scheidingsteken. Dit wordt geregeld met uw instellingen in &systemsettings;.</para
 ></listitem>
 <listitem
 ><para
->U kunt bepalen welke referentie-munteenheid u wilt gebruiken (euro of dollar), met welke andere munteenheid u wilt beginnen bij het opstarten van &keurocalc;, en welke methode u wilt gebruiken voor het afronden.</para
+>You can decide where &keurocalc; should download the conversion rates from, which currency to start with when you launch &keurocalc;, and which rounding method to use.</para
 ></listitem>
 </itemizedlist>
 </para>
@@ -200,7 +204,7 @@
 >Met &keurocalc; zijn de volgende bewerkingen mogelijk: <itemizedlist>
 <listitem
 ><para
->Conversies van en naar de referentie-munteenheid (euro of dollar).</para
+>Conversies van en naar de referentie-munteenheid (euro).</para
 ></listitem>
 <listitem
 ><para
@@ -235,10 +239,11 @@
 ><para
 >Sterk aan inflatie onderhevige valuta kunnen niet worden behandeld als gevolg van de beperkte mogelijkheden de bedragen weer te geven. Maar met de overgang naar de nieuwe Turkse lire en het verwijderen van zes nullen bij deze munteenheid is dit geen praktisch probleem meer.</para
 ></listitem>
-<listitem
+<!-- listitem
 ><para
->Koersen van de New York Federal Reserve Bank zijn tijdens dagen dat er niet wordt gewerkt niet beschikbaar (Kerstmis, Pasen, enz.).</para
-></listitem>
+>New York Federal Reserve Bank rates are not available
+during the non-working days (Christmas, Easter, etc.).</para
+></listitem-->
 </itemizedlist>
 </para>
 
@@ -246,7 +251,7 @@
 ><para
 >Met &keurocalc; worden de juiste koerswaarden noch de nauwkeurigheid van de antwoorden gegarandeerd. U moet altijd uw berekeningen verifiëren met een andere methode. Zoals u in de <link linkend="credits"
 >licentie</link
->-overeenkomst kunt lezen zijn de auteurs niet aansprakelijk indien de antwoorden niet juist of naar verwachting zijn. Let er alstublieft ook op dat de variabele wisselkoersen zonder versleuteling en dus op een onveilige manier worden opgehaald van de gegevensbronnen (Europese Centrale Bank en New York Federal Reserve Bank). Een aanvaller die zich tussen deze bronnen en u bevindt (<quote
+>-overeenkomst kunt lezen zijn de auteurs niet aansprakelijk indien de antwoorden niet juist of naar verwachting zijn. Let er alstublieft ook op dat de variabele wisselkoersen zonder versleuteling en dus op een onveilige manier worden opgehaald van de gegevensbronnen (Europese Centrale Bank en Time Genie). Een aanvaller die zich tussen deze bronnen en u bevindt (<quote
 >man-in-the-middle</quote
 > kan &keurocalc; om de tuin leiden door met deze wisselkoersen te knoeien. Of, eenvoudiger, er kan altijd een transmissiefout optreden.</para
 ></warning>
@@ -374,7 +379,7 @@
 ><para
 >Selecteer nu <guilabel
 >ESP - Spaanse peseta</guilabel
-> waarna u dit zelfde bedrag van 61,36 € naar peseta's ziet omgerekend in het <guilabel
+> waarna u ditzelfde bedrag van 61,36 € naar peseta's ziet omgerekend in het <guilabel
 >Antwoord</guilabel
 >-scherm.</para
 ></step>
@@ -405,9 +410,7 @@
 >5</userinput
 > en druk daarna op de <guibutton
 >Enter</guibutton
->-knop of op de <keycap
->Enter</keycap
->-toets. Het antwoord <computeroutput
+>-knop of op de &Enter;-toets. Het antwoord <computeroutput
 >8</computeroutput
 > verschijnt rechts.</para
 ></step>
@@ -423,12 +426,10 @@
 > en selecteert u óf <guilabel
 >Euro, Europese Centrale Bank</guilabel
 > óf <guilabel
->Dollar, New York Federal Reserve Bank</guilabel
->. Selecteer nu <guilabel
+>Euro, Time Genie</guilabel
+>. Selecteer daarna <guilabel
 >USD - US-dollar</guilabel
-> of <guilabel
->EUR - EU-euro</guilabel
-> in het contextmenu. Zonder een internetverbinding kan dit niet omdat dan de laatste variabele wisselkoersen tussen de euro en de dollar niet kunnen worden bepaald.</para
+> in het afrolmenu onderaan. Zonder een internetverbinding kan dit niet omdat dan de laatste variabele wisselkoersen tussen de euro en de dollar niet kunnen worden bepaald.</para
 ></step>
 <step
 ><para
@@ -464,7 +465,7 @@
 ><para
 >Lees het antwoord in het <guilabel
 >Antwoord</guilabel
->-scherm rechts. De exacte waarde hangt af van de laatste wisselkoersen. Merk op dat gedurende de gehele bewerking u de waardes zowel in euro's als in US-dollars kunt zien. Merk ook op dat het verschil kan maken welke bron u gebruikt voor uw gegevens (ECB of NY FRB). Beiden geven niet noodzakelijk dezelfde wisselkoers op tussen euro en dollar.</para
+>-scherm rechts. De exacte waarde hangt af van de laatste wisselkoersen. Merk op dat gedurende de gehele bewerking u de waardes zowel in euro's als in US-dollars kunt zien. Merk ook op dat het verschil kan maken welke bron u gebruikt voor uw gegevens (ECB of TG). Beiden geven niet noodzakelijk dezelfde wisselkoers op tussen euro en dollar.</para
 ></step>
 </procedure>
 
@@ -511,13 +512,13 @@
 ></step>
 <step
 ><para
->Het antwoord <computeroutput
->-43,72 €</computeroutput
-> is negatief, wat betekent dat de klant wisselgeld terug moet krijgen. Met de knop <guibutton
+>The result <computeroutput
+>-43.72 €</computeroutput
+> is negative, indicating that change money has to be given back to the customer. The <guibutton
 >+/-</guibutton
-> of de toets <keycap
+> button or the <keycap
 >S</keycap
-> kan het teken van het antwoord worden gewijzigd.</para
+> key permit you to change the sign of the result.</para
 ></step>
 </procedure>
 
@@ -567,15 +568,13 @@
 >3,2</userinput
 > en daarna op de knop <guibutton
 >Enter</guibutton
-> of de toets <keycap
->Enter</keycap
->: dit betekent <quote
+> of de toets &Enter;: dit betekent <quote
 >3,2 eenheden</quote
 > voor 2 € elk.</para
 ></step>
 <step
 ><para
->Het antwoord in Australische dollars komt overeen met <computeroutput
+>The result in Australian dollars matches <computeroutput
 >6.4 €</computeroutput
 >.</para
 ></step>
@@ -760,7 +759,7 @@
 </procedure>
 
 <para
->Intern worden de waarden zonder eenheid of referentie-munteenheid (euro of dollar) opgeslagen met de maximum nauwkeurigheid die de wiskundige bibliotheek toestaat. In sommige gevallen kan dit leiden tot afrondproblemen indien de opgeslagen waarde een afgeronde waarde is in een niet-referentievaluta.</para>
+>Intern worden de waarden zonder eenheid of referentie-munteenheid (euro) opgeslagen met de maximum nauwkeurigheid die de wiskundige bibliotheek toestaat. In sommige gevallen kan dit leiden tot afrondproblemen indien de opgeslagen waarde een afgeronde waarde is in een niet-referentievaluta.</para>
 
 <procedure>
 <title
@@ -937,9 +936,7 @@
 >Bewerkingen: optellen, aftrekken, vermenigvuldigen, delen</member>
 
 <member
-><keycap
->Enter</keycap
-> en <keycap
+>&Enter; en <keycap
 >Return</keycap
 ></member>
 <member
@@ -958,13 +955,9 @@
 >Verwijderen van de laatste invoer: cijfers, decimaal scheidingsteken of bewerking</member>
 
 <member
-><keycap
->Tab</keycap
-> en <keycombo action="simul"
->&Shift; <keycap
->Tab</keycap
-></keycombo
-></member>
+>&Tab; en <keycombo action="simul"
+>&Shift; &Tab;</keycombo
+> toetsen</member>
 <member
 >Met de knopselectie van de ene knop naar de andere gaan of terug</member>
 
@@ -985,7 +978,7 @@
 >$</keycap
 ></member>
 <member
->Bevestigen van ingevoerd getal, beschouwd als een waarde uitgedrukt in de referentie-munteenheid (euro of dollar)</member>
+>Bevestigen van ingevoerd getal, beschouwd als een waarde uitgedrukt in de referentie-munteenheid (euro)</member>
 
 <member
 ><keycap
@@ -1046,7 +1039,7 @@
 >$</guibutton
 ></member>
 <member
->Bevestigen van ingevoerd getal, beschouwd als een waarde uitgedrukt in de referentie-munteenheid (euro of dollar)</member>
+>Bevestigen van ingevoerd getal, beschouwd als een waarde uitgedrukt in de referentie-munteenheid (euro)</member>
 
 <member
 >De knop met de naam van een andere munteenheid</member>
@@ -1109,9 +1102,7 @@
 
 <member
 ><guibutton
-><accel
->I</accel
->nfo over</guibutton
+>Info over</guibutton
 ></member>
 <member
 >Het vak <guilabel
@@ -1120,9 +1111,7 @@
 
 <member
 ><guibutton
-><accel
->H</accel
->elp</guibutton
+>Help</guibutton
 ></member>
 <member
 >Deze helppagina's tonen</member>
@@ -1137,7 +1126,7 @@
 
 <sect1 id="settings">
 <title
->De Instellingendialoog</title>
+>De instellingendialoog</title>
 
 <mediaobject>
 <imageobject
@@ -1149,7 +1138,7 @@
 >Referentie-munteenheid, bron koersen</title>
 
 <para
->Met deze instelling wordt de referentie-munteenheid ingesteld (euro of dollar), en van welke bron &keurocalc; de wisselkoersen moet ophalen tussen de referentie-munteenheid en andere valuta. De volgende keuzes zijn beschikbaar:</para>
+>Deze instelling definieert uit welke bron &keurocalc; de wisselkoersen moet ophalen tussen de referentie-munteenheid en andere valuta. De volgende keuzes zijn beschikbaar:</para>
 
 <variablelist>
 <varlistentry>
@@ -1178,18 +1167,37 @@
 </listitem>
 </varlistentry>
 
-<varlistentry>
+<!--varlistentry>
 <term
 ><guilabel
 >Dollar, New York Federal Reserve Bank</guilabel
 ></term>
 <listitem>
 <para
->De US-dollar is de referentie-munteenheid. Er zijn geen vaste wisselkoersen. &keurocalc; probeert de variabele koersen op te halen van de <ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
->New York Federal Reserve Bank (NY FRB)</ulink
+>Dollar is the reference currency. There are no fixed exchange rates.
+&keurocalc; attempts to download the variable rates from the
+<ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
+>New York
+Federal Reserve Bank (NY FRB)</ulink
 >.</para>
 <para
->Op dit moment heeft &keurocalc; een probleem met het vaststellen van de datum waarop de laatste wisselkoersen door die bank zijn gepubliceerd, vanwege verschillen in tijdzones en dagen waarop niet wordt gewerkt. Voor de zekerheid vraagt &keurocalc; steeds om de koersen van gisteren, wat natuurlijk niet optimaal is.</para>
+>Currently, &keurocalc; has a problem determining the date of the latest
+exchange rates published by that bank, because of time zone offsets and non-working
+days. For safety, &keurocalc; always asks for yesterday's rates, which is of course
+not optimal.</para>
+</listitem>
+</varlistentry-->
+
+<varlistentry>
+<term
+><guilabel
+>Euro, Time Genie</guilabel
+></term>
+<listitem>
+<para
+>De euro is de referentie-munteenheid. De vaste wisselkoersen zijn beschikbaar. &keurocalc; probeert de variabele koersen op te halen van de <ulink url="http://rss.timegenie.com/foreign_exchange_rates_forex"
+>Time Genie (TG)</ulink
+>.</para>
 </listitem>
 </varlistentry>
 
@@ -1310,7 +1318,7 @@
 >&keurocalc;</para>
 
 <para
->Programma copyright 2001-2006 de ontwikkelaars van &keurocalc;: <itemizedlist>
+>Program copyright 2001-2012 the &keurocalc; developers: <itemizedlist>
 <listitem
 ><para
 >Éric Bischoff <email
@@ -1339,7 +1347,7 @@
 ></para>
 
 <para
->Documentatie copyright 2001-2006 Éric Bischoff <email
+>Documentation copyright 2001-2012 Éric Bischoff <email
 >ebischoff@_NOSPAM_nerim.net</email
 >.</para>
 
@@ -1347,7 +1355,7 @@
 >Documentatie nagekeken door &Philip.Rodrigues; &Philip.Rodrigues.mail;.</para>
 <para
 ><email
->jjh.woldringh@planet.nl</email
+>jjh punt woldringh bij planet punt nl</email
 ></para
 > 
 &underFDL; &underGPL; </chapter>
@@ -1374,7 +1382,7 @@
 >Vereisten</title>
 
 <para
->Om &keurocalc; met succes te kunnen installeren is &kde; 3.5 nodig.</para>
+>Om &keurocalc; met succes te kunnen installeren is &kde; 4.0 nodig.</para>
 
 <para
 >Alle benodigde bibliotheken zijn te vinden op <ulink url="ftp://ftp.kde.org"
@@ -1392,7 +1400,15 @@
 ><prompt
 >%</prompt
 > <userinput
->./configure</userinput>
+>mkdir build</userinput>
+<prompt
+>%</prompt
+> <userinput
+>cd build</userinput>
+<prompt
+>%</prompt
+> <userinput
+>cmake ..</userinput>
 <prompt
 >%</prompt
 > <userinput
@@ -1406,11 +1422,7 @@
 </para>
 
 <para
->Omdat &keurocalc; gebruik maakt van <application
->autoconf</application
-> en <application
->automake</application
-> zouden er geen problemen moeten zijn bij het compileren. Zijn die er toch, dan vragen wij u die te melden aan de auteurs van &keurocalc;.</para>
+>Since cmake uw systeeminstellingen automatisch detecteert, zou u geen moeite moeten hebben met het compileren van &keurocalc;. Zou u problemen ondervinden rapporteer ze dan aan de auteurs van &keurocalc;.</para>
 
 </sect1>
 

@@ -2,7 +2,7 @@
                          currencies.cpp  -  list of currencies
                              -------------------
     begin                : sam déc  1 23:40:19 CET 2001
-    copyright            : (C) 2001-2011 by Éric Bischoff
+    copyright            : (C) 2001-2012 by Éric Bischoff
     email                : ebischoff@nerim.net
  ***************************************************************************/
 
@@ -121,11 +121,10 @@ void Currencies::clearRates()
 // Add fixed rates
 void Currencies::addFixedRates( int rounding, bool someMoreToCome )
 {
-	int num, position;
+	int num;
 	double currencyPrecision;
 	QString blank("");
 
-	position = 0;
 	for (num = 0; num < numCurrencies; num++)
 		if ( currency[num].fixedRate )
 	{

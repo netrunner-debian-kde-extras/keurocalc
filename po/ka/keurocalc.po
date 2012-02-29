@@ -1,0 +1,862 @@
+# translation of keurocalc.po to Georgian
+#
+# Rusudan Tsiskreli <r_tsiskreli@caucasus.net>, 2006.
+# რუსუდან ცისკრელი <tsiskreli@gmail.com>, 2006.
+# Rusudan Tsiskreli <tsiskreli@gmail.com>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: keurocalc\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-02-08 04:29+0100\n"
+"PO-Revision-Date: 2006-02-21 16:43-0100\n"
+"Last-Translator: რუსუდან ცისკრელი <tsiskreli@gmail.com>\n"
+"Language-Team:  <www.gia.ge>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: keurocalc.cpp:70
+msgid "Cannot load currencies.xml"
+msgstr "currencies.xml ჩატვირთვა ვერ განხორციელდა"
+
+#: keurocalc.cpp:973
+msgid "Fixed"
+msgstr "ფიქსირებული"
+
+#: keurocalc.cpp:977
+msgid "ECB"
+msgstr "ECB"
+
+#: keurocalc.cpp:978 keurocalc.cpp:986
+msgid "Loading..."
+msgstr "ჩატვირთვა..."
+
+#: keurocalc.cpp:985
+msgid "TG"
+msgstr ""
+
+#: keurocalc.cpp:991
+msgid "Official rules"
+msgstr "ოფიციალური წესები"
+
+#: keurocalc.cpp:994
+msgid "Smallest coin"
+msgstr "უმცირესი მონეტა"
+
+#: keurocalc.cpp:997
+msgid "No rounding"
+msgstr "დამრგვალების გარეშე"
+
+#: keurocalc.cpp:1071
+msgid "Not loaded"
+msgstr "არაა ჩატვირთული"
+
+#: main.cpp:31
+msgid "KEuroCalc"
+msgstr "KEuroCalc"
+
+#: main.cpp:32
+msgid "Cash converter and calculator"
+msgstr "ფულის კონვერტორი და კალკულატორი"
+
+#: main.cpp:33
+#, fuzzy
+msgid "(c) 2001-2012, the KEuroCalc developers"
+msgstr "(c) 2001-2005, the KEuroCalc developers"
+
+#: main.cpp:34
+#, fuzzy
+#| msgid ""
+#| "A program by Éric Bischoff <ebischoff@nerim.net>\n"
+#| "\n"
+#| "This program is dedicated to humorist Michael Moore, for he\n"
+#| "knows that money does not justify anything...\n"
+msgid ""
+"A program by Éric Bischoff <ebischoff@nerim.net>\n"
+"\n"
+"This program is dedicated to humorist Michael Moore, for he\n"
+"knows that money does not justify anything...\n"
+"\n"
+"Time Genie exchange rates courtesy of <a href='http://www.timegenie.com/' "
+"title='foreign exchange rates courtesy of Time Genie'>Time Genie</a>\n"
+msgstr ""
+"Éric Bischoff <ebischoff@nerim.net>-ის პროგრამა\n"
+"\n"
+"ეს პროგრამა შემოთავაზებულია იუმორისტი Michael Moore-ის მიერ,\n"
+"მან იცის რომ მეხსიერებიტ ვერაფერს გაასწორებთ...\n"
+
+#: main.cpp:42
+msgid "Éric Bischoff"
+msgstr ""
+
+#: main.cpp:42
+msgid "Design and implementation"
+msgstr "დიზაინი და შესრულება"
+
+#: main.cpp:43
+msgid "Gil Gross"
+msgstr ""
+
+#: main.cpp:43
+msgid "Additional functionality"
+msgstr ""
+
+#: main.cpp:44
+msgid "Melchior Franz"
+msgstr ""
+
+#: main.cpp:44
+msgid "Design and testing"
+msgstr "დიზაინი და გამოცდა"
+
+#: main.cpp:45
+msgid "Bas Willems"
+msgstr ""
+
+#: main.cpp:45
+msgid "Graphical artwork"
+msgstr "გრაფიკული artwork"
+
+#: names.cpp:96
+msgid "South African rand"
+msgstr "სამხრეთ აფრიკული რანდი"
+
+#: names.cpp:95
+msgid "Yemen rial"
+msgstr ""
+
+#: names.cpp:94
+#, fuzzy
+#| msgid "South African rand"
+msgid "West African CFA franc"
+msgstr "სამხრეთ აფრიკული რანდი"
+
+#: names.cpp:93
+#, fuzzy
+#| msgid "Australian dollar"
+msgid "East Caribbean dollar"
+msgstr "ავსტრალიური დოლარი"
+
+#: names.cpp:92
+#, fuzzy
+#| msgid "South African rand"
+msgid "Central African CFA franc"
+msgstr "სამხრეთ აფრიკული რანდი"
+
+#: names.cpp:91
+msgid "Vietnam dong"
+msgstr ""
+
+#: names.cpp:90
+#, fuzzy
+#| msgid "Venezuelian bolivar"
+msgid "Venezuelan bolivar fuerte"
+msgstr "ვენესუელური ბოლივარი"
+
+#: names.cpp:89
+msgid "US dollar"
+msgstr "აშშ დოლარი"
+
+#: names.cpp:88
+msgid "Ukraine hryvnia"
+msgstr ""
+
+#: names.cpp:87
+#, fuzzy
+#| msgid "New Taiwanese dollar"
+msgid "Taiwanese new dollar"
+msgstr "ახალი ტაივანური დოლარი"
+
+#: names.cpp:86
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: names.cpp:85
+#, fuzzy
+#| msgid "New Turkish lira"
+msgid "Turkish new lira"
+msgstr "ახალი თურქული ლირა"
+
+#: names.cpp:84
+#, fuzzy
+#| msgid "Thailandese baht"
+msgid "Thai baht"
+msgstr "ტაილანდური ბაჰტი"
+
+#: names.cpp:83
+#, fuzzy
+#| msgid "Cyprus pound"
+msgid "Syrian pound"
+msgstr "კიპრული გირვანქა"
+
+#: names.cpp:82
+msgid "Sao Tome and Principe dobra"
+msgstr ""
+
+#: names.cpp:81
+msgid "Slovakian koruna"
+msgstr "სლოვაკური კრონა"
+
+#: names.cpp:80
+msgid "Slovenian tolar"
+msgstr "სლოვენური ტოლარი"
+
+#: names.cpp:79
+msgid "Singapore dollar"
+msgstr "სინგაპურული დოლარი"
+
+#: names.cpp:78
+msgid "Swedish krona"
+msgstr "შვედური კრონა"
+
+#: names.cpp:77
+msgid "Saudi Arabia riyal"
+msgstr ""
+
+#: names.cpp:76
+msgid "Russian rouble"
+msgstr ""
+
+#: names.cpp:75
+msgid "Serbian dinar"
+msgstr ""
+
+#: names.cpp:74
+#, fuzzy
+#| msgid "New Romanian leu"
+msgid "Romanian new leu"
+msgstr "ახალი რუმინული ლეუ"
+
+#: names.cpp:73
+msgid "Qatar rial"
+msgstr ""
+
+#: names.cpp:72
+msgid "Portuguese escudo"
+msgstr "პორტუგალიური ესკუდო"
+
+#: names.cpp:71
+msgid "Polish zloty"
+msgstr "პოლონური ზლოტი"
+
+#: names.cpp:70
+#, fuzzy
+#| msgid "Indian rupee"
+msgid "Pakistan rupee"
+msgstr "ინდური რუპი"
+
+#: names.cpp:69
+msgid "Philippine peso"
+msgstr ""
+
+#: names.cpp:68
+msgid "Peru nuevo sol"
+msgstr ""
+
+#: names.cpp:67
+msgid "Panama balboa"
+msgstr ""
+
+#: names.cpp:66
+msgid "Oman rial"
+msgstr ""
+
+#: names.cpp:65
+msgid "New Zealand dollar"
+msgstr "ახალ ზელანდიური დოლარი"
+
+#: names.cpp:64
+msgid "Norvegian krone"
+msgstr "ნორვეგიული კრონა"
+
+#: names.cpp:63
+msgid "Dutch gulden"
+msgstr "ჰოლანდიური გულდენი"
+
+#: names.cpp:62
+msgid "Mozambican metical"
+msgstr ""
+
+#: names.cpp:61
+msgid "Malaysian ringgit"
+msgstr "მალაიზიური რინგიტი"
+
+#: names.cpp:60
+msgid "Mexican peso"
+msgstr "მექსიკური პესო"
+
+#: names.cpp:59
+msgid "Maltese lira"
+msgstr "მალტური ლირა"
+
+#: names.cpp:58
+msgid "Macau pataca"
+msgstr ""
+
+#: names.cpp:57
+msgid "Morocco dirham"
+msgstr ""
+
+#: names.cpp:56
+#, fuzzy
+#| msgid "Latvian lats"
+msgid "Latvian latas"
+msgstr "ლატვიური ლატი"
+
+#: names.cpp:55
+msgid "Luxembourg franc"
+msgstr "ლუქსემბურგი ფრანკი"
+
+#: names.cpp:54
+#, fuzzy
+#| msgid "Lithuanian litas"
+msgid "Lituanian litas"
+msgstr "ლიტვური ლიტა"
+
+#: names.cpp:53
+msgid "Sri Lankan rupee"
+msgstr "შრი ლანკური რუპი"
+
+#: names.cpp:52
+#, fuzzy
+#| msgid "Indian rupee"
+msgid "Kazakhstan tenge"
+msgstr "ინდური რუპი"
+
+#: names.cpp:51
+#, fuzzy
+#| msgid "Canadian dollar"
+msgid "Cayman Islands dollar"
+msgstr "კანადური დოლარი"
+
+#: names.cpp:50
+msgid "Kuwait dinar"
+msgstr ""
+
+#: names.cpp:49
+msgid "South Korean won"
+msgstr "სამხრეთ კორეული ვონი"
+
+#: names.cpp:48
+msgid "Cambodia riel"
+msgstr ""
+
+#: names.cpp:47
+#, fuzzy
+#| msgid "Austrian schilling"
+msgid "Kenya schilling"
+msgstr "ავსტრალიური შილინგი"
+
+#: names.cpp:46
+msgid "Japanese yen"
+msgstr "იაპონური იენი"
+
+#: names.cpp:45
+#, fuzzy
+#| msgid "Canadian dollar"
+msgid "Jamaica dollar"
+msgstr "კანადური დოლარი"
+
+#: names.cpp:44
+msgid "Italian lira"
+msgstr "იტალიური ლირა"
+
+#: names.cpp:43
+msgid "Icelandic krona"
+msgstr "ისლანდიური კრონა"
+
+#: names.cpp:42
+#, fuzzy
+#| msgid "Brazilian real"
+msgid "Iran rial"
+msgstr "ბრაზილიური რეალი"
+
+#: names.cpp:41
+msgid "Indian rupee"
+msgstr "ინდური რუპი"
+
+#: names.cpp:40
+msgid "Israel new shekel"
+msgstr ""
+
+#: names.cpp:39
+msgid "Irish punt"
+msgstr "ირლანდიური გირვანქა"
+
+#: names.cpp:38
+#, fuzzy
+msgid "Indonesian rupiah"
+msgstr "ინდური რუპი"
+
+#: names.cpp:37
+msgid "Hungarian forint"
+msgstr "უნგრული ფორინტი"
+
+#: names.cpp:36
+#, fuzzy
+msgid "Croatian kuna"
+msgstr "სლოვაკური კრონა"
+
+#: names.cpp:35
+msgid "Hong kong dollar"
+msgstr "ჰონკონგური დოლარი"
+
+#: names.cpp:34
+#, fuzzy
+#| msgid "Canadian dollar"
+msgid "Guyana dollar"
+msgstr "კანადური დოლარი"
+
+#: names.cpp:33
+msgid "Greek drachma"
+msgstr "ბერძნული დრახმა"
+
+#: names.cpp:32
+msgid "Great Britain pound"
+msgstr "დიდ ბრიტანული გირვანქა"
+
+#: names.cpp:31
+msgid "French franc"
+msgstr "ფრანგული ფრანკი"
+
+#: names.cpp:30
+#, fuzzy
+#| msgid "US dollar"
+msgid "Fiji dollar"
+msgstr "აშშ დოლარი"
+
+#: names.cpp:29
+msgid "Finnish markka"
+msgstr "ფინური მარკა"
+
+#: names.cpp:28
+msgid "EU euro"
+msgstr "EU ევრო"
+
+#: names.cpp:27
+msgid "Spanish peseta"
+msgstr "ესპანური პესეტა"
+
+#: names.cpp:26
+#, fuzzy
+#| msgid "Cyprus pound"
+msgid "Egypt pound"
+msgstr "კიპრული გირვანქა"
+
+#: names.cpp:25
+msgid "Estonian kroon"
+msgstr "ესტონური კრონა"
+
+#: names.cpp:24
+msgid "Dominican Republic peso"
+msgstr ""
+
+#: names.cpp:23
+msgid "Danish krone"
+msgstr "დანიური კრონა"
+
+#: names.cpp:22
+msgid "German deutschmark"
+msgstr "გერმანული მარკა"
+
+#: names.cpp:21
+msgid "Czech koruna"
+msgstr "ჩეხური კრონა"
+
+#: names.cpp:20
+msgid "Cyprus pound"
+msgstr "კიპრული გირვანქა"
+
+#: names.cpp:19
+msgid "Cape Verde escudo"
+msgstr ""
+
+#: names.cpp:18
+msgid "Chinese yuan"
+msgstr "ჩინური იუანი"
+
+#: names.cpp:17
+msgid "Chile peso"
+msgstr ""
+
+#: names.cpp:16
+msgid "Swiss franc"
+msgstr "შვეციური ფრანკი"
+
+#: names.cpp:15
+msgid "Canadian dollar"
+msgstr "კანადური დოლარი"
+
+#: names.cpp:14
+#, fuzzy
+#| msgid "Canadian dollar"
+msgid "Bahamas dollar"
+msgstr "კანადური დოლარი"
+
+#: names.cpp:13
+msgid "Brazilian real"
+msgstr "ბრაზილიური რეალი"
+
+#: names.cpp:12
+#, fuzzy
+#| msgid "Canadian dollar"
+msgid "Brunei dollar"
+msgstr "კანადური დოლარი"
+
+#: names.cpp:11
+#, fuzzy
+#| msgid "Canadian dollar"
+msgid "Bermuda dollar"
+msgstr "კანადური დოლარი"
+
+#: names.cpp:10
+msgid "Bahrain dinar"
+msgstr ""
+
+#: names.cpp:9
+msgid "Bulgarian lev"
+msgstr "ბულგარული ლევი"
+
+#: names.cpp:8
+msgid "Belgian franc"
+msgstr "ბელგიური ფრანკი"
+
+#: names.cpp:7
+#, fuzzy
+#| msgid "Canadian dollar"
+msgid "Barbados dollar"
+msgstr "კანადური დოლარი"
+
+#: names.cpp:6
+msgid "Australian dollar"
+msgstr "ავსტრალიური დოლარი"
+
+#: names.cpp:5
+msgid "Austrian schilling"
+msgstr "ავსტრალიური შილინგი"
+
+#: names.cpp:4
+#, fuzzy
+#| msgid "Mexican peso"
+msgid "Argentina peso"
+msgstr "მექსიკური პესო"
+
+#: names.cpp:3
+msgid "Angola kwanza"
+msgstr ""
+
+#: names.cpp:2
+msgid "Netherlands Antilles guilder"
+msgstr ""
+
+#: names.cpp:1
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. i18n: file: calculator.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, Calculator)
+#: rc.cpp:5
+msgid "Currency Calculator"
+msgstr "ვალუტის კალკულატორი"
+
+#. i18n: file: calculator.ui:205
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox4)
+#: rc.cpp:8
+msgid "Input"
+msgstr "შეყვანა"
+
+#. i18n: file: calculator.ui:1247
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox5)
+#: rc.cpp:11
+msgid "Result"
+msgstr "შედეგი"
+
+#. i18n: file: calculator.ui:1858
+#. i18n: ectx: property (toolTip), widget (QPushButton, BackspaceButton)
+#: rc.cpp:14
+msgid "Correct last input digit"
+msgstr "უკანასკნელი შეტანილი ციფრის გასწორება"
+
+#. i18n: file: calculator.ui:1896
+#. i18n: ectx: property (toolTip), widget (QPushButton, ReferenceButton)
+#: rc.cpp:17
+msgid "Enter value expressed in reference currency"
+msgstr "მიბმულ ვალუტად ასახული მნიშვნელობის შეყვანა"
+
+#. i18n: file: calculator.ui:1918
+#. i18n: ectx: property (toolTip), widget (QPushButton, SlashButton)
+#: rc.cpp:20
+msgid "Divide"
+msgstr "გაყოფა"
+
+#. i18n: file: calculator.ui:1940
+#. i18n: ectx: property (toolTip), widget (QPushButton, MInputButton)
+#: rc.cpp:23
+msgid "Store in memory"
+msgstr "მეხსიერებაში შენახვა"
+
+#. i18n: file: calculator.ui:1978
+#. i18n: ectx: property (toolTip), widget (QPushButton, ResetButton)
+#: rc.cpp:26
+msgid "Reset both input, result and memory"
+msgstr "შეყვანის, შედეგის და მეხსიერების ხელახალი კონფიგურაცია"
+
+#. i18n: file: calculator.ui:1981
+#. i18n: ectx: property (text), widget (QPushButton, ResetButton)
+#: rc.cpp:29
+msgid "Reset"
+msgstr "ხელახალი კონფიგურაცია"
+
+#. i18n: file: calculator.ui:2060
+#. i18n: ectx: property (toolTip), widget (QPushButton, CurrencyButton)
+#: rc.cpp:32
+msgid "Enter value expressed in currency"
+msgstr "შეიყვანეთ მნიშვნელობა ვალუტაში ასახული"
+
+#. i18n: file: calculator.ui:2085
+#. i18n: ectx: property (toolTip), widget (QPushButton, AsteriskButton)
+#: rc.cpp:35
+msgid "Multiply"
+msgstr "გამრავლება"
+
+#. i18n: file: calculator.ui:2110
+#. i18n: ectx: property (toolTip), widget (QPushButton, MRecallButton)
+#: rc.cpp:38
+msgid "Recall from memory"
+msgstr "მეხსიერებიდან გამოძახება"
+
+#. i18n: file: calculator.ui:2132
+#. i18n: ectx: property (toolTip), widget (QPushButton, AboutButton)
+#: rc.cpp:41
+msgid "Display about box"
+msgstr "შესახებ უჯრის ჩვენება"
+
+#. i18n: file: calculator.ui:2135
+#. i18n: ectx: property (text), widget (QPushButton, AboutButton)
+#: rc.cpp:44
+msgid "&About..."
+msgstr "შ&ესახებ..."
+
+#. i18n: file: calculator.ui:2214
+#. i18n: ectx: property (toolTip), widget (QPushButton, SimpleValueButton)
+#: rc.cpp:47
+msgid "Enter simple value"
+msgstr "მარტივი მნიშვნელობის შეყვანა"
+
+#. i18n: file: calculator.ui:2217
+#. i18n: ectx: property (text), widget (QPushButton, SimpleValueButton)
+#: rc.cpp:50
+#, fuzzy
+#| msgid "Enter"
+msgctxt "Enter button"
+msgid "Enter"
+msgstr "შეყვანა"
+
+#. i18n: file: calculator.ui:2242
+#. i18n: ectx: property (toolTip), widget (QPushButton, MinusButton)
+#: rc.cpp:53
+msgid "Subtract"
+msgstr "გამოკლება"
+
+#. i18n: file: calculator.ui:2267
+#. i18n: ectx: property (toolTip), widget (QPushButton, MMinusButton)
+#: rc.cpp:56
+msgid "Substract from memory"
+msgstr "მეხსიერებიდან გამოკლება"
+
+#. i18n: file: calculator.ui:2289
+#. i18n: ectx: property (toolTip), widget (QPushButton, HelpButton)
+#: rc.cpp:59
+msgid "Display help pages"
+msgstr "დახმარების გვერდების ჩვენება"
+
+#. i18n: file: calculator.ui:2292
+#. i18n: ectx: property (text), widget (QPushButton, HelpButton)
+#: rc.cpp:62
+msgid "&Help..."
+msgstr "&დახმარება..."
+
+#. i18n: file: calculator.ui:2349
+#. i18n: ectx: property (toolTip), widget (QPushButton, PercentButton)
+#: rc.cpp:65
+msgid "Apply percentage value"
+msgstr "პროცენტული მნიშვნელობის მნიშვნელობა"
+
+#. i18n: file: calculator.ui:2371
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusMinusButton)
+#: rc.cpp:68
+msgid "Change sign"
+msgstr "ნიშნის შეცვლა"
+
+#. i18n: file: calculator.ui:2396
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusButton)
+#: rc.cpp:71
+msgid "Add"
+msgstr ""
+
+#. i18n: file: calculator.ui:2421
+#. i18n: ectx: property (toolTip), widget (QPushButton, MPlusButton)
+#: rc.cpp:74
+msgid "Add to memory"
+msgstr "მეხსიერებისთვის დამატება"
+
+#. i18n: file: calculator.ui:2443
+#. i18n: ectx: property (toolTip), widget (QPushButton, SettingsButton)
+#: rc.cpp:77
+msgid "Configure KEuroCalc"
+msgstr "KEuroCalc-ის კონფიგურაცია"
+
+#. i18n: file: calculator.ui:2446
+#. i18n: ectx: property (text), widget (QPushButton, SettingsButton)
+#: rc.cpp:80
+msgid "&Settings..."
+msgstr "&პარამეტრები..."
+
+#. i18n: file: calculator.ui:2459
+#. i18n: ectx: property (toolTip), widget (QComboBox, CurrencyList)
+#: rc.cpp:83
+msgid "Currencies"
+msgstr "ვალუტები"
+
+#. i18n: file: settingsdialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, SettingsDialog)
+#: rc.cpp:86
+#, fuzzy
+#| msgid "Settings..."
+msgid "Settings"
+msgstr "პარამეტრები..."
+
+#. i18n: file: settingsdialog.ui:34
+#. i18n: ectx: property (text), widget (QLabel, defaultCurrencyText)
+#: rc.cpp:89
+msgid "Default currency"
+msgstr "ნაგულისხმევი ვალუტა"
+
+#. i18n: file: settingsdialog.ui:59
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:92
+msgid "Reference currency, rates origin"
+msgstr "მიბმული ვლუტა, თავდაპირველი მნიშვნელობები"
+
+#. i18n: file: settingsdialog.ui:74
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroFixed)
+#: rc.cpp:95
+#, fuzzy
+msgid "Euro, no ne&twork access (fixed rates only)"
+msgstr "ევრო, ქსელის წვდომა არაა (მხოლოდ ფიქსირებული მნიშვნელობები)"
+
+#. i18n: file: settingsdialog.ui:87
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroECB)
+#: rc.cpp:98
+#, fuzzy
+msgid "Euro, European Central &Bank"
+msgstr "ევრო, ევროპული ცენტრალური ბანკი"
+
+#. i18n: file: settingsdialog.ui:100
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroTG)
+#: rc.cpp:101
+msgid "Euro, Time &Genie"
+msgstr ""
+
+#. i18n: file: settingsdialog.ui:116
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: rc.cpp:104
+msgid "Rounding"
+msgstr "დარგვალება"
+
+#. i18n: file: settingsdialog.ui:131
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonOfficialRules)
+#: rc.cpp:107
+#, fuzzy
+msgid "Official roundin&g rules"
+msgstr "ოფიციალური დარგვალების წესები"
+
+#. i18n: file: settingsdialog.ui:141
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonSmallestCoin)
+#: rc.cpp:110
+#, fuzzy
+msgid "&Smallest coin method"
+msgstr "უმცირესი მონეტის მეთოდი"
+
+#. i18n: file: settingsdialog.ui:151
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonNoRounding)
+#: rc.cpp:113
+#, fuzzy
+msgid "&No rounding at all"
+msgstr "არ დამრგვალება"
+
+#. i18n: file: settingsdialog.ui:161
+#. i18n: ectx: property (title), widget (QGroupBox, AppearanceGroup)
+#: rc.cpp:116
+msgid "Look and feel"
+msgstr ""
+
+#. i18n: file: settingsdialog.ui:197
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:119
+msgid "Display color"
+msgstr "ფერის ჩვენება"
+
+#. i18n: file: settingsdialog.ui:672
+#. i18n: ectx: property (text), widget (QLabel, displayColorResult)
+#: rc.cpp:122
+msgid "215.06 €"
+msgstr ""
+
+#. i18n: file: settingsdialog.ui:688
+#. i18n: ectx: property (text), widget (KPushButton, kPushButtonDisplayColor)
+#: rc.cpp:125
+#, fuzzy
+msgid "C&hange..."
+msgstr "ჩატვირთვა..."
+
+#. i18n: file: settingsdialog.ui:737
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxSplashScreen)
+#: rc.cpp:128
+msgid "Enable splash screen"
+msgstr ""
+
+#. i18n: file: settingsdialog.ui:805
+#. i18n: ectx: property (text), widget (QPushButton, OKButton)
+#: rc.cpp:131
+msgid "O&K"
+msgstr ""
+
+#. i18n: file: settingsdialog.ui:815
+#. i18n: ectx: property (text), widget (QPushButton, CancelButton)
+#: rc.cpp:134
+msgid "Cance&l"
+msgstr ""
+
+#~ msgid "NY FRB"
+#~ msgstr "NY FRB"
+
+#, fuzzy
+#~ msgid "&Dollar, New York Federal Reserve Bank"
+#~ msgstr "დოლარი, ნიუ-იორკის ფედერალური სარეზერვო ბანკი"
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "რუსუდან ცისკრელი"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "tsiskreli@gmail.com"
+
+#~ msgid "<i>This setting is not available yet</i>"
+#~ msgstr "<i>პარამეტრი ხელმიუწვდომელია</i>"
