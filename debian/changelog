@@ -4,8 +4,9 @@ keurocalc (1.2.0-1) unstable; urgency=low
   * Imported Upstream version 1.2.0
   * Fixed description to list correct sources of exchange rates downloaded.
   * Bumped Standards-Version to 3.9.3, no changes needed.
+  * Slightly updated copyright file.
 
- -- Michael Meskes <meskes@debian.org>  Wed, 29 Feb 2012 12:22:34 +0100
+ -- Michael Meskes <meskes@debian.org>  Wed, 29 Feb 2012 12:37:49 +0100
 
 keurocalc (1.1.0-1) unstable; urgency=low
 

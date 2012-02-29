@@ -3,7 +3,7 @@ Thu, 12 May 2005 20:09:51 +0200.
 
 It was downloaded from http://opensource.bureau-cornavin.com/keurocalc/
 
-Copyright (C) 2001-2006 Éric Bischoff <e.bischoff@noos.fr>
+Copyright (C) 2001-2012 Éric Bischoff <e.bischoff@noos.fr>
         		Melchior Franz <a8603365@unet.univie.ac.at>
 			Bas Willems <cybersurfer@euronet.nl>
 			Gil Gross <ptit.ours@gmail.com>
@@ -26,7 +26,7 @@ License:
    MA 02110-1301, USA.
 
 On Debian systems, the complete text of the GNU General
-Public License can be found in `/usr/share/common-licenses/GPL'.
+Public License version 2 can be found in `/usr/share/common-licenses/GPL-2'.
 
 The following files are licensed under the GNU Free Documentation License:
  * index.docbook (C) 2008 Eric Bischoff <ebischoff@nerim.net>
@@ -44,8 +44,8 @@ The following files are licensed under the GNU Free Documentation License:
    complements the GNU General Public License, which is a copyleft
    license designed for free software.
 
-The full text of the GNU General Public License version 2 is available on
-Debian systems in /usr/share/common-licenses/GFDL.
+The full text of the GNU Free Documentation License version 1.2 is available on
+Debian systems in /usr/share/common-licenses/GFDL-1.2.
 
 The Debian packaging is Copyright C) 2005-2010, Claudio Moratti <maxer@knio.it>
 and Michael Meskes <meskes@debian.org>. It is licensed under the GPL, either
