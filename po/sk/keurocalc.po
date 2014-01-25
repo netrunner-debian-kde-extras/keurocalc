@@ -1,0 +1,729 @@
+# translation of keurocalc.po to Slovak
+# Richard Fric <Richard.Fric@kdemail.net>, 2008, 2009.
+# Milan Hrala <hrala.milan@gmail.com>, 2009.
+# Roman Paholík <wizzardsk@gmail.com>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: keurocalc\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 03:19+0200\n"
+"PO-Revision-Date: 2013-02-14 10:58+0100\n"
+"Last-Translator: Roman Paholík <wizzardsk@gmail.com>\n"
+"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Milan Hrala"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "hrala.milan@gmail.com"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, Calculator)
+#: calculator.ui:14
+msgid "Currency Calculator"
+msgstr "Menová kalkulačka"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox4)
+#: calculator.ui:205
+msgid "Input"
+msgstr "Vstup"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox5)
+#: calculator.ui:1247
+msgid "Result"
+msgstr "Výsledok"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, BackspaceButton)
+#: calculator.ui:1858
+msgid "Correct last input digit"
+msgstr "Opraviť poslednú vstupnú číslicu"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, ReferenceButton)
+#: calculator.ui:1896
+msgid "Enter value expressed in reference currency"
+msgstr "Zadajte hodnotu vyjadrenú v referenčnej mene"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, SlashButton)
+#: calculator.ui:1918
+msgid "Divide"
+msgstr "Deliť"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MInputButton)
+#: calculator.ui:1940
+msgid "Store in memory"
+msgstr "Uložiť v pamäti"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, ResetButton)
+#: calculator.ui:1978
+msgid "Reset both input, result and memory"
+msgstr "Vynulovať vstup, výsledok a pamäť"
+
+#. i18n: ectx: property (text), widget (QPushButton, ResetButton)
+#: calculator.ui:1981
+msgid "Reset"
+msgstr "Obnoviť"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, CurrencyButton)
+#: calculator.ui:2060
+msgid "Enter value expressed in currency"
+msgstr "Zadajte hodnotu vyjadrenú v mene"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, AsteriskButton)
+#: calculator.ui:2085
+msgid "Multiply"
+msgstr "Násobenie"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MRecallButton)
+#: calculator.ui:2110
+msgid "Recall from memory"
+msgstr "Vyvolať z pamäti"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, AboutButton)
+#: calculator.ui:2132
+msgid "Display about box"
+msgstr "Zobraziť okno O programe"
+
+#. i18n: ectx: property (text), widget (QPushButton, AboutButton)
+#: calculator.ui:2135
+msgid "&About..."
+msgstr "O aplikácii..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, SimpleValueButton)
+#: calculator.ui:2214
+msgid "Enter simple value"
+msgstr "Zadajte jednoduchú hodnotu"
+
+#. i18n: ectx: property (text), widget (QPushButton, SimpleValueButton)
+#: calculator.ui:2217
+msgctxt "Enter button"
+msgid "Enter"
+msgstr "Enter"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MinusButton)
+#: calculator.ui:2242
+msgid "Subtract"
+msgstr "Rozdiel"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MMinusButton)
+#: calculator.ui:2267
+msgid "Substract from memory"
+msgstr "Odčítať z pamäte"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, HelpButton)
+#: calculator.ui:2289
+msgid "Display help pages"
+msgstr "Zobraziť stránky pomocníka"
+
+#. i18n: ectx: property (text), widget (QPushButton, HelpButton)
+#: calculator.ui:2292
+msgid "&Help..."
+msgstr "&Pomocník..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, PercentButton)
+#: calculator.ui:2349
+msgid "Apply percentage value"
+msgstr "Použiť hodnotu percent"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusMinusButton)
+#: calculator.ui:2371
+msgid "Change sign"
+msgstr "Zmeniť znamienko"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusButton)
+#: calculator.ui:2396
+msgid "Add"
+msgstr "Pridať"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MPlusButton)
+#: calculator.ui:2421
+msgid "Add to memory"
+msgstr "Pridať do pamäte"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, SettingsButton)
+#: calculator.ui:2443
+msgid "Configure KEuroCalc"
+msgstr "Nastaviť KEuroCalc"
+
+#. i18n: ectx: property (text), widget (QPushButton, SettingsButton)
+#: calculator.ui:2446
+msgid "&Settings..."
+msgstr "Nastavenia..."
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, CurrencyList)
+#: calculator.ui:2459
+msgid "Currencies"
+msgstr "Meny"
+
+#: keurocalc.cpp:70
+msgid "Cannot load currencies.xml"
+msgstr "Nemožno načítať currencies.xml"
+
+#: keurocalc.cpp:973
+msgid "Fixed"
+msgstr "Pevná"
+
+#: keurocalc.cpp:977
+msgid "ECB"
+msgstr "ECB"
+
+#: keurocalc.cpp:978 keurocalc.cpp:986
+msgid "Loading..."
+msgstr "Načítavam ..."
+
+#: keurocalc.cpp:985
+msgid "TG"
+msgstr "TG"
+
+#: keurocalc.cpp:991
+msgid "Official rules"
+msgstr "Oficiálne pravidlá"
+
+#: keurocalc.cpp:994
+msgid "Smallest coin"
+msgstr "Najmenšia minca"
+
+#: keurocalc.cpp:997
+msgid "No rounding"
+msgstr "Nezaokrúhlené"
+
+#: keurocalc.cpp:1071
+msgid "Not loaded"
+msgstr "Nenahráva"
+
+#: main.cpp:31
+msgid "KEuroCalc"
+msgstr "KEuroCalc"
+
+#: main.cpp:32
+msgid "Cash converter and calculator"
+msgstr "Cenový prevodník a kalkulačka"
+
+#: main.cpp:33
+msgid "(c) 2001-2012, the KEuroCalc developers"
+msgstr "(c) 2001-2012, Vývojári KEuroCalc"
+
+#: main.cpp:34
+msgid ""
+"A program by Éric Bischoff <ebischoff@nerim.net>\n"
+"\n"
+"This program is dedicated to humorist Michael Moore, for he\n"
+"knows that money does not justify anything...\n"
+"\n"
+"Time Genie exchange rates courtesy of <a href='http://www.timegenie.com/' "
+"title='foreign exchange rates courtesy of Time Genie'>Time Genie</a>\n"
+msgstr ""
+"Program od Érica Bischoffa <ebischoff@nerim.net>\n"
+"\n"
+"Tento program je venovaný humoristovi Michaelovi Mooreovi, pretože\n"
+"vie, že peniaze neospravedlňuje nič ...\n"
+"\n"
+"Výmenné kurzy Time genie sú od <a href='http://www.timegenie.com/' "
+"title='foreign exchange rates courtesy of Time Genie'>Time Genie</a>\n"
+
+#: main.cpp:42
+msgid "Éric Bischoff"
+msgstr "Éric Bischoff"
+
+#: main.cpp:42
+msgid "Design and implementation"
+msgstr "Navrhovanie a vykonávanie"
+
+#: main.cpp:43
+msgid "Gil Gross"
+msgstr "Gil Gross"
+
+#: main.cpp:43
+msgid "Additional functionality"
+msgstr "Dodatočná funkcionalita"
+
+#: main.cpp:44
+msgid "Melchior Franz"
+msgstr "Melchior Franz"
+
+#: main.cpp:44
+msgid "Design and testing"
+msgstr "Návrh a testovanie"
+
+#: main.cpp:45
+msgid "Bas Willems"
+msgstr "Bas Willems"
+
+#: main.cpp:45
+msgid "Graphical artwork"
+msgstr "Grafický dizajn"
+
+#: names.cpp:1
+msgid "United Arab Emirates dirham"
+msgstr "Dirham Spojených Arabských Emirátov"
+
+#: names.cpp:2
+msgid "Netherlands Antilles guilder"
+msgstr "Antilský gulden"
+
+#: names.cpp:3
+msgid "Angola kwanza"
+msgstr "Angolská kwanza"
+
+#: names.cpp:4
+msgid "Argentina peso"
+msgstr "Argentínske peso"
+
+#: names.cpp:5
+msgid "Austrian schilling"
+msgstr "Rakúsky šiling"
+
+#: names.cpp:6
+msgid "Australian dollar"
+msgstr "Austrálsky dolár"
+
+#: names.cpp:7
+msgid "Barbados dollar"
+msgstr "Barbadoský dolár"
+
+#: names.cpp:8
+msgid "Belgian franc"
+msgstr "Belgický frank"
+
+#: names.cpp:9
+msgid "Bulgarian lev"
+msgstr "Bulharský lev"
+
+#: names.cpp:10
+msgid "Bahrain dinar"
+msgstr "Bahrajnský dinár"
+
+#: names.cpp:11
+msgid "Bermuda dollar"
+msgstr "Bermudský dolár"
+
+#: names.cpp:12
+msgid "Brunei dollar"
+msgstr "Brunejský dolár"
+
+#: names.cpp:13
+msgid "Brazilian real"
+msgstr "Brazílsky real"
+
+#: names.cpp:14
+msgid "Bahamas dollar"
+msgstr "Bahamský dolár"
+
+#: names.cpp:15
+msgid "Canadian dollar"
+msgstr "Kanadský dolár"
+
+#: names.cpp:16
+msgid "Swiss franc"
+msgstr "Švajčiarsky frank"
+
+#: names.cpp:17
+msgid "Chile peso"
+msgstr "Čilské peso"
+
+#: names.cpp:18
+msgid "Chinese yuan"
+msgstr "Čínsky juan"
+
+#: names.cpp:19
+msgid "Cape Verde escudo"
+msgstr "Kapverdské escudo"
+
+#: names.cpp:20
+msgid "Cyprus pound"
+msgstr "Cyperská libra"
+
+#: names.cpp:21
+msgid "Czech koruna"
+msgstr "Česká koruna"
+
+#: names.cpp:22
+msgid "German deutschmark"
+msgstr "Nemecká marka"
+
+#: names.cpp:23
+msgid "Danish krone"
+msgstr "Dánska koruna"
+
+#: names.cpp:24
+msgid "Dominican Republic peso"
+msgstr "Dominikánske peso"
+
+#: names.cpp:25
+msgid "Estonian kroon"
+msgstr "Estónska koruna"
+
+#: names.cpp:26
+msgid "Egypt pound"
+msgstr "Egyptská libra"
+
+#: names.cpp:27
+msgid "Spanish peseta"
+msgstr "Španielska peseta"
+
+#: names.cpp:28
+msgid "EU euro"
+msgstr "EU euro"
+
+#: names.cpp:29
+msgid "Finnish markka"
+msgstr "Fínska marka"
+
+#: names.cpp:30
+msgid "Fiji dollar"
+msgstr "Fidžijský dolár"
+
+#: names.cpp:31
+msgid "French franc"
+msgstr "Francúzsky frank"
+
+#: names.cpp:32
+msgid "Great Britain pound"
+msgstr "Britská libra"
+
+#: names.cpp:33
+msgid "Greek drachma"
+msgstr "Grécka drachma"
+
+#: names.cpp:34
+msgid "Guyana dollar"
+msgstr "Guyanský dolár"
+
+#: names.cpp:35
+msgid "Hong kong dollar"
+msgstr "Hong Kong dolár"
+
+#: names.cpp:36
+msgid "Croatian kuna"
+msgstr "Chorvátska kuna"
+
+#: names.cpp:37
+msgid "Hungarian forint"
+msgstr "Maďarský forint"
+
+#: names.cpp:38
+msgid "Indonesian rupiah"
+msgstr "Indonézska rupia"
+
+#: names.cpp:39
+msgid "Irish punt"
+msgstr "Írsky punt"
+
+#: names.cpp:40
+msgid "Israel new shekel"
+msgstr "Izraelský nový šekel"
+
+#: names.cpp:41
+msgid "Indian rupee"
+msgstr "Indická rupia"
+
+#: names.cpp:42
+msgid "Iran rial"
+msgstr "Iránsky rial"
+
+#: names.cpp:43
+msgid "Icelandic krona"
+msgstr "Islandská koruna"
+
+#: names.cpp:44
+msgid "Italian lira"
+msgstr "Talianska líra"
+
+#: names.cpp:45
+msgid "Jamaica dollar"
+msgstr "Jamajský dolár"
+
+#: names.cpp:46
+msgid "Japanese yen"
+msgstr "Japonsky jen"
+
+#: names.cpp:47
+msgid "Kenya schilling"
+msgstr "Kenský šiling"
+
+#: names.cpp:48
+msgid "Cambodia riel"
+msgstr "Kambodžský riel"
+
+#: names.cpp:49
+msgid "South Korean won"
+msgstr "Juhokórejský won"
+
+#: names.cpp:50
+msgid "Kuwait dinar"
+msgstr "Kuvajtský dinár"
+
+#: names.cpp:51
+msgid "Cayman Islands dollar"
+msgstr "Kajmanský dolár"
+
+#: names.cpp:52
+msgid "Kazakhstan tenge"
+msgstr "Kazašský tenge"
+
+#: names.cpp:53
+msgid "Sri Lankan rupee"
+msgstr "Sri Lankan rupee"
+
+#: names.cpp:54
+msgid "Lituanian litas"
+msgstr "Lituanian litas"
+
+#: names.cpp:55
+msgid "Luxembourg franc"
+msgstr "Luxemburský frank"
+
+#: names.cpp:56
+msgid "Latvian latas"
+msgstr "Lotyšský látás"
+
+#: names.cpp:57
+msgid "Morocco dirham"
+msgstr "Marocký dirham"
+
+#: names.cpp:58
+msgid "Macau pataca"
+msgstr "Macauská pataca"
+
+#: names.cpp:59
+msgid "Maltese lira"
+msgstr "Maltská líra"
+
+#: names.cpp:60
+msgid "Mexican peso"
+msgstr "Mexické peso"
+
+#: names.cpp:61
+msgid "Malaysian ringgit"
+msgstr "Malajský ringgit"
+
+#: names.cpp:62
+msgid "Mozambican metical"
+msgstr "Mozambický metical"
+
+#: names.cpp:63
+msgid "Dutch gulden"
+msgstr "Holandský gulden"
+
+#: names.cpp:64
+msgid "Norvegian krone"
+msgstr "Norvegian koruna"
+
+#: names.cpp:65
+msgid "New Zealand dollar"
+msgstr "Nový Zéland dolár"
+
+#: names.cpp:66
+msgid "Oman rial"
+msgstr "Ománsky rial"
+
+#: names.cpp:67
+msgid "Panama balboa"
+msgstr "Panamská balboa"
+
+#: names.cpp:68
+msgid "Peru nuevo sol"
+msgstr "Peruánsky nuevo sol"
+
+#: names.cpp:69
+msgid "Philippine peso"
+msgstr "Filipínske peso"
+
+#: names.cpp:70
+msgid "Pakistan rupee"
+msgstr "Pakistanská rupia"
+
+#: names.cpp:71
+msgid "Polish zloty"
+msgstr "Poľský zlotý"
+
+#: names.cpp:72
+msgid "Portuguese escudo"
+msgstr "Portugalské escudo"
+
+#: names.cpp:73
+msgid "Qatar rial"
+msgstr "Katarský rial"
+
+#: names.cpp:74
+msgid "Romanian new leu"
+msgstr "Rumunský nový leu"
+
+#: names.cpp:75
+msgid "Serbian dinar"
+msgstr "Srbský dinár"
+
+#: names.cpp:76
+msgid "Russian rouble"
+msgstr "Ruský rubeľ"
+
+#: names.cpp:77
+msgid "Saudi Arabia riyal"
+msgstr "Saudskoarabský rial"
+
+#: names.cpp:78
+msgid "Swedish krona"
+msgstr "Švédska koruna"
+
+#: names.cpp:79
+msgid "Singapore dollar"
+msgstr "Singapurský dolár"
+
+#: names.cpp:80
+msgid "Slovenian tolar"
+msgstr "Slovinský toliar"
+
+#: names.cpp:81
+msgid "Slovakian koruna"
+msgstr "Slovenská koruna"
+
+#: names.cpp:82
+msgid "Sao Tome and Principe dobra"
+msgstr "Dobra Svätého Tomáša a Princovho ostrova"
+
+#: names.cpp:83
+msgid "Syrian pound"
+msgstr "Sýrska libra"
+
+#: names.cpp:84
+msgid "Thai baht"
+msgstr "Thajský baht"
+
+#: names.cpp:85
+msgid "Turkish new lira"
+msgstr "Turecká nová líta"
+
+#: names.cpp:86
+msgid "Trinidad and Tobago dollar"
+msgstr "Dolár Trinidadu a Tobaga"
+
+#: names.cpp:87
+msgid "Taiwanese new dollar"
+msgstr "Taiwanský nový dolár"
+
+#: names.cpp:88
+msgid "Ukraine hryvnia"
+msgstr "Ukrajinská hrivna"
+
+#: names.cpp:89
+msgid "US dollar"
+msgstr "Americký dolár"
+
+#: names.cpp:90
+msgid "Venezuelan bolivar fuerte"
+msgstr "Venezuelský fuerte"
+
+#: names.cpp:91
+msgid "Vietnam dong"
+msgstr "Vietnamský dong"
+
+#: names.cpp:92
+msgid "Central African CFA franc"
+msgstr "Stredoafrický frank CFA"
+
+#: names.cpp:93
+msgid "East Caribbean dollar"
+msgstr "Východokaribský dolár"
+
+#: names.cpp:94
+msgid "West African CFA franc"
+msgstr "Západoafrický frank CFA"
+
+#: names.cpp:95
+msgid "Yemen rial"
+msgstr "Jemenský rial"
+
+#: names.cpp:96
+msgid "South African rand"
+msgstr "Juhoafrický rand"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SettingsDialog)
+#: settingsdialog.ui:14
+msgid "Settings"
+msgstr "Nastavenia"
+
+#. i18n: ectx: property (text), widget (QLabel, defaultCurrencyText)
+#: settingsdialog.ui:34
+msgid "Default currency"
+msgstr "Predvolená mena"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: settingsdialog.ui:59
+msgid "Reference currency, rates origin"
+msgstr "Referenčná mena, pôvod kurzov"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroFixed)
+#: settingsdialog.ui:74
+msgid "Euro, no ne&twork access (fixed rates only)"
+msgstr "Euro, žiadny prístup na sieť (iba fixné kurzy)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroECB)
+#: settingsdialog.ui:87
+msgid "Euro, European Central &Bank"
+msgstr "Euro, Európska centrálna banka"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroTG)
+#: settingsdialog.ui:100
+msgid "Euro, Time &Genie"
+msgstr "Euro, Time &Genie"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: settingsdialog.ui:116
+msgid "Rounding"
+msgstr "Zaokrúhľovanie"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonOfficialRules)
+#: settingsdialog.ui:131
+msgid "Official roundin&g rules"
+msgstr "Oficiálne pravidlá zaokrúhľovania"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonSmallestCoin)
+#: settingsdialog.ui:141
+msgid "&Smallest coin method"
+msgstr "Metóda najmenšej mince"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonNoRounding)
+#: settingsdialog.ui:151
+msgid "&No rounding at all"
+msgstr "Žiadne zaokrúhľovanie"
+
+#. i18n: ectx: property (title), widget (QGroupBox, AppearanceGroup)
+#: settingsdialog.ui:161
+msgid "Look and feel"
+msgstr "Vzhľad a dizajn"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: settingsdialog.ui:197
+msgid "Display color"
+msgstr "Farba zobrazenia"
+
+#. i18n: ectx: property (text), widget (QLabel, displayColorResult)
+#: settingsdialog.ui:672
+msgid "215.06 €"
+msgstr "215.06 €"
+
+#. i18n: ectx: property (text), widget (KPushButton, kPushButtonDisplayColor)
+#: settingsdialog.ui:688
+msgid "C&hange..."
+msgstr "&Zmeniť..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxSplashScreen)
+#: settingsdialog.ui:737
+msgid "Enable splash screen"
+msgstr "Povoliť úvodnú obrazovku"
+
+#. i18n: ectx: property (text), widget (QPushButton, OKButton)
+#: settingsdialog.ui:805
+msgid "O&K"
+msgstr "O&K"
+
+#. i18n: ectx: property (text), widget (QPushButton, CancelButton)
+#: settingsdialog.ui:815
+msgid "Cance&l"
+msgstr "Zrušiť"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-05 04:07+0000\n"
+"POT-Creation-Date: 2012-08-07 11:18+0000\n"
 "PO-Revision-Date: 2005-08-09 18:00+0200\n"
 "Last-Translator: Alexander Nicolaysen Sørnes <alex@thehandofagony.com>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
@@ -56,13 +56,13 @@ msgstr "Éric Bischoff"
 #. Tag: date
 #: index.docbook:32
 #, no-c-format
-msgid "2011-01-08"
+msgid "2012-02-07"
 msgstr ""
 
 #. Tag: releaseinfo
 #: index.docbook:33
 #, no-c-format
-msgid "1.1.0"
+msgid "1.2.0"
 msgstr ""
 
 #. Tag: para
@@ -70,7 +70,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&keurocalc; is an universal pocket currency converter and calculator. This "
-"documentation describes &keurocalc; version 1.1.0."
+"documentation describes &keurocalc; version 1.2.0."
 msgstr ""
 
 #. Tag: keyword
@@ -280,8 +280,8 @@ msgstr ""
 #: index.docbook:132
 #, no-c-format
 msgid ""
-"You can decide which reference currency you want to use (euro), which other "
-"currency to start with when you launch &keurocalc;, and which rounding "
+"You can decide where &keurocalc; should download the conversion rates from, "
+"which currency to start with when you launch &keurocalc;, and which rounding "
 "method to use."
 msgstr ""
 
@@ -697,7 +697,7 @@ msgstr ""
 #: index.docbook:293
 #, no-c-format
 msgid ""
-"The result <computeroutput>-43.72</computeroutput> € is negative, indicating "
+"The result <computeroutput>-43.72 €</computeroutput> is negative, indicating "
 "that change money has to be given back to the customer. The <guibutton>+/-</"
 "guibutton> button or the <keycap>S</keycap> key permit you to change the "
 "sign of the result."
@@ -770,8 +770,8 @@ msgstr ""
 #: index.docbook:318
 #, no-c-format
 msgid ""
-"The result in Australian dollars matches <computeroutput>6.4</"
-"computeroutput> €."
+"The result in Australian dollars matches <computeroutput>6.4 €</"
+"computeroutput>."
 msgstr ""
 
 #. Tag: para
@@ -1049,68 +1049,32 @@ msgstr "&Alt; <keycap>F4</keycap>"
 msgid "Exits from &keurocalc;"
 msgstr "Avslutter &keurocalc;"
 
-#. Tag: keycombo
-#: index.docbook:439
-#, no-c-format
-msgid "&Alt; <keycap>A</keycap>"
-msgstr "&Alt; <keycap>A</keycap>"
-
 #. Tag: member
-#: index.docbook:440 index.docbook:533
-#, no-c-format
-msgid "Displays these help pages"
-msgstr "Viser disse hjelpesidene"
-
-#. Tag: keycombo
-#: index.docbook:442
-#, no-c-format
-msgid "&Alt; <keycap>C</keycap>"
-msgstr "&Alt; <keycap>C</keycap>"
-
-#. Tag: member
-#: index.docbook:443
-#, no-c-format
-msgid "Goes to the currency selection area"
-msgstr "Flytter fokus til valutalisten"
-
-#. Tag: keycombo
-#: index.docbook:445
-#, no-c-format
-msgid "&Alt; <keycap>H</keycap>"
-msgstr "&Alt; <keycap>H</keycap>"
-
-#. Tag: member
-#: index.docbook:446 index.docbook:530
-#, no-c-format
-msgid "Displays the <guilabel>About</guilabel> box"
-msgstr "Viser <guilabel>Om</guilabel>-vinduet"
-
-#. Tag: member
-#: index.docbook:448
+#: index.docbook:449
 #, no-c-format
 msgid "<keycap>0</keycap> - <keycap>9</keycap>"
 msgstr "<keycap>0</keycap> – <keycap>9</keycap>"
 
 #. Tag: member
-#: index.docbook:449 index.docbook:493
+#: index.docbook:450 index.docbook:494
 #, no-c-format
 msgid "Input digits"
 msgstr "Skriver inn siffre"
 
 #. Tag: member
-#: index.docbook:451
+#: index.docbook:452
 #, no-c-format
 msgid "<keycap>.</keycap> or <keycap>,</keycap>"
 msgstr "<keycap>.</keycap> eller <keycap>,</keycap>"
 
 #. Tag: member
-#: index.docbook:452 index.docbook:496
+#: index.docbook:453 index.docbook:497
 #, no-c-format
 msgid "Decimal separator"
 msgstr "Desimaltegn"
 
 #. Tag: member
-#: index.docbook:454
+#: index.docbook:455
 #, no-c-format
 msgid ""
 "<keycap>+</keycap>, <keycap>-</keycap>, <keycap>*</keycap> and <keycap>/</"
@@ -1120,91 +1084,91 @@ msgstr ""
 "keycap>"
 
 #. Tag: member
-#: index.docbook:455 index.docbook:524
+#: index.docbook:456 index.docbook:525
 #, no-c-format
 msgid "Operators: addition, subtraction, multiplication and division"
 msgstr "Addisjon, substraksjon, multiplikasjon og divisjon"
 
 #. Tag: member
-#: index.docbook:457
+#: index.docbook:458
 #, no-c-format
 msgid "&Enter; and <keycap>Return</keycap>"
 msgstr ""
 
 #. Tag: member
-#: index.docbook:458 index.docbook:512
+#: index.docbook:459 index.docbook:513
 #, no-c-format
 msgid "Validation of input number considered as a simple, unitless, value"
 msgstr "Validerer inndataen osm en enkel, valutaløs verdi"
 
 #. Tag: keycap
-#: index.docbook:460
+#: index.docbook:461
 #, no-c-format
 msgid "<keycap>%</keycap>"
 msgstr "<keycap>%</keycap>"
 
 #. Tag: member
-#: index.docbook:461 index.docbook:515
+#: index.docbook:462 index.docbook:516
 #, no-c-format
 msgid "Validation of input number considered as a percentage"
 msgstr "Validerer inndataen som en prosentdel"
 
 #. Tag: member
-#: index.docbook:463
+#: index.docbook:464
 #, no-c-format
 msgid "&Backspace;"
 msgstr "&Backspace;"
 
 #. Tag: member
-#: index.docbook:464 index.docbook:499
+#: index.docbook:465 index.docbook:500
 #, no-c-format
 msgid "Removal of last input: digits, decimal separator or operator"
 msgstr "Fjerner siste siffer, desimaltegn eller operatør"
 
 #. Tag: member
-#: index.docbook:466
+#: index.docbook:467
 #, no-c-format
 msgid "&Tab; and <keycombo action=\"simul\">&Shift; &Tab;</keycombo> keys"
 msgstr ""
 
 #. Tag: member
-#: index.docbook:467
+#: index.docbook:468
 #, no-c-format
 msgid "Moves from one button to the next or previous one"
 msgstr "Flytter fokus fra en knapp til den neste eller forrige"
 
 #. Tag: member
-#: index.docbook:469
+#: index.docbook:470
 #, no-c-format
 msgid "Arrow keys"
 msgstr "Piltastene"
 
 #. Tag: member
-#: index.docbook:470
+#: index.docbook:471
 #, no-c-format
 msgid "In the currency selection area, moves from one currency to the other"
 msgstr "Flytter fra en valuta til en annen når brukt i valutalisten"
 
 #. Tag: member
-#: index.docbook:472
+#: index.docbook:473
 #, no-c-format
 msgid "Space bar"
 msgstr "Mellomrom"
 
 #. Tag: member
-#: index.docbook:473
+#: index.docbook:474
 #, no-c-format
 msgid "When focus is on a push button, presses this button"
 msgstr "Klikke på knappen som er i fokus"
 
 #. Tag: member
-#: index.docbook:475
+#: index.docbook:476
 #, no-c-format
 msgid "<keycap>E</keycap> or <keycap>$</keycap>"
 msgstr "<keycap>E</keycap> eller <keycap>$</keycap>"
 
 #. Tag: member
-#: index.docbook:476 index.docbook:505
+#: index.docbook:477 index.docbook:506
 #, no-c-format
 msgid ""
 "Validation of input number considered as a value expressed in the reference "
@@ -1212,97 +1176,97 @@ msgid ""
 msgstr ""
 
 #. Tag: keycap
-#: index.docbook:479
+#: index.docbook:480
 #, no-c-format
 msgid "<keycap>S</keycap>"
 msgstr "<keycap>S</keycap>"
 
 #. Tag: member
-#: index.docbook:480 index.docbook:518
+#: index.docbook:481 index.docbook:519
 #, no-c-format
 msgid "Change sign of the result"
 msgstr "Endre fortegn på resultatet"
 
 #. Tag: member
-#: index.docbook:482
+#: index.docbook:483
 #, no-c-format
 msgid "Any other key"
 msgstr "Alle andre taster"
 
 #. Tag: member
-#: index.docbook:483 index.docbook:509
+#: index.docbook:484 index.docbook:510
 #, no-c-format
 msgid "Validation of input number considered as a number in the other currency"
 msgstr "Validerer inndataen som et tall i den andre valutaen"
 
 #. Tag: title
-#: index.docbook:489
+#: index.docbook:490
 #, no-c-format
 msgid "The buttons"
 msgstr "Knappene"
 
 #. Tag: member
-#: index.docbook:492
+#: index.docbook:493
 #, no-c-format
 msgid "<guibutton>0</guibutton> to <guibutton>9</guibutton>"
 msgstr "<guibutton>0</guibutton> til <guibutton>9</guibutton>"
 
 #. Tag: member
-#: index.docbook:495
+#: index.docbook:496
 #, no-c-format
 msgid "<guibutton>.</guibutton> or <guibutton>,</guibutton>"
 msgstr "<guibutton>.</guibutton> eller <guibutton>,</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:498
+#: index.docbook:499
 #, no-c-format
 msgid "&lt;-"
 msgstr "&lt;-"
 
 #. Tag: guibutton
-#: index.docbook:501
+#: index.docbook:502
 #, no-c-format
 msgid "<guibutton>AC</guibutton>"
 msgstr "<guibutton>AC</guibutton>"
 
 #. Tag: member
-#: index.docbook:502
+#: index.docbook:503
 #, no-c-format
 msgid "Clear all: both input and result area"
 msgstr "Tøm både inndata- og resultat-feltet"
 
 #. Tag: member
-#: index.docbook:504
+#: index.docbook:505
 #, no-c-format
 msgid "<guibutton>€</guibutton> or <guibutton>$</guibutton>"
 msgstr "<guibutton>€</guibutton> eller <guibutton>$</guibutton>"
 
 #. Tag: member
-#: index.docbook:508
+#: index.docbook:509
 #, no-c-format
 msgid "The button labeled with the name of an other currency"
 msgstr "Knappen merket med navnet til en annen valuta"
 
 #. Tag: guibutton
-#: index.docbook:511
+#: index.docbook:512
 #, no-c-format
 msgid "Enter"
 msgstr "Send"
 
 #. Tag: guibutton
-#: index.docbook:514
+#: index.docbook:515
 #, no-c-format
 msgid "<guibutton>%</guibutton>"
 msgstr "<guibutton>>%</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:517
+#: index.docbook:518
 #, no-c-format
 msgid "<guibutton>+/-</guibutton>"
 msgstr "<guibutton>+/-</guibutton>"
 
 #. Tag: member
-#: index.docbook:520
+#: index.docbook:521
 #, no-c-format
 msgid ""
 "<guibutton>Min</guibutton>, <guibutton>MR</guibutton>, <guibutton>M+</"
@@ -1312,7 +1276,7 @@ msgstr ""
 "guibutton> og <guibutton>M-</guibutton>"
 
 #. Tag: member
-#: index.docbook:521
+#: index.docbook:522
 #, no-c-format
 msgid ""
 "Store result in memory, recall memory into result, add result to memory and "
@@ -1322,7 +1286,7 @@ msgstr ""
 "til minnet og trekke resultatet fra minnet"
 
 #. Tag: member
-#: index.docbook:523
+#: index.docbook:524
 #, no-c-format
 msgid ""
 "<guibutton>/</guibutton>, <guibutton>X</guibutton>, <guibutton>-</guibutton> "
@@ -1332,55 +1296,67 @@ msgstr ""
 "og <guibutton>+</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:526
+#: index.docbook:527
 #, no-c-format
 msgid "Reset"
 msgstr "Tilbakestill"
 
 #. Tag: member
-#: index.docbook:527
+#: index.docbook:528
 #, no-c-format
 msgid "Reset both input, result and memory"
 msgstr "Tilbakestill både inndataen, resultatet og minnet"
 
 #. Tag: guibutton
-#: index.docbook:529
+#: index.docbook:530
 #, no-c-format
 msgid "About"
 msgstr ""
 
+#. Tag: member
+#: index.docbook:531
+#, no-c-format
+msgid "Displays the <guilabel>About</guilabel> box"
+msgstr "Viser <guilabel>Om</guilabel>-vinduet"
+
 #. Tag: guibutton
-#: index.docbook:532
+#: index.docbook:533
 #, no-c-format
 msgid "Help"
 msgstr ""
 
 #. Tag: member
-#: index.docbook:535
+#: index.docbook:534
+#, no-c-format
+msgid "Displays these help pages"
+msgstr "Viser disse hjelpesidene"
+
+#. Tag: member
+#: index.docbook:536
 #, no-c-format
 msgid "The drop down list with currency codes and names"
 msgstr "Listen med valutakoder og -navn"
 
 #. Tag: member
-#: index.docbook:536
+#: index.docbook:537
 #, no-c-format
 msgid "Selects an other currency to work with"
 msgstr "Velger en annen valuta å arbeide med"
 
 #. Tag: title
-#: index.docbook:542
+#: index.docbook:543
 #, no-c-format
 msgid "The Settings Dialog"
 msgstr "Vinduet for innstillinger"
 
 #. Tag: title
-#: index.docbook:549
+#: index.docbook:550
 #, no-c-format
 msgid "Reference currency, rates origin"
 msgstr "Referansevalutaen"
 
 #. Tag: para
-#: index.docbook:551
+#: index.docbook:552
 #, no-c-format
 msgid ""
 "This setting defines from where &keurocalc; should download the exchange "
@@ -1389,13 +1365,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:558
+#: index.docbook:559
 #, no-c-format
 msgid "Euro, no network access (fixed rates only)"
 msgstr "Euro, uten Internett-tilgang"
 
 #. Tag: para
-#: index.docbook:560
+#: index.docbook:561
 #, no-c-format
 msgid ""
 "Euro is the reference currency. No variable rate is downloaded or used. The "
@@ -1406,19 +1382,19 @@ msgstr ""
 "kun valutaene som har en fast kurs med euroen er tilgjengelige."
 
 #. Tag: para
-#: index.docbook:563
+#: index.docbook:564
 #, no-c-format
 msgid "This setting is adapted to computers with no network access."
 msgstr "Denne innstillingen er tilpasset maskiner uten Internett-tilgang."
 
 #. Tag: guilabel
-#: index.docbook:568
+#: index.docbook:569
 #, no-c-format
 msgid "Euro, European Central Bank"
 msgstr "Euro, Den europeiske sentralbanken"
 
 #. Tag: para
-#: index.docbook:570
+#: index.docbook:571
 #, no-c-format
 msgid ""
 "Euro is the reference currency. The fixed exchange rates are available. "
@@ -1432,13 +1408,13 @@ msgstr ""
 "forhåndsdefinerte kurser."
 
 #. Tag: guilabel
-#: index.docbook:591
+#: index.docbook:592
 #, no-c-format
 msgid "Euro, Time Genie"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:593
+#: index.docbook:594
 #, no-c-format
 msgid ""
 "Euro is the reference currency. The fixed exchange rates are available. "
@@ -1448,13 +1424,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:604
+#: index.docbook:605
 #, no-c-format
 msgid "Default currency"
 msgstr "Standardvaluta"
 
 #. Tag: para
-#: index.docbook:606
+#: index.docbook:607
 #, no-c-format
 msgid ""
 "This setting defines the other currency that is used when &keurocalc; starts "
@@ -1464,7 +1440,7 @@ msgstr ""
 "startes eller når brukeren validerer de nye innstillingene."
 
 #. Tag: para
-#: index.docbook:609
+#: index.docbook:610
 #, no-c-format
 msgid ""
 "Notice that the selected currency might not be provided by the selected "
@@ -1474,13 +1450,13 @@ msgstr ""
 "kurskilden. I sånne tilfeller brukes den første tilgjengelige valutaen."
 
 #. Tag: title
-#: index.docbook:615
+#: index.docbook:616
 #, no-c-format
 msgid "Rounding"
 msgstr "Avrunding"
 
 #. Tag: para
-#: index.docbook:617
+#: index.docbook:618
 #, no-c-format
 msgid ""
 "This setting defines how the results should be presented in the display "
@@ -1494,13 +1470,13 @@ msgstr ""
 "nøyaktig enn hundredeler. Følgende avrundsmetoder er tilgjengelig:"
 
 #. Tag: guilabel
-#: index.docbook:624
+#: index.docbook:625
 #, no-c-format
 msgid "Official rounding rules"
 msgstr "Offisielle avrundingsregler"
 
 #. Tag: para
-#: index.docbook:626
+#: index.docbook:627
 #, no-c-format
 msgid ""
 "The EU conversion rules or other official conversion rules are used. It "
@@ -1514,7 +1490,7 @@ msgstr ""
 "(<quote>cent</quote>)."
 
 #. Tag: para
-#: index.docbook:630
+#: index.docbook:631
 #, no-c-format
 msgid ""
 "For example, 158.323 yen would be rounded to 158 yen. 12.537 euro would be "
@@ -1524,13 +1500,13 @@ msgstr ""
 "euro."
 
 #. Tag: guilabel
-#: index.docbook:636
+#: index.docbook:637
 #, no-c-format
 msgid "Smallest coin method"
 msgstr "Minste mynt"
 
 #. Tag: para
-#: index.docbook:638
+#: index.docbook:639
 #, no-c-format
 msgid ""
 "The result is rounded to the next value of the smallest coin that circulates "
@@ -1544,7 +1520,7 @@ msgstr ""
 "brukes den minste mynten som var i sirkulasjon, i dette tilfellet 50 lire."
 
 #. Tag: para
-#: index.docbook:643
+#: index.docbook:644
 #, fuzzy, no-c-format
 msgid ""
 "For example, 1235.9 Italian liras would be rounded to 1250 liras. 39.45 "
@@ -1554,7 +1530,7 @@ msgstr ""
 "45 norske kroner til 39,50 kroner."
 
 #. Tag: para
-#: index.docbook:645
+#: index.docbook:646
 #, no-c-format
 msgid ""
 "We lack information about the smallest coins that exist in every country. "
@@ -1566,25 +1542,25 @@ msgstr ""
 "mynten."
 
 #. Tag: guilabel
-#: index.docbook:652
+#: index.docbook:653
 #, no-c-format
 msgid "No rounding at all"
 msgstr "Ingen avrunding"
 
 #. Tag: para
-#: index.docbook:654
+#: index.docbook:655
 #, no-c-format
 msgid "The computed value is displayed unchanged, as a floating point number."
 msgstr "Den kalkulerte verdien vises uforandret."
 
 #. Tag: title
-#: index.docbook:663
+#: index.docbook:664
 #, no-c-format
 msgid "Look and feel"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:665
+#: index.docbook:666
 #, no-c-format
 msgid ""
 "This setting defines the appearance and behavior of &keurocalc;. The "
@@ -1592,13 +1568,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:670
+#: index.docbook:671
 #, no-c-format
 msgid "Display color"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:672
+#: index.docbook:673
 #, no-c-format
 msgid ""
 "The background color of the display areas (both input and result). To change "
@@ -1608,13 +1584,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:680
+#: index.docbook:681
 #, no-c-format
 msgid "Enable splash screen"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:682
+#: index.docbook:683
 #, no-c-format
 msgid ""
 "Uncheck this box if you do not want to initial picture to appear when "
@@ -1622,25 +1598,25 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:694
+#: index.docbook:695
 #, no-c-format
 msgid "Credits and License"
 msgstr "Forfattere og lisensbetingelser"
 
 #. Tag: para
-#: index.docbook:696
+#: index.docbook:697
 #, no-c-format
 msgid "&keurocalc;"
 msgstr "&keurocalc;"
 
 #. Tag: para
-#: index.docbook:698
+#: index.docbook:699
 #, no-c-format
-msgid "Program copyright 2001-2011 the &keurocalc; developers:"
+msgid "Program copyright 2001-2012 the &keurocalc; developers:"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:701
+#: index.docbook:702
 #, fuzzy, no-c-format
 msgid ""
 "Éric Bischoff <email>ebischoff@_NOSPAM_nerim.net</email> - design and "
@@ -1650,7 +1626,7 @@ msgstr ""
 "implementering"
 
 #. Tag: para
-#: index.docbook:702
+#: index.docbook:703
 #, no-c-format
 msgid ""
 "Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> - additional "
@@ -1658,7 +1634,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:703
+#: index.docbook:704
 #, no-c-format
 msgid ""
 "Melchior Franz <email>a8603365@_NOSPAM_unet.univie.ac.at</email> - design "
@@ -1668,7 +1644,7 @@ msgstr ""
 "utforming og testing"
 
 #. Tag: para
-#: index.docbook:704
+#: index.docbook:705
 #, no-c-format
 msgid ""
 "Bas Willems <email>cybersurfer@_NOSPAM_euronet.nl</email> - graphical artwork"
@@ -1676,22 +1652,22 @@ msgstr ""
 "Bas Willems <email>cybersurfer@_INGENREKLAME_euronet.nl</email> – grafikk"
 
 #. Tag: para
-#: index.docbook:707
+#: index.docbook:708
 #, no-c-format
 msgid ""
-"Documentation copyright 2001-2011 Éric Bischoff "
+"Documentation copyright 2001-2012 Éric Bischoff "
 "<email>ebischoff@_NOSPAM_nerim.net</email>."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:710
+#: index.docbook:711
 #, no-c-format
 msgid "Documentation reviewed by &Philip.Rodrigues; &Philip.Rodrigues.mail;."
 msgstr ""
 "Dokumentasjonen ble gjennomgått av &Philip.Rodrigues; &Philip.Rodrigues.mail;"
 
 #. Tag: trans_comment
-#: index.docbook:711
+#: index.docbook:712
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
@@ -1699,25 +1675,25 @@ msgstr ""
 "<email>alex@thehandofagony.com</email></para>"
 
 #. Tag: chapter
-#: index.docbook:711
+#: index.docbook:712
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&underFDL; &underGPL;"
 
 #. Tag: title
-#: index.docbook:719
+#: index.docbook:720
 #, no-c-format
 msgid "Installation"
 msgstr "Installasjon"
 
 #. Tag: title
-#: index.docbook:722
+#: index.docbook:723
 #, no-c-format
 msgid "How to obtain &keurocalc;"
 msgstr "Hvordan få tak i &keurocalc;"
 
 #. Tag: para
-#: index.docbook:724
+#: index.docbook:725
 #, no-c-format
 msgid ""
 "&keurocalc; is part of the <ulink url=\"http://extragear.kde.org/\">KDE "
@@ -1731,19 +1707,19 @@ msgstr ""
 "\">programmets hjemmeside</ulink>."
 
 #. Tag: title
-#: index.docbook:733
+#: index.docbook:734
 #, no-c-format
 msgid "Requirements"
 msgstr "Systemkrav"
 
 #. Tag: para
-#: index.docbook:735
+#: index.docbook:736
 #, no-c-format
-msgid "In order to successfully use &keurocalc;, you need &kde; 4.0."
+msgid "In order to successfully use &keurocalc;, you need &kde; 4."
 msgstr ""
 
 #. Tag: para
-#: index.docbook:737
+#: index.docbook:738
 #, no-c-format
 msgid ""
 "All required libraries can be found on <ulink url=\"ftp://ftp.kde.org\">ftp."
@@ -1753,13 +1729,13 @@ msgstr ""
 "kde.org</ulink>, &FTP;-tjeneren til &kde;-prosjektet."
 
 #. Tag: title
-#: index.docbook:744
+#: index.docbook:745
 #, no-c-format
 msgid "Compilation and Installation"
 msgstr "Kompilering og innstallasjon"
 
 #. Tag: para
-#: index.docbook:746
+#: index.docbook:747
 #, no-c-format
 msgid ""
 "In order to compile and install &keurocalc; on your system, type the "
@@ -1769,7 +1745,7 @@ msgstr ""
 "installere programmet:"
 
 #. Tag: screen
-#: index.docbook:750
+#: index.docbook:751
 #, no-c-format
 msgid ""
 "<prompt>%</prompt> <userinput>mkdir build</userinput>\n"
@@ -1780,10 +1756,11 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:753
+#: index.docbook:754
 #, no-c-format
 msgid ""
 "Since cmake autodetects your system settings, you should have no trouble "
 "compiling &keurocalc;. Should you run into problems please report them to "
 "&keurocalc;'s authors."
 msgstr ""
+

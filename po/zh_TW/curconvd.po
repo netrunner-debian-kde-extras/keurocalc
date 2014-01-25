@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: curconvd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-25 04:16+0100\n"
-"PO-Revision-Date: 2012-02-23 09:13+0800\n"
+"POT-Creation-Date: 2012-08-20 03:19+0200\n"
+"PO-Revision-Date: 2012-03-01 08:31+0800\n"
 "Last-Translator: Franklin Weng <franklin@mail.everfocus.com.tw>\n"
 "Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
 "Language: \n"
@@ -20,13 +20,21 @@ msgstr ""
 "X-Generator: Lokalize 1.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Frank Weng (a.k.a. Franklin)"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
 #: converter.cpp:36
 msgid "curconvd: waiting for D-Bus requests"
-msgstr ""
+msgstr "curconvd：等待 D-Bus 要求中"
 
 #: converter.cpp:44
 msgid "curconvd: stopped waiting for D-Bus requests"
-msgstr ""
+msgstr "curconvd：停止等待 D-Bus 要求"
 
 #: main.cpp:30
 msgid "CurConvD"
@@ -62,17 +70,7 @@ msgstr "設計與實作"
 
 #: main.cpp:53
 msgid "Time Genie exchange rates courtesy of Time Genie"
-msgstr ""
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Frank Weng (a.k.a. Franklin)"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "franklin at goodhorse dot idv dot tw"
+msgstr "Time Genie 上的各國匯率表"
 
 #~ msgid "A program by Éric Bischoff <ebischoff@nerim.net>\n"
 #~ msgstr "作者 Éric Bischoff <ebischoff@nerim.net>\n"

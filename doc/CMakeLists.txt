@@ -1,4 +1,5 @@
 add_subdirectory(da)
+add_subdirectory(de)
 add_subdirectory(en)
 add_subdirectory(es)
 add_subdirectory(et)

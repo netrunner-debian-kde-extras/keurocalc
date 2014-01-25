@@ -9,7 +9,7 @@
 ><!-- change language only here -->
 ]>
 
-<book lang="&language;">
+<book id="keurocalc" lang="&language;">
 
 <bookinfo>
 <title
@@ -62,7 +62,7 @@
 
 <abstract>
 <para
->&keurocalc; is an universal pocket currency converter and calculator. This documentation describes &keurocalc; version 1.2.0. </para>
+>&keurocalc; is een universele rekenmachine die geschikt is voor het omrekenen van munteenheden. In deze documentatie wordt &keurocalc; versie 1.2.0 beschreven. </para>
 </abstract>
 
 <keywordset>
@@ -195,7 +195,7 @@ published by the NY FRB.</para
 ></listitem>
 <listitem
 ><para
->You can decide where &keurocalc; should download the conversion rates from, which currency to start with when you launch &keurocalc;, and which rounding method to use.</para
+>U kunt bepalen vanwaar &keurocalc; de wisselkoersen moet downloaden, met welke andere munteenheid u wilt beginnen bij het opstarten van &keurocalc;, en welke methode u wilt gebruiken voor het afronden.</para
 ></listitem>
 </itemizedlist>
 </para>
@@ -512,13 +512,13 @@ during the non-working days (Christmas, Easter, etc.).</para
 ></step>
 <step
 ><para
->The result <computeroutput
->-43.72 €</computeroutput
-> is negative, indicating that change money has to be given back to the customer. The <guibutton
+>Het antwoord <computeroutput
+>-43,72 €</computeroutput
+> is negatief, wat betekent dat de klant wisselgeld terug moet krijgen. Met de knop <guibutton
 >+/-</guibutton
-> button or the <keycap
+> of de toets <keycap
 >S</keycap
-> key permit you to change the sign of the result.</para
+> kan het teken van het antwoord worden gewijzigd.</para
 ></step>
 </procedure>
 
@@ -574,8 +574,8 @@ during the non-working days (Christmas, Easter, etc.).</para
 ></step>
 <step
 ><para
->The result in Australian dollars matches <computeroutput
->6.4 €</computeroutput
+>Het antwoord in Australische dollars komt overeen met <computeroutput
+>6,4 €</computeroutput
 >.</para
 ></step>
 </procedure>
@@ -875,14 +875,15 @@ during the non-working days (Christmas, Easter, etc.).</para
 <member
 >&keurocalc; verlaten</member>
 
+<!--This is changed at runtime by DrClash 
 <member
 ><keycombo action="simul"
 >&Alt; <keycap
->A</keycap
+>H</keycap
 ></keycombo
 ></member>
 <member
->Deze helppagina's tonen</member>
+>Displays these help pages</member>
 
 <member
 ><keycombo action="simul"
@@ -891,19 +892,19 @@ during the non-working days (Christmas, Easter, etc.).</para
 ></keycombo
 ></member>
 <member
->Naar het selectiegebied gaan voor munteenheden</member>
+>Goes to the currency selection area</member>
 
 <member
 ><keycombo action="simul"
 >&Alt; <keycap
->H</keycap
+>A</keycap
 ></keycombo
 ></member>
 <member
->Het vak <guilabel
->Info over</guilabel
-> tonen</member>
-
+>Displays the <guilabel
+>About</guilabel
+> box</member>
+-->
 <member
 ><keycap
 >0</keycap
@@ -1318,7 +1319,7 @@ not optimal.</para>
 >&keurocalc;</para>
 
 <para
->Program copyright 2001-2012 the &keurocalc; developers: <itemizedlist>
+>Programma copyright 2001-2012 de ontwikkelaars van &keurocalc;: <itemizedlist>
 <listitem
 ><para
 >Éric Bischoff <email
@@ -1347,7 +1348,7 @@ not optimal.</para>
 ></para>
 
 <para
->Documentation copyright 2001-2012 Éric Bischoff <email
+>Documentatie copyright 2001-2012 Éric Bischoff <email
 >ebischoff@_NOSPAM_nerim.net</email
 >.</para>
 
@@ -1382,7 +1383,7 @@ not optimal.</para>
 >Vereisten</title>
 
 <para
->Om &keurocalc; met succes te kunnen installeren is &kde; 4.0 nodig.</para>
+>Om &keurocalc; met succes te kunnen installeren is &kde; 4 nodig.</para>
 
 <para
 >Alle benodigde bibliotheken zijn te vinden op <ulink url="ftp://ftp.kde.org"

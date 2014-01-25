@@ -6,7 +6,7 @@
   <!ENTITY % English "INCLUDE"><!-- change language only here -->
 ]>
 
-<book lang="&language;">
+<book id="keurocalc" lang="&language;">
 
 <bookinfo>
 <title>The &keurocalc; Handbook</title>
@@ -436,15 +436,16 @@ computes the difference in the reverse order.</para>
 <member><keycombo action="simul">&Alt; <keycap>F4</keycap></keycombo></member>
 <member>Exits from &keurocalc;</member>
 
-<member><keycombo action="simul">&Alt; <keycap>A</keycap></keycombo></member>
+<!--This is changed at runtime by DrClash 
+<member><keycombo action="simul">&Alt; <keycap>H</keycap></keycombo></member>
 <member>Displays these help pages</member>
 
 <member><keycombo action="simul">&Alt; <keycap>C</keycap></keycombo></member>
 <member>Goes to the currency selection area</member>
 
-<member><keycombo action="simul">&Alt; <keycap>H</keycap></keycombo></member>
+<member><keycombo action="simul">&Alt; <keycap>A</keycap></keycombo></member>
 <member>Displays the <guilabel>About</guilabel> box</member>
-
+-->
 <member><keycap>0</keycap> - <keycap>9</keycap></member>
 <member>Input digits</member>
 
@@ -732,7 +733,7 @@ package. The latest version of &keurocalc; can be downloaded from its
 <sect1 id="requirements">
 <title>Requirements</title>
 
-<para>In order to successfully use &keurocalc;, you need &kde; 4.0.</para>
+<para>In order to successfully use &keurocalc;, you need &kde; 4.</para>
 
 <para>All required libraries can be found
 on <ulink url="ftp://ftp.kde.org">ftp.kde.org</ulink>, the &FTP; site

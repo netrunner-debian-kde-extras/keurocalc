@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: curconvd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-25 04:16+0100\n"
+"POT-Creation-Date: 2012-08-20 03:19+0200\n"
 "PO-Revision-Date: 2012-02-27 12:07+0200\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -19,6 +19,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Σπύρος Γεωργαράς, Τούσης Μανώλης, Stelios"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sng@hellug.gr, manolis@koppermind.homelinux.org, sstavra@gmail.com"
 
 #: converter.cpp:36
 msgid "curconvd: waiting for D-Bus requests"
@@ -65,16 +73,6 @@ msgstr "Σχεδίαση και δημιουργία"
 msgid "Time Genie exchange rates courtesy of Time Genie"
 msgstr ""
 "Οι συναλλαγματικές ισοτιμίες Time Genie είναι ευγενική χορηγία του Time Genie"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Σπύρος Γεωργαράς, Τούσης Μανώλης, Stelios"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sng@hellug.gr, manolis@koppermind.homelinux.org, sstavra@gmail.com"
 
 #~ msgid "A program by Éric Bischoff <ebischoff@nerim.net>\n"
 #~ msgstr "Ένα πρόγραμμα από τον Éric Bischoff <ebischoff@nerim.net>\n"

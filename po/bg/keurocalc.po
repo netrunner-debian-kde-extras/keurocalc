@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keurocalc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-08 04:29+0100\n"
+"POT-Creation-Date: 2012-08-20 03:19+0200\n"
 "PO-Revision-Date: 2011-07-13 18:09+0300\n"
 "Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
@@ -20,6 +20,150 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Златко Попов"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zlatkopopov@fsa-bg.org"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, Calculator)
+#: calculator.ui:14
+msgid "Currency Calculator"
+msgstr "Калкулатор на валути"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox4)
+#: calculator.ui:205
+msgid "Input"
+msgstr "Въвеждане"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox5)
+#: calculator.ui:1247
+msgid "Result"
+msgstr "Резултат"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, BackspaceButton)
+#: calculator.ui:1858
+msgid "Correct last input digit"
+msgstr "Корекция на последната въведена цифра"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, ReferenceButton)
+#: calculator.ui:1896
+msgid "Enter value expressed in reference currency"
+msgstr "Въведете стойност, изразена в другата валута"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, SlashButton)
+#: calculator.ui:1918
+msgid "Divide"
+msgstr "Деление"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MInputButton)
+#: calculator.ui:1940
+msgid "Store in memory"
+msgstr "Запис в паметта"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, ResetButton)
+#: calculator.ui:1978
+msgid "Reset both input, result and memory"
+msgstr "Анулиране на полетата и паметта"
+
+#. i18n: ectx: property (text), widget (QPushButton, ResetButton)
+#: calculator.ui:1981
+msgid "Reset"
+msgstr "Анулиране"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, CurrencyButton)
+#: calculator.ui:2060
+msgid "Enter value expressed in currency"
+msgstr "Въведете стойност, изразена в друга валута"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, AsteriskButton)
+#: calculator.ui:2085
+msgid "Multiply"
+msgstr "Умножение"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MRecallButton)
+#: calculator.ui:2110
+msgid "Recall from memory"
+msgstr "Извикване от паметта"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, AboutButton)
+#: calculator.ui:2132
+msgid "Display about box"
+msgstr "Относно програмата"
+
+#. i18n: ectx: property (text), widget (QPushButton, AboutButton)
+#: calculator.ui:2135
+msgid "&About..."
+msgstr "&Относно..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, SimpleValueButton)
+#: calculator.ui:2214
+msgid "Enter simple value"
+msgstr "Въвеждане на стойност"
+
+#. i18n: ectx: property (text), widget (QPushButton, SimpleValueButton)
+#: calculator.ui:2217
+msgctxt "Enter button"
+msgid "Enter"
+msgstr "Въвеждане"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MinusButton)
+#: calculator.ui:2242
+msgid "Subtract"
+msgstr "Изваждане"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MMinusButton)
+#: calculator.ui:2267
+msgid "Substract from memory"
+msgstr "Изваждане от паметта"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, HelpButton)
+#: calculator.ui:2289
+msgid "Display help pages"
+msgstr "Показване на помощна информация"
+
+#. i18n: ectx: property (text), widget (QPushButton, HelpButton)
+#: calculator.ui:2292
+msgid "&Help..."
+msgstr "Помо&щ..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, PercentButton)
+#: calculator.ui:2349
+msgid "Apply percentage value"
+msgstr "Процент"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusMinusButton)
+#: calculator.ui:2371
+msgid "Change sign"
+msgstr "Промяна на знака"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusButton)
+#: calculator.ui:2396
+msgid "Add"
+msgstr "Добавяне"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MPlusButton)
+#: calculator.ui:2421
+msgid "Add to memory"
+msgstr "Добавяне в паметта"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, SettingsButton)
+#: calculator.ui:2443
+msgid "Configure KEuroCalc"
+msgstr "Настройване на KEuroCalc"
+
+#. i18n: ectx: property (text), widget (QPushButton, SettingsButton)
+#: calculator.ui:2446
+msgid "&Settings..."
+msgstr "&Настройване на KEuroCalc..."
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, CurrencyList)
+#: calculator.ui:2459
+msgid "Currencies"
+msgstr "Валути"
 
 #: keurocalc.cpp:70
 msgid "Cannot load currencies.xml"
@@ -121,471 +265,11 @@ msgstr "Bas Willems"
 msgid "Graphical artwork"
 msgstr "Графично оформление"
 
-#: names.cpp:96
-msgid "South African rand"
-msgstr "Южноафрикански ранд"
-
-#: names.cpp:95
+#: names.cpp:1
 #, fuzzy
-#| msgid "Yemen Rial"
-msgid "Yemen rial"
-msgstr "Yemen Rial"
-
-#: names.cpp:94
-#, fuzzy
-#| msgid "West African CFA Franc"
-msgid "West African CFA franc"
-msgstr "Западноафрикански CFA франк"
-
-#: names.cpp:93
-#, fuzzy
-#| msgid "East Caribbean Dollar"
-msgid "East Caribbean dollar"
-msgstr "Източнокарибски долар"
-
-#: names.cpp:92
-#, fuzzy
-#| msgid "Central African CFA Franc"
-msgid "Central African CFA franc"
-msgstr "Централноафрикански CFA франк"
-
-#: names.cpp:91
-#, fuzzy
-#| msgid "Vietnam Dong"
-msgid "Vietnam dong"
-msgstr "Виетнамски донг"
-
-#: names.cpp:90
-#, fuzzy
-#| msgid "Venezuelan Bolivar Fuerte"
-msgid "Venezuelan bolivar fuerte"
-msgstr "Венецуелски боливар"
-
-#: names.cpp:89
-msgid "US dollar"
-msgstr "Американски долар"
-
-#: names.cpp:88
-#, fuzzy
-#| msgid "Ukraine Hryvnia"
-msgid "Ukraine hryvnia"
-msgstr "Украинска гривна"
-
-#: names.cpp:87
-#, fuzzy
-#| msgid "New Taiwanese dollar"
-msgid "Taiwanese new dollar"
-msgstr "Новотайвански долар"
-
-#: names.cpp:86
-#, fuzzy
-#| msgid "Trinidad and Tobago Dollar"
-msgid "Trinidad and Tobago dollar"
-msgstr "Долар на Тринидад и Тобаго"
-
-#: names.cpp:85
-#, fuzzy
-#| msgid "New Turkish lira"
-msgid "Turkish new lira"
-msgstr "Нова турска лира"
-
-#: names.cpp:84
-#, fuzzy
-#| msgid "Thailandese baht"
-msgid "Thai baht"
-msgstr "Тайландски бат"
-
-#: names.cpp:83
-#, fuzzy
-#| msgid "Syrian Pound"
-msgid "Syrian pound"
-msgstr "Сирийска лира"
-
-#: names.cpp:82
-#, fuzzy
-#| msgid "Sao Tome and Principe Dobra"
-msgid "Sao Tome and Principe dobra"
-msgstr "Сао Томе и Принсипе добра"
-
-#: names.cpp:81
-msgid "Slovakian koruna"
-msgstr "Словашка коруна"
-
-#: names.cpp:80
-msgid "Slovenian tolar"
-msgstr "Словенски толар"
-
-#: names.cpp:79
-msgid "Singapore dollar"
-msgstr "Сингапурски долар"
-
-#: names.cpp:78
-msgid "Swedish krona"
-msgstr "Шведска крона"
-
-#: names.cpp:77
-#, fuzzy
-#| msgid "Saudi Arabia Riyal"
-msgid "Saudi Arabia riyal"
-msgstr "Саудитски риал"
-
-#: names.cpp:76
-msgid "Russian rouble"
-msgstr "Руска рубла"
-
-#: names.cpp:75
-#, fuzzy
-#| msgid "Serbian Dinar"
-msgid "Serbian dinar"
-msgstr "Сръбски динар"
-
-#: names.cpp:74
-#, fuzzy
-#| msgid "New Romanian leu"
-msgid "Romanian new leu"
-msgstr "Нова румънска лея"
-
-#: names.cpp:73
-#, fuzzy
-#| msgid "Qatar Rial"
-msgid "Qatar rial"
-msgstr "Катарски риал"
-
-#: names.cpp:72
-msgid "Portuguese escudo"
-msgstr "Португалско ескудо"
-
-#: names.cpp:71
-msgid "Polish zloty"
-msgstr "Полска злота"
-
-#: names.cpp:70
-#, fuzzy
-#| msgid "Pakistan Rupee"
-msgid "Pakistan rupee"
-msgstr "Пакистанска рупия"
-
-#: names.cpp:69
-msgid "Philippine peso"
-msgstr "Филипинско песо"
-
-#: names.cpp:68
-#, fuzzy
-#| msgid "Peru Neuevo Sol"
-msgid "Peru nuevo sol"
-msgstr "Нов перуански сол"
-
-#: names.cpp:67
-#, fuzzy
-#| msgid "Panama Balboa"
-msgid "Panama balboa"
-msgstr "Панамско балбоа"
-
-#: names.cpp:66
-#, fuzzy
-#| msgid "Oman Rial"
-msgid "Oman rial"
-msgstr "Омански риал"
-
-#: names.cpp:65
-msgid "New Zealand dollar"
-msgstr "Новозенладски долар"
-
-#: names.cpp:64
-msgid "Norvegian krone"
-msgstr "Норвежка крона"
-
-#: names.cpp:63
-msgid "Dutch gulden"
-msgstr "Холандски гулден"
-
-#: names.cpp:62
-#, fuzzy
-#| msgid "Mozambican Metical"
-msgid "Mozambican metical"
-msgstr "Мозамбкски метикал"
-
-#: names.cpp:61
-msgid "Malaysian ringgit"
-msgstr "Малайзийски звон"
-
-#: names.cpp:60
-msgid "Mexican peso"
-msgstr "Мексиканско песо"
-
-#: names.cpp:59
-msgid "Maltese lira"
-msgstr "Малтийска лира"
-
-#: names.cpp:58
-#, fuzzy
-#| msgid "Macau Pataca"
-msgid "Macau pataca"
-msgstr "Макаоска патака"
-
-#: names.cpp:57
-#, fuzzy
-#| msgid "Morocco Dirham"
-msgid "Morocco dirham"
-msgstr "Марокански дирхам"
-
-#: names.cpp:56
-msgid "Latvian latas"
-msgstr "Латвийски лат"
-
-#: names.cpp:55
-msgid "Luxembourg franc"
-msgstr "Люксембургски франк"
-
-#: names.cpp:54
-msgid "Lituanian litas"
-msgstr "Литвански литас"
-
-#: names.cpp:53
-msgid "Sri Lankan rupee"
-msgstr "Шриланкска рупия"
-
-#: names.cpp:52
-#, fuzzy
-#| msgid "Kazakhstan Tenge"
-msgid "Kazakhstan tenge"
-msgstr "Казахско тенге"
-
-#: names.cpp:51
-#, fuzzy
-#| msgid "Cayman Islands Dollar"
-msgid "Cayman Islands dollar"
-msgstr "Каймански долар"
-
-#: names.cpp:50
-#, fuzzy
-#| msgid "Kuwait Dinar"
-msgid "Kuwait dinar"
-msgstr "Кувейтски динар"
-
-#: names.cpp:49
-msgid "South Korean won"
-msgstr "Южнокорейски вон"
-
-#: names.cpp:48
-#, fuzzy
-#| msgid "Cambodia Riel"
-msgid "Cambodia riel"
-msgstr "Камбоджански риел"
-
-#: names.cpp:47
-#, fuzzy
-#| msgid "Kenya Schilling"
-msgid "Kenya schilling"
-msgstr "Кенийски шилинг"
-
-#: names.cpp:46
-msgid "Japanese yen"
-msgstr "Японска йена"
-
-#: names.cpp:45
-#, fuzzy
-#| msgid "Jamaica Dollar"
-msgid "Jamaica dollar"
-msgstr "Ямайски долар"
-
-#: names.cpp:44
-msgid "Italian lira"
-msgstr "Италианска лира"
-
-#: names.cpp:43
-msgid "Icelandic krona"
-msgstr "Исландска крона"
-
-#: names.cpp:42
-#, fuzzy
-#| msgid "Iran Rial"
-msgid "Iran rial"
-msgstr "Ирански риал"
-
-#: names.cpp:41
-msgid "Indian rupee"
-msgstr "Индийска рупия"
-
-#: names.cpp:40
-#, fuzzy
-#| msgid "Israel New Shekel"
-msgid "Israel new shekel"
-msgstr "Идраелски нов шекел"
-
-#: names.cpp:39
-msgid "Irish punt"
-msgstr "Ирландски фунт"
-
-#: names.cpp:38
-msgid "Indonesian rupiah"
-msgstr "Индонезийска рупия"
-
-#: names.cpp:37
-msgid "Hungarian forint"
-msgstr "Унгарски форинт"
-
-#: names.cpp:36
-msgid "Croatian kuna"
-msgstr "Словашка куна"
-
-#: names.cpp:35
-msgid "Hong kong dollar"
-msgstr "Хонгконгски долар"
-
-#: names.cpp:34
-#, fuzzy
-#| msgid "Guyana Dollar"
-msgid "Guyana dollar"
-msgstr "Гаянски долар"
-
-#: names.cpp:33
-msgid "Greek drachma"
-msgstr "Гръцка драхма"
-
-#: names.cpp:32
-msgid "Great Britain pound"
-msgstr "Великобританска лира"
-
-#: names.cpp:31
-msgid "French franc"
-msgstr "Френски франк"
-
-#: names.cpp:30
-#, fuzzy
-#| msgid "Fiji Dollar"
-msgid "Fiji dollar"
-msgstr "Фиджийски долар"
-
-#: names.cpp:29
-msgid "Finnish markka"
-msgstr "Финландска марка"
-
-#: names.cpp:28
-msgid "EU euro"
-msgstr "Евро"
-
-#: names.cpp:27
-msgid "Spanish peseta"
-msgstr "Испанска песета"
-
-#: names.cpp:26
-#, fuzzy
-#| msgid "Egypt Pound"
-msgid "Egypt pound"
-msgstr "Египетска лира"
-
-#: names.cpp:25
-msgid "Estonian kroon"
-msgstr "Естонска крона"
-
-#: names.cpp:24
-#, fuzzy
-#| msgid "Dominican Republic Peso"
-msgid "Dominican Republic peso"
-msgstr "Доминиканско песо"
-
-#: names.cpp:23
-msgid "Danish krone"
-msgstr "Датска крона"
-
-#: names.cpp:22
-msgid "German deutschmark"
-msgstr "Германска марка"
-
-#: names.cpp:21
-msgid "Czech koruna"
-msgstr "Чешка крона"
-
-#: names.cpp:20
-msgid "Cyprus pound"
-msgstr "Кипърска лира"
-
-#: names.cpp:19
-#, fuzzy
-#| msgid "Cape Verde Escudo"
-msgid "Cape Verde escudo"
-msgstr "Кабо Вердско ескудо"
-
-#: names.cpp:18
-msgid "Chinese yuan"
-msgstr "Китайски юан"
-
-#: names.cpp:17
-#, fuzzy
-#| msgid "Chile Peso"
-msgid "Chile peso"
-msgstr "Чилийско песо"
-
-#: names.cpp:16
-msgid "Swiss franc"
-msgstr "Швейцарски франк"
-
-#: names.cpp:15
-msgid "Canadian dollar"
-msgstr "Канадски долар"
-
-#: names.cpp:14
-#, fuzzy
-#| msgid "Bahamas Dollar"
-msgid "Bahamas dollar"
-msgstr "Бахамски долар"
-
-#: names.cpp:13
-msgid "Brazilian real"
-msgstr "Бразилски реал"
-
-#: names.cpp:12
-#, fuzzy
-#| msgid "Brunei Dollar"
-msgid "Brunei dollar"
-msgstr "Брунейски долар"
-
-#: names.cpp:11
-#, fuzzy
-#| msgid "Bermuda Dollar"
-msgid "Bermuda dollar"
-msgstr "Бермудски долар"
-
-#: names.cpp:10
-#, fuzzy
-#| msgid "Bahrain Dinar"
-msgid "Bahrain dinar"
-msgstr "Бахрейнски динар"
-
-#: names.cpp:9
-msgid "Bulgarian lev"
-msgstr "Български лев"
-
-#: names.cpp:8
-msgid "Belgian franc"
-msgstr "Белгийски франк"
-
-#: names.cpp:7
-#, fuzzy
-#| msgid "Barbados Dollar"
-msgid "Barbados dollar"
-msgstr "Барбадоски долар"
-
-#: names.cpp:6
-msgid "Australian dollar"
-msgstr "Австралийски долар"
-
-#: names.cpp:5
-msgid "Austrian schilling"
-msgstr "Австрийски шилинг"
-
-#: names.cpp:4
-#, fuzzy
-#| msgid "Argentina Peso"
-msgid "Argentina peso"
-msgstr "Аржентинско песо"
-
-#: names.cpp:3
-#, fuzzy
-#| msgid "Angola Kwanza"
-msgid "Angola kwanza"
-msgstr "Анголска кванза"
+#| msgid "United Arab Emirates Dirham"
+msgid "United Arab Emirates dirham"
+msgstr "Дирхам на ОАЕ"
 
 #: names.cpp:2
 #, fuzzy
@@ -593,284 +277,554 @@ msgstr "Анголска кванза"
 msgid "Netherlands Antilles guilder"
 msgstr "Гилдер на Холандски Антили"
 
-#: names.cpp:1
+#: names.cpp:3
 #, fuzzy
-#| msgid "United Arab Emirates Dirham"
-msgid "United Arab Emirates dirham"
-msgstr "Дирхам на ОАЕ"
+#| msgid "Angola Kwanza"
+msgid "Angola kwanza"
+msgstr "Анголска кванза"
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Златко Попов"
+#: names.cpp:4
+#, fuzzy
+#| msgid "Argentina Peso"
+msgid "Argentina peso"
+msgstr "Аржентинско песо"
 
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "zlatkopopov@fsa-bg.org"
+#: names.cpp:5
+msgid "Austrian schilling"
+msgstr "Австрийски шилинг"
 
-#. i18n: file: calculator.ui:14
-#. i18n: ectx: property (windowTitle), widget (QDialog, Calculator)
-#: rc.cpp:5
-msgid "Currency Calculator"
-msgstr "Калкулатор на валути"
+#: names.cpp:6
+msgid "Australian dollar"
+msgstr "Австралийски долар"
 
-#. i18n: file: calculator.ui:205
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox4)
-#: rc.cpp:8
-msgid "Input"
-msgstr "Въвеждане"
+#: names.cpp:7
+#, fuzzy
+#| msgid "Barbados Dollar"
+msgid "Barbados dollar"
+msgstr "Барбадоски долар"
 
-#. i18n: file: calculator.ui:1247
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox5)
-#: rc.cpp:11
-msgid "Result"
-msgstr "Резултат"
+#: names.cpp:8
+msgid "Belgian franc"
+msgstr "Белгийски франк"
 
-#. i18n: file: calculator.ui:1858
-#. i18n: ectx: property (toolTip), widget (QPushButton, BackspaceButton)
-#: rc.cpp:14
-msgid "Correct last input digit"
-msgstr "Корекция на последната въведена цифра"
+#: names.cpp:9
+msgid "Bulgarian lev"
+msgstr "Български лев"
 
-#. i18n: file: calculator.ui:1896
-#. i18n: ectx: property (toolTip), widget (QPushButton, ReferenceButton)
-#: rc.cpp:17
-msgid "Enter value expressed in reference currency"
-msgstr "Въведете стойност, изразена в другата валута"
+#: names.cpp:10
+#, fuzzy
+#| msgid "Bahrain Dinar"
+msgid "Bahrain dinar"
+msgstr "Бахрейнски динар"
 
-#. i18n: file: calculator.ui:1918
-#. i18n: ectx: property (toolTip), widget (QPushButton, SlashButton)
-#: rc.cpp:20
-msgid "Divide"
-msgstr "Деление"
+#: names.cpp:11
+#, fuzzy
+#| msgid "Bermuda Dollar"
+msgid "Bermuda dollar"
+msgstr "Бермудски долар"
 
-#. i18n: file: calculator.ui:1940
-#. i18n: ectx: property (toolTip), widget (QPushButton, MInputButton)
-#: rc.cpp:23
-msgid "Store in memory"
-msgstr "Запис в паметта"
+#: names.cpp:12
+#, fuzzy
+#| msgid "Brunei Dollar"
+msgid "Brunei dollar"
+msgstr "Брунейски долар"
 
-#. i18n: file: calculator.ui:1978
-#. i18n: ectx: property (toolTip), widget (QPushButton, ResetButton)
-#: rc.cpp:26
-msgid "Reset both input, result and memory"
-msgstr "Анулиране на полетата и паметта"
+#: names.cpp:13
+msgid "Brazilian real"
+msgstr "Бразилски реал"
 
-#. i18n: file: calculator.ui:1981
-#. i18n: ectx: property (text), widget (QPushButton, ResetButton)
-#: rc.cpp:29
-msgid "Reset"
-msgstr "Анулиране"
+#: names.cpp:14
+#, fuzzy
+#| msgid "Bahamas Dollar"
+msgid "Bahamas dollar"
+msgstr "Бахамски долар"
 
-#. i18n: file: calculator.ui:2060
-#. i18n: ectx: property (toolTip), widget (QPushButton, CurrencyButton)
-#: rc.cpp:32
-msgid "Enter value expressed in currency"
-msgstr "Въведете стойност, изразена в друга валута"
+#: names.cpp:15
+msgid "Canadian dollar"
+msgstr "Канадски долар"
 
-#. i18n: file: calculator.ui:2085
-#. i18n: ectx: property (toolTip), widget (QPushButton, AsteriskButton)
-#: rc.cpp:35
-msgid "Multiply"
-msgstr "Умножение"
+#: names.cpp:16
+msgid "Swiss franc"
+msgstr "Швейцарски франк"
 
-#. i18n: file: calculator.ui:2110
-#. i18n: ectx: property (toolTip), widget (QPushButton, MRecallButton)
-#: rc.cpp:38
-msgid "Recall from memory"
-msgstr "Извикване от паметта"
+#: names.cpp:17
+#, fuzzy
+#| msgid "Chile Peso"
+msgid "Chile peso"
+msgstr "Чилийско песо"
 
-#. i18n: file: calculator.ui:2132
-#. i18n: ectx: property (toolTip), widget (QPushButton, AboutButton)
-#: rc.cpp:41
-msgid "Display about box"
-msgstr "Относно програмата"
+#: names.cpp:18
+msgid "Chinese yuan"
+msgstr "Китайски юан"
 
-#. i18n: file: calculator.ui:2135
-#. i18n: ectx: property (text), widget (QPushButton, AboutButton)
-#: rc.cpp:44
-msgid "&About..."
-msgstr "&Относно..."
+#: names.cpp:19
+#, fuzzy
+#| msgid "Cape Verde Escudo"
+msgid "Cape Verde escudo"
+msgstr "Кабо Вердско ескудо"
 
-#. i18n: file: calculator.ui:2214
-#. i18n: ectx: property (toolTip), widget (QPushButton, SimpleValueButton)
-#: rc.cpp:47
-msgid "Enter simple value"
-msgstr "Въвеждане на стойност"
+#: names.cpp:20
+msgid "Cyprus pound"
+msgstr "Кипърска лира"
 
-#. i18n: file: calculator.ui:2217
-#. i18n: ectx: property (text), widget (QPushButton, SimpleValueButton)
-#: rc.cpp:50
-msgctxt "Enter button"
-msgid "Enter"
-msgstr "Въвеждане"
+#: names.cpp:21
+msgid "Czech koruna"
+msgstr "Чешка крона"
 
-#. i18n: file: calculator.ui:2242
-#. i18n: ectx: property (toolTip), widget (QPushButton, MinusButton)
-#: rc.cpp:53
-msgid "Subtract"
-msgstr "Изваждане"
+#: names.cpp:22
+msgid "German deutschmark"
+msgstr "Германска марка"
 
-#. i18n: file: calculator.ui:2267
-#. i18n: ectx: property (toolTip), widget (QPushButton, MMinusButton)
-#: rc.cpp:56
-msgid "Substract from memory"
-msgstr "Изваждане от паметта"
+#: names.cpp:23
+msgid "Danish krone"
+msgstr "Датска крона"
 
-#. i18n: file: calculator.ui:2289
-#. i18n: ectx: property (toolTip), widget (QPushButton, HelpButton)
-#: rc.cpp:59
-msgid "Display help pages"
-msgstr "Показване на помощна информация"
+#: names.cpp:24
+#, fuzzy
+#| msgid "Dominican Republic Peso"
+msgid "Dominican Republic peso"
+msgstr "Доминиканско песо"
 
-#. i18n: file: calculator.ui:2292
-#. i18n: ectx: property (text), widget (QPushButton, HelpButton)
-#: rc.cpp:62
-msgid "&Help..."
-msgstr "Помо&щ..."
+#: names.cpp:25
+msgid "Estonian kroon"
+msgstr "Естонска крона"
 
-#. i18n: file: calculator.ui:2349
-#. i18n: ectx: property (toolTip), widget (QPushButton, PercentButton)
-#: rc.cpp:65
-msgid "Apply percentage value"
-msgstr "Процент"
+#: names.cpp:26
+#, fuzzy
+#| msgid "Egypt Pound"
+msgid "Egypt pound"
+msgstr "Египетска лира"
 
-#. i18n: file: calculator.ui:2371
-#. i18n: ectx: property (toolTip), widget (QPushButton, PlusMinusButton)
-#: rc.cpp:68
-msgid "Change sign"
-msgstr "Промяна на знака"
+#: names.cpp:27
+msgid "Spanish peseta"
+msgstr "Испанска песета"
 
-#. i18n: file: calculator.ui:2396
-#. i18n: ectx: property (toolTip), widget (QPushButton, PlusButton)
-#: rc.cpp:71
-msgid "Add"
-msgstr "Добавяне"
+#: names.cpp:28
+msgid "EU euro"
+msgstr "Евро"
 
-#. i18n: file: calculator.ui:2421
-#. i18n: ectx: property (toolTip), widget (QPushButton, MPlusButton)
-#: rc.cpp:74
-msgid "Add to memory"
-msgstr "Добавяне в паметта"
+#: names.cpp:29
+msgid "Finnish markka"
+msgstr "Финландска марка"
 
-#. i18n: file: calculator.ui:2443
-#. i18n: ectx: property (toolTip), widget (QPushButton, SettingsButton)
-#: rc.cpp:77
-msgid "Configure KEuroCalc"
-msgstr "Настройване на KEuroCalc"
+#: names.cpp:30
+#, fuzzy
+#| msgid "Fiji Dollar"
+msgid "Fiji dollar"
+msgstr "Фиджийски долар"
 
-#. i18n: file: calculator.ui:2446
-#. i18n: ectx: property (text), widget (QPushButton, SettingsButton)
-#: rc.cpp:80
-msgid "&Settings..."
-msgstr "&Настройване на KEuroCalc..."
+#: names.cpp:31
+msgid "French franc"
+msgstr "Френски франк"
 
-#. i18n: file: calculator.ui:2459
-#. i18n: ectx: property (toolTip), widget (QComboBox, CurrencyList)
-#: rc.cpp:83
-msgid "Currencies"
-msgstr "Валути"
+#: names.cpp:32
+msgid "Great Britain pound"
+msgstr "Великобританска лира"
 
-#. i18n: file: settingsdialog.ui:14
+#: names.cpp:33
+msgid "Greek drachma"
+msgstr "Гръцка драхма"
+
+#: names.cpp:34
+#, fuzzy
+#| msgid "Guyana Dollar"
+msgid "Guyana dollar"
+msgstr "Гаянски долар"
+
+#: names.cpp:35
+msgid "Hong kong dollar"
+msgstr "Хонгконгски долар"
+
+#: names.cpp:36
+msgid "Croatian kuna"
+msgstr "Словашка куна"
+
+#: names.cpp:37
+msgid "Hungarian forint"
+msgstr "Унгарски форинт"
+
+#: names.cpp:38
+msgid "Indonesian rupiah"
+msgstr "Индонезийска рупия"
+
+#: names.cpp:39
+msgid "Irish punt"
+msgstr "Ирландски фунт"
+
+#: names.cpp:40
+#, fuzzy
+#| msgid "Israel New Shekel"
+msgid "Israel new shekel"
+msgstr "Идраелски нов шекел"
+
+#: names.cpp:41
+msgid "Indian rupee"
+msgstr "Индийска рупия"
+
+#: names.cpp:42
+#, fuzzy
+#| msgid "Iran Rial"
+msgid "Iran rial"
+msgstr "Ирански риал"
+
+#: names.cpp:43
+msgid "Icelandic krona"
+msgstr "Исландска крона"
+
+#: names.cpp:44
+msgid "Italian lira"
+msgstr "Италианска лира"
+
+#: names.cpp:45
+#, fuzzy
+#| msgid "Jamaica Dollar"
+msgid "Jamaica dollar"
+msgstr "Ямайски долар"
+
+#: names.cpp:46
+msgid "Japanese yen"
+msgstr "Японска йена"
+
+#: names.cpp:47
+#, fuzzy
+#| msgid "Kenya Schilling"
+msgid "Kenya schilling"
+msgstr "Кенийски шилинг"
+
+#: names.cpp:48
+#, fuzzy
+#| msgid "Cambodia Riel"
+msgid "Cambodia riel"
+msgstr "Камбоджански риел"
+
+#: names.cpp:49
+msgid "South Korean won"
+msgstr "Южнокорейски вон"
+
+#: names.cpp:50
+#, fuzzy
+#| msgid "Kuwait Dinar"
+msgid "Kuwait dinar"
+msgstr "Кувейтски динар"
+
+#: names.cpp:51
+#, fuzzy
+#| msgid "Cayman Islands Dollar"
+msgid "Cayman Islands dollar"
+msgstr "Каймански долар"
+
+#: names.cpp:52
+#, fuzzy
+#| msgid "Kazakhstan Tenge"
+msgid "Kazakhstan tenge"
+msgstr "Казахско тенге"
+
+#: names.cpp:53
+msgid "Sri Lankan rupee"
+msgstr "Шриланкска рупия"
+
+#: names.cpp:54
+msgid "Lituanian litas"
+msgstr "Литвански литас"
+
+#: names.cpp:55
+msgid "Luxembourg franc"
+msgstr "Люксембургски франк"
+
+#: names.cpp:56
+msgid "Latvian latas"
+msgstr "Латвийски лат"
+
+#: names.cpp:57
+#, fuzzy
+#| msgid "Morocco Dirham"
+msgid "Morocco dirham"
+msgstr "Марокански дирхам"
+
+#: names.cpp:58
+#, fuzzy
+#| msgid "Macau Pataca"
+msgid "Macau pataca"
+msgstr "Макаоска патака"
+
+#: names.cpp:59
+msgid "Maltese lira"
+msgstr "Малтийска лира"
+
+#: names.cpp:60
+msgid "Mexican peso"
+msgstr "Мексиканско песо"
+
+#: names.cpp:61
+msgid "Malaysian ringgit"
+msgstr "Малайзийски звон"
+
+#: names.cpp:62
+#, fuzzy
+#| msgid "Mozambican Metical"
+msgid "Mozambican metical"
+msgstr "Мозамбкски метикал"
+
+#: names.cpp:63
+msgid "Dutch gulden"
+msgstr "Холандски гулден"
+
+#: names.cpp:64
+msgid "Norvegian krone"
+msgstr "Норвежка крона"
+
+#: names.cpp:65
+msgid "New Zealand dollar"
+msgstr "Новозенладски долар"
+
+#: names.cpp:66
+#, fuzzy
+#| msgid "Oman Rial"
+msgid "Oman rial"
+msgstr "Омански риал"
+
+#: names.cpp:67
+#, fuzzy
+#| msgid "Panama Balboa"
+msgid "Panama balboa"
+msgstr "Панамско балбоа"
+
+#: names.cpp:68
+#, fuzzy
+#| msgid "Peru Neuevo Sol"
+msgid "Peru nuevo sol"
+msgstr "Нов перуански сол"
+
+#: names.cpp:69
+msgid "Philippine peso"
+msgstr "Филипинско песо"
+
+#: names.cpp:70
+#, fuzzy
+#| msgid "Pakistan Rupee"
+msgid "Pakistan rupee"
+msgstr "Пакистанска рупия"
+
+#: names.cpp:71
+msgid "Polish zloty"
+msgstr "Полска злота"
+
+#: names.cpp:72
+msgid "Portuguese escudo"
+msgstr "Португалско ескудо"
+
+#: names.cpp:73
+#, fuzzy
+#| msgid "Qatar Rial"
+msgid "Qatar rial"
+msgstr "Катарски риал"
+
+#: names.cpp:74
+#, fuzzy
+#| msgid "New Romanian leu"
+msgid "Romanian new leu"
+msgstr "Нова румънска лея"
+
+#: names.cpp:75
+#, fuzzy
+#| msgid "Serbian Dinar"
+msgid "Serbian dinar"
+msgstr "Сръбски динар"
+
+#: names.cpp:76
+msgid "Russian rouble"
+msgstr "Руска рубла"
+
+#: names.cpp:77
+#, fuzzy
+#| msgid "Saudi Arabia Riyal"
+msgid "Saudi Arabia riyal"
+msgstr "Саудитски риал"
+
+#: names.cpp:78
+msgid "Swedish krona"
+msgstr "Шведска крона"
+
+#: names.cpp:79
+msgid "Singapore dollar"
+msgstr "Сингапурски долар"
+
+#: names.cpp:80
+msgid "Slovenian tolar"
+msgstr "Словенски толар"
+
+#: names.cpp:81
+msgid "Slovakian koruna"
+msgstr "Словашка коруна"
+
+#: names.cpp:82
+#, fuzzy
+#| msgid "Sao Tome and Principe Dobra"
+msgid "Sao Tome and Principe dobra"
+msgstr "Сао Томе и Принсипе добра"
+
+#: names.cpp:83
+#, fuzzy
+#| msgid "Syrian Pound"
+msgid "Syrian pound"
+msgstr "Сирийска лира"
+
+#: names.cpp:84
+#, fuzzy
+#| msgid "Thailandese baht"
+msgid "Thai baht"
+msgstr "Тайландски бат"
+
+#: names.cpp:85
+#, fuzzy
+#| msgid "New Turkish lira"
+msgid "Turkish new lira"
+msgstr "Нова турска лира"
+
+#: names.cpp:86
+#, fuzzy
+#| msgid "Trinidad and Tobago Dollar"
+msgid "Trinidad and Tobago dollar"
+msgstr "Долар на Тринидад и Тобаго"
+
+#: names.cpp:87
+#, fuzzy
+#| msgid "New Taiwanese dollar"
+msgid "Taiwanese new dollar"
+msgstr "Новотайвански долар"
+
+#: names.cpp:88
+#, fuzzy
+#| msgid "Ukraine Hryvnia"
+msgid "Ukraine hryvnia"
+msgstr "Украинска гривна"
+
+#: names.cpp:89
+msgid "US dollar"
+msgstr "Американски долар"
+
+#: names.cpp:90
+#, fuzzy
+#| msgid "Venezuelan Bolivar Fuerte"
+msgid "Venezuelan bolivar fuerte"
+msgstr "Венецуелски боливар"
+
+#: names.cpp:91
+#, fuzzy
+#| msgid "Vietnam Dong"
+msgid "Vietnam dong"
+msgstr "Виетнамски донг"
+
+#: names.cpp:92
+#, fuzzy
+#| msgid "Central African CFA Franc"
+msgid "Central African CFA franc"
+msgstr "Централноафрикански CFA франк"
+
+#: names.cpp:93
+#, fuzzy
+#| msgid "East Caribbean Dollar"
+msgid "East Caribbean dollar"
+msgstr "Източнокарибски долар"
+
+#: names.cpp:94
+#, fuzzy
+#| msgid "West African CFA Franc"
+msgid "West African CFA franc"
+msgstr "Западноафрикански CFA франк"
+
+#: names.cpp:95
+#, fuzzy
+#| msgid "Yemen Rial"
+msgid "Yemen rial"
+msgstr "Yemen Rial"
+
+#: names.cpp:96
+msgid "South African rand"
+msgstr "Южноафрикански ранд"
+
 #. i18n: ectx: property (windowTitle), widget (QDialog, SettingsDialog)
-#: rc.cpp:86
+#: settingsdialog.ui:14
 msgid "Settings"
 msgstr "Настройки"
 
-#. i18n: file: settingsdialog.ui:34
 #. i18n: ectx: property (text), widget (QLabel, defaultCurrencyText)
-#: rc.cpp:89
+#: settingsdialog.ui:34
 msgid "Default currency"
 msgstr "Подразбираща се валута"
 
-#. i18n: file: settingsdialog.ui:59
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:92
+#: settingsdialog.ui:59
 msgid "Reference currency, rates origin"
 msgstr "Източник за цените на референтните валути"
 
-#. i18n: file: settingsdialog.ui:74
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroFixed)
-#: rc.cpp:95
+#: settingsdialog.ui:74
 msgid "Euro, no ne&twork access (fixed rates only)"
 msgstr "Евро, без в&ръзка(фиксирани курсове)"
 
-#. i18n: file: settingsdialog.ui:87
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroECB)
-#: rc.cpp:98
+#: settingsdialog.ui:87
 msgid "Euro, European Central &Bank"
 msgstr "Евро, (Европейска централна &банка)"
 
-#. i18n: file: settingsdialog.ui:100
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroTG)
-#: rc.cpp:101
+#: settingsdialog.ui:100
 msgid "Euro, Time &Genie"
 msgstr "Евро (Time &Genie)"
 
-#. i18n: file: settingsdialog.ui:116
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:104
+#: settingsdialog.ui:116
 msgid "Rounding"
 msgstr "Закръгляне"
 
-#. i18n: file: settingsdialog.ui:131
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonOfficialRules)
-#: rc.cpp:107
+#: settingsdialog.ui:131
 msgid "Official roundin&g rules"
 msgstr "Официални правила за &закръгляне"
 
-#. i18n: file: settingsdialog.ui:141
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonSmallestCoin)
-#: rc.cpp:110
+#: settingsdialog.ui:141
 msgid "&Smallest coin method"
 msgstr "Метод на &малките монети"
 
-#. i18n: file: settingsdialog.ui:151
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonNoRounding)
-#: rc.cpp:113
+#: settingsdialog.ui:151
 msgid "&No rounding at all"
 msgstr "Без &закръгляне"
 
-#. i18n: file: settingsdialog.ui:161
 #. i18n: ectx: property (title), widget (QGroupBox, AppearanceGroup)
-#: rc.cpp:116
+#: settingsdialog.ui:161
 msgid "Look and feel"
 msgstr "Погледни и почувствай"
 
-#. i18n: file: settingsdialog.ui:197
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:119
+#: settingsdialog.ui:197
 msgid "Display color"
 msgstr "Цвят за показване"
 
-#. i18n: file: settingsdialog.ui:672
 #. i18n: ectx: property (text), widget (QLabel, displayColorResult)
-#: rc.cpp:122
+#: settingsdialog.ui:672
 msgid "215.06 €"
 msgstr "215.06 €"
 
-#. i18n: file: settingsdialog.ui:688
 #. i18n: ectx: property (text), widget (KPushButton, kPushButtonDisplayColor)
-#: rc.cpp:125
+#: settingsdialog.ui:688
 msgid "C&hange..."
 msgstr "&Промяна..."
 
-#. i18n: file: settingsdialog.ui:737
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxSplashScreen)
-#: rc.cpp:128
+#: settingsdialog.ui:737
 msgid "Enable splash screen"
 msgstr "Включване на начален екран"
 
-#. i18n: file: settingsdialog.ui:805
 #. i18n: ectx: property (text), widget (QPushButton, OKButton)
-#: rc.cpp:131
+#: settingsdialog.ui:805
 msgid "O&K"
 msgstr "&ОК"
 
-#. i18n: file: settingsdialog.ui:815
 #. i18n: ectx: property (text), widget (QPushButton, CancelButton)
-#: rc.cpp:134
+#: settingsdialog.ui:815
 msgid "Cance&l"
 msgstr "&Отмяна"
 
