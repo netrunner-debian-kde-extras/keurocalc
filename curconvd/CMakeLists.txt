@@ -1,3 +1,5 @@
+project( curconvd )
+
 ########### next target ###############
 
 set( curconvd_SRCS

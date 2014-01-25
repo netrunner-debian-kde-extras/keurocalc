@@ -4,28 +4,37 @@
 # Laszlo Papp <djszapi@archlinux.us>, 2010.
 # Kiszel Kristóf <ulysses@kubuntu.org>, 2010.
 # Kristóf Kiszel <ulysses@kubuntu.org>, 2010.
+# Balázs Úr <urbalazs@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-25 04:16+0100\n"
-"PO-Revision-Date: 2010-11-20 20:49+0100\n"
-"Last-Translator: Kristóf Kiszel <ulysses@kubuntu.org>\n"
-"Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
+"POT-Creation-Date: 2012-08-20 03:19+0200\n"
+"PO-Revision-Date: 2012-06-22 20:51+0200\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.1\n"
+"X-Generator: Lokalize 1.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kiszel Kristóf"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ulysses@kubuntu.org"
 
 #: converter.cpp:36
 msgid "curconvd: waiting for D-Bus requests"
-msgstr ""
+msgstr "curconvd: várakozás a D-Bus kérésekre"
 
 #: converter.cpp:44
 msgid "curconvd: stopped waiting for D-Bus requests"
-msgstr ""
+msgstr "curconvd: várakozás leállítása a D-Bus kérésekre"
 
 #: main.cpp:30
 msgid "CurConvD"
@@ -33,13 +42,11 @@ msgstr "CurConvD"
 
 #: main.cpp:31
 msgid "A currency converter daemon"
-msgstr "Egy valutaváltó démon"
+msgstr "Egy valutaátváltó démon"
 
 #: main.cpp:32
-#, fuzzy
-#| msgid "(c) 2006-2010, the curconvd developers"
 msgid "(c) 2006-2012, the curconvd developers"
-msgstr "(C) A curconvd fejlesztői, 2006-2010."
+msgstr "(C) A curconvd fejlesztői, 2006-2012."
 
 #: main.cpp:33
 msgid ""
@@ -48,6 +55,11 @@ msgid ""
 "Time Genie exchange rates courtesy of <a href='http://www.timegenie.com/' "
 "title='foreign exchange rates courtesy of Time Genie'>Time Genie</a>\n"
 msgstr ""
+"Éric Bischoff <ebischoff@nerim.net> programja\n"
+"\n"
+"Idődzsinn devizaárfolyamok az <a href='http://www.timegenie.com/' "
+"title='idegen devizaárfolyamok az Idődzsinn szívessége folytán'>Idődzsinn</"
+"a> szívessége folytán\n"
 
 #: main.cpp:41
 msgid "Éric Bischoff"
@@ -59,17 +71,7 @@ msgstr "Tervezés és implementáció"
 
 #: main.cpp:53
 msgid "Time Genie exchange rates courtesy of Time Genie"
-msgstr ""
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Kiszel Kristóf"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "ulysses@kubuntu.org"
+msgstr "Idődzsinn devizaárfolyamok az Idődzsinn szívessége folytán"
 
 #~ msgid "A program by Éric Bischoff <ebischoff@nerim.net>\n"
 #~ msgstr "Éric Bischoff (<ebischoff@nerim.net>) programja\n"

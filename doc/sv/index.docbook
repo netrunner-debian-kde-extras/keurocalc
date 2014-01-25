@@ -9,7 +9,7 @@
 ><!-- change language only here -->
 ]>
 
-<book lang="&language;">
+<book id="keurocalc" lang="&language;">
 
 <bookinfo>
 <title
@@ -883,14 +883,15 @@ during the non-working days (Christmas, Easter, etc.).</para
 <member
 >Avslutar &keurocalc;</member>
 
+<!--This is changed at runtime by DrClash 
 <member
 ><keycombo action="simul"
 >&Alt; <keycap
->A</keycap
+>H</keycap
 ></keycombo
 ></member>
 <member
->Visar de här hjälpsidorna</member>
+>Displays these help pages</member>
 
 <member
 ><keycombo action="simul"
@@ -899,19 +900,19 @@ during the non-working days (Christmas, Easter, etc.).</para
 ></keycombo
 ></member>
 <member
->Går till området för att välja valuta</member>
+>Goes to the currency selection area</member>
 
 <member
 ><keycombo action="simul"
 >&Alt; <keycap
->H</keycap
+>A</keycap
 ></keycombo
 ></member>
 <member
->Visar rutan <guilabel
->Om</guilabel
-></member>
-
+>Displays the <guilabel
+>About</guilabel
+> box</member>
+-->
 <member
 ><keycap
 >0</keycap
@@ -1369,7 +1370,7 @@ not optimal.</para>
 >Dokumentation granskad av &Philip.Rodrigues; &Philip.Rodrigues.mail;.</para>
 <para
 >Översättning Stefan Asserhäll <email
->stefan.asserhall@comhem.se</email
+>stefan.asserhall@bredband.net</email
 ></para
 > 
 &underFDL; &underGPL; </chapter>
@@ -1396,7 +1397,7 @@ not optimal.</para>
 >Krav</title>
 
 <para
->För att använda &keurocalc; med lyckat resultat, behöver du &kde; 4.0.</para>
+>För att använda &keurocalc; med lyckat resultat, behöver du &kde; 4.</para>
 
 <para
 >Alla bibliotek som krävs finns på <ulink url="ftp://ftp.kde.org"

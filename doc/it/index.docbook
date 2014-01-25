@@ -9,7 +9,7 @@
 ><!-- change language only here -->
 ]>
 
-<book lang="&language;">
+<book id="keurocalc" lang="&language;">
 
 <bookinfo>
 <title
@@ -62,7 +62,7 @@
 
 <abstract>
 <para
->&keurocalc; is an universal pocket currency converter and calculator. This documentation describes &keurocalc; version 1.2.0. </para>
+>&keurocalc; è un convertitore di valuta universale e calcolatore tascabile. Questa documentazione descrive la versione 1.2.0 di &keurocalc;. </para>
 </abstract>
 
 <keywordset>
@@ -195,7 +195,7 @@ published by the NY FRB.</para
 ></listitem>
 <listitem
 ><para
->You can decide where &keurocalc; should download the conversion rates from, which currency to start with when you launch &keurocalc;, and which rounding method to use.</para
+>Puoi decidere da dove &keurocalc; debba scaricare i tassi di cambio, con quale valuta cominciare all'avvio di &keurocalc;, e quale metodo di arrotondamento usare.</para
 ></listitem>
 </itemizedlist>
 </para>
@@ -516,13 +516,13 @@ during the non-working days (Christmas, Easter, etc.).</para
 ></step>
 <step
 ><para
->The result <computeroutput
->-43.72 €</computeroutput
-> is negative, indicating that change money has to be given back to the customer. The <guibutton
+>Il risultato <computeroutput
+>-43,72 €</computeroutput
+> è negativo, e vuol dire che al cliente va dato un resto. Il pulsante <guibutton
 >+/-</guibutton
-> button or the <keycap
+> o il tasto <keycap
 >S</keycap
-> key permit you to change the sign of the result.</para
+> ti permettono di cambiare il segno del risultato.</para
 ></step>
 </procedure>
 
@@ -578,8 +578,8 @@ during the non-working days (Christmas, Easter, etc.).</para
 ></step>
 <step
 ><para
->The result in Australian dollars matches <computeroutput
->6.4 €</computeroutput
+>Il risultato in dollari australiani corrisponde a <computeroutput
+>6,4 €</computeroutput
 >.</para
 ></step>
 </procedure>
@@ -879,14 +879,15 @@ during the non-working days (Christmas, Easter, etc.).</para
 <member
 >Esce da &keurocalc;</member>
 
+<!--This is changed at runtime by DrClash 
 <member
 ><keycombo action="simul"
 >&Alt; <keycap
->A</keycap
+>H</keycap
 ></keycombo
 ></member>
 <member
->Visualizza queste pagine dell'aiuto</member>
+>Displays these help pages</member>
 
 <member
 ><keycombo action="simul"
@@ -895,19 +896,19 @@ during the non-working days (Christmas, Easter, etc.).</para
 ></keycombo
 ></member>
 <member
->Va all'area di selezione delle valute</member>
+>Goes to the currency selection area</member>
 
 <member
 ><keycombo action="simul"
 >&Alt; <keycap
->H</keycap
+>A</keycap
 ></keycombo
 ></member>
 <member
->Visualizza il riquadro delle <guilabel
->Informazioni</guilabel
-></member>
-
+>Displays the <guilabel
+>About</guilabel
+> box</member>
+-->
 <member
 ><keycap
 >0</keycap
@@ -1322,7 +1323,7 @@ not optimal.</para>
 >&keurocalc;</para>
 
 <para
->Program copyright 2001-2012 the &keurocalc; developers: <itemizedlist>
+>Copyright del programma 2001-2012 degli sviluppatori di &keurocalc;: <itemizedlist>
 <listitem
 ><para
 >Éric Bischoff <email
@@ -1351,7 +1352,7 @@ not optimal.</para>
 ></para>
 
 <para
->Documentation copyright 2001-2012 Éric Bischoff <email
+>Copyright della documentazione 2001-2012 Éric Bischoff <email
 >ebischoff@_NOSPAM_nerim.net</email
 >.</para>
 
@@ -1386,7 +1387,7 @@ not optimal.</para>
 >Requisiti</title>
 
 <para
->Per usare correttamente &keurocalc;, ti serve &kde; 4.0.</para>
+>Per usare correttamente &keurocalc; serve &kde; 4.</para>
 
 <para
 >Tutte le librerie necessarie possono essere trovate su <ulink url="ftp://ftp.kde.org"

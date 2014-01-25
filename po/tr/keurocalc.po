@@ -5,20 +5,165 @@
 # Serdar Soytetir <tulliana@gmail.com>, 2008, 2009.
 # Muhammet Kara <muhammet.k@gmail.com>, 2009.
 # Ozan Çağlayan <ozan@pardus.org.tr>, 2010.
+# Volkan Gezer <volkangezer@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: keurocalc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-08 04:29+0100\n"
-"PO-Revision-Date: 2010-06-15 12:16+0300\n"
-"Last-Translator: Ozan Çağlayan <ozan@pardus.org.tr>\n"
-"Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
+"POT-Creation-Date: 2012-08-20 03:19+0200\n"
+"PO-Revision-Date: 2013-04-17 20:01+0200\n"
+"Last-Translator: Volkan Gezer <volkangezer@gmail.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Serdar Soytetir, Muhammet Kara"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "tulliana@gmail.com, muhammet.k@gmail.com"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, Calculator)
+#: calculator.ui:14
+msgid "Currency Calculator"
+msgstr "Para Birimi Hesaplayıcı"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox4)
+#: calculator.ui:205
+msgid "Input"
+msgstr "Giriş"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox5)
+#: calculator.ui:1247
+msgid "Result"
+msgstr "Sonuç"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, BackspaceButton)
+#: calculator.ui:1858
+msgid "Correct last input digit"
+msgstr "Son girdi basamağını düzelt"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, ReferenceButton)
+#: calculator.ui:1896
+msgid "Enter value expressed in reference currency"
+msgstr "Kaynak para birimi cinsinden bir değer girin"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, SlashButton)
+#: calculator.ui:1918
+msgid "Divide"
+msgstr "Böl"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MInputButton)
+#: calculator.ui:1940
+msgid "Store in memory"
+msgstr "Bellekte sakla"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, ResetButton)
+#: calculator.ui:1978
+msgid "Reset both input, result and memory"
+msgstr "Girdiyi, sonucu ve hafızayı sıfırla"
+
+#. i18n: ectx: property (text), widget (QPushButton, ResetButton)
+#: calculator.ui:1981
+msgid "Reset"
+msgstr "Sıfırla"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, CurrencyButton)
+#: calculator.ui:2060
+msgid "Enter value expressed in currency"
+msgstr "Para birimi cinsinden bir değer girin"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, AsteriskButton)
+#: calculator.ui:2085
+msgid "Multiply"
+msgstr "Çarp"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MRecallButton)
+#: calculator.ui:2110
+msgid "Recall from memory"
+msgstr "Bellekten çağır"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, AboutButton)
+#: calculator.ui:2132
+msgid "Display about box"
+msgstr "Hakkında penceresini görüntüle"
+
+#. i18n: ectx: property (text), widget (QPushButton, AboutButton)
+#: calculator.ui:2135
+msgid "&About..."
+msgstr "&Hakkında..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, SimpleValueButton)
+#: calculator.ui:2214
+msgid "Enter simple value"
+msgstr "Basit değer girin"
+
+#. i18n: ectx: property (text), widget (QPushButton, SimpleValueButton)
+#: calculator.ui:2217
+msgctxt "Enter button"
+msgid "Enter"
+msgstr "Gir"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MinusButton)
+#: calculator.ui:2242
+msgid "Subtract"
+msgstr "Çıkart"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MMinusButton)
+#: calculator.ui:2267
+msgid "Substract from memory"
+msgstr "Bellekten çıkart"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, HelpButton)
+#: calculator.ui:2289
+msgid "Display help pages"
+msgstr "Yardım sayfalarını görüntüle"
+
+#. i18n: ectx: property (text), widget (QPushButton, HelpButton)
+#: calculator.ui:2292
+msgid "&Help..."
+msgstr "&Yardım..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, PercentButton)
+#: calculator.ui:2349
+msgid "Apply percentage value"
+msgstr "Yüzde değerini uygula"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusMinusButton)
+#: calculator.ui:2371
+msgid "Change sign"
+msgstr "İşareti değiştir"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusButton)
+#: calculator.ui:2396
+msgid "Add"
+msgstr "Ekle"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MPlusButton)
+#: calculator.ui:2421
+msgid "Add to memory"
+msgstr "Belleğe ekle"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, SettingsButton)
+#: calculator.ui:2443
+msgid "Configure KEuroCalc"
+msgstr "KEuroCalc Uygulamasını Yapılandır"
+
+#. i18n: ectx: property (text), widget (QPushButton, SettingsButton)
+#: calculator.ui:2446
+msgid "&Settings..."
+msgstr "&Ayarlar..."
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, CurrencyList)
+#: calculator.ui:2459
+msgid "Currencies"
+msgstr "Para Birimleri"
 
 #: keurocalc.cpp:70
 msgid "Cannot load currencies.xml"
@@ -123,108 +268,326 @@ msgstr "Bas Willems"
 msgid "Graphical artwork"
 msgstr "Grafik çalışmaları"
 
-#: names.cpp:96
-msgid "South African rand"
-msgstr "Güney Afrika Randı"
-
-#: names.cpp:95
-msgid "Yemen rial"
+#: names.cpp:1
+msgid "United Arab Emirates dirham"
 msgstr ""
 
-#: names.cpp:94
-#, fuzzy
-#| msgid "South African rand"
-msgid "West African CFA franc"
-msgstr "Güney Afrika Randı"
+#: names.cpp:2
+msgid "Netherlands Antilles guilder"
+msgstr ""
 
-#: names.cpp:93
+#: names.cpp:3
+msgid "Angola kwanza"
+msgstr ""
+
+#: names.cpp:4
 #, fuzzy
-#| msgid "Australian dollar"
-msgid "East Caribbean dollar"
+#| msgid "Mexican peso"
+msgid "Argentina peso"
+msgstr "Meksika Pezosu"
+
+#: names.cpp:5
+msgid "Austrian schilling"
+msgstr "Avusturya Şilini"
+
+#: names.cpp:6
+msgid "Australian dollar"
 msgstr "Avustralya Doları"
 
-#: names.cpp:92
+#: names.cpp:7
 #, fuzzy
-#| msgid "South African rand"
-msgid "Central African CFA franc"
-msgstr "Güney Afrika Randı"
+#| msgid "Canadian dollar"
+msgid "Barbados dollar"
+msgstr "Kanada Doları"
 
-#: names.cpp:91
-msgid "Vietnam dong"
+#: names.cpp:8
+msgid "Belgian franc"
+msgstr "Belçika Frangı"
+
+#: names.cpp:9
+msgid "Bulgarian lev"
+msgstr "Bulgaristan Levası"
+
+#: names.cpp:10
+msgid "Bahrain dinar"
 msgstr ""
 
-#: names.cpp:90
+#: names.cpp:11
 #, fuzzy
-#| msgid "Venezuelian bolivar"
-msgid "Venezuelan bolivar fuerte"
-msgstr "Venezuella Bolivarı"
+#| msgid "Canadian dollar"
+msgid "Bermuda dollar"
+msgstr "Kanada Doları"
 
-#: names.cpp:89
-msgid "US dollar"
-msgstr "ABD Doları"
+#: names.cpp:12
+#, fuzzy
+#| msgid "Canadian dollar"
+msgid "Brunei dollar"
+msgstr "Kanada Doları"
 
-#: names.cpp:88
-msgid "Ukraine hryvnia"
+#: names.cpp:13
+msgid "Brazilian real"
+msgstr "Brezilya Reali"
+
+#: names.cpp:14
+#, fuzzy
+#| msgid "Canadian dollar"
+msgid "Bahamas dollar"
+msgstr "Kanada Doları"
+
+#: names.cpp:15
+msgid "Canadian dollar"
+msgstr "Kanada Doları"
+
+#: names.cpp:16
+msgid "Swiss franc"
+msgstr "İsviçre Frangı"
+
+#: names.cpp:17
+#, fuzzy
+#| msgid "Philippine peso"
+msgid "Chile peso"
+msgstr "Filipinler Pezosu"
+
+#: names.cpp:18
+msgid "Chinese yuan"
+msgstr "Çin Yuanı"
+
+#: names.cpp:19
+msgid "Cape Verde escudo"
 msgstr ""
 
-#: names.cpp:87
-#, fuzzy
-#| msgid "New Taiwanese dollar"
-msgid "Taiwanese new dollar"
-msgstr "Yeni Tayvan Doları"
-
-#: names.cpp:86
-msgid "Trinidad and Tobago dollar"
-msgstr ""
-
-#: names.cpp:85
-#, fuzzy
-#| msgid "New Turkish lira"
-msgid "Turkish new lira"
-msgstr "Yeni Türk Lirası"
-
-#: names.cpp:84
-#, fuzzy
-#| msgid "Thailandese baht"
-msgid "Thai baht"
-msgstr "Tayland Bahtı"
-
-#: names.cpp:83
-#, fuzzy
-#| msgid "Cyprus pound"
-msgid "Syrian pound"
+#: names.cpp:20
+msgid "Cyprus pound"
 msgstr "Kıbrıs Paundu"
 
-#: names.cpp:82
-msgid "Sao Tome and Principe dobra"
+#: names.cpp:21
+msgid "Czech koruna"
+msgstr "Çek Korunası"
+
+#: names.cpp:22
+msgid "German deutschmark"
+msgstr "Alman Markı"
+
+#: names.cpp:23
+msgid "Danish krone"
+msgstr "Danimarka Kronu"
+
+#: names.cpp:24
+msgid "Dominican Republic peso"
 msgstr ""
 
-#: names.cpp:81
-msgid "Slovakian koruna"
-msgstr "Slovak Kronu"
+#: names.cpp:25
+msgid "Estonian kroon"
+msgstr "Estonya Kronu"
 
-#: names.cpp:80
-msgid "Slovenian tolar"
-msgstr "Slovenya Toları"
+#: names.cpp:26
+#, fuzzy
+#| msgid "Cyprus pound"
+msgid "Egypt pound"
+msgstr "Kıbrıs Paundu"
 
-#: names.cpp:79
-msgid "Singapore dollar"
-msgstr "Singapur Doları"
+#: names.cpp:27
+msgid "Spanish peseta"
+msgstr "İspanyol Pesetası"
 
-#: names.cpp:78
-msgid "Swedish krona"
-msgstr "İsveç Kronası"
+#: names.cpp:28
+msgid "EU euro"
+msgstr "AB Avro"
 
-#: names.cpp:77
-msgid "Saudi Arabia riyal"
+#: names.cpp:29
+msgid "Finnish markka"
+msgstr "Fin Markkası"
+
+#: names.cpp:30
+#, fuzzy
+#| msgid "US dollar"
+msgid "Fiji dollar"
+msgstr "ABD Doları"
+
+#: names.cpp:31
+msgid "French franc"
+msgstr "Fransız Frangı"
+
+#: names.cpp:32
+msgid "Great Britain pound"
+msgstr "Büyük Britanya Poundu"
+
+#: names.cpp:33
+msgid "Greek drachma"
+msgstr "Yunanistan Frankı"
+
+#: names.cpp:34
+#, fuzzy
+#| msgid "Canadian dollar"
+msgid "Guyana dollar"
+msgstr "Kanada Doları"
+
+#: names.cpp:35
+msgid "Hong kong dollar"
+msgstr "Hong Kong Doları"
+
+#: names.cpp:36
+msgid "Croatian kuna"
+msgstr "Hırvat Kunası"
+
+#: names.cpp:37
+msgid "Hungarian forint"
+msgstr "Macar Forinti"
+
+#: names.cpp:38
+msgid "Indonesian rupiah"
+msgstr "Endonezya Rupisi"
+
+#: names.cpp:39
+msgid "Irish punt"
+msgstr "İrlanda Poundu"
+
+#: names.cpp:40
+msgid "Israel new shekel"
 msgstr ""
 
-#: names.cpp:76
-msgid "Russian rouble"
-msgstr "Rus Rublesi"
+#: names.cpp:41
+msgid "Indian rupee"
+msgstr "Hindistan Rupisi"
 
-#: names.cpp:75
-msgid "Serbian dinar"
+#: names.cpp:42
+#, fuzzy
+#| msgid "Brazilian real"
+msgid "Iran rial"
+msgstr "Brezilya Reali"
+
+#: names.cpp:43
+msgid "Icelandic krona"
+msgstr "İzlanda Kronası"
+
+#: names.cpp:44
+msgid "Italian lira"
+msgstr "İtalyan Lirası"
+
+#: names.cpp:45
+#, fuzzy
+#| msgid "Canadian dollar"
+msgid "Jamaica dollar"
+msgstr "Kanada Doları"
+
+#: names.cpp:46
+msgid "Japanese yen"
+msgstr "Japon Yeni"
+
+#: names.cpp:47
+#, fuzzy
+#| msgid "Austrian schilling"
+msgid "Kenya schilling"
+msgstr "Avusturya Şilini"
+
+#: names.cpp:48
+msgid "Cambodia riel"
+msgstr ""
+
+#: names.cpp:49
+msgid "South Korean won"
+msgstr "Güney Kore Wonu"
+
+#: names.cpp:50
+msgid "Kuwait dinar"
+msgstr ""
+
+#: names.cpp:51
+#, fuzzy
+#| msgid "Canadian dollar"
+msgid "Cayman Islands dollar"
+msgstr "Kanada Doları"
+
+#: names.cpp:52
+#, fuzzy
+#| msgid "Indian rupee"
+msgid "Kazakhstan tenge"
+msgstr "Hindistan Rupisi"
+
+#: names.cpp:53
+msgid "Sri Lankan rupee"
+msgstr "Sri Lanka Rupisi"
+
+#: names.cpp:54
+msgid "Lituanian litas"
+msgstr "Litvanya Latı"
+
+#: names.cpp:55
+msgid "Luxembourg franc"
+msgstr "Lüksemburg Frankı"
+
+#: names.cpp:56
+msgid "Latvian latas"
+msgstr "Letonya Latı"
+
+#: names.cpp:57
+msgid "Morocco dirham"
+msgstr ""
+
+#: names.cpp:58
+msgid "Macau pataca"
+msgstr ""
+
+#: names.cpp:59
+msgid "Maltese lira"
+msgstr "Malta Lirası"
+
+#: names.cpp:60
+msgid "Mexican peso"
+msgstr "Meksika Pezosu"
+
+#: names.cpp:61
+msgid "Malaysian ringgit"
+msgstr "Malezya Ringiti"
+
+#: names.cpp:62
+msgid "Mozambican metical"
+msgstr ""
+
+#: names.cpp:63
+msgid "Dutch gulden"
+msgstr "Hollanda Guldeni"
+
+#: names.cpp:64
+msgid "Norvegian krone"
+msgstr "Norveç Kronu"
+
+#: names.cpp:65
+msgid "New Zealand dollar"
+msgstr "Yeni Zelanda Doları"
+
+#: names.cpp:66
+msgid "Oman rial"
+msgstr ""
+
+#: names.cpp:67
+msgid "Panama balboa"
+msgstr ""
+
+#: names.cpp:68
+msgid "Peru nuevo sol"
+msgstr ""
+
+#: names.cpp:69
+msgid "Philippine peso"
+msgstr "Filipinler Pezosu"
+
+#: names.cpp:70
+#, fuzzy
+#| msgid "Indian rupee"
+msgid "Pakistan rupee"
+msgstr "Hindistan Rupisi"
+
+#: names.cpp:71
+msgid "Polish zloty"
+msgstr "Polonya Zlotisi"
+
+#: names.cpp:72
+msgid "Portuguese escudo"
+msgstr "Portekiz Eskudosu"
+
+#: names.cpp:73
+msgid "Qatar rial"
 msgstr ""
 
 #: names.cpp:74
@@ -233,600 +596,192 @@ msgstr ""
 msgid "Romanian new leu"
 msgstr "Yeni Romanya Levi"
 
-#: names.cpp:73
-msgid "Qatar rial"
+#: names.cpp:75
+msgid "Serbian dinar"
 msgstr ""
 
-#: names.cpp:72
-msgid "Portuguese escudo"
-msgstr "Portekiz Eskudosu"
+#: names.cpp:76
+msgid "Russian rouble"
+msgstr "Rus Rublesi"
 
-#: names.cpp:71
-msgid "Polish zloty"
-msgstr "Polonya Zlotisi"
-
-#: names.cpp:70
-#, fuzzy
-#| msgid "Indian rupee"
-msgid "Pakistan rupee"
-msgstr "Hindistan Rupisi"
-
-#: names.cpp:69
-msgid "Philippine peso"
-msgstr "Filipinler Pezosu"
-
-#: names.cpp:68
-msgid "Peru nuevo sol"
+#: names.cpp:77
+msgid "Saudi Arabia riyal"
 msgstr ""
 
-#: names.cpp:67
-msgid "Panama balboa"
+#: names.cpp:78
+msgid "Swedish krona"
+msgstr "İsveç Kronası"
+
+#: names.cpp:79
+msgid "Singapore dollar"
+msgstr "Singapur Doları"
+
+#: names.cpp:80
+msgid "Slovenian tolar"
+msgstr "Slovenya Toları"
+
+#: names.cpp:81
+msgid "Slovakian koruna"
+msgstr "Slovak Kronu"
+
+#: names.cpp:82
+msgid "Sao Tome and Principe dobra"
 msgstr ""
 
-#: names.cpp:66
-msgid "Oman rial"
-msgstr ""
-
-#: names.cpp:65
-msgid "New Zealand dollar"
-msgstr "Yeni Zelanda Doları"
-
-#: names.cpp:64
-msgid "Norvegian krone"
-msgstr "Norveç Kronu"
-
-#: names.cpp:63
-msgid "Dutch gulden"
-msgstr "Hollanda Guldeni"
-
-#: names.cpp:62
-msgid "Mozambican metical"
-msgstr ""
-
-#: names.cpp:61
-msgid "Malaysian ringgit"
-msgstr "Malezya Ringiti"
-
-#: names.cpp:60
-msgid "Mexican peso"
-msgstr "Meksika Pezosu"
-
-#: names.cpp:59
-msgid "Maltese lira"
-msgstr "Malta Lirası"
-
-#: names.cpp:58
-msgid "Macau pataca"
-msgstr ""
-
-#: names.cpp:57
-msgid "Morocco dirham"
-msgstr ""
-
-#: names.cpp:56
-msgid "Latvian latas"
-msgstr "Litvanya Latı"
-
-#: names.cpp:55
-msgid "Luxembourg franc"
-msgstr "Lüksemburg Frankı"
-
-#: names.cpp:54
-msgid "Lituanian litas"
-msgstr "Litvanya Latı"
-
-#: names.cpp:53
-msgid "Sri Lankan rupee"
-msgstr "Sri Lanka Rupisi"
-
-#: names.cpp:52
-#, fuzzy
-#| msgid "Indian rupee"
-msgid "Kazakhstan tenge"
-msgstr "Hindistan Rupisi"
-
-#: names.cpp:51
-#, fuzzy
-#| msgid "Canadian dollar"
-msgid "Cayman Islands dollar"
-msgstr "Kanada Doları"
-
-#: names.cpp:50
-msgid "Kuwait dinar"
-msgstr ""
-
-#: names.cpp:49
-msgid "South Korean won"
-msgstr "Güney Kore Wonu"
-
-#: names.cpp:48
-msgid "Cambodia riel"
-msgstr ""
-
-#: names.cpp:47
-#, fuzzy
-#| msgid "Austrian schilling"
-msgid "Kenya schilling"
-msgstr "Avusturya Şilini"
-
-#: names.cpp:46
-msgid "Japanese yen"
-msgstr "Japon Yeni"
-
-#: names.cpp:45
-#, fuzzy
-#| msgid "Canadian dollar"
-msgid "Jamaica dollar"
-msgstr "Kanada Doları"
-
-#: names.cpp:44
-msgid "Italian lira"
-msgstr "İtalyan Lirası"
-
-#: names.cpp:43
-msgid "Icelandic krona"
-msgstr "İzlanda Kronası"
-
-#: names.cpp:42
-#, fuzzy
-#| msgid "Brazilian real"
-msgid "Iran rial"
-msgstr "Brezilya Reali"
-
-#: names.cpp:41
-msgid "Indian rupee"
-msgstr "Hindistan Rupisi"
-
-#: names.cpp:40
-msgid "Israel new shekel"
-msgstr ""
-
-#: names.cpp:39
-msgid "Irish punt"
-msgstr "İrlanda Poundu"
-
-#: names.cpp:38
-msgid "Indonesian rupiah"
-msgstr "Endonezya Rupisi"
-
-#: names.cpp:37
-msgid "Hungarian forint"
-msgstr "Macar Forinti"
-
-#: names.cpp:36
-msgid "Croatian kuna"
-msgstr "Hırvat Kunası"
-
-#: names.cpp:35
-msgid "Hong kong dollar"
-msgstr "Hong Kong Doları"
-
-#: names.cpp:34
-#, fuzzy
-#| msgid "Canadian dollar"
-msgid "Guyana dollar"
-msgstr "Kanada Doları"
-
-#: names.cpp:33
-msgid "Greek drachma"
-msgstr "Yunanistan Frankı"
-
-#: names.cpp:32
-msgid "Great Britain pound"
-msgstr "Büyük Britanya Poundu"
-
-#: names.cpp:31
-msgid "French franc"
-msgstr "Fransız Frangı"
-
-#: names.cpp:30
-#, fuzzy
-#| msgid "US dollar"
-msgid "Fiji dollar"
-msgstr "ABD Doları"
-
-#: names.cpp:29
-msgid "Finnish markka"
-msgstr "Fin Markkası"
-
-#: names.cpp:28
-msgid "EU euro"
-msgstr "AB Avro"
-
-#: names.cpp:27
-msgid "Spanish peseta"
-msgstr "İspanyol Pesetası"
-
-#: names.cpp:26
+#: names.cpp:83
 #, fuzzy
 #| msgid "Cyprus pound"
-msgid "Egypt pound"
+msgid "Syrian pound"
 msgstr "Kıbrıs Paundu"
 
-#: names.cpp:25
-msgid "Estonian kroon"
-msgstr "Estonya Kronu"
+#: names.cpp:84
+#, fuzzy
+#| msgid "Thailandese baht"
+msgid "Thai baht"
+msgstr "Tayland Bahtı"
 
-#: names.cpp:24
-msgid "Dominican Republic peso"
+#: names.cpp:85
+#, fuzzy
+#| msgid "New Turkish lira"
+msgid "Turkish new lira"
+msgstr "Yeni Türk Lirası"
+
+#: names.cpp:86
+msgid "Trinidad and Tobago dollar"
 msgstr ""
 
-#: names.cpp:23
-msgid "Danish krone"
-msgstr "Danimarka Kronu"
+#: names.cpp:87
+#, fuzzy
+#| msgid "New Taiwanese dollar"
+msgid "Taiwanese new dollar"
+msgstr "Yeni Tayvan Doları"
 
-#: names.cpp:22
-msgid "German deutschmark"
-msgstr "Alman Markı"
-
-#: names.cpp:21
-msgid "Czech koruna"
-msgstr "Çek Korunası"
-
-#: names.cpp:20
-msgid "Cyprus pound"
-msgstr "Kıbrıs Paundu"
-
-#: names.cpp:19
-msgid "Cape Verde escudo"
+#: names.cpp:88
+msgid "Ukraine hryvnia"
 msgstr ""
 
-#: names.cpp:18
-msgid "Chinese yuan"
-msgstr "Çin Yuanı"
+#: names.cpp:89
+msgid "US dollar"
+msgstr "ABD Doları"
 
-#: names.cpp:17
+#: names.cpp:90
 #, fuzzy
-#| msgid "Philippine peso"
-msgid "Chile peso"
-msgstr "Filipinler Pezosu"
+#| msgid "Venezuelian bolivar"
+msgid "Venezuelan bolivar fuerte"
+msgstr "Venezuella Bolivarı"
 
-#: names.cpp:16
-msgid "Swiss franc"
-msgstr "İsviçre Frangı"
-
-#: names.cpp:15
-msgid "Canadian dollar"
-msgstr "Kanada Doları"
-
-#: names.cpp:14
-#, fuzzy
-#| msgid "Canadian dollar"
-msgid "Bahamas dollar"
-msgstr "Kanada Doları"
-
-#: names.cpp:13
-msgid "Brazilian real"
-msgstr "Brezilya Reali"
-
-#: names.cpp:12
-#, fuzzy
-#| msgid "Canadian dollar"
-msgid "Brunei dollar"
-msgstr "Kanada Doları"
-
-#: names.cpp:11
-#, fuzzy
-#| msgid "Canadian dollar"
-msgid "Bermuda dollar"
-msgstr "Kanada Doları"
-
-#: names.cpp:10
-msgid "Bahrain dinar"
+#: names.cpp:91
+msgid "Vietnam dong"
 msgstr ""
 
-#: names.cpp:9
-msgid "Bulgarian lev"
-msgstr "Bulgaristan Levası"
-
-#: names.cpp:8
-msgid "Belgian franc"
-msgstr "Belçika Frangı"
-
-#: names.cpp:7
+#: names.cpp:92
 #, fuzzy
-#| msgid "Canadian dollar"
-msgid "Barbados dollar"
-msgstr "Kanada Doları"
+#| msgid "South African rand"
+msgid "Central African CFA franc"
+msgstr "Güney Afrika Randı"
 
-#: names.cpp:6
-msgid "Australian dollar"
+#: names.cpp:93
+#, fuzzy
+#| msgid "Australian dollar"
+msgid "East Caribbean dollar"
 msgstr "Avustralya Doları"
 
-#: names.cpp:5
-msgid "Austrian schilling"
-msgstr "Avusturya Şilini"
-
-#: names.cpp:4
+#: names.cpp:94
 #, fuzzy
-#| msgid "Mexican peso"
-msgid "Argentina peso"
-msgstr "Meksika Pezosu"
+#| msgid "South African rand"
+msgid "West African CFA franc"
+msgstr "Güney Afrika Randı"
 
-#: names.cpp:3
-msgid "Angola kwanza"
+#: names.cpp:95
+msgid "Yemen rial"
 msgstr ""
 
-#: names.cpp:2
-msgid "Netherlands Antilles guilder"
-msgstr ""
+#: names.cpp:96
+msgid "South African rand"
+msgstr "Güney Afrika Randı"
 
-#: names.cpp:1
-msgid "United Arab Emirates dirham"
-msgstr ""
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Serdar Soytetir, Muhammet Kara"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "tulliana@gmail.com, muhammet.k@gmail.com"
-
-#. i18n: file: calculator.ui:14
-#. i18n: ectx: property (windowTitle), widget (QDialog, Calculator)
-#: rc.cpp:5
-msgid "Currency Calculator"
-msgstr "Para Birimi Hesaplayıcı"
-
-#. i18n: file: calculator.ui:205
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox4)
-#: rc.cpp:8
-msgid "Input"
-msgstr "Giriş"
-
-#. i18n: file: calculator.ui:1247
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox5)
-#: rc.cpp:11
-msgid "Result"
-msgstr "Sonuç"
-
-#. i18n: file: calculator.ui:1858
-#. i18n: ectx: property (toolTip), widget (QPushButton, BackspaceButton)
-#: rc.cpp:14
-msgid "Correct last input digit"
-msgstr "Son girdi basamağını düzelt"
-
-#. i18n: file: calculator.ui:1896
-#. i18n: ectx: property (toolTip), widget (QPushButton, ReferenceButton)
-#: rc.cpp:17
-msgid "Enter value expressed in reference currency"
-msgstr "Kaynak para birimi cinsinden bir değer girin"
-
-#. i18n: file: calculator.ui:1918
-#. i18n: ectx: property (toolTip), widget (QPushButton, SlashButton)
-#: rc.cpp:20
-msgid "Divide"
-msgstr "Böl"
-
-#. i18n: file: calculator.ui:1940
-#. i18n: ectx: property (toolTip), widget (QPushButton, MInputButton)
-#: rc.cpp:23
-msgid "Store in memory"
-msgstr "Bellekte sakla"
-
-#. i18n: file: calculator.ui:1978
-#. i18n: ectx: property (toolTip), widget (QPushButton, ResetButton)
-#: rc.cpp:26
-msgid "Reset both input, result and memory"
-msgstr "Girdiyi, sonucu ve hafızayı sıfırla"
-
-#. i18n: file: calculator.ui:1981
-#. i18n: ectx: property (text), widget (QPushButton, ResetButton)
-#: rc.cpp:29
-msgid "Reset"
-msgstr "Sıfırla"
-
-#. i18n: file: calculator.ui:2060
-#. i18n: ectx: property (toolTip), widget (QPushButton, CurrencyButton)
-#: rc.cpp:32
-msgid "Enter value expressed in currency"
-msgstr "Para birimi cinsinden bir değer girin"
-
-#. i18n: file: calculator.ui:2085
-#. i18n: ectx: property (toolTip), widget (QPushButton, AsteriskButton)
-#: rc.cpp:35
-msgid "Multiply"
-msgstr "Çarp"
-
-#. i18n: file: calculator.ui:2110
-#. i18n: ectx: property (toolTip), widget (QPushButton, MRecallButton)
-#: rc.cpp:38
-msgid "Recall from memory"
-msgstr "Bellekten çağır"
-
-#. i18n: file: calculator.ui:2132
-#. i18n: ectx: property (toolTip), widget (QPushButton, AboutButton)
-#: rc.cpp:41
-msgid "Display about box"
-msgstr "Hakkında penceresini görüntüle"
-
-#. i18n: file: calculator.ui:2135
-#. i18n: ectx: property (text), widget (QPushButton, AboutButton)
-#: rc.cpp:44
-msgid "&About..."
-msgstr "&Hakkında..."
-
-#. i18n: file: calculator.ui:2214
-#. i18n: ectx: property (toolTip), widget (QPushButton, SimpleValueButton)
-#: rc.cpp:47
-msgid "Enter simple value"
-msgstr "Basit değer girin"
-
-#. i18n: file: calculator.ui:2217
-#. i18n: ectx: property (text), widget (QPushButton, SimpleValueButton)
-#: rc.cpp:50
-msgctxt "Enter button"
-msgid "Enter"
-msgstr "Gir"
-
-#. i18n: file: calculator.ui:2242
-#. i18n: ectx: property (toolTip), widget (QPushButton, MinusButton)
-#: rc.cpp:53
-msgid "Subtract"
-msgstr "Çıkart"
-
-#. i18n: file: calculator.ui:2267
-#. i18n: ectx: property (toolTip), widget (QPushButton, MMinusButton)
-#: rc.cpp:56
-msgid "Substract from memory"
-msgstr "Bellekten çıkart"
-
-#. i18n: file: calculator.ui:2289
-#. i18n: ectx: property (toolTip), widget (QPushButton, HelpButton)
-#: rc.cpp:59
-msgid "Display help pages"
-msgstr "Yardım sayfalarını görüntüle"
-
-#. i18n: file: calculator.ui:2292
-#. i18n: ectx: property (text), widget (QPushButton, HelpButton)
-#: rc.cpp:62
-msgid "&Help..."
-msgstr "&Yardım..."
-
-#. i18n: file: calculator.ui:2349
-#. i18n: ectx: property (toolTip), widget (QPushButton, PercentButton)
-#: rc.cpp:65
-msgid "Apply percentage value"
-msgstr "Yüzde değerini uygula"
-
-#. i18n: file: calculator.ui:2371
-#. i18n: ectx: property (toolTip), widget (QPushButton, PlusMinusButton)
-#: rc.cpp:68
-msgid "Change sign"
-msgstr "İşareti değiştir"
-
-#. i18n: file: calculator.ui:2396
-#. i18n: ectx: property (toolTip), widget (QPushButton, PlusButton)
-#: rc.cpp:71
-msgid "Add"
-msgstr "Ekle"
-
-#. i18n: file: calculator.ui:2421
-#. i18n: ectx: property (toolTip), widget (QPushButton, MPlusButton)
-#: rc.cpp:74
-msgid "Add to memory"
-msgstr "Belleğe ekle"
-
-#. i18n: file: calculator.ui:2443
-#. i18n: ectx: property (toolTip), widget (QPushButton, SettingsButton)
-#: rc.cpp:77
-msgid "Configure KEuroCalc"
-msgstr "KEuroCalc Uygulamasını Yapılandır"
-
-#. i18n: file: calculator.ui:2446
-#. i18n: ectx: property (text), widget (QPushButton, SettingsButton)
-#: rc.cpp:80
-msgid "&Settings..."
-msgstr "&Ayarlar..."
-
-#. i18n: file: calculator.ui:2459
-#. i18n: ectx: property (toolTip), widget (QComboBox, CurrencyList)
-#: rc.cpp:83
-msgid "Currencies"
-msgstr "Para Birimleri"
-
-#. i18n: file: settingsdialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, SettingsDialog)
-#: rc.cpp:86
+#: settingsdialog.ui:14
 msgid "Settings"
 msgstr "Ayarlar"
 
-#. i18n: file: settingsdialog.ui:34
 #. i18n: ectx: property (text), widget (QLabel, defaultCurrencyText)
-#: rc.cpp:89
+#: settingsdialog.ui:34
 msgid "Default currency"
 msgstr "Öntanımlı para birimi"
 
-#. i18n: file: settingsdialog.ui:59
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:92
+#: settingsdialog.ui:59
 msgid "Reference currency, rates origin"
 msgstr "Kaynak para birimi, oranlama kaynağı"
 
-#. i18n: file: settingsdialog.ui:74
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroFixed)
-#: rc.cpp:95
+#: settingsdialog.ui:74
 msgid "Euro, no ne&twork access (fixed rates only)"
 msgstr "Avro, a&ğ erişimi yok (sadece sabit oranlar)"
 
-#. i18n: file: settingsdialog.ui:87
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroECB)
-#: rc.cpp:98
+#: settingsdialog.ui:87
 msgid "Euro, European Central &Bank"
 msgstr "Avro, Avrupa Merkez &Bankası"
 
-#. i18n: file: settingsdialog.ui:100
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroTG)
-#: rc.cpp:101
+#: settingsdialog.ui:100
 msgid "Euro, Time &Genie"
 msgstr ""
 
-#. i18n: file: settingsdialog.ui:116
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:104
+#: settingsdialog.ui:116
 msgid "Rounding"
 msgstr "Yuvarlama"
 
-#. i18n: file: settingsdialog.ui:131
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonOfficialRules)
-#: rc.cpp:107
+#: settingsdialog.ui:131
 msgid "Official roundin&g rules"
 msgstr "Resmi yuvarla&ma kuralları"
 
-#. i18n: file: settingsdialog.ui:141
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonSmallestCoin)
-#: rc.cpp:110
+#: settingsdialog.ui:141
 msgid "&Smallest coin method"
 msgstr "&En küçük bozuk para yöntemi"
 
-#. i18n: file: settingsdialog.ui:151
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonNoRounding)
-#: rc.cpp:113
+#: settingsdialog.ui:151
 msgid "&No rounding at all"
 msgstr "&Yuvarlama yok"
 
-#. i18n: file: settingsdialog.ui:161
 #. i18n: ectx: property (title), widget (QGroupBox, AppearanceGroup)
-#: rc.cpp:116
+#: settingsdialog.ui:161
 msgid "Look and feel"
 msgstr "Görünüm"
 
-#. i18n: file: settingsdialog.ui:197
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:119
+#: settingsdialog.ui:197
 msgid "Display color"
 msgstr "Görünüm rengi"
 
-#. i18n: file: settingsdialog.ui:672
 #. i18n: ectx: property (text), widget (QLabel, displayColorResult)
-#: rc.cpp:122
+#: settingsdialog.ui:672
 msgid "215.06 €"
 msgstr "215.06 €"
 
-#. i18n: file: settingsdialog.ui:688
 #. i18n: ectx: property (text), widget (KPushButton, kPushButtonDisplayColor)
-#: rc.cpp:125
+#: settingsdialog.ui:688
 msgid "C&hange..."
 msgstr "&Değiştir..."
 
-#. i18n: file: settingsdialog.ui:737
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxSplashScreen)
-#: rc.cpp:128
+#: settingsdialog.ui:737
 msgid "Enable splash screen"
 msgstr "Açılış ekranını etkinleştir"
 
-#. i18n: file: settingsdialog.ui:805
 #. i18n: ectx: property (text), widget (QPushButton, OKButton)
-#: rc.cpp:131
+#: settingsdialog.ui:805
 msgid "O&K"
 msgstr "&Tamam"
 
-#. i18n: file: settingsdialog.ui:815
 #. i18n: ectx: property (text), widget (QPushButton, CancelButton)
-#: rc.cpp:134
+#: settingsdialog.ui:815
 msgid "Cance&l"
 msgstr "İpt&al Et"
 

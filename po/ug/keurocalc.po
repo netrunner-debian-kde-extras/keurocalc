@@ -1,0 +1,722 @@
+# Uyghur translation for keurocalc.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Sahran <sahran.ug@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: keurocalc\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 03:19+0200\n"
+"PO-Revision-Date: 2013-09-08 07:04+0900\n"
+"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ئابدۇقادىر ئابلىز, غەيرەت كەنجى"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sahran.ug@gmail.com,  gheyret@gmail.com"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, Calculator)
+#: calculator.ui:14
+msgid "Currency Calculator"
+msgstr "پۇل ھېساپلىغۇچ"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox4)
+#: calculator.ui:205
+msgid "Input"
+msgstr "كىرگۈز"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox5)
+#: calculator.ui:1247
+msgid "Result"
+msgstr "نەتىجە"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, BackspaceButton)
+#: calculator.ui:1858
+msgid "Correct last input digit"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, ReferenceButton)
+#: calculator.ui:1896
+msgid "Enter value expressed in reference currency"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, SlashButton)
+#: calculator.ui:1918
+msgid "Divide"
+msgstr "بۆل"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MInputButton)
+#: calculator.ui:1940
+msgid "Store in memory"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, ResetButton)
+#: calculator.ui:1978
+msgid "Reset both input, result and memory"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, ResetButton)
+#: calculator.ui:1981
+msgid "Reset"
+msgstr "ئەسلىگە قايتۇرۇش"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, CurrencyButton)
+#: calculator.ui:2060
+msgid "Enter value expressed in currency"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, AsteriskButton)
+#: calculator.ui:2085
+msgid "Multiply"
+msgstr "ھەسسىلەپ ئېشىش"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MRecallButton)
+#: calculator.ui:2110
+msgid "Recall from memory"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, AboutButton)
+#: calculator.ui:2132
+msgid "Display about box"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, AboutButton)
+#: calculator.ui:2135
+msgid "&About..."
+msgstr "ھەققىدە(&A)…"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, SimpleValueButton)
+#: calculator.ui:2214
+msgid "Enter simple value"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, SimpleValueButton)
+#: calculator.ui:2217
+msgctxt "Enter button"
+msgid "Enter"
+msgstr "Enter"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MinusButton)
+#: calculator.ui:2242
+msgid "Subtract"
+msgstr "ئېلىش"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MMinusButton)
+#: calculator.ui:2267
+msgid "Substract from memory"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, HelpButton)
+#: calculator.ui:2289
+msgid "Display help pages"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, HelpButton)
+#: calculator.ui:2292
+msgid "&Help..."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, PercentButton)
+#: calculator.ui:2349
+msgid "Apply percentage value"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusMinusButton)
+#: calculator.ui:2371
+msgid "Change sign"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, PlusButton)
+#: calculator.ui:2396
+msgid "Add"
+msgstr "قوش"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, MPlusButton)
+#: calculator.ui:2421
+msgid "Add to memory"
+msgstr "ئەسلەككە قوش"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, SettingsButton)
+#: calculator.ui:2443
+msgid "Configure KEuroCalc"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, SettingsButton)
+#: calculator.ui:2446
+msgid "&Settings..."
+msgstr "تەڭشەك(&S)…"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, CurrencyList)
+#: calculator.ui:2459
+msgid "Currencies"
+msgstr "پۇللار"
+
+#: keurocalc.cpp:70
+msgid "Cannot load currencies.xml"
+msgstr ""
+
+#: keurocalc.cpp:973
+msgid "Fixed"
+msgstr "مۇقىم"
+
+#: keurocalc.cpp:977
+msgid "ECB"
+msgstr ""
+
+#: keurocalc.cpp:978 keurocalc.cpp:986
+msgid "Loading..."
+msgstr "ئوقۇۋاتىدۇ…"
+
+#: keurocalc.cpp:985
+msgid "TG"
+msgstr ""
+
+#: keurocalc.cpp:991
+msgid "Official rules"
+msgstr ""
+
+#: keurocalc.cpp:994
+msgid "Smallest coin"
+msgstr ""
+
+#: keurocalc.cpp:997
+msgid "No rounding"
+msgstr ""
+
+#: keurocalc.cpp:1071
+msgid "Not loaded"
+msgstr "يۈكلىمىدى"
+
+#: main.cpp:31
+msgid "KEuroCalc"
+msgstr "KEuroCalc"
+
+#: main.cpp:32
+msgid "Cash converter and calculator"
+msgstr "پۇل ئايلاندۇرغۇچ ۋە ھېسابلىغۇچ"
+
+#: main.cpp:33
+msgid "(c) 2001-2012, the KEuroCalc developers"
+msgstr ""
+
+#: main.cpp:34
+msgid ""
+"A program by Éric Bischoff <ebischoff@nerim.net>\n"
+"\n"
+"This program is dedicated to humorist Michael Moore, for he\n"
+"knows that money does not justify anything...\n"
+"\n"
+"Time Genie exchange rates courtesy of <a href='http://www.timegenie.com/' "
+"title='foreign exchange rates courtesy of Time Genie'>Time Genie</a>\n"
+msgstr ""
+
+#: main.cpp:42
+msgid "Éric Bischoff"
+msgstr "Éric Bischoff"
+
+#: main.cpp:42
+msgid "Design and implementation"
+msgstr ""
+
+#: main.cpp:43
+msgid "Gil Gross"
+msgstr "Gil Gross"
+
+#: main.cpp:43
+msgid "Additional functionality"
+msgstr ""
+
+#: main.cpp:44
+msgid "Melchior Franz"
+msgstr "Melchior Franz"
+
+#: main.cpp:44
+msgid "Design and testing"
+msgstr ""
+
+#: main.cpp:45
+msgid "Bas Willems"
+msgstr "Bas Willems"
+
+#: main.cpp:45
+msgid "Graphical artwork"
+msgstr ""
+
+#: names.cpp:1
+msgid "United Arab Emirates dirham"
+msgstr "ئەرەب بىرلەشمە خەلىپىلىكى دەرھەمى"
+
+#: names.cpp:2
+msgid "Netherlands Antilles guilder"
+msgstr "گوللاندىيەگە قاراشلىق ئانتىللېن گۇلدېنى"
+
+#: names.cpp:3
+msgid "Angola kwanza"
+msgstr "ئانگولا كۇۋانزاسى"
+
+#: names.cpp:4
+msgid "Argentina peso"
+msgstr "ئارگېنتىنا پېسوسى"
+
+#: names.cpp:5
+msgid "Austrian schilling"
+msgstr "ئاۋسترىيە شىللىڭى"
+
+#: names.cpp:6
+msgid "Australian dollar"
+msgstr "ئاۋسترالىيە دوللىرى"
+
+#: names.cpp:7
+msgid "Barbados dollar"
+msgstr "باربادوس دوللىرى"
+
+#: names.cpp:8
+msgid "Belgian franc"
+msgstr "بېلگىيە فرانكى"
+
+#: names.cpp:9
+msgid "Bulgarian lev"
+msgstr "بۇلغارىيە لېۋاسى"
+
+#: names.cpp:10
+msgid "Bahrain dinar"
+msgstr "بەھرەين دىنارى"
+
+#: names.cpp:11
+msgid "Bermuda dollar"
+msgstr "بېرمۇدا دوللىرى"
+
+#: names.cpp:12
+msgid "Brunei dollar"
+msgstr "بىرۇنېي دوللىرى"
+
+#: names.cpp:13
+msgid "Brazilian real"
+msgstr "بىرازىلىيە رىيالى"
+
+#: names.cpp:14
+msgid "Bahamas dollar"
+msgstr "باھاما دوللىرى"
+
+#: names.cpp:15
+msgid "Canadian dollar"
+msgstr "كانادا دوللىرى"
+
+#: names.cpp:16
+msgid "Swiss franc"
+msgstr "شىۋېتسىيە فرانكى"
+
+#: names.cpp:17
+msgid "Chile peso"
+msgstr "چىلى پېسوسى"
+
+#: names.cpp:18
+msgid "Chinese yuan"
+msgstr "جۇڭگو يۈەنى"
+
+#: names.cpp:19
+msgid "Cape Verde escudo"
+msgstr "يېشىل تۇمشۇق ئېسكۇدوسى"
+
+#: names.cpp:20
+msgid "Cyprus pound"
+msgstr "سىپرۇس پوندى"
+
+#: names.cpp:21
+msgid "Czech koruna"
+msgstr "چېخ كورۇناسى"
+
+#: names.cpp:22
+msgid "German deutschmark"
+msgstr "گېرمانىيە ماركى"
+
+#: names.cpp:23
+msgid "Danish krone"
+msgstr "دانىيە كرونى"
+
+#: names.cpp:24
+msgid "Dominican Republic peso"
+msgstr "دومىنىكا جۇمھۇرىيىتى پېسوسى"
+
+#: names.cpp:25
+msgid "Estonian kroon"
+msgstr "ئېستونىيە كرۇنى"
+
+#: names.cpp:26
+msgid "Egypt pound"
+msgstr "مىسىر پوندى"
+
+#: names.cpp:27
+msgid "Spanish peseta"
+msgstr "ئىسپانىيە پېسېتاسى"
+
+#: names.cpp:28
+msgid "EU euro"
+msgstr "ياۋروپا يۇروسى"
+
+#: names.cpp:29
+msgid "Finnish markka"
+msgstr "فىنلاندىيە مارككاسى"
+
+#: names.cpp:30
+msgid "Fiji dollar"
+msgstr "فىجى دوللىرى"
+
+#: names.cpp:31
+msgid "French franc"
+msgstr "فىرانسىيە فرانكى"
+
+#: names.cpp:32
+msgid "Great Britain pound"
+msgstr "بۈيۈك بىرىتانىيە پوندى"
+
+#: names.cpp:33
+msgid "Greek drachma"
+msgstr "گىرېتسىيە دراخماسى"
+
+#: names.cpp:34
+msgid "Guyana dollar"
+msgstr "گىۋىيانا دوللىرى"
+
+#: names.cpp:35
+msgid "Hong kong dollar"
+msgstr "شياڭگاڭ دوللىرى"
+
+#: names.cpp:36
+msgid "Croatian kuna"
+msgstr "كىرودىيە كۇناسى"
+
+#: names.cpp:37
+msgid "Hungarian forint"
+msgstr "ۋېنگىرىيە فورېنتى"
+
+#: names.cpp:38
+msgid "Indonesian rupiah"
+msgstr "ھىندونېزىيە رۇپىيەسى"
+
+#: names.cpp:39
+msgid "Irish punt"
+msgstr "ئىرېلاندىيە پۇنتى"
+
+#: names.cpp:40
+msgid "Israel new shekel"
+msgstr "ئىسرائىلىيە يېڭى شېكېلى"
+
+#: names.cpp:41
+msgid "Indian rupee"
+msgstr "ھىندىستان رۇپىيىسى"
+
+#: names.cpp:42
+msgid "Iran rial"
+msgstr "ئىران رىيالى"
+
+#: names.cpp:43
+msgid "Icelandic krona"
+msgstr "ئىسلاندىيە كروناسى"
+
+#: names.cpp:44
+msgid "Italian lira"
+msgstr "ئىتالىيە لىراسى"
+
+#: names.cpp:45
+msgid "Jamaica dollar"
+msgstr "يامايكا دوللىرى"
+
+#: names.cpp:46
+msgid "Japanese yen"
+msgstr "ياپونىيە يېنى"
+
+#: names.cpp:47
+msgid "Kenya schilling"
+msgstr "كېنىيە شىللىڭى"
+
+#: names.cpp:48
+msgid "Cambodia riel"
+msgstr "كامبودژا رىئېلى"
+
+#: names.cpp:49
+msgid "South Korean won"
+msgstr "جەنۇبىي كورېيە ۋونى"
+
+#: names.cpp:50
+msgid "Kuwait dinar"
+msgstr "كۇۋەيت دىنارى"
+
+#: names.cpp:51
+msgid "Cayman Islands dollar"
+msgstr "كايمان ئاراللىرى دوللىرى"
+
+#: names.cpp:52
+msgid "Kazakhstan tenge"
+msgstr "قازاقىستان تەڭگىسى"
+
+#: names.cpp:53
+msgid "Sri Lankan rupee"
+msgstr "سىرىلانكا رۇپىيىسى"
+
+#: names.cpp:54
+msgid "Lituanian litas"
+msgstr "لىتۋا لىتاسى"
+
+#: names.cpp:55
+msgid "Luxembourg franc"
+msgstr "لىيۇكسېمبۇرگ فرانكى"
+
+#: names.cpp:56
+msgid "Latvian latas"
+msgstr "لاتۋىيە لاتى"
+
+#: names.cpp:57
+msgid "Morocco dirham"
+msgstr "ماراكەش دىرھەمى"
+
+#: names.cpp:58
+msgid "Macau pataca"
+msgstr "ئاۋمېن پاتاكاسى"
+
+#: names.cpp:59
+msgid "Maltese lira"
+msgstr "مالتا لىراسى"
+
+#: names.cpp:60
+msgid "Mexican peso"
+msgstr "مېكسىكا پېسوسى"
+
+#: names.cpp:61
+msgid "Malaysian ringgit"
+msgstr "مالايشىيا رىڭگىتى"
+
+#: names.cpp:62
+msgid "Mozambican metical"
+msgstr "موزامبىك مېتىكالى"
+
+#: names.cpp:63
+msgid "Dutch gulden"
+msgstr "گوللاندىيە گۈلدىنى"
+
+#: names.cpp:64
+msgid "Norvegian krone"
+msgstr "نورۋېگىيە كرونى"
+
+#: names.cpp:65
+msgid "New Zealand dollar"
+msgstr "يېڭى زېلاندىيە دوللىرى"
+
+#: names.cpp:66
+msgid "Oman rial"
+msgstr "ئومان رىيالى"
+
+#: names.cpp:67
+msgid "Panama balboa"
+msgstr "پاناما بالبوئاسى"
+
+#: names.cpp:68
+msgid "Peru nuevo sol"
+msgstr "پېرۇ يېڭى سولى"
+
+#: names.cpp:69
+msgid "Philippine peso"
+msgstr "فىلىپپىن پېسوسى"
+
+#: names.cpp:70
+msgid "Pakistan rupee"
+msgstr "پاكىستان رۇپىيەسى"
+
+#: names.cpp:71
+msgid "Polish zloty"
+msgstr "پولشا زىلوتى"
+
+#: names.cpp:72
+msgid "Portuguese escudo"
+msgstr "پورتۇگالىيە ئېسكۇدوسى"
+
+#: names.cpp:73
+msgid "Qatar rial"
+msgstr "قاتار رىيالى"
+
+#: names.cpp:74
+msgid "Romanian new leu"
+msgstr "رۇمىنىيە يېڭى لېيى"
+
+#: names.cpp:75
+msgid "Serbian dinar"
+msgstr "سېربىيە دىنارى"
+
+#: names.cpp:76
+msgid "Russian rouble"
+msgstr "رۇسىيە رۇبلىسى"
+
+#: names.cpp:77
+msgid "Saudi Arabia riyal"
+msgstr "سەئۇدى ئەرەبىستان رىيالى"
+
+#: names.cpp:78
+msgid "Swedish krona"
+msgstr "شىۋېتسىيە كروناسى"
+
+#: names.cpp:79
+msgid "Singapore dollar"
+msgstr "سىنگاپور دوللىرى"
+
+#: names.cpp:80
+msgid "Slovenian tolar"
+msgstr "سىلوۋېنىيە تولار"
+
+#: names.cpp:81
+msgid "Slovakian koruna"
+msgstr "سىلوۋاكىيە كورۇناسى"
+
+#: names.cpp:82
+msgid "Sao Tome and Principe dobra"
+msgstr "سان-تومې ۋە پىرىنسىپى دوبراسى"
+
+#: names.cpp:83
+msgid "Syrian pound"
+msgstr "سۈرىيە پوندى"
+
+#: names.cpp:84
+msgid "Thai baht"
+msgstr "تايلاند باختى"
+
+#: names.cpp:85
+msgid "Turkish new lira"
+msgstr "تۈركىيە يېڭى لىراسى"
+
+#: names.cpp:86
+msgid "Trinidad and Tobago dollar"
+msgstr "تىرىنىداد ۋە توباگو دوللىرى"
+
+#: names.cpp:87
+msgid "Taiwanese new dollar"
+msgstr "تەيۋەن يېڭى دوللىرى"
+
+#: names.cpp:88
+msgid "Ukraine hryvnia"
+msgstr "ئۇكرائىنا گرىۋناسى"
+
+#: names.cpp:89
+msgid "US dollar"
+msgstr "ئامېرىكا دوللىرى"
+
+#: names.cpp:90
+msgid "Venezuelan bolivar fuerte"
+msgstr "ۋېنېزۇئېلا بولىۋارى"
+
+#: names.cpp:91
+msgid "Vietnam dong"
+msgstr "ۋىيېتنام دوڭى"
+
+#: names.cpp:92
+msgid "Central African CFA franc"
+msgstr "ئوتتۇرا ئافرىقا فرانكى"
+
+#: names.cpp:93
+msgid "East Caribbean dollar"
+msgstr "شەرقىي كارىب دوللىرى"
+
+#: names.cpp:94
+msgid "West African CFA franc"
+msgstr "غەربىي ئافرىقا فرانكى"
+
+#: names.cpp:95
+msgid "Yemen rial"
+msgstr "يەمەن رىيالى"
+
+#: names.cpp:96
+msgid "South African rand"
+msgstr "جەنۇبىي ئافرىقا راندى"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SettingsDialog)
+#: settingsdialog.ui:14
+msgid "Settings"
+msgstr "تەڭشەكلەر"
+
+#. i18n: ectx: property (text), widget (QLabel, defaultCurrencyText)
+#: settingsdialog.ui:34
+msgid "Default currency"
+msgstr "كۆڭۈلدىكى پۇل"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: settingsdialog.ui:59
+msgid "Reference currency, rates origin"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroFixed)
+#: settingsdialog.ui:74
+msgid "Euro, no ne&twork access (fixed rates only)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroECB)
+#: settingsdialog.ui:87
+msgid "Euro, European Central &Bank"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEuroTG)
+#: settingsdialog.ui:100
+msgid "Euro, Time &Genie"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: settingsdialog.ui:116
+msgid "Rounding"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonOfficialRules)
+#: settingsdialog.ui:131
+msgid "Official roundin&g rules"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonSmallestCoin)
+#: settingsdialog.ui:141
+msgid "&Smallest coin method"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonNoRounding)
+#: settingsdialog.ui:151
+msgid "&No rounding at all"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, AppearanceGroup)
+#: settingsdialog.ui:161
+msgid "Look and feel"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: settingsdialog.ui:197
+msgid "Display color"
+msgstr "كۆرسىتىش رەڭگى"
+
+#. i18n: ectx: property (text), widget (QLabel, displayColorResult)
+#: settingsdialog.ui:672
+msgid "215.06 €"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, kPushButtonDisplayColor)
+#: settingsdialog.ui:688
+msgid "C&hange..."
+msgstr "ئۆزگەرت(&H)…"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxSplashScreen)
+#: settingsdialog.ui:737
+msgid "Enable splash screen"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, OKButton)
+#: settingsdialog.ui:805
+msgid "O&K"
+msgstr "جەزملە(&K)"
+
+#. i18n: ectx: property (text), widget (QPushButton, CancelButton)
+#: settingsdialog.ui:815
+msgid "Cance&l"
+msgstr "ۋاز كەچ(&L)"

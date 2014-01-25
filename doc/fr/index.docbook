@@ -9,7 +9,7 @@
 ><!-- change language only here -->
 ]>
 
-<book lang="&language;">
+<book id="keurocalc" lang="&language;">
 
 <bookinfo>
 <title
@@ -42,7 +42,7 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2012-02-07</date>
+>07-02-2012</date>
 <releaseinfo
 >1.2.0</releaseinfo>
 
@@ -76,7 +76,7 @@
 >&keurocalc; est un convertisseur universel et une calculatrice de poche. </para>
 
 <para
->Le 1er janvier 2002, 12 pays européens ont uni leurs devises nationales en une seule : l'euro (€). De nouveaux pays rejoignent la zone euro de temps en temps. &keurocalc; aide : <variablelist>
+>Le 1er janvier 2002, 12 pays européens ont uni leurs devises nationales en une seule : l'euro (€). De nouveau pays rejoignent la zone euro de temps en temps. &keurocalc; aide : <variablelist>
 <varlistentry>
 <term
 >Durant les périodes de transitions</term>
@@ -206,7 +206,7 @@ published by the NY FRB.</para
 ></listitem>
 <listitem
 ><para
->Possibilité de stocker des valeurs dans une mémoire intermédiaire ou d'utiliser cette mémoire comme accumulateur additif.</para
+>Possibilité de stocker des valeurs dans une mémoire intermédiaire, ou d'utiliser cette mémoire comme un total cumulé.</para
 ></listitem>
 </itemizedlist>
 </para>
@@ -237,7 +237,7 @@ during the non-working days (Christmas, Easter, etc.).</para
 ><para
 >&keurocalc; ne garantit jamais l'exactitude des taux de change ni des résultats. Vous êtes toujours invité à vérifier vos calculs par d'autres moyens. Comme l'indique l'accord de <link linkend="credits"
 >licence</link
->, les auteurs ne sont pas responsables dans le cas où les résultats seraient incorrects ou différents de ceux qui étaient attendus. Veuillez également noter que les taux de change variables sont téléchargés de manière non chiffrée et par conséquent non sûre depuis les sources de données (Banque Centrale Européenne et Time Genie). Un attaquant du type « homme au milieu » peut tromper &keurocalc; en fabriquant de faux taux de change. De manière plus simple, une erreur de transmission est toujours possible.</para
+>, les auteurs ne sont pas responsables dans le cas où les résultats seraient incorrects ou différents de ceux qui étaient attendus. Veuillez également noter que les taux de change variables sont téléchargés de manière non chiffrée et par conséquent non sûre depuis les sources de données (Banque Centrale Européenne et Time Genie). Un attaquant du type « homme au milieu » peut tromper &keurocalc; en fabricant de faux taux de change. De manière plus simple, une erreur de transmission est toujours possible.</para
 ></warning>
 
 </chapter>
@@ -293,7 +293,7 @@ during the non-working days (Christmas, Easter, etc.).</para
 ></step>
 <step
 ><para
->Lisez le résultat dans la zone d'affichage <guilabel
+>Lisez le résultat dans l'affichage <guilabel
 >Résultat</guilabel
 > sur la droite : 24.79 € ou 24,79 € en fonctions de vos paramètres locaux.</para
 ></step
@@ -332,7 +332,7 @@ during the non-working days (Christmas, Easter, etc.).</para
 </procedure>
 
 <para
->Vous auriez également pu taper : <userinput
+>Vous auriez également pu saisir : <userinput
 >25 Saisir E</userinput
 >.</para>
 
@@ -364,8 +364,8 @@ during the non-working days (Christmas, Easter, etc.).</para
 <step
 ><para
 >Choisissez simplement <guilabel
->ESP - Pesete espagnole</guilabel
-> pour voir le même montant de 61,36 € converti en pesetes dans la zone d'affichage du <guilabel
+>ESP - Pesette espagnole</guilabel
+> pour voir le même montant de 61,36 € converti en pesettes dans la zone d'affichage du <guilabel
 >Résultat</guilabel
 ></para
 ></step>
@@ -409,7 +409,7 @@ during the non-working days (Christmas, Easter, etc.).</para
 ><para
 >Assurez-vous que les taux de change variables sont disponibles. Si ce n'est pas le cas, appuyez sur le bouton<guibutton
 >Configuration...</guibutton
-> pour choisir soit <guilabel
+> pour choisir soit<guilabel
 >Euro, Banque Centrale Européenne</guilabel
 >, soit <guilabel
 >Euro, Time Genie</guilabel
@@ -554,7 +554,7 @@ during the non-working days (Christmas, Easter, etc.).</para
 >3.2</userinput
 > puis cliquez sur le bouton <guibutton
 >Saisir</guibutton
-> ou appuyez sur la touche &Entree; : cela signifie <quote
+> ou appuyez sur la touche &Entree; : cela signifie <quote
 >3.2 unités</quote
 > à 2 € chacune.</para
 ></step>
@@ -607,10 +607,10 @@ during the non-working days (Christmas, Easter, etc.).</para
 ><para
 >Saisissez<userinput
 >20</userinput
-> et cliquez sur le bouton <guibutton
->%</guibutton
-> ou appuyez sur la touche <keycap
->%</keycap
+> et cliquez sur le bouton<guibutton
+> % </guibutton
+>ou appuyez sur la touche<keycap
+> % </keycap
 >. Tout comme avec les multiplications, la valeur a dû être saisie <emphasis
 >avant</emphasis
 > le pourcentage.</para
@@ -623,7 +623,7 @@ during the non-working days (Christmas, Easter, etc.).</para
 
 <procedure>
 <title
->Combien font 3000 yen plus 20 % ?</title>
+>Combien font 3000 yen plus 20 % ? </title>
 <step
 ><para
 >Choisissez <guilabel
@@ -652,10 +652,10 @@ during the non-working days (Christmas, Easter, etc.).</para
 ><para
 >Saisissez<userinput
 >20</userinput
-> et cliquez sur le bouton <guibutton
->%</guibutton
-> ou appuyez sur la touche <keycap
->%</keycap
+> et cliquez sur le bouton<guibutton
+> % </guibutton
+>ou appuyez sur la touche<keycap
+> % </keycap
 >. Tout comme avec les multiplications, la valeur a dû être saisie <emphasis
 >avant</emphasis
 > le pourcentage.</para
@@ -668,7 +668,7 @@ during the non-working days (Christmas, Easter, etc.).</para
 
 <procedure>
 <title
->Combien font 3000 yens moins 20 % ?</title>
+>Combien font 3000 yens moins 20 % ? </title>
 <step
 ><para
 >Choisissez <guilabel
@@ -697,10 +697,10 @@ during the non-working days (Christmas, Easter, etc.).</para
 ><para
 >Saisissez<userinput
 >20</userinput
-> et cliquez sur le bouton <guibutton
->%</guibutton
-> ou appuyez sur la touche <keycap
->%</keycap
+> et cliquez sur le bouton<guibutton
+> % </guibutton
+>ou appuyez sur la touche<keycap
+> % </keycap
 >. Tout comme avec les multiplications, la valeur a dû être saisie <emphasis
 >avant</emphasis
 > le pourcentage.</para
@@ -740,7 +740,7 @@ during the non-working days (Christmas, Easter, etc.).</para
 ><para
 >Rappelez la valeur en mémoire en cliquant sur le bouton <guibutton
 >MR</guibutton
-> (Memory Recall).</para
+> (Rappel mémoire).</para
 ></step>
 </procedure>
 
@@ -861,14 +861,15 @@ during the non-working days (Christmas, Easter, etc.).</para
 <member
 >Sort de KEuroCalc</member>
 
+<!--This is changed at runtime by DrClash 
 <member
 ><keycombo action="simul"
 >&Alt; <keycap
->A</keycap
+>H</keycap
 ></keycombo
 ></member>
 <member
->Affiche ces pages d'aide</member>
+>Displays these help pages</member>
 
 <member
 ><keycombo action="simul"
@@ -877,19 +878,19 @@ during the non-working days (Christmas, Easter, etc.).</para
 ></keycombo
 ></member>
 <member
->Aller dans la zone Devise</member>
+>Goes to the currency selection area</member>
 
 <member
 ><keycombo action="simul"
 >&Alt; <keycap
->P</keycap
+>A</keycap
 ></keycombo
 ></member>
 <member
->Affiche la fenêtre <guilabel
->À propos de...</guilabel
-></member>
-
+>Displays the <guilabel
+>About</guilabel
+> box</member>
+-->
 <member
 ><keycap
 >0</keycap
@@ -1351,10 +1352,10 @@ not optimal.</para>
 >Comment obtenir &keurocalc;</title>
 
 <para
->&keurocalc; fait partie du paquetage <ulink url="http://extragear.kde.org/"
+>&keurocalc; fait partie du paquet <ulink url="http://extragear.kde.org/"
 >KDE extragear-utils</ulink
->. La dernière version de &keurocalc; peut être télécharger depuis son <ulink url="http://opensource.bureau-cornavin.com/keurocalc/"
->site</ulink
+>. La dernière version de &keurocalc; peut être télécharger depuis la <ulink url="http://opensource.bureau-cornavin.com/keurocalc/"
+>page d'accueil</ulink
 >. </para>
 
 </sect1>
@@ -1364,7 +1365,7 @@ not optimal.</para>
 >Pré requis</title>
 
 <para
->Pour utiliser avec succès &keurocalc;, vous avez besoin de &kde; 4.0.</para>
+>Pour utiliser avec succès &keurocalc;, vous avez besoin de &kde; 4.</para>
 
 <para
 >Toutes les bibliothèques requises peuvent être trouvées sur <ulink url="ftp://ftp.kde.org"

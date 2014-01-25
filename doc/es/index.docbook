@@ -48,7 +48,17 @@
 
 <copyright>
 <year
->2001-2012</year>
+>2001</year>
+<year
+>2002</year>
+<year
+>2003</year>
+<year
+>2004</year>
+<year
+>2005</year>
+<year
+>2006</year>
 <holder
 >Éric Bischoff</holder>
 </copyright>
@@ -56,13 +66,13 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2012-02-07</date>
+>2006-04-03</date>
 <releaseinfo
->1.2.0</releaseinfo>
+>0.09.06</releaseinfo>
 
 <abstract>
 <para
->&keurocalc; is an universal pocket currency converter and calculator. This documentation describes &keurocalc; version 1.2.0. </para>
+>&keurocalc; es un conversor universal de bolsillo de divisas y una calculadora. Está documentación describe la versión 0.9.6 de &keurocalc;. </para>
 </abstract>
 
 <keywordset>
@@ -90,7 +100,7 @@
 >&keurocalc; es un conversor universal de bolsillo de divisas y una calculadora. </para>
 
 <para
->On the 1st of January, 2002, 12 European countries united their national currencies into a single one, the euro (€). The same happens from time to time on a smaller scale with new European countries. &keurocalc; helps: <variablelist>
+>El 1 de Enero de 2002, 12 países europeos unieron sus divisas nacionales en una única, el euro (€). Lo mismo sucederá probablemente con algunos países del este europeo en 2007. &keurocalc; ayudará: <variablelist>
 <varlistentry>
 <term
 >Durante el periodo de transición:</term>
@@ -127,37 +137,23 @@
 ><itemizedlist>
 <listitem
 ><para
->To do conversions between the euro and other currencies, like the British Pound, according to the daily exchange rate published by the <ulink url="http://www.ecb.int/stats/eurofxref/"
->European Central Bank (ECB)</ulink
+>Para hacer las conversiones entre el euro y otras divisas, como la libra británica, de acuerdo con el cambio diario definido por el <ulink url="http://www.ecb.int/stats/eurofxref/"
+>Banco Central Europeo (BCE)</ulink
 >.</para
 ></listitem>
 <listitem
 ><para
->To do conversions between any two currencies that are part of the list published by the ECB.</para
+>Para hacer conversiones entre dos divisas que formen parte de la lista publicada por el BCE.</para
 ></listitem>
-<!--listitem
+<listitem
 ><para
->To do conversions between the US dollar and other currencies
-according to the daily exchange rate published by the
-<ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
->New York
-Federal Reserve Bank (NY FRB)</ulink
+>Para hacer conversiones entre el dólar americano y otras divisas de acuerdo con el cambio diario definido por el <ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
+>Banco de la Reserva Federal de Nueva York (NY FRB)</ulink
 >.</para
 ></listitem>
 <listitem
 ><para
->To do conversions between any two currencies that are part of the list
-published by the NY FRB.</para
-></listitem-->
-<listitem
-><para
->To do conversions between the euro and other currencies, like the British Pound, according to the daily exchange rate published by the <ulink url="http://rss.timegenie.com/foreign_exchange_rates_forex"
->Time Genie</ulink
-> foreign exchange (TG).</para
-></listitem>
-<listitem
-><para
->To do conversions between any two currencies that are part of the list published by the TG.</para
+>Para hacer conversiones entre dos divisas que se incluyan en la lista publicada por el NY FRB.</para
 ></listitem>
 </itemizedlist
 ></para>
@@ -171,7 +167,7 @@ published by the NY FRB.</para
 >&keurocalc; tiene las siguientes ventajas en términos de comodidad y usabilidad: <itemizedlist>
 <listitem
 ><para
->You see every intermediate value and the result in both the reference currency (euro) and in the other currency.</para
+>Verá valores intermedios y el resultado en las dos divisas de referencia (euro o dólar) y en la otra divisa.</para
 ></listitem>
 <listitem
 ><para
@@ -179,7 +175,7 @@ published by the NY FRB.</para
 ></listitem>
 <listitem
 ><para
->The ergonomy is very close to usual pocket calculators, despite the fact that any value you type can be a value in the reference currency (euro), a value in the other currency, a percentage or an unit-less quantity.</para
+>La ergonomía es muy cercana a las calculadoras de bolsillo, a pesar del hecho de que cualquier valor que teclee puede ser un valor en la divisa de referencia (euro o dólar), un valor en la otra divisa, un porcentaje o una cantidad negativa.</para
 ></listitem>
 <listitem
 ><para
@@ -191,11 +187,11 @@ published by the NY FRB.</para
 ></listitem>
 <listitem
 ><para
->The numbers are displayed according to your locale settings: with either a comma or a dot as a decimal point, according to your &systemsettings; settings.</para
+>Los números se muestran de acuerdo con su configuración local: con una coma o un punto como separador decimal, de acuerdo con las preferencias de &kcontrol;.</para
 ></listitem>
 <listitem
 ><para
->You can decide where &keurocalc; should download the conversion rates from, which currency to start with when you launch &keurocalc;, and which rounding method to use.</para
+>Puede decidir qué divisa de referencia utilizar (euro o dólar), que otra divisa iniciar cuando inicie &keurocalc;, y qué método de redondeo utilizar.</para
 ></listitem>
 </itemizedlist>
 </para>
@@ -204,7 +200,7 @@ published by the NY FRB.</para
 >&keurocalc; permite las siguientes operaciones: <itemizedlist>
 <listitem
 ><para
->Conversions from and to the reference currency (euro).</para
+>Conversiones de y a la divisa de referencia (euro o dólar).</para
 ></listitem>
 <listitem
 ><para
@@ -239,21 +235,18 @@ published by the NY FRB.</para
 ><para
 >Las divisas inflacionistas no puede manejarse debido al tamaño limitado de la pantalla. Sin embargo, con el cambio de la nueva lira turca y la eliminación de seis ceros en esta divisa, en la práctica no resulta un problema.</para
 ></listitem>
-<!-- listitem
+<listitem
 ><para
->New York Federal Reserve Bank rates are not available
-during the non-working days (Christmas, Easter, etc.).</para
-></listitem-->
+>Los cambios del Banco de la Reserva Federal de Nueva York no estarán disponibles durante los días que no se trabaje (Navidad, Pascua, etc.).</para
+></listitem>
 </itemizedlist>
 </para>
 
 <warning
 ><para
->&keurocalc; never guarantees the exactness of the exchange rates nor the accuracy of the result. You are always invited to verify your computations by some other means. As the <link linkend="credits"
->license</link
-> agreement states, there's no liability of the authors if the results are not correct or as expected. Also, please notice that the variable exchange rates are downloaded in an unencrypted and therefore insecure manner from the data sources (European Central Bank and Time Genie). Some <quote
->man-in-the-middle</quote
-> attacker may confuse &keurocalc; by forging exchange rates. More simply, a transmission error is always possible.</para
+>&keurocalc; nunca garantizará la exactitud de los cambios ni del resultado. Siempre podrá comprobar sus cálculos de otra forma. Si los resultados no son correctos o no son los esperados los autores no tendrán responsabilidad, de conformidad con <link linkend="credits"
+>licencia</link
+> de acuerdo de los países. Tenga en cuenta que los cambios variables se descargan sin encriptación de las fuentes de datos (Banco Central Europeo y Banco de la Reserva Federal de Nueva York) y son fuentes de datos inseguras. Algunas «personas mal intencionadas» pueden confundir &keurocalc; forzando los cambios. Más simple, es posible que se produzca una transmisión errónea.</para
 ></warning>
 
 </chapter>
@@ -381,11 +374,11 @@ during the non-working days (Christmas, Easter, etc.).</para
 ></step>
 <step
 ><para
->Just select the <guilabel
->ESP - Spanish peseta</guilabel
-> item to see the same amount of 61.36 € converted into pesetas in the <guilabel
->Result</guilabel
-> area.</para
+>A continuación seleccione el elemento <guilabel
+>ESP - Peseta española</guilabel
+> para ver la misma cantidad de 61,36 € convertida en pesetas en el área <guilabel
+>Resultado</guilabel
+>.</para
 ></step>
 </procedure>
 
@@ -410,13 +403,15 @@ during the non-working days (Christmas, Easter, etc.).</para
 ></step>
 <step
 ><para
->Type <userinput
+>Teclee <userinput
 >5</userinput
-> and then press the <guibutton
->Enter</guibutton
-> button or the &Enter; key. The result <computeroutput
+> y pulse el botón <guibutton
+>Introducir</guibutton
+> o la tecla <keycap
+>Entrar</keycap
+>. El resultado <computeroutput
 >8</computeroutput
-> appears on the right.</para
+> aparece a la derecha.</para
 ></step>
 </procedure>
 
@@ -425,15 +420,17 @@ during the non-working days (Christmas, Easter, etc.).</para
 >Recibió 100 dólares americanos y pagó 32,50 euros por un libro, ¿Cuánto debe dejar en su cuenta del banco?</title>
 <step
 ><para
->Make sure that the variable exchange rates are available. If not, press the <guibutton
->Settings...</guibutton
-> to select either <guilabel
->Euro, European Central Bank</guilabel
-> or <guilabel
->Euro, Time Genie</guilabel
->. Now select the <guilabel
->USD - US dollar</guilabel
-> item in the scroll down list on the bottom. If you have no Internet access, that item won't be available as the latest variable rates between the euro and the dollar cannot be determined.</para
+>Asegúrese de que están disponibles los cambios variables. Sino lo están, pulse <guibutton
+>Preferencias...</guibutton
+> para seleccionar <guilabel
+>Euro, Banco Central Europeo</guilabel
+> o <guilabel
+>Dólar, Banco de la Reserva Federal de Nueva York</guilabel
+>. Seleccione los elementos <guilabel
+>USD - Dólar americano</guilabel
+> o <guilabel
+>EUR - Euro UE</guilabel
+> en el desplegable inferior. Si no tiene acceso a Internet, no estará disponible el elemento y los últimos cambios variables entre el euro y el dólar no se podrán determinar.</para
 ></step>
 <step
 ><para
@@ -467,9 +464,9 @@ during the non-working days (Christmas, Easter, etc.).</para
 ></step>
 <step
 ><para
->Read the result in the <guilabel
->Result</guilabel
-> display on the right. The exact value might depend on latest exchange rates. Notice that during the whole computation you've been able to read the values both in euro and in US dollars. Pay attention to the fact that different data sources (ECB or TG) might not provide the same conversion rate between the euro and the dollar.</para
+>Lea el resultado en la pantalla <guilabel
+>Resultado</guilabel
+> situada a la derecha. El valor exacto puede depender del último cambio. Tenga en cuenta que durante todo el cálculo podrá leer los valores tanto en euros como en dólares americanos. Ponga atención en el hecho de que las diferentes fuentes de datos (BCE o NY FRB) pueden no proporcionar el mismo cambio entre el euro y el dólar.</para
 ></step>
 </procedure>
 
@@ -516,13 +513,13 @@ during the non-working days (Christmas, Easter, etc.).</para
 ></step>
 <step
 ><para
->The result <computeroutput
->-43.72 €</computeroutput
-> is negative, indicating that change money has to be given back to the customer. The <guibutton
+>El resultado, <computeroutput
+>-43,72 €</computeroutput
+> es negativo, lo que indica el cambio que tendrá que devolver al comprador. El botón <guibutton
 >+/-</guibutton
-> button or the <keycap
+> o la tecla <keycap
 >S</keycap
-> key permit you to change the sign of the result.</para
+> le permitirán cambiar el signo del resultado.</para
 ></step>
 </procedure>
 
@@ -568,18 +565,18 @@ during the non-working days (Christmas, Easter, etc.).</para
 ></step>
 <step
 ><para
->Now type <userinput
->3.2</userinput
-> followed by the <guibutton
->Enter</guibutton
-> button or the &Enter; key: this means <quote
->3.2 units</quote
-> at 2 € each.</para
+>Ahora teclee <userinput
+>3,2</userinput
+> seguido del botón <guibutton
+>Introducir</guibutton
+> o la tecla <keycap
+>Entrar</keycap
+>: Esto significa «3,2 unidades» a 2 € cada una.</para
 ></step>
 <step
 ><para
->The result in Australian dollars matches <computeroutput
->6.4 €</computeroutput
+>El resultado en dólares australianos será <computeroutput
+>6,4 €</computeroutput
 >.</para
 ></step>
 </procedure>
@@ -763,7 +760,7 @@ during the non-working days (Christmas, Easter, etc.).</para
 </procedure>
 
 <para
->Internally, the values are recalled with no unit or in the reference currency (euro) with the maximum precision allowed by the mathematical library. In some rare cases, this might lead to rounding problems if the stored value is a rounded value in a non-reference currency.</para>
+>Internamente, el valor se recupera sin unidades o en la moneda de referencia (euro o dólar) con la máxima precisión permitida por la biblioteca matemática. En raros casos, se producirán problemas de redondeo si el valor guardado es un valor redondeado  en una moneda que no es la de referencia.</para>
 
 <procedure>
 <title
@@ -940,8 +937,10 @@ during the non-working days (Christmas, Easter, etc.).</para
 >Operadores: suma, resta, multiplicación y división.</member>
 
 <member
->&Enter; and <keycap
->Return</keycap
+><keycap
+>Introducir</keycap
+> y <keycap
+>Entrar</keycap
 ></member>
 <member
 >Validación del número introducido considerado un valor simple, sin unidad.</member>
@@ -959,9 +958,13 @@ during the non-working days (Christmas, Easter, etc.).</para
 >Elimina la última entrada: dígitos, separador decimal u operador.</member>
 
 <member
->&Tab; and <keycombo action="simul"
->&Shift; &Tab;</keycombo
-> keys</member>
+>Teclas <keycap
+>Tab</keycap
+> y <keycombo action="simul"
+>&Shift; <keycap
+>Tab</keycap
+></keycombo
+></member>
 <member
 >Se mueve de un botón al siguiente o al anterior</member>
 
@@ -982,7 +985,7 @@ during the non-working days (Christmas, Easter, etc.).</para
 >$</keycap
 ></member>
 <member
->Validation of input number considered as a value expressed in the reference currency (euro)</member>
+>Validación del número introducido considerado como un valor expresado en la moneda de referencia (euro o dólar).</member>
 
 <member
 ><keycap
@@ -1043,7 +1046,7 @@ during the non-working days (Christmas, Easter, etc.).</para
 >$</guibutton
 ></member>
 <member
->Validation of input number considered as a value expressed in the reference currency (euro)</member>
+>Validación del número introducido considerado como un valor expresado en la moneda de referencia (euro o dólar).</member>
 
 <member
 >El botón etiquetado con el nombre de otra moneda.</member>
@@ -1106,7 +1109,9 @@ during the non-working days (Christmas, Easter, etc.).</para
 
 <member
 ><guibutton
->About</guibutton
+><accel
+>A</accel
+>cerca de</guibutton
 ></member>
 <member
 >Muestra el cuadro <guilabel
@@ -1115,7 +1120,9 @@ during the non-working days (Christmas, Easter, etc.).</para
 
 <member
 ><guibutton
->Help</guibutton
+>A<accel
+>y</accel
+>uda</guibutton
 ></member>
 <member
 >Muestra estas páginas de ayuda.</member>
@@ -1142,7 +1149,7 @@ during the non-working days (Christmas, Easter, etc.).</para
 >Divisa de referencia, origen de las cotizaciones</title>
 
 <para
->This setting defines from where &keurocalc; should download the exchange rates between the reference currency and other currencies. The following choices are available:</para>
+>Esta configuración define la divisa de referencia (euro o dólar), y de dónde debería descargar &keurocalc; los cambios entre la divisa de referencia y otras monedas. Están disponibles las siguientes elecciones:</para>
 
 <variablelist>
 <varlistentry>
@@ -1171,37 +1178,18 @@ during the non-working days (Christmas, Easter, etc.).</para
 </listitem>
 </varlistentry>
 
-<!--varlistentry>
-<term
-><guilabel
->Dollar, New York Federal Reserve Bank</guilabel
-></term>
-<listitem>
-<para
->Dollar is the reference currency. There are no fixed exchange rates.
-&keurocalc; attempts to download the variable rates from the
-<ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
->New York
-Federal Reserve Bank (NY FRB)</ulink
->.</para>
-<para
->Currently, &keurocalc; has a problem determining the date of the latest
-exchange rates published by that bank, because of time zone offsets and non-working
-days. For safety, &keurocalc; always asks for yesterday's rates, which is of course
-not optimal.</para>
-</listitem>
-</varlistentry-->
-
 <varlistentry>
 <term
 ><guilabel
->Euro, Time Genie</guilabel
+>Dólar, Banco de la Reserva Federal de Nueva York</guilabel
 ></term>
 <listitem>
 <para
->Euro is the reference currency. The fixed exchange rates are available. &keurocalc; attempts to download the variable rates from the <ulink url="http://rss.timegenie.com/foreign_exchange_rates_forex"
->Time Genie (TG)</ulink
+>El dólar será la divisa de referencia. No estarán disponibles los cambios fijos. &keurocalc; intenta descargar los cambios variables del <ulink url="http://www.ny.frb.org/markets/fxrates/noon.cfm"
+>Banco de la Reserva Federeal de Nueva York (NY FRB)</ulink
 >.</para>
+<para
+>Actualmente, &keurocalc; tiene un problema para determinar la fecha del último cambio publicado por este banco, debido a los desfases horarios y a los días que no se trabaja. Por seguridad, &keurocalc; siempre pregunta por el cambio del día anterior, que por supuesto, no es óptimo.</para>
 </listitem>
 </varlistentry>
 
@@ -1274,7 +1262,7 @@ not optimal.</para>
 
 <sect2 id="settings-look-and-feel">
 <title
->Look and feel</title>
+>Aspecto y comportamiento</title>
 
 <para
 >Esta configuración define el aspecto y el comportamiento de &keurocalc;. Están disponibles las siguientes funciones:</para>
@@ -1320,7 +1308,7 @@ not optimal.</para>
 >&keurocalc;</para>
 
 <para
->Program copyright 2001-2012 the &keurocalc; developers: <itemizedlist>
+>Derechos de autor del programa. 2001-2006. Los desarrolladores de &keurocalc;: <itemizedlist>
 <listitem
 ><para
 >Éric Bischoff <email
@@ -1331,7 +1319,7 @@ not optimal.</para>
 ><para
 >Gil Gross <email
 >ptit.ours@_NOSPAM_gmail.com</email
-> - additional functionality</para
+> - funcionalidad adicional.</para
 ></listitem>
 <listitem
 ><para
@@ -1349,8 +1337,8 @@ not optimal.</para>
 ></para>
 
 <para
->Documentation copyright 2001-2012 Éric Bischoff <email
->ebischoff@_NOSPAM_nerim.net</email
+>Derechos de autor de la documentación. 2001-2006. Éric Bischoff <email
+>e.bischoff@_NOSPAM_noos.fr</email
 >.</para>
 
 <para
@@ -1384,7 +1372,7 @@ not optimal.</para>
 >Requerimientos</title>
 
 <para
->In order to successfully use &keurocalc;, you need &kde; 4.0.</para>
+>Para utilizar &keurocalc; correctamente, necesita &kde; 3.5.</para>
 
 <para
 >Todos las bibliotecas requeridas se pueden encontrar en <ulink url="ftp://ftp.kde.org"
@@ -1399,16 +1387,28 @@ not optimal.</para>
 
 <para
 >Para compilar e instalar &keurocalc; en su sistema, teclee lo siguiente en el directorio base de la distribución de &keurocalc;: <screen width="40"
-><prompt>%</prompt> <userinput>mkdir build</userinput>
-<prompt>%</prompt> <userinput>cd build</userinput>
-<prompt>%</prompt> <userinput>cmake ..</userinput>
-<prompt>%</prompt> <userinput>make</userinput>
-<prompt>%</prompt> <userinput>make install</userinput>
+><prompt
+>%</prompt
+> <userinput
+>./configure</userinput>
+<prompt
+>%</prompt
+> <userinput
+>make</userinput>
+<prompt
+>%</prompt
+> <userinput
+>make install</userinput
+>
 </screen>
 </para>
 
 <para
->Since cmake autodetects your system settings, you should have no trouble compiling &keurocalc;. Should you run into problems please report them to &keurocalc;'s authors.</para>
+>Como &keurocalc; utiliza <application
+>autoconf</application
+> y <application
+>automake</application
+> no debería haber problema al compilar. Si encuentra problemas informe de ellos a los autores de &keurocalc;.</para>
 
 </sect1>
 

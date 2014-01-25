@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keurocalc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-26 03:57+0000\n"
-"PO-Revision-Date: 2012-02-26 22:15+0000\n"
+"POT-Creation-Date: 2012-08-07 11:18+0000\n"
+"PO-Revision-Date: 2012-08-12 12:27+0100\n"
 "Last-Translator: José Nuno Pires <zepires@gmail.com>\n"
 "Language-Team: pt <kde-i18n-pt@kde.org>\n"
 "Language: \n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-POFile-SpellExtra: FRF Willems ESP Enter EUR extragear install JPY\n"
 "X-POFile-SpellExtra: Bischoff Tab MR UE Recall belges Min uda francs Gross\n"
 "X-POFile-IgnoreConsistency: Reset\n"
-"X-POFile-SpellExtra: cmake CMake mkdir build cd Genie TG\n"
+"X-POFile-SpellExtra: cmake CMake mkdir build cd Genie TG Time\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-IgnoreConsistency: Enter\n"
 
@@ -1133,68 +1133,32 @@ msgstr "&Alt; <keycap>F4</keycap>"
 msgid "Exits from &keurocalc;"
 msgstr "Sai do &keurocalc;"
 
-#. Tag: keycombo
-#: index.docbook:439
-#, no-c-format
-msgid "&Alt; <keycap>A</keycap>"
-msgstr "&Alt; <keycap>A</keycap>"
-
 #. Tag: member
-#: index.docbook:440 index.docbook:533
-#, no-c-format
-msgid "Displays these help pages"
-msgstr "Mostra estas páginas de ajuda"
-
-#. Tag: keycombo
-#: index.docbook:442
-#, no-c-format
-msgid "&Alt; <keycap>C</keycap>"
-msgstr "&Alt; <keycap>C</keycap>"
-
-#. Tag: member
-#: index.docbook:443
-#, no-c-format
-msgid "Goes to the currency selection area"
-msgstr "Vai para a área de selecção da moeda"
-
-#. Tag: keycombo
-#: index.docbook:445
-#, no-c-format
-msgid "&Alt; <keycap>H</keycap>"
-msgstr "&Alt; <keycap>H</keycap>"
-
-#. Tag: member
-#: index.docbook:446 index.docbook:530
-#, no-c-format
-msgid "Displays the <guilabel>About</guilabel> box"
-msgstr "Mostra a janela <guilabel>Acerca</guilabel>"
-
-#. Tag: member
-#: index.docbook:448
+#: index.docbook:449
 #, no-c-format
 msgid "<keycap>0</keycap> - <keycap>9</keycap>"
 msgstr "<keycap>0</keycap> - <keycap>9</keycap>"
 
 #. Tag: member
-#: index.docbook:449 index.docbook:493
+#: index.docbook:450 index.docbook:494
 #, no-c-format
 msgid "Input digits"
 msgstr "Introduz algarismos"
 
 #. Tag: member
-#: index.docbook:451
+#: index.docbook:452
 #, no-c-format
 msgid "<keycap>.</keycap> or <keycap>,</keycap>"
 msgstr "<keycap>.</keycap> ou <keycap>,</keycap>"
 
 #. Tag: member
-#: index.docbook:452 index.docbook:496
+#: index.docbook:453 index.docbook:497
 #, no-c-format
 msgid "Decimal separator"
 msgstr "Separador decimal"
 
 #. Tag: member
-#: index.docbook:454
+#: index.docbook:455
 #, no-c-format
 msgid ""
 "<keycap>+</keycap>, <keycap>-</keycap>, <keycap>*</keycap> and <keycap>/</"
@@ -1204,93 +1168,93 @@ msgstr ""
 "keycap>"
 
 #. Tag: member
-#: index.docbook:455 index.docbook:524
+#: index.docbook:456 index.docbook:525
 #, no-c-format
 msgid "Operators: addition, subtraction, multiplication and division"
 msgstr "Operadores: soma, subtracção, multiplicação e divisão"
 
 #. Tag: member
-#: index.docbook:457
+#: index.docbook:458
 #, no-c-format
 msgid "&Enter; and <keycap>Return</keycap>"
 msgstr "&Enter; e <keycap>Return</keycap>"
 
 #. Tag: member
-#: index.docbook:458 index.docbook:512
+#: index.docbook:459 index.docbook:513
 #, no-c-format
 msgid "Validation of input number considered as a simple, unitless, value"
 msgstr ""
 "Validação do número introduzido como sendo um valor simples e sem unidade"
 
 #. Tag: keycap
-#: index.docbook:460
+#: index.docbook:461
 #, no-c-format
 msgid "<keycap>%</keycap>"
 msgstr "<keycap>%</keycap>"
 
 #. Tag: member
-#: index.docbook:461 index.docbook:515
+#: index.docbook:462 index.docbook:516
 #, no-c-format
 msgid "Validation of input number considered as a percentage"
 msgstr "Validação do número introduzido como uma percentagem"
 
 #. Tag: member
-#: index.docbook:463
+#: index.docbook:464
 #, no-c-format
 msgid "&Backspace;"
 msgstr "&Backspace;"
 
 #. Tag: member
-#: index.docbook:464 index.docbook:499
+#: index.docbook:465 index.docbook:500
 #, no-c-format
 msgid "Removal of last input: digits, decimal separator or operator"
 msgstr ""
 "Remoção do último dado introduzido: algarismos, separador decimal ou operador"
 
 #. Tag: member
-#: index.docbook:466
+#: index.docbook:467
 #, no-c-format
 msgid "&Tab; and <keycombo action=\"simul\">&Shift; &Tab;</keycombo> keys"
 msgstr "Teclas &Tab; e <keycombo action=\"simul\">&Shift; &Tab;</keycombo>"
 
 #. Tag: member
-#: index.docbook:467
+#: index.docbook:468
 #, no-c-format
 msgid "Moves from one button to the next or previous one"
 msgstr "Move de um botão para o próximo ou para o anterior, respectivamente"
 
 #. Tag: member
-#: index.docbook:469
+#: index.docbook:470
 #, no-c-format
 msgid "Arrow keys"
 msgstr "Teclas de cursores"
 
 #. Tag: member
-#: index.docbook:470
+#: index.docbook:471
 #, no-c-format
 msgid "In the currency selection area, moves from one currency to the other"
 msgstr "Na área de selecção da moeda, muda de uma moeda para a outra"
 
 #. Tag: member
-#: index.docbook:472
+#: index.docbook:473
 #, no-c-format
 msgid "Space bar"
 msgstr "Barra de espaço"
 
 #. Tag: member
-#: index.docbook:473
+#: index.docbook:474
 #, no-c-format
 msgid "When focus is on a push button, presses this button"
 msgstr "Quando o foco está sobre um botão, carrega neste botão"
 
 #. Tag: member
-#: index.docbook:475
+#: index.docbook:476
 #, no-c-format
 msgid "<keycap>E</keycap> or <keycap>$</keycap>"
 msgstr "<keycap>E</keycap> ou <keycap>$</keycap>"
 
 #. Tag: member
-#: index.docbook:476 index.docbook:505
+#: index.docbook:477 index.docbook:506
 #, no-c-format
 msgid ""
 "Validation of input number considered as a value expressed in the reference "
@@ -1300,97 +1264,97 @@ msgstr ""
 "referência (euros)"
 
 #. Tag: keycap
-#: index.docbook:479
+#: index.docbook:480
 #, no-c-format
 msgid "<keycap>S</keycap>"
 msgstr "<keycap>S</keycap>"
 
 #. Tag: member
-#: index.docbook:480 index.docbook:518
+#: index.docbook:481 index.docbook:519
 #, no-c-format
 msgid "Change sign of the result"
 msgstr "Muda o sinal do resultado"
 
 #. Tag: member
-#: index.docbook:482
+#: index.docbook:483
 #, no-c-format
 msgid "Any other key"
 msgstr "Outra tecla qualquer"
 
 #. Tag: member
-#: index.docbook:483 index.docbook:509
+#: index.docbook:484 index.docbook:510
 #, no-c-format
 msgid "Validation of input number considered as a number in the other currency"
 msgstr "Validação do número introduzido como um valor noutra moeda"
 
 #. Tag: title
-#: index.docbook:489
+#: index.docbook:490
 #, no-c-format
 msgid "The buttons"
 msgstr "Os botões"
 
 #. Tag: member
-#: index.docbook:492
+#: index.docbook:493
 #, no-c-format
 msgid "<guibutton>0</guibutton> to <guibutton>9</guibutton>"
 msgstr "<guibutton>0</guibutton> a <guibutton>9</guibutton>"
 
 #. Tag: member
-#: index.docbook:495
+#: index.docbook:496
 #, no-c-format
 msgid "<guibutton>.</guibutton> or <guibutton>,</guibutton>"
 msgstr "<guibutton>.</guibutton> ou <guibutton>,</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:498
+#: index.docbook:499
 #, no-c-format
 msgid "&lt;-"
 msgstr "&lt;-"
 
 #. Tag: guibutton
-#: index.docbook:501
+#: index.docbook:502
 #, no-c-format
 msgid "<guibutton>AC</guibutton>"
 msgstr "<guibutton>AC</guibutton>"
 
 #. Tag: member
-#: index.docbook:502
+#: index.docbook:503
 #, no-c-format
 msgid "Clear all: both input and result area"
 msgstr "Limpar tudo: tanto os parâmetros como a área de resultado"
 
 #. Tag: member
-#: index.docbook:504
+#: index.docbook:505
 #, no-c-format
 msgid "<guibutton>€</guibutton> or <guibutton>$</guibutton>"
 msgstr "<guibutton>€</guibutton> ou <guibutton>$</guibutton>"
 
 #. Tag: member
-#: index.docbook:508
+#: index.docbook:509
 #, no-c-format
 msgid "The button labeled with the name of an other currency"
 msgstr "O botão assinalado com o nome da outra moeda"
 
 #. Tag: guibutton
-#: index.docbook:511
+#: index.docbook:512
 #, no-c-format
 msgid "Enter"
 msgstr "Introduzir"
 
 #. Tag: guibutton
-#: index.docbook:514
+#: index.docbook:515
 #, no-c-format
 msgid "<guibutton>%</guibutton>"
 msgstr "<guibutton>%</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:517
+#: index.docbook:518
 #, no-c-format
 msgid "<guibutton>+/-</guibutton>"
 msgstr "<guibutton>+/-</guibutton>"
 
 #. Tag: member
-#: index.docbook:520
+#: index.docbook:521
 #, no-c-format
 msgid ""
 "<guibutton>Min</guibutton>, <guibutton>MR</guibutton>, <guibutton>M+</"
@@ -1400,7 +1364,7 @@ msgstr ""
 "guibutton> e <guibutton>M-</guibutton>"
 
 #. Tag: member
-#: index.docbook:521
+#: index.docbook:522
 #, no-c-format
 msgid ""
 "Store result in memory, recall memory into result, add result to memory and "
@@ -1410,7 +1374,7 @@ msgstr ""
 "adiciona o resultado à memória ou subtrai-o, respectivamente"
 
 #. Tag: member
-#: index.docbook:523
+#: index.docbook:524
 #, no-c-format
 msgid ""
 "<guibutton>/</guibutton>, <guibutton>X</guibutton>, <guibutton>-</guibutton> "
@@ -1420,55 +1384,67 @@ msgstr ""
 "e <guibutton>+</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:526
+#: index.docbook:527
 #, no-c-format
 msgid "Reset"
 msgstr "Reiniciar"
 
 #. Tag: member
-#: index.docbook:527
+#: index.docbook:528
 #, no-c-format
 msgid "Reset both input, result and memory"
 msgstr "Limpar o valor introduzido, o resultado e a memória"
 
 #. Tag: guibutton
-#: index.docbook:529
+#: index.docbook:530
 #, no-c-format
 msgid "About"
 msgstr "Acerca"
 
+#. Tag: member
+#: index.docbook:531
+#, no-c-format
+msgid "Displays the <guilabel>About</guilabel> box"
+msgstr "Mostra a janela <guilabel>Acerca</guilabel>"
+
 #. Tag: guibutton
-#: index.docbook:532
+#: index.docbook:533
 #, no-c-format
 msgid "Help"
 msgstr "Ajuda"
 
 #. Tag: member
-#: index.docbook:535
+#: index.docbook:534
+#, no-c-format
+msgid "Displays these help pages"
+msgstr "Mostra estas páginas de ajuda"
+
+#. Tag: member
+#: index.docbook:536
 #, no-c-format
 msgid "The drop down list with currency codes and names"
 msgstr "A lista com os códigos e os nomes das moedas"
 
 #. Tag: member
-#: index.docbook:536
+#: index.docbook:537
 #, no-c-format
 msgid "Selects an other currency to work with"
 msgstr "Selecciona outra moeda com a qual trabalhar"
 
 #. Tag: title
-#: index.docbook:542
+#: index.docbook:543
 #, no-c-format
 msgid "The Settings Dialog"
 msgstr "A Janela de Configuração"
 
 #. Tag: title
-#: index.docbook:549
+#: index.docbook:550
 #, no-c-format
 msgid "Reference currency, rates origin"
 msgstr "Moeda de referência, origem das taxas"
 
 #. Tag: para
-#: index.docbook:551
+#: index.docbook:552
 #, no-c-format
 msgid ""
 "This setting defines from where &keurocalc; should download the exchange "
@@ -1480,13 +1456,13 @@ msgstr ""
 "seguintes opções:"
 
 #. Tag: guilabel
-#: index.docbook:558
+#: index.docbook:559
 #, no-c-format
 msgid "Euro, no network access (fixed rates only)"
 msgstr "Euro, sem acesso à rede (taxas fixas apenas)"
 
 #. Tag: para
-#: index.docbook:560
+#: index.docbook:561
 #, no-c-format
 msgid ""
 "Euro is the reference currency. No variable rate is downloaded or used. The "
@@ -1498,19 +1474,19 @@ msgstr ""
 "fixa com o euro."
 
 #. Tag: para
-#: index.docbook:563
+#: index.docbook:564
 #, no-c-format
 msgid "This setting is adapted to computers with no network access."
 msgstr "Esta configuração está adaptada aos computadores sem rede."
 
 #. Tag: guilabel
-#: index.docbook:568
+#: index.docbook:569
 #, no-c-format
 msgid "Euro, European Central Bank"
 msgstr "Euro, Banco Central Europeu"
 
 #. Tag: para
-#: index.docbook:570
+#: index.docbook:571
 #, no-c-format
 msgid ""
 "Euro is the reference currency. The fixed exchange rates are available. "
@@ -1522,13 +1498,13 @@ msgstr ""
 "int/stats/eurofxref/\">Banco Central Europeu(ECB)</ulink>."
 
 #. Tag: guilabel
-#: index.docbook:591
+#: index.docbook:592
 #, no-c-format
 msgid "Euro, Time Genie"
 msgstr "Euro, Time Genie"
 
 #. Tag: para
-#: index.docbook:593
+#: index.docbook:594
 #, no-c-format
 msgid ""
 "Euro is the reference currency. The fixed exchange rates are available. "
@@ -1541,13 +1517,13 @@ msgstr ""
 "timegenie.com/foreign_exchange_rates_forex/\">Time Genie (TG)</ulink>."
 
 #. Tag: title
-#: index.docbook:604
+#: index.docbook:605
 #, no-c-format
 msgid "Default currency"
 msgstr "Moeda predefinida"
 
 #. Tag: para
-#: index.docbook:606
+#: index.docbook:607
 #, no-c-format
 msgid ""
 "This setting defines the other currency that is used when &keurocalc; starts "
@@ -1557,7 +1533,7 @@ msgstr ""
 "inicia ou o utilizador valida a nova configuração."
 
 #. Tag: para
-#: index.docbook:609
+#: index.docbook:610
 #, no-c-format
 msgid ""
 "Notice that the selected currency might not be provided by the selected "
@@ -1567,13 +1543,13 @@ msgstr ""
 "seleccionada. Neste caso, a primeira moeda da lista é usada."
 
 #. Tag: title
-#: index.docbook:615
+#: index.docbook:616
 #, no-c-format
 msgid "Rounding"
 msgstr "Arredondamento"
 
 #. Tag: para
-#: index.docbook:617
+#: index.docbook:618
 #, no-c-format
 msgid ""
 "This setting defines how the results should be presented in the display "
@@ -1588,13 +1564,13 @@ msgstr ""
 "métodos de arredondamento:"
 
 #. Tag: guilabel
-#: index.docbook:624
+#: index.docbook:625
 #, no-c-format
 msgid "Official rounding rules"
 msgstr "Regras oficiais de arredondamento"
 
 #. Tag: para
-#: index.docbook:626
+#: index.docbook:627
 #, no-c-format
 msgid ""
 "The EU conversion rules or other official conversion rules are used. It "
@@ -1609,7 +1585,7 @@ msgstr ""
 "as moedas como o euro ou o dólar."
 
 #. Tag: para
-#: index.docbook:630
+#: index.docbook:631
 #, no-c-format
 msgid ""
 "For example, 158.323 yen would be rounded to 158 yen. 12.537 euro would be "
@@ -1619,13 +1595,13 @@ msgstr ""
 "seriam arredondados para 12,54 euros."
 
 #. Tag: guilabel
-#: index.docbook:636
+#: index.docbook:637
 #, no-c-format
 msgid "Smallest coin method"
 msgstr "Método da menor moeda"
 
 #. Tag: para
-#: index.docbook:638
+#: index.docbook:639
 #, no-c-format
 msgid ""
 "The result is rounded to the next value of the smallest coin that circulates "
@@ -1640,7 +1616,7 @@ msgstr ""
 "a moeda ter sido retirada: no caso da Lira italiana, era a moeda de 50 liras."
 
 #. Tag: para
-#: index.docbook:643
+#: index.docbook:644
 #, no-c-format
 msgid ""
 "For example, 1235.9 Italian liras would be rounded to 1250 liras. 39.45 "
@@ -1650,7 +1626,7 @@ msgstr ""
 "39,45 coroas norueguesas seriam arredondados para 39,50."
 
 #. Tag: para
-#: index.docbook:645
+#: index.docbook:646
 #, no-c-format
 msgid ""
 "We lack information about the smallest coins that exist in every country. "
@@ -1663,13 +1639,13 @@ msgstr ""
 "introduzida."
 
 #. Tag: guilabel
-#: index.docbook:652
+#: index.docbook:653
 #, no-c-format
 msgid "No rounding at all"
 msgstr "Sem arredondamento"
 
 #. Tag: para
-#: index.docbook:654
+#: index.docbook:655
 #, no-c-format
 msgid "The computed value is displayed unchanged, as a floating point number."
 msgstr ""
@@ -1677,13 +1653,13 @@ msgstr ""
 "flutuante."
 
 #. Tag: title
-#: index.docbook:663
+#: index.docbook:664
 #, no-c-format
 msgid "Look and feel"
 msgstr "Aparência e comportamento"
 
 #. Tag: para
-#: index.docbook:665
+#: index.docbook:666
 #, no-c-format
 msgid ""
 "This setting defines the appearance and behavior of &keurocalc;. The "
@@ -1693,13 +1669,13 @@ msgstr ""
 "disponíveis as seguintes opções:"
 
 #. Tag: guilabel
-#: index.docbook:670
+#: index.docbook:671
 #, no-c-format
 msgid "Display color"
 msgstr "Cor do ecrã"
 
 #. Tag: para
-#: index.docbook:672
+#: index.docbook:673
 #, no-c-format
 msgid ""
 "The background color of the display areas (both input and result). To change "
@@ -1714,13 +1690,13 @@ msgstr ""
 "guibutton> para validar a nova escolha."
 
 #. Tag: guilabel
-#: index.docbook:680
+#: index.docbook:681
 #, no-c-format
 msgid "Enable splash screen"
 msgstr "Activar o ecrã inicial"
 
 #. Tag: para
-#: index.docbook:682
+#: index.docbook:683
 #, no-c-format
 msgid ""
 "Uncheck this box if you do not want to initial picture to appear when "
@@ -1730,19 +1706,19 @@ msgstr ""
 "arrancar o &keurocalc;."
 
 #. Tag: title
-#: index.docbook:694
+#: index.docbook:695
 #, no-c-format
 msgid "Credits and License"
 msgstr "Créditos e Licença"
 
 #. Tag: para
-#: index.docbook:696
+#: index.docbook:697
 #, no-c-format
 msgid "&keurocalc;"
 msgstr "&keurocalc;"
 
 #. Tag: para
-#: index.docbook:698
+#: index.docbook:699
 #, no-c-format
 msgid "Program copyright 2001-2012 the &keurocalc; developers:"
 msgstr ""
@@ -1750,7 +1726,7 @@ msgstr ""
 "&keurocalc;:"
 
 #. Tag: para
-#: index.docbook:701
+#: index.docbook:702
 #, no-c-format
 msgid ""
 "Éric Bischoff <email>ebischoff@_NOSPAM_nerim.net</email> - design and "
@@ -1760,7 +1736,7 @@ msgstr ""
 "implementação"
 
 #. Tag: para
-#: index.docbook:702
+#: index.docbook:703
 #, no-c-format
 msgid ""
 "Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> - additional "
@@ -1770,7 +1746,7 @@ msgstr ""
 "adicionais"
 
 #. Tag: para
-#: index.docbook:703
+#: index.docbook:704
 #, no-c-format
 msgid ""
 "Melchior Franz <email>a8603365@_NOSPAM_unet.univie.ac.at</email> - design "
@@ -1780,7 +1756,7 @@ msgstr ""
 "testes"
 
 #. Tag: para
-#: index.docbook:704
+#: index.docbook:705
 #, no-c-format
 msgid ""
 "Bas Willems <email>cybersurfer@_NOSPAM_euronet.nl</email> - graphical artwork"
@@ -1788,7 +1764,7 @@ msgstr ""
 "Bas Willems <email>cybersurfer@_NOSPAM_euronet.nl</email> - artes gráficas"
 
 #. Tag: para
-#: index.docbook:707
+#: index.docbook:708
 #, no-c-format
 msgid ""
 "Documentation copyright 2001-2012 Éric Bischoff "
@@ -1798,38 +1774,38 @@ msgstr ""
 "<email>ebischoff@_NOSPAM_nerim.net</email>."
 
 #. Tag: para
-#: index.docbook:710
+#: index.docbook:711
 #, no-c-format
 msgid "Documentation reviewed by &Philip.Rodrigues; &Philip.Rodrigues.mail;."
 msgstr "Documentação revista por &Philip.Rodrigues; &Philip.Rodrigues.mail;."
 
 #. Tag: trans_comment
-#: index.docbook:711
+#: index.docbook:712
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
 "<para>Tradução de José Nuno Pires <email>zepires@gmail.com</email></para>"
 
 #. Tag: chapter
-#: index.docbook:711
+#: index.docbook:712
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&underFDL; &underGPL;"
 
 #. Tag: title
-#: index.docbook:719
+#: index.docbook:720
 #, no-c-format
 msgid "Installation"
 msgstr "Instalação"
 
 #. Tag: title
-#: index.docbook:722
+#: index.docbook:723
 #, no-c-format
 msgid "How to obtain &keurocalc;"
 msgstr "Como obter o &keurocalc;"
 
 #. Tag: para
-#: index.docbook:724
+#: index.docbook:725
 #, no-c-format
 msgid ""
 "&keurocalc; is part of the <ulink url=\"http://extragear.kde.org/\">KDE "
@@ -1843,19 +1819,19 @@ msgstr ""
 "\">página pessoal</ulink>."
 
 #. Tag: title
-#: index.docbook:733
+#: index.docbook:734
 #, no-c-format
 msgid "Requirements"
 msgstr "Requisitos"
 
 #. Tag: para
-#: index.docbook:735
+#: index.docbook:736
 #, no-c-format
-msgid "In order to successfully use &keurocalc;, you need &kde; 4.0."
-msgstr "Para poder usar com sucesso o &keurocalc;, você precisa do &kde; 4.0."
+msgid "In order to successfully use &keurocalc;, you need &kde; 4."
+msgstr "Para poder usar com sucesso o &keurocalc;, você precisa do &kde; 4."
 
 #. Tag: para
-#: index.docbook:737
+#: index.docbook:738
 #, no-c-format
 msgid ""
 "All required libraries can be found on <ulink url=\"ftp://ftp.kde.org\">ftp."
@@ -1865,13 +1841,13 @@ msgstr ""
 "kde.org\">ftp.kde.org</ulink>, o 'site' &FTP; do projecto &kde;."
 
 #. Tag: title
-#: index.docbook:744
+#: index.docbook:745
 #, no-c-format
 msgid "Compilation and Installation"
 msgstr "Compilação e Instalação"
 
 #. Tag: para
-#: index.docbook:746
+#: index.docbook:747
 #, no-c-format
 msgid ""
 "In order to compile and install &keurocalc; on your system, type the "
@@ -1881,7 +1857,7 @@ msgstr ""
 "seguinte na directoria de base da distribuição do &keurocalc;:"
 
 #. Tag: screen
-#: index.docbook:750
+#: index.docbook:751
 #, no-c-format
 msgid ""
 "<prompt>%</prompt> <userinput>mkdir build</userinput>\n"
@@ -1897,7 +1873,7 @@ msgstr ""
 "<prompt>%</prompt> <userinput>make install</userinput>"
 
 #. Tag: para
-#: index.docbook:753
+#: index.docbook:754
 #, no-c-format
 msgid ""
 "Since cmake autodetects your system settings, you should have no trouble "
@@ -1907,3 +1883,4 @@ msgstr ""
 "Dado que o CMake detecta automaticamente a configuração do seu sistema, não "
 "deverá ter problemas a compilar o &keurocalc;. Se tiver problemas, por favor "
 "comunique-os aos autores do &keurocalc;."
+

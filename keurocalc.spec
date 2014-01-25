@@ -3,7 +3,7 @@
 # curconvd is a D-Bus currency conversion service (no user interface).
 # One could very well package two separate binary packages.
 Name:   	keurocalc
-Version: 	1.2.0
+Version: 	1.2.1
 Release: 	1
 Url:		http://opensource.bureau-cornavin.com/keurocalc/index.html
 Source0: 	keurocalc-%{version}.tgz
@@ -61,10 +61,10 @@ rm -fr %buildroot
 /opt/kde4/share/icons/hicolor/32x32/apps/keurocalc.png
 /opt/kde4/share/icons/hicolor/48x48/apps/keurocalc.png
 
-/opt/kde4/share/locale/ar/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/bg/LC_MESSAGES/keurocalc.mo
-/opt/kde4/share/locale/br/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/bs/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/ca/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/ca@valencia/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/cs/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/da/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/de/LC_MESSAGES/keurocalc.mo
@@ -72,26 +72,28 @@ rm -fr %buildroot
 /opt/kde4/share/locale/en_GB/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/es/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/et/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/fi/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/fr/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/ga/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/gl/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/hu/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/it/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/ja/LC_MESSAGES/keurocalc.mo
-/opt/kde4/share/locale/ka/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/ko/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/nb/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/nds/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/nl/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/pl/LC_MESSAGES/keurocalc.mo
-/opt/kde4/share/locale/pt/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/pt_BR/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/pt/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/ru/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/sk/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/sl/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/sr/LC_MESSAGES/keurocalc.mo
-/opt/kde4/share/locale/sr@Latn/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/sr@latin/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/sv/LC_MESSAGES/keurocalc.mo
-/opt/kde4/share/locale/ta/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/tr/LC_MESSAGES/keurocalc.mo
+/opt/kde4/share/locale/ug/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/uk/LC_MESSAGES/keurocalc.mo
 /opt/kde4/share/locale/zh_TW/LC_MESSAGES/keurocalc.mo
 
@@ -182,3 +184,36 @@ rm -fr %buildroot
 /opt/kde4/bin/curconvd
 
 /opt/kde4/share/apps/curconvd/currencies.xml
+
+/opt/kde4/share/locale/bs/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/ca/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/ca@valencia/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/cs/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/da/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/de/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/el/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/en_GB/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/es/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/et/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/fi/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/fr/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/ga/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/gl/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/hu/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/it/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/ko/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/nb/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/nds/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/nl/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/pl/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/pt_BR/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/pt/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/sk/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/sl/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/sr/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/sr@latin/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/sv/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/tr/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/uk/LC_MESSAGES/curconvd.mo
+/opt/kde4/share/locale/zh_TW/LC_MESSAGES/curconvd.mo
+

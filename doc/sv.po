@@ -1,14 +1,14 @@
 # translation of keurocalc.po to Swedish
 #
-# Stefan Asserhäll <stefan.asserhall@comhem.se>, 2008, 2009, 2010.
-# Stefan Asserhall <stefan.asserhall@comhem.se>, 2011, 2012.
+# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2008, 2009, 2010.
+# Stefan Asserhall <stefan.asserhall@bredband.net>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: keurocalc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-26 03:57+0000\n"
-"PO-Revision-Date: 2012-02-26 19:52+0100\n"
-"Last-Translator: Stefan Asserhäll <stefan.asserhall@comhem.se>\n"
+"POT-Creation-Date: 2012-08-07 11:18+0000\n"
+"PO-Revision-Date: 2012-08-08 09:25+0200\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-KDE-DocBook-SVN-URL: trunk/extragear/utils/doc/keurocalc/index.docbook\n"
 "X-KDE-DocBook-SVN-Changed-Revision: 779910\n"
 "X-KDE-Associated-UI-Catalogs: \n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.4\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Tag: title
@@ -1125,68 +1125,32 @@ msgstr "&Alt; <keycap>F4</keycap>"
 msgid "Exits from &keurocalc;"
 msgstr "Avslutar &keurocalc;"
 
-#. Tag: keycombo
-#: index.docbook:439
-#, no-c-format
-msgid "&Alt; <keycap>A</keycap>"
-msgstr "&Alt; <keycap>A</keycap>"
-
 #. Tag: member
-#: index.docbook:440 index.docbook:533
-#, no-c-format
-msgid "Displays these help pages"
-msgstr "Visar de här hjälpsidorna"
-
-#. Tag: keycombo
-#: index.docbook:442
-#, no-c-format
-msgid "&Alt; <keycap>C</keycap>"
-msgstr "&Alt; <keycap>C</keycap>"
-
-#. Tag: member
-#: index.docbook:443
-#, no-c-format
-msgid "Goes to the currency selection area"
-msgstr "Går till området för att välja valuta"
-
-#. Tag: keycombo
-#: index.docbook:445
-#, no-c-format
-msgid "&Alt; <keycap>H</keycap>"
-msgstr "&Alt; <keycap>H</keycap>"
-
-#. Tag: member
-#: index.docbook:446 index.docbook:530
-#, no-c-format
-msgid "Displays the <guilabel>About</guilabel> box"
-msgstr "Visar rutan <guilabel>Om</guilabel>"
-
-#. Tag: member
-#: index.docbook:448
+#: index.docbook:449
 #, no-c-format
 msgid "<keycap>0</keycap> - <keycap>9</keycap>"
 msgstr "<keycap>0</keycap> - <keycap>9</keycap>"
 
 #. Tag: member
-#: index.docbook:449 index.docbook:493
+#: index.docbook:450 index.docbook:494
 #, no-c-format
 msgid "Input digits"
 msgstr "Matar in siffror"
 
 #. Tag: member
-#: index.docbook:451
+#: index.docbook:452
 #, no-c-format
 msgid "<keycap>.</keycap> or <keycap>,</keycap>"
 msgstr "<keycap>.</keycap> eller <keycap>,</keycap>"
 
 #. Tag: member
-#: index.docbook:452 index.docbook:496
+#: index.docbook:453 index.docbook:497
 #, no-c-format
 msgid "Decimal separator"
 msgstr "Decimaltecken"
 
 #. Tag: member
-#: index.docbook:454
+#: index.docbook:455
 #, no-c-format
 msgid ""
 "<keycap>+</keycap>, <keycap>-</keycap>, <keycap>*</keycap> and <keycap>/</"
@@ -1196,50 +1160,50 @@ msgstr ""
 "keycap>"
 
 #. Tag: member
-#: index.docbook:455 index.docbook:524
+#: index.docbook:456 index.docbook:525
 #, no-c-format
 msgid "Operators: addition, subtraction, multiplication and division"
 msgstr "Operatorer: addition, subtraktion, multiplikation och division"
 
 #. Tag: member
-#: index.docbook:457
+#: index.docbook:458
 #, no-c-format
 msgid "&Enter; and <keycap>Return</keycap>"
 msgstr "<keycap>Enter</keycap> och returtangenten"
 
 #. Tag: member
-#: index.docbook:458 index.docbook:512
+#: index.docbook:459 index.docbook:513
 #, no-c-format
 msgid "Validation of input number considered as a simple, unitless, value"
 msgstr ""
 "Kontroll av det inmatade talet, betraktat som ett enkelt tal utan enhet"
 
 #. Tag: keycap
-#: index.docbook:460
+#: index.docbook:461
 #, no-c-format
 msgid "<keycap>%</keycap>"
 msgstr "<keycap>%</keycap>"
 
 #. Tag: member
-#: index.docbook:461 index.docbook:515
+#: index.docbook:462 index.docbook:516
 #, no-c-format
 msgid "Validation of input number considered as a percentage"
 msgstr "Kontroll av det inmatade talet, betraktat som ett procenttal"
 
 #. Tag: member
-#: index.docbook:463
+#: index.docbook:464
 #, no-c-format
 msgid "&Backspace;"
 msgstr "Backsteg"
 
 #. Tag: member
-#: index.docbook:464 index.docbook:499
+#: index.docbook:465 index.docbook:500
 #, no-c-format
 msgid "Removal of last input: digits, decimal separator or operator"
 msgstr "Tar bort senaste inmatning: siffror, decimaltecken eller operator"
 
 #. Tag: member
-#: index.docbook:466
+#: index.docbook:467
 #, no-c-format
 msgid "&Tab; and <keycombo action=\"simul\">&Shift; &Tab;</keycombo> keys"
 msgstr ""
@@ -1247,43 +1211,43 @@ msgstr ""
 "\"><keycap>Skift</keycap> <keycap>Tabulator</keycap></keycombo>"
 
 #. Tag: member
-#: index.docbook:467
+#: index.docbook:468
 #, no-c-format
 msgid "Moves from one button to the next or previous one"
 msgstr "Flyttar från en knapp till nästa eller föregående"
 
 #. Tag: member
-#: index.docbook:469
+#: index.docbook:470
 #, no-c-format
 msgid "Arrow keys"
 msgstr "Piltangenter"
 
 #. Tag: member
-#: index.docbook:470
+#: index.docbook:471
 #, no-c-format
 msgid "In the currency selection area, moves from one currency to the other"
 msgstr "I området för att välja valuta: flyttar från en valuta till nästa"
 
 #. Tag: member
-#: index.docbook:472
+#: index.docbook:473
 #, no-c-format
 msgid "Space bar"
 msgstr "Mellanslag"
 
 #. Tag: member
-#: index.docbook:473
+#: index.docbook:474
 #, no-c-format
 msgid "When focus is on a push button, presses this button"
 msgstr "När fokus är på en knapp, trycks den knappen in"
 
 #. Tag: member
-#: index.docbook:475
+#: index.docbook:476
 #, no-c-format
 msgid "<keycap>E</keycap> or <keycap>$</keycap>"
 msgstr "<keycap>E</keycap> eller <keycap>$</keycap>"
 
 #. Tag: member
-#: index.docbook:476 index.docbook:505
+#: index.docbook:477 index.docbook:506
 #, no-c-format
 msgid ""
 "Validation of input number considered as a value expressed in the reference "
@@ -1293,98 +1257,98 @@ msgstr ""
 "(euro)"
 
 #. Tag: keycap
-#: index.docbook:479
+#: index.docbook:480
 #, no-c-format
 msgid "<keycap>S</keycap>"
 msgstr "<keycap>S</keycap>"
 
 #. Tag: member
-#: index.docbook:480 index.docbook:518
+#: index.docbook:481 index.docbook:519
 #, no-c-format
 msgid "Change sign of the result"
 msgstr "Byter tecken på resultatet"
 
 #. Tag: member
-#: index.docbook:482
+#: index.docbook:483
 #, no-c-format
 msgid "Any other key"
 msgstr "Alla andra tangenter"
 
 #. Tag: member
-#: index.docbook:483 index.docbook:509
+#: index.docbook:484 index.docbook:510
 #, no-c-format
 msgid "Validation of input number considered as a number in the other currency"
 msgstr ""
 "Kontroll av det inmatade talet, betraktat som ett tal i den andra valutan"
 
 #. Tag: title
-#: index.docbook:489
+#: index.docbook:490
 #, no-c-format
 msgid "The buttons"
 msgstr "Knapparna"
 
 #. Tag: member
-#: index.docbook:492
+#: index.docbook:493
 #, no-c-format
 msgid "<guibutton>0</guibutton> to <guibutton>9</guibutton>"
 msgstr "<guibutton>0</guibutton> till <guibutton>9</guibutton>"
 
 #. Tag: member
-#: index.docbook:495
+#: index.docbook:496
 #, no-c-format
 msgid "<guibutton>.</guibutton> or <guibutton>,</guibutton>"
 msgstr "<guibutton>.</guibutton> eller <guibutton>,</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:498
+#: index.docbook:499
 #, no-c-format
 msgid "&lt;-"
 msgstr "&lt;-"
 
 #. Tag: guibutton
-#: index.docbook:501
+#: index.docbook:502
 #, no-c-format
 msgid "<guibutton>AC</guibutton>"
 msgstr "<guibutton>AC</guibutton>"
 
 #. Tag: member
-#: index.docbook:502
+#: index.docbook:503
 #, no-c-format
 msgid "Clear all: both input and result area"
 msgstr "Rensar allt: både inmatnings- och resultatområdet"
 
 #. Tag: member
-#: index.docbook:504
+#: index.docbook:505
 #, no-c-format
 msgid "<guibutton>€</guibutton> or <guibutton>$</guibutton>"
 msgstr "<guibutton>€</guibutton> eller <guibutton>$</guibutton>"
 
 #. Tag: member
-#: index.docbook:508
+#: index.docbook:509
 #, no-c-format
 msgid "The button labeled with the name of an other currency"
 msgstr "Knappen som har namnet på en annan valuta"
 
 #. Tag: guibutton
-#: index.docbook:511
+#: index.docbook:512
 #, no-c-format
 msgid "Enter"
 msgstr "Enter"
 
 #. Tag: guibutton
-#: index.docbook:514
+#: index.docbook:515
 #, no-c-format
 msgid "<guibutton>%</guibutton>"
 msgstr "<guibutton>%</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:517
+#: index.docbook:518
 #, no-c-format
 msgid "<guibutton>+/-</guibutton>"
 msgstr "<guibutton>+/-</guibutton>"
 
 #. Tag: member
-#: index.docbook:520
+#: index.docbook:521
 #, no-c-format
 msgid ""
 "<guibutton>Min</guibutton>, <guibutton>MR</guibutton>, <guibutton>M+</"
@@ -1394,7 +1358,7 @@ msgstr ""
 "guibutton> och <guibutton>-</guibutton>"
 
 #. Tag: member
-#: index.docbook:521
+#: index.docbook:522
 #, no-c-format
 msgid ""
 "Store result in memory, recall memory into result, add result to memory and "
@@ -1404,7 +1368,7 @@ msgstr ""
 "resultatet i minnet och subtrahera resultatet från minnet"
 
 #. Tag: member
-#: index.docbook:523
+#: index.docbook:524
 #, no-c-format
 msgid ""
 "<guibutton>/</guibutton>, <guibutton>X</guibutton>, <guibutton>-</guibutton> "
@@ -1414,55 +1378,67 @@ msgstr ""
 "och <guibutton>+</guibutton>"
 
 #. Tag: guibutton
-#: index.docbook:526
+#: index.docbook:527
 #, no-c-format
 msgid "Reset"
 msgstr "Återställ"
 
 #. Tag: member
-#: index.docbook:527
+#: index.docbook:528
 #, no-c-format
 msgid "Reset both input, result and memory"
 msgstr "Rensar inmatning, resultat och minne"
 
 #. Tag: guibutton
-#: index.docbook:529
+#: index.docbook:530
 #, no-c-format
 msgid "About"
 msgstr "Om"
 
+#. Tag: member
+#: index.docbook:531
+#, no-c-format
+msgid "Displays the <guilabel>About</guilabel> box"
+msgstr "Visar rutan <guilabel>Om</guilabel>"
+
 #. Tag: guibutton
-#: index.docbook:532
+#: index.docbook:533
 #, no-c-format
 msgid "Help"
 msgstr "Hjälp"
 
 #. Tag: member
-#: index.docbook:535
+#: index.docbook:534
+#, no-c-format
+msgid "Displays these help pages"
+msgstr "Visar de här hjälpsidorna"
+
+#. Tag: member
+#: index.docbook:536
 #, no-c-format
 msgid "The drop down list with currency codes and names"
 msgstr "Kombinationsrutan med valutakoder och namn."
 
 #. Tag: member
-#: index.docbook:536
+#: index.docbook:537
 #, no-c-format
 msgid "Selects an other currency to work with"
 msgstr "Väljer en annan valuta att arbeta med"
 
 #. Tag: title
-#: index.docbook:542
+#: index.docbook:543
 #, no-c-format
 msgid "The Settings Dialog"
 msgstr "Inställningsdialogrutan"
 
 #. Tag: title
-#: index.docbook:549
+#: index.docbook:550
 #, no-c-format
 msgid "Reference currency, rates origin"
 msgstr "Referensvaluta, kurskälla"
 
 #. Tag: para
-#: index.docbook:551
+#: index.docbook:552
 #, no-c-format
 msgid ""
 "This setting defines from where &keurocalc; should download the exchange "
@@ -1474,13 +1450,13 @@ msgstr ""
 "tillgängliga:"
 
 #. Tag: guilabel
-#: index.docbook:558
+#: index.docbook:559
 #, no-c-format
 msgid "Euro, no network access (fixed rates only)"
 msgstr "Euro, ingen nätverksåtkomst (bara fasta kurser)"
 
 #. Tag: para
-#: index.docbook:560
+#: index.docbook:561
 #, no-c-format
 msgid ""
 "Euro is the reference currency. No variable rate is downloaded or used. The "
@@ -1491,20 +1467,20 @@ msgstr ""
 "enda tillgängliga valutorna är de som har fast växlingskurs mot euron."
 
 #. Tag: para
-#: index.docbook:563
+#: index.docbook:564
 #, no-c-format
 msgid "This setting is adapted to computers with no network access."
 msgstr ""
 "Den här inställningen är anpassad för datorer utan åtkomst till nätverk."
 
 #. Tag: guilabel
-#: index.docbook:568
+#: index.docbook:569
 #, no-c-format
 msgid "Euro, European Central Bank"
 msgstr "Euro, Europeiska centralbanken"
 
 #. Tag: para
-#: index.docbook:570
+#: index.docbook:571
 #, no-c-format
 msgid ""
 "Euro is the reference currency. The fixed exchange rates are available. "
@@ -1516,13 +1492,13 @@ msgstr ""
 "eurofxref/\">Europeiska centralbanken (ECB)</ulink>."
 
 #. Tag: guilabel
-#: index.docbook:591
+#: index.docbook:592
 #, no-c-format
 msgid "Euro, Time Genie"
 msgstr "Euro, Time Genie"
 
 #. Tag: para
-#: index.docbook:593
+#: index.docbook:594
 #, no-c-format
 msgid ""
 "Euro is the reference currency. The fixed exchange rates are available. "
@@ -1535,13 +1511,13 @@ msgstr ""
 "foreign_exchange_rates_forex\">Time Genie (TG)</ulink>."
 
 #. Tag: title
-#: index.docbook:604
+#: index.docbook:605
 #, no-c-format
 msgid "Default currency"
 msgstr "Normal valuta"
 
 #. Tag: para
-#: index.docbook:606
+#: index.docbook:607
 #, no-c-format
 msgid ""
 "This setting defines the other currency that is used when &keurocalc; starts "
@@ -1551,7 +1527,7 @@ msgstr ""
 "&keurocalc; startar, eller när användaren verkställer de nya inställningarna."
 
 #. Tag: para
-#: index.docbook:609
+#: index.docbook:610
 #, no-c-format
 msgid ""
 "Notice that the selected currency might not be provided by the selected "
@@ -1562,13 +1538,13 @@ msgstr ""
 "i listan."
 
 #. Tag: title
-#: index.docbook:615
+#: index.docbook:616
 #, no-c-format
 msgid "Rounding"
 msgstr "Avrundning"
 
 #. Tag: para
-#: index.docbook:617
+#: index.docbook:618
 #, no-c-format
 msgid ""
 "This setting defines how the results should be presented in the display "
@@ -1582,13 +1558,13 @@ msgstr ""
 "tiondels cent. Följande avrundningsmetoder är tillgängliga:"
 
 #. Tag: guilabel
-#: index.docbook:624
+#: index.docbook:625
 #, no-c-format
 msgid "Official rounding rules"
 msgstr "Officiella avrundningsregler"
 
 #. Tag: para
-#: index.docbook:626
+#: index.docbook:627
 #, no-c-format
 msgid ""
 "The EU conversion rules or other official conversion rules are used. It "
@@ -1603,7 +1579,7 @@ msgstr ""
 "och dollar."
 
 #. Tag: para
-#: index.docbook:630
+#: index.docbook:631
 #, no-c-format
 msgid ""
 "For example, 158.323 yen would be rounded to 158 yen. 12.537 euro would be "
@@ -1613,13 +1589,13 @@ msgstr ""
 "skulle avrundas till 12,54 euro."
 
 #. Tag: guilabel
-#: index.docbook:636
+#: index.docbook:637
 #, no-c-format
 msgid "Smallest coin method"
 msgstr "Metod med minsta mynt"
 
 #. Tag: para
-#: index.docbook:638
+#: index.docbook:639
 #, no-c-format
 msgid ""
 "The result is rounded to the next value of the smallest coin that circulates "
@@ -1634,7 +1610,7 @@ msgstr ""
 "innan valutan ersattes: För den italienska liren var det 50 lire myntet."
 
 #. Tag: para
-#: index.docbook:643
+#: index.docbook:644
 #, no-c-format
 msgid ""
 "For example, 1235.9 Italian liras would be rounded to 1250 liras. 39.45 "
@@ -1644,7 +1620,7 @@ msgstr ""
 "norska kronor skulle avrundas till 39,50 kronor."
 
 #. Tag: para
-#: index.docbook:645
+#: index.docbook:646
 #, no-c-format
 msgid ""
 "We lack information about the smallest coins that exist in every country. "
@@ -1656,25 +1632,25 @@ msgstr ""
 "tillgängliga mynt i ditt land, så skriver vi in informationen."
 
 #. Tag: guilabel
-#: index.docbook:652
+#: index.docbook:653
 #, no-c-format
 msgid "No rounding at all"
 msgstr "Ingen avrundning alls"
 
 #. Tag: para
-#: index.docbook:654
+#: index.docbook:655
 #, no-c-format
 msgid "The computed value is displayed unchanged, as a floating point number."
 msgstr "Det beräknade värdet visas oförändrat, som ett flyttal."
 
 #. Tag: title
-#: index.docbook:663
+#: index.docbook:664
 #, no-c-format
 msgid "Look and feel"
 msgstr "Utseende och känsla"
 
 #. Tag: para
-#: index.docbook:665
+#: index.docbook:666
 #, no-c-format
 msgid ""
 "This setting defines the appearance and behavior of &keurocalc;. The "
@@ -1684,13 +1660,13 @@ msgstr ""
 "alternativ är tillgängliga:"
 
 #. Tag: guilabel
-#: index.docbook:670
+#: index.docbook:671
 #, no-c-format
 msgid "Display color"
 msgstr "Visa färg"
 
 #. Tag: para
-#: index.docbook:672
+#: index.docbook:673
 #, no-c-format
 msgid ""
 "The background color of the display areas (both input and result). To change "
@@ -1704,13 +1680,13 @@ msgstr ""
 "<guibutton>Ok</guibutton> för att verkställa det nya valet."
 
 #. Tag: guilabel
-#: index.docbook:680
+#: index.docbook:681
 #, no-c-format
 msgid "Enable splash screen"
 msgstr "Aktivera startskärm"
 
 #. Tag: para
-#: index.docbook:682
+#: index.docbook:683
 #, no-c-format
 msgid ""
 "Uncheck this box if you do not want to initial picture to appear when "
@@ -1720,25 +1696,25 @@ msgstr ""
 "&keurocalc; startas."
 
 #. Tag: title
-#: index.docbook:694
+#: index.docbook:695
 #, no-c-format
 msgid "Credits and License"
 msgstr "Tack till och licens"
 
 #. Tag: para
-#: index.docbook:696
+#: index.docbook:697
 #, no-c-format
 msgid "&keurocalc;"
 msgstr "&keurocalc;"
 
 #. Tag: para
-#: index.docbook:698
+#: index.docbook:699
 #, no-c-format
 msgid "Program copyright 2001-2012 the &keurocalc; developers:"
 msgstr "Program Copyright 2001-2012 &keurocalc;-utvecklarna:"
 
 #. Tag: para
-#: index.docbook:701
+#: index.docbook:702
 #, no-c-format
 msgid ""
 "Éric Bischoff <email>ebischoff@_NOSPAM_nerim.net</email> - design and "
@@ -1748,7 +1724,7 @@ msgstr ""
 "konstruktion och implementering"
 
 #. Tag: para
-#: index.docbook:702
+#: index.docbook:703
 #, no-c-format
 msgid ""
 "Gil Gross <email>ptit.ours@_NOSPAM_gmail.com</email> - additional "
@@ -1758,7 +1734,7 @@ msgstr ""
 "funktioner"
 
 #. Tag: para
-#: index.docbook:703
+#: index.docbook:704
 #, no-c-format
 msgid ""
 "Melchior Franz <email>a8603365@_NOSPAM_unet.univie.ac.at</email> - design "
@@ -1768,7 +1744,7 @@ msgstr ""
 "konstruktion och test"
 
 #. Tag: para
-#: index.docbook:704
+#: index.docbook:705
 #, no-c-format
 msgid ""
 "Bas Willems <email>cybersurfer@_NOSPAM_euronet.nl</email> - graphical artwork"
@@ -1776,7 +1752,7 @@ msgstr ""
 "Bas Willems <email>cybersurfer@_INGEN_SKRÄPPOST_euronet.nl</email> - grafik"
 
 #. Tag: para
-#: index.docbook:707
+#: index.docbook:708
 #, no-c-format
 msgid ""
 "Documentation copyright 2001-2012 Éric Bischoff "
@@ -1786,39 +1762,39 @@ msgstr ""
 "<email>ebischoff@_INGEN_SKRÄPPOST_nerim.net</email>."
 
 #. Tag: para
-#: index.docbook:710
+#: index.docbook:711
 #, no-c-format
 msgid "Documentation reviewed by &Philip.Rodrigues; &Philip.Rodrigues.mail;."
 msgstr "Dokumentation granskad av &Philip.Rodrigues; &Philip.Rodrigues.mail;."
 
 #. Tag: trans_comment
-#: index.docbook:711
+#: index.docbook:712
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr ""
-"<para>Översättning Stefan Asserhäll <email>stefan.asserhall@comhem.se</"
+"<para>Översättning Stefan Asserhäll <email>stefan.asserhall@bredband.net</"
 "email></para>"
 
 #. Tag: chapter
-#: index.docbook:711
+#: index.docbook:712
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&underFDL; &underGPL;"
 
 #. Tag: title
-#: index.docbook:719
+#: index.docbook:720
 #, no-c-format
 msgid "Installation"
 msgstr "Installation"
 
 #. Tag: title
-#: index.docbook:722
+#: index.docbook:723
 #, no-c-format
 msgid "How to obtain &keurocalc;"
 msgstr "Hur man skaffar &keurocalc;"
 
 #. Tag: para
-#: index.docbook:724
+#: index.docbook:725
 #, no-c-format
 msgid ""
 "&keurocalc; is part of the <ulink url=\"http://extragear.kde.org/\">KDE "
@@ -1832,19 +1808,19 @@ msgstr ""
 "\">hemsidan</ulink>."
 
 #. Tag: title
-#: index.docbook:733
+#: index.docbook:734
 #, no-c-format
 msgid "Requirements"
 msgstr "Krav"
 
 #. Tag: para
-#: index.docbook:735
+#: index.docbook:736
 #, no-c-format
-msgid "In order to successfully use &keurocalc;, you need &kde; 4.0."
-msgstr "För att använda &keurocalc; med lyckat resultat, behöver du &kde; 4.0."
+msgid "In order to successfully use &keurocalc;, you need &kde; 4."
+msgstr "För att använda &keurocalc; med lyckat resultat, behöver du &kde; 4."
 
 #. Tag: para
-#: index.docbook:737
+#: index.docbook:738
 #, no-c-format
 msgid ""
 "All required libraries can be found on <ulink url=\"ftp://ftp.kde.org\">ftp."
@@ -1854,13 +1830,13 @@ msgstr ""
 "org</ulink>, &kde;-projektets &FTP;-plats."
 
 #. Tag: title
-#: index.docbook:744
+#: index.docbook:745
 #, no-c-format
 msgid "Compilation and Installation"
 msgstr "Kompilering och installation"
 
 #. Tag: para
-#: index.docbook:746
+#: index.docbook:747
 #, no-c-format
 msgid ""
 "In order to compile and install &keurocalc; on your system, type the "
@@ -1870,7 +1846,7 @@ msgstr ""
 "i baskatalogen för &keurocalc;-distributionen:"
 
 #. Tag: screen
-#: index.docbook:750
+#: index.docbook:751
 #, no-c-format
 msgid ""
 "<prompt>%</prompt> <userinput>mkdir build</userinput>\n"
@@ -1886,7 +1862,7 @@ msgstr ""
 "<prompt>%</prompt> <userinput>make install</userinput>"
 
 #. Tag: para
-#: index.docbook:753
+#: index.docbook:754
 #, no-c-format
 msgid ""
 "Since cmake autodetects your system settings, you should have no trouble "
@@ -1897,57 +1873,12 @@ msgstr ""
 "ha några problem med att kompilera &keurocalc;. Skulle du stöta på problem, "
 "rapportera dem gärna till &keurocalc;s upphovsmän."
 
-#~ msgid "2011-01-08"
-#~ msgstr "2011-01-08"
+msgid "&Alt; <keycap>A</keycap>"
+msgstr "&Alt; <keycap>A</keycap>"
 
-#~ msgid "1.1.0"
-#~ msgstr "1.1.0"
+msgid "&Alt; <keycap>C</keycap>"
+msgstr "&Alt; <keycap>C</keycap>"
 
-#~ msgid ""
-#~ "To do conversions between the US dollar and other currencies according to "
-#~ "the daily exchange rate defined by the <ulink url=\"http://www.ny.frb.org/"
-#~ "markets/fxrates/noon.cfm\">New York Federal Reserve Bank (NY FRB)</ulink>."
-#~ msgstr ""
-#~ "För att konvertera mellan amerikanska dollar och andra valutor enligt "
-#~ "daglig valutakurs som definieras av <ulink url=\"http://www.ny.frb.org/"
-#~ "markets/fxrates/noon.cfm\">New York Federal Reserve banken (NY FRB)</"
-#~ "ulink>."
+msgid "&Alt; <keycap>H</keycap>"
+msgstr "&Alt; <keycap>H</keycap>"
 
-#~ msgid ""
-#~ "To do conversions between any two currencies that are part of the list "
-#~ "published the NY FRB."
-#~ msgstr ""
-#~ "För att göra konvertering mellan två godtyckliga valutor som ingår i "
-#~ "listan som publiceras av NY FRB."
-
-#~ msgid ""
-#~ "New York Federal Reserve Bank rates are not available during the non-"
-#~ "working days (Christmas, Easter, etc.)."
-#~ msgstr ""
-#~ "New York Federal Reserve bankens kurser är inte tillgängliga under helger "
-#~ "(jul, påsk, etc.)."
-
-#~ msgid "Dollar, New York Federal Reserve Bank"
-#~ msgstr "Dollar, New York Federal Reserve banken"
-
-#~ msgid ""
-#~ "Dollar is the reference currency. There are no fixed exchange rates. "
-#~ "&keurocalc; attempts to download the variable rates from the <ulink url="
-#~ "\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">New York Federal "
-#~ "Reserve Bank (NY FRB)</ulink>."
-#~ msgstr ""
-#~ "Dollar är referensvalutan. Det finns inga fasta växlingskurser. "
-#~ "&keurocalc; försöker ladda ner rörliga valutakurser från <ulink url="
-#~ "\"http://www.ny.frb.org/markets/fxrates/noon.cfm\">New York Federal "
-#~ "Reserve Bank (NY FRB)</ulink>."
-
-#~ msgid ""
-#~ "Currently, &keurocalc; has a problem determining the date of the latest "
-#~ "exchange rates published by that bank, because of time zone offsets and "
-#~ "non-working days. For safety, &keurocalc; always asks for yesterday's "
-#~ "rates, which is of course not optimal."
-#~ msgstr ""
-#~ "För närvarande har &keurocalc; problem att avgöra datum för senaste "
-#~ "växlingskurser som publiceras av banken, på grund av skillnader i tidzon "
-#~ "och helgdagar. För säkerhets skull frågar &keurocalc; alltid efter "
-#~ "gårdagens kurser, vilket naturligtvis inte är optimalt."

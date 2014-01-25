@@ -9,7 +9,7 @@
 ><!-- change language only here -->
 ]>
 
-<book lang="&language;">
+<book id="keurocalc" lang="&language;">
 
 <bookinfo>
 <title
@@ -220,7 +220,7 @@ published by the NY FRB.</para
 ></listitem>
 <listitem
 ><para
->A possibilidade de guardar os números numa memória intermediária ou de usar essa memória como um sub-total.</para
+>A possibilidade de guardar os números em uma memória intermediária ou de usar essa memória como um subtotal.</para
 ></listitem>
 </itemizedlist>
 </para>
@@ -879,14 +879,15 @@ during the non-working days (Christmas, Easter, etc.).</para
 <member
 >Sai do &keurocalc;</member>
 
+<!--This is changed at runtime by DrClash 
 <member
 ><keycombo action="simul"
 >&Alt; <keycap
->A</keycap
+>H</keycap
 ></keycombo
 ></member>
 <member
->Mostra estas páginas de ajuda</member>
+>Displays these help pages</member>
 
 <member
 ><keycombo action="simul"
@@ -895,19 +896,19 @@ during the non-working days (Christmas, Easter, etc.).</para
 ></keycombo
 ></member>
 <member
->Vai para a área de seleção da moeda</member>
+>Goes to the currency selection area</member>
 
 <member
 ><keycombo action="simul"
 >&Alt; <keycap
->H</keycap
+>A</keycap
 ></keycombo
 ></member>
 <member
->Mostra a janela <guilabel
->Sobre</guilabel
-></member>
-
+>Displays the <guilabel
+>About</guilabel
+> box</member>
+-->
 <member
 ><keycap
 >0</keycap
@@ -1358,7 +1359,7 @@ not optimal.</para>
 <para
 >Documentação revista por &Philip.Rodrigues; &Philip.Rodrigues.mail;.</para>
 <para
->Tradução de Marcus Gama<email
+>Tradução de Marcus Gama <email
 >marcus.gama@gmail.com</email
 ></para
 > 
@@ -1386,7 +1387,7 @@ not optimal.</para>
 >Requisitos</title>
 
 <para
->Para poder usar com sucesso o &keurocalc;, você precisa do &kde; 4.0.</para>
+>Para poder usar com sucesso o &keurocalc;, você precisa do &kde; 4.</para>
 
 <para
 >Todas as bibliotecas necessárias podem ser obtidas em <ulink url="ftp://ftp.kde.org"
@@ -1426,7 +1427,7 @@ not optimal.</para>
 </para>
 
 <para
->Uma vez que o CMake detecta automaticamente a configuração do seu sistema, não deverá ter problemas ao compilar o &keurocalc;. Se tiver problemas, por favor comunique-os aos autores do &keurocalc;.</para>
+>Uma vez que o CMake detecta automaticamente a configuração do seu sistema, não deverá ter problemas ao compilar o &keurocalc;. Se tiver problemas, por favor, comunique-os aos autores do &keurocalc;.</para>
 
 </sect1>
 
