@@ -1,8 +1,10 @@
 keurocalc (1.2.2-1) unstable; urgency=medium
 
   * Imported Upstream version 1.2.2
+  * Added patch to use old cmake behaviour for policy 0002.
+  * Updated control file for latest policy changes.
 
- -- Michael Meskes <meskes@debian.org>  Wed, 28 May 2014 14:59:59 +0200
+ -- Michael Meskes <meskes@debian.org>  Thu, 14 Aug 2014 17:37:44 +0200
 
 keurocalc (1.2.0-1) unstable; urgency=low
 
