@@ -1,0 +1,255 @@
+diff -ru keurocalc/CMakeLists.txt keurocalc/CMakeLists.txt
+--- keurocalc/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/CMakeLists.txt	2014-08-14 17:15:49.626760818 +0200
+@@ -1,4 +1,5 @@
+ cmake_minimum_required(VERSION 2.8)
++cmake_policy(SET CMP0002 OLD)
+ project(keuromain)
+ 
+ set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/modules )
+diff -ru keurocalc/po/bg/CMakeLists.txt keurocalc/po/bg/CMakeLists.txt
+--- keurocalc/po/bg/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/bg/CMakeLists.txt	2014-08-14 17:23:19.168372850 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(bg ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(bg ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/bs/CMakeLists.txt keurocalc/po/bs/CMakeLists.txt
+--- keurocalc/po/bs/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/bs/CMakeLists.txt	2014-08-14 17:23:19.220373488 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(bs ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(bs ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/ca/CMakeLists.txt keurocalc/po/ca/CMakeLists.txt
+--- keurocalc/po/ca/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/ca/CMakeLists.txt	2014-08-14 17:23:19.144372556 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(ca ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(ca ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/ca@valencia/CMakeLists.txt keurocalc/po/ca@valencia/CMakeLists.txt
+--- keurocalc/po/ca@valencia/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/ca@valencia/CMakeLists.txt	2014-08-14 17:23:19.232373635 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(ca@valencia ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(ca@valencia ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/cs/CMakeLists.txt keurocalc/po/cs/CMakeLists.txt
+--- keurocalc/po/cs/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/cs/CMakeLists.txt	2014-08-14 17:23:19.264374028 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(cs ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(cs ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/da/CMakeLists.txt keurocalc/po/da/CMakeLists.txt
+--- keurocalc/po/da/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/da/CMakeLists.txt	2014-08-14 17:23:19.256373929 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(da ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(da ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/de/CMakeLists.txt keurocalc/po/de/CMakeLists.txt
+--- keurocalc/po/de/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/de/CMakeLists.txt	2014-08-14 17:23:19.224373537 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(de ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(de ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/el/CMakeLists.txt keurocalc/po/el/CMakeLists.txt
+--- keurocalc/po/el/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/el/CMakeLists.txt	2014-08-14 17:23:19.208373341 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(el ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(el ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/en_GB/CMakeLists.txt keurocalc/po/en_GB/CMakeLists.txt
+--- keurocalc/po/en_GB/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/en_GB/CMakeLists.txt	2014-08-14 17:23:19.196373194 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(en_GB ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(en_GB ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/es/CMakeLists.txt keurocalc/po/es/CMakeLists.txt
+--- keurocalc/po/es/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/es/CMakeLists.txt	2014-08-14 17:23:19.240373733 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(es ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(es ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/et/CMakeLists.txt keurocalc/po/et/CMakeLists.txt
+--- keurocalc/po/et/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/et/CMakeLists.txt	2014-08-14 17:23:19.256373929 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(et ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(et ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/fi/CMakeLists.txt keurocalc/po/fi/CMakeLists.txt
+--- keurocalc/po/fi/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/fi/CMakeLists.txt	2014-08-14 17:23:19.272374126 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(fi ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(fi ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/fr/CMakeLists.txt keurocalc/po/fr/CMakeLists.txt
+--- keurocalc/po/fr/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/fr/CMakeLists.txt	2014-08-14 17:23:19.136372457 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(fr ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(fr ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/ga/CMakeLists.txt keurocalc/po/ga/CMakeLists.txt
+--- keurocalc/po/ga/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/ga/CMakeLists.txt	2014-08-14 17:23:19.228373586 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(ga ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(ga ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/gl/CMakeLists.txt keurocalc/po/gl/CMakeLists.txt
+--- keurocalc/po/gl/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/gl/CMakeLists.txt	2014-08-14 17:23:19.260373978 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(gl ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(gl ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/hu/CMakeLists.txt keurocalc/po/hu/CMakeLists.txt
+--- keurocalc/po/hu/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/hu/CMakeLists.txt	2014-08-14 17:23:19.212373390 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(hu ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(hu ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/it/CMakeLists.txt keurocalc/po/it/CMakeLists.txt
+--- keurocalc/po/it/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/it/CMakeLists.txt	2014-08-14 17:23:19.156372703 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(it ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(it ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/ja/CMakeLists.txt keurocalc/po/ja/CMakeLists.txt
+--- keurocalc/po/ja/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/ja/CMakeLists.txt	2014-08-14 17:23:19.232373635 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(ja ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(ja ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/ko/CMakeLists.txt keurocalc/po/ko/CMakeLists.txt
+--- keurocalc/po/ko/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/ko/CMakeLists.txt	2014-08-14 17:23:19.248373831 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(ko ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(ko ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/nb/CMakeLists.txt keurocalc/po/nb/CMakeLists.txt
+--- keurocalc/po/nb/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/nb/CMakeLists.txt	2014-08-14 17:23:19.244373782 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(nb ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(nb ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/nds/CMakeLists.txt keurocalc/po/nds/CMakeLists.txt
+--- keurocalc/po/nds/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/nds/CMakeLists.txt	2014-08-14 17:23:19.192373145 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(nds ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(nds ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/nl/CMakeLists.txt keurocalc/po/nl/CMakeLists.txt
+--- keurocalc/po/nl/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/nl/CMakeLists.txt	2014-08-14 17:23:19.268374077 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(nl ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(nl ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/pl/CMakeLists.txt keurocalc/po/pl/CMakeLists.txt
+--- keurocalc/po/pl/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/pl/CMakeLists.txt	2014-08-14 17:23:19.148372605 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(pl ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(pl ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/pt/CMakeLists.txt keurocalc/po/pt/CMakeLists.txt
+--- keurocalc/po/pt/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/pt/CMakeLists.txt	2014-08-14 17:23:19.204373292 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(pt ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(pt ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/pt_BR/CMakeLists.txt keurocalc/po/pt_BR/CMakeLists.txt
+--- keurocalc/po/pt_BR/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/pt_BR/CMakeLists.txt	2014-08-14 17:23:19.252373880 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(pt_BR ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(pt_BR ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/ru/CMakeLists.txt keurocalc/po/ru/CMakeLists.txt
+--- keurocalc/po/ru/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/ru/CMakeLists.txt	2014-08-14 17:23:19.216373438 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(ru ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(ru ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/sk/CMakeLists.txt keurocalc/po/sk/CMakeLists.txt
+--- keurocalc/po/sk/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/sk/CMakeLists.txt	2014-08-14 17:23:19.236373684 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(sk ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(sk ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/sl/CMakeLists.txt keurocalc/po/sl/CMakeLists.txt
+--- keurocalc/po/sl/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/sl/CMakeLists.txt	2014-08-14 17:23:19.164372801 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(sl ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(sl ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/sr/CMakeLists.txt keurocalc/po/sr/CMakeLists.txt
+--- keurocalc/po/sr/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/sr/CMakeLists.txt	2014-08-14 17:23:19.200373243 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(sr ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(sr ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/sr@latin/CMakeLists.txt keurocalc/po/sr@latin/CMakeLists.txt
+--- keurocalc/po/sr@latin/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/sr@latin/CMakeLists.txt	2014-08-14 17:23:19.176372948 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(sr@latin ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(sr@latin ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/sv/CMakeLists.txt keurocalc/po/sv/CMakeLists.txt
+--- keurocalc/po/sv/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/sv/CMakeLists.txt	2014-08-14 17:23:19.180372997 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(sv ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(sv ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/tr/CMakeLists.txt keurocalc/po/tr/CMakeLists.txt
+--- keurocalc/po/tr/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/tr/CMakeLists.txt	2014-08-14 17:23:19.188373096 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(tr ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(tr ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/ug/CMakeLists.txt keurocalc/po/ug/CMakeLists.txt
+--- keurocalc/po/ug/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/ug/CMakeLists.txt	2014-08-14 17:23:19.244373782 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(ug ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(ug ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/uk/CMakeLists.txt keurocalc/po/uk/CMakeLists.txt
+--- keurocalc/po/uk/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/uk/CMakeLists.txt	2014-08-14 17:23:19.172372899 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(uk ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(uk ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+diff -ru keurocalc/po/zh_TW/CMakeLists.txt keurocalc/po/zh_TW/CMakeLists.txt
+--- keurocalc/po/zh_TW/CMakeLists.txt	2014-08-14 17:32:38.000000000 +0200
++++ keurocalc/po/zh_TW/CMakeLists.txt	2014-08-14 17:23:19.268374077 +0200
+@@ -1,2 +1,2 @@
+ file(GLOB _po_files *.po)
+-GETTEXT_PROCESS_PO_FILES(zh_TW ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} PO_FILES ${_po_files} )
++GETTEXT_PROCESS_PO_FILES(zh_TW ALL INSTALL_DESTINATION ${LOCALE_INSTALL_DIR} ${_po_files} )
+Nur in .: s.
