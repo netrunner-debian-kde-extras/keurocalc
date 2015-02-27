@@ -1,3 +1,10 @@
+keurocalc (1.2.3-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.2.3
+  * Removed policy patch, applied upstream.
+
+ -- Michael Meskes <meskes@debian.org>  Fri, 27 Feb 2015 13:19:27 +0100
+
 keurocalc (1.2.2-1) unstable; urgency=medium
 
   * Imported Upstream version 1.2.2
