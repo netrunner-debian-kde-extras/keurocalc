@@ -1,3 +1,4 @@
+cmake_policy(SET CMP0002 OLD)
 find_package(Gettext REQUIRED)
 
 add_subdirectory(bg)
